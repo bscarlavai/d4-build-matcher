@@ -37,7 +37,7 @@ export function matchBuilds(userGear: UserGear, builds: Build[]): BuildMatch[] {
 
       // Score each user item for this slot, pick the best
       let bestItem: Item | null = null;
-      let bestScore = 0;
+      let bestScore = -1;
 
       for (const item of userItems) {
         const score = scoreItemForSlot(item, requirements);
@@ -47,8 +47,12 @@ export function matchBuilds(userGear: UserGear, builds: Build[]): BuildMatch[] {
         }
       }
 
+      // Ensure bestScore is at least 0 for calculations
+      bestScore = Math.max(0, bestScore);
       totalScore += bestScore;
-      const notes = generateNotes(bestItem!, requirements, bestScore, slotMaxScore);
+      const notes = bestItem
+        ? generateNotes(bestItem, requirements, bestScore, slotMaxScore)
+        : 'Item does not match build';
 
       recommendedLoadout[slot] = {
         item: bestItem,
