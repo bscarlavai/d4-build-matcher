@@ -1,16 +1,16 @@
 {
-  "id": "s11_wing_strikes_paladin_endgame-paladin",
-  "name": "S11 Wing Strikes Paladin Endgame",
+  "id": "brandish-paladin",
+  "name": "Brandish Paladin",
   "class": "paladin",
-  "source_url": "https://maxroll.gg/d4/build-guides/wing-strikes-paladin-guide",
-  "tier": "A",
+  "source_url": "https://maxroll.gg/d4/build-guides/brandish-paladin-guide",
+  "tier": "S",
   "tags": [],
   "last_updated": "2025-12-15",
   "gear": {
     "helm": {
       "slot": "helm",
       "priority_uniques": [
-        "helm_unique_generic_004"
+        "Heir of Perdition"
       ],
       "priority_aspects": [],
       "priority_affixes": [],
@@ -19,8 +19,8 @@
     "chest": {
       "slot": "chest",
       "priority_uniques": [
-        "chest_unique_generic_103",
-        "1hshield_unique_paladin_004"
+        "Shroud of False Death",
+        "Shield Unique Paladin"
       ],
       "priority_aspects": [],
       "priority_affixes": [
@@ -38,16 +38,16 @@
     "weapon": {
       "slot": "weapon",
       "priority_uniques": [
-        "1hsword_unique_paladin_002"
+        "Sword Unique Paladin"
       ],
       "priority_aspects": [],
       "priority_affixes": [
         {
-          "name": "the_powerful",
+          "name": "unique_attackspeed_basics",
           "weight": 4
         },
         {
-          "name": "vigor",
+          "name": "the_powerful",
           "weight": 3
         }
       ],
@@ -59,19 +59,19 @@
       "priority_aspects": [],
       "priority_affixes": [
         {
-          "name": "the_powerful",
+          "name": "the_adept",
           "weight": 10
         },
         {
-          "name": "toughened",
+          "name": "swiftness",
           "weight": 8
         },
         {
-          "name": "the_adept",
+          "name": "vigor",
           "weight": 6
         },
         {
-          "name": "vigor",
+          "name": "keenness",
           "weight": 4
         }
       ],
@@ -84,10 +84,6 @@
       "priority_affixes": [
         {
           "name": "the_powerful",
-          "weight": 10
-        },
-        {
-          "name": "toughened",
           "weight": 8
         },
         {
@@ -95,7 +91,7 @@
           "weight": 6
         },
         {
-          "name": "auric",
+          "name": "toughened",
           "weight": 4
         }
       ],
@@ -107,11 +103,11 @@
       "priority_aspects": [],
       "priority_affixes": [
         {
-          "name": "the_powerful",
+          "name": "speed",
           "weight": 10
         },
         {
-          "name": "toughened",
+          "name": "the_powerful",
           "weight": 8
         },
         {
@@ -131,38 +127,40 @@
       "priority_aspects": [],
       "priority_affixes": [
         {
-          "name": "the_powerful",
+          "name": "swiftness",
           "weight": 10
         },
         {
-          "name": "the_adept",
+          "name": "keenness",
           "weight": 8
         },
         {
-          "name": "swiftness",
+          "name": "the_powerful",
           "weight": 6
         },
         {
-          "name": "vigor",
+          "name": "carnage",
           "weight": 4
+        },
+        {
+          "name": "vigor",
+          "weight": 8
         }
       ],
       "required_tempers": []
     },
     "amulet": {
       "slot": "amulet",
-      "priority_uniques": [
-        "amulet_unique_paladin_002"
-      ],
+      "priority_uniques": [],
       "priority_aspects": [],
       "priority_affixes": [
         {
-          "name": "unique_corestats_all_higher",
-          "weight": 4
+          "name": "swiftness",
+          "weight": 10
         },
         {
-          "name": "vigor",
-          "weight": 3
+          "name": "keenness",
+          "weight": 8
         }
       ],
       "required_tempers": []

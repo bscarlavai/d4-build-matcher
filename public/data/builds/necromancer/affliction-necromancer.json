@@ -1,0 +1,279 @@
+{
+  "id": "affliction-necromancer",
+  "name": "Affliction Necromancer",
+  "class": "necromancer",
+  "source_url": "https://maxroll.gg/d4/build-guides/affliction-necromancer-guide",
+  "tier": "C",
+  "tags": [],
+  "last_updated": "2025-12-15",
+  "gear": {
+    "helm": {
+      "slot": "helm",
+      "priority_uniques": [],
+      "priority_aspects": [],
+      "priority_affixes": [
+        {
+          "name": "the_wise",
+          "weight": 10
+        },
+        {
+          "name": "vigor",
+          "weight": 8
+        },
+        {
+          "name": "toughened",
+          "weight": 6
+        },
+        {
+          "name": "auric",
+          "weight": 4
+        },
+        {
+          "name": "swiftness",
+          "weight": 3
+        },
+        {
+          "name": "luck",
+          "weight": 3
+        },
+        {
+          "name": "infusing",
+          "weight": 3
+        }
+      ],
+      "required_tempers": []
+    },
+    "chest": {
+      "slot": "chest",
+      "priority_uniques": [],
+      "priority_aspects": [],
+      "priority_affixes": [
+        {
+          "name": "the_wise",
+          "weight": 10
+        },
+        {
+          "name": "vigor",
+          "weight": 8
+        },
+        {
+          "name": "toughened",
+          "weight": 6
+        },
+        {
+          "name": "auric",
+          "weight": 4
+        },
+        {
+          "name": "infusing",
+          "weight": 3
+        }
+      ],
+      "required_tempers": []
+    },
+    "weapon": {
+      "slot": "weapon",
+      "priority_uniques": [],
+      "priority_aspects": [],
+      "priority_affixes": [
+        {
+          "name": "the_wise",
+          "weight": 10
+        },
+        {
+          "name": "vigor",
+          "weight": 8
+        },
+        {
+          "name": "cruelty",
+          "weight": 6
+        },
+        {
+          "name": "perpetuity",
+          "weight": 4
+        },
+        {
+          "name": "ferocity",
+          "weight": 3
+        },
+        {
+          "name": "the_focused",
+          "weight": 3
+        },
+        {
+          "name": "efficiency",
+          "weight": 3
+        }
+      ],
+      "required_tempers": []
+    },
+    "gloves": {
+      "slot": "gloves",
+      "priority_uniques": [],
+      "priority_aspects": [],
+      "priority_affixes": [
+        {
+          "name": "the_wise",
+          "weight": 10
+        },
+        {
+          "name": "keenness",
+          "weight": 8
+        },
+        {
+          "name": "vigor",
+          "weight": 6
+        },
+        {
+          "name": "the_adept",
+          "weight": 4
+        },
+        {
+          "name": "cruelty",
+          "weight": 3
+        },
+        {
+          "name": "the_focused",
+          "weight": 3
+        },
+        {
+          "name": "decapitating",
+          "weight": 3
+        },
+        {
+          "name": "principals",
+          "weight": 3
+        }
+      ],
+      "required_tempers": []
+    },
+    "pants": {
+      "slot": "pants",
+      "priority_uniques": [],
+      "priority_aspects": [],
+      "priority_affixes": [
+        {
+          "name": "the_wise",
+          "weight": 10
+        },
+        {
+          "name": "vigor",
+          "weight": 8
+        },
+        {
+          "name": "toughened",
+          "weight": 6
+        },
+        {
+          "name": "auric",
+          "weight": 4
+        }
+      ],
+      "required_tempers": []
+    },
+    "boots": {
+      "slot": "boots",
+      "priority_uniques": [],
+      "priority_aspects": [],
+      "priority_affixes": [
+        {
+          "name": "the_wise",
+          "weight": 10
+        },
+        {
+          "name": "speed",
+          "weight": 8
+        },
+        {
+          "name": "vigor",
+          "weight": 6
+        },
+        {
+          "name": "infusing",
+          "weight": 4
+        },
+        {
+          "name": "toughened",
+          "weight": 3
+        }
+      ],
+      "required_tempers": []
+    },
+    "ring": {
+      "slot": "ring",
+      "priority_uniques": [],
+      "priority_aspects": [],
+      "priority_affixes": [
+        {
+          "name": "the_wise",
+          "weight": 10
+        },
+        {
+          "name": "keenness",
+          "weight": 8
+        },
+        {
+          "name": "vigor",
+          "weight": 6
+        },
+        {
+          "name": "the_adept",
+          "weight": 4
+        },
+        {
+          "name": "the_focused",
+          "weight": 3
+        },
+        {
+          "name": "luck",
+          "weight": 3
+        },
+        {
+          "name": "cruelty",
+          "weight": 3
+        }
+      ],
+      "required_tempers": []
+    },
+    "amulet": {
+      "slot": "amulet",
+      "priority_uniques": [],
+      "priority_aspects": [],
+      "priority_affixes": [
+        {
+          "name": "gloom",
+          "weight": 10
+        },
+        {
+          "name": "engulfing",
+          "weight": 8
+        },
+        {
+          "name": "keenness",
+          "weight": 6
+        },
+        {
+          "name": "the_adept",
+          "weight": 4
+        },
+        {
+          "name": "coalescence",
+          "weight": 3
+        },
+        {
+          "name": "tormenting",
+          "weight": 3
+        },
+        {
+          "name": "swiftness",
+          "weight": 3
+        },
+        {
+          "name": "the_wise",
+          "weight": 3
+        }
+      ],
+      "required_tempers": []
+    }
+  }
+}

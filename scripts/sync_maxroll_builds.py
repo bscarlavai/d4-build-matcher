@@ -28,38 +28,15 @@ from lxml import html
 PLANNER_API = "https://planners.maxroll.gg/profiles/d4/{planner_id}"
 MAPPING_DATA_URL = "https://assets-ng.maxroll.gg/d4-tools/game/data.min.json"
 
-# Build guide URLs to sync (organized by class)
-# TODO: Could scrape https://maxroll.gg/d4/build-guides to get this list automatically
-BUILD_GUIDES = {
-    "paladin": [
-        "https://maxroll.gg/d4/build-guides/wing-strikes-paladin-guide",
-        "https://maxroll.gg/d4/build-guides/blessed-hammer-paladin-guide",
-    ],
-    "barbarian": [
-        "https://maxroll.gg/d4/build-guides/bash-barbarian-guide",
-        "https://maxroll.gg/d4/build-guides/double-swing-barbarian-guide",
-        "https://maxroll.gg/d4/build-guides/whirlwind-barbarian-guide",
-    ],
-    "druid": [
-        "https://maxroll.gg/d4/build-guides/pulverize-druid-guide",
-        "https://maxroll.gg/d4/build-guides/tornado-druid-guide",
-    ],
-    "necromancer": [
-        "https://maxroll.gg/d4/build-guides/minion-necromancer-guide",
-        "https://maxroll.gg/d4/build-guides/bone-spear-necromancer-guide",
-    ],
-    "rogue": [
-        "https://maxroll.gg/d4/build-guides/barrage-rogue-guide",
-        "https://maxroll.gg/d4/build-guides/twisting-blades-rogue-guide",
-    ],
-    "sorcerer": [
-        "https://maxroll.gg/d4/build-guides/frozen-orb-sorcerer-guide",
-        "https://maxroll.gg/d4/build-guides/ball-lightning-sorcerer-guide",
-    ],
-    "spiritborn": [
-        "https://maxroll.gg/d4/build-guides/quill-volley-spiritborn-guide",
-        "https://maxroll.gg/d4/build-guides/evade-spiritborn-guide",
-    ],
+# Tierlist URLs by class (for fetching build tiers)
+TIERLIST_URLS = {
+    "paladin": "https://maxroll.gg/d4/tierlists/paladin-endgame-tier-list",
+    "barbarian": "https://maxroll.gg/d4/tierlists/barbarian-endgame-tier-list",
+    "druid": "https://maxroll.gg/d4/tierlists/druid-endgame-tier-list",
+    "necromancer": "https://maxroll.gg/d4/tierlists/necromancer-endgame-tier-list",
+    "rogue": "https://maxroll.gg/d4/tierlists/rogue-endgame-tier-list",
+    "sorcerer": "https://maxroll.gg/d4/tierlists/sorcerer-endgame-tier-list",
+    "spiritborn": "https://maxroll.gg/d4/tierlists/spiritborn-endgame-tier-list",
 }
 
 # Slot ID mapping from Maxroll numeric IDs to our format
@@ -150,6 +127,73 @@ def get_affix_id_lookup(mapping_data: dict) -> dict:
                 _affix_id_lookup[affix_id] = {"name": name, **affix_data}
         print(f"  Built affix ID lookup with {len(_affix_id_lookup)} entries")
     return _affix_id_lookup
+
+
+def fetch_tier_mapping(player_class: str) -> Tuple[Dict[str, str], List[str]]:
+    """
+    Fetch build tiers from Maxroll tierlist page.
+    Returns (tier_mapping, build_urls) where:
+    - tier_mapping: build guide URL -> tier (S, A, B, etc.)
+    - build_urls: list of all build guide URLs found
+    """
+    tierlist_url = TIERLIST_URLS.get(player_class)
+    if not tierlist_url:
+        return {}, []
+
+    try:
+        print(f"  Fetching tierlist: {tierlist_url}")
+        response = get_with_retry(tierlist_url)
+        html_text = response.text
+
+        # Extract Remix context data
+        remix_match = re.search(
+            r'window\.__remixContext\s*=\s*(\{.+?\});?\s*</script>',
+            html_text,
+            re.DOTALL
+        )
+        if not remix_match:
+            print("  Warning: Could not find tierlist data")
+            return {}, []
+
+        data = json.loads(remix_match.group(1))
+        loader_data = data.get("state", {}).get("loaderData", {})
+
+        # Find the post with tierlist block
+        tier_mapping = {}
+        build_urls = []
+        for route_data in loader_data.values():
+            if not isinstance(route_data, dict) or "post" not in route_data:
+                continue
+
+            post = route_data["post"]
+            gutenberg = post.get("gutenbergBlock", [])
+
+            # Recursively find tierlist blocks
+            def extract_tiers(obj: Any) -> None:
+                if isinstance(obj, dict):
+                    if obj.get("blockName") in ("flavor/tierlist", "maxroll/tierlist"):
+                        items = obj.get("attributes", {}).get("items", [])
+                        for item in items:
+                            link = item.get("link", "")
+                            tier = item.get("tier", "")
+                            if link:
+                                build_urls.append(link)
+                                if tier:
+                                    tier_mapping[link] = tier
+                    for v in obj.values():
+                        extract_tiers(v)
+                elif isinstance(obj, list):
+                    for item in obj:
+                        extract_tiers(item)
+
+            extract_tiers(gutenberg)
+
+        print(f"  Found {len(build_urls)} builds ({len(tier_mapping)} with tiers)")
+        return tier_mapping, build_urls
+
+    except Exception as e:
+        print(f"  Warning: Failed to fetch tierlist: {e}")
+        return {}, []
 
 
 def extract_planner_id_from_guide(url: str) -> Tuple[str, Optional[str]]:
@@ -274,11 +318,61 @@ def get_slot_from_item_id(item_id_str: str) -> Optional[str]:
     return None
 
 
+def resolve_unique_item_name(item_id: str, mapping_data: dict) -> str:
+    """Resolve a unique item ID to its human-readable name."""
+    items_db = mapping_data.get("items", {})
+
+    # Try exact match first
+    if item_id in items_db:
+        return items_db[item_id].get("name", item_id)
+
+    # Try case-insensitive match
+    item_id_lower = item_id.lower()
+    for key, item_data in items_db.items():
+        if key.lower() == item_id_lower:
+            return item_data.get("name", item_id)
+
+    # Try matching without s10/s11 prefix
+    clean_id = re.sub(r'^s\d+_', '', item_id, flags=re.IGNORECASE)
+    if clean_id in items_db:
+        return items_db[clean_id].get("name", item_id)
+
+    for key, item_data in items_db.items():
+        if key.lower() == clean_id.lower():
+            return item_data.get("name", item_id)
+
+    # Fallback: clean up the ID for display
+    # Remove numeric suffixes and clean up
+    fallback = re.sub(r'_?\d+$', '', clean_id)  # Remove trailing numbers
+    fallback = re.sub(r'^(s\d+_)?', '', fallback, flags=re.IGNORECASE)  # Remove season prefix
+    # Remove weapon type prefixes before converting to title case
+    fallback = re.sub(r'^(1h|2h)', '', fallback, flags=re.IGNORECASE)
+    fallback = fallback.replace("_", " ").title()
+    fallback = re.sub(r'\s+', ' ', fallback).strip()
+    return fallback if fallback else clean_id.replace("_", " ").title()
+
+
+def extract_build_name_from_url(url: str) -> str:
+    """Extract a clean build name from the guide URL."""
+    # URL like: https://maxroll.gg/d4/build-guides/blessed-hammer-paladin-guide
+    path = url.rstrip("/").split("/")[-1]
+
+    # Remove -guide suffix
+    if path.endswith("-guide"):
+        path = path[:-6]
+
+    # Convert to title case
+    name = path.replace("-", " ").title()
+
+    return name
+
+
 def transform_to_build_json(
     planner_data: dict,
     profile_id: Optional[str],
     source_url: str,
-    mapping_data: dict
+    mapping_data: dict,
+    tier: str = "Unknown"
 ) -> dict:
     """Transform Maxroll planner data to our build JSON format."""
 
@@ -343,7 +437,8 @@ def transform_to_build_json(
         is_unique = "unique" in item_id_str.lower()
 
         if is_unique:
-            unique_name = normalize_affix_name(item_id_str)
+            # Get human-readable name for the unique item
+            unique_name = resolve_unique_item_name(item_id_str, mapping_data)
             if unique_name and unique_name not in gear[slot]["priority_uniques"]:
                 gear[slot]["priority_uniques"].append(unique_name)
 
@@ -378,16 +473,14 @@ def transform_to_build_json(
                             "weight": weight,
                         })
 
-    # Use the planner name for build name (more descriptive than profile name)
-    build_name = planner_data.get("name", profile_name)
+    # Extract clean build name from URL (more reliable than planner names)
+    build_name = extract_build_name_from_url(source_url)
 
-    # Generate build ID from name
-    build_id = normalize_affix_name(build_name)
-    if not build_id.endswith(player_class):
-        build_id = f"{build_id}-{player_class}"
-
-    # Determine tier (placeholder - would need to scrape from guide page)
-    tier = "A"
+    # Generate build ID from URL slug
+    url_slug = source_url.rstrip("/").split("/")[-1]
+    if url_slug.endswith("-guide"):
+        url_slug = url_slug[:-6]
+    build_id = url_slug
 
     return {
         "id": build_id,
@@ -401,7 +494,7 @@ def transform_to_build_json(
     }
 
 
-def sync_build(url: str, output_dir: Path, mapping_data: dict) -> Optional[dict]:
+def sync_build(url: str, output_dir: Path, mapping_data: dict, tier_mapping: Dict[str, str]) -> Optional[dict]:
     """Sync a single build from Maxroll."""
     try:
         print(f"\nProcessing: {url}")
@@ -412,8 +505,12 @@ def sync_build(url: str, output_dir: Path, mapping_data: dict) -> Optional[dict]
         # Fetch planner data
         planner_data = fetch_planner_data(planner_id)
 
+        # Look up tier from tierlist
+        tier = tier_mapping.get(url, "Unknown")
+        print(f"  Tier: {tier}")
+
         # Transform to our format
-        build = transform_to_build_json(planner_data, profile_id, url, mapping_data)
+        build = transform_to_build_json(planner_data, profile_id, url, mapping_data, tier)
 
         # Write to file
         player_class = build["class"]
@@ -470,19 +567,23 @@ def main():
     # Fetch mapping data once
     mapping_data = get_mapping_data()
 
-    # Process each class
-    for player_class, urls in BUILD_GUIDES.items():
-        if not urls:
-            print(f"\nSkipping {player_class} (no URLs configured)")
-            continue
-
+    # Process each class (auto-discover builds from tierlists)
+    classes = list(TIERLIST_URLS.keys())
+    for player_class in classes:
         print(f"\n{'=' * 60}")
         print(f"Processing {player_class} builds...")
         print('=' * 60)
 
+        # Fetch tier mapping and build URLs for this class
+        tier_mapping, urls = fetch_tier_mapping(player_class)
+
+        if not urls:
+            print(f"  No builds found for {player_class}")
+            continue
+
         builds = []
         for url in urls:
-            build = sync_build(url, output_dir, mapping_data)
+            build = sync_build(url, output_dir, mapping_data, tier_mapping)
             if build:
                 builds.append(build)
             time.sleep(0.5)  # Rate limiting

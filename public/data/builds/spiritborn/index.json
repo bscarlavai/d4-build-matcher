@@ -2,10 +2,52 @@
   "class": "spiritborn",
   "builds": [
     {
-      "id": "s11_quill_volley_spiritborn",
-      "name": "S11 Quill Volley Spiritborn",
+      "id": "evade-spiritborn-build",
+      "name": "Evade Spiritborn Build",
+      "tier": "S",
+      "file": "evade-spiritborn-build.json"
+    },
+    {
+      "id": "crushing-hand-spiritborn",
+      "name": "Crushing Hand Spiritborn",
       "tier": "A",
-      "file": "s11_quill_volley_spiritborn.json"
+      "file": "crushing-hand-spiritborn.json"
+    },
+    {
+      "id": "quill-volley-spiritborn",
+      "name": "Quill Volley Spiritborn",
+      "tier": "A",
+      "file": "quill-volley-spiritborn.json"
+    },
+    {
+      "id": "thorns-spiritborn-build",
+      "name": "Thorns Spiritborn Build",
+      "tier": "A",
+      "file": "thorns-spiritborn-build.json"
+    },
+    {
+      "id": "rake-spiritborn",
+      "name": "Rake Spiritborn",
+      "tier": "A",
+      "file": "rake-spiritborn.json"
+    },
+    {
+      "id": "payback-spiritborn-build",
+      "name": "Payback Spiritborn Build",
+      "tier": "B",
+      "file": "payback-spiritborn-build.json"
+    },
+    {
+      "id": "touch-of-death-spiritborn",
+      "name": "Touch Of Death Spiritborn",
+      "tier": "B",
+      "file": "touch-of-death-spiritborn.json"
+    },
+    {
+      "id": "beast-strike-spiritborn",
+      "name": "Beast Strike Spiritborn",
+      "tier": "S",
+      "file": "beast-strike-spiritborn.json"
     }
   ]
 }

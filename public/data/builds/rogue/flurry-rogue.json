@@ -1,0 +1,232 @@
+{
+  "id": "flurry-rogue",
+  "name": "Flurry Rogue",
+  "class": "rogue",
+  "source_url": "https://maxroll.gg/d4/build-guides/flurry-rogue-guide",
+  "tier": "S",
+  "tags": [],
+  "last_updated": "2025-12-15",
+  "gear": {
+    "helm": {
+      "slot": "helm",
+      "priority_uniques": [
+        "Deathmask of Nirmitruq"
+      ],
+      "priority_aspects": [],
+      "priority_affixes": [
+        {
+          "name": "assailing",
+          "weight": 8
+        },
+        {
+          "name": "vigor",
+          "weight": 6
+        },
+        {
+          "name": "unique_armor_higher",
+          "weight": 4
+        },
+        {
+          "name": "unique_movement_speed_higher",
+          "weight": 3
+        },
+        {
+          "name": "the_adroit",
+          "weight": 3
+        }
+      ],
+      "required_tempers": []
+    },
+    "chest": {
+      "slot": "chest",
+      "priority_uniques": [
+        "Shroud of False Death"
+      ],
+      "priority_aspects": [],
+      "priority_affixes": [],
+      "required_tempers": []
+    },
+    "offhand": {
+      "slot": "offhand",
+      "priority_uniques": [],
+      "priority_aspects": [],
+      "priority_affixes": [
+        {
+          "name": "the_adroit",
+          "weight": 10
+        },
+        {
+          "name": "vigor",
+          "weight": 8
+        },
+        {
+          "name": "cruelty",
+          "weight": 6
+        },
+        {
+          "name": "the_focused",
+          "weight": 4
+        },
+        {
+          "name": "carnage",
+          "weight": 4
+        }
+      ],
+      "required_tempers": []
+    },
+    "weapon": {
+      "slot": "weapon",
+      "priority_uniques": [],
+      "priority_aspects": [],
+      "priority_affixes": [
+        {
+          "name": "the_adroit",
+          "weight": 10
+        },
+        {
+          "name": "vigor",
+          "weight": 8
+        },
+        {
+          "name": "cruelty",
+          "weight": 6
+        },
+        {
+          "name": "carnage",
+          "weight": 4
+        }
+      ],
+      "required_tempers": []
+    },
+    "gloves": {
+      "slot": "gloves",
+      "priority_uniques": [
+        "Grasp of Shadow"
+      ],
+      "priority_aspects": [],
+      "priority_affixes": [
+        {
+          "name": "unique_skillrankbonus_rogue_category_marksman_cutthroat",
+          "weight": 10
+        },
+        {
+          "name": "the_adept",
+          "weight": 6
+        },
+        {
+          "name": "unique_attackspeed_higher",
+          "weight": 4
+        },
+        {
+          "name": "unique_damage_generic_tag_ultimate_higher",
+          "weight": 3
+        },
+        {
+          "name": "principals",
+          "weight": 3
+        }
+      ],
+      "required_tempers": []
+    },
+    "pants": {
+      "slot": "pants",
+      "priority_uniques": [],
+      "priority_aspects": [],
+      "priority_affixes": [
+        {
+          "name": "vigor",
+          "weight": 10
+        },
+        {
+          "name": "the_adroit",
+          "weight": 8
+        },
+        {
+          "name": "toughened",
+          "weight": 6
+        },
+        {
+          "name": "neutralizing",
+          "weight": 4
+        }
+      ],
+      "required_tempers": []
+    },
+    "boots": {
+      "slot": "boots",
+      "priority_uniques": [],
+      "priority_aspects": [],
+      "priority_affixes": [
+        {
+          "name": "the_adroit",
+          "weight": 10
+        },
+        {
+          "name": "vigor",
+          "weight": 8
+        },
+        {
+          "name": "toughened",
+          "weight": 6
+        },
+        {
+          "name": "auric",
+          "weight": 4
+        }
+      ],
+      "required_tempers": []
+    },
+    "ring": {
+      "slot": "ring",
+      "priority_uniques": [],
+      "priority_aspects": [],
+      "priority_affixes": [
+        {
+          "name": "the_adroit",
+          "weight": 10
+        },
+        {
+          "name": "vigor",
+          "weight": 8
+        },
+        {
+          "name": "insulation",
+          "weight": 6
+        },
+        {
+          "name": "auric",
+          "weight": 4
+        },
+        {
+          "name": "grounding",
+          "weight": 6
+        }
+      ],
+      "required_tempers": []
+    },
+    "amulet": {
+      "slot": "amulet",
+      "priority_uniques": [],
+      "priority_aspects": [],
+      "priority_affixes": [
+        {
+          "name": "brandishing",
+          "weight": 10
+        },
+        {
+          "name": "shattering",
+          "weight": 8
+        },
+        {
+          "name": "malice",
+          "weight": 6
+        },
+        {
+          "name": "instability",
+          "weight": 4
+        }
+      ],
+      "required_tempers": []
+    }
+  }
+}

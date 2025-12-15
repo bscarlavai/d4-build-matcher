@@ -1,21 +1,35 @@
 {
-  "id": "s11_pulverize_druid",
-  "name": "S11 Pulverize Druid",
-  "class": "druid",
-  "source_url": "https://maxroll.gg/d4/build-guides/pulverize-druid-guide",
+  "id": "sever-necromancer-endgame",
+  "name": "Sever Necromancer Endgame",
+  "class": "necromancer",
+  "source_url": "https://maxroll.gg/d4/build-guides/sever-necromancer-endgame-guide",
   "tier": "A",
   "tags": [],
   "last_updated": "2025-12-15",
   "gear": {
     "helm": {
       "slot": "helm",
-      "priority_uniques": [
-        "helm_unique_generic_004"
-      ],
+      "priority_uniques": [],
       "priority_aspects": [],
       "priority_affixes": [
         {
-          "name": "the_adept",
+          "name": "the_wise",
+          "weight": 10
+        },
+        {
+          "name": "vigor",
+          "weight": 8
+        },
+        {
+          "name": "infusing",
+          "weight": 6
+        },
+        {
+          "name": "toughened",
+          "weight": 4
+        },
+        {
+          "name": "swiftness",
           "weight": 3
         }
       ],
@@ -23,13 +37,27 @@
     },
     "chest": {
       "slot": "chest",
-      "priority_uniques": [
-        "chest_unique_generic_103"
-      ],
+      "priority_uniques": [],
       "priority_aspects": [],
       "priority_affixes": [
         {
-          "name": "the_adept",
+          "name": "the_wise",
+          "weight": 10
+        },
+        {
+          "name": "toughened",
+          "weight": 8
+        },
+        {
+          "name": "infusing",
+          "weight": 6
+        },
+        {
+          "name": "vigor",
+          "weight": 4
+        },
+        {
+          "name": "auric",
           "weight": 3
         }
       ],
@@ -37,25 +65,35 @@
     },
     "weapon": {
       "slot": "weapon",
-      "priority_uniques": [
-        "2hmace_unique_druid_100"
-      ],
+      "priority_uniques": [],
       "priority_aspects": [],
       "priority_affixes": [
         {
-          "name": "unique_corestat_willpowerpercent_higher",
+          "name": "the_wise",
+          "weight": 10
+        },
+        {
+          "name": "vigor",
           "weight": 8
         },
         {
-          "name": "unique_hit_twice_skill_druid_pulverize",
+          "name": "cruelty",
           "weight": 6
         },
         {
-          "name": "unique_damage_generic_type_poison",
+          "name": "ferocity",
           "weight": 4
         },
         {
-          "name": "unique_resource_cost_reduction_scaled2h",
+          "name": "efficiency",
+          "weight": 3
+        },
+        {
+          "name": "the_focused",
+          "weight": 3
+        },
+        {
+          "name": "perpetuity",
           "weight": 3
         }
       ],
@@ -67,31 +105,27 @@
       "priority_aspects": [],
       "priority_affixes": [
         {
-          "name": "the_brutalizer",
+          "name": "the_wise",
           "weight": 10
         },
         {
-          "name": "the_adept",
+          "name": "keenness",
           "weight": 8
         },
         {
-          "name": "keenness",
+          "name": "the_adept",
           "weight": 6
         },
         {
-          "name": "determination",
+          "name": "decapitating",
           "weight": 4
-        },
-        {
-          "name": "carnage",
-          "weight": 3
         },
         {
           "name": "vigor",
           "weight": 3
         },
         {
-          "name": "riving",
+          "name": "cruelty",
           "weight": 3
         }
       ],
@@ -99,29 +133,39 @@
     },
     "pants": {
       "slot": "pants",
-      "priority_uniques": [
-        "pants_unique_generic_100"
-      ],
+      "priority_uniques": [],
       "priority_aspects": [],
       "priority_affixes": [
         {
-          "name": "vigor",
-          "weight": 8
+          "name": "the_wise",
+          "weight": 10
         },
         {
           "name": "toughened",
+          "weight": 8
+        },
+        {
+          "name": "auric",
           "weight": 6
         },
         {
-          "name": "unique_generic_luckyhit_heallife",
+          "name": "vigor",
           "weight": 4
         },
         {
-          "name": "unique_healingpercent_verybig",
+          "name": "dampening",
           "weight": 3
         },
         {
-          "name": "determination",
+          "name": "grounding",
+          "weight": 3
+        },
+        {
+          "name": "neutralizing",
+          "weight": 3
+        },
+        {
+          "name": "sanctity",
           "weight": 3
         }
       ],
@@ -133,23 +177,23 @@
       "priority_aspects": [],
       "priority_affixes": [
         {
-          "name": "determination",
+          "name": "speed",
           "weight": 10
         },
         {
-          "name": "vigor",
+          "name": "infusing",
           "weight": 8
         },
         {
-          "name": "speed",
+          "name": "the_wise",
           "weight": 6
         },
         {
-          "name": "toughened",
+          "name": "vigor",
           "weight": 4
         },
         {
-          "name": "infusing",
+          "name": "toughened",
           "weight": 3
         },
         {
@@ -161,33 +205,31 @@
     },
     "ring": {
       "slot": "ring",
-      "priority_uniques": [
-        "ring_unique_generic_101"
-      ],
+      "priority_uniques": [],
       "priority_aspects": [],
       "priority_affixes": [
         {
-          "name": "determination",
+          "name": "the_wise",
           "weight": 10
         },
         {
-          "name": "riving",
+          "name": "keenness",
           "weight": 8
         },
         {
-          "name": "carnage",
+          "name": "the_adept",
           "weight": 6
         },
         {
-          "name": "keenness",
+          "name": "vigor",
           "weight": 4
         },
         {
-          "name": "the_adept",
+          "name": "auric",
           "weight": 3
         },
         {
-          "name": "vigor",
+          "name": "cruelty",
           "weight": 3
         }
       ],
@@ -199,31 +241,27 @@
       "priority_aspects": [],
       "priority_affixes": [
         {
-          "name": "poison_soaked",
+          "name": "keenness",
           "weight": 10
         },
         {
-          "name": "shifting",
+          "name": "the_adept",
           "weight": 8
         },
         {
-          "name": "toxicity",
+          "name": "gloom",
           "weight": 6
         },
         {
-          "name": "branching",
+          "name": "tormenting",
           "weight": 4
         },
         {
-          "name": "keenness",
+          "name": "engulfing",
           "weight": 3
         },
         {
-          "name": "the_adept",
-          "weight": 3
-        },
-        {
-          "name": "determination",
+          "name": "the_astue",
           "weight": 3
         }
       ],

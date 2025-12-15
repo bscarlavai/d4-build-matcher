@@ -1,0 +1,175 @@
+{
+  "id": "fireball-sorcerer",
+  "name": "Fireball Sorcerer",
+  "class": "sorcerer",
+  "source_url": "https://maxroll.gg/d4/build-guides/fireball-sorcerer-guide",
+  "tier": "C",
+  "tags": [],
+  "last_updated": "2025-12-15",
+  "gear": {
+    "helm": {
+      "slot": "helm",
+      "priority_uniques": [
+        "Harlequin Crest"
+      ],
+      "priority_aspects": [],
+      "priority_affixes": [],
+      "required_tempers": []
+    },
+    "chest": {
+      "slot": "chest",
+      "priority_uniques": [
+        "Shroud of False Death"
+      ],
+      "priority_aspects": [],
+      "priority_affixes": [],
+      "required_tempers": []
+    },
+    "gloves": {
+      "slot": "gloves",
+      "priority_uniques": [
+        "Gloves of the Illuminator"
+      ],
+      "priority_aspects": [],
+      "priority_affixes": [
+        {
+          "name": "detonation",
+          "weight": 8
+        },
+        {
+          "name": "unique_attackspeed_fireball",
+          "weight": 6
+        },
+        {
+          "name": "unique_critchance_higher",
+          "weight": 4
+        },
+        {
+          "name": "unique_resource_sorcmana_onfireballexplosion",
+          "weight": 3
+        }
+      ],
+      "required_tempers": []
+    },
+    "pants": {
+      "slot": "pants",
+      "priority_uniques": [
+        "Temerity"
+      ],
+      "priority_aspects": [],
+      "priority_affixes": [
+        {
+          "name": "unique_generic_luckyhit_heallife",
+          "weight": 8
+        },
+        {
+          "name": "unique_healingpercent_verybig",
+          "weight": 6
+        },
+        {
+          "name": "vigor",
+          "weight": 4
+        },
+        {
+          "name": "toughened",
+          "weight": 3
+        }
+      ],
+      "required_tempers": []
+    },
+    "boots": {
+      "slot": "boots",
+      "priority_uniques": [],
+      "priority_aspects": [],
+      "priority_affixes": [
+        {
+          "name": "the_wise",
+          "weight": 10
+        },
+        {
+          "name": "vigor",
+          "weight": 8
+        },
+        {
+          "name": "speed",
+          "weight": 6
+        },
+        {
+          "name": "toughened",
+          "weight": 4
+        }
+      ],
+      "required_tempers": []
+    },
+    "ring": {
+      "slot": "ring",
+      "priority_uniques": [
+        "Ring of Starless Skies"
+      ],
+      "priority_aspects": [],
+      "priority_affixes": [
+        {
+          "name": "carnage",
+          "weight": 10
+        },
+        {
+          "name": "swiftness",
+          "weight": 8
+        },
+        {
+          "name": "riving",
+          "weight": 6
+        },
+        {
+          "name": "the_wise",
+          "weight": 4
+        },
+        {
+          "name": "keenness",
+          "weight": 3
+        },
+        {
+          "name": "vigor",
+          "weight": 3
+        }
+      ],
+      "required_tempers": []
+    },
+    "amulet": {
+      "slot": "amulet",
+      "priority_uniques": [],
+      "priority_aspects": [],
+      "priority_affixes": [
+        {
+          "name": "combusting",
+          "weight": 10
+        },
+        {
+          "name": "reckless_magic",
+          "weight": 8
+        },
+        {
+          "name": "the_flameborne",
+          "weight": 6
+        },
+        {
+          "name": "permafrost",
+          "weight": 4
+        },
+        {
+          "name": "the_snowscape",
+          "weight": 3
+        },
+        {
+          "name": "precision",
+          "weight": 3
+        },
+        {
+          "name": "keenness",
+          "weight": 3
+        }
+      ],
+      "required_tempers": []
+    }
+  }
+}

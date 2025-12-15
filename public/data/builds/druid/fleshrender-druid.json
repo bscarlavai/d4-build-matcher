@@ -1,0 +1,285 @@
+{
+  "id": "fleshrender-druid",
+  "name": "Fleshrender Druid",
+  "class": "druid",
+  "source_url": "https://maxroll.gg/d4/build-guides/fleshrender-druid-guide",
+  "tier": "A",
+  "tags": [],
+  "last_updated": "2025-12-15",
+  "gear": {
+    "helm": {
+      "slot": "helm",
+      "priority_uniques": [
+        "Vasily's Prayer"
+      ],
+      "priority_aspects": [],
+      "priority_affixes": [
+        {
+          "name": "the_tenacious",
+          "weight": 10
+        },
+        {
+          "name": "vigor",
+          "weight": 8
+        },
+        {
+          "name": "toughened",
+          "weight": 4
+        },
+        {
+          "name": "unique_passiverankbonus_druid_04_defensiveposture",
+          "weight": 3
+        }
+      ],
+      "required_tempers": []
+    },
+    "chest": {
+      "slot": "chest",
+      "priority_uniques": [
+        "Shroud of False Death"
+      ],
+      "priority_aspects": [],
+      "priority_affixes": [
+        {
+          "name": "determination",
+          "weight": 10
+        },
+        {
+          "name": "swiftness",
+          "weight": 8
+        },
+        {
+          "name": "the_adept",
+          "weight": 6
+        },
+        {
+          "name": "vigor",
+          "weight": 4
+        },
+        {
+          "name": "carnage",
+          "weight": 3
+        },
+        {
+          "name": "luck",
+          "weight": 3
+        },
+        {
+          "name": "ferocity",
+          "weight": 3
+        }
+      ],
+      "required_tempers": []
+    },
+    "weapon": {
+      "slot": "weapon",
+      "priority_uniques": [
+        "Fleshrender"
+      ],
+      "priority_aspects": [],
+      "priority_affixes": [
+        {
+          "name": "unique_passiverankbonus_druid_19_backlash",
+          "weight": 8
+        },
+        {
+          "name": "unique_corestat_willpower_higherhigherhigher",
+          "weight": 6
+        },
+        {
+          "name": "unique_cdr_tag_generic_defensive",
+          "weight": 4
+        },
+        {
+          "name": "unique_skillrankbonus_generic_category_defensive_higher",
+          "weight": 3
+        }
+      ],
+      "required_tempers": []
+    },
+    "gloves": {
+      "slot": "gloves",
+      "priority_uniques": [],
+      "priority_aspects": [],
+      "priority_affixes": [
+        {
+          "name": "keenness",
+          "weight": 10
+        },
+        {
+          "name": "swiftness",
+          "weight": 8
+        },
+        {
+          "name": "the_adept",
+          "weight": 6
+        },
+        {
+          "name": "determination",
+          "weight": 4
+        },
+        {
+          "name": "vigor",
+          "weight": 3
+        },
+        {
+          "name": "toughened",
+          "weight": 3
+        },
+        {
+          "name": "auric",
+          "weight": 3
+        }
+      ],
+      "required_tempers": []
+    },
+    "pants": {
+      "slot": "pants",
+      "priority_uniques": [],
+      "priority_aspects": [],
+      "priority_affixes": [
+        {
+          "name": "determination",
+          "weight": 10
+        },
+        {
+          "name": "vigor",
+          "weight": 8
+        },
+        {
+          "name": "toughened",
+          "weight": 6
+        },
+        {
+          "name": "evasion",
+          "weight": 4
+        },
+        {
+          "name": "auric",
+          "weight": 3
+        },
+        {
+          "name": "regeneration",
+          "weight": 3
+        },
+        {
+          "name": "harvesting",
+          "weight": 3
+        }
+      ],
+      "required_tempers": []
+    },
+    "boots": {
+      "slot": "boots",
+      "priority_uniques": [
+        "Khamsin Steppewalkers"
+      ],
+      "priority_aspects": [],
+      "priority_affixes": [
+        {
+          "name": "unique_cooldownreductioncdr_druid_tag_naturemagic_verybig",
+          "weight": 10
+        },
+        {
+          "name": "unique_passiverankbonus_druid_naturemagic_t4_n1_electricshock",
+          "weight": 6
+        },
+        {
+          "name": "unique_duration_generic_cc_all_higher",
+          "weight": 4
+        },
+        {
+          "name": "speed",
+          "weight": 3
+        }
+      ],
+      "required_tempers": []
+    },
+    "ring": {
+      "slot": "ring",
+      "priority_uniques": [
+        "Mj\u00f6lnic Ryng"
+      ],
+      "priority_aspects": [],
+      "priority_affixes": [
+        {
+          "name": "keenness",
+          "weight": 10
+        },
+        {
+          "name": "swiftness",
+          "weight": 8
+        },
+        {
+          "name": "determination",
+          "weight": 6
+        },
+        {
+          "name": "vigor",
+          "weight": 4
+        },
+        {
+          "name": "the_adept",
+          "weight": 3
+        },
+        {
+          "name": "carnage",
+          "weight": 3
+        },
+        {
+          "name": "auric",
+          "weight": 3
+        },
+        {
+          "name": "unique_corestat_willpower_higher",
+          "weight": 6
+        },
+        {
+          "name": "endless_storm",
+          "weight": 4
+        },
+        {
+          "name": "unique_movement_speed_druid_whilecataclysm",
+          "weight": 3
+        }
+      ],
+      "required_tempers": []
+    },
+    "amulet": {
+      "slot": "amulet",
+      "priority_uniques": [],
+      "priority_aspects": [],
+      "priority_affixes": [
+        {
+          "name": "poison_soaked",
+          "weight": 10
+        },
+        {
+          "name": "toxicity",
+          "weight": 8
+        },
+        {
+          "name": "branching",
+          "weight": 6
+        },
+        {
+          "name": "shifting",
+          "weight": 4
+        },
+        {
+          "name": "swiftness",
+          "weight": 3
+        },
+        {
+          "name": "determination",
+          "weight": 3
+        },
+        {
+          "name": "keenness",
+          "weight": 3
+        }
+      ],
+      "required_tempers": []
+    }
+  }
+}

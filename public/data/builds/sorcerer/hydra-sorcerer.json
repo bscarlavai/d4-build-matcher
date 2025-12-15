@@ -1,0 +1,211 @@
+{
+  "id": "hydra-sorcerer",
+  "name": "Hydra Sorcerer",
+  "class": "sorcerer",
+  "source_url": "https://maxroll.gg/d4/build-guides/hydra-sorcerer-guide",
+  "tier": "A",
+  "tags": [],
+  "last_updated": "2025-12-15",
+  "gear": {
+    "helm": {
+      "slot": "helm",
+      "priority_uniques": [
+        "Heir of Perdition"
+      ],
+      "priority_aspects": [],
+      "priority_affixes": [],
+      "required_tempers": []
+    },
+    "chest": {
+      "slot": "chest",
+      "priority_uniques": [
+        "Shroud of False Death"
+      ],
+      "priority_aspects": [],
+      "priority_affixes": [
+        {
+          "name": "carnage",
+          "weight": 10
+        },
+        {
+          "name": "swiftness",
+          "weight": 8
+        },
+        {
+          "name": "the_wise",
+          "weight": 6
+        },
+        {
+          "name": "vigor",
+          "weight": 4
+        }
+      ],
+      "required_tempers": []
+    },
+    "weapon": {
+      "slot": "weapon",
+      "priority_uniques": [
+        "Orsivane"
+      ],
+      "priority_aspects": [],
+      "priority_affixes": [
+        {
+          "name": "unique_skillrankbonus_sorc_category_core_higher",
+          "weight": 8
+        },
+        {
+          "name": "unique_corestat_intelligence_higherhigherhigher",
+          "weight": 6
+        },
+        {
+          "name": "unique_damage_type_bonus_nonphysical_higher",
+          "weight": 4
+        },
+        {
+          "name": "vigor",
+          "weight": 3
+        }
+      ],
+      "required_tempers": []
+    },
+    "gloves": {
+      "slot": "gloves",
+      "priority_uniques": [],
+      "priority_aspects": [],
+      "priority_affixes": [
+        {
+          "name": "principals",
+          "weight": 10
+        },
+        {
+          "name": "swiftness",
+          "weight": 8
+        },
+        {
+          "name": "the_wise",
+          "weight": 6
+        },
+        {
+          "name": "keenness",
+          "weight": 4
+        },
+        {
+          "name": "vigor",
+          "weight": 3
+        }
+      ],
+      "required_tempers": []
+    },
+    "pants": {
+      "slot": "pants",
+      "priority_uniques": [
+        "Temerity"
+      ],
+      "priority_aspects": [],
+      "priority_affixes": [
+        {
+          "name": "vigor",
+          "weight": 8
+        },
+        {
+          "name": "unique_healingpercent_verybig",
+          "weight": 6
+        },
+        {
+          "name": "toughened",
+          "weight": 4
+        },
+        {
+          "name": "unique_generic_luckyhit_heallife",
+          "weight": 3
+        }
+      ],
+      "required_tempers": []
+    },
+    "boots": {
+      "slot": "boots",
+      "priority_uniques": [],
+      "priority_aspects": [],
+      "priority_affixes": [
+        {
+          "name": "the_wise",
+          "weight": 10
+        },
+        {
+          "name": "vigor",
+          "weight": 8
+        },
+        {
+          "name": "infusing",
+          "weight": 6
+        },
+        {
+          "name": "speed",
+          "weight": 4
+        },
+        {
+          "name": "toughened",
+          "weight": 3
+        },
+        {
+          "name": "auric",
+          "weight": 3
+        }
+      ],
+      "required_tempers": []
+    },
+    "ring": {
+      "slot": "ring",
+      "priority_uniques": [
+        "Tal Rasha's Iridescent Loop",
+        "Ring of Starless Skies"
+      ],
+      "priority_aspects": [],
+      "priority_affixes": [
+        {
+          "name": "swiftness",
+          "weight": 8
+        },
+        {
+          "name": "unique_damage_type_bonus_nonphysical_higher",
+          "weight": 6
+        },
+        {
+          "name": "luck",
+          "weight": 4
+        },
+        {
+          "name": "unique_passiverankbonus_sorc_elemental_t1_n1_potentwarding",
+          "weight": 3
+        }
+      ],
+      "required_tempers": []
+    },
+    "amulet": {
+      "slot": "amulet",
+      "priority_uniques": [
+        "Ophidian Iris"
+      ],
+      "priority_aspects": [],
+      "priority_affixes": [
+        {
+          "name": "the_astue",
+          "weight": 8
+        },
+        {
+          "name": "the_conjurer",
+          "weight": 6
+        },
+        {
+          "name": "unique_attackspeed_higher",
+          "weight": 4
+        },
+        {
+          "name": "unique_damage_sorc_tag_pyromancy",
+          "weight": 3
+        }
+      ],
+      "required_tempers": []
+    }
+  }
+}

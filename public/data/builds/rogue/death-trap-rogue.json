@@ -1,59 +1,66 @@
 {
-  "id": "s10_tornado_druid",
-  "name": "S10 Tornado Druid",
-  "class": "druid",
-  "source_url": "https://maxroll.gg/d4/build-guides/tornado-druid-guide",
-  "tier": "A",
+  "id": "death-trap-rogue",
+  "name": "Death Trap Rogue",
+  "class": "rogue",
+  "source_url": "https://maxroll.gg/d4/build-guides/death-trap-rogue-guide",
+  "tier": "S",
   "tags": [],
   "last_updated": "2025-12-15",
   "gear": {
     "helm": {
       "slot": "helm",
       "priority_uniques": [
-        "s10_amulet_unique_druid_101_helm"
+        "Heir of Perdition"
       ],
       "priority_aspects": [],
-      "priority_affixes": [
-        {
-          "name": "unique_passiverankbonus_druid_18_aptitude",
-          "weight": 10
-        },
-        {
-          "name": "unique_corestat_willpowerpercent_higher",
-          "weight": 8
-        },
-        {
-          "name": "unique_critdamage_druid_tag_wolf",
-          "weight": 6
-        },
-        {
-          "name": "unique_movement_speed_druid_whilewerewolf",
-          "weight": 4
-        }
-      ],
+      "priority_affixes": [],
       "required_tempers": []
     },
     "chest": {
       "slot": "chest",
       "priority_uniques": [
-        "s10_amulet_unique_generic_101_chest"
+        "Scoundrel's Leathers"
       ],
       "priority_aspects": [],
       "priority_affixes": [
         {
-          "name": "principals",
+          "name": "unique_damage_rogue_tag_trap_giga",
           "weight": 10
         },
         {
-          "name": "keenness",
-          "weight": 8
-        },
-        {
-          "name": "demolition",
+          "name": "the_adroit",
           "weight": 6
         },
         {
-          "name": "unique_lifepercent",
+          "name": "unique_movement_speed_higher",
+          "weight": 4
+        },
+        {
+          "name": "damage_to_trapped_triple_unique",
+          "weight": 3
+        }
+      ],
+      "required_tempers": []
+    },
+    "offhand": {
+      "slot": "offhand",
+      "priority_uniques": [],
+      "priority_aspects": [],
+      "priority_affixes": [
+        {
+          "name": "the_adroit",
+          "weight": 10
+        },
+        {
+          "name": "vigor",
+          "weight": 8
+        },
+        {
+          "name": "the_focused",
+          "weight": 6
+        },
+        {
+          "name": "ferocity",
           "weight": 4
         }
       ],
@@ -65,7 +72,7 @@
       "priority_aspects": [],
       "priority_affixes": [
         {
-          "name": "determination",
+          "name": "the_adroit",
           "weight": 10
         },
         {
@@ -73,16 +80,12 @@
           "weight": 8
         },
         {
-          "name": "demolition",
+          "name": "the_focused",
           "weight": 6
         },
         {
-          "name": "the_focused",
+          "name": "ferocity",
           "weight": 4
-        },
-        {
-          "name": "cruelty",
-          "weight": 3
         }
       ],
       "required_tempers": []
@@ -93,24 +96,20 @@
       "priority_aspects": [],
       "priority_affixes": [
         {
-          "name": "disasters",
+          "name": "principals",
           "weight": 10
         },
         {
-          "name": "determination",
+          "name": "keenness",
           "weight": 8
         },
         {
-          "name": "vigor",
+          "name": "the_adroit",
           "weight": 6
         },
         {
-          "name": "keenness",
+          "name": "vigor",
           "weight": 4
-        },
-        {
-          "name": "toughened",
-          "weight": 3
         }
       ],
       "required_tempers": []
@@ -118,25 +117,25 @@
     "pants": {
       "slot": "pants",
       "priority_uniques": [
-        "s10_gloves_unique_generic_002_legs"
+        "Eyes in the Dark"
       ],
       "priority_aspects": [],
       "priority_affixes": [
         {
-          "name": "unique_luck_gigagiga_highvariance",
-          "weight": 10
-        },
-        {
-          "name": "unique_attackspeed_highvariance",
+          "name": "unique_damage_generic_tag_ultimate_giga",
           "weight": 8
         },
         {
-          "name": "unique_generic_luckyhit_vulnerable_highvariance",
+          "name": "unique_lifeflat_higherhigher",
           "weight": 6
         },
         {
-          "name": "unique_critchance_highvariance",
+          "name": "the_adroit",
           "weight": 4
+        },
+        {
+          "name": "unique_passiverankbonus_rogue_12_aftermath",
+          "weight": 3
         }
       ],
       "required_tempers": []
@@ -144,55 +143,49 @@
     "boots": {
       "slot": "boots",
       "priority_uniques": [
-        "s10_helm_unique_druid_100_boots"
+        "Beastfall Boots"
       ],
       "priority_aspects": [],
       "priority_affixes": [
         {
-          "name": "impulses",
+          "name": "unique_cdr_tag_generic_ultimate",
           "weight": 10
         },
         {
-          "name": "the_tenacious",
+          "name": "unique_resource_max_allclasses_higher",
           "weight": 8
         },
         {
-          "name": "grounding",
-          "weight": 6
+          "name": "speed",
+          "weight": 4
         },
         {
-          "name": "resources",
-          "weight": 4
+          "name": "unique_passiverankbonus_rogue_cunning_t1_n1_agile",
+          "weight": 3
         }
       ],
       "required_tempers": []
     },
     "ring": {
       "slot": "ring",
-      "priority_uniques": [
-        "ring_unique_generic_101"
-      ],
+      "priority_uniques": [],
       "priority_aspects": [],
       "priority_affixes": [
         {
-          "name": "determination",
+          "name": "swiftness",
           "weight": 10
         },
         {
-          "name": "vigor",
+          "name": "keenness",
           "weight": 8
         },
         {
-          "name": "keenness",
+          "name": "vigor",
           "weight": 6
         },
         {
-          "name": "auric",
+          "name": "the_adroit",
           "weight": 4
-        },
-        {
-          "name": "riving",
-          "weight": 3
         }
       ],
       "required_tempers": []
@@ -203,24 +196,20 @@
       "priority_aspects": [],
       "priority_affixes": [
         {
-          "name": "toxicity",
+          "name": "shattering",
           "weight": 10
         },
         {
-          "name": "poison_soaked",
+          "name": "exploits",
           "weight": 8
         },
         {
-          "name": "the_tenacious",
+          "name": "keenness",
           "weight": 6
         },
         {
-          "name": "shifting",
+          "name": "malice",
           "weight": 4
-        },
-        {
-          "name": "speed",
-          "weight": 3
         }
       ],
       "required_tempers": []

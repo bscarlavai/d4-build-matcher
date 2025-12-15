@@ -1,16 +1,16 @@
 {
-  "id": "s11_twisting_blades_rogue",
-  "name": "S11 Twisting Blades Rogue",
-  "class": "rogue",
-  "source_url": "https://maxroll.gg/d4/build-guides/twisting-blades-rogue-guide",
-  "tier": "A",
+  "id": "shield-of-retribution-paladin",
+  "name": "Shield Of Retribution Paladin",
+  "class": "paladin",
+  "source_url": "https://maxroll.gg/d4/build-guides/shield-of-retribution-paladin-guide",
+  "tier": "S",
   "tags": [],
   "last_updated": "2025-12-15",
   "gear": {
     "helm": {
       "slot": "helm",
       "priority_uniques": [
-        "helm_unique_generic_004"
+        "Heir of Perdition"
       ],
       "priority_aspects": [],
       "priority_affixes": [],
@@ -19,35 +19,17 @@
     "chest": {
       "slot": "chest",
       "priority_uniques": [
-        "chest_unique_generic_103"
+        "Shroud of False Death",
+        "Shield Unique Paladin"
       ],
-      "priority_aspects": [],
-      "priority_affixes": [],
-      "required_tempers": []
-    },
-    "offhand": {
-      "slot": "offhand",
-      "priority_uniques": [],
       "priority_aspects": [],
       "priority_affixes": [
         {
-          "name": "the_adroit",
-          "weight": 10
-        },
-        {
           "name": "vigor",
-          "weight": 8
-        },
-        {
-          "name": "efficiency",
           "weight": 6
         },
         {
-          "name": "lingering",
-          "weight": 4
-        },
-        {
-          "name": "ferocity",
+          "name": "toughened",
           "weight": 4
         }
       ],
@@ -55,50 +37,42 @@
     },
     "weapon": {
       "slot": "weapon",
-      "priority_uniques": [],
+      "priority_uniques": [
+        "Sword Unique Paladin"
+      ],
       "priority_aspects": [],
       "priority_affixes": [
         {
-          "name": "the_adroit",
-          "weight": 10
+          "name": "the_powerful",
+          "weight": 4
         },
         {
           "name": "vigor",
-          "weight": 8
-        },
-        {
-          "name": "riving",
-          "weight": 6
-        },
-        {
-          "name": "lingering",
-          "weight": 4
+          "weight": 3
         }
       ],
       "required_tempers": []
     },
     "gloves": {
       "slot": "gloves",
-      "priority_uniques": [
-        "gloves_unique_rogue_102"
-      ],
+      "priority_uniques": [],
       "priority_aspects": [],
       "priority_affixes": [
         {
-          "name": "unique_projectiles_skill_rogue_poisontrap",
+          "name": "swiftness",
           "weight": 10
         },
         {
-          "name": "unique_attackspeed_higher",
+          "name": "keenness",
+          "weight": 8
+        },
+        {
+          "name": "carnage",
           "weight": 6
         },
         {
-          "name": "the_adroit",
+          "name": "vigor",
           "weight": 4
-        },
-        {
-          "name": "neutralizing",
-          "weight": 3
         }
       ],
       "required_tempers": []
@@ -109,11 +83,11 @@
       "priority_aspects": [],
       "priority_affixes": [
         {
-          "name": "the_adroit",
+          "name": "vigor",
           "weight": 10
         },
         {
-          "name": "vigor",
+          "name": "the_powerful",
           "weight": 8
         },
         {
@@ -133,7 +107,7 @@
       "priority_aspects": [],
       "priority_affixes": [
         {
-          "name": "the_adroit",
+          "name": "speed",
           "weight": 10
         },
         {
@@ -141,11 +115,11 @@
           "weight": 8
         },
         {
-          "name": "auric",
+          "name": "the_powerful",
           "weight": 6
         },
         {
-          "name": "speed",
+          "name": "auric",
           "weight": 4
         }
       ],
@@ -154,16 +128,16 @@
     "ring": {
       "slot": "ring",
       "priority_uniques": [
-        "ring_unique_generic_101"
+        "Ring of Starless Skies"
       ],
       "priority_aspects": [],
       "priority_affixes": [
         {
-          "name": "keenness",
+          "name": "riving",
           "weight": 10
         },
         {
-          "name": "the_adroit",
+          "name": "swiftness",
           "weight": 8
         },
         {
@@ -171,7 +145,7 @@
           "weight": 6
         },
         {
-          "name": "lingering",
+          "name": "keenness",
           "weight": 4
         }
       ],
@@ -183,20 +157,12 @@
       "priority_aspects": [],
       "priority_affixes": [
         {
-          "name": "debilitation",
-          "weight": 10
-        },
-        {
-          "name": "shattering",
+          "name": "keenness",
           "weight": 8
         },
         {
-          "name": "malice",
+          "name": "swiftness",
           "weight": 6
-        },
-        {
-          "name": "keenness",
-          "weight": 4
         }
       ],
       "required_tempers": []

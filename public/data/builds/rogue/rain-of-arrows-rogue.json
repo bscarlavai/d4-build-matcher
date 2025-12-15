@@ -1,0 +1,248 @@
+{
+  "id": "rain-of-arrows-rogue",
+  "name": "Rain Of Arrows Rogue",
+  "class": "rogue",
+  "source_url": "https://maxroll.gg/d4/build-guides/rain-of-arrows-rogue-guide",
+  "tier": "A",
+  "tags": [],
+  "last_updated": "2025-12-15",
+  "gear": {
+    "helm": {
+      "slot": "helm",
+      "priority_uniques": [
+        "Crown of Lucion"
+      ],
+      "priority_aspects": [],
+      "priority_affixes": [
+        {
+          "name": "bsk_generic_002",
+          "weight": 10
+        },
+        {
+          "name": "vigor",
+          "weight": 8
+        },
+        {
+          "name": "swiftness",
+          "weight": 6
+        },
+        {
+          "name": "luck",
+          "weight": 4
+        },
+        {
+          "name": "sanctity",
+          "weight": 3
+        }
+      ],
+      "required_tempers": []
+    },
+    "chest": {
+      "slot": "chest",
+      "priority_uniques": [
+        "Shroud of False Death"
+      ],
+      "priority_aspects": [],
+      "priority_affixes": [],
+      "required_tempers": []
+    },
+    "offhand": {
+      "slot": "offhand",
+      "priority_uniques": [
+        "Skyhunter"
+      ],
+      "priority_aspects": [],
+      "priority_affixes": [
+        {
+          "name": "unique_projectiles_tag_rogue_marksman",
+          "weight": 8
+        },
+        {
+          "name": "unique_critdamage_higherweapon",
+          "weight": 6
+        },
+        {
+          "name": "unique_passiverankbonus_rogue_discipline_t1_n1_stutterstep",
+          "weight": 4
+        },
+        {
+          "name": "keenness",
+          "weight": 3
+        },
+        {
+          "name": "the_focused",
+          "weight": 10
+        },
+        {
+          "name": "the_adroit",
+          "weight": 8
+        },
+        {
+          "name": "vigor",
+          "weight": 6
+        },
+        {
+          "name": "perpetuity",
+          "weight": 4
+        }
+      ],
+      "required_tempers": []
+    },
+    "weapon": {
+      "slot": "weapon",
+      "priority_uniques": [
+        "Shard of Verathiel"
+      ],
+      "priority_aspects": [],
+      "priority_affixes": [
+        {
+          "name": "bsk_generic_004",
+          "weight": 10
+        },
+        {
+          "name": "harmony",
+          "weight": 8
+        },
+        {
+          "name": "unique_skillrankbonus_generic_category_basic",
+          "weight": 6
+        },
+        {
+          "name": "unique_attackspeed_basics",
+          "weight": 4
+        },
+        {
+          "name": "resources",
+          "weight": 3
+        }
+      ],
+      "required_tempers": []
+    },
+    "gloves": {
+      "slot": "gloves",
+      "priority_uniques": [
+        "Fists of Fate"
+      ],
+      "priority_aspects": [],
+      "priority_affixes": [
+        {
+          "name": "unique_luck_gigagiga_highvariance",
+          "weight": 8
+        },
+        {
+          "name": "unique_critchance_highvariance",
+          "weight": 6
+        },
+        {
+          "name": "unique_attackspeed_highvariance",
+          "weight": 4
+        },
+        {
+          "name": "unique_generic_luckyhit_vulnerable_highvariance",
+          "weight": 3
+        }
+      ],
+      "required_tempers": []
+    },
+    "pants": {
+      "slot": "pants",
+      "priority_uniques": [],
+      "priority_aspects": [],
+      "priority_affixes": [
+        {
+          "name": "the_adroit",
+          "weight": 10
+        },
+        {
+          "name": "vigor",
+          "weight": 8
+        },
+        {
+          "name": "toughened",
+          "weight": 6
+        },
+        {
+          "name": "auric",
+          "weight": 4
+        }
+      ],
+      "required_tempers": []
+    },
+    "boots": {
+      "slot": "boots",
+      "priority_uniques": [
+        "Penitent Greaves"
+      ],
+      "priority_aspects": [],
+      "priority_affixes": [
+        {
+          "name": "unique_movement_speed_higher",
+          "weight": 8
+        },
+        {
+          "name": "unique_cc_generic_chillslowamount",
+          "weight": 6
+        },
+        {
+          "name": "unique_critchance_against_ccd_chill",
+          "weight": 4
+        },
+        {
+          "name": "unique_resistance_single_cold_higher",
+          "weight": 3
+        }
+      ],
+      "required_tempers": []
+    },
+    "ring": {
+      "slot": "ring",
+      "priority_uniques": [],
+      "priority_aspects": [],
+      "priority_affixes": [
+        {
+          "name": "the_adroit",
+          "weight": 10
+        },
+        {
+          "name": "vigor",
+          "weight": 8
+        },
+        {
+          "name": "keenness",
+          "weight": 6
+        },
+        {
+          "name": "the_focused",
+          "weight": 4
+        }
+      ],
+      "required_tempers": []
+    },
+    "amulet": {
+      "slot": "amulet",
+      "priority_uniques": [
+        "Word of Hakan"
+      ],
+      "priority_aspects": [],
+      "priority_affixes": [
+        {
+          "name": "unique_cdr_skill_rogue_rainofarrows",
+          "weight": 8
+        },
+        {
+          "name": "unique_damage_generic_tag_ultimate_giga",
+          "weight": 6
+        },
+        {
+          "name": "unique_projectiles_skill_rogue_rainofarrows_tier3",
+          "weight": 4
+        },
+        {
+          "name": "unique_skillrankbonus_rogue_category_imbuements_higher",
+          "weight": 3
+        }
+      ],
+      "required_tempers": []
+    }
+  }
+}

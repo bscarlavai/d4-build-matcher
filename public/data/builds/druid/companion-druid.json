@@ -1,0 +1,209 @@
+{
+  "id": "companion-druid",
+  "name": "Companion Druid",
+  "class": "druid",
+  "source_url": "https://maxroll.gg/d4/build-guides/companion-druid-guide",
+  "tier": "S",
+  "tags": [],
+  "last_updated": "2025-12-15",
+  "gear": {
+    "helm": {
+      "slot": "helm",
+      "priority_uniques": [
+        "Heir of Perdition"
+      ],
+      "priority_aspects": [],
+      "priority_affixes": [],
+      "required_tempers": []
+    },
+    "chest": {
+      "slot": "chest",
+      "priority_uniques": [
+        "Shroud of False Death"
+      ],
+      "priority_aspects": [],
+      "priority_affixes": [],
+      "required_tempers": []
+    },
+    "weapon": {
+      "slot": "weapon",
+      "priority_uniques": [],
+      "priority_aspects": [],
+      "priority_affixes": [
+        {
+          "name": "determination",
+          "weight": 10
+        },
+        {
+          "name": "vigor",
+          "weight": 8
+        },
+        {
+          "name": "carnage",
+          "weight": 6
+        },
+        {
+          "name": "riving",
+          "weight": 4
+        },
+        {
+          "name": "cruelty",
+          "weight": 3
+        },
+        {
+          "name": "the_focused",
+          "weight": 3
+        }
+      ],
+      "required_tempers": []
+    },
+    "gloves": {
+      "slot": "gloves",
+      "priority_uniques": [],
+      "priority_aspects": [],
+      "priority_affixes": [
+        {
+          "name": "swiftness",
+          "weight": 10
+        },
+        {
+          "name": "determination",
+          "weight": 8
+        },
+        {
+          "name": "the_adept",
+          "weight": 6
+        },
+        {
+          "name": "vigor",
+          "weight": 4
+        },
+        {
+          "name": "keenness",
+          "weight": 3
+        },
+        {
+          "name": "toughened",
+          "weight": 3
+        }
+      ],
+      "required_tempers": []
+    },
+    "pants": {
+      "slot": "pants",
+      "priority_uniques": [
+        "Kilt of\u00a0Blackwing"
+      ],
+      "priority_aspects": [],
+      "priority_affixes": [
+        {
+          "name": "the_birdkeeper",
+          "weight": 8
+        },
+        {
+          "name": "unique_cdr_skill_druid_ravens",
+          "weight": 6
+        },
+        {
+          "name": "unique_lifeflat_higherhigher",
+          "weight": 4
+        },
+        {
+          "name": "unique_double_damage_skill_druid_ravens",
+          "weight": 3
+        }
+      ],
+      "required_tempers": []
+    },
+    "boots": {
+      "slot": "boots",
+      "priority_uniques": [
+        "Flickerstep"
+      ],
+      "priority_aspects": [],
+      "priority_affixes": [
+        {
+          "name": "speed",
+          "weight": 8
+        },
+        {
+          "name": "vigor",
+          "weight": 6
+        },
+        {
+          "name": "auric",
+          "weight": 4
+        },
+        {
+          "name": "unique_damage_generic_tag_ultimate_giga",
+          "weight": 3
+        }
+      ],
+      "required_tempers": []
+    },
+    "ring": {
+      "slot": "ring",
+      "priority_uniques": [],
+      "priority_aspects": [],
+      "priority_affixes": [
+        {
+          "name": "swiftness",
+          "weight": 10
+        },
+        {
+          "name": "determination",
+          "weight": 8
+        },
+        {
+          "name": "the_adept",
+          "weight": 6
+        },
+        {
+          "name": "vigor",
+          "weight": 4
+        },
+        {
+          "name": "carnage",
+          "weight": 3
+        },
+        {
+          "name": "riving",
+          "weight": 3
+        }
+      ],
+      "required_tempers": []
+    },
+    "amulet": {
+      "slot": "amulet",
+      "priority_uniques": [],
+      "priority_aspects": [],
+      "priority_affixes": [
+        {
+          "name": "the_wild",
+          "weight": 10
+        },
+        {
+          "name": "poison_soaked",
+          "weight": 8
+        },
+        {
+          "name": "branching",
+          "weight": 6
+        },
+        {
+          "name": "shifting",
+          "weight": 4
+        },
+        {
+          "name": "swiftness",
+          "weight": 3
+        },
+        {
+          "name": "determination",
+          "weight": 3
+        }
+      ],
+      "required_tempers": []
+    }
+  }
+}

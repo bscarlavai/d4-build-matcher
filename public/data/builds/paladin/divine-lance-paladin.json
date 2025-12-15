@@ -1,8 +1,8 @@
 {
-  "id": "s11_blessed_hammer_paladin_endgame-paladin",
-  "name": "S11 Blessed Hammer Paladin Endgame",
+  "id": "divine-lance-paladin",
+  "name": "Divine Lance Paladin",
   "class": "paladin",
-  "source_url": "https://maxroll.gg/d4/build-guides/blessed-hammer-paladin-guide",
+  "source_url": "https://maxroll.gg/d4/build-guides/divine-lance-paladin-guide",
   "tier": "A",
   "tags": [],
   "last_updated": "2025-12-15",
@@ -10,7 +10,7 @@
     "helm": {
       "slot": "helm",
       "priority_uniques": [
-        "helm_unique_generic_004"
+        "Heir of Perdition"
       ],
       "priority_aspects": [],
       "priority_affixes": [],
@@ -19,36 +19,22 @@
     "chest": {
       "slot": "chest",
       "priority_uniques": [
-        "chest_unique_generic_103",
-        "1hshield_unique_paladin_004"
-      ],
-      "priority_aspects": [],
-      "priority_affixes": [
-        {
-          "name": "unique_armor_giga_specialscaling",
-          "weight": 4
-        },
-        {
-          "name": "vigor",
-          "weight": 3
-        }
-      ],
-      "required_tempers": []
-    },
-    "weapon": {
-      "slot": "weapon",
-      "priority_uniques": [
-        "1hmace_unique_paladin_001"
+        "Shroud of False Death",
+        "Shield Unique Paladin"
       ],
       "priority_aspects": [],
       "priority_affixes": [
         {
           "name": "the_powerful",
-          "weight": 4
+          "weight": 3
+        },
+        {
+          "name": "unique_armor_giga_specialscaling",
+          "weight": 6
         },
         {
           "name": "vigor",
-          "weight": 3
+          "weight": 4
         }
       ],
       "required_tempers": []
@@ -59,19 +45,19 @@
       "priority_aspects": [],
       "priority_affixes": [
         {
-          "name": "keenness",
-          "weight": 10
+          "name": "carnage",
+          "weight": 8
         },
         {
-          "name": "the_adept",
-          "weight": 8
+          "name": "the_powerful",
+          "weight": 6
         },
         {
           "name": "principals",
           "weight": 4
         },
         {
-          "name": "carnage",
+          "name": "vigor",
           "weight": 3
         }
       ],
@@ -107,20 +93,20 @@
       "priority_aspects": [],
       "priority_affixes": [
         {
-          "name": "the_powerful",
+          "name": "speed",
           "weight": 10
         },
         {
-          "name": "vigor",
+          "name": "the_powerful",
           "weight": 8
         },
         {
-          "name": "toughened",
+          "name": "vigor",
           "weight": 6
         },
         {
-          "name": "swiftness",
-          "weight": 3
+          "name": "auric",
+          "weight": 4
         }
       ],
       "required_tempers": []
@@ -128,8 +114,7 @@
     "ring": {
       "slot": "ring",
       "priority_uniques": [
-        "ring_unique_generic_101",
-        "ring_unique_paladin_001"
+        "Ring of Starless Skies"
       ],
       "priority_aspects": [],
       "priority_affixes": [
@@ -138,20 +123,20 @@
           "weight": 3
         },
         {
-          "name": "principals",
+          "name": "riving",
           "weight": 10
         },
         {
-          "name": "the_powerful",
+          "name": "the_adept",
+          "weight": 8
+        },
+        {
+          "name": "keenness",
           "weight": 6
         },
         {
-          "name": "vigor",
+          "name": "the_powerful",
           "weight": 4
-        },
-        {
-          "name": "cruelty",
-          "weight": 3
         }
       ],
       "required_tempers": []

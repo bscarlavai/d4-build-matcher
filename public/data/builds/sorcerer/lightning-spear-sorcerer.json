@@ -1,0 +1,225 @@
+{
+  "id": "lightning-spear-sorcerer",
+  "name": "Lightning Spear Sorcerer",
+  "class": "sorcerer",
+  "source_url": "https://maxroll.gg/d4/build-guides/lightning-spear-sorcerer-guide",
+  "tier": "B",
+  "tags": [],
+  "last_updated": "2025-12-15",
+  "gear": {
+    "helm": {
+      "slot": "helm",
+      "priority_uniques": [
+        "Harlequin Crest"
+      ],
+      "priority_aspects": [],
+      "priority_affixes": [],
+      "required_tempers": []
+    },
+    "chest": {
+      "slot": "chest",
+      "priority_uniques": [
+        "Shroud of False Death"
+      ],
+      "priority_aspects": [],
+      "priority_affixes": [
+        {
+          "name": "carnage",
+          "weight": 10
+        },
+        {
+          "name": "swiftness",
+          "weight": 8
+        },
+        {
+          "name": "the_wise",
+          "weight": 6
+        },
+        {
+          "name": "the_adept",
+          "weight": 4
+        },
+        {
+          "name": "vigor",
+          "weight": 3
+        }
+      ],
+      "required_tempers": []
+    },
+    "weapon": {
+      "slot": "weapon",
+      "priority_uniques": [
+        "Orsivane"
+      ],
+      "priority_aspects": [],
+      "priority_affixes": [
+        {
+          "name": "unique_corestat_intelligence_higherhigherhigher",
+          "weight": 8
+        },
+        {
+          "name": "unique_damage_type_bonus_nonphysical_higher",
+          "weight": 6
+        },
+        {
+          "name": "vigor",
+          "weight": 4
+        },
+        {
+          "name": "unique_skillrankbonus_sorc_category_core_higher",
+          "weight": 3
+        }
+      ],
+      "required_tempers": []
+    },
+    "gloves": {
+      "slot": "gloves",
+      "priority_uniques": [],
+      "priority_aspects": [],
+      "priority_affixes": [
+        {
+          "name": "swiftness",
+          "weight": 10
+        },
+        {
+          "name": "the_wise",
+          "weight": 8
+        },
+        {
+          "name": "vigor",
+          "weight": 6
+        },
+        {
+          "name": "the_adept",
+          "weight": 4
+        },
+        {
+          "name": "keenness",
+          "weight": 3
+        },
+        {
+          "name": "the_focused",
+          "weight": 3
+        }
+      ],
+      "required_tempers": []
+    },
+    "pants": {
+      "slot": "pants",
+      "priority_uniques": [
+        "Temerity"
+      ],
+      "priority_aspects": [],
+      "priority_affixes": [
+        {
+          "name": "vigor",
+          "weight": 8
+        },
+        {
+          "name": "unique_healingpercent_verybig",
+          "weight": 6
+        },
+        {
+          "name": "toughened",
+          "weight": 4
+        },
+        {
+          "name": "unique_generic_luckyhit_heallife",
+          "weight": 3
+        }
+      ],
+      "required_tempers": []
+    },
+    "boots": {
+      "slot": "boots",
+      "priority_uniques": [],
+      "priority_aspects": [],
+      "priority_affixes": [
+        {
+          "name": "the_wise",
+          "weight": 10
+        },
+        {
+          "name": "vigor",
+          "weight": 8
+        },
+        {
+          "name": "infusing",
+          "weight": 6
+        },
+        {
+          "name": "speed",
+          "weight": 4
+        },
+        {
+          "name": "toughened",
+          "weight": 3
+        },
+        {
+          "name": "auric",
+          "weight": 3
+        }
+      ],
+      "required_tempers": []
+    },
+    "ring": {
+      "slot": "ring",
+      "priority_uniques": [
+        "Galvanic\u00a0Azurite",
+        "Ring of Starless Skies"
+      ],
+      "priority_aspects": [],
+      "priority_affixes": [
+        {
+          "name": "reckless_magic",
+          "weight": 8
+        },
+        {
+          "name": "swiftness",
+          "weight": 6
+        },
+        {
+          "name": "the_adept",
+          "weight": 4
+        },
+        {
+          "name": "unique_damage_type_bonus_lightning_higher",
+          "weight": 3
+        }
+      ],
+      "required_tempers": []
+    },
+    "amulet": {
+      "slot": "amulet",
+      "priority_uniques": [],
+      "priority_aspects": [],
+      "priority_affixes": [
+        {
+          "name": "reckless_magic",
+          "weight": 10
+        },
+        {
+          "name": "the_flameborne",
+          "weight": 8
+        },
+        {
+          "name": "shocks",
+          "weight": 6
+        },
+        {
+          "name": "the_snowscape",
+          "weight": 4
+        },
+        {
+          "name": "the_wise",
+          "weight": 3
+        },
+        {
+          "name": "swiftness",
+          "weight": 3
+        }
+      ],
+      "required_tempers": []
+    }
+  }
+}

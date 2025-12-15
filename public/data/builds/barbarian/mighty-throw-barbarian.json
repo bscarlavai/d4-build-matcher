@@ -1,0 +1,279 @@
+{
+  "id": "mighty-throw-barbarian",
+  "name": "Mighty Throw Barbarian",
+  "class": "barbarian",
+  "source_url": "https://maxroll.gg/d4/build-guides/mighty-throw-barbarian-guide",
+  "tier": "A",
+  "tags": [],
+  "last_updated": "2025-12-15",
+  "gear": {
+    "helm": {
+      "slot": "helm",
+      "priority_uniques": [
+        "Crown of Lucion"
+      ],
+      "priority_aspects": [],
+      "priority_affixes": [
+        {
+          "name": "bsk_generic_002",
+          "weight": 10
+        },
+        {
+          "name": "vigor",
+          "weight": 8
+        },
+        {
+          "name": "swiftness",
+          "weight": 6
+        },
+        {
+          "name": "luck",
+          "weight": 4
+        },
+        {
+          "name": "sanctity",
+          "weight": 3
+        },
+        {
+          "name": "the_focused",
+          "weight": 3
+        }
+      ],
+      "required_tempers": []
+    },
+    "chest": {
+      "slot": "chest",
+      "priority_uniques": [
+        "Shroud of False Death"
+      ],
+      "priority_aspects": [],
+      "priority_affixes": [
+        {
+          "name": "the_focused",
+          "weight": 3
+        }
+      ],
+      "required_tempers": []
+    },
+    "weapon": {
+      "slot": "weapon",
+      "priority_uniques": [
+        "The Third Blade"
+      ],
+      "priority_aspects": [],
+      "priority_affixes": [
+        {
+          "name": "the_powerful",
+          "weight": 10
+        },
+        {
+          "name": "vigor",
+          "weight": 8
+        },
+        {
+          "name": "the_focused",
+          "weight": 6
+        },
+        {
+          "name": "ferocity",
+          "weight": 4
+        },
+        {
+          "name": "efficiency",
+          "weight": 4
+        },
+        {
+          "name": "bsk_barbarian_002",
+          "weight": 10
+        },
+        {
+          "name": "cruelty",
+          "weight": 8
+        },
+        {
+          "name": "unique_corestat_strength_higher",
+          "weight": 6
+        },
+        {
+          "name": "unique_damage_tag_weaponmastery_double",
+          "weight": 4
+        },
+        {
+          "name": "triumph",
+          "weight": 3
+        }
+      ],
+      "required_tempers": []
+    },
+    "offhand": {
+      "slot": "offhand",
+      "priority_uniques": [
+        "Sabre of Tsasgal"
+      ],
+      "priority_aspects": [],
+      "priority_affixes": [
+        {
+          "name": "the_powerful",
+          "weight": 8
+        },
+        {
+          "name": "unique_damage_generic_type_physical",
+          "weight": 6
+        },
+        {
+          "name": "unique_skillrankbonus_generic_category_core_higher",
+          "weight": 4
+        },
+        {
+          "name": "unique_passiverankbonus_barb_talent_13_warpath",
+          "weight": 3
+        }
+      ],
+      "required_tempers": []
+    },
+    "gloves": {
+      "slot": "gloves",
+      "priority_uniques": [
+        "Bane of\u00a0Ahjad-Den"
+      ],
+      "priority_aspects": [],
+      "priority_affixes": [
+        {
+          "name": "unique_cooldownreductioncdr_higher",
+          "weight": 8
+        },
+        {
+          "name": "unyielding",
+          "weight": 6
+        },
+        {
+          "name": "unique_damage_barb_criticaldamage_high",
+          "weight": 4
+        },
+        {
+          "name": "infusing",
+          "weight": 3
+        },
+        {
+          "name": "principals",
+          "weight": 3
+        }
+      ],
+      "required_tempers": []
+    },
+    "pants": {
+      "slot": "pants",
+      "priority_uniques": [
+        "Tibault's Will"
+      ],
+      "priority_aspects": [],
+      "priority_affixes": [
+        {
+          "name": "harmony",
+          "weight": 8
+        },
+        {
+          "name": "the_adept",
+          "weight": 6
+        },
+        {
+          "name": "resources",
+          "weight": 4
+        },
+        {
+          "name": "keenness",
+          "weight": 3
+        }
+      ],
+      "required_tempers": []
+    },
+    "boots": {
+      "slot": "boots",
+      "priority_uniques": [
+        "Hooves of the Mountain God"
+      ],
+      "priority_aspects": [],
+      "priority_affixes": [
+        {
+          "name": "speed",
+          "weight": 8
+        },
+        {
+          "name": "infusing",
+          "weight": 6
+        },
+        {
+          "name": "unique_attackspeed_basics",
+          "weight": 4
+        },
+        {
+          "name": "unique_passiverankbonus_barb_talent_11_belligerence",
+          "weight": 3
+        },
+        {
+          "name": "swiftness",
+          "weight": 3
+        }
+      ],
+      "required_tempers": []
+    },
+    "ring": {
+      "slot": "ring",
+      "priority_uniques": [],
+      "priority_aspects": [],
+      "priority_affixes": [
+        {
+          "name": "the_powerful",
+          "weight": 10
+        },
+        {
+          "name": "swiftness",
+          "weight": 8
+        },
+        {
+          "name": "keenness",
+          "weight": 6
+        },
+        {
+          "name": "the_adept",
+          "weight": 4
+        },
+        {
+          "name": "sanctification_skillrankbonus_allskills",
+          "weight": 3
+        },
+        {
+          "name": "vigor",
+          "weight": 4
+        }
+      ],
+      "required_tempers": []
+    },
+    "amulet": {
+      "slot": "amulet",
+      "priority_uniques": [
+        "Battle Trance"
+      ],
+      "priority_aspects": [],
+      "priority_affixes": [
+        {
+          "name": "the_adept",
+          "weight": 8
+        },
+        {
+          "name": "the_sturdy",
+          "weight": 6
+        },
+        {
+          "name": "resource_maxfury_greater_jewelry_unique",
+          "weight": 4
+        },
+        {
+          "name": "unique_skillrankbonus_barb_basic_3_frenzy_double",
+          "weight": 3
+        }
+      ],
+      "required_tempers": []
+    }
+  }
+}

@@ -2,16 +2,52 @@
   "class": "druid",
   "builds": [
     {
-      "id": "s11_pulverize_druid",
-      "name": "S11 Pulverize Druid",
-      "tier": "A",
-      "file": "s11_pulverize_druid.json"
+      "id": "pulverize-druid",
+      "name": "Pulverize Druid",
+      "tier": "S",
+      "file": "pulverize-druid.json"
     },
     {
-      "id": "s10_tornado_druid",
-      "name": "S10 Tornado Druid",
+      "id": "companion-druid",
+      "name": "Companion Druid",
+      "tier": "S",
+      "file": "companion-druid.json"
+    },
+    {
+      "id": "boulder-druid",
+      "name": "Boulder Druid",
       "tier": "A",
-      "file": "s10_tornado_druid.json"
+      "file": "boulder-druid.json"
+    },
+    {
+      "id": "cataclysm-druid-build",
+      "name": "Cataclysm Druid Build",
+      "tier": "A",
+      "file": "cataclysm-druid-build.json"
+    },
+    {
+      "id": "fleshrender-druid",
+      "name": "Fleshrender Druid",
+      "tier": "A",
+      "file": "fleshrender-druid.json"
+    },
+    {
+      "id": "shred-druid",
+      "name": "Shred Druid",
+      "tier": "B",
+      "file": "shred-druid.json"
+    },
+    {
+      "id": "lightning-storm-druid",
+      "name": "Lightning Storm Druid",
+      "tier": "C",
+      "file": "lightning-storm-druid.json"
+    },
+    {
+      "id": "earth-spike-druid",
+      "name": "Earth Spike Druid",
+      "tier": "A",
+      "file": "earth-spike-druid.json"
     }
   ]
 }

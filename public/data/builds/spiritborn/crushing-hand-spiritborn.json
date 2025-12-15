@@ -1,8 +1,8 @@
 {
-  "id": "s11_quill_volley_spiritborn",
-  "name": "S11 Quill Volley Spiritborn",
+  "id": "crushing-hand-spiritborn",
+  "name": "Crushing Hand Spiritborn",
   "class": "spiritborn",
-  "source_url": "https://maxroll.gg/d4/build-guides/quill-volley-spiritborn-guide",
+  "source_url": "https://maxroll.gg/d4/build-guides/crushing-hand-spiritborn-guide",
   "tier": "A",
   "tags": [],
   "last_updated": "2025-12-15",
@@ -10,21 +10,21 @@
     "helm": {
       "slot": "helm",
       "priority_uniques": [
-        "helm_unique_spiritborn_009_x1"
+        "Harmony of Ebewaka"
       ],
       "priority_aspects": [],
       "priority_affixes": [
         {
-          "name": "unique_corestats_all_higher",
-          "weight": 10
-        },
-        {
-          "name": "unique_movement_speed_lesser",
+          "name": "the_adroit",
           "weight": 8
         },
         {
-          "name": "unique_damagereduction",
+          "name": "unique_corestats_all_higher",
           "weight": 6
+        },
+        {
+          "name": "unique_movement_speed_lesser",
+          "weight": 4
         },
         {
           "name": "unique_passiverankbonus_spiritborn_velocity_higher",
@@ -36,7 +36,7 @@
     "chest": {
       "slot": "chest",
       "priority_uniques": [
-        "chest_unique_generic_103"
+        "Shroud of False Death"
       ],
       "priority_aspects": [],
       "priority_affixes": [],
@@ -45,13 +45,13 @@
     "gloves": {
       "slot": "gloves",
       "priority_uniques": [
-        "gloves_unique_spiritborn_100"
+        "Hesha e Kesungi"
       ],
       "priority_aspects": [],
       "priority_affixes": [
         {
           "name": "unique_skillrankbonus_spiritborn_category_gorilla",
-          "weight": 10
+          "weight": 8
         },
         {
           "name": "unique_attackspeed_higher",
@@ -71,7 +71,7 @@
     "pants": {
       "slot": "pants",
       "priority_uniques": [
-        "pants_unique_generic_100"
+        "Temerity"
       ],
       "priority_aspects": [],
       "priority_affixes": [
@@ -97,25 +97,25 @@
     "boots": {
       "slot": "boots",
       "priority_uniques": [
-        "boots_unique_spiritborn_001"
+        "Path of the Emissary"
       ],
       "priority_aspects": [],
       "priority_affixes": [
         {
-          "name": "unique_movement_speed_high",
-          "weight": 8
-        },
-        {
           "name": "principals",
-          "weight": 6
+          "weight": 10
         },
         {
           "name": "unique_damage_category_corespenders_high",
-          "weight": 4
+          "weight": 8
+        },
+        {
+          "name": "unique_movement_speed_high",
+          "weight": 6
         },
         {
           "name": "unique_cc_duration_reduction_generic_high",
-          "weight": 3
+          "weight": 4
         }
       ],
       "required_tempers": []
@@ -123,7 +123,8 @@
     "ring": {
       "slot": "ring",
       "priority_uniques": [
-        "ring_unique_spiritborn_006_x1"
+        "Ring of Starless Skies",
+        "Ring of the Midnight Sun"
       ],
       "priority_aspects": [],
       "priority_affixes": [
@@ -142,18 +143,6 @@
         {
           "name": "unique_x1_passiverankbonus_spiritborn_talent_plains_2_mirage_higher",
           "weight": 3
-        },
-        {
-          "name": "keenness",
-          "weight": 10
-        },
-        {
-          "name": "vigor",
-          "weight": 8
-        },
-        {
-          "name": "efficiency",
-          "weight": 6
         }
       ],
       "required_tempers": []
@@ -164,19 +153,19 @@
       "priority_aspects": [],
       "priority_affixes": [
         {
-          "name": "resources",
+          "name": "sparking",
           "weight": 10
         },
         {
-          "name": "brilliance",
+          "name": "elevation",
           "weight": 8
         },
         {
-          "name": "elevation",
+          "name": "surmounting",
           "weight": 6
         },
         {
-          "name": "keenness",
+          "name": "efficiency",
           "weight": 4
         }
       ],

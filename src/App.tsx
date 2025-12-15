@@ -387,9 +387,10 @@ function App() {
                     <div>
                       <h3 className="font-semibold text-white">{match.buildName}</h3>
                       <span className={`text-xs px-2 py-0.5 rounded ${
-                        match.tier === 'S' ? 'bg-yellow-600' :
-                        match.tier === 'A' ? 'bg-purple-600' :
-                        match.tier === 'B' ? 'bg-blue-600' : 'bg-gray-600'
+                        match.tier === 'S' ? 'bg-fuchsia-600' :
+                        match.tier === 'A' ? 'bg-orange-500' :
+                        match.tier === 'B' ? 'bg-yellow-500 text-black' :
+                        match.tier === 'C' ? 'bg-blue-500' : 'bg-gray-600'
                       }`}>
                         {match.tier} Tier
                       </span>
@@ -427,15 +428,42 @@ function App() {
                     <summary className="text-gray-400 cursor-pointer hover:text-gray-300">
                       View slot details
                     </summary>
-                    <div className="mt-2 space-y-1">
-                      {Object.entries(match.recommendedLoadout).map(([slot, info]) => (
-                        <div key={slot} className="flex justify-between text-xs">
-                          <span className="text-gray-500 capitalize">{slot}</span>
-                          <span className={info.item ? 'text-gray-300' : 'text-gray-600'}>
-                            {info.item ? info.notes : 'No item'}
-                          </span>
-                        </div>
-                      ))}
+                    <div className="mt-2 space-y-2">
+                      {Object.entries(match.recommendedLoadout).map(([slot, info]) => {
+                        const slotPct = info.maxScore > 0 ? Math.round((info.score / info.maxScore) * 100) : 0;
+                        const colorClass = !info.item ? 'text-gray-600' :
+                          slotPct >= 70 ? 'text-green-400' :
+                          slotPct >= 40 ? 'text-yellow-400' : 'text-red-400';
+                        const bgClass = !info.item ? 'bg-gray-700' :
+                          slotPct >= 70 ? 'bg-green-900/30' :
+                          slotPct >= 40 ? 'bg-yellow-900/30' : 'bg-red-900/30';
+
+                        return (
+                          <div key={slot} className={`${bgClass} rounded p-2`}>
+                            <div className="flex justify-between items-center">
+                              <span className="text-gray-500 capitalize text-xs">{slot}</span>
+                              <span className={`${colorClass} font-medium text-xs`}>
+                                {info.item ? `${slotPct}%` : '—'}
+                              </span>
+                            </div>
+                            {info.item ? (
+                              <>
+                                <div className="text-gray-200 font-medium truncate">
+                                  {info.item.name}
+                                </div>
+                                <div className="text-gray-500 text-xs">{info.notes}</div>
+                              </>
+                            ) : (
+                              <div className="text-gray-600 italic">No item scanned</div>
+                            )}
+                            {info.item && slotPct < 50 && match.upgradePriorities.find(u => u.slot === slot) && (
+                              <div className="text-xs text-yellow-500 mt-1">
+                                ↑ {match.upgradePriorities.find(u => u.slot === slot)?.suggestion}
+                              </div>
+                            )}
+                          </div>
+                        );
+                      })}
                     </div>
                   </details>
 

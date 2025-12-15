@@ -1,21 +1,33 @@
 {
-  "id": "s11_whirlwind_eq_barb_endgame-barbarian",
-  "name": "S11 Whirlwind EQ Barb Endgame",
-  "class": "barbarian",
-  "source_url": "https://maxroll.gg/d4/build-guides/whirlwind-barbarian-guide",
-  "tier": "A",
+  "id": "shadowblight-necromancer",
+  "name": "Shadowblight Necromancer",
+  "class": "necromancer",
+  "source_url": "https://maxroll.gg/d4/build-guides/shadowblight-necromancer-guide",
+  "tier": "S",
   "tags": [],
   "last_updated": "2025-12-15",
   "gear": {
     "helm": {
       "slot": "helm",
       "priority_uniques": [
-        "helm_unique_generic_004"
+        "Godslayer Crown"
       ],
       "priority_aspects": [],
       "priority_affixes": [
         {
-          "name": "the_focused",
+          "name": "harmony",
+          "weight": 8
+        },
+        {
+          "name": "vigor",
+          "weight": 6
+        },
+        {
+          "name": "swiftness",
+          "weight": 4
+        },
+        {
+          "name": "unique_damage_to_elite_specialscaling",
           "weight": 3
         }
       ],
@@ -23,29 +35,27 @@
     },
     "chest": {
       "slot": "chest",
-      "priority_uniques": [
-        "chest_unique_barb_101"
-      ],
+      "priority_uniques": [],
       "priority_aspects": [],
       "priority_affixes": [
         {
-          "name": "tempered_double_damage_skill_barb_earthquake_tier3",
+          "name": "the_wise",
           "weight": 10
         },
         {
-          "name": "passiverankbonus_barb_defensivestance_unique",
+          "name": "vigor",
           "weight": 8
         },
         {
-          "name": "unique_armor_giga_specialscaling",
+          "name": "toughened",
           "weight": 6
         },
         {
-          "name": "battering",
+          "name": "auric",
           "weight": 4
         },
         {
-          "name": "the_focused",
+          "name": "infusing",
           "weight": 3
         }
       ],
@@ -53,46 +63,11 @@
     },
     "weapon": {
       "slot": "weapon",
-      "priority_uniques": [
-        "2hsword_unique_generic_001",
-        "1hsword_unique_barb_101"
-      ],
-      "priority_aspects": [],
-      "priority_affixes": [
-        {
-          "name": "the_powerful",
-          "weight": 10
-        },
-        {
-          "name": "vigor",
-          "weight": 8
-        },
-        {
-          "name": "the_focused",
-          "weight": 6
-        },
-        {
-          "name": "triumph",
-          "weight": 4
-        },
-        {
-          "name": "unique_resource_max_allclasses_higher",
-          "weight": 8
-        },
-        {
-          "name": "demolition",
-          "weight": 3
-        }
-      ],
-      "required_tempers": []
-    },
-    "offhand": {
-      "slot": "offhand",
       "priority_uniques": [],
       "priority_aspects": [],
       "priority_affixes": [
         {
-          "name": "the_powerful",
+          "name": "the_wise",
           "weight": 10
         },
         {
@@ -100,37 +75,63 @@
           "weight": 8
         },
         {
-          "name": "the_focused",
+          "name": "ferocity",
           "weight": 6
         },
         {
-          "name": "ferocity",
+          "name": "the_focused",
           "weight": 4
+        },
+        {
+          "name": "cruelty",
+          "weight": 3
+        },
+        {
+          "name": "perpetuity",
+          "weight": 3
         }
       ],
       "required_tempers": []
     },
     "gloves": {
       "slot": "gloves",
-      "priority_uniques": [
-        "gloves_unique_generic_002"
-      ],
+      "priority_uniques": [],
       "priority_aspects": [],
       "priority_affixes": [
         {
-          "name": "unique_generic_luckyhit_vulnerable_highvariance",
+          "name": "the_wise",
+          "weight": 10
+        },
+        {
+          "name": "keenness",
           "weight": 8
         },
         {
-          "name": "unique_luck_gigagiga_highvariance",
+          "name": "the_adept",
           "weight": 6
         },
         {
-          "name": "unique_critchance_highvariance",
+          "name": "vigor",
           "weight": 4
         },
         {
-          "name": "unique_attackspeed_highvariance",
+          "name": "toughened",
+          "weight": 3
+        },
+        {
+          "name": "the_focused",
+          "weight": 3
+        },
+        {
+          "name": "cruelty",
+          "weight": 3
+        },
+        {
+          "name": "auric",
+          "weight": 3
+        },
+        {
+          "name": "perpetuity",
           "weight": 3
         }
       ],
@@ -139,28 +140,24 @@
     "pants": {
       "slot": "pants",
       "priority_uniques": [
-        "pants_unique_barb_100"
+        "Blood Moon Breeches"
       ],
       "priority_aspects": [],
       "priority_affixes": [
         {
-          "name": "unique_cdr_skill_barb_calloftheancients",
-          "weight": 10
+          "name": "unique_critchance_higherhigher",
+          "weight": 8
         },
         {
-          "name": "vigor",
+          "name": "unique_skillrankbonus_necro_category_curse_higher",
           "weight": 6
         },
         {
-          "name": "unique_resistance_all_higher",
+          "name": "swarming",
           "weight": 4
         },
         {
-          "name": "unique_damage_generic_tag_ultimate_gigagiga",
-          "weight": 3
-        },
-        {
-          "name": "the_focused",
+          "name": "golemlords",
           "weight": 3
         }
       ],
@@ -172,23 +169,27 @@
       "priority_aspects": [],
       "priority_affixes": [
         {
-          "name": "roaring",
+          "name": "speed",
           "weight": 10
         },
         {
-          "name": "the_powerful",
+          "name": "the_wise",
           "weight": 8
         },
         {
-          "name": "speed",
+          "name": "toughened",
           "weight": 6
         },
         {
-          "name": "infusing",
+          "name": "vigor",
           "weight": 4
         },
         {
-          "name": "the_focused",
+          "name": "auric",
+          "weight": 3
+        },
+        {
+          "name": "infusing",
           "weight": 3
         }
       ],
@@ -196,55 +197,75 @@
     },
     "ring": {
       "slot": "ring",
-      "priority_uniques": [
-        "ring_unique_generic_101"
-      ],
+      "priority_uniques": [],
       "priority_aspects": [],
       "priority_affixes": [
         {
-          "name": "the_powerful",
+          "name": "the_wise",
           "weight": 10
         },
         {
-          "name": "vigor",
+          "name": "keenness",
           "weight": 8
         },
         {
-          "name": "the_focused",
+          "name": "vigor",
           "weight": 6
         },
         {
-          "name": "swiftness",
+          "name": "the_adept",
           "weight": 4
+        },
+        {
+          "name": "the_focused",
+          "weight": 3
+        },
+        {
+          "name": "cruelty",
+          "weight": 3
         }
       ],
       "required_tempers": []
     },
     "amulet": {
       "slot": "amulet",
-      "priority_uniques": [
-        "s05_bsk_amulet_unique_generic_001"
-      ],
+      "priority_uniques": [],
       "priority_aspects": [],
       "priority_affixes": [
         {
-          "name": "bsk_generic_009",
+          "name": "gloom",
           "weight": 10
         },
         {
-          "name": "auric",
+          "name": "coalescence",
           "weight": 8
         },
         {
-          "name": "unique_corestats_allpercent",
+          "name": "tormenting",
           "weight": 6
         },
         {
-          "name": "unique_critdamage_giga",
+          "name": "keenness",
           "weight": 4
         },
         {
-          "name": "resources",
+          "name": "the_adept",
+          "weight": 3
+        },
+        {
+          "name": "engulfing",
+          "weight": 3
+        },
+        {
+          "name": "swiftness",
+          "weight": 3
+        },
+        {
+          "name": "vigor",
+          "weight": 3
+        },
+        {
+          "name": "the_wise",
           "weight": 3
         }
       ],

@@ -1,8 +1,8 @@
 {
-  "id": "s11_minions-necromancer",
-  "name": "S11 Minions",
+  "id": "golem-necromancer",
+  "name": "Golem Necromancer",
   "class": "necromancer",
-  "source_url": "https://maxroll.gg/d4/build-guides/minion-necromancer-guide",
+  "source_url": "https://maxroll.gg/d4/build-guides/golem-necromancer-guide",
   "tier": "A",
   "tags": [],
   "last_updated": "2025-12-15",
@@ -10,7 +10,7 @@
     "helm": {
       "slot": "helm",
       "priority_uniques": [
-        "helm_unique_generic_004"
+        "Heir of Perdition"
       ],
       "priority_aspects": [],
       "priority_affixes": [],
@@ -19,14 +19,57 @@
     "chest": {
       "slot": "chest",
       "priority_uniques": [
-        "chest_unique_generic_103"
+        "Shroud of False Death"
       ],
       "priority_aspects": [],
-      "priority_affixes": [],
+      "priority_affixes": [
+        {
+          "name": "perpetuity",
+          "weight": 10
+        },
+        {
+          "name": "the_wise",
+          "weight": 8
+        },
+        {
+          "name": "vigor",
+          "weight": 6
+        },
+        {
+          "name": "swiftness",
+          "weight": 4
+        }
+      ],
       "required_tempers": []
     },
     "weapon": {
       "slot": "weapon",
+      "priority_uniques": [
+        "Gravebloom"
+      ],
+      "priority_aspects": [],
+      "priority_affixes": [
+        {
+          "name": "unique_hit_twice_skill_necro_golem",
+          "weight": 10
+        },
+        {
+          "name": "golemlords",
+          "weight": 8
+        },
+        {
+          "name": "vigor",
+          "weight": 6
+        },
+        {
+          "name": "unique_corestat_intelligence_higher",
+          "weight": 4
+        }
+      ],
+      "required_tempers": []
+    },
+    "gloves": {
+      "slot": "gloves",
       "priority_uniques": [],
       "priority_aspects": [],
       "priority_affixes": [
@@ -35,41 +78,15 @@
           "weight": 10
         },
         {
-          "name": "vigor",
+          "name": "keenness",
           "weight": 8
+        },
+        {
+          "name": "vigor",
+          "weight": 6
         },
         {
           "name": "the_focused",
-          "weight": 6
-        },
-        {
-          "name": "perpetuity",
-          "weight": 4
-        }
-      ],
-      "required_tempers": []
-    },
-    "gloves": {
-      "slot": "gloves",
-      "priority_uniques": [
-        "gloves_unique_necro_102"
-      ],
-      "priority_aspects": [],
-      "priority_affixes": [
-        {
-          "name": "unique_skillrankbonus_necro_special_skeletonmage_higher",
-          "weight": 10
-        },
-        {
-          "name": "unique_damage_necro_pet_skeletonmage",
-          "weight": 8
-        },
-        {
-          "name": "unique_attackspeed_higher",
-          "weight": 6
-        },
-        {
-          "name": "vigor",
           "weight": 4
         }
       ],
@@ -78,20 +95,20 @@
     "pants": {
       "slot": "pants",
       "priority_uniques": [
-        "pants_unique_necro_100"
+        "Blood Moon Breeches"
       ],
       "priority_aspects": [],
       "priority_affixes": [
         {
-          "name": "swarming",
+          "name": "golemlords",
           "weight": 10
         },
         {
-          "name": "unique_critchance_higherhigher",
+          "name": "swarming",
           "weight": 8
         },
         {
-          "name": "golemlords",
+          "name": "unique_critchance_higherhigher",
           "weight": 6
         },
         {
@@ -127,38 +144,28 @@
     },
     "ring": {
       "slot": "ring",
-      "priority_uniques": [
-        "ring_unique_necro_100"
-      ],
+      "priority_uniques": [],
       "priority_aspects": [],
       "priority_affixes": [
         {
-          "name": "the_wise",
+          "name": "swiftness",
           "weight": 10
+        },
+        {
+          "name": "keenness",
+          "weight": 8
+        },
+        {
+          "name": "the_wise",
+          "weight": 6
         },
         {
           "name": "vigor",
-          "weight": 8
-        },
-        {
-          "name": "the_adept",
-          "weight": 6
-        },
-        {
-          "name": "swiftness",
           "weight": 4
         },
         {
-          "name": "unique_passiverankbonus_necro_allminionmastery",
-          "weight": 10
-        },
-        {
-          "name": "unique_attackspeed_necro_pet",
-          "weight": 8
-        },
-        {
-          "name": "unique_damage_all",
-          "weight": 6
+          "name": "riving",
+          "weight": 4
         }
       ],
       "required_tempers": []
@@ -177,11 +184,11 @@
           "weight": 8
         },
         {
-          "name": "gloom",
+          "name": "tormenting",
           "weight": 6
         },
         {
-          "name": "keenness",
+          "name": "the_wise",
           "weight": 4
         }
       ],

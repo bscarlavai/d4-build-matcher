@@ -2,22 +2,34 @@
   "class": "barbarian",
   "builds": [
     {
-      "id": "bash-barbarian",
-      "name": "Bash",
-      "tier": "A",
-      "file": "bash-barbarian.json"
+      "id": "leapquake-barbarian",
+      "name": "Leapquake Barbarian",
+      "tier": "S",
+      "file": "leapquake-barbarian.json"
     },
     {
-      "id": "double_swing_s9-barbarian",
-      "name": "Double Swing S9",
-      "tier": "A",
-      "file": "double_swing_s9-barbarian.json"
+      "id": "whirlwind-barbarian",
+      "name": "Whirlwind Barbarian",
+      "tier": "S",
+      "file": "whirlwind-barbarian.json"
     },
     {
-      "id": "s11_whirlwind_eq_barb_endgame-barbarian",
-      "name": "S11 Whirlwind EQ Barb Endgame",
+      "id": "lunging-strike-barbarian",
+      "name": "Lunging Strike Barbarian",
+      "tier": "S",
+      "file": "lunging-strike-barbarian.json"
+    },
+    {
+      "id": "hammer-of-the-ancients-barbarian",
+      "name": "Hammer Of The Ancients Barbarian",
+      "tier": "S",
+      "file": "hammer-of-the-ancients-barbarian.json"
+    },
+    {
+      "id": "mighty-throw-barbarian",
+      "name": "Mighty Throw Barbarian",
       "tier": "A",
-      "file": "s11_whirlwind_eq_barb_endgame-barbarian.json"
+      "file": "mighty-throw-barbarian.json"
     }
   ]
 }

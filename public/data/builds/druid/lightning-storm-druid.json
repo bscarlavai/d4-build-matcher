@@ -1,0 +1,232 @@
+{
+  "id": "lightning-storm-druid",
+  "name": "Lightning Storm Druid",
+  "class": "druid",
+  "source_url": "https://maxroll.gg/d4/build-guides/lightning-storm-druid-guide",
+  "tier": "C",
+  "tags": [],
+  "last_updated": "2025-12-15",
+  "gear": {
+    "helm": {
+      "slot": "helm",
+      "priority_uniques": [
+        "Tempest Roar"
+      ],
+      "priority_aspects": [],
+      "priority_affixes": [
+        {
+          "name": "impulses",
+          "weight": 10
+        },
+        {
+          "name": "the_tenacious",
+          "weight": 8
+        },
+        {
+          "name": "grounding",
+          "weight": 4
+        },
+        {
+          "name": "resources",
+          "weight": 3
+        }
+      ],
+      "required_tempers": []
+    },
+    "chest": {
+      "slot": "chest",
+      "priority_uniques": [
+        "Shroud of False Death"
+      ],
+      "priority_aspects": [],
+      "priority_affixes": [],
+      "required_tempers": []
+    },
+    "weapon": {
+      "slot": "weapon",
+      "priority_uniques": [],
+      "priority_aspects": [],
+      "priority_affixes": [
+        {
+          "name": "determination",
+          "weight": 10
+        },
+        {
+          "name": "vigor",
+          "weight": 8
+        },
+        {
+          "name": "carnage",
+          "weight": 6
+        },
+        {
+          "name": "riving",
+          "weight": 4
+        },
+        {
+          "name": "the_focused",
+          "weight": 3
+        },
+        {
+          "name": "cruelty",
+          "weight": 3
+        }
+      ],
+      "required_tempers": []
+    },
+    "gloves": {
+      "slot": "gloves",
+      "priority_uniques": [
+        "Unsung Ascetic's Wraps"
+      ],
+      "priority_aspects": [],
+      "priority_affixes": [
+        {
+          "name": "unique_skillrankbonus_druid_core_lightningstorm_higher",
+          "weight": 8
+        },
+        {
+          "name": "unique_passiverankbonus_druid_naturemagic_t4_n2_defiance",
+          "weight": 6
+        },
+        {
+          "name": "unique_damage_generic_vs_distant",
+          "weight": 4
+        },
+        {
+          "name": "unique_critchance_higher",
+          "weight": 3
+        }
+      ],
+      "required_tempers": []
+    },
+    "pants": {
+      "slot": "pants",
+      "priority_uniques": [
+        "Temerity"
+      ],
+      "priority_aspects": [],
+      "priority_affixes": [
+        {
+          "name": "vigor",
+          "weight": 8
+        },
+        {
+          "name": "unique_generic_luckyhit_heallife",
+          "weight": 6
+        },
+        {
+          "name": "unique_healingpercent_verybig",
+          "weight": 4
+        },
+        {
+          "name": "toughened",
+          "weight": 3
+        }
+      ],
+      "required_tempers": []
+    },
+    "boots": {
+      "slot": "boots",
+      "priority_uniques": [],
+      "priority_aspects": [],
+      "priority_affixes": [
+        {
+          "name": "determination",
+          "weight": 10
+        },
+        {
+          "name": "vigor",
+          "weight": 8
+        },
+        {
+          "name": "speed",
+          "weight": 6
+        },
+        {
+          "name": "evasion",
+          "weight": 4
+        },
+        {
+          "name": "toughened",
+          "weight": 3
+        },
+        {
+          "name": "auric",
+          "weight": 3
+        }
+      ],
+      "required_tempers": []
+    },
+    "ring": {
+      "slot": "ring",
+      "priority_uniques": [
+        "Ring of Starless Skies"
+      ],
+      "priority_aspects": [],
+      "priority_affixes": [
+        {
+          "name": "keenness",
+          "weight": 10
+        },
+        {
+          "name": "determination",
+          "weight": 8
+        },
+        {
+          "name": "swiftness",
+          "weight": 6
+        },
+        {
+          "name": "vigor",
+          "weight": 4
+        },
+        {
+          "name": "carnage",
+          "weight": 3
+        },
+        {
+          "name": "riving",
+          "weight": 3
+        }
+      ],
+      "required_tempers": []
+    },
+    "amulet": {
+      "slot": "amulet",
+      "priority_uniques": [],
+      "priority_aspects": [],
+      "priority_affixes": [
+        {
+          "name": "clarity",
+          "weight": 10
+        },
+        {
+          "name": "toxicity",
+          "weight": 8
+        },
+        {
+          "name": "poison_soaked",
+          "weight": 6
+        },
+        {
+          "name": "shifting",
+          "weight": 4
+        },
+        {
+          "name": "branching",
+          "weight": 3
+        },
+        {
+          "name": "keenness",
+          "weight": 3
+        },
+        {
+          "name": "swiftness",
+          "weight": 3
+        }
+      ],
+      "required_tempers": []
+    }
+  }
+}

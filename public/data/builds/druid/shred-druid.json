@@ -1,16 +1,16 @@
 {
-  "id": "s11_ball_lightning_sorc_endgame-sorcerer",
-  "name": "S11 Ball Lightning Sorc Endgame",
-  "class": "sorcerer",
-  "source_url": "https://maxroll.gg/d4/build-guides/ball-lightning-sorcerer-guide",
-  "tier": "A",
+  "id": "shred-druid",
+  "name": "Shred Druid",
+  "class": "druid",
+  "source_url": "https://maxroll.gg/d4/build-guides/shred-druid-guide",
+  "tier": "B",
   "tags": [],
   "last_updated": "2025-12-15",
   "gear": {
     "helm": {
       "slot": "helm",
       "priority_uniques": [
-        "helm_unique_generic_004"
+        "Heir of Perdition"
       ],
       "priority_aspects": [],
       "priority_affixes": [
@@ -24,29 +24,48 @@
     "chest": {
       "slot": "chest",
       "priority_uniques": [
-        "chest_unique_generic_103",
-        "1hfocus_unique_sorc_101"
+        "Mad Wolf's Glee"
       ],
       "priority_aspects": [],
       "priority_affixes": [
+        {
+          "name": "unique_damagemultiplicative_druid_whenlupineferocity",
+          "weight": 8
+        },
+        {
+          "name": "unique_attackspeed_druid_tag_wolf",
+          "weight": 6
+        },
+        {
+          "name": "unique_lifeflat_higherhigher",
+          "weight": 4
+        },
+        {
+          "name": "unique_passiverankbonus_druid_shapeshifting_t2_n2_digitigradegait",
+          "weight": 3
+        },
         {
           "name": "the_focused",
           "weight": 3
         },
         {
-          "name": "the_voltaic",
+          "name": "determination",
+          "weight": 10
+        },
+        {
+          "name": "carnage",
           "weight": 8
         },
         {
-          "name": "unique_projectiles_skill_sorc_balllightning",
+          "name": "swiftness",
           "weight": 6
         },
         {
-          "name": "unique_attackspeed_after_using_defensive",
+          "name": "vigor",
           "weight": 4
         },
         {
-          "name": "the_wise",
+          "name": "riving",
           "weight": 3
         }
       ],
@@ -55,24 +74,24 @@
     "weapon": {
       "slot": "weapon",
       "priority_uniques": [
-        "1hmace_unique_sorc_100"
+        "Waxing Gibbous"
       ],
       "priority_aspects": [],
       "priority_affixes": [
         {
-          "name": "unique_skillrankbonus_sorc_category_core_higher",
+          "name": "unique_skillrankbonus_druid_core_shred_higher",
+          "weight": 10
+        },
+        {
+          "name": "toxicity",
           "weight": 8
         },
         {
-          "name": "unique_corestat_intelligence_higherhigherhigher",
-          "weight": 6
-        },
-        {
-          "name": "unique_damage_type_bonus_nonphysical_higher",
+          "name": "unique_critdamage_giga",
           "weight": 4
         },
         {
-          "name": "vigor",
+          "name": "unique_druid_special_bloodhowl_stealth",
           "weight": 3
         }
       ],
@@ -84,35 +103,27 @@
       "priority_aspects": [],
       "priority_affixes": [
         {
-          "name": "carnage",
+          "name": "tearing",
           "weight": 10
         },
         {
-          "name": "swiftness",
+          "name": "keenness",
           "weight": 8
         },
         {
-          "name": "principals",
+          "name": "determination",
           "weight": 6
         },
         {
-          "name": "the_wise",
+          "name": "vigor",
           "weight": 4
         },
         {
-          "name": "keenness",
+          "name": "riving",
           "weight": 3
         },
         {
-          "name": "vigor",
-          "weight": 3
-        },
-        {
-          "name": "the_adept",
-          "weight": 3
-        },
-        {
-          "name": "the_focused",
+          "name": "auric",
           "weight": 3
         }
       ],
@@ -120,11 +131,13 @@
     },
     "pants": {
       "slot": "pants",
-      "priority_uniques": [
-        "pants_unique_generic_100"
-      ],
+      "priority_uniques": [],
       "priority_aspects": [],
       "priority_affixes": [
+        {
+          "name": "determination",
+          "weight": 10
+        },
         {
           "name": "vigor",
           "weight": 8
@@ -134,11 +147,11 @@
           "weight": 6
         },
         {
-          "name": "unique_healingpercent_verybig",
+          "name": "auric",
           "weight": 4
         },
         {
-          "name": "unique_generic_luckyhit_heallife",
+          "name": "evasion",
           "weight": 3
         },
         {
@@ -154,23 +167,23 @@
       "priority_aspects": [],
       "priority_affixes": [
         {
-          "name": "the_voltaic",
+          "name": "determination",
           "weight": 10
         },
         {
-          "name": "the_wise",
+          "name": "vigor",
           "weight": 8
         },
         {
-          "name": "vigor",
+          "name": "speed",
           "weight": 6
         },
         {
-          "name": "speed",
+          "name": "toughened",
           "weight": 4
         },
         {
-          "name": "infusing",
+          "name": "auric",
           "weight": 3
         },
         {
@@ -183,25 +196,36 @@
     "ring": {
       "slot": "ring",
       "priority_uniques": [
-        "ring_unique_sorc_102",
-        "ring_unique_generic_101"
+        "Ring of Starless Skies"
       ],
       "priority_aspects": [],
       "priority_affixes": [
         {
-          "name": "reckless_magic",
+          "name": "determination",
+          "weight": 10
+        },
+        {
+          "name": "riving",
           "weight": 8
         },
         {
-          "name": "swiftness",
+          "name": "keenness",
           "weight": 6
         },
         {
-          "name": "the_adept",
+          "name": "vigor",
           "weight": 4
         },
         {
-          "name": "unique_damage_type_bonus_lightning_higher",
+          "name": "swiftness",
+          "weight": 3
+        },
+        {
+          "name": "the_adept",
+          "weight": 3
+        },
+        {
+          "name": "auric",
           "weight": 3
         }
       ],
@@ -213,31 +237,31 @@
       "priority_aspects": [],
       "priority_affixes": [
         {
-          "name": "reckless_magic",
+          "name": "toxicity",
           "weight": 10
         },
         {
-          "name": "the_flameborne",
+          "name": "poison_soaked",
           "weight": 8
         },
         {
-          "name": "swiftness",
+          "name": "shifting",
           "weight": 6
         },
         {
-          "name": "the_snowscape",
+          "name": "keenness",
           "weight": 4
         },
         {
-          "name": "precision",
+          "name": "determination",
           "weight": 3
         },
         {
-          "name": "frostbite",
+          "name": "swiftness",
           "weight": 3
         },
         {
-          "name": "the_wise",
+          "name": "speed",
           "weight": 3
         }
       ],

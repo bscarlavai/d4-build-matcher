@@ -2,16 +2,46 @@
   "class": "rogue",
   "builds": [
     {
-      "id": "s10_barrage-rogue",
-      "name": "S10 Barrage",
+      "id": "dance-of-knives-rogue",
+      "name": "Dance Of Knives Rogue",
       "tier": "A",
-      "file": "s10_barrage-rogue.json"
+      "file": "dance-of-knives-rogue.json"
     },
     {
-      "id": "s11_twisting_blades_rogue",
-      "name": "S11 Twisting Blades Rogue",
+      "id": "rain-of-arrows-rogue",
+      "name": "Rain Of Arrows Rogue",
       "tier": "A",
-      "file": "s11_twisting_blades_rogue.json"
+      "file": "rain-of-arrows-rogue.json"
+    },
+    {
+      "id": "penetrating-shot-rogue",
+      "name": "Penetrating Shot Rogue",
+      "tier": "A",
+      "file": "penetrating-shot-rogue.json"
+    },
+    {
+      "id": "death-trap-rogue",
+      "name": "Death Trap Rogue",
+      "tier": "S",
+      "file": "death-trap-rogue.json"
+    },
+    {
+      "id": "heartseeker-rogue-specialized",
+      "name": "Heartseeker Rogue Specialized",
+      "tier": "S",
+      "file": "heartseeker-rogue-specialized.json"
+    },
+    {
+      "id": "twisting-blades-rogue",
+      "name": "Twisting Blades Rogue",
+      "tier": "S",
+      "file": "twisting-blades-rogue.json"
+    },
+    {
+      "id": "flurry-rogue",
+      "name": "Flurry Rogue",
+      "tier": "S",
+      "file": "flurry-rogue.json"
     }
   ]
 }

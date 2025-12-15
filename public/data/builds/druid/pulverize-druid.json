@@ -1,21 +1,21 @@
 {
-  "id": "frozen_orb_sorcerer_endgame_and_leveling_s11-sorcerer",
-  "name": "Frozen Orb Sorcerer Endgame and Leveling S11",
-  "class": "sorcerer",
-  "source_url": "https://maxroll.gg/d4/build-guides/frozen-orb-sorcerer-guide",
-  "tier": "A",
+  "id": "pulverize-druid",
+  "name": "Pulverize Druid",
+  "class": "druid",
+  "source_url": "https://maxroll.gg/d4/build-guides/pulverize-druid-guide",
+  "tier": "S",
   "tags": [],
   "last_updated": "2025-12-15",
   "gear": {
     "helm": {
       "slot": "helm",
       "priority_uniques": [
-        "helm_unique_generic_004"
+        "Heir of Perdition"
       ],
       "priority_aspects": [],
       "priority_affixes": [
         {
-          "name": "the_focused",
+          "name": "the_adept",
           "weight": 3
         }
       ],
@@ -24,25 +24,13 @@
     "chest": {
       "slot": "chest",
       "priority_uniques": [
-        "chest_unique_generic_103"
+        "Shroud of False Death"
       ],
       "priority_aspects": [],
       "priority_affixes": [
         {
-          "name": "carnage",
-          "weight": 10
-        },
-        {
-          "name": "the_wise",
-          "weight": 8
-        },
-        {
-          "name": "vigor",
-          "weight": 6
-        },
-        {
-          "name": "swiftness",
-          "weight": 4
+          "name": "the_adept",
+          "weight": 3
         }
       ],
       "required_tempers": []
@@ -50,24 +38,24 @@
     "weapon": {
       "slot": "weapon",
       "priority_uniques": [
-        "1hmace_unique_sorc_100"
+        "Rotting Lightbringer"
       ],
       "priority_aspects": [],
       "priority_affixes": [
         {
-          "name": "unique_skillrankbonus_sorc_category_core_higher",
+          "name": "unique_corestat_willpowerpercent_higher",
           "weight": 8
         },
         {
-          "name": "unique_corestat_intelligence_higherhigherhigher",
+          "name": "unique_hit_twice_skill_druid_pulverize",
           "weight": 6
         },
         {
-          "name": "unique_damage_type_bonus_nonphysical_higher",
+          "name": "unique_damage_generic_type_poison",
           "weight": 4
         },
         {
-          "name": "vigor",
+          "name": "unique_resource_cost_reduction_scaled2h",
           "weight": 3
         }
       ],
@@ -79,11 +67,11 @@
       "priority_aspects": [],
       "priority_affixes": [
         {
-          "name": "the_hailstorm",
+          "name": "the_brutalizer",
           "weight": 10
         },
         {
-          "name": "the_wise",
+          "name": "the_adept",
           "weight": 8
         },
         {
@@ -91,23 +79,19 @@
           "weight": 6
         },
         {
-          "name": "vigor",
+          "name": "determination",
           "weight": 4
         },
         {
-          "name": "swiftness",
-          "weight": 3
-        },
-        {
-          "name": "the_focused",
-          "weight": 3
-        },
-        {
-          "name": "cruelty",
-          "weight": 3
-        },
-        {
           "name": "carnage",
+          "weight": 3
+        },
+        {
+          "name": "vigor",
+          "weight": 3
+        },
+        {
+          "name": "riving",
           "weight": 3
         }
       ],
@@ -116,7 +100,7 @@
     "pants": {
       "slot": "pants",
       "priority_uniques": [
-        "pants_unique_generic_100"
+        "Temerity"
       ],
       "priority_aspects": [],
       "priority_affixes": [
@@ -129,11 +113,15 @@
           "weight": 6
         },
         {
-          "name": "unique_healingpercent_verybig",
+          "name": "unique_generic_luckyhit_heallife",
           "weight": 4
         },
         {
-          "name": "unique_generic_luckyhit_heallife",
+          "name": "unique_healingpercent_verybig",
+          "weight": 3
+        },
+        {
+          "name": "determination",
           "weight": 3
         }
       ],
@@ -141,29 +129,31 @@
     },
     "boots": {
       "slot": "boots",
-      "priority_uniques": [
-        "boots_unique_sorc_100"
-      ],
+      "priority_uniques": [],
       "priority_aspects": [],
       "priority_affixes": [
         {
-          "name": "unique_critdamage_higher",
+          "name": "determination",
+          "weight": 10
+        },
+        {
+          "name": "vigor",
           "weight": 8
         },
         {
-          "name": "auric",
+          "name": "speed",
           "weight": 6
         },
         {
-          "name": "speed",
+          "name": "toughened",
           "weight": 4
         },
         {
-          "name": "unique_movementspeed_generic_afterelitekill",
+          "name": "infusing",
           "weight": 3
         },
         {
-          "name": "the_focused",
+          "name": "auric",
           "weight": 3
         }
       ],
@@ -172,29 +162,32 @@
     "ring": {
       "slot": "ring",
       "priority_uniques": [
-        "ring_unique_generic_101",
-        "ring_unique_sorc_101"
+        "Ring of Starless Skies"
       ],
       "priority_aspects": [],
       "priority_affixes": [
         {
-          "name": "unique_damage_type_bonus_nonphysical_higher",
+          "name": "determination",
+          "weight": 10
+        },
+        {
+          "name": "riving",
           "weight": 8
         },
         {
-          "name": "swiftness",
+          "name": "carnage",
           "weight": 6
         },
         {
-          "name": "luck",
+          "name": "keenness",
           "weight": 4
         },
         {
-          "name": "unique_passiverankbonus_sorc_elemental_t1_n1_potentwarding",
+          "name": "the_adept",
           "weight": 3
         },
         {
-          "name": "the_focused",
+          "name": "vigor",
           "weight": 3
         }
       ],
@@ -202,26 +195,36 @@
     },
     "amulet": {
       "slot": "amulet",
-      "priority_uniques": [
-        "amulet_unique_sorc_101"
-      ],
+      "priority_uniques": [],
       "priority_aspects": [],
       "priority_affixes": [
         {
-          "name": "unique_projectiles_skill_sorc_frozenorb",
+          "name": "poison_soaked",
           "weight": 10
         },
         {
-          "name": "unique_damage_type_bonus_nonphysical_higher",
+          "name": "shifting",
           "weight": 8
         },
         {
-          "name": "auric",
+          "name": "toxicity",
           "weight": 6
         },
         {
-          "name": "unique_passiverankbonus_sorc_02_conjurationmastery_higher",
+          "name": "branching",
           "weight": 4
+        },
+        {
+          "name": "keenness",
+          "weight": 3
+        },
+        {
+          "name": "the_adept",
+          "weight": 3
+        },
+        {
+          "name": "determination",
+          "weight": 3
         }
       ],
       "required_tempers": []

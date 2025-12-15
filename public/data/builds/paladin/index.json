@@ -2,16 +2,64 @@
   "class": "paladin",
   "builds": [
     {
-      "id": "s11_wing_strikes_paladin_endgame-paladin",
-      "name": "S11 Wing Strikes Paladin Endgame",
-      "tier": "A",
-      "file": "s11_wing_strikes_paladin_endgame-paladin.json"
+      "id": "shield-of-retribution-paladin",
+      "name": "Shield Of Retribution Paladin",
+      "tier": "S",
+      "file": "shield-of-retribution-paladin.json"
     },
     {
-      "id": "s11_blessed_hammer_paladin_endgame-paladin",
-      "name": "S11 Blessed Hammer Paladin Endgame",
+      "id": "blessed-hammer-paladin",
+      "name": "Blessed Hammer Paladin",
+      "tier": "S",
+      "file": "blessed-hammer-paladin.json"
+    },
+    {
+      "id": "wing-strikes-paladin",
+      "name": "Wing Strikes Paladin",
+      "tier": "S",
+      "file": "wing-strikes-paladin.json"
+    },
+    {
+      "id": "brandish-paladin",
+      "name": "Brandish Paladin",
+      "tier": "S",
+      "file": "brandish-paladin.json"
+    },
+    {
+      "id": "blessed-shield-paladin",
+      "name": "Blessed Shield Paladin",
       "tier": "A",
-      "file": "s11_blessed_hammer_paladin_endgame-paladin.json"
+      "file": "blessed-shield-paladin.json"
+    },
+    {
+      "id": "shield-charge-paladin",
+      "name": "Shield Charge Paladin",
+      "tier": "A",
+      "file": "shield-charge-paladin.json"
+    },
+    {
+      "id": "divine-lance-paladin",
+      "name": "Divine Lance Paladin",
+      "tier": "A",
+      "file": "divine-lance-paladin.json"
+    },
+    {
+      "id": "auradin",
+      "name": "Auradin",
+      "tier": "A",
+      "file": "auradin.json"
+    },
+    {
+      "id": "judgement-paladin",
+      "name": "Judgement Paladin",
+      "tier": "A",
+      "file": "judgement-paladin.json"
+    },
+    {
+      "id": "zeal-paladin",
+      "name": "Zeal Paladin",
+      "tier": "A",
+      "file": "zeal-paladin.json"
     }
   ]
 }

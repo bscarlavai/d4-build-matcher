@@ -1,0 +1,175 @@
+{
+  "id": "shield-charge-paladin",
+  "name": "Shield Charge Paladin",
+  "class": "paladin",
+  "source_url": "https://maxroll.gg/d4/build-guides/shield-charge-paladin-guide",
+  "tier": "A",
+  "tags": [],
+  "last_updated": "2025-12-15",
+  "gear": {
+    "helm": {
+      "slot": "helm",
+      "priority_uniques": [
+        "Heir of Perdition"
+      ],
+      "priority_aspects": [],
+      "priority_affixes": [],
+      "required_tempers": []
+    },
+    "chest": {
+      "slot": "chest",
+      "priority_uniques": [
+        "Shroud of False Death",
+        "Shield Unique Paladin"
+      ],
+      "priority_aspects": [],
+      "priority_affixes": [
+        {
+          "name": "vigor",
+          "weight": 6
+        },
+        {
+          "name": "unique_armor_giga_specialscaling",
+          "weight": 4
+        }
+      ],
+      "required_tempers": []
+    },
+    "weapon": {
+      "slot": "weapon",
+      "priority_uniques": [
+        "Sword Unique Paladin"
+      ],
+      "priority_aspects": [],
+      "priority_affixes": [
+        {
+          "name": "the_powerful",
+          "weight": 4
+        },
+        {
+          "name": "vigor",
+          "weight": 3
+        }
+      ],
+      "required_tempers": []
+    },
+    "gloves": {
+      "slot": "gloves",
+      "priority_uniques": [],
+      "priority_aspects": [],
+      "priority_affixes": [
+        {
+          "name": "swiftness",
+          "weight": 10
+        },
+        {
+          "name": "carnage",
+          "weight": 8
+        },
+        {
+          "name": "keenness",
+          "weight": 6
+        },
+        {
+          "name": "the_powerful",
+          "weight": 4
+        }
+      ],
+      "required_tempers": []
+    },
+    "pants": {
+      "slot": "pants",
+      "priority_uniques": [],
+      "priority_aspects": [],
+      "priority_affixes": [
+        {
+          "name": "the_powerful",
+          "weight": 10
+        },
+        {
+          "name": "vigor",
+          "weight": 8
+        },
+        {
+          "name": "toughened",
+          "weight": 6
+        },
+        {
+          "name": "auric",
+          "weight": 4
+        }
+      ],
+      "required_tempers": []
+    },
+    "boots": {
+      "slot": "boots",
+      "priority_uniques": [],
+      "priority_aspects": [],
+      "priority_affixes": [
+        {
+          "name": "remedies",
+          "weight": 10
+        },
+        {
+          "name": "the_powerful",
+          "weight": 8
+        },
+        {
+          "name": "vigor",
+          "weight": 6
+        },
+        {
+          "name": "auric",
+          "weight": 4
+        }
+      ],
+      "required_tempers": []
+    },
+    "ring": {
+      "slot": "ring",
+      "priority_uniques": [
+        "Ring of Starless Skies"
+      ],
+      "priority_aspects": [],
+      "priority_affixes": [
+        {
+          "name": "riving",
+          "weight": 10
+        },
+        {
+          "name": "keenness",
+          "weight": 8
+        },
+        {
+          "name": "swiftness",
+          "weight": 6
+        },
+        {
+          "name": "vigor",
+          "weight": 4
+        }
+      ],
+      "required_tempers": []
+    },
+    "amulet": {
+      "slot": "amulet",
+      "priority_uniques": [],
+      "priority_aspects": [],
+      "priority_affixes": [
+        {
+          "name": "swiftness",
+          "weight": 10
+        },
+        {
+          "name": "keenness",
+          "weight": 3
+        },
+        {
+          "name": "the_adept",
+          "weight": 3
+        }
+      ],
+      "required_tempers": []
+    }
+  }
+}

@@ -2,16 +2,70 @@
   "class": "necromancer",
   "builds": [
     {
-      "id": "s11_minions-necromancer",
-      "name": "S11 Minions",
-      "tier": "A",
-      "file": "s11_minions-necromancer.json"
+      "id": "shadowblight-necromancer",
+      "name": "Shadowblight Necromancer",
+      "tier": "S",
+      "file": "shadowblight-necromancer.json"
     },
     {
-      "id": "s11_spear-necromancer",
-      "name": "S11 Spear",
+      "id": "bone-spirit-necromancer",
+      "name": "Bone Spirit Necromancer",
       "tier": "A",
-      "file": "s11_spear-necromancer.json"
+      "file": "bone-spirit-necromancer.json"
+    },
+    {
+      "id": "golem-necromancer",
+      "name": "Golem Necromancer",
+      "tier": "A",
+      "file": "golem-necromancer.json"
+    },
+    {
+      "id": "minion-necromancer",
+      "name": "Minion Necromancer",
+      "tier": "A",
+      "file": "minion-necromancer.json"
+    },
+    {
+      "id": "blood-wave-necromancer",
+      "name": "Blood Wave Necromancer",
+      "tier": "S",
+      "file": "blood-wave-necromancer.json"
+    },
+    {
+      "id": "bone-spear-necromancer",
+      "name": "Bone Spear Necromancer",
+      "tier": "B",
+      "file": "bone-spear-necromancer.json"
+    },
+    {
+      "id": "blight-necromancer",
+      "name": "Blight Necromancer",
+      "tier": "B",
+      "file": "blight-necromancer.json"
+    },
+    {
+      "id": "sever-necromancer-endgame",
+      "name": "Sever Necromancer Endgame",
+      "tier": "A",
+      "file": "sever-necromancer-endgame.json"
+    },
+    {
+      "id": "blood-surge-necromancer",
+      "name": "Blood Surge Necromancer",
+      "tier": "C",
+      "file": "blood-surge-necromancer.json"
+    },
+    {
+      "id": "blood-lance-necromancer",
+      "name": "Blood Lance Necromancer",
+      "tier": "C",
+      "file": "blood-lance-necromancer.json"
+    },
+    {
+      "id": "affliction-necromancer",
+      "name": "Affliction Necromancer",
+      "tier": "C",
+      "file": "affliction-necromancer.json"
     }
   ]
 }

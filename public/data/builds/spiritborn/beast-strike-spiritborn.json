@@ -1,0 +1,198 @@
+{
+  "id": "beast-strike-spiritborn",
+  "name": "Beast Strike Spiritborn",
+  "class": "spiritborn",
+  "source_url": "https://maxroll.gg/d4/build-guides/beast-strike-spiritborn-guide",
+  "tier": "S",
+  "tags": [],
+  "last_updated": "2025-12-15",
+  "gear": {
+    "helm": {
+      "slot": "helm",
+      "priority_uniques": [
+        "Loyalty's Mantle"
+      ],
+      "priority_aspects": [],
+      "priority_affixes": [
+        {
+          "name": "the_adroit",
+          "weight": 8
+        },
+        {
+          "name": "unique_corestats_all_higher",
+          "weight": 6
+        },
+        {
+          "name": "unique_movement_speed_lesser",
+          "weight": 4
+        },
+        {
+          "name": "unique_passiverankbonus_spiritborn_velocity_higher",
+          "weight": 3
+        }
+      ],
+      "required_tempers": []
+    },
+    "chest": {
+      "slot": "chest",
+      "priority_uniques": [
+        "Shroud of False Death"
+      ],
+      "priority_aspects": [],
+      "priority_affixes": [],
+      "required_tempers": []
+    },
+    "gloves": {
+      "slot": "gloves",
+      "priority_uniques": [],
+      "priority_aspects": [],
+      "priority_affixes": [
+        {
+          "name": "keenness",
+          "weight": 10
+        },
+        {
+          "name": "the_adroit",
+          "weight": 8
+        },
+        {
+          "name": "the_adept",
+          "weight": 6
+        },
+        {
+          "name": "the_focused",
+          "weight": 4
+        }
+      ],
+      "required_tempers": []
+    },
+    "pants": {
+      "slot": "pants",
+      "priority_uniques": [
+        "Temerity"
+      ],
+      "priority_aspects": [],
+      "priority_affixes": [
+        {
+          "name": "vigor",
+          "weight": 8
+        },
+        {
+          "name": "unique_healingpercent_verybig",
+          "weight": 6
+        },
+        {
+          "name": "unique_generic_luckyhit_heallife",
+          "weight": 4
+        },
+        {
+          "name": "toughened",
+          "weight": 3
+        }
+      ],
+      "required_tempers": []
+    },
+    "boots": {
+      "slot": "boots",
+      "priority_uniques": [],
+      "priority_aspects": [],
+      "priority_affixes": [
+        {
+          "name": "the_adroit",
+          "weight": 10
+        },
+        {
+          "name": "speed",
+          "weight": 8
+        },
+        {
+          "name": "vigor",
+          "weight": 6
+        },
+        {
+          "name": "toughened",
+          "weight": 4
+        }
+      ],
+      "required_tempers": []
+    },
+    "ring": {
+      "slot": "ring",
+      "priority_uniques": [
+        "Ring of Starless Skies"
+      ],
+      "priority_aspects": [],
+      "priority_affixes": [
+        {
+          "name": "the_adroit",
+          "weight": 10
+        },
+        {
+          "name": "the_focused",
+          "weight": 8
+        },
+        {
+          "name": "the_adept",
+          "weight": 6
+        },
+        {
+          "name": "vigor",
+          "weight": 4
+        }
+      ],
+      "required_tempers": []
+    },
+    "amulet": {
+      "slot": "amulet",
+      "priority_uniques": [],
+      "priority_aspects": [],
+      "priority_affixes": [
+        {
+          "name": "incinerating",
+          "weight": 10
+        },
+        {
+          "name": "elevation",
+          "weight": 8
+        },
+        {
+          "name": "sparking",
+          "weight": 6
+        },
+        {
+          "name": "rampaging",
+          "weight": 4
+        },
+        {
+          "name": "the_adroit",
+          "weight": 3
+        },
+        {
+          "name": "ferocity",
+          "weight": 3
+        },
+        {
+          "name": "vigor",
+          "weight": 3
+        },
+        {
+          "name": "carnage",
+          "weight": 3
+        },
+        {
+          "name": "luck",
+          "weight": 3
+        },
+        {
+          "name": "remedies",
+          "weight": 3
+        },
+        {
+          "name": "auric",
+          "weight": 3
+        }
+      ],
+      "required_tempers": []
+    }
+  }
+}

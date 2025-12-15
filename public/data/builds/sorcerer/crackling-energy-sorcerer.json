@@ -1,34 +1,22 @@
 {
-  "id": "s11_spear-necromancer",
-  "name": "S11 Spear",
-  "class": "necromancer",
-  "source_url": "https://maxroll.gg/d4/build-guides/bone-spear-necromancer-guide",
-  "tier": "A",
+  "id": "crackling-energy-sorcerer",
+  "name": "Crackling Energy Sorcerer",
+  "class": "sorcerer",
+  "source_url": "https://maxroll.gg/d4/build-guides/crackling-energy-sorcerer-guide",
+  "tier": "S",
   "tags": [],
   "last_updated": "2025-12-15",
   "gear": {
     "helm": {
       "slot": "helm",
       "priority_uniques": [
-        "helm_unique_necro_100"
+        "Heir of Perdition"
       ],
       "priority_aspects": [],
       "priority_affixes": [
         {
-          "name": "unique_projectiles_skill_necro_bonespear",
-          "weight": 10
-        },
-        {
-          "name": "unique_skillrankbonus_necro_core_bonespear_higher",
-          "weight": 8
-        },
-        {
-          "name": "unique_armor_giga_specialscaling",
-          "weight": 6
-        },
-        {
-          "name": "unique_resource_max_allclasses_higher",
-          "weight": 4
+          "name": "the_focused",
+          "weight": 3
         }
       ],
       "required_tempers": []
@@ -36,24 +24,24 @@
     "chest": {
       "slot": "chest",
       "priority_uniques": [
-        "chest_unique_generic_103"
+        "Shroud of False Death"
       ],
       "priority_aspects": [],
       "priority_affixes": [
         {
-          "name": "the_wise",
+          "name": "carnage",
           "weight": 10
         },
         {
-          "name": "vigor",
+          "name": "the_adept",
           "weight": 8
         },
         {
-          "name": "perpetuity",
+          "name": "the_wise",
           "weight": 6
         },
         {
-          "name": "riving",
+          "name": "vigor",
           "weight": 4
         }
       ],
@@ -61,24 +49,26 @@
     },
     "weapon": {
       "slot": "weapon",
-      "priority_uniques": [],
+      "priority_uniques": [
+        "Orsivane"
+      ],
       "priority_aspects": [],
       "priority_affixes": [
         {
-          "name": "the_wise",
-          "weight": 10
-        },
-        {
-          "name": "vigor",
+          "name": "unique_skillrankbonus_sorc_category_core_higher",
           "weight": 8
         },
         {
-          "name": "the_focused",
+          "name": "unique_corestat_intelligence_higherhigherhigher",
           "weight": 6
         },
         {
-          "name": "perpetuity",
+          "name": "unique_damage_type_bonus_nonphysical_higher",
           "weight": 4
+        },
+        {
+          "name": "vigor",
+          "weight": 3
         }
       ],
       "required_tempers": []
@@ -89,19 +79,19 @@
       "priority_aspects": [],
       "priority_affixes": [
         {
-          "name": "skewering",
+          "name": "principals",
           "weight": 10
         },
         {
-          "name": "keenness",
+          "name": "the_wise",
           "weight": 8
         },
         {
-          "name": "the_adept",
+          "name": "keenness",
           "weight": 6
         },
         {
-          "name": "the_wise",
+          "name": "the_adept",
           "weight": 4
         }
       ],
@@ -110,25 +100,25 @@
     "pants": {
       "slot": "pants",
       "priority_uniques": [
-        "pants_unique_necro_102"
+        "Temerity"
       ],
       "priority_aspects": [],
       "priority_affixes": [
         {
-          "name": "drowning",
-          "weight": 10
-        },
-        {
-          "name": "unique_overpowerdamage_generic_all",
+          "name": "vigor",
           "weight": 8
         },
         {
-          "name": "the_wise",
+          "name": "toughened",
           "weight": 6
         },
         {
-          "name": "vigor",
+          "name": "unique_healingpercent_verybig",
           "weight": 4
+        },
+        {
+          "name": "unique_generic_luckyhit_heallife",
+          "weight": 3
         }
       ],
       "required_tempers": []
@@ -143,16 +133,20 @@
           "weight": 10
         },
         {
-          "name": "vigor",
+          "name": "the_voltaic",
           "weight": 8
         },
         {
-          "name": "toughened",
+          "name": "vigor",
           "weight": 6
         },
         {
           "name": "speed",
           "weight": 4
+        },
+        {
+          "name": "the_focused",
+          "weight": 3
         }
       ],
       "required_tempers": []
@@ -160,16 +154,13 @@
     "ring": {
       "slot": "ring",
       "priority_uniques": [
-        "ring_unique_generic_101"
+        "Ring of Starless Skies",
+        "Galvanic\u00a0Azurite"
       ],
       "priority_aspects": [],
       "priority_affixes": [
         {
-          "name": "the_wise",
-          "weight": 10
-        },
-        {
-          "name": "keenness",
+          "name": "reckless_magic",
           "weight": 8
         },
         {
@@ -177,32 +168,38 @@
           "weight": 6
         },
         {
-          "name": "demolition",
+          "name": "unique_damage_type_bonus_lightning_higher",
           "weight": 4
+        },
+        {
+          "name": "swiftness",
+          "weight": 3
         }
       ],
       "required_tempers": []
     },
     "amulet": {
       "slot": "amulet",
-      "priority_uniques": [],
+      "priority_uniques": [
+        "Esadora's Overflowing Cameo"
+      ],
       "priority_aspects": [],
       "priority_affixes": [
         {
-          "name": "coalescence",
-          "weight": 10
-        },
-        {
-          "name": "drowning",
+          "name": "unique_damage_sorc_skill_cracklingenergy_gigagiga",
           "weight": 8
         },
         {
-          "name": "imbalance",
+          "name": "unique_corestat_intelligencepercent_higherhigher",
           "weight": 6
         },
         {
-          "name": "keenness",
+          "name": "swiftness",
           "weight": 4
+        },
+        {
+          "name": "unique_movement_speed_sorc_aftercracklingenergy",
+          "weight": 3
         }
       ],
       "required_tempers": []

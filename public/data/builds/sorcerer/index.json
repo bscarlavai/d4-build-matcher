@@ -2,16 +2,70 @@
   "class": "sorcerer",
   "builds": [
     {
-      "id": "frozen_orb_sorcerer_endgame_and_leveling_s11-sorcerer",
-      "name": "Frozen Orb Sorcerer Endgame and Leveling S11",
+      "id": "hydra-sorcerer",
+      "name": "Hydra Sorcerer",
       "tier": "A",
-      "file": "frozen_orb_sorcerer_endgame_and_leveling_s11-sorcerer.json"
+      "file": "hydra-sorcerer.json"
     },
     {
-      "id": "s11_ball_lightning_sorc_endgame-sorcerer",
-      "name": "S11 Ball Lightning Sorc Endgame",
+      "id": "crackling-energy-sorcerer",
+      "name": "Crackling Energy Sorcerer",
+      "tier": "S",
+      "file": "crackling-energy-sorcerer.json"
+    },
+    {
+      "id": "meteor-sorcerer",
+      "name": "Meteor Sorcerer",
+      "tier": "B",
+      "file": "meteor-sorcerer.json"
+    },
+    {
+      "id": "ice-shards-sorcerer",
+      "name": "Ice Shards Sorcerer",
+      "tier": "B",
+      "file": "ice-shards-sorcerer.json"
+    },
+    {
+      "id": "frozen-orb-sorcerer",
+      "name": "Frozen Orb Sorcerer",
       "tier": "A",
-      "file": "s11_ball_lightning_sorc_endgame-sorcerer.json"
+      "file": "frozen-orb-sorcerer.json"
+    },
+    {
+      "id": "blizzard-sorcerer",
+      "name": "Blizzard Sorcerer",
+      "tier": "A",
+      "file": "blizzard-sorcerer.json"
+    },
+    {
+      "id": "fireball-sorcerer",
+      "name": "Fireball Sorcerer",
+      "tier": "C",
+      "file": "fireball-sorcerer.json"
+    },
+    {
+      "id": "ball-lightning-sorcerer",
+      "name": "Ball Lightning Sorcerer",
+      "tier": "C",
+      "file": "ball-lightning-sorcerer.json"
+    },
+    {
+      "id": "lightning-spear-sorcerer",
+      "name": "Lightning Spear Sorcerer",
+      "tier": "B",
+      "file": "lightning-spear-sorcerer.json"
+    },
+    {
+      "id": "chain-lightning-sorcerer",
+      "name": "Chain Lightning Sorcerer",
+      "tier": "B",
+      "file": "chain-lightning-sorcerer.json"
+    },
+    {
+      "id": "incinerate-sorcerer",
+      "name": "Incinerate Sorcerer",
+      "tier": "C",
+      "file": "incinerate-sorcerer.json"
     }
   ]
 }
