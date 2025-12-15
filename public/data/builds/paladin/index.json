@@ -1,0 +1,17 @@
+{
+  "class": "paladin",
+  "builds": [
+    {
+      "id": "blessed-hammer-paladin",
+      "name": "Blessed Hammer Paladin",
+      "tier": "S",
+      "file": "blessed-hammer.json"
+    },
+    {
+      "id": "fist-of-heavens-paladin",
+      "name": "Fist of the Heavens Paladin",
+      "tier": "A",
+      "file": "fist-of-heavens.json"
+    }
+  ]
+}

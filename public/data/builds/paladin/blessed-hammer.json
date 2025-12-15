@@ -1,0 +1,116 @@
+{
+  "id": "blessed-hammer-paladin",
+  "name": "Blessed Hammer Paladin",
+  "class": "paladin",
+  "source_url": "https://maxroll.gg/d4/build-guides/blessed-hammer-paladin-guide",
+  "tier": "S",
+  "tags": ["endgame", "aoe", "holy"],
+  "last_updated": "2024-12-14",
+  "gear": {
+    "helm": {
+      "slot": "helm",
+      "priority_uniques": ["harlequin_crest", "tuskhelm_of_joritz"],
+      "priority_aspects": ["aspect_of_disobedience", "aspect_of_might"],
+      "priority_affixes": [
+        { "name": "cooldown_reduction", "weight": 10 },
+        { "name": "maximum_life", "weight": 8 },
+        { "name": "total_armor", "weight": 5 },
+        { "name": "strength", "weight": 3 }
+      ],
+      "required_tempers": []
+    },
+    "chest": {
+      "slot": "chest",
+      "priority_uniques": ["tyrael's_might"],
+      "priority_aspects": ["aspect_of_disobedience", "juggernaut_aspect"],
+      "priority_affixes": [
+        { "name": "maximum_life", "weight": 10 },
+        { "name": "total_armor", "weight": 8 },
+        { "name": "damage_reduction", "weight": 7 },
+        { "name": "strength", "weight": 3 }
+      ],
+      "required_tempers": []
+    },
+    "gloves": {
+      "slot": "gloves",
+      "priority_uniques": [],
+      "priority_aspects": ["aspect_of_blessed_hammers"],
+      "priority_affixes": [
+        { "name": "attack_speed", "weight": 10 },
+        { "name": "critical_strike_chance", "weight": 9 },
+        { "name": "lucky_hit_chance", "weight": 7 },
+        { "name": "strength", "weight": 3 }
+      ],
+      "required_tempers": ["ranks_to_blessed_hammer"]
+    },
+    "pants": {
+      "slot": "pants",
+      "priority_uniques": ["arcadia", "tibault's_will"],
+      "priority_aspects": ["aspect_of_might", "protecting_aspect"],
+      "priority_affixes": [
+        { "name": "maximum_life", "weight": 10 },
+        { "name": "total_armor", "weight": 8 },
+        { "name": "damage_reduction", "weight": 7 },
+        { "name": "strength", "weight": 5 }
+      ],
+      "required_tempers": ["ranks_to_heavyweight"]
+    },
+    "boots": {
+      "slot": "boots",
+      "priority_uniques": [],
+      "priority_aspects": ["ghostwalker_aspect", "aspect_of_retribution"],
+      "priority_affixes": [
+        { "name": "movement_speed", "weight": 10 },
+        { "name": "strength", "weight": 5 },
+        { "name": "damage_reduction", "weight": 5 }
+      ],
+      "required_tempers": []
+    },
+    "amulet": {
+      "slot": "amulet",
+      "priority_uniques": ["melted_heart_of_selig"],
+      "priority_aspects": ["aspect_of_limitless_rage"],
+      "priority_affixes": [
+        { "name": "cooldown_reduction", "weight": 10 },
+        { "name": "movement_speed", "weight": 8 },
+        { "name": "resource_generation", "weight": 7 },
+        { "name": "strength", "weight": 3 }
+      ],
+      "required_tempers": []
+    },
+    "ring": {
+      "slot": "ring",
+      "priority_uniques": ["ring_of_starless_skies"],
+      "priority_aspects": ["aspect_of_inner_calm", "aspect_of_expectations"],
+      "priority_affixes": [
+        { "name": "critical_strike_chance", "weight": 10 },
+        { "name": "critical_strike_damage", "weight": 9 },
+        { "name": "lucky_hit_chance", "weight": 7 },
+        { "name": "maximum_life", "weight": 5 }
+      ],
+      "required_tempers": []
+    },
+    "weapon": {
+      "slot": "weapon",
+      "priority_uniques": ["the_grandfather", "doombringer"],
+      "priority_aspects": ["aspect_of_adaptability"],
+      "priority_affixes": [
+        { "name": "critical_strike_damage", "weight": 10 },
+        { "name": "strength", "weight": 8 },
+        { "name": "all_stats", "weight": 5 }
+      ],
+      "required_tempers": ["blessed_hammer_damage"]
+    },
+    "offhand": {
+      "slot": "offhand",
+      "priority_uniques": [],
+      "priority_aspects": ["aspect_of_the_crowded_sage"],
+      "priority_affixes": [
+        { "name": "cooldown_reduction", "weight": 10 },
+        { "name": "critical_strike_chance", "weight": 8 },
+        { "name": "lucky_hit_chance", "weight": 7 }
+      ],
+      "required_tempers": []
+    }
+  }
+}

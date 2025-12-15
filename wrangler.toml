@@ -1,0 +1,8 @@
+name = "d4-build-matcher"
+compatibility_date = "2024-12-01"
+
+[vars]
+ENVIRONMENT = "development"
+
+# Secrets (set via `wrangler secret put`)
+# ANTHROPIC_API_KEY
