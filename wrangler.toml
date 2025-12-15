@@ -1,5 +1,4 @@
 name = "d4-build-matcher"
-pages_build_output_dir = "dist"
 compatibility_date = "2024-12-01"
 
 [vars]
@@ -7,3 +6,6 @@ ENVIRONMENT = "development"
 
 # Secrets (set via `wrangler secret put`)
 # ANTHROPIC_API_KEY
+
+[assets]
+directory = "./dist"
