@@ -9,6 +9,7 @@
     "lint": "eslint .",
     "preview": "vite preview",
     "deploy": "npm run build && wrangler pages deploy ./dist",
+    "cf:prod": "wrangler pages deploy ./dist",
     "cf:dev": "wrangler pages dev ./dist"
   },
   "dependencies": {
