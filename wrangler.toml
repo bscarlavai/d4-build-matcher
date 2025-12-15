@@ -9,11 +9,3 @@ ENVIRONMENT = "development"
 
 [assets]
 directory = "./dist"
-binding = "ASSETS"
-run_worker_first = [
-  "/api/*"        # API calls go to Worker first
-]
-
-[[services]]
-binding = "WORKER_SELF_REFERENCE"
-service = "d4-build-matcher"
