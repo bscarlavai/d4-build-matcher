@@ -9,3 +9,7 @@ ENVIRONMENT = "development"
 
 [assets]
 directory = "./dist"
+
+[services]
+binding = "WORKER_SELF_REFERENCE"
+service = "d4-build-matcher"
