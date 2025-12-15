@@ -1,0 +1,17 @@
+{
+  "class": "rogue",
+  "builds": [
+    {
+      "id": "s10_barrage-rogue",
+      "name": "S10 Barrage",
+      "tier": "A",
+      "file": "s10_barrage-rogue.json"
+    },
+    {
+      "id": "s11_twisting_blades_rogue",
+      "name": "S11 Twisting Blades Rogue",
+      "tier": "A",
+      "file": "s11_twisting_blades_rogue.json"
+    }
+  ]
+}

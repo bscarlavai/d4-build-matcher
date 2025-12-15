@@ -1,0 +1,17 @@
+{
+  "class": "sorcerer",
+  "builds": [
+    {
+      "id": "frozen_orb_sorcerer_endgame_and_leveling_s11-sorcerer",
+      "name": "Frozen Orb Sorcerer Endgame and Leveling S11",
+      "tier": "A",
+      "file": "frozen_orb_sorcerer_endgame_and_leveling_s11-sorcerer.json"
+    },
+    {
+      "id": "s11_ball_lightning_sorc_endgame-sorcerer",
+      "name": "S11 Ball Lightning Sorc Endgame",
+      "tier": "A",
+      "file": "s11_ball_lightning_sorc_endgame-sorcerer.json"
+    }
+  ]
+}

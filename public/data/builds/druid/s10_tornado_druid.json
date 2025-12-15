@@ -1,0 +1,229 @@
+{
+  "id": "s10_tornado_druid",
+  "name": "S10 Tornado Druid",
+  "class": "druid",
+  "source_url": "https://maxroll.gg/d4/build-guides/tornado-druid-guide",
+  "tier": "A",
+  "tags": [],
+  "last_updated": "2025-12-15",
+  "gear": {
+    "helm": {
+      "slot": "helm",
+      "priority_uniques": [
+        "s10_amulet_unique_druid_101_helm"
+      ],
+      "priority_aspects": [],
+      "priority_affixes": [
+        {
+          "name": "unique_passiverankbonus_druid_18_aptitude",
+          "weight": 10
+        },
+        {
+          "name": "unique_corestat_willpowerpercent_higher",
+          "weight": 8
+        },
+        {
+          "name": "unique_critdamage_druid_tag_wolf",
+          "weight": 6
+        },
+        {
+          "name": "unique_movement_speed_druid_whilewerewolf",
+          "weight": 4
+        }
+      ],
+      "required_tempers": []
+    },
+    "chest": {
+      "slot": "chest",
+      "priority_uniques": [
+        "s10_amulet_unique_generic_101_chest"
+      ],
+      "priority_aspects": [],
+      "priority_affixes": [
+        {
+          "name": "principals",
+          "weight": 10
+        },
+        {
+          "name": "keenness",
+          "weight": 8
+        },
+        {
+          "name": "demolition",
+          "weight": 6
+        },
+        {
+          "name": "unique_lifepercent",
+          "weight": 4
+        }
+      ],
+      "required_tempers": []
+    },
+    "weapon": {
+      "slot": "weapon",
+      "priority_uniques": [],
+      "priority_aspects": [],
+      "priority_affixes": [
+        {
+          "name": "determination",
+          "weight": 10
+        },
+        {
+          "name": "vigor",
+          "weight": 8
+        },
+        {
+          "name": "demolition",
+          "weight": 6
+        },
+        {
+          "name": "the_focused",
+          "weight": 4
+        },
+        {
+          "name": "cruelty",
+          "weight": 3
+        }
+      ],
+      "required_tempers": []
+    },
+    "gloves": {
+      "slot": "gloves",
+      "priority_uniques": [],
+      "priority_aspects": [],
+      "priority_affixes": [
+        {
+          "name": "disasters",
+          "weight": 10
+        },
+        {
+          "name": "determination",
+          "weight": 8
+        },
+        {
+          "name": "vigor",
+          "weight": 6
+        },
+        {
+          "name": "keenness",
+          "weight": 4
+        },
+        {
+          "name": "toughened",
+          "weight": 3
+        }
+      ],
+      "required_tempers": []
+    },
+    "pants": {
+      "slot": "pants",
+      "priority_uniques": [
+        "s10_gloves_unique_generic_002_legs"
+      ],
+      "priority_aspects": [],
+      "priority_affixes": [
+        {
+          "name": "unique_luck_gigagiga_highvariance",
+          "weight": 10
+        },
+        {
+          "name": "unique_attackspeed_highvariance",
+          "weight": 8
+        },
+        {
+          "name": "unique_generic_luckyhit_vulnerable_highvariance",
+          "weight": 6
+        },
+        {
+          "name": "unique_critchance_highvariance",
+          "weight": 4
+        }
+      ],
+      "required_tempers": []
+    },
+    "boots": {
+      "slot": "boots",
+      "priority_uniques": [
+        "s10_helm_unique_druid_100_boots"
+      ],
+      "priority_aspects": [],
+      "priority_affixes": [
+        {
+          "name": "impulses",
+          "weight": 10
+        },
+        {
+          "name": "the_tenacious",
+          "weight": 8
+        },
+        {
+          "name": "grounding",
+          "weight": 6
+        },
+        {
+          "name": "resources",
+          "weight": 4
+        }
+      ],
+      "required_tempers": []
+    },
+    "ring": {
+      "slot": "ring",
+      "priority_uniques": [
+        "ring_unique_generic_101"
+      ],
+      "priority_aspects": [],
+      "priority_affixes": [
+        {
+          "name": "determination",
+          "weight": 10
+        },
+        {
+          "name": "vigor",
+          "weight": 8
+        },
+        {
+          "name": "keenness",
+          "weight": 6
+        },
+        {
+          "name": "auric",
+          "weight": 4
+        },
+        {
+          "name": "riving",
+          "weight": 3
+        }
+      ],
+      "required_tempers": []
+    },
+    "amulet": {
+      "slot": "amulet",
+      "priority_uniques": [],
+      "priority_aspects": [],
+      "priority_affixes": [
+        {
+          "name": "toxicity",
+          "weight": 10
+        },
+        {
+          "name": "poison_soaked",
+          "weight": 8
+        },
+        {
+          "name": "the_tenacious",
+          "weight": 6
+        },
+        {
+          "name": "shifting",
+          "weight": 4
+        },
+        {
+          "name": "speed",
+          "weight": 3
+        }
+      ],
+      "required_tempers": []
+    }
+  }
+}

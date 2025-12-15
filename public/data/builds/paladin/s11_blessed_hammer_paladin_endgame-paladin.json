@@ -1,0 +1,167 @@
+{
+  "id": "s11_blessed_hammer_paladin_endgame-paladin",
+  "name": "S11 Blessed Hammer Paladin Endgame",
+  "class": "paladin",
+  "source_url": "https://maxroll.gg/d4/build-guides/blessed-hammer-paladin-guide",
+  "tier": "A",
+  "tags": [],
+  "last_updated": "2025-12-15",
+  "gear": {
+    "helm": {
+      "slot": "helm",
+      "priority_uniques": [
+        "helm_unique_generic_004"
+      ],
+      "priority_aspects": [],
+      "priority_affixes": [],
+      "required_tempers": []
+    },
+    "chest": {
+      "slot": "chest",
+      "priority_uniques": [
+        "chest_unique_generic_103",
+        "1hshield_unique_paladin_004"
+      ],
+      "priority_aspects": [],
+      "priority_affixes": [
+        {
+          "name": "unique_armor_giga_specialscaling",
+          "weight": 4
+        },
+        {
+          "name": "vigor",
+          "weight": 3
+        }
+      ],
+      "required_tempers": []
+    },
+    "weapon": {
+      "slot": "weapon",
+      "priority_uniques": [
+        "1hmace_unique_paladin_001"
+      ],
+      "priority_aspects": [],
+      "priority_affixes": [
+        {
+          "name": "the_powerful",
+          "weight": 4
+        },
+        {
+          "name": "vigor",
+          "weight": 3
+        }
+      ],
+      "required_tempers": []
+    },
+    "gloves": {
+      "slot": "gloves",
+      "priority_uniques": [],
+      "priority_aspects": [],
+      "priority_affixes": [
+        {
+          "name": "keenness",
+          "weight": 10
+        },
+        {
+          "name": "the_adept",
+          "weight": 8
+        },
+        {
+          "name": "principals",
+          "weight": 4
+        },
+        {
+          "name": "carnage",
+          "weight": 3
+        }
+      ],
+      "required_tempers": []
+    },
+    "pants": {
+      "slot": "pants",
+      "priority_uniques": [],
+      "priority_aspects": [],
+      "priority_affixes": [
+        {
+          "name": "the_powerful",
+          "weight": 10
+        },
+        {
+          "name": "vigor",
+          "weight": 8
+        },
+        {
+          "name": "toughened",
+          "weight": 6
+        },
+        {
+          "name": "auric",
+          "weight": 4
+        }
+      ],
+      "required_tempers": []
+    },
+    "boots": {
+      "slot": "boots",
+      "priority_uniques": [],
+      "priority_aspects": [],
+      "priority_affixes": [
+        {
+          "name": "the_powerful",
+          "weight": 10
+        },
+        {
+          "name": "vigor",
+          "weight": 8
+        },
+        {
+          "name": "toughened",
+          "weight": 6
+        },
+        {
+          "name": "swiftness",
+          "weight": 3
+        }
+      ],
+      "required_tempers": []
+    },
+    "ring": {
+      "slot": "ring",
+      "priority_uniques": [
+        "ring_unique_generic_101",
+        "ring_unique_paladin_001"
+      ],
+      "priority_aspects": [],
+      "priority_affixes": [
+        {
+          "name": "sanctification_skillrankbonus_allskills",
+          "weight": 3
+        },
+        {
+          "name": "principals",
+          "weight": 10
+        },
+        {
+          "name": "the_powerful",
+          "weight": 6
+        },
+        {
+          "name": "vigor",
+          "weight": 4
+        },
+        {
+          "name": "cruelty",
+          "weight": 3
+        }
+      ],
+      "required_tempers": []
+    },
+    "amulet": {
+      "slot": "amulet",
+      "priority_uniques": [],
+      "priority_aspects": [],
+      "priority_affixes": [],
+      "required_tempers": []
+    }
+  }
+}

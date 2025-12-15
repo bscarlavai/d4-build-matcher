@@ -1,0 +1,228 @@
+{
+  "id": "s10_barrage-rogue",
+  "name": "S10 Barrage",
+  "class": "rogue",
+  "source_url": "https://maxroll.gg/d4/build-guides/barrage-rogue-guide",
+  "tier": "A",
+  "tags": [],
+  "last_updated": "2025-12-15",
+  "gear": {
+    "helm": {
+      "slot": "helm",
+      "priority_uniques": [
+        "helm_unique_generic_004"
+      ],
+      "priority_aspects": [],
+      "priority_affixes": [],
+      "required_tempers": []
+    },
+    "chest": {
+      "slot": "chest",
+      "priority_uniques": [
+        "s10_s05_bsk_helm_unique_generic_001_chest"
+      ],
+      "priority_aspects": [],
+      "priority_affixes": [
+        {
+          "name": "s05_bsk_generic_002",
+          "weight": 10
+        },
+        {
+          "name": "vigor",
+          "weight": 8
+        },
+        {
+          "name": "swiftness",
+          "weight": 6
+        },
+        {
+          "name": "luck",
+          "weight": 4
+        },
+        {
+          "name": "sanctity",
+          "weight": 3
+        }
+      ],
+      "required_tempers": []
+    },
+    "offhand": {
+      "slot": "offhand",
+      "priority_uniques": [
+        "2hbow_unique_rogue_006"
+      ],
+      "priority_aspects": [],
+      "priority_affixes": [
+        {
+          "name": "unique_projectiles_skill_rogue_barrage",
+          "weight": 8
+        },
+        {
+          "name": "unique_skillrankbonus_rogue_core_barrage_downscaled2h",
+          "weight": 6
+        },
+        {
+          "name": "unique_passiverankbonus_rogue_cunning_t4_n2_malice_downscaled2h",
+          "weight": 4
+        },
+        {
+          "name": "unique_movement_speed_lesserlesser",
+          "weight": 3
+        },
+        {
+          "name": "the_adroit",
+          "weight": 10
+        },
+        {
+          "name": "vigor",
+          "weight": 8
+        },
+        {
+          "name": "the_focused",
+          "weight": 6
+        }
+      ],
+      "required_tempers": []
+    },
+    "weapon": {
+      "slot": "weapon",
+      "priority_uniques": [],
+      "priority_aspects": [],
+      "priority_affixes": [
+        {
+          "name": "the_adroit",
+          "weight": 10
+        },
+        {
+          "name": "vigor",
+          "weight": 8
+        },
+        {
+          "name": "the_focused",
+          "weight": 6
+        }
+      ],
+      "required_tempers": []
+    },
+    "gloves": {
+      "slot": "gloves",
+      "priority_uniques": [
+        "s10_2hcrossbow_unique_rogue_100_gloves"
+      ],
+      "priority_aspects": [],
+      "priority_affixes": [
+        {
+          "name": "unique_skillrankbonus_rogue_category_marksman",
+          "weight": 8
+        },
+        {
+          "name": "unique_passiverankbonus_rogue_t3_n1_exploit",
+          "weight": 6
+        },
+        {
+          "name": "unique_damage_to_vulnerable_higherweapon",
+          "weight": 4
+        },
+        {
+          "name": "unique_projectiles_tag_rogue_marksman",
+          "weight": 3
+        }
+      ],
+      "required_tempers": []
+    },
+    "pants": {
+      "slot": "pants",
+      "priority_uniques": [
+        "s10_1hdagger_unique_rogue_001_legs"
+      ],
+      "priority_aspects": [],
+      "priority_affixes": [
+        {
+          "name": "unique_attackspeed_basics",
+          "weight": 8
+        },
+        {
+          "name": "riving",
+          "weight": 6
+        },
+        {
+          "name": "unique_special_skill_rogue_combopoint_bonusdamage",
+          "weight": 4
+        },
+        {
+          "name": "unique_corestat_dexterity_higher",
+          "weight": 3
+        }
+      ],
+      "required_tempers": []
+    },
+    "boots": {
+      "slot": "boots",
+      "priority_uniques": [
+        "s10_gloves_unique_rogue_100_boots"
+      ],
+      "priority_aspects": [],
+      "priority_affixes": [
+        {
+          "name": "unique_attackspeed_higher",
+          "weight": 8
+        },
+        {
+          "name": "the_adept",
+          "weight": 6
+        },
+        {
+          "name": "unique_damage_generic_tag_ultimate_higher",
+          "weight": 4
+        },
+        {
+          "name": "unique_skillrankbonus_rogue_category_marksman_cutthroat",
+          "weight": 3
+        }
+      ],
+      "required_tempers": []
+    },
+    "ring": {
+      "slot": "ring",
+      "priority_uniques": [
+        "ring_unique_generic_101"
+      ],
+      "priority_aspects": [],
+      "priority_affixes": [
+        {
+          "name": "the_adroit",
+          "weight": 10
+        },
+        {
+          "name": "vigor",
+          "weight": 8
+        },
+        {
+          "name": "auric",
+          "weight": 6
+        }
+      ],
+      "required_tempers": []
+    },
+    "amulet": {
+      "slot": "amulet",
+      "priority_uniques": [],
+      "priority_aspects": [],
+      "priority_affixes": [
+        {
+          "name": "the_nimble",
+          "weight": 10
+        },
+        {
+          "name": "shattering",
+          "weight": 8
+        },
+        {
+          "name": "malice",
+          "weight": 6
+        }
+      ],
+      "required_tempers": []
+    }
+  }
+}

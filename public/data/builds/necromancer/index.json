@@ -1,0 +1,17 @@
+{
+  "class": "necromancer",
+  "builds": [
+    {
+      "id": "s11_minions-necromancer",
+      "name": "S11 Minions",
+      "tier": "A",
+      "file": "s11_minions-necromancer.json"
+    },
+    {
+      "id": "s11_spear-necromancer",
+      "name": "S11 Spear",
+      "tier": "A",
+      "file": "s11_spear-necromancer.json"
+    }
+  ]
+}

@@ -2,16 +2,16 @@
   "class": "paladin",
   "builds": [
     {
-      "id": "blessed-hammer-paladin",
-      "name": "Blessed Hammer Paladin",
-      "tier": "S",
-      "file": "blessed-hammer.json"
+      "id": "s11_wing_strikes_paladin_endgame-paladin",
+      "name": "S11 Wing Strikes Paladin Endgame",
+      "tier": "A",
+      "file": "s11_wing_strikes_paladin_endgame-paladin.json"
     },
     {
-      "id": "fist-of-heavens-paladin",
-      "name": "Fist of the Heavens Paladin",
+      "id": "s11_blessed_hammer_paladin_endgame-paladin",
+      "name": "S11 Blessed Hammer Paladin Endgame",
       "tier": "A",
-      "file": "fist-of-heavens.json"
+      "file": "s11_blessed_hammer_paladin_endgame-paladin.json"
     }
   ]
 }

@@ -1,0 +1,17 @@
+{
+  "class": "druid",
+  "builds": [
+    {
+      "id": "s11_pulverize_druid",
+      "name": "S11 Pulverize Druid",
+      "tier": "A",
+      "file": "s11_pulverize_druid.json"
+    },
+    {
+      "id": "s10_tornado_druid",
+      "name": "S10 Tornado Druid",
+      "tier": "A",
+      "file": "s10_tornado_druid.json"
+    }
+  ]
+}

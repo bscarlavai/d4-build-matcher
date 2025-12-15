@@ -1,0 +1,11 @@
+{
+  "class": "spiritborn",
+  "builds": [
+    {
+      "id": "s11_quill_volley_spiritborn",
+      "name": "S11 Quill Volley Spiritborn",
+      "tier": "A",
+      "file": "s11_quill_volley_spiritborn.json"
+    }
+  ]
+}
