@@ -1,5 +1,5 @@
 import { useState, useRef } from 'react';
-import type { PlayerClass, Item, UserGear, BuildMatch, Build } from './types';
+import type { PlayerClass, UserGear, BuildMatch, Build } from './types';
 import { parseItem } from './api/parseItem';
 import { matchBuilds } from './api/matchBuilds';
 
