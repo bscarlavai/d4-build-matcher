@@ -6,3 +6,6 @@ ENVIRONMENT = "development"
 
 # Secrets (set via `wrangler secret put`)
 # ANTHROPIC_API_KEY
+
+[assets]
+directory = "./dist"
