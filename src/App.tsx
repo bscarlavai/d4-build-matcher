@@ -37,8 +37,8 @@ function CaptureView({ onCapture, onCancel }: CaptureViewProps) {
 
       const img = new Image();
       img.onload = () => {
-        // Resize if too large (max 2000px on longest side for reasonable file size)
-        const MAX_SIZE = 2000;
+        // Resize to reduce token usage (1024px max per Claude's recommendation)
+        const MAX_SIZE = 1024;
         let width = img.width;
         let height = img.height;
 
@@ -58,8 +58,8 @@ function CaptureView({ onCapture, onCancel }: CaptureViewProps) {
         const ctx = canvas.getContext('2d');
         ctx?.drawImage(img, 0, 0, width, height);
 
-        // Use 0.85 quality to keep under 5MB limit
-        const jpegDataUrl = canvas.toDataURL('image/jpeg', 0.85);
+        // Use 0.80 quality to reduce token usage while maintaining readability
+        const jpegDataUrl = canvas.toDataURL('image/jpeg', 0.80);
         setPreview(jpegDataUrl);
       };
       img.onerror = () => {
