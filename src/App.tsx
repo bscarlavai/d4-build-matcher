@@ -198,10 +198,10 @@ function CaptureView({ onCapture, onCancel }: CaptureViewProps) {
 }
 
 const CLASSES: { id: PlayerClass; name: string }[] = [
-  { id: 'paladin', name: 'Paladin' },
   { id: 'barbarian', name: 'Barbarian' },
   { id: 'druid', name: 'Druid' },
   { id: 'necromancer', name: 'Necromancer' },
+  { id: 'paladin', name: 'Paladin' },
   { id: 'rogue', name: 'Rogue' },
   { id: 'sorcerer', name: 'Sorcerer' },
   { id: 'spiritborn', name: 'Spiritborn' },
@@ -251,17 +251,9 @@ function App() {
               <button
                 key={cls.id}
                 onClick={() => handleClassSelect(cls.id)}
-                disabled={cls.id !== 'paladin'}
-                className={`p-4 rounded-lg font-medium transition-colors ${
-                  cls.id === 'paladin'
-                    ? 'bg-red-600 hover:bg-red-700 text-white'
-                    : 'bg-gray-700 text-gray-500 cursor-not-allowed'
-                }`}
+                className="p-4 rounded-lg font-medium transition-colors bg-red-600 hover:bg-red-700 text-white"
               >
                 {cls.name}
-                {cls.id !== 'paladin' && (
-                  <span className="block text-xs mt-1">Coming Soon</span>
-                )}
               </button>
             ))}
           </div>
@@ -374,6 +366,15 @@ function App() {
       {/* Results View */}
       {appState === 'results' && (
         <div className="p-4">
+          <div className="max-w-md mx-auto mb-4">
+            <button
+              onClick={() => setAppState('inventory')}
+              className="text-sm text-gray-400 hover:text-white"
+            >
+              ← Back to Inventory
+            </button>
+          </div>
+
           <div className="text-center mb-6">
             <h2 className="text-lg font-semibold mb-2">Build Matches</h2>
             <p className="text-sm text-gray-400">Based on your {gearCount} scanned item{gearCount !== 1 ? 's' : ''}</p>
@@ -430,33 +431,39 @@ function App() {
                     </summary>
                     <div className="mt-2 space-y-2">
                       {Object.entries(match.recommendedLoadout).map(([slot, info]) => {
+                        // Tier-based styling
+                        const tierStyles = {
+                          bis: { bg: 'bg-green-900/40', text: 'text-green-400', border: 'border-green-500/30' },
+                          ancestral: { bg: 'bg-blue-900/30', text: 'text-blue-400', border: 'border-blue-500/30' },
+                          starter: { bg: 'bg-yellow-900/30', text: 'text-yellow-400', border: 'border-yellow-500/30' },
+                          not_recommended: { bg: 'bg-red-900/30', text: 'text-red-400', border: 'border-red-500/30' },
+                          none: { bg: 'bg-gray-800', text: 'text-gray-500', border: 'border-gray-700' },
+                        };
+                        const style = tierStyles[info.tier] || tierStyles.none;
                         const slotPct = info.maxScore > 0 ? Math.round((info.score / info.maxScore) * 100) : 0;
-                        const colorClass = !info.item ? 'text-gray-600' :
-                          slotPct >= 70 ? 'text-green-400' :
-                          slotPct >= 40 ? 'text-yellow-400' : 'text-red-400';
-                        const bgClass = !info.item ? 'bg-gray-700' :
-                          slotPct >= 70 ? 'bg-green-900/30' :
-                          slotPct >= 40 ? 'bg-yellow-900/30' : 'bg-red-900/30';
 
                         return (
-                          <div key={slot} className={`${bgClass} rounded p-2`}>
+                          <div key={slot} className={`${style.bg} ${style.border} border rounded p-2`}>
                             <div className="flex justify-between items-center">
-                              <span className="text-gray-500 capitalize text-xs">{slot}</span>
-                              <span className={`${colorClass} font-medium text-xs`}>
-                                {info.item ? `${slotPct}%` : '—'}
-                              </span>
+                              <span className="text-gray-400 capitalize text-xs">{slot}</span>
+                              {info.item && info.tier !== 'not_recommended' && (
+                                <span className={`${style.text} font-medium text-xs`}>
+                                  {slotPct}%
+                                </span>
+                              )}
                             </div>
                             {info.item ? (
                               <>
                                 <div className="text-gray-200 font-medium truncate">
                                   {info.item.name}
                                 </div>
-                                <div className="text-gray-500 text-xs">{info.notes}</div>
+                                <div className={`text-xs ${style.text}`}>{info.notes}</div>
                               </>
                             ) : (
                               <div className="text-gray-600 italic">No item scanned</div>
                             )}
-                            {info.item && slotPct < 50 && match.upgradePriorities.find(u => u.slot === slot) && (
+                            {info.tier !== 'none' && (info.tier === 'not_recommended' || info.tier === 'starter') &&
+                              match.upgradePriorities.find(u => u.slot === slot) && (
                               <div className="text-xs text-yellow-500 mt-1">
                                 ↑ {match.upgradePriorities.find(u => u.slot === slot)?.suggestion}
                               </div>

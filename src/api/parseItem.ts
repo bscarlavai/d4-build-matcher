@@ -7,7 +7,7 @@ const PARSE_PROMPT = `Parse this Diablo 4 item tooltip and return ONLY valid JSO
   "type": "item type (helm/chest/gloves/pants/boots/amulet/ring/weapon/offhand)",
   "item_power": number,
   "is_unique": boolean,
-  "unique_id": "lowercase_underscore_name or null",
+  "unique_id": "Exact Unique Item Name with Title Case or null",
   "affixes": [
     { "name": "affix_name_lowercase_underscores", "value": number }
   ],

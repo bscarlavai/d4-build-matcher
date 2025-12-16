@@ -22,11 +22,14 @@ export interface Build {
   gear: Record<string, SlotRequirements>;
 }
 
+export type ItemTier = 'bis' | 'ancestral' | 'starter' | 'not_recommended' | 'none';
+
 export interface ItemWithScore {
   item: import('./item').Item | null;
   score: number;
   maxScore: number;
   notes: string;
+  tier: ItemTier;
 }
 
 export interface MissingItem {
