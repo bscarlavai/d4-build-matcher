@@ -11,15 +11,22 @@ export interface SlotRequirements {
   required_tempers?: string[];
 }
 
+export interface BuildProfile {
+  name: string;
+  gear: Record<string, SlotRequirements>;
+}
+
 export interface Build {
   id: string;
   name: string;
   class: string;
+  category: string;
   source_url: string;
   tier: string;
   tags: string[];
   last_updated: string;
-  gear: Record<string, SlotRequirements>;
+  profile_order: string[];
+  profiles: Record<string, BuildProfile>;
 }
 
 export type ItemTier = 'bis' | 'ancestral' | 'starter' | 'not_recommended' | 'none';
@@ -43,15 +50,23 @@ export interface UpgradePriority {
   suggestion: string;
 }
 
-export interface BuildMatch {
-  buildId: string;
-  buildName: string;
-  tier: string;
+export interface ProfileMatch {
+  profileName: string;
+  profileDisplayName: string;
   score: number;
   maxScore: number;
   percentage: number;
   recommendedLoadout: Record<string, ItemWithScore>;
   missingCritical: MissingItem[];
   upgradePriorities: UpgradePriority[];
+}
+
+export interface BuildMatch {
+  buildId: string;
+  buildName: string;
+  tier: string;
+  profileMatches: ProfileMatch[];
+  bestProfile: string;
+  bestPercentage: number;
   sourceUrl: string;
 }

@@ -2,16 +2,10 @@
   "class": "paladin",
   "builds": [
     {
-      "id": "shield-of-retribution-paladin",
-      "name": "Shield Of Retribution Paladin",
+      "id": "judgement-paladin",
+      "name": "Judgement Paladin",
       "tier": "S",
-      "file": "shield-of-retribution-paladin.json"
-    },
-    {
-      "id": "blessed-hammer-paladin",
-      "name": "Blessed Hammer Paladin",
-      "tier": "S",
-      "file": "blessed-hammer-paladin.json"
+      "file": "judgement-paladin.json"
     },
     {
       "id": "wing-strikes-paladin",
@@ -20,22 +14,22 @@
       "file": "wing-strikes-paladin.json"
     },
     {
+      "id": "blessed-hammer-paladin",
+      "name": "Blessed Hammer Paladin",
+      "tier": "S",
+      "file": "blessed-hammer-paladin.json"
+    },
+    {
+      "id": "shield-of-retribution-paladin",
+      "name": "Shield Of Retribution Paladin",
+      "tier": "S",
+      "file": "shield-of-retribution-paladin.json"
+    },
+    {
       "id": "brandish-paladin",
       "name": "Brandish Paladin",
       "tier": "S",
       "file": "brandish-paladin.json"
-    },
-    {
-      "id": "blessed-shield-paladin",
-      "name": "Blessed Shield Paladin",
-      "tier": "A",
-      "file": "blessed-shield-paladin.json"
-    },
-    {
-      "id": "shield-charge-paladin",
-      "name": "Shield Charge Paladin",
-      "tier": "A",
-      "file": "shield-charge-paladin.json"
     },
     {
       "id": "divine-lance-paladin",
@@ -44,22 +38,34 @@
       "file": "divine-lance-paladin.json"
     },
     {
-      "id": "auradin",
-      "name": "Auradin",
-      "tier": "A",
-      "file": "auradin.json"
-    },
-    {
-      "id": "judgement-paladin",
-      "name": "Judgement Paladin",
-      "tier": "A",
-      "file": "judgement-paladin.json"
+      "id": "shield-bash-paladin",
+      "name": "Shield Bash Paladin",
+      "tier": "S",
+      "file": "shield-bash-paladin.json"
     },
     {
       "id": "zeal-paladin",
       "name": "Zeal Paladin",
       "tier": "A",
       "file": "zeal-paladin.json"
+    },
+    {
+      "id": "shield-charge-paladin",
+      "name": "Shield Charge Paladin",
+      "tier": "A",
+      "file": "shield-charge-paladin.json"
+    },
+    {
+      "id": "auradin",
+      "name": "Auradin",
+      "tier": "S",
+      "file": "auradin.json"
+    },
+    {
+      "id": "blessed-shield-paladin",
+      "name": "Blessed Shield Paladin",
+      "tier": "A",
+      "file": "blessed-shield-paladin.json"
     }
   ]
 }

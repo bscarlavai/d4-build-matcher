@@ -80,9 +80,47 @@ ITEM_TYPE_TO_SLOT = {
     "staff": "weapon",
     "bow": "weapon",
     "crossbow": "weapon",
+    "1hflail": "weapon",
+    "2hflail": "weapon",
+    "flail": "weapon",
     "focus": "offhand",
     "shield": "offhand",
     "totem": "offhand",
+}
+
+# Manual name mappings for new items not yet in Maxroll's database
+# Source: Wowhead Diablo 4 database (https://www.wowhead.com/diablo-4/items)
+# Format: "internal_id": "Human Readable Name"
+NEW_ITEM_NAMES = {
+    # Paladin Swords
+    "1hsword_unique_paladin_001": "Supplication",
+    "1hsword_unique_paladin_002": "Griswold's Opus",
+    "2hsword_unique_paladin_002": "Red Sermon",
+    # Paladin Shields
+    "1hshield_unique_paladin_001": "Gate of the Red Dawn",
+    "1hshield_unique_paladin_002": "Bastion of Sir Matthias",
+    "1hshield_unique_paladin_003": "Ward of the White Dove",
+    "1hshield_unique_paladin_004": "Herald of Zakarum",
+    "1hshield_unique_paladin_005": "Cathedral's Song",
+    # Paladin Flails
+    "1hflail_unique_paladin_003": "Light's Rebuke",
+    "1hflail_unique_paladin_004": "Sunbrand",
+    # Paladin Maces
+    "1hmace_unique_paladin_001": "Herald's Morningstar",
+    # Paladin Axes
+    "2haxe_unique_paladin_001": "Sundered Night",
+    # Paladin Armor
+    "helm_unique_paladin_002": "Judicant's Glaivehelm",
+    "chest_unique_paladin_001": "Mantle of the Grey",
+    "gloves_unique_paladin_003": "Dawnfire",
+    "pants_unique_paladin_002": "Arcadia",
+    "boots_unique_paladin_001": "March of the Stalwart Soul",
+    # Paladin Jewelry
+    "ring_unique_paladin_001": "Argent Veil",
+    "ring_unique_paladin_002": "Seal of the Second Trumpet",
+    "ring_unique_paladin_003": "Wreath of Auric Laurel",
+    "amulet_unique_paladin_002": "Sanctis of Kethamar",
+    "amulet_unique_paladin_003": "Judgment of Auriel",
 }
 
 # Cache for mapping data
@@ -322,11 +360,11 @@ def resolve_unique_item_name(item_id: str, mapping_data: dict) -> str:
     """Resolve a unique item ID to its human-readable name."""
     items_db = mapping_data.get("items", {})
 
-    # Try exact match first
+    # Try exact match in database first
     if item_id in items_db:
         return items_db[item_id].get("name", item_id)
 
-    # Try case-insensitive match
+    # Try case-insensitive match in database
     item_id_lower = item_id.lower()
     for key, item_data in items_db.items():
         if key.lower() == item_id_lower:
@@ -340,6 +378,20 @@ def resolve_unique_item_name(item_id: str, mapping_data: dict) -> str:
     for key, item_data in items_db.items():
         if key.lower() == clean_id.lower():
             return item_data.get("name", item_id)
+
+    # Check manual NEW_ITEM_NAMES mapping
+    clean_id_lower = clean_id.lower()
+    # Try exact match first
+    if clean_id_lower in NEW_ITEM_NAMES:
+        return NEW_ITEM_NAMES[clean_id_lower]
+    # Try without trailing numbers (e.g., _001, _002)
+    base_id = re.sub(r'_\d+$', '', clean_id_lower)
+    if base_id in NEW_ITEM_NAMES:
+        return NEW_ITEM_NAMES[base_id]
+    # Try partial match (for generic patterns)
+    for pattern, name in NEW_ITEM_NAMES.items():
+        if pattern in clean_id_lower:
+            return name
 
     # Fallback: clean up the ID for display
     # Remove numeric suffixes and clean up
@@ -367,44 +419,12 @@ def extract_build_name_from_url(url: str) -> str:
     return name
 
 
-def transform_to_build_json(
-    planner_data: dict,
-    profile_id: Optional[str],
-    source_url: str,
-    mapping_data: dict,
-    tier: str = "Unknown",
-    category: str = "endgame"
+def extract_gear_from_profile(
+    profile: dict,
+    items_db: dict,
+    mapping_data: dict
 ) -> dict:
-    """Transform Maxroll planner data to our build JSON format."""
-
-    # Parse the nested data JSON
-    data_str = planner_data.get("data", "{}")
-    try:
-        data = json.loads(data_str) if isinstance(data_str, str) else data_str
-    except json.JSONDecodeError:
-        data = {}
-
-    items = data.get("items", {})
-    profiles = data.get("profiles", [])  # profiles is a list!
-    active_profile_idx = data.get("activeProfile", 0)
-
-    # Find the active profile
-    if isinstance(profiles, list) and profiles:
-        # Use activeProfile index, or profile_id if provided
-        if profile_id and profile_id.isdigit():
-            idx = int(profile_id)
-            profile = profiles[idx] if idx < len(profiles) else profiles[0]
-        elif active_profile_idx < len(profiles):
-            profile = profiles[active_profile_idx]
-        else:
-            profile = profiles[0]
-    else:
-        profile = {"items": {}}
-
-    profile_name = profile.get("name", planner_data.get("name", "Unknown Build"))
-    player_class = planner_data.get("class", "unknown").lower()
-
-    # Build the gear requirements
+    """Extract gear requirements from a single profile."""
     gear = {}
     profile_items = profile.get("items", {})
 
@@ -413,7 +433,7 @@ def transform_to_build_json(
         slot = SLOT_ID_MAPPING.get(str(slot_id))
 
         # Get item data
-        item_data = items.get(str(item_ref), {})
+        item_data = items_db.get(str(item_ref), {})
         if not item_data:
             continue
 
@@ -474,6 +494,94 @@ def transform_to_build_json(
                             "weight": weight,
                         })
 
+    return gear
+
+
+# Standard profile names we want to extract (in order of progression)
+STANDARD_PROFILES = ["starter", "ancestral", "mythic"]
+
+
+def normalize_profile_name(name: str) -> Tuple[str, str]:
+    """
+    Normalize profile name to our standard names.
+    Returns (normalized_key, display_name).
+    """
+    name_lower = name.lower().strip()
+
+    # Map common variations to standard names
+    if "starter" in name_lower or "leveling" in name_lower:
+        return ("starter", "Starter")
+    elif "ancestral" in name_lower:
+        return ("ancestral", "Ancestral")
+    elif "mythic" in name_lower or "bis" in name_lower or "endgame" in name_lower:
+        return ("mythic", "Mythic")
+    elif "sanctif" in name_lower:
+        return ("sanctified", "Sanctified")
+    elif "push" in name_lower:
+        return ("push", "Push")
+
+    # Return cleaned up version if no match
+    clean_name = name.strip()
+    # Remove parentheses and their contents
+    clean_name = re.sub(r'\([^)]*\)', '', clean_name).strip()
+    if not clean_name:
+        clean_name = name.strip()
+    key = name_lower.replace(" ", "_").replace("(", "").replace(")", "")
+    return (key, clean_name.title() if clean_name else name)
+
+
+def transform_to_build_json(
+    planner_data: dict,
+    profile_id: Optional[str],
+    source_url: str,
+    mapping_data: dict,
+    tier: str = "Unknown",
+    category: str = "endgame"
+) -> dict:
+    """Transform Maxroll planner data to our build JSON format with all profiles."""
+
+    # Parse the nested data JSON
+    data_str = planner_data.get("data", "{}")
+    try:
+        data = json.loads(data_str) if isinstance(data_str, str) else data_str
+    except json.JSONDecodeError:
+        data = {}
+
+    items_db = data.get("items", {})
+    profiles_list = data.get("profiles", [])
+    player_class = planner_data.get("class", "unknown").lower()
+
+    # Extract gear from ALL profiles
+    profiles = {}
+    profile_order = []
+
+    for profile in profiles_list:
+        profile_name = profile.get("name", "Unknown")
+        normalized_key, display_name = normalize_profile_name(profile_name)
+
+        # Skip duplicate normalized names (keep first occurrence)
+        if normalized_key in profiles:
+            continue
+
+        gear = extract_gear_from_profile(profile, items_db, mapping_data)
+
+        # Only include profiles that have gear
+        if gear:
+            profiles[normalized_key] = {
+                "name": display_name,  # Clean display name
+                "gear": gear,
+            }
+            profile_order.append(normalized_key)
+
+    # Sort profiles in standard order (starter, ancestral, mythic, then others)
+    def profile_sort_key(name: str) -> int:
+        try:
+            return STANDARD_PROFILES.index(name)
+        except ValueError:
+            return len(STANDARD_PROFILES)  # Put non-standard profiles at the end
+
+    profile_order.sort(key=profile_sort_key)
+
     # Extract clean build name from URL (more reliable than planner names)
     build_name = extract_build_name_from_url(source_url)
 
@@ -492,7 +600,8 @@ def transform_to_build_json(
         "tier": tier,
         "tags": [],
         "last_updated": time.strftime("%Y-%m-%d"),
-        "gear": gear,
+        "profile_order": profile_order,
+        "profiles": profiles,
     }
 
 

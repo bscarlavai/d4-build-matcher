@@ -1,4 +1,4 @@
-import type { Item, UserGear, Build, BuildMatch, SlotRequirements, ItemWithScore, MissingItem, UpgradePriority, ItemTier } from '../types';
+import type { Item, UserGear, Build, BuildMatch, SlotRequirements, ItemWithScore, MissingItem, UpgradePriority, ItemTier, ProfileMatch } from '../types';
 
 // Tier thresholds
 const TIER_THRESHOLDS = {
@@ -17,105 +17,147 @@ export interface ScoredItem {
   hasAspect: boolean;
 }
 
+function matchGearToProfile(
+  userGear: UserGear,
+  gear: Record<string, SlotRequirements>,
+  profileName: string,
+  profileDisplayName: string
+): ProfileMatch {
+  let totalScore = 0;
+  let maxPossibleScore = 0;
+  const recommendedLoadout: Record<string, ItemWithScore> = {};
+  const missingCritical: MissingItem[] = [];
+  const upgradePriorities: UpgradePriority[] = [];
+
+  for (const [slot, requirements] of Object.entries(gear)) {
+    const userItems = userGear[slot] || [];
+
+    // Calculate max possible score for this slot
+    const slotMaxScore = calculateSlotMaxScore(requirements);
+    maxPossibleScore += slotMaxScore;
+
+    if (userItems.length === 0) {
+      // User has no item for this slot
+      if (requirements.priority_uniques && requirements.priority_uniques.length > 0) {
+        missingCritical.push({
+          slot,
+          item: requirements.priority_uniques[0],
+          importance: 'high',
+        });
+      }
+      recommendedLoadout[slot] = {
+        item: null,
+        score: 0,
+        maxScore: slotMaxScore,
+        notes: 'No item scanned',
+        tier: 'none',
+      };
+      continue;
+    }
+
+    // Score each user item for this slot, pick the best
+    let bestItem: Item | null = null;
+    let bestScored: ScoredItem | null = null;
+
+    for (const item of userItems) {
+      const scored = scoreItemForSlot(item, requirements);
+      if (!bestScored || scored.score > bestScored.score) {
+        bestScored = scored;
+        bestItem = item;
+      }
+    }
+
+    const score = bestScored?.score || 0;
+    totalScore += score;
+
+    const tier = bestScored?.tier || 'not_recommended';
+    const notes = bestItem && bestScored
+      ? generateNotes(bestItem, bestScored, requirements)
+      : 'Item does not match build';
+
+    recommendedLoadout[slot] = {
+      item: bestItem,
+      score,
+      maxScore: slotMaxScore,
+      notes,
+      tier,
+    };
+
+    // Check if this slot needs upgrade
+    if (tier === 'not_recommended' || tier === 'starter') {
+      upgradePriorities.push({
+        slot,
+        suggestion: generateUpgradeSuggestion(requirements),
+      });
+    }
+  }
+
+  const percentage = maxPossibleScore > 0 ? (totalScore / maxPossibleScore) * 100 : 0;
+
+  return {
+    profileName,
+    profileDisplayName,
+    score: totalScore,
+    maxScore: maxPossibleScore,
+    percentage: Math.round(percentage * 10) / 10,
+    recommendedLoadout,
+    missingCritical,
+    upgradePriorities,
+  };
+}
+
 export function matchBuilds(userGear: UserGear, builds: Build[]): BuildMatch[] {
   const matches: BuildMatch[] = [];
 
   for (const build of builds) {
-    let totalScore = 0;
-    let maxPossibleScore = 0;
-    const recommendedLoadout: Record<string, ItemWithScore> = {};
-    const missingCritical: MissingItem[] = [];
-    const upgradePriorities: UpgradePriority[] = [];
+    const profileMatches: ProfileMatch[] = [];
 
-    for (const [slot, requirements] of Object.entries(build.gear)) {
-      const userItems = userGear[slot] || [];
+    // Score against each profile
+    for (const profileKey of build.profile_order) {
+      const profile = build.profiles[profileKey];
+      if (!profile) continue;
 
-      // Calculate max possible score for this slot
-      const slotMaxScore = calculateSlotMaxScore(requirements);
-      maxPossibleScore += slotMaxScore;
-
-      if (userItems.length === 0) {
-        // User has no item for this slot
-        if (requirements.priority_uniques && requirements.priority_uniques.length > 0) {
-          missingCritical.push({
-            slot,
-            item: requirements.priority_uniques[0],
-            importance: 'high',
-          });
-        }
-        recommendedLoadout[slot] = {
-          item: null,
-          score: 0,
-          maxScore: slotMaxScore,
-          notes: 'No item scanned',
-          tier: 'none',
-        };
-        continue;
-      }
-
-      // Score each user item for this slot, pick the best
-      let bestItem: Item | null = null;
-      let bestScored: ScoredItem | null = null;
-
-      for (const item of userItems) {
-        const scored = scoreItemForSlot(item, requirements);
-        if (!bestScored || scored.score > bestScored.score) {
-          bestScored = scored;
-          bestItem = item;
-        }
-      }
-
-      const score = bestScored?.score || 0;
-      totalScore += score;
-
-      const tier = bestScored?.tier || 'not_recommended';
-      const notes = bestItem && bestScored
-        ? generateNotes(bestItem, bestScored, requirements)
-        : 'Item does not match build';
-
-      recommendedLoadout[slot] = {
-        item: bestItem,
-        score,
-        maxScore: slotMaxScore,
-        notes,
-        tier,
-      };
-
-      // Check if this slot needs upgrade
-      if (tier === 'not_recommended' || tier === 'starter') {
-        upgradePriorities.push({
-          slot,
-          suggestion: generateUpgradeSuggestion(requirements),
-        });
-      }
+      const profileMatch = matchGearToProfile(
+        userGear,
+        profile.gear,
+        profileKey,
+        profile.name
+      );
+      profileMatches.push(profileMatch);
     }
 
-    const percentage = maxPossibleScore > 0 ? (totalScore / maxPossibleScore) * 100 : 0;
+    // Find best profile match
+    let bestProfile = profileMatches[0]?.profileName || 'starter';
+    let bestPercentage = 0;
+
+    for (const pm of profileMatches) {
+      if (pm.percentage > bestPercentage) {
+        bestPercentage = pm.percentage;
+        bestProfile = pm.profileName;
+      }
+    }
 
     matches.push({
       buildId: build.id,
       buildName: build.name,
       tier: build.tier,
-      score: totalScore,
-      maxScore: maxPossibleScore,
-      percentage: Math.round(percentage * 10) / 10,
-      recommendedLoadout,
-      missingCritical,
-      upgradePriorities,
+      profileMatches,
+      bestProfile,
+      bestPercentage: Math.round(bestPercentage * 10) / 10,
       sourceUrl: build.source_url,
     });
   }
 
-  // Sort by percentage descending, then by build name alphabetically
+  // Sort by best percentage descending, then by build name alphabetically
   return matches.sort((a, b) => {
-    if (b.percentage !== a.percentage) {
-      return b.percentage - a.percentage;
+    if (b.bestPercentage !== a.bestPercentage) {
+      return b.bestPercentage - a.bestPercentage;
     }
     return a.buildName.localeCompare(b.buildName);
   });
 }
 
-function scoreItemForSlot(item: Item, requirements: SlotRequirements): ScoredItem {
+export function scoreItemForSlot(item: Item, requirements: SlotRequirements): ScoredItem {
   let score = 0;
   let hasPriorityUnique = false;
   let uniqueRank: number | null = null;
