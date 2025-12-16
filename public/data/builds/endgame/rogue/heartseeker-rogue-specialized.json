@@ -1,0 +1,208 @@
+{
+  "id": "heartseeker-rogue-specialized",
+  "name": "Heartseeker Rogue Specialized",
+  "class": "rogue",
+  "category": "endgame",
+  "source_url": "https://maxroll.gg/d4/build-guides/heartseeker-rogue-specialized-guide",
+  "tier": "S",
+  "tags": [],
+  "last_updated": "2025-12-15",
+  "gear": {
+    "helm": {
+      "slot": "helm",
+      "priority_uniques": [],
+      "priority_aspects": [],
+      "priority_affixes": [
+        {
+          "name": "vigor",
+          "weight": 10
+        },
+        {
+          "name": "auric",
+          "weight": 8
+        },
+        {
+          "name": "the_adroit",
+          "weight": 6
+        }
+      ],
+      "required_tempers": []
+    },
+    "chest": {
+      "slot": "chest",
+      "priority_uniques": [],
+      "priority_aspects": [],
+      "priority_affixes": [
+        {
+          "name": "the_adroit",
+          "weight": 10
+        },
+        {
+          "name": "toughened",
+          "weight": 8
+        },
+        {
+          "name": "auric",
+          "weight": 6
+        }
+      ],
+      "required_tempers": []
+    },
+    "offhand": {
+      "slot": "offhand",
+      "priority_uniques": [],
+      "priority_aspects": [],
+      "priority_affixes": [
+        {
+          "name": "the_adroit",
+          "weight": 10
+        },
+        {
+          "name": "ferocity",
+          "weight": 8
+        },
+        {
+          "name": "the_focused",
+          "weight": 6
+        },
+        {
+          "name": "vigor",
+          "weight": 4
+        },
+        {
+          "name": "cruelty",
+          "weight": 8
+        }
+      ],
+      "required_tempers": []
+    },
+    "weapon": {
+      "slot": "weapon",
+      "priority_uniques": [],
+      "priority_aspects": [],
+      "priority_affixes": [
+        {
+          "name": "the_adroit",
+          "weight": 10
+        },
+        {
+          "name": "ferocity",
+          "weight": 8
+        },
+        {
+          "name": "cruelty",
+          "weight": 6
+        }
+      ],
+      "required_tempers": []
+    },
+    "gloves": {
+      "slot": "gloves",
+      "priority_uniques": [],
+      "priority_aspects": [],
+      "priority_affixes": [
+        {
+          "name": "cruelty",
+          "weight": 10
+        },
+        {
+          "name": "the_adroit",
+          "weight": 8
+        },
+        {
+          "name": "the_adept",
+          "weight": 6
+        },
+        {
+          "name": "keenness",
+          "weight": 4
+        }
+      ],
+      "required_tempers": []
+    },
+    "pants": {
+      "slot": "pants",
+      "priority_uniques": [],
+      "priority_aspects": [],
+      "priority_affixes": [
+        {
+          "name": "vigor",
+          "weight": 10
+        },
+        {
+          "name": "the_adroit",
+          "weight": 8
+        },
+        {
+          "name": "auric",
+          "weight": 6
+        }
+      ],
+      "required_tempers": []
+    },
+    "boots": {
+      "slot": "boots",
+      "priority_uniques": [],
+      "priority_aspects": [],
+      "priority_affixes": [
+        {
+          "name": "the_adroit",
+          "weight": 10
+        },
+        {
+          "name": "speed",
+          "weight": 8
+        },
+        {
+          "name": "auric",
+          "weight": 6
+        }
+      ],
+      "required_tempers": []
+    },
+    "ring": {
+      "slot": "ring",
+      "priority_uniques": [],
+      "priority_aspects": [],
+      "priority_affixes": [
+        {
+          "name": "the_adroit",
+          "weight": 10
+        },
+        {
+          "name": "keenness",
+          "weight": 8
+        },
+        {
+          "name": "the_adept",
+          "weight": 6
+        }
+      ],
+      "required_tempers": []
+    },
+    "amulet": {
+      "slot": "amulet",
+      "priority_uniques": [],
+      "priority_aspects": [],
+      "priority_affixes": [
+        {
+          "name": "ferocity",
+          "weight": 10
+        },
+        {
+          "name": "the_adept",
+          "weight": 8
+        },
+        {
+          "name": "keenness",
+          "weight": 6
+        },
+        {
+          "name": "speed",
+          "weight": 4
+        }
+      ],
+      "required_tempers": []
+    }
+  }
+}

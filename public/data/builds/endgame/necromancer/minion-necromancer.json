@@ -1,0 +1,192 @@
+{
+  "id": "minion-necromancer",
+  "name": "Minion Necromancer",
+  "class": "necromancer",
+  "category": "endgame",
+  "source_url": "https://maxroll.gg/d4/build-guides/minion-necromancer-guide",
+  "tier": "A",
+  "tags": [],
+  "last_updated": "2025-12-15",
+  "gear": {
+    "helm": {
+      "slot": "helm",
+      "priority_uniques": [
+        "Heir of Perdition"
+      ],
+      "priority_aspects": [],
+      "priority_affixes": [],
+      "required_tempers": []
+    },
+    "chest": {
+      "slot": "chest",
+      "priority_uniques": [
+        "Shroud of False Death"
+      ],
+      "priority_aspects": [],
+      "priority_affixes": [],
+      "required_tempers": []
+    },
+    "weapon": {
+      "slot": "weapon",
+      "priority_uniques": [],
+      "priority_aspects": [],
+      "priority_affixes": [
+        {
+          "name": "the_wise",
+          "weight": 10
+        },
+        {
+          "name": "vigor",
+          "weight": 8
+        },
+        {
+          "name": "the_focused",
+          "weight": 6
+        },
+        {
+          "name": "perpetuity",
+          "weight": 4
+        }
+      ],
+      "required_tempers": []
+    },
+    "gloves": {
+      "slot": "gloves",
+      "priority_uniques": [
+        "The Hand of Naz"
+      ],
+      "priority_aspects": [],
+      "priority_affixes": [
+        {
+          "name": "unique_skillrankbonus_necro_special_skeletonmage_higher",
+          "weight": 10
+        },
+        {
+          "name": "unique_damage_necro_pet_skeletonmage",
+          "weight": 8
+        },
+        {
+          "name": "unique_attackspeed_higher",
+          "weight": 6
+        },
+        {
+          "name": "vigor",
+          "weight": 4
+        }
+      ],
+      "required_tempers": []
+    },
+    "pants": {
+      "slot": "pants",
+      "priority_uniques": [
+        "Blood Moon Breeches"
+      ],
+      "priority_aspects": [],
+      "priority_affixes": [
+        {
+          "name": "swarming",
+          "weight": 10
+        },
+        {
+          "name": "unique_critchance_higherhigher",
+          "weight": 8
+        },
+        {
+          "name": "golemlords",
+          "weight": 6
+        },
+        {
+          "name": "unique_skillrankbonus_necro_category_curse_higher",
+          "weight": 4
+        }
+      ],
+      "required_tempers": []
+    },
+    "boots": {
+      "slot": "boots",
+      "priority_uniques": [],
+      "priority_aspects": [],
+      "priority_affixes": [
+        {
+          "name": "the_wise",
+          "weight": 10
+        },
+        {
+          "name": "vigor",
+          "weight": 8
+        },
+        {
+          "name": "speed",
+          "weight": 6
+        },
+        {
+          "name": "toughened",
+          "weight": 4
+        }
+      ],
+      "required_tempers": []
+    },
+    "ring": {
+      "slot": "ring",
+      "priority_uniques": [
+        "Ring of Mendeln"
+      ],
+      "priority_aspects": [],
+      "priority_affixes": [
+        {
+          "name": "the_wise",
+          "weight": 10
+        },
+        {
+          "name": "vigor",
+          "weight": 8
+        },
+        {
+          "name": "the_adept",
+          "weight": 6
+        },
+        {
+          "name": "swiftness",
+          "weight": 4
+        },
+        {
+          "name": "unique_passiverankbonus_necro_allminionmastery",
+          "weight": 10
+        },
+        {
+          "name": "unique_attackspeed_necro_pet",
+          "weight": 8
+        },
+        {
+          "name": "unique_damage_all",
+          "weight": 6
+        }
+      ],
+      "required_tempers": []
+    },
+    "amulet": {
+      "slot": "amulet",
+      "priority_uniques": [],
+      "priority_aspects": [],
+      "priority_affixes": [
+        {
+          "name": "swarming",
+          "weight": 10
+        },
+        {
+          "name": "coalescence",
+          "weight": 8
+        },
+        {
+          "name": "gloom",
+          "weight": 6
+        },
+        {
+          "name": "keenness",
+          "weight": 4
+        }
+      ],
+      "required_tempers": []
+    }
+  }
+}

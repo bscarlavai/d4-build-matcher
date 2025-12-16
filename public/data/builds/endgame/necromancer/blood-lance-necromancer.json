@@ -1,0 +1,235 @@
+{
+  "id": "blood-lance-necromancer",
+  "name": "Blood Lance Necromancer",
+  "class": "necromancer",
+  "category": "endgame",
+  "source_url": "https://maxroll.gg/d4/build-guides/blood-lance-necromancer-guide",
+  "tier": "C",
+  "tags": [],
+  "last_updated": "2025-12-15",
+  "gear": {
+    "helm": {
+      "slot": "helm",
+      "priority_uniques": [
+        "Heir of Perdition"
+      ],
+      "priority_aspects": [],
+      "priority_affixes": [],
+      "required_tempers": []
+    },
+    "chest": {
+      "slot": "chest",
+      "priority_uniques": [
+        "Mutilator Plate"
+      ],
+      "priority_aspects": [],
+      "priority_affixes": [
+        {
+          "name": "unique_double_damage_skill_necro_bloodlance",
+          "weight": 8
+        },
+        {
+          "name": "skillrankbonus_necro_core_bloodlance_higher",
+          "weight": 6
+        },
+        {
+          "name": "the_wise",
+          "weight": 4
+        },
+        {
+          "name": "vigor",
+          "weight": 3
+        }
+      ],
+      "required_tempers": []
+    },
+    "weapon": {
+      "slot": "weapon",
+      "priority_uniques": [],
+      "priority_aspects": [],
+      "priority_affixes": [
+        {
+          "name": "the_wise",
+          "weight": 10
+        },
+        {
+          "name": "vigor",
+          "weight": 8
+        },
+        {
+          "name": "perpetuity",
+          "weight": 6
+        },
+        {
+          "name": "riving",
+          "weight": 4
+        },
+        {
+          "name": "demolition",
+          "weight": 3
+        },
+        {
+          "name": "the_focused",
+          "weight": 3
+        }
+      ],
+      "required_tempers": []
+    },
+    "gloves": {
+      "slot": "gloves",
+      "priority_uniques": [],
+      "priority_aspects": [],
+      "priority_affixes": [
+        {
+          "name": "skillrankbonus_necro_core_bloodlance",
+          "weight": 10
+        },
+        {
+          "name": "keenness",
+          "weight": 8
+        },
+        {
+          "name": "vigor",
+          "weight": 6
+        },
+        {
+          "name": "swiftness",
+          "weight": 4
+        },
+        {
+          "name": "the_wise",
+          "weight": 3
+        },
+        {
+          "name": "toughened",
+          "weight": 3
+        },
+        {
+          "name": "auric",
+          "weight": 3
+        }
+      ],
+      "required_tempers": []
+    },
+    "pants": {
+      "slot": "pants",
+      "priority_uniques": [
+        "Blood Moon Breeches"
+      ],
+      "priority_aspects": [],
+      "priority_affixes": [
+        {
+          "name": "unique_critchance_higherhigher",
+          "weight": 8
+        },
+        {
+          "name": "unique_skillrankbonus_necro_category_curse_higher",
+          "weight": 6
+        },
+        {
+          "name": "swarming",
+          "weight": 4
+        },
+        {
+          "name": "golemlords",
+          "weight": 3
+        }
+      ],
+      "required_tempers": []
+    },
+    "boots": {
+      "slot": "boots",
+      "priority_uniques": [],
+      "priority_aspects": [],
+      "priority_affixes": [
+        {
+          "name": "speed",
+          "weight": 10
+        },
+        {
+          "name": "the_wise",
+          "weight": 8
+        },
+        {
+          "name": "vigor",
+          "weight": 6
+        },
+        {
+          "name": "toughened",
+          "weight": 4
+        },
+        {
+          "name": "auric",
+          "weight": 3
+        }
+      ],
+      "required_tempers": []
+    },
+    "ring": {
+      "slot": "ring",
+      "priority_uniques": [
+        "Ring of Starless Skies"
+      ],
+      "priority_aspects": [],
+      "priority_affixes": [
+        {
+          "name": "keenness",
+          "weight": 10
+        },
+        {
+          "name": "swiftness",
+          "weight": 8
+        },
+        {
+          "name": "the_wise",
+          "weight": 6
+        },
+        {
+          "name": "vigor",
+          "weight": 4
+        },
+        {
+          "name": "the_adept",
+          "weight": 3
+        },
+        {
+          "name": "demolition",
+          "weight": 3
+        }
+      ],
+      "required_tempers": []
+    },
+    "amulet": {
+      "slot": "amulet",
+      "priority_uniques": [],
+      "priority_aspects": [],
+      "priority_affixes": [
+        {
+          "name": "drowning",
+          "weight": 10
+        },
+        {
+          "name": "coalescence",
+          "weight": 8
+        },
+        {
+          "name": "tormenting",
+          "weight": 6
+        },
+        {
+          "name": "keenness",
+          "weight": 4
+        },
+        {
+          "name": "swiftness",
+          "weight": 3
+        },
+        {
+          "name": "vigor",
+          "weight": 3
+        }
+      ],
+      "required_tempers": []
+    }
+  }
+}

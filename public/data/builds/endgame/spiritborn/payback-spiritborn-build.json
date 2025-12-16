@@ -1,0 +1,190 @@
+{
+  "id": "payback-spiritborn-build",
+  "name": "Payback Spiritborn Build",
+  "class": "spiritborn",
+  "category": "endgame",
+  "source_url": "https://maxroll.gg/d4/build-guides/payback-spiritborn-build-guide",
+  "tier": "B",
+  "tags": [],
+  "last_updated": "2025-12-15",
+  "gear": {
+    "helm": {
+      "slot": "helm",
+      "priority_uniques": [
+        "Harmony of Ebewaka"
+      ],
+      "priority_aspects": [],
+      "priority_affixes": [
+        {
+          "name": "unique_corestats_all_higher",
+          "weight": 8
+        },
+        {
+          "name": "unique_movement_speed_lesser",
+          "weight": 6
+        },
+        {
+          "name": "the_adroit",
+          "weight": 4
+        },
+        {
+          "name": "unique_passiverankbonus_spiritborn_velocity_higher",
+          "weight": 3
+        }
+      ],
+      "required_tempers": []
+    },
+    "chest": {
+      "slot": "chest",
+      "priority_uniques": [
+        "Shroud of False Death"
+      ],
+      "priority_aspects": [],
+      "priority_affixes": [],
+      "required_tempers": []
+    },
+    "gloves": {
+      "slot": "gloves",
+      "priority_uniques": [
+        "Hesha e Kesungi"
+      ],
+      "priority_aspects": [],
+      "priority_affixes": [
+        {
+          "name": "unique_skillrankbonus_spiritborn_category_gorilla",
+          "weight": 8
+        },
+        {
+          "name": "unique_attackspeed_higher",
+          "weight": 6
+        },
+        {
+          "name": "unique_cdr_tag_generic_ultimate_higher",
+          "weight": 4
+        },
+        {
+          "name": "unique_damage_to_vulnerable_higher",
+          "weight": 3
+        }
+      ],
+      "required_tempers": []
+    },
+    "pants": {
+      "slot": "pants",
+      "priority_uniques": [
+        "Tibault's Will"
+      ],
+      "priority_aspects": [],
+      "priority_affixes": [
+        {
+          "name": "harmony",
+          "weight": 8
+        },
+        {
+          "name": "the_adept",
+          "weight": 6
+        },
+        {
+          "name": "resources",
+          "weight": 4
+        },
+        {
+          "name": "keenness",
+          "weight": 3
+        }
+      ],
+      "required_tempers": []
+    },
+    "boots": {
+      "slot": "boots",
+      "priority_uniques": [],
+      "priority_aspects": [],
+      "priority_affixes": [
+        {
+          "name": "speed",
+          "weight": 10
+        },
+        {
+          "name": "the_adroit",
+          "weight": 8
+        },
+        {
+          "name": "vigor",
+          "weight": 6
+        },
+        {
+          "name": "auric",
+          "weight": 4
+        }
+      ],
+      "required_tempers": []
+    },
+    "ring": {
+      "slot": "ring",
+      "priority_uniques": [
+        "Ring of the Midnight Sun",
+        "Ring of the Midday Hunt"
+      ],
+      "priority_aspects": [],
+      "priority_affixes": [
+        {
+          "name": "the_adroit",
+          "weight": 8
+        },
+        {
+          "name": "swiftness",
+          "weight": 6
+        },
+        {
+          "name": "the_focused",
+          "weight": 4
+        },
+        {
+          "name": "unique_x1_passiverankbonus_spiritborn_talent_plains_2_mirage_higher",
+          "weight": 3
+        },
+        {
+          "name": "unique_movement_speed_generic_afteranykill",
+          "weight": 8
+        },
+        {
+          "name": "unique_lifeonkill",
+          "weight": 6
+        },
+        {
+          "name": "unique_attackspeed_higher",
+          "weight": 4
+        },
+        {
+          "name": "unique_x1_passiverankbonus_spiritborn_talent_soil_2_nourishment_higher",
+          "weight": 3
+        }
+      ],
+      "required_tempers": []
+    },
+    "amulet": {
+      "slot": "amulet",
+      "priority_uniques": [],
+      "priority_aspects": [],
+      "priority_affixes": [
+        {
+          "name": "resources",
+          "weight": 10
+        },
+        {
+          "name": "elevation",
+          "weight": 8
+        },
+        {
+          "name": "sparking",
+          "weight": 6
+        },
+        {
+          "name": "incinerating",
+          "weight": 4
+        }
+      ],
+      "required_tempers": []
+    }
+  }
+}

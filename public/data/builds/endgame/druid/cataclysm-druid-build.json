@@ -1,0 +1,255 @@
+{
+  "id": "cataclysm-druid-build",
+  "name": "Cataclysm Druid Build",
+  "class": "druid",
+  "category": "endgame",
+  "source_url": "https://maxroll.gg/d4/build-guides/cataclysm-druid-build-guide",
+  "tier": "A",
+  "tags": [],
+  "last_updated": "2025-12-15",
+  "gear": {
+    "helm": {
+      "slot": "helm",
+      "priority_uniques": [
+        "Tempest Roar"
+      ],
+      "priority_aspects": [],
+      "priority_affixes": [
+        {
+          "name": "the_tenacious",
+          "weight": 10
+        },
+        {
+          "name": "resources",
+          "weight": 8
+        },
+        {
+          "name": "impulses",
+          "weight": 6
+        },
+        {
+          "name": "grounding",
+          "weight": 4
+        }
+      ],
+      "required_tempers": []
+    },
+    "chest": {
+      "slot": "chest",
+      "priority_uniques": [
+        "Shroud of False Death"
+      ],
+      "priority_aspects": [],
+      "priority_affixes": [],
+      "required_tempers": []
+    },
+    "weapon": {
+      "slot": "weapon",
+      "priority_uniques": [],
+      "priority_aspects": [],
+      "priority_affixes": [
+        {
+          "name": "determination",
+          "weight": 10
+        },
+        {
+          "name": "vigor",
+          "weight": 8
+        },
+        {
+          "name": "carnage",
+          "weight": 6
+        },
+        {
+          "name": "demolition",
+          "weight": 4
+        },
+        {
+          "name": "the_focused",
+          "weight": 3
+        },
+        {
+          "name": "cruelty",
+          "weight": 3
+        }
+      ],
+      "required_tempers": []
+    },
+    "gloves": {
+      "slot": "gloves",
+      "priority_uniques": [],
+      "priority_aspects": [],
+      "priority_affixes": [
+        {
+          "name": "determination",
+          "weight": 10
+        },
+        {
+          "name": "the_adept",
+          "weight": 8
+        },
+        {
+          "name": "swiftness",
+          "weight": 6
+        },
+        {
+          "name": "vigor",
+          "weight": 4
+        },
+        {
+          "name": "carnage",
+          "weight": 3
+        },
+        {
+          "name": "toughened",
+          "weight": 3
+        },
+        {
+          "name": "auric",
+          "weight": 3
+        }
+      ],
+      "required_tempers": []
+    },
+    "pants": {
+      "slot": "pants",
+      "priority_uniques": [],
+      "priority_aspects": [],
+      "priority_affixes": [
+        {
+          "name": "determination",
+          "weight": 10
+        },
+        {
+          "name": "vigor",
+          "weight": 8
+        },
+        {
+          "name": "auric",
+          "weight": 6
+        },
+        {
+          "name": "toughened",
+          "weight": 4
+        },
+        {
+          "name": "evasion",
+          "weight": 3
+        }
+      ],
+      "required_tempers": []
+    },
+    "boots": {
+      "slot": "boots",
+      "priority_uniques": [
+        "Khamsin Steppewalkers"
+      ],
+      "priority_aspects": [],
+      "priority_affixes": [
+        {
+          "name": "unique_cooldownreductioncdr_druid_tag_naturemagic_verybig",
+          "weight": 10
+        },
+        {
+          "name": "speed",
+          "weight": 6
+        },
+        {
+          "name": "unique_passiverankbonus_druid_naturemagic_t4_n1_electricshock",
+          "weight": 4
+        },
+        {
+          "name": "unique_duration_generic_cc_all_higher",
+          "weight": 3
+        }
+      ],
+      "required_tempers": []
+    },
+    "ring": {
+      "slot": "ring",
+      "priority_uniques": [
+        "Mj\u00f6lnic Ryng"
+      ],
+      "priority_aspects": [],
+      "priority_affixes": [
+        {
+          "name": "determination",
+          "weight": 10
+        },
+        {
+          "name": "the_adept",
+          "weight": 8
+        },
+        {
+          "name": "vigor",
+          "weight": 6
+        },
+        {
+          "name": "carnage",
+          "weight": 4
+        },
+        {
+          "name": "swiftness",
+          "weight": 3
+        },
+        {
+          "name": "auric",
+          "weight": 3
+        },
+        {
+          "name": "demolition",
+          "weight": 3
+        },
+        {
+          "name": "endless_storm",
+          "weight": 10
+        },
+        {
+          "name": "unique_corestat_willpower_higher",
+          "weight": 8
+        },
+        {
+          "name": "unique_movement_speed_druid_whilecataclysm",
+          "weight": 4
+        }
+      ],
+      "required_tempers": []
+    },
+    "amulet": {
+      "slot": "amulet",
+      "priority_uniques": [],
+      "priority_aspects": [],
+      "priority_affixes": [
+        {
+          "name": "poison_soaked",
+          "weight": 10
+        },
+        {
+          "name": "resonance",
+          "weight": 8
+        },
+        {
+          "name": "shifting",
+          "weight": 6
+        },
+        {
+          "name": "determination",
+          "weight": 4
+        },
+        {
+          "name": "the_adept",
+          "weight": 3
+        },
+        {
+          "name": "swiftness",
+          "weight": 3
+        },
+        {
+          "name": "branching",
+          "weight": 3
+        }
+      ],
+      "required_tempers": []
+    }
+  }
+}

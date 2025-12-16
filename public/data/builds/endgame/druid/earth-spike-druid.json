@@ -1,0 +1,226 @@
+{
+  "id": "earth-spike-druid",
+  "name": "Earth Spike Druid",
+  "class": "druid",
+  "category": "endgame",
+  "source_url": "https://maxroll.gg/d4/build-guides/earth-spike-druid-guide",
+  "tier": "A",
+  "tags": [],
+  "last_updated": "2025-12-15",
+  "gear": {
+    "helm": {
+      "slot": "helm",
+      "priority_uniques": [
+        "Vasily's Prayer"
+      ],
+      "priority_aspects": [],
+      "priority_affixes": [
+        {
+          "name": "the_tenacious",
+          "weight": 10
+        },
+        {
+          "name": "vigor",
+          "weight": 8
+        },
+        {
+          "name": "toughened",
+          "weight": 6
+        },
+        {
+          "name": "unique_passiverankbonus_druid_04_defensiveposture",
+          "weight": 4
+        }
+      ],
+      "required_tempers": []
+    },
+    "chest": {
+      "slot": "chest",
+      "priority_uniques": [
+        "Shroud of False Death"
+      ],
+      "priority_aspects": [],
+      "priority_affixes": [
+        {
+          "name": "resources",
+          "weight": 10
+        },
+        {
+          "name": "the_adept",
+          "weight": 8
+        },
+        {
+          "name": "carnage",
+          "weight": 6
+        },
+        {
+          "name": "determination",
+          "weight": 4
+        },
+        {
+          "name": "vigor",
+          "weight": 3
+        },
+        {
+          "name": "swiftness",
+          "weight": 3
+        }
+      ],
+      "required_tempers": []
+    },
+    "gloves": {
+      "slot": "gloves",
+      "priority_uniques": [],
+      "priority_aspects": [],
+      "priority_affixes": [
+        {
+          "name": "determination",
+          "weight": 10
+        },
+        {
+          "name": "keenness",
+          "weight": 8
+        },
+        {
+          "name": "the_adept",
+          "weight": 6
+        },
+        {
+          "name": "vigor",
+          "weight": 4
+        },
+        {
+          "name": "auric",
+          "weight": 3
+        },
+        {
+          "name": "toughened",
+          "weight": 3
+        }
+      ],
+      "required_tempers": []
+    },
+    "pants": {
+      "slot": "pants",
+      "priority_uniques": [
+        "Tibault's Will"
+      ],
+      "priority_aspects": [],
+      "priority_affixes": [
+        {
+          "name": "keenness",
+          "weight": 8
+        },
+        {
+          "name": "the_adept",
+          "weight": 6
+        },
+        {
+          "name": "harmony",
+          "weight": 4
+        },
+        {
+          "name": "resources",
+          "weight": 3
+        }
+      ],
+      "required_tempers": []
+    },
+    "boots": {
+      "slot": "boots",
+      "priority_uniques": [],
+      "priority_aspects": [],
+      "priority_affixes": [
+        {
+          "name": "determination",
+          "weight": 10
+        },
+        {
+          "name": "vigor",
+          "weight": 8
+        },
+        {
+          "name": "speed",
+          "weight": 6
+        },
+        {
+          "name": "toughened",
+          "weight": 4
+        },
+        {
+          "name": "auric",
+          "weight": 3
+        }
+      ],
+      "required_tempers": []
+    },
+    "ring": {
+      "slot": "ring",
+      "priority_uniques": [],
+      "priority_aspects": [],
+      "priority_affixes": [
+        {
+          "name": "determination",
+          "weight": 10
+        },
+        {
+          "name": "riving",
+          "weight": 8
+        },
+        {
+          "name": "keenness",
+          "weight": 6
+        },
+        {
+          "name": "the_adept",
+          "weight": 4
+        },
+        {
+          "name": "vigor",
+          "weight": 3
+        },
+        {
+          "name": "auric",
+          "weight": 3
+        }
+      ],
+      "required_tempers": []
+    },
+    "amulet": {
+      "slot": "amulet",
+      "priority_uniques": [],
+      "priority_aspects": [],
+      "priority_affixes": [
+        {
+          "name": "poison_soaked",
+          "weight": 10
+        },
+        {
+          "name": "shifting",
+          "weight": 8
+        },
+        {
+          "name": "branching",
+          "weight": 6
+        },
+        {
+          "name": "the_adept",
+          "weight": 4
+        },
+        {
+          "name": "keenness",
+          "weight": 3
+        },
+        {
+          "name": "determination",
+          "weight": 3
+        },
+        {
+          "name": "toxicity",
+          "weight": 3
+        }
+      ],
+      "required_tempers": []
+    }
+  }
+}

@@ -1,0 +1,232 @@
+{
+  "id": "rake-spiritborn",
+  "name": "Rake Spiritborn",
+  "class": "spiritborn",
+  "category": "endgame",
+  "source_url": "https://maxroll.gg/d4/build-guides/rake-spiritborn-guide",
+  "tier": "A",
+  "tags": [],
+  "last_updated": "2025-12-15",
+  "gear": {
+    "helm": {
+      "slot": "helm",
+      "priority_uniques": [
+        "Heir of Perdition"
+      ],
+      "priority_aspects": [],
+      "priority_affixes": [],
+      "required_tempers": []
+    },
+    "chest": {
+      "slot": "chest",
+      "priority_uniques": [
+        "Shroud of False Death"
+      ],
+      "priority_aspects": [],
+      "priority_affixes": [],
+      "required_tempers": []
+    },
+    "gloves": {
+      "slot": "gloves",
+      "priority_uniques": [
+        "Hesha e Kesungi"
+      ],
+      "priority_aspects": [],
+      "priority_affixes": [
+        {
+          "name": "unique_attackspeed_higher",
+          "weight": 10
+        },
+        {
+          "name": "unique_cdr_tag_generic_ultimate_higher",
+          "weight": 8
+        },
+        {
+          "name": "unique_damage_to_vulnerable_higher",
+          "weight": 6
+        },
+        {
+          "name": "unique_skillrankbonus_spiritborn_category_gorilla",
+          "weight": 4
+        }
+      ],
+      "required_tempers": []
+    },
+    "pants": {
+      "slot": "pants",
+      "priority_uniques": [
+        "Balazan's Maxtlatl"
+      ],
+      "priority_aspects": [],
+      "priority_affixes": [
+        {
+          "name": "unique_thorns_higher",
+          "weight": 10
+        },
+        {
+          "name": "unique_passiverankbonus_spiritborn_talent_forest_4_bastion",
+          "weight": 8
+        },
+        {
+          "name": "the_adroit",
+          "weight": 6
+        },
+        {
+          "name": "vigor",
+          "weight": 4
+        }
+      ],
+      "required_tempers": []
+    },
+    "boots": {
+      "slot": "boots",
+      "priority_uniques": [],
+      "priority_aspects": [],
+      "priority_affixes": [
+        {
+          "name": "the_adroit",
+          "weight": 10
+        },
+        {
+          "name": "vigor",
+          "weight": 8
+        },
+        {
+          "name": "toughened",
+          "weight": 6
+        },
+        {
+          "name": "speed",
+          "weight": 4
+        },
+        {
+          "name": "auric",
+          "weight": 3
+        },
+        {
+          "name": "infusing",
+          "weight": 3
+        }
+      ],
+      "required_tempers": []
+    },
+    "ring": {
+      "slot": "ring",
+      "priority_uniques": [
+        "Wound Drinker"
+      ],
+      "priority_aspects": [],
+      "priority_affixes": [
+        {
+          "name": "unique_thorns_higher",
+          "weight": 8
+        },
+        {
+          "name": "unique_damage_generic_to_poisoned",
+          "weight": 6
+        },
+        {
+          "name": "toughened",
+          "weight": 4
+        },
+        {
+          "name": "venom",
+          "weight": 3
+        },
+        {
+          "name": "riving",
+          "weight": 10
+        },
+        {
+          "name": "the_adroit",
+          "weight": 8
+        },
+        {
+          "name": "keenness",
+          "weight": 6
+        },
+        {
+          "name": "swiftness",
+          "weight": 4
+        },
+        {
+          "name": "the_adept",
+          "weight": 3
+        },
+        {
+          "name": "vigor",
+          "weight": 3
+        },
+        {
+          "name": "the_focused",
+          "weight": 3
+        },
+        {
+          "name": "cruelty",
+          "weight": 3
+        },
+        {
+          "name": "auric",
+          "weight": 3
+        },
+        {
+          "name": "carnage",
+          "weight": 3
+        }
+      ],
+      "required_tempers": []
+    },
+    "amulet": {
+      "slot": "amulet",
+      "priority_uniques": [],
+      "priority_aspects": [],
+      "priority_affixes": [
+        {
+          "name": "elevation",
+          "weight": 10
+        },
+        {
+          "name": "surmounting",
+          "weight": 8
+        },
+        {
+          "name": "rampaging",
+          "weight": 6
+        },
+        {
+          "name": "riving",
+          "weight": 4
+        },
+        {
+          "name": "keenness",
+          "weight": 3
+        },
+        {
+          "name": "the_adept",
+          "weight": 3
+        },
+        {
+          "name": "swiftness",
+          "weight": 3
+        },
+        {
+          "name": "vigor",
+          "weight": 3
+        },
+        {
+          "name": "speed",
+          "weight": 3
+        },
+        {
+          "name": "auric",
+          "weight": 3
+        },
+        {
+          "name": "the_adroit",
+          "weight": 3
+        }
+      ],
+      "required_tempers": []
+    }
+  }
+}

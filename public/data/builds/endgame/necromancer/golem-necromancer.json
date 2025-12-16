@@ -1,0 +1,199 @@
+{
+  "id": "golem-necromancer",
+  "name": "Golem Necromancer",
+  "class": "necromancer",
+  "category": "endgame",
+  "source_url": "https://maxroll.gg/d4/build-guides/golem-necromancer-guide",
+  "tier": "A",
+  "tags": [],
+  "last_updated": "2025-12-15",
+  "gear": {
+    "helm": {
+      "slot": "helm",
+      "priority_uniques": [
+        "Heir of Perdition"
+      ],
+      "priority_aspects": [],
+      "priority_affixes": [],
+      "required_tempers": []
+    },
+    "chest": {
+      "slot": "chest",
+      "priority_uniques": [
+        "Shroud of False Death"
+      ],
+      "priority_aspects": [],
+      "priority_affixes": [
+        {
+          "name": "perpetuity",
+          "weight": 10
+        },
+        {
+          "name": "the_wise",
+          "weight": 8
+        },
+        {
+          "name": "vigor",
+          "weight": 6
+        },
+        {
+          "name": "swiftness",
+          "weight": 4
+        }
+      ],
+      "required_tempers": []
+    },
+    "weapon": {
+      "slot": "weapon",
+      "priority_uniques": [
+        "Gravebloom"
+      ],
+      "priority_aspects": [],
+      "priority_affixes": [
+        {
+          "name": "unique_hit_twice_skill_necro_golem",
+          "weight": 10
+        },
+        {
+          "name": "golemlords",
+          "weight": 8
+        },
+        {
+          "name": "vigor",
+          "weight": 6
+        },
+        {
+          "name": "unique_corestat_intelligence_higher",
+          "weight": 4
+        }
+      ],
+      "required_tempers": []
+    },
+    "gloves": {
+      "slot": "gloves",
+      "priority_uniques": [],
+      "priority_aspects": [],
+      "priority_affixes": [
+        {
+          "name": "the_wise",
+          "weight": 10
+        },
+        {
+          "name": "keenness",
+          "weight": 8
+        },
+        {
+          "name": "vigor",
+          "weight": 6
+        },
+        {
+          "name": "the_focused",
+          "weight": 4
+        }
+      ],
+      "required_tempers": []
+    },
+    "pants": {
+      "slot": "pants",
+      "priority_uniques": [
+        "Blood Moon Breeches"
+      ],
+      "priority_aspects": [],
+      "priority_affixes": [
+        {
+          "name": "golemlords",
+          "weight": 10
+        },
+        {
+          "name": "swarming",
+          "weight": 8
+        },
+        {
+          "name": "unique_critchance_higherhigher",
+          "weight": 6
+        },
+        {
+          "name": "unique_skillrankbonus_necro_category_curse_higher",
+          "weight": 4
+        }
+      ],
+      "required_tempers": []
+    },
+    "boots": {
+      "slot": "boots",
+      "priority_uniques": [],
+      "priority_aspects": [],
+      "priority_affixes": [
+        {
+          "name": "the_wise",
+          "weight": 10
+        },
+        {
+          "name": "vigor",
+          "weight": 8
+        },
+        {
+          "name": "speed",
+          "weight": 6
+        },
+        {
+          "name": "toughened",
+          "weight": 4
+        }
+      ],
+      "required_tempers": []
+    },
+    "ring": {
+      "slot": "ring",
+      "priority_uniques": [],
+      "priority_aspects": [],
+      "priority_affixes": [
+        {
+          "name": "swiftness",
+          "weight": 10
+        },
+        {
+          "name": "keenness",
+          "weight": 8
+        },
+        {
+          "name": "the_wise",
+          "weight": 6
+        },
+        {
+          "name": "vigor",
+          "weight": 4
+        },
+        {
+          "name": "riving",
+          "weight": 4
+        }
+      ],
+      "required_tempers": []
+    },
+    "amulet": {
+      "slot": "amulet",
+      "priority_uniques": [],
+      "priority_aspects": [],
+      "priority_affixes": [
+        {
+          "name": "swarming",
+          "weight": 10
+        },
+        {
+          "name": "coalescence",
+          "weight": 8
+        },
+        {
+          "name": "tormenting",
+          "weight": 6
+        },
+        {
+          "name": "the_wise",
+          "weight": 4
+        }
+      ],
+      "required_tempers": []
+    }
+  }
+}

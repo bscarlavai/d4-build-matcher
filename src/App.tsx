@@ -295,13 +295,13 @@ function App() {
                 onClick={async () => {
                   try {
                     // Fetch build data for the player's class
-                    const indexRes = await fetch(`/data/builds/${playerClass}/index.json`);
+                    const indexRes = await fetch(`/data/builds/endgame/${playerClass}/index.json`);
                     const index = await indexRes.json();
 
                     // Fetch all builds
                     const builds: Build[] = await Promise.all(
                       index.builds.map(async (b: { file: string }) => {
-                        const res = await fetch(`/data/builds/${playerClass}/${b.file}`);
+                        const res = await fetch(`/data/builds/endgame/${playerClass}/${b.file}`);
                         return res.json();
                       })
                     );

@@ -372,7 +372,8 @@ def transform_to_build_json(
     profile_id: Optional[str],
     source_url: str,
     mapping_data: dict,
-    tier: str = "Unknown"
+    tier: str = "Unknown",
+    category: str = "endgame"
 ) -> dict:
     """Transform Maxroll planner data to our build JSON format."""
 
@@ -486,6 +487,7 @@ def transform_to_build_json(
         "id": build_id,
         "name": build_name,
         "class": player_class,
+        "category": category,
         "source_url": source_url,
         "tier": tier,
         "tags": [],
@@ -560,7 +562,7 @@ def main():
     # Determine output directory
     script_dir = Path(__file__).parent
     project_root = script_dir.parent
-    output_dir = project_root / "public" / "data" / "builds"
+    output_dir = project_root / "public" / "data" / "builds" / "endgame"
 
     print(f"Output directory: {output_dir}")
 
