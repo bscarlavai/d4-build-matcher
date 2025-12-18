@@ -6,7 +6,7 @@
   "source_url": "https://maxroll.gg/d4/build-guides/flurry-rogue-guide",
   "tier": "S",
   "tags": [],
-  "last_updated": "2025-12-17",
+  "last_updated": "2025-12-18",
   "profile_order": [
     "starter",
     "ancestral",
@@ -67,7 +67,7 @@
               "weight": 10
             },
             {
-              "name": "the_focused",
+              "name": "cruelty",
               "weight": 8
             },
             {
@@ -91,7 +91,7 @@
               "weight": 10
             },
             {
-              "name": "the_focused",
+              "name": "cruelty",
               "weight": 8
             },
             {
@@ -290,7 +290,7 @@
               "weight": 6
             },
             {
-              "name": "the_focused",
+              "name": "ferocity",
               "weight": 4
             },
             {
@@ -506,7 +506,7 @@
               "weight": 6
             },
             {
-              "name": "the_focused",
+              "name": "ferocity",
               "weight": 4
             },
             {
@@ -726,7 +726,7 @@
               "weight": 6
             },
             {
-              "name": "the_focused",
+              "name": "ferocity",
               "weight": 4
             },
             {

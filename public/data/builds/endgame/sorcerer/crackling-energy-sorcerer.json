@@ -6,7 +6,7 @@
   "source_url": "https://maxroll.gg/d4/build-guides/crackling-energy-sorcerer-guide",
   "tier": "S",
   "tags": [],
-  "last_updated": "2025-12-17",
+  "last_updated": "2025-12-18",
   "profile_order": [
     "starter",
     "ancestral",
@@ -972,25 +972,26 @@
         "chest": {
           "slot": "chest",
           "priority_uniques": [
-            "Shroud of False Death"
+            "Shroud of False Death",
+            "Okun's Catalyst"
           ],
           "priority_aspects": [],
           "priority_affixes": [
             {
-              "name": "carnage",
-              "weight": 10
-            },
-            {
-              "name": "swiftness",
+              "name": "the_wise",
               "weight": 8
             },
             {
-              "name": "the_adept",
+              "name": "unique_attackspeed_after_using_defensive",
               "weight": 6
             },
             {
-              "name": "the_wise",
+              "name": "the_voltaic",
               "weight": 4
+            },
+            {
+              "name": "unique_projectiles_skill_sorc_balllightning",
+              "weight": 3
             }
           ],
           "required_tempers": []
@@ -1035,7 +1036,7 @@
               "weight": 8
             },
             {
-              "name": "keenness",
+              "name": "carnage",
               "weight": 6
             },
             {

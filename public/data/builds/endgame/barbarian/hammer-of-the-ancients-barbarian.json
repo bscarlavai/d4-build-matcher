@@ -6,7 +6,7 @@
   "source_url": "https://maxroll.gg/d4/build-guides/hammer-of-the-ancients-barbarian-guide",
   "tier": "S",
   "tags": [],
-  "last_updated": "2025-12-17",
+  "last_updated": "2025-12-18",
   "profile_order": [
     "mythic",
     "start",
@@ -699,10 +699,27 @@
         "amulet": {
           "slot": "amulet",
           "priority_uniques": [
-            "Melted Heart of Selig"
+            "Battle Trance"
           ],
           "priority_aspects": [],
-          "priority_affixes": [],
+          "priority_affixes": [
+            {
+              "name": "the_adept",
+              "weight": 8
+            },
+            {
+              "name": "the_sturdy",
+              "weight": 6
+            },
+            {
+              "name": "resource_maxfury_greater_jewelry_unique",
+              "weight": 4
+            },
+            {
+              "name": "unique_skillrankbonus_barb_basic_3_frenzy_double",
+              "weight": 3
+            }
+          ],
           "required_tempers": []
         }
       }
@@ -934,10 +951,27 @@
         "amulet": {
           "slot": "amulet",
           "priority_uniques": [
-            "Melted Heart of Selig"
+            "Battle Trance"
           ],
           "priority_aspects": [],
-          "priority_affixes": [],
+          "priority_affixes": [
+            {
+              "name": "the_adept",
+              "weight": 8
+            },
+            {
+              "name": "the_sturdy",
+              "weight": 6
+            },
+            {
+              "name": "resource_maxfury_greater_jewelry_unique",
+              "weight": 4
+            },
+            {
+              "name": "unique_skillrankbonus_barb_basic_3_frenzy_double",
+              "weight": 3
+            }
+          ],
           "required_tempers": []
         }
       }
@@ -1171,10 +1205,27 @@
         "amulet": {
           "slot": "amulet",
           "priority_uniques": [
-            "Melted Heart of Selig"
+            "Battle Trance"
           ],
           "priority_aspects": [],
-          "priority_affixes": [],
+          "priority_affixes": [
+            {
+              "name": "the_adept",
+              "weight": 8
+            },
+            {
+              "name": "the_sturdy",
+              "weight": 6
+            },
+            {
+              "name": "resource_maxfury_greater_jewelry_unique",
+              "weight": 4
+            },
+            {
+              "name": "unique_skillrankbonus_barb_basic_3_frenzy_double",
+              "weight": 3
+            }
+          ],
           "required_tempers": []
         }
       }
