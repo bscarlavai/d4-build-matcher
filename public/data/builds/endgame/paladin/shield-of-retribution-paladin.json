@@ -6,7 +6,7 @@
   "source_url": "https://maxroll.gg/d4/build-guides/shield-of-retribution-paladin-guide",
   "tier": "S",
   "tags": [],
-  "last_updated": "2025-12-18",
+  "last_updated": "2025-12-19",
   "profile_order": [
     "starter",
     "ancestral",
@@ -224,15 +224,11 @@
         "chest": {
           "slot": "chest",
           "priority_uniques": [
-            "Mantle of the Grey",
+            "Razorplate",
             "Ward of the White Dove"
           ],
           "priority_aspects": [],
           "priority_affixes": [
-            {
-              "name": "unique_lifeflat_higherhigher",
-              "weight": 4
-            },
             {
               "name": "vigor",
               "weight": 6
@@ -276,11 +272,11 @@
               "weight": 8
             },
             {
-              "name": "the_adept",
+              "name": "carnage",
               "weight": 6
             },
             {
-              "name": "carnage",
+              "name": "the_adept",
               "weight": 4
             }
           ],
@@ -292,15 +288,15 @@
           "priority_aspects": [],
           "priority_affixes": [
             {
-              "name": "vigor",
+              "name": "regeneration",
               "weight": 10
             },
             {
-              "name": "the_powerful",
+              "name": "vigor",
               "weight": 8
             },
             {
-              "name": "auric",
+              "name": "the_powerful",
               "weight": 6
             },
             {
@@ -328,7 +324,7 @@
               "weight": 6
             },
             {
-              "name": "auric",
+              "name": "regeneration",
               "weight": 4
             }
           ],
@@ -368,16 +364,16 @@
           "priority_aspects": [],
           "priority_affixes": [
             {
-              "name": "the_adept",
+              "name": "keenness",
               "weight": 8
             },
             {
-              "name": "keenness",
+              "name": "the_adept",
               "weight": 6
             },
             {
               "name": "swiftness",
-              "weight": 4
+              "weight": 3
             }
           ],
           "required_tempers": []
@@ -451,7 +447,7 @@
               "weight": 6
             },
             {
-              "name": "vigor",
+              "name": "the_adept",
               "weight": 4
             }
           ],
@@ -463,15 +459,15 @@
           "priority_aspects": [],
           "priority_affixes": [
             {
-              "name": "vigor",
+              "name": "regeneration",
               "weight": 10
             },
             {
-              "name": "the_powerful",
+              "name": "vigor",
               "weight": 8
             },
             {
-              "name": "auric",
+              "name": "the_powerful",
               "weight": 6
             },
             {
@@ -499,7 +495,7 @@
               "weight": 6
             },
             {
-              "name": "auric",
+              "name": "regeneration",
               "weight": 4
             }
           ],
@@ -537,12 +533,8 @@
           "priority_aspects": [],
           "priority_affixes": [
             {
-              "name": "keenness",
-              "weight": 8
-            },
-            {
               "name": "swiftness",
-              "weight": 6
+              "weight": 4
             }
           ],
           "required_tempers": []
@@ -616,7 +608,7 @@
               "weight": 6
             },
             {
-              "name": "vigor",
+              "name": "the_adept",
               "weight": 4
             }
           ],
@@ -628,15 +620,15 @@
           "priority_aspects": [],
           "priority_affixes": [
             {
-              "name": "vigor",
+              "name": "regeneration",
               "weight": 10
             },
             {
-              "name": "the_powerful",
+              "name": "vigor",
               "weight": 8
             },
             {
-              "name": "auric",
+              "name": "the_powerful",
               "weight": 6
             },
             {
@@ -664,7 +656,7 @@
               "weight": 6
             },
             {
-              "name": "auric",
+              "name": "regeneration",
               "weight": 4
             }
           ],
@@ -677,6 +669,10 @@
           ],
           "priority_aspects": [],
           "priority_affixes": [
+            {
+              "name": "sanctification_skillrankbonus_allskills",
+              "weight": 3
+            },
             {
               "name": "riving",
               "weight": 10
@@ -702,12 +698,8 @@
           "priority_aspects": [],
           "priority_affixes": [
             {
-              "name": "keenness",
-              "weight": 8
-            },
-            {
               "name": "swiftness",
-              "weight": 6
+              "weight": 4
             }
           ],
           "required_tempers": []
@@ -781,7 +773,7 @@
               "weight": 6
             },
             {
-              "name": "vigor",
+              "name": "the_adept",
               "weight": 4
             }
           ],
@@ -793,15 +785,15 @@
           "priority_aspects": [],
           "priority_affixes": [
             {
-              "name": "vigor",
+              "name": "regeneration",
               "weight": 10
             },
             {
-              "name": "the_powerful",
+              "name": "vigor",
               "weight": 8
             },
             {
-              "name": "auric",
+              "name": "the_powerful",
               "weight": 6
             },
             {
@@ -829,7 +821,7 @@
               "weight": 6
             },
             {
-              "name": "auric",
+              "name": "regeneration",
               "weight": 4
             }
           ],
@@ -867,12 +859,8 @@
           "priority_aspects": [],
           "priority_affixes": [
             {
-              "name": "keenness",
-              "weight": 8
-            },
-            {
               "name": "swiftness",
-              "weight": 6
+              "weight": 4
             }
           ],
           "required_tempers": []

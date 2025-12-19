@@ -6,7 +6,7 @@
   "source_url": "https://maxroll.gg/d4/build-guides/brandish-paladin-guide",
   "tier": "S",
   "tags": [],
-  "last_updated": "2025-12-18",
+  "last_updated": "2025-12-19",
   "profile_order": [
     "starter",
     "ancestral",
@@ -87,7 +87,7 @@
           "priority_affixes": [
             {
               "name": "unique_attackspeed_basics",
-              "weight": 4
+              "weight": 6
             },
             {
               "name": "the_powerful",
@@ -170,11 +170,11 @@
           "priority_aspects": [],
           "priority_affixes": [
             {
-              "name": "swiftness",
+              "name": "keenness",
               "weight": 10
             },
             {
-              "name": "keenness",
+              "name": "carnage",
               "weight": 8
             },
             {
@@ -182,7 +182,7 @@
               "weight": 6
             },
             {
-              "name": "carnage",
+              "name": "swiftness",
               "weight": 4
             },
             {
@@ -202,7 +202,7 @@
           "priority_aspects": [],
           "priority_affixes": [
             {
-              "name": "swiftness",
+              "name": "resources",
               "weight": 10
             },
             {
@@ -249,9 +249,7 @@
         },
         "chest": {
           "slot": "chest",
-          "priority_uniques": [
-            "Herald of Zakarum"
-          ],
+          "priority_uniques": [],
           "priority_aspects": [],
           "priority_affixes": [
             {
@@ -271,7 +269,11 @@
               "weight": 4
             },
             {
-              "name": "unique_armor_giga_specialscaling",
+              "name": "sturdiness",
+              "weight": 10
+            },
+            {
+              "name": "the_adept",
               "weight": 8
             }
           ],
@@ -286,7 +288,7 @@
           "priority_affixes": [
             {
               "name": "unique_attackspeed_basics",
-              "weight": 4
+              "weight": 6
             },
             {
               "name": "the_powerful",
@@ -313,7 +315,7 @@
               "weight": 6
             },
             {
-              "name": "keenness",
+              "name": "the_powerful",
               "weight": 4
             }
           ],
@@ -369,11 +371,11 @@
           "priority_aspects": [],
           "priority_affixes": [
             {
-              "name": "swiftness",
+              "name": "keenness",
               "weight": 10
             },
             {
-              "name": "keenness",
+              "name": "carnage",
               "weight": 8
             },
             {
@@ -381,16 +383,12 @@
               "weight": 6
             },
             {
-              "name": "carnage",
+              "name": "the_powerful",
               "weight": 4
             },
             {
-              "name": "vigor",
-              "weight": 8
-            },
-            {
-              "name": "the_powerful",
-              "weight": 6
+              "name": "swiftness",
+              "weight": 10
             }
           ],
           "required_tempers": []
@@ -401,16 +399,16 @@
           "priority_aspects": [],
           "priority_affixes": [
             {
-              "name": "swiftness",
+              "name": "resources",
               "weight": 10
             },
             {
-              "name": "the_adept",
+              "name": "keenness",
               "weight": 8
             },
             {
-              "name": "keenness",
-              "weight": 6
+              "name": "swiftness",
+              "weight": 3
             }
           ],
           "required_tempers": []
@@ -432,18 +430,25 @@
         "chest": {
           "slot": "chest",
           "priority_uniques": [
-            "Shroud of False Death",
-            "Herald of Zakarum"
+            "Shroud of False Death"
           ],
           "priority_aspects": [],
           "priority_affixes": [
             {
-              "name": "unique_armor_giga_specialscaling",
+              "name": "sturdiness",
+              "weight": 10
+            },
+            {
+              "name": "the_adept",
               "weight": 8
             },
             {
-              "name": "vigor",
+              "name": "the_powerful",
               "weight": 6
+            },
+            {
+              "name": "vigor",
+              "weight": 4
             }
           ],
           "required_tempers": []
@@ -457,7 +462,7 @@
           "priority_affixes": [
             {
               "name": "unique_attackspeed_basics",
-              "weight": 4
+              "weight": 6
             },
             {
               "name": "the_powerful",
@@ -484,7 +489,7 @@
               "weight": 6
             },
             {
-              "name": "keenness",
+              "name": "the_powerful",
               "weight": 4
             }
           ],
@@ -540,23 +545,23 @@
           "priority_aspects": [],
           "priority_affixes": [
             {
-              "name": "swiftness",
+              "name": "keenness",
               "weight": 10
             },
             {
-              "name": "keenness",
+              "name": "carnage",
               "weight": 8
             },
             {
-              "name": "the_powerful",
+              "name": "swiftness",
               "weight": 6
             },
             {
-              "name": "carnage",
+              "name": "the_powerful",
               "weight": 4
             },
             {
-              "name": "vigor",
+              "name": "the_adept",
               "weight": 8
             }
           ],
@@ -568,12 +573,16 @@
           "priority_aspects": [],
           "priority_affixes": [
             {
-              "name": "swiftness",
+              "name": "resources",
               "weight": 10
             },
             {
               "name": "keenness",
               "weight": 8
+            },
+            {
+              "name": "swiftness",
+              "weight": 3
             }
           ],
           "required_tempers": []
@@ -595,18 +604,25 @@
         "chest": {
           "slot": "chest",
           "priority_uniques": [
-            "Shroud of False Death",
-            "Herald of Zakarum"
+            "Shroud of False Death"
           ],
           "priority_aspects": [],
           "priority_affixes": [
             {
-              "name": "unique_armor_giga_specialscaling",
+              "name": "sturdiness",
+              "weight": 10
+            },
+            {
+              "name": "the_adept",
               "weight": 8
             },
             {
-              "name": "vigor",
+              "name": "the_powerful",
               "weight": 6
+            },
+            {
+              "name": "vigor",
+              "weight": 4
             }
           ],
           "required_tempers": []
@@ -620,7 +636,7 @@
           "priority_affixes": [
             {
               "name": "unique_attackspeed_basics",
-              "weight": 4
+              "weight": 6
             },
             {
               "name": "the_powerful",
@@ -647,7 +663,7 @@
               "weight": 6
             },
             {
-              "name": "keenness",
+              "name": "the_powerful",
               "weight": 4
             }
           ],
@@ -707,23 +723,27 @@
           "priority_aspects": [],
           "priority_affixes": [
             {
-              "name": "swiftness",
+              "name": "keenness",
               "weight": 10
             },
             {
-              "name": "keenness",
+              "name": "carnage",
               "weight": 8
             },
             {
-              "name": "the_powerful",
+              "name": "swiftness",
               "weight": 6
             },
             {
-              "name": "carnage",
+              "name": "the_powerful",
               "weight": 4
             },
             {
-              "name": "vigor",
+              "name": "sanctification_skillrankbonus_allskills",
+              "weight": 3
+            },
+            {
+              "name": "the_adept",
               "weight": 8
             }
           ],
@@ -735,12 +755,16 @@
           "priority_aspects": [],
           "priority_affixes": [
             {
-              "name": "swiftness",
+              "name": "resources",
               "weight": 10
             },
             {
               "name": "keenness",
               "weight": 8
+            },
+            {
+              "name": "swiftness",
+              "weight": 3
             }
           ],
           "required_tempers": []
@@ -762,18 +786,25 @@
         "chest": {
           "slot": "chest",
           "priority_uniques": [
-            "Shroud of False Death",
-            "Herald of Zakarum"
+            "Shroud of False Death"
           ],
           "priority_aspects": [],
           "priority_affixes": [
             {
-              "name": "unique_armor_giga_specialscaling",
+              "name": "sturdiness",
+              "weight": 10
+            },
+            {
+              "name": "the_adept",
               "weight": 8
             },
             {
-              "name": "vigor",
+              "name": "the_powerful",
               "weight": 6
+            },
+            {
+              "name": "vigor",
+              "weight": 4
             }
           ],
           "required_tempers": []
@@ -787,7 +818,7 @@
           "priority_affixes": [
             {
               "name": "unique_attackspeed_basics",
-              "weight": 4
+              "weight": 6
             },
             {
               "name": "the_powerful",
@@ -814,7 +845,7 @@
               "weight": 6
             },
             {
-              "name": "keenness",
+              "name": "the_powerful",
               "weight": 4
             }
           ],
@@ -870,23 +901,23 @@
           "priority_aspects": [],
           "priority_affixes": [
             {
-              "name": "swiftness",
+              "name": "keenness",
               "weight": 10
             },
             {
-              "name": "keenness",
+              "name": "carnage",
               "weight": 8
             },
             {
-              "name": "the_powerful",
+              "name": "swiftness",
               "weight": 6
             },
             {
-              "name": "carnage",
+              "name": "the_powerful",
               "weight": 4
             },
             {
-              "name": "vigor",
+              "name": "the_adept",
               "weight": 8
             }
           ],
@@ -898,12 +929,16 @@
           "priority_aspects": [],
           "priority_affixes": [
             {
-              "name": "swiftness",
+              "name": "resources",
               "weight": 10
             },
             {
               "name": "keenness",
               "weight": 8
+            },
+            {
+              "name": "swiftness",
+              "weight": 3
             }
           ],
           "required_tempers": []
