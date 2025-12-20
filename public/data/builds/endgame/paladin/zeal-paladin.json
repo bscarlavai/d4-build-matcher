@@ -6,7 +6,7 @@
   "source_url": "https://maxroll.gg/d4/build-guides/zeal-paladin-guide",
   "tier": "A",
   "tags": [],
-  "last_updated": "2025-12-19",
+  "last_updated": "2025-12-20",
   "profile_order": [
     "starter",
     "ancestral",
@@ -95,6 +95,10 @@
           "priority_uniques": [],
           "priority_aspects": [],
           "priority_affixes": [
+            {
+              "name": "ph_zealots",
+              "weight": 10
+            },
             {
               "name": "keenness",
               "weight": 8
@@ -233,6 +237,10 @@
               "weight": 8
             },
             {
+              "name": "auras",
+              "weight": 6
+            },
+            {
               "name": "toughened",
               "weight": 4
             }
@@ -246,6 +254,14 @@
           ],
           "priority_aspects": [],
           "priority_affixes": [
+            {
+              "name": "unique_double_damage_skill_pal_zeal",
+              "weight": 8
+            },
+            {
+              "name": "the_zealot",
+              "weight": 6
+            },
             {
               "name": "carnage",
               "weight": 4
@@ -262,6 +278,10 @@
           "priority_uniques": [],
           "priority_aspects": [],
           "priority_affixes": [
+            {
+              "name": "ph_zealots",
+              "weight": 10
+            },
             {
               "name": "keenness",
               "weight": 8
@@ -373,6 +393,26 @@
             {
               "name": "the_adept",
               "weight": 6
+            },
+            {
+              "name": "iron",
+              "weight": 4
+            },
+            {
+              "name": "fortitude",
+              "weight": 3
+            },
+            {
+              "name": "cracking",
+              "weight": 3
+            },
+            {
+              "name": "offense",
+              "weight": 3
+            },
+            {
+              "name": "heartiness",
+              "weight": 3
             }
           ],
           "required_tempers": []
@@ -408,6 +448,14 @@
           "priority_aspects": [],
           "priority_affixes": [
             {
+              "name": "unique_double_damage_skill_pal_zeal",
+              "weight": 8
+            },
+            {
+              "name": "the_zealot",
+              "weight": 6
+            },
+            {
               "name": "carnage",
               "weight": 4
             },
@@ -423,6 +471,10 @@
           "priority_uniques": [],
           "priority_aspects": [],
           "priority_affixes": [
+            {
+              "name": "ph_zealots",
+              "weight": 10
+            },
             {
               "name": "keenness",
               "weight": 8
@@ -526,6 +578,30 @@
             {
               "name": "keenness",
               "weight": 8
+            },
+            {
+              "name": "discipline",
+              "weight": 6
+            },
+            {
+              "name": "iron",
+              "weight": 4
+            },
+            {
+              "name": "fortitude",
+              "weight": 3
+            },
+            {
+              "name": "cracking",
+              "weight": 3
+            },
+            {
+              "name": "offense",
+              "weight": 3
+            },
+            {
+              "name": "heartiness",
+              "weight": 3
             }
           ],
           "required_tempers": []
@@ -561,6 +637,14 @@
           "priority_aspects": [],
           "priority_affixes": [
             {
+              "name": "unique_double_damage_skill_pal_zeal",
+              "weight": 8
+            },
+            {
+              "name": "the_zealot",
+              "weight": 6
+            },
+            {
               "name": "carnage",
               "weight": 4
             },
@@ -576,6 +660,10 @@
           "priority_uniques": [],
           "priority_aspects": [],
           "priority_affixes": [
+            {
+              "name": "ph_zealots",
+              "weight": 10
+            },
             {
               "name": "keenness",
               "weight": 8
@@ -679,6 +767,30 @@
             {
               "name": "keenness",
               "weight": 8
+            },
+            {
+              "name": "discipline",
+              "weight": 6
+            },
+            {
+              "name": "iron",
+              "weight": 4
+            },
+            {
+              "name": "fortitude",
+              "weight": 3
+            },
+            {
+              "name": "cracking",
+              "weight": 3
+            },
+            {
+              "name": "offense",
+              "weight": 3
+            },
+            {
+              "name": "heartiness",
+              "weight": 3
             }
           ],
           "required_tempers": []
@@ -714,6 +826,14 @@
           "priority_aspects": [],
           "priority_affixes": [
             {
+              "name": "unique_double_damage_skill_pal_zeal",
+              "weight": 8
+            },
+            {
+              "name": "the_zealot",
+              "weight": 6
+            },
+            {
               "name": "carnage",
               "weight": 4
             },
@@ -729,6 +849,10 @@
           "priority_uniques": [],
           "priority_aspects": [],
           "priority_affixes": [
+            {
+              "name": "ph_zealots",
+              "weight": 10
+            },
             {
               "name": "keenness",
               "weight": 8
@@ -832,6 +956,30 @@
             {
               "name": "keenness",
               "weight": 8
+            },
+            {
+              "name": "discipline",
+              "weight": 6
+            },
+            {
+              "name": "iron",
+              "weight": 4
+            },
+            {
+              "name": "fortitude",
+              "weight": 3
+            },
+            {
+              "name": "cracking",
+              "weight": 3
+            },
+            {
+              "name": "offense",
+              "weight": 3
+            },
+            {
+              "name": "heartiness",
+              "weight": 3
             }
           ],
           "required_tempers": []

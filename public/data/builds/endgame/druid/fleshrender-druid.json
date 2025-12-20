@@ -6,7 +6,7 @@
   "source_url": "https://maxroll.gg/d4/build-guides/fleshrender-druid-guide",
   "tier": "A",
   "tags": [],
-  "last_updated": "2025-12-19",
+  "last_updated": "2025-12-20",
   "profile_order": [
     "ancestral",
     "mythic",
@@ -652,6 +652,10 @@
             {
               "name": "ferocity",
               "weight": 3
+            },
+            {
+              "name": "the_adroit",
+              "weight": 3
             }
           ],
           "required_tempers": []
@@ -677,6 +681,10 @@
             },
             {
               "name": "unique_skillrankbonus_generic_category_defensive_higher",
+              "weight": 3
+            },
+            {
+              "name": "the_adroit",
               "weight": 3
             }
           ],
@@ -1226,6 +1234,10 @@
             {
               "name": "riving",
               "weight": 3
+            },
+            {
+              "name": "the_adroit",
+              "weight": 3
             }
           ],
           "required_tempers": []
@@ -1251,6 +1263,10 @@
             },
             {
               "name": "unique_skillrankbonus_generic_category_defensive_higher",
+              "weight": 3
+            },
+            {
+              "name": "the_adroit",
               "weight": 3
             }
           ],

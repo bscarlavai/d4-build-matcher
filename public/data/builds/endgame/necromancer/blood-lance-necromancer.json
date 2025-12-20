@@ -6,7 +6,7 @@
   "source_url": "https://maxroll.gg/d4/build-guides/blood-lance-necromancer-guide",
   "tier": "C",
   "tags": [],
-  "last_updated": "2025-12-19",
+  "last_updated": "2025-12-20",
   "profile_order": [
     "starter",
     "ancestral",
@@ -71,6 +71,18 @@
             {
               "name": "auric",
               "weight": 4
+            },
+            {
+              "name": "swiftness",
+              "weight": 8
+            },
+            {
+              "name": "sturdiness",
+              "weight": 6
+            },
+            {
+              "name": "the_adept",
+              "weight": 3
             }
           ],
           "required_tempers": []
@@ -81,11 +93,11 @@
           "priority_aspects": [],
           "priority_affixes": [
             {
-              "name": "the_wise",
+              "name": "vigor",
               "weight": 10
             },
             {
-              "name": "vigor",
+              "name": "the_wise",
               "weight": 8
             },
             {
@@ -322,6 +334,22 @@
             {
               "name": "vigor",
               "weight": 3
+            },
+            {
+              "name": "swiftness",
+              "weight": 8
+            },
+            {
+              "name": "sturdiness",
+              "weight": 6
+            },
+            {
+              "name": "toughened",
+              "weight": 4
+            },
+            {
+              "name": "the_adept",
+              "weight": 3
             }
           ],
           "required_tempers": []
@@ -543,6 +571,22 @@
             },
             {
               "name": "vigor",
+              "weight": 3
+            },
+            {
+              "name": "swiftness",
+              "weight": 8
+            },
+            {
+              "name": "sturdiness",
+              "weight": 6
+            },
+            {
+              "name": "toughened",
+              "weight": 4
+            },
+            {
+              "name": "the_adept",
               "weight": 3
             }
           ],
@@ -771,6 +815,22 @@
             },
             {
               "name": "vigor",
+              "weight": 3
+            },
+            {
+              "name": "swiftness",
+              "weight": 8
+            },
+            {
+              "name": "sturdiness",
+              "weight": 6
+            },
+            {
+              "name": "toughened",
+              "weight": 4
+            },
+            {
+              "name": "the_adept",
               "weight": 3
             }
           ],
@@ -1009,6 +1069,22 @@
             {
               "name": "the_focused",
               "weight": 3
+            },
+            {
+              "name": "swiftness",
+              "weight": 8
+            },
+            {
+              "name": "sturdiness",
+              "weight": 6
+            },
+            {
+              "name": "toughened",
+              "weight": 4
+            },
+            {
+              "name": "the_adept",
+              "weight": 3
             }
           ],
           "required_tempers": []
@@ -1033,6 +1109,14 @@
             {
               "name": "riving",
               "weight": 4
+            },
+            {
+              "name": "demolition",
+              "weight": 3
+            },
+            {
+              "name": "the_focused",
+              "weight": 3
             }
           ],
           "required_tempers": []
@@ -1210,6 +1294,22 @@
             {
               "name": "the_focused",
               "weight": 3
+            },
+            {
+              "name": "swiftness",
+              "weight": 8
+            },
+            {
+              "name": "sturdiness",
+              "weight": 6
+            },
+            {
+              "name": "toughened",
+              "weight": 4
+            },
+            {
+              "name": "the_adept",
+              "weight": 3
             }
           ],
           "required_tempers": []
@@ -1220,11 +1320,11 @@
           "priority_aspects": [],
           "priority_affixes": [
             {
-              "name": "the_wise",
+              "name": "vigor",
               "weight": 10
             },
             {
-              "name": "vigor",
+              "name": "the_wise",
               "weight": 8
             },
             {
@@ -1234,6 +1334,14 @@
             {
               "name": "riving",
               "weight": 4
+            },
+            {
+              "name": "demolition",
+              "weight": 3
+            },
+            {
+              "name": "the_focused",
+              "weight": 3
             }
           ],
           "required_tempers": []

@@ -6,7 +6,7 @@
   "source_url": "https://maxroll.gg/d4/build-guides/divine-lance-paladin-guide",
   "tier": "A",
   "tags": [],
-  "last_updated": "2025-12-19",
+  "last_updated": "2025-12-20",
   "profile_order": [
     "starter",
     "ancestral",
@@ -35,7 +35,7 @@
               "weight": 6
             },
             {
-              "name": "toughened",
+              "name": "sanctity",
               "weight": 4
             }
           ],
@@ -135,11 +135,11 @@
               "weight": 8
             },
             {
-              "name": "toughened",
+              "name": "dampening",
               "weight": 6
             },
             {
-              "name": "dampening",
+              "name": "toughened",
               "weight": 4
             }
           ],
@@ -155,15 +155,15 @@
               "weight": 10
             },
             {
-              "name": "vigor",
+              "name": "the_powerful",
               "weight": 8
             },
             {
-              "name": "the_powerful",
+              "name": "vigor",
               "weight": 6
             },
             {
-              "name": "sanctity",
+              "name": "toughened",
               "weight": 4
             }
           ],
@@ -276,8 +276,16 @@
               "weight": 4
             },
             {
+              "name": "unique_skillrankbonus_paladin_core",
+              "weight": 8
+            },
+            {
               "name": "unique_armor_giga_specialscaling",
               "weight": 6
+            },
+            {
+              "name": "unique_double_damage_skill_pal_retribution",
+              "weight": 3
             }
           ],
           "required_tempers": []
@@ -289,6 +297,14 @@
           ],
           "priority_aspects": [],
           "priority_affixes": [
+            {
+              "name": "unique_double_damage_skill_pal_divinelance",
+              "weight": 10
+            },
+            {
+              "name": "the_divine_lance",
+              "weight": 8
+            },
             {
               "name": "the_powerful",
               "weight": 4
@@ -305,6 +321,10 @@
           "priority_uniques": [],
           "priority_aspects": [],
           "priority_affixes": [
+            {
+              "name": "the_divine_lance",
+              "weight": 10
+            },
             {
               "name": "carnage",
               "weight": 8
@@ -443,12 +463,20 @@
           "priority_aspects": [],
           "priority_affixes": [
             {
+              "name": "unique_skillrankbonus_paladin_core",
+              "weight": 8
+            },
+            {
               "name": "unique_armor_giga_specialscaling",
               "weight": 6
             },
             {
               "name": "vigor",
               "weight": 4
+            },
+            {
+              "name": "unique_double_damage_skill_pal_retribution",
+              "weight": 3
             }
           ],
           "required_tempers": []
@@ -460,6 +488,14 @@
           ],
           "priority_aspects": [],
           "priority_affixes": [
+            {
+              "name": "unique_double_damage_skill_pal_divinelance",
+              "weight": 10
+            },
+            {
+              "name": "the_divine_lance",
+              "weight": 8
+            },
             {
               "name": "the_powerful",
               "weight": 4
@@ -476,6 +512,10 @@
           "priority_uniques": [],
           "priority_aspects": [],
           "priority_affixes": [
+            {
+              "name": "the_divine_lance",
+              "weight": 10
+            },
             {
               "name": "carnage",
               "weight": 8
@@ -569,7 +609,36 @@
           "slot": "amulet",
           "priority_uniques": [],
           "priority_aspects": [],
-          "priority_affixes": [],
+          "priority_affixes": [
+            {
+              "name": "discipline",
+              "weight": 10
+            },
+            {
+              "name": "offense",
+              "weight": 8
+            },
+            {
+              "name": "fortitude",
+              "weight": 6
+            },
+            {
+              "name": "cracking",
+              "weight": 4
+            },
+            {
+              "name": "iron",
+              "weight": 3
+            },
+            {
+              "name": "riposting",
+              "weight": 3
+            },
+            {
+              "name": "heartiness",
+              "weight": 3
+            }
+          ],
           "required_tempers": []
         }
       }
@@ -599,12 +668,20 @@
               "weight": 3
             },
             {
+              "name": "unique_skillrankbonus_paladin_core",
+              "weight": 8
+            },
+            {
               "name": "unique_armor_giga_specialscaling",
               "weight": 6
             },
             {
               "name": "vigor",
               "weight": 4
+            },
+            {
+              "name": "unique_double_damage_skill_pal_retribution",
+              "weight": 3
             }
           ],
           "required_tempers": []
@@ -617,11 +694,23 @@
           "priority_aspects": [],
           "priority_affixes": [
             {
+              "name": "unique_double_damage_skill_pal_divinelance",
+              "weight": 10
+            },
+            {
+              "name": "the_divine_lance",
+              "weight": 8
+            },
+            {
               "name": "the_powerful",
               "weight": 4
             },
             {
               "name": "life_greater",
+              "weight": 3
+            },
+            {
+              "name": "the_adroit",
               "weight": 3
             }
           ],
@@ -632,6 +721,10 @@
           "priority_uniques": [],
           "priority_aspects": [],
           "priority_affixes": [
+            {
+              "name": "the_divine_lance",
+              "weight": 10
+            },
             {
               "name": "carnage",
               "weight": 8
@@ -733,7 +826,36 @@
           "slot": "amulet",
           "priority_uniques": [],
           "priority_aspects": [],
-          "priority_affixes": [],
+          "priority_affixes": [
+            {
+              "name": "discipline",
+              "weight": 10
+            },
+            {
+              "name": "offense",
+              "weight": 8
+            },
+            {
+              "name": "fortitude",
+              "weight": 6
+            },
+            {
+              "name": "cracking",
+              "weight": 4
+            },
+            {
+              "name": "iron",
+              "weight": 3
+            },
+            {
+              "name": "riposting",
+              "weight": 3
+            },
+            {
+              "name": "heartiness",
+              "weight": 3
+            }
+          ],
           "required_tempers": []
         }
       }
