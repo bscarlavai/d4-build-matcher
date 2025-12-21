@@ -6,7 +6,7 @@
   "source_url": "https://maxroll.gg/d4/build-guides/judgement-paladin-guide",
   "tier": "S",
   "tags": [],
-  "last_updated": "2025-12-20",
+  "last_updated": "2025-12-21",
   "profile_order": [
     "starter",
     "ancestral",
@@ -385,7 +385,7 @@
               "weight": 6
             },
             {
-              "name": "auric",
+              "name": "regeneration",
               "weight": 4
             }
           ],
@@ -471,15 +471,15 @@
           "priority_aspects": [],
           "priority_affixes": [
             {
-              "name": "offense",
+              "name": "righteousness",
               "weight": 10
             },
             {
-              "name": "heartiness",
+              "name": "offense",
               "weight": 8
             },
             {
-              "name": "righteousness",
+              "name": "heartiness",
               "weight": 6
             },
             {
@@ -653,7 +653,7 @@
               "weight": 6
             },
             {
-              "name": "auric",
+              "name": "regeneration",
               "weight": 4
             }
           ],
@@ -720,15 +720,15 @@
           "priority_aspects": [],
           "priority_affixes": [
             {
-              "name": "offense",
+              "name": "righteousness",
               "weight": 10
             },
             {
-              "name": "heartiness",
+              "name": "offense",
               "weight": 8
             },
             {
-              "name": "righteousness",
+              "name": "heartiness",
               "weight": 6
             },
             {
@@ -902,7 +902,7 @@
               "weight": 6
             },
             {
-              "name": "auric",
+              "name": "regeneration",
               "weight": 4
             }
           ],
@@ -981,15 +981,15 @@
           "priority_aspects": [],
           "priority_affixes": [
             {
-              "name": "offense",
+              "name": "righteousness",
               "weight": 10
             },
             {
-              "name": "heartiness",
+              "name": "offense",
               "weight": 8
             },
             {
-              "name": "righteousness",
+              "name": "heartiness",
               "weight": 6
             },
             {
@@ -1163,7 +1163,7 @@
               "weight": 6
             },
             {
-              "name": "auric",
+              "name": "regeneration",
               "weight": 4
             }
           ],
@@ -1230,15 +1230,15 @@
           "priority_aspects": [],
           "priority_affixes": [
             {
-              "name": "offense",
+              "name": "righteousness",
               "weight": 10
             },
             {
-              "name": "heartiness",
+              "name": "offense",
               "weight": 8
             },
             {
-              "name": "righteousness",
+              "name": "heartiness",
               "weight": 6
             },
             {
@@ -1360,31 +1360,27 @@
           "priority_aspects": [],
           "priority_affixes": [
             {
-              "name": "riving",
+              "name": "swiftness",
               "weight": 10
             },
             {
-              "name": "swiftness",
+              "name": "the_powerful",
               "weight": 8
             },
             {
-              "name": "the_powerful",
+              "name": "the_adept",
               "weight": 6
             },
             {
-              "name": "the_adept",
+              "name": "vigor",
               "weight": 4
             },
             {
-              "name": "vigor",
+              "name": "toughened",
               "weight": 3
             },
             {
               "name": "cruelty",
-              "weight": 3
-            },
-            {
-              "name": "toughened",
               "weight": 3
             },
             {
@@ -1400,11 +1396,11 @@
           "priority_aspects": [],
           "priority_affixes": [
             {
-              "name": "the_powerful",
+              "name": "carrying",
               "weight": 10
             },
             {
-              "name": "vigor",
+              "name": "the_powerful",
               "weight": 8
             },
             {
@@ -1412,7 +1408,7 @@
               "weight": 6
             },
             {
-              "name": "auric",
+              "name": "regeneration",
               "weight": 4
             }
           ],
@@ -1424,7 +1420,7 @@
           "priority_aspects": [],
           "priority_affixes": [
             {
-              "name": "ph_heavenly_spears",
+              "name": "infusing",
               "weight": 10
             },
             {
@@ -1470,16 +1466,16 @@
               "weight": 4
             },
             {
-              "name": "the_powerful",
-              "weight": 8
+              "name": "riving",
+              "weight": 10
             },
             {
-              "name": "the_adept",
+              "name": "the_powerful",
               "weight": 6
             },
             {
-              "name": "riving",
-              "weight": 3
+              "name": "the_adept",
+              "weight": 4
             },
             {
               "name": "cruelty",
@@ -1498,15 +1494,15 @@
           "priority_aspects": [],
           "priority_affixes": [
             {
-              "name": "offense",
+              "name": "righteousness",
               "weight": 10
             },
             {
-              "name": "heartiness",
+              "name": "offense",
               "weight": 8
             },
             {
-              "name": "righteousness",
+              "name": "heartiness",
               "weight": 6
             },
             {

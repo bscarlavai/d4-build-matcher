@@ -6,12 +6,13 @@
   "source_url": "https://maxroll.gg/d4/build-guides/blessed-hammer-paladin-guide",
   "tier": "S",
   "tags": [],
-  "last_updated": "2025-12-20",
+  "last_updated": "2025-12-21",
   "profile_order": [
     "starter",
     "ancestral",
     "mythic",
-    "sanctified"
+    "sanctified",
+    "push"
   ],
   "profiles": {
     "starter": {
@@ -352,7 +353,7 @@
               "weight": 6
             },
             {
-              "name": "auric",
+              "name": "infusing",
               "weight": 4
             }
           ],
@@ -557,7 +558,7 @@
               "weight": 6
             },
             {
-              "name": "auric",
+              "name": "infusing",
               "weight": 4
             }
           ],
@@ -665,7 +666,12 @@
             "Heir of Perdition"
           ],
           "priority_aspects": [],
-          "priority_affixes": [],
+          "priority_affixes": [
+            {
+              "name": "the_powerful",
+              "weight": 3
+            }
+          ],
           "required_tempers": []
         },
         "chest": {
@@ -676,6 +682,10 @@
           ],
           "priority_aspects": [],
           "priority_affixes": [
+            {
+              "name": "the_powerful",
+              "weight": 3
+            },
             {
               "name": "unique_skillrankbonus_paladin_core",
               "weight": 8
@@ -771,8 +781,12 @@
               "weight": 6
             },
             {
-              "name": "auric",
+              "name": "sanctification",
               "weight": 4
+            },
+            {
+              "name": "infusing",
+              "weight": 3
             }
           ],
           "required_tempers": []
@@ -799,7 +813,7 @@
               "weight": 4
             },
             {
-              "name": "swiftness",
+              "name": "sanctification",
               "weight": 3
             }
           ],
@@ -856,6 +870,215 @@
             {
               "name": "offense",
               "weight": 4
+            },
+            {
+              "name": "fortitude",
+              "weight": 3
+            },
+            {
+              "name": "cracking",
+              "weight": 3
+            },
+            {
+              "name": "heartiness",
+              "weight": 3
+            },
+            {
+              "name": "sanctification",
+              "weight": 3
+            }
+          ],
+          "required_tempers": []
+        }
+      }
+    },
+    "push": {
+      "name": "Push",
+      "gear": {
+        "helm": {
+          "slot": "helm",
+          "priority_uniques": [
+            "Heir of Perdition"
+          ],
+          "priority_aspects": [],
+          "priority_affixes": [],
+          "required_tempers": []
+        },
+        "chest": {
+          "slot": "chest",
+          "priority_uniques": [
+            "Shroud of False Death"
+          ],
+          "priority_aspects": [],
+          "priority_affixes": [
+            {
+              "name": "sturdiness",
+              "weight": 10
+            },
+            {
+              "name": "the_powerful",
+              "weight": 8
+            },
+            {
+              "name": "vigor",
+              "weight": 6
+            },
+            {
+              "name": "the_adept",
+              "weight": 4
+            }
+          ],
+          "required_tempers": []
+        },
+        "weapon": {
+          "slot": "weapon",
+          "priority_uniques": [
+            "Herald's Morningstar"
+          ],
+          "priority_aspects": [],
+          "priority_affixes": [
+            {
+              "name": "unique_double_damage_skill_pal_blessedhammer",
+              "weight": 10
+            },
+            {
+              "name": "ph_hammerthrowers",
+              "weight": 6
+            },
+            {
+              "name": "the_powerful",
+              "weight": 4
+            },
+            {
+              "name": "vigor",
+              "weight": 3
+            }
+          ],
+          "required_tempers": []
+        },
+        "gloves": {
+          "slot": "gloves",
+          "priority_uniques": [],
+          "priority_aspects": [],
+          "priority_affixes": [
+            {
+              "name": "keenness",
+              "weight": 10
+            },
+            {
+              "name": "the_adept",
+              "weight": 8
+            },
+            {
+              "name": "ph_hammerthrowers",
+              "weight": 6
+            },
+            {
+              "name": "carnage",
+              "weight": 4
+            }
+          ],
+          "required_tempers": []
+        },
+        "pants": {
+          "slot": "pants",
+          "priority_uniques": [],
+          "priority_aspects": [],
+          "priority_affixes": [
+            {
+              "name": "the_powerful",
+              "weight": 10
+            },
+            {
+              "name": "vigor",
+              "weight": 8
+            },
+            {
+              "name": "toughened",
+              "weight": 6
+            },
+            {
+              "name": "infusing",
+              "weight": 4
+            }
+          ],
+          "required_tempers": []
+        },
+        "boots": {
+          "slot": "boots",
+          "priority_uniques": [],
+          "priority_aspects": [],
+          "priority_affixes": [
+            {
+              "name": "the_powerful",
+              "weight": 10
+            },
+            {
+              "name": "vigor",
+              "weight": 8
+            },
+            {
+              "name": "toughened",
+              "weight": 6
+            },
+            {
+              "name": "infusing",
+              "weight": 4
+            }
+          ],
+          "required_tempers": []
+        },
+        "ring": {
+          "slot": "ring",
+          "priority_uniques": [
+            "Ring of Starless Skies",
+            "Argent Veil"
+          ],
+          "priority_aspects": [],
+          "priority_affixes": [
+            {
+              "name": "principals",
+              "weight": 10
+            },
+            {
+              "name": "the_powerful",
+              "weight": 6
+            },
+            {
+              "name": "vigor",
+              "weight": 4
+            },
+            {
+              "name": "cruelty",
+              "weight": 3
+            }
+          ],
+          "required_tempers": []
+        },
+        "amulet": {
+          "slot": "amulet",
+          "priority_uniques": [],
+          "priority_aspects": [],
+          "priority_affixes": [
+            {
+              "name": "swiftness",
+              "weight": 10
+            },
+            {
+              "name": "righteousness",
+              "weight": 8
+            },
+            {
+              "name": "iron",
+              "weight": 6
+            },
+            {
+              "name": "discipline",
+              "weight": 4
+            },
+            {
+              "name": "offense",
+              "weight": 3
             },
             {
               "name": "fortitude",

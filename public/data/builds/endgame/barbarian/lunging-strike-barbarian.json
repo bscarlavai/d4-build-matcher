@@ -6,7 +6,7 @@
   "source_url": "https://maxroll.gg/d4/build-guides/lunging-strike-barbarian-guide",
   "tier": "S",
   "tags": [],
-  "last_updated": "2025-12-20",
+  "last_updated": "2025-12-21",
   "profile_order": [
     "mythic",
     "start",
@@ -839,6 +839,10 @@
             {
               "name": "demolition",
               "weight": 3
+            },
+            {
+              "name": "the_skillful",
+              "weight": 3
             }
           ],
           "required_tempers": []
@@ -1083,6 +1087,10 @@
             {
               "name": "demolition",
               "weight": 3
+            },
+            {
+              "name": "the_skillful",
+              "weight": 3
             }
           ],
           "required_tempers": []
@@ -1133,6 +1141,10 @@
             {
               "name": "carrying",
               "weight": 4
+            },
+            {
+              "name": "the_skillful",
+              "weight": 3
             }
           ],
           "required_tempers": []

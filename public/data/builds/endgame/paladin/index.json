@@ -2,16 +2,22 @@
   "class": "paladin",
   "builds": [
     {
-      "id": "judgement-paladin",
-      "name": "Judgement Paladin",
+      "id": "auradin",
+      "name": "Auradin",
       "tier": "S",
-      "file": "judgement-paladin.json"
+      "file": "auradin.json"
     },
     {
       "id": "wing-strikes-paladin",
       "name": "Wing Strikes Paladin",
       "tier": "S",
       "file": "wing-strikes-paladin.json"
+    },
+    {
+      "id": "judgement-paladin",
+      "name": "Judgement Paladin",
+      "tier": "S",
+      "file": "judgement-paladin.json"
     },
     {
       "id": "blessed-hammer-paladin",
@@ -54,12 +60,6 @@
       "name": "Shield Charge Paladin",
       "tier": "A",
       "file": "shield-charge-paladin.json"
-    },
-    {
-      "id": "auradin",
-      "name": "Auradin",
-      "tier": "S",
-      "file": "auradin.json"
     },
     {
       "id": "blessed-shield-paladin",
