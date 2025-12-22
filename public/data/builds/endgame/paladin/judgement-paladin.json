@@ -6,7 +6,7 @@
   "source_url": "https://maxroll.gg/d4/build-guides/judgement-paladin-guide",
   "tier": "S",
   "tags": [],
-  "last_updated": "2025-12-21",
+  "last_updated": "2025-12-22",
   "profile_order": [
     "starter",
     "ancestral",
@@ -124,10 +124,6 @@
               "weight": 10
             },
             {
-              "name": "ph_heavenly_spears",
-              "weight": 8
-            },
-            {
               "name": "the_powerful",
               "weight": 6
             },
@@ -188,24 +184,8 @@
           "priority_aspects": [],
           "priority_affixes": [
             {
-              "name": "offense",
-              "weight": 10
-            },
-            {
-              "name": "heartiness",
-              "weight": 8
-            },
-            {
-              "name": "righteousness",
-              "weight": 6
-            },
-            {
               "name": "swiftness",
               "weight": 4
-            },
-            {
-              "name": "cracking",
-              "weight": 3
             },
             {
               "name": "the_adept",
@@ -247,16 +227,8 @@
           "priority_aspects": [],
           "priority_affixes": [
             {
-              "name": "unique_double_damage_skill_pal_judgement",
-              "weight": 8
-            },
-            {
               "name": "unique_luck_higher",
               "weight": 6
-            },
-            {
-              "name": "the_judicator",
-              "weight": 4
             },
             {
               "name": "unique_resource_max_allclasses_double",
@@ -308,14 +280,6 @@
           ],
           "priority_aspects": [],
           "priority_affixes": [
-            {
-              "name": "unique_passiverankbonus_pal_heavyweight",
-              "weight": 10
-            },
-            {
-              "name": "unique_passiverankbonus_pal_breaktheline",
-              "weight": 8
-            },
             {
               "name": "the_powerful",
               "weight": 6
@@ -405,10 +369,6 @@
               "weight": 8
             },
             {
-              "name": "infusing",
-              "weight": 6
-            },
-            {
               "name": "toughened",
               "weight": 4
             },
@@ -427,16 +387,8 @@
           "priority_aspects": [],
           "priority_affixes": [
             {
-              "name": "unique_double_damage_skill_pal_judgement",
-              "weight": 10
-            },
-            {
               "name": "swiftness",
               "weight": 8
-            },
-            {
-              "name": "unique_passiverankbonus_pal_shiningarmor",
-              "weight": 6
             },
             {
               "name": "vigor",
@@ -471,24 +423,8 @@
           "priority_aspects": [],
           "priority_affixes": [
             {
-              "name": "righteousness",
-              "weight": 10
-            },
-            {
-              "name": "offense",
-              "weight": 8
-            },
-            {
-              "name": "heartiness",
-              "weight": 6
-            },
-            {
               "name": "swiftness",
               "weight": 4
-            },
-            {
-              "name": "cracking",
-              "weight": 3
             },
             {
               "name": "the_adept",
@@ -577,14 +513,6 @@
           "priority_aspects": [],
           "priority_affixes": [
             {
-              "name": "unique_passiverankbonus_pal_heavyweight",
-              "weight": 10
-            },
-            {
-              "name": "unique_passiverankbonus_pal_breaktheline",
-              "weight": 8
-            },
-            {
               "name": "the_powerful",
               "weight": 6
             },
@@ -673,10 +601,6 @@
               "weight": 8
             },
             {
-              "name": "infusing",
-              "weight": 6
-            },
-            {
               "name": "toughened",
               "weight": 4
             },
@@ -696,16 +620,8 @@
           "priority_aspects": [],
           "priority_affixes": [
             {
-              "name": "unique_double_damage_skill_pal_judgement",
-              "weight": 10
-            },
-            {
               "name": "swiftness",
               "weight": 8
-            },
-            {
-              "name": "unique_passiverankbonus_pal_shiningarmor",
-              "weight": 6
             },
             {
               "name": "vigor",
@@ -720,24 +636,8 @@
           "priority_aspects": [],
           "priority_affixes": [
             {
-              "name": "righteousness",
-              "weight": 10
-            },
-            {
-              "name": "offense",
-              "weight": 8
-            },
-            {
-              "name": "heartiness",
-              "weight": 6
-            },
-            {
               "name": "swiftness",
               "weight": 4
-            },
-            {
-              "name": "cracking",
-              "weight": 3
             },
             {
               "name": "the_adept",
@@ -826,14 +726,6 @@
           "priority_aspects": [],
           "priority_affixes": [
             {
-              "name": "unique_passiverankbonus_pal_heavyweight",
-              "weight": 10
-            },
-            {
-              "name": "unique_passiverankbonus_pal_breaktheline",
-              "weight": 8
-            },
-            {
               "name": "the_powerful",
               "weight": 6
             },
@@ -922,10 +814,6 @@
               "weight": 8
             },
             {
-              "name": "infusing",
-              "weight": 6
-            },
-            {
               "name": "toughened",
               "weight": 4
             },
@@ -945,16 +833,8 @@
           "priority_aspects": [],
           "priority_affixes": [
             {
-              "name": "unique_double_damage_skill_pal_judgement",
-              "weight": 10
-            },
-            {
               "name": "swiftness",
               "weight": 8
-            },
-            {
-              "name": "unique_passiverankbonus_pal_shiningarmor",
-              "weight": 6
             },
             {
               "name": "vigor",
@@ -981,24 +861,8 @@
           "priority_aspects": [],
           "priority_affixes": [
             {
-              "name": "righteousness",
-              "weight": 10
-            },
-            {
-              "name": "offense",
-              "weight": 8
-            },
-            {
-              "name": "heartiness",
-              "weight": 6
-            },
-            {
               "name": "swiftness",
               "weight": 4
-            },
-            {
-              "name": "cracking",
-              "weight": 3
             },
             {
               "name": "the_adept",
@@ -1087,14 +951,6 @@
           "priority_aspects": [],
           "priority_affixes": [
             {
-              "name": "unique_passiverankbonus_pal_heavyweight",
-              "weight": 10
-            },
-            {
-              "name": "unique_passiverankbonus_pal_breaktheline",
-              "weight": 8
-            },
-            {
               "name": "the_powerful",
               "weight": 6
             },
@@ -1183,10 +1039,6 @@
               "weight": 8
             },
             {
-              "name": "infusing",
-              "weight": 6
-            },
-            {
               "name": "toughened",
               "weight": 4
             },
@@ -1206,16 +1058,8 @@
           "priority_aspects": [],
           "priority_affixes": [
             {
-              "name": "unique_double_damage_skill_pal_judgement",
-              "weight": 10
-            },
-            {
               "name": "swiftness",
               "weight": 8
-            },
-            {
-              "name": "unique_passiverankbonus_pal_shiningarmor",
-              "weight": 6
             },
             {
               "name": "vigor",
@@ -1230,24 +1074,8 @@
           "priority_aspects": [],
           "priority_affixes": [
             {
-              "name": "righteousness",
-              "weight": 10
-            },
-            {
-              "name": "offense",
-              "weight": 8
-            },
-            {
-              "name": "heartiness",
-              "weight": 6
-            },
-            {
               "name": "swiftness",
               "weight": 4
-            },
-            {
-              "name": "cracking",
-              "weight": 3
             },
             {
               "name": "the_adept",
@@ -1336,14 +1164,6 @@
           "priority_aspects": [],
           "priority_affixes": [
             {
-              "name": "unique_passiverankbonus_pal_heavyweight",
-              "weight": 10
-            },
-            {
-              "name": "unique_passiverankbonus_pal_breaktheline",
-              "weight": 8
-            },
-            {
               "name": "the_powerful",
               "weight": 6
             },
@@ -1420,10 +1240,6 @@
           "priority_aspects": [],
           "priority_affixes": [
             {
-              "name": "infusing",
-              "weight": 10
-            },
-            {
               "name": "the_powerful",
               "weight": 8
             },
@@ -1450,16 +1266,8 @@
           "priority_aspects": [],
           "priority_affixes": [
             {
-              "name": "unique_double_damage_skill_pal_judgement",
-              "weight": 10
-            },
-            {
               "name": "swiftness",
               "weight": 8
-            },
-            {
-              "name": "unique_passiverankbonus_pal_shiningarmor",
-              "weight": 6
             },
             {
               "name": "vigor",
@@ -1494,24 +1302,8 @@
           "priority_aspects": [],
           "priority_affixes": [
             {
-              "name": "righteousness",
-              "weight": 10
-            },
-            {
-              "name": "offense",
-              "weight": 8
-            },
-            {
-              "name": "heartiness",
-              "weight": 6
-            },
-            {
               "name": "swiftness",
               "weight": 4
-            },
-            {
-              "name": "cracking",
-              "weight": 3
             },
             {
               "name": "the_adept",

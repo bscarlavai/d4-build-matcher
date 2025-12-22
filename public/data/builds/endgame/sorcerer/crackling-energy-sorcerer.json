@@ -6,7 +6,7 @@
   "source_url": "https://maxroll.gg/d4/build-guides/crackling-energy-sorcerer-guide",
   "tier": "S",
   "tags": [],
-  "last_updated": "2025-12-21",
+  "last_updated": "2025-12-22",
   "profile_order": [
     "starter",
     "ancestral",
@@ -15,6 +15,7 @@
     "speed",
     "push",
     "skill_progression",
+    "stormhorn",
     "oculus"
   ],
   "profiles": {
@@ -330,10 +331,6 @@
               "weight": 6
             },
             {
-              "name": "unique_cdr_skill_sorc_teleport",
-              "weight": 4
-            },
-            {
               "name": "reckless_magic",
               "weight": 3
             },
@@ -550,7 +547,7 @@
               "weight": 6
             },
             {
-              "name": "swiftness",
+              "name": "unique_damagereduction_sorc_percracklingenergy",
               "weight": 4
             },
             {
@@ -743,7 +740,7 @@
               "weight": 6
             },
             {
-              "name": "swiftness",
+              "name": "unique_damagereduction_sorc_percracklingenergy",
               "weight": 4
             },
             {
@@ -764,12 +761,7 @@
             "Heir of Perdition"
           ],
           "priority_aspects": [],
-          "priority_affixes": [
-            {
-              "name": "the_focused",
-              "weight": 3
-            }
-          ],
+          "priority_affixes": [],
           "required_tempers": []
         },
         "chest": {
@@ -779,6 +771,10 @@
           ],
           "priority_aspects": [],
           "priority_affixes": [
+            {
+              "name": "the_focused",
+              "weight": 3
+            },
             {
               "name": "carnage",
               "weight": 10
@@ -794,10 +790,6 @@
             {
               "name": "vigor",
               "weight": 4
-            },
-            {
-              "name": "the_adroit",
-              "weight": 3
             }
           ],
           "required_tempers": []
@@ -823,10 +815,6 @@
             },
             {
               "name": "vigor",
-              "weight": 3
-            },
-            {
-              "name": "the_adroit",
               "weight": 3
             }
           ],
@@ -902,10 +890,6 @@
             {
               "name": "toughened",
               "weight": 4
-            },
-            {
-              "name": "the_focused",
-              "weight": 3
             }
           ],
           "required_tempers": []
@@ -918,6 +902,10 @@
           ],
           "priority_aspects": [],
           "priority_affixes": [
+            {
+              "name": "sanctification_skillrankbonus_allskills",
+              "weight": 3
+            },
             {
               "name": "reckless_magic",
               "weight": 8
@@ -953,7 +941,7 @@
               "weight": 6
             },
             {
-              "name": "swiftness",
+              "name": "unique_damagereduction_sorc_percracklingenergy",
               "weight": 4
             },
             {
@@ -986,19 +974,15 @@
           "priority_aspects": [],
           "priority_affixes": [
             {
-              "name": "unique_corestat_intelligence_higher",
+              "name": "reckless_magic",
               "weight": 8
             },
             {
-              "name": "unique_resistance_all_higher",
+              "name": "unique_corestat_intelligence_higher",
               "weight": 6
             },
             {
-              "name": "unique_cdr_skill_sorc_teleport",
-              "weight": 4
-            },
-            {
-              "name": "reckless_magic",
+              "name": "unique_resistance_all_higher",
               "weight": 3
             },
             {
@@ -1052,15 +1036,15 @@
           "priority_aspects": [],
           "priority_affixes": [
             {
-              "name": "principals",
+              "name": "carnage",
               "weight": 10
             },
             {
-              "name": "the_wise",
+              "name": "principals",
               "weight": 8
             },
             {
-              "name": "carnage",
+              "name": "the_wise",
               "weight": 6
             },
             {
@@ -1163,7 +1147,7 @@
               "weight": 6
             },
             {
-              "name": "swiftness",
+              "name": "unique_damagereduction_sorc_percracklingenergy",
               "weight": 4
             },
             {
@@ -1184,12 +1168,7 @@
             "Heir of Perdition"
           ],
           "priority_aspects": [],
-          "priority_affixes": [
-            {
-              "name": "the_focused",
-              "weight": 3
-            }
-          ],
+          "priority_affixes": [],
           "required_tempers": []
         },
         "chest": {
@@ -1212,7 +1191,7 @@
               "weight": 8
             },
             {
-              "name": "swiftness",
+              "name": "vigor",
               "weight": 6
             },
             {
@@ -1266,11 +1245,11 @@
               "weight": 6
             },
             {
-              "name": "swiftness",
+              "name": "the_focused",
               "weight": 4
             },
             {
-              "name": "the_focused",
+              "name": "cruelty",
               "weight": 3
             }
           ],
@@ -1298,10 +1277,6 @@
             {
               "name": "unique_generic_luckyhit_heallife",
               "weight": 3
-            },
-            {
-              "name": "the_focused",
-              "weight": 3
             }
           ],
           "required_tempers": []
@@ -1326,10 +1301,6 @@
             {
               "name": "toughened",
               "weight": 4
-            },
-            {
-              "name": "the_focused",
-              "weight": 3
             }
           ],
           "required_tempers": []
@@ -1342,6 +1313,10 @@
           ],
           "priority_aspects": [],
           "priority_affixes": [
+            {
+              "name": "sanctification_skillrankbonus_allskills",
+              "weight": 3
+            },
             {
               "name": "reckless_magic",
               "weight": 8
@@ -1370,19 +1345,19 @@
           "priority_affixes": [
             {
               "name": "unique_damage_sorc_skill_cracklingenergy_gigagiga",
-              "weight": 10
-            },
-            {
-              "name": "unique_corestat_intelligencepercent_higherhigher",
               "weight": 8
             },
             {
-              "name": "swiftness",
+              "name": "unique_corestat_intelligencepercent_higherhigher",
               "weight": 6
             },
             {
-              "name": "unique_movement_speed_sorc_aftercracklingenergy",
+              "name": "unique_damagereduction_sorc_percracklingenergy",
               "weight": 4
+            },
+            {
+              "name": "unique_movement_speed_sorc_aftercracklingenergy",
+              "weight": 3
             }
           ],
           "required_tempers": []
@@ -1654,6 +1629,212 @@
         }
       }
     },
+    "stormhorn": {
+      "name": "Stormhorn",
+      "gear": {
+        "helm": {
+          "slot": "helm",
+          "priority_uniques": [
+            "Heir of Perdition"
+          ],
+          "priority_aspects": [],
+          "priority_affixes": [],
+          "required_tempers": []
+        },
+        "chest": {
+          "slot": "chest",
+          "priority_uniques": [
+            "Shroud of False Death",
+            "Strike of Stormhorn"
+          ],
+          "priority_aspects": [],
+          "priority_affixes": [
+            {
+              "name": "the_focused",
+              "weight": 3
+            },
+            {
+              "name": "critdamage_double_unique",
+              "weight": 10
+            },
+            {
+              "name": "the_voltaic",
+              "weight": 8
+            },
+            {
+              "name": "unique_projectiles_skill_sorc_balllightning",
+              "weight": 6
+            },
+            {
+              "name": "unique_balllightning_movement_speed",
+              "weight": 4
+            }
+          ],
+          "required_tempers": []
+        },
+        "weapon": {
+          "slot": "weapon",
+          "priority_uniques": [
+            "Orsivane"
+          ],
+          "priority_aspects": [],
+          "priority_affixes": [
+            {
+              "name": "unique_skillrankbonus_sorc_category_core_higher",
+              "weight": 8
+            },
+            {
+              "name": "unique_corestat_intelligence_higherhigherhigher",
+              "weight": 6
+            },
+            {
+              "name": "unique_damage_type_bonus_nonphysical_higher",
+              "weight": 4
+            },
+            {
+              "name": "vigor",
+              "weight": 3
+            }
+          ],
+          "required_tempers": []
+        },
+        "gloves": {
+          "slot": "gloves",
+          "priority_uniques": [],
+          "priority_aspects": [],
+          "priority_affixes": [
+            {
+              "name": "carnage",
+              "weight": 10
+            },
+            {
+              "name": "principals",
+              "weight": 8
+            },
+            {
+              "name": "the_wise",
+              "weight": 6
+            },
+            {
+              "name": "keenness",
+              "weight": 4
+            },
+            {
+              "name": "the_focused",
+              "weight": 3
+            }
+          ],
+          "required_tempers": []
+        },
+        "pants": {
+          "slot": "pants",
+          "priority_uniques": [
+            "Temerity"
+          ],
+          "priority_aspects": [],
+          "priority_affixes": [
+            {
+              "name": "vigor",
+              "weight": 8
+            },
+            {
+              "name": "toughened",
+              "weight": 6
+            },
+            {
+              "name": "unique_healingpercent_verybig",
+              "weight": 4
+            },
+            {
+              "name": "unique_generic_luckyhit_heallife",
+              "weight": 3
+            }
+          ],
+          "required_tempers": []
+        },
+        "boots": {
+          "slot": "boots",
+          "priority_uniques": [],
+          "priority_aspects": [],
+          "priority_affixes": [
+            {
+              "name": "the_wise",
+              "weight": 10
+            },
+            {
+              "name": "the_voltaic",
+              "weight": 8
+            },
+            {
+              "name": "vigor",
+              "weight": 6
+            },
+            {
+              "name": "toughened",
+              "weight": 4
+            }
+          ],
+          "required_tempers": []
+        },
+        "ring": {
+          "slot": "ring",
+          "priority_uniques": [
+            "Ring of Starless Skies",
+            "Galvanic\u00a0Azurite"
+          ],
+          "priority_aspects": [],
+          "priority_affixes": [
+            {
+              "name": "sanctification_skillrankbonus_allskills",
+              "weight": 3
+            },
+            {
+              "name": "reckless_magic",
+              "weight": 8
+            },
+            {
+              "name": "unique_damage_type_bonus_lightning_higher",
+              "weight": 6
+            },
+            {
+              "name": "the_adept",
+              "weight": 4
+            },
+            {
+              "name": "swiftness",
+              "weight": 3
+            }
+          ],
+          "required_tempers": []
+        },
+        "amulet": {
+          "slot": "amulet",
+          "priority_uniques": [
+            "Esadora's Overflowing Cameo"
+          ],
+          "priority_aspects": [],
+          "priority_affixes": [
+            {
+              "name": "unique_damage_sorc_skill_cracklingenergy_gigagiga",
+              "weight": 8
+            },
+            {
+              "name": "unique_corestat_intelligencepercent_higherhigher",
+              "weight": 6
+            },
+            {
+              "name": "unique_damagereduction_sorc_percracklingenergy",
+              "weight": 4
+            },
+            {
+              "name": "unique_movement_speed_sorc_aftercracklingenergy",
+              "weight": 3
+            }
+          ],
+          "required_tempers": []
+        }
+      }
+    },
     "oculus": {
       "name": "Oculus",
       "gear": {
@@ -1675,19 +1856,15 @@
           "priority_affixes": [
             {
               "name": "reckless_magic",
-              "weight": 10
-            },
-            {
-              "name": "unique_corestat_intelligence_higher",
               "weight": 8
             },
             {
-              "name": "unique_passiverankbonus_sorc_elemental_t2_n2_elementalattunement",
+              "name": "unique_corestat_intelligence_higher",
               "weight": 6
             },
             {
-              "name": "shocks",
-              "weight": 4
+              "name": "unique_resistance_all_higher",
+              "weight": 3
             },
             {
               "name": "carnage",
@@ -1780,7 +1957,7 @@
               "weight": 6
             },
             {
-              "name": "toughened",
+              "name": "speed",
               "weight": 4
             }
           ],
@@ -1829,7 +2006,7 @@
               "weight": 6
             },
             {
-              "name": "swiftness",
+              "name": "unique_damagereduction_sorc_percracklingenergy",
               "weight": 4
             },
             {

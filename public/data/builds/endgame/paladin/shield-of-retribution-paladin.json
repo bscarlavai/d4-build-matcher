@@ -6,7 +6,7 @@
   "source_url": "https://maxroll.gg/d4/build-guides/shield-of-retribution-paladin-guide",
   "tier": "S",
   "tags": [],
-  "last_updated": "2025-12-21",
+  "last_updated": "2025-12-22",
   "profile_order": [
     "starter",
     "ancestral",
@@ -230,20 +230,12 @@
           "priority_aspects": [],
           "priority_affixes": [
             {
-              "name": "unique_double_damage_skill_pal_blessedshield",
-              "weight": 8
-            },
-            {
               "name": "vigor",
               "weight": 6
             },
             {
               "name": "toughened",
               "weight": 4
-            },
-            {
-              "name": "ph_shieldthrowers",
-              "weight": 3
             }
           ],
           "required_tempers": []
@@ -255,14 +247,6 @@
           ],
           "priority_aspects": [],
           "priority_affixes": [
-            {
-              "name": "unique_passiverankbonus_pal_breaktheline",
-              "weight": 8
-            },
-            {
-              "name": "unique_passiverankbonus_pal_heavyweight",
-              "weight": 6
-            },
             {
               "name": "the_powerful",
               "weight": 4
@@ -380,36 +364,12 @@
           "priority_aspects": [],
           "priority_affixes": [
             {
-              "name": "discipline",
-              "weight": 10
-            },
-            {
               "name": "keenness",
               "weight": 8
             },
             {
               "name": "the_adept",
               "weight": 6
-            },
-            {
-              "name": "offense",
-              "weight": 4
-            },
-            {
-              "name": "iron",
-              "weight": 3
-            },
-            {
-              "name": "cracking",
-              "weight": 3
-            },
-            {
-              "name": "fortitude",
-              "weight": 3
-            },
-            {
-              "name": "heartiness",
-              "weight": 3
             },
             {
               "name": "swiftness",
@@ -441,20 +401,12 @@
           "priority_aspects": [],
           "priority_affixes": [
             {
-              "name": "unique_double_damage_skill_pal_blessedshield",
-              "weight": 8
-            },
-            {
               "name": "vigor",
               "weight": 6
             },
             {
               "name": "toughened",
               "weight": 4
-            },
-            {
-              "name": "ph_shieldthrowers",
-              "weight": 3
             }
           ],
           "required_tempers": []
@@ -466,14 +418,6 @@
           ],
           "priority_aspects": [],
           "priority_affixes": [
-            {
-              "name": "unique_passiverankbonus_pal_breaktheline",
-              "weight": 8
-            },
-            {
-              "name": "unique_passiverankbonus_pal_heavyweight",
-              "weight": 6
-            },
             {
               "name": "the_powerful",
               "weight": 4
@@ -589,32 +533,8 @@
           "priority_aspects": [],
           "priority_affixes": [
             {
-              "name": "discipline",
-              "weight": 10
-            },
-            {
-              "name": "offense",
-              "weight": 8
-            },
-            {
-              "name": "iron",
-              "weight": 6
-            },
-            {
               "name": "swiftness",
               "weight": 4
-            },
-            {
-              "name": "cracking",
-              "weight": 3
-            },
-            {
-              "name": "fortitude",
-              "weight": 3
-            },
-            {
-              "name": "heartiness",
-              "weight": 3
             }
           ],
           "required_tempers": []
@@ -642,20 +562,12 @@
           "priority_aspects": [],
           "priority_affixes": [
             {
-              "name": "unique_double_damage_skill_pal_blessedshield",
-              "weight": 8
-            },
-            {
               "name": "vigor",
               "weight": 6
             },
             {
               "name": "toughened",
               "weight": 4
-            },
-            {
-              "name": "ph_shieldthrowers",
-              "weight": 3
             }
           ],
           "required_tempers": []
@@ -668,23 +580,11 @@
           "priority_aspects": [],
           "priority_affixes": [
             {
-              "name": "unique_passiverankbonus_pal_breaktheline",
-              "weight": 8
-            },
-            {
-              "name": "unique_passiverankbonus_pal_heavyweight",
-              "weight": 6
-            },
-            {
               "name": "the_powerful",
               "weight": 4
             },
             {
               "name": "vigor",
-              "weight": 3
-            },
-            {
-              "name": "the_adroit",
               "weight": 3
             }
           ],
@@ -758,10 +658,6 @@
             {
               "name": "regeneration",
               "weight": 4
-            },
-            {
-              "name": "auras",
-              "weight": 3
             }
           ],
           "required_tempers": []
@@ -802,32 +698,8 @@
           "priority_aspects": [],
           "priority_affixes": [
             {
-              "name": "discipline",
-              "weight": 10
-            },
-            {
-              "name": "offense",
-              "weight": 8
-            },
-            {
-              "name": "iron",
-              "weight": 6
-            },
-            {
               "name": "swiftness",
               "weight": 4
-            },
-            {
-              "name": "cracking",
-              "weight": 3
-            },
-            {
-              "name": "fortitude",
-              "weight": 3
-            },
-            {
-              "name": "heartiness",
-              "weight": 3
             }
           ],
           "required_tempers": []
@@ -855,20 +727,12 @@
           "priority_aspects": [],
           "priority_affixes": [
             {
-              "name": "unique_double_damage_skill_pal_blessedshield",
-              "weight": 8
-            },
-            {
               "name": "vigor",
               "weight": 6
             },
             {
               "name": "toughened",
               "weight": 4
-            },
-            {
-              "name": "ph_shieldthrowers",
-              "weight": 3
             }
           ],
           "required_tempers": []
@@ -880,14 +744,6 @@
           ],
           "priority_aspects": [],
           "priority_affixes": [
-            {
-              "name": "unique_passiverankbonus_pal_breaktheline",
-              "weight": 8
-            },
-            {
-              "name": "unique_passiverankbonus_pal_heavyweight",
-              "weight": 6
-            },
             {
               "name": "the_powerful",
               "weight": 4
@@ -1003,32 +859,8 @@
           "priority_aspects": [],
           "priority_affixes": [
             {
-              "name": "discipline",
-              "weight": 10
-            },
-            {
-              "name": "offense",
-              "weight": 8
-            },
-            {
-              "name": "iron",
-              "weight": 6
-            },
-            {
               "name": "swiftness",
               "weight": 4
-            },
-            {
-              "name": "cracking",
-              "weight": 3
-            },
-            {
-              "name": "fortitude",
-              "weight": 3
-            },
-            {
-              "name": "heartiness",
-              "weight": 3
             }
           ],
           "required_tempers": []

@@ -6,7 +6,7 @@
   "source_url": "https://maxroll.gg/d4/build-guides/blessed-hammer-paladin-guide",
   "tier": "S",
   "tags": [],
-  "last_updated": "2025-12-21",
+  "last_updated": "2025-12-22",
   "profile_order": [
     "starter",
     "ancestral",
@@ -104,10 +104,6 @@
           "priority_aspects": [],
           "priority_affixes": [
             {
-              "name": "ph_hammerthrowers",
-              "weight": 10
-            },
-            {
               "name": "the_adept",
               "weight": 8
             },
@@ -164,7 +160,7 @@
               "weight": 6
             },
             {
-              "name": "steel",
+              "name": "steeling",
               "weight": 4
             }
           ],
@@ -271,14 +267,6 @@
               "weight": 4
             },
             {
-              "name": "unique_skillrankbonus_paladin_core",
-              "weight": 8
-            },
-            {
-              "name": "unique_double_damage_skill_pal_retribution",
-              "weight": 6
-            },
-            {
               "name": "unique_armor_giga_specialscaling",
               "weight": 4
             }
@@ -292,14 +280,6 @@
           ],
           "priority_aspects": [],
           "priority_affixes": [
-            {
-              "name": "unique_double_damage_skill_pal_blessedhammer",
-              "weight": 10
-            },
-            {
-              "name": "ph_hammerthrowers",
-              "weight": 6
-            },
             {
               "name": "the_powerful",
               "weight": 4
@@ -325,10 +305,6 @@
               "weight": 8
             },
             {
-              "name": "ph_hammerthrowers",
-              "weight": 6
-            },
-            {
               "name": "swiftness",
               "weight": 4
             }
@@ -351,10 +327,6 @@
             {
               "name": "toughened",
               "weight": 6
-            },
-            {
-              "name": "infusing",
-              "weight": 4
             }
           ],
           "required_tempers": []
@@ -375,10 +347,6 @@
             {
               "name": "toughened",
               "weight": 6
-            },
-            {
-              "name": "infusing",
-              "weight": 4
             }
           ],
           "required_tempers": []
@@ -472,14 +440,6 @@
           "priority_aspects": [],
           "priority_affixes": [
             {
-              "name": "unique_skillrankbonus_paladin_core",
-              "weight": 8
-            },
-            {
-              "name": "unique_double_damage_skill_pal_retribution",
-              "weight": 6
-            },
-            {
               "name": "unique_armor_giga_specialscaling",
               "weight": 4
             },
@@ -497,14 +457,6 @@
           ],
           "priority_aspects": [],
           "priority_affixes": [
-            {
-              "name": "unique_double_damage_skill_pal_blessedhammer",
-              "weight": 10
-            },
-            {
-              "name": "ph_hammerthrowers",
-              "weight": 6
-            },
             {
               "name": "the_powerful",
               "weight": 4
@@ -530,10 +482,6 @@
               "weight": 8
             },
             {
-              "name": "ph_hammerthrowers",
-              "weight": 6
-            },
-            {
               "name": "carnage",
               "weight": 4
             }
@@ -556,10 +504,6 @@
             {
               "name": "toughened",
               "weight": 6
-            },
-            {
-              "name": "infusing",
-              "weight": 4
             }
           ],
           "required_tempers": []
@@ -580,10 +524,6 @@
             {
               "name": "toughened",
               "weight": 6
-            },
-            {
-              "name": "infusing",
-              "weight": 4
             }
           ],
           "required_tempers": []
@@ -623,34 +563,6 @@
             {
               "name": "swiftness",
               "weight": 10
-            },
-            {
-              "name": "righteousness",
-              "weight": 8
-            },
-            {
-              "name": "iron",
-              "weight": 6
-            },
-            {
-              "name": "discipline",
-              "weight": 4
-            },
-            {
-              "name": "offense",
-              "weight": 3
-            },
-            {
-              "name": "fortitude",
-              "weight": 3
-            },
-            {
-              "name": "cracking",
-              "weight": 3
-            },
-            {
-              "name": "heartiness",
-              "weight": 3
             }
           ],
           "required_tempers": []
@@ -687,14 +599,6 @@
               "weight": 3
             },
             {
-              "name": "unique_skillrankbonus_paladin_core",
-              "weight": 8
-            },
-            {
-              "name": "unique_double_damage_skill_pal_retribution",
-              "weight": 6
-            },
-            {
               "name": "unique_armor_giga_specialscaling",
               "weight": 4
             },
@@ -713,23 +617,11 @@
           "priority_aspects": [],
           "priority_affixes": [
             {
-              "name": "unique_double_damage_skill_pal_blessedhammer",
-              "weight": 10
-            },
-            {
-              "name": "ph_hammerthrowers",
-              "weight": 6
-            },
-            {
               "name": "the_powerful",
               "weight": 4
             },
             {
               "name": "vigor",
-              "weight": 3
-            },
-            {
-              "name": "the_adroit",
               "weight": 3
             }
           ],
@@ -747,10 +639,6 @@
             {
               "name": "the_adept",
               "weight": 8
-            },
-            {
-              "name": "ph_hammerthrowers",
-              "weight": 6
             },
             {
               "name": "principals",
@@ -779,14 +667,6 @@
             {
               "name": "toughened",
               "weight": 6
-            },
-            {
-              "name": "sanctification",
-              "weight": 4
-            },
-            {
-              "name": "infusing",
-              "weight": 3
             }
           ],
           "required_tempers": []
@@ -807,14 +687,6 @@
             {
               "name": "toughened",
               "weight": 6
-            },
-            {
-              "name": "infusing",
-              "weight": 4
-            },
-            {
-              "name": "sanctification",
-              "weight": 3
             }
           ],
           "required_tempers": []
@@ -854,40 +726,7 @@
           "slot": "amulet",
           "priority_uniques": [],
           "priority_aspects": [],
-          "priority_affixes": [
-            {
-              "name": "righteousness",
-              "weight": 10
-            },
-            {
-              "name": "iron",
-              "weight": 8
-            },
-            {
-              "name": "discipline",
-              "weight": 6
-            },
-            {
-              "name": "offense",
-              "weight": 4
-            },
-            {
-              "name": "fortitude",
-              "weight": 3
-            },
-            {
-              "name": "cracking",
-              "weight": 3
-            },
-            {
-              "name": "heartiness",
-              "weight": 3
-            },
-            {
-              "name": "sanctification",
-              "weight": 3
-            }
-          ],
+          "priority_affixes": [],
           "required_tempers": []
         }
       }
@@ -938,14 +777,6 @@
           "priority_aspects": [],
           "priority_affixes": [
             {
-              "name": "unique_double_damage_skill_pal_blessedhammer",
-              "weight": 10
-            },
-            {
-              "name": "ph_hammerthrowers",
-              "weight": 6
-            },
-            {
               "name": "the_powerful",
               "weight": 4
             },
@@ -970,10 +801,6 @@
               "weight": 8
             },
             {
-              "name": "ph_hammerthrowers",
-              "weight": 6
-            },
-            {
               "name": "carnage",
               "weight": 4
             }
@@ -996,10 +823,6 @@
             {
               "name": "toughened",
               "weight": 6
-            },
-            {
-              "name": "infusing",
-              "weight": 4
             }
           ],
           "required_tempers": []
@@ -1020,10 +843,6 @@
             {
               "name": "toughened",
               "weight": 6
-            },
-            {
-              "name": "infusing",
-              "weight": 4
             }
           ],
           "required_tempers": []
@@ -1063,34 +882,6 @@
             {
               "name": "swiftness",
               "weight": 10
-            },
-            {
-              "name": "righteousness",
-              "weight": 8
-            },
-            {
-              "name": "iron",
-              "weight": 6
-            },
-            {
-              "name": "discipline",
-              "weight": 4
-            },
-            {
-              "name": "offense",
-              "weight": 3
-            },
-            {
-              "name": "fortitude",
-              "weight": 3
-            },
-            {
-              "name": "cracking",
-              "weight": 3
-            },
-            {
-              "name": "heartiness",
-              "weight": 3
             }
           ],
           "required_tempers": []

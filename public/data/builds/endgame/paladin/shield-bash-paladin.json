@@ -6,7 +6,7 @@
   "source_url": "https://maxroll.gg/d4/build-guides/shield-bash-paladin-guide",
   "tier": "S",
   "tags": [],
-  "last_updated": "2025-12-21",
+  "last_updated": "2025-12-22",
   "profile_order": [
     "starter",
     "ancestral",
@@ -39,10 +39,6 @@
             {
               "name": "toughened",
               "weight": 4
-            },
-            {
-              "name": "infusing",
-              "weight": 3
             },
             {
               "name": "auric",
@@ -99,10 +95,6 @@
             {
               "name": "riving",
               "weight": 10
-            },
-            {
-              "name": "ph_shieldbashers",
-              "weight": 8
             },
             {
               "name": "the_powerful",
@@ -237,27 +229,11 @@
           "priority_aspects": [],
           "priority_affixes": [
             {
-              "name": "offense",
-              "weight": 10
-            },
-            {
-              "name": "heartiness",
-              "weight": 8
-            },
-            {
-              "name": "righteousness",
-              "weight": 6
-            },
-            {
               "name": "keenness",
               "weight": 4
             },
             {
               "name": "swiftness",
-              "weight": 3
-            },
-            {
-              "name": "cracking",
               "weight": 3
             },
             {
@@ -314,10 +290,6 @@
               "weight": 4
             },
             {
-              "name": "infusing",
-              "weight": 3
-            },
-            {
               "name": "auric",
               "weight": 3
             }
@@ -333,16 +305,8 @@
           "priority_aspects": [],
           "priority_affixes": [
             {
-              "name": "unique_skillrankbonus_paladin_juggernaut",
-              "weight": 8
-            },
-            {
               "name": "unique_lifeflat_higherhigher",
               "weight": 6
-            },
-            {
-              "name": "reckless_magic",
-              "weight": 3
             },
             {
               "name": "the_sturdy",
@@ -367,14 +331,6 @@
           "priority_aspects": [],
           "priority_affixes": [
             {
-              "name": "unique_passiverankbonus_pal_heavyweight",
-              "weight": 10
-            },
-            {
-              "name": "unique_passiverankbonus_pal_breaktheline",
-              "weight": 8
-            },
-            {
               "name": "the_powerful",
               "weight": 6
             },
@@ -393,10 +349,6 @@
             {
               "name": "riving",
               "weight": 10
-            },
-            {
-              "name": "ph_shieldbashers",
-              "weight": 8
             },
             {
               "name": "the_powerful",
@@ -531,27 +483,11 @@
           "priority_aspects": [],
           "priority_affixes": [
             {
-              "name": "offense",
-              "weight": 10
-            },
-            {
-              "name": "heartiness",
-              "weight": 8
-            },
-            {
-              "name": "righteousness",
-              "weight": 6
-            },
-            {
               "name": "keenness",
               "weight": 4
             },
             {
               "name": "swiftness",
-              "weight": 3
-            },
-            {
-              "name": "cracking",
               "weight": 3
             },
             {
@@ -608,10 +544,6 @@
               "weight": 10
             },
             {
-              "name": "unique_skillrankbonus_paladin_juggernaut",
-              "weight": 8
-            },
-            {
               "name": "sturdiness",
               "weight": 6
             },
@@ -629,14 +561,6 @@
           ],
           "priority_aspects": [],
           "priority_affixes": [
-            {
-              "name": "unique_passiverankbonus_pal_heavyweight",
-              "weight": 10
-            },
-            {
-              "name": "unique_passiverankbonus_pal_breaktheline",
-              "weight": 8
-            },
             {
               "name": "the_powerful",
               "weight": 6
@@ -656,10 +580,6 @@
             {
               "name": "riving",
               "weight": 10
-            },
-            {
-              "name": "ph_shieldbashers",
-              "weight": 8
             },
             {
               "name": "the_powerful",
@@ -796,27 +716,11 @@
           "priority_aspects": [],
           "priority_affixes": [
             {
-              "name": "offense",
-              "weight": 10
-            },
-            {
-              "name": "heartiness",
-              "weight": 8
-            },
-            {
-              "name": "righteousness",
-              "weight": 6
-            },
-            {
               "name": "keenness",
               "weight": 4
             },
             {
               "name": "swiftness",
-              "weight": 3
-            },
-            {
-              "name": "cracking",
               "weight": 3
             },
             {
@@ -873,10 +777,6 @@
               "weight": 4
             },
             {
-              "name": "infusing",
-              "weight": 3
-            },
-            {
               "name": "auric",
               "weight": 3
             }
@@ -892,28 +792,12 @@
           "priority_aspects": [],
           "priority_affixes": [
             {
-              "name": "unique_skillrankbonus_paladin_juggernaut",
-              "weight": 8
-            },
-            {
               "name": "unique_lifeflat_higherhigher",
               "weight": 6
             },
             {
-              "name": "reckless_magic",
-              "weight": 3
-            },
-            {
               "name": "the_sturdy",
               "weight": 10
-            },
-            {
-              "name": "unique_double_damage_skill_pal_shieldbash",
-              "weight": 8
-            },
-            {
-              "name": "ph_shieldbashers",
-              "weight": 6
             },
             {
               "name": "sturdiness",
@@ -929,14 +813,6 @@
           ],
           "priority_aspects": [],
           "priority_affixes": [
-            {
-              "name": "unique_passiverankbonus_pal_heavyweight",
-              "weight": 10
-            },
-            {
-              "name": "unique_passiverankbonus_pal_breaktheline",
-              "weight": 8
-            },
             {
               "name": "the_powerful",
               "weight": 6
@@ -956,10 +832,6 @@
             {
               "name": "riving",
               "weight": 10
-            },
-            {
-              "name": "ph_shieldbashers",
-              "weight": 8
             },
             {
               "name": "the_powerful",
@@ -1096,27 +968,11 @@
           "priority_aspects": [],
           "priority_affixes": [
             {
-              "name": "offense",
-              "weight": 10
-            },
-            {
-              "name": "heartiness",
-              "weight": 8
-            },
-            {
-              "name": "righteousness",
-              "weight": 6
-            },
-            {
               "name": "swiftness",
               "weight": 4
             },
             {
               "name": "the_adept",
-              "weight": 3
-            },
-            {
-              "name": "cracking",
               "weight": 3
             },
             {
@@ -1169,14 +1025,6 @@
               "weight": 10
             },
             {
-              "name": "unique_double_damage_skill_pal_shieldbash",
-              "weight": 8
-            },
-            {
-              "name": "ph_shieldbashers",
-              "weight": 6
-            },
-            {
               "name": "sturdiness",
               "weight": 4
             }
@@ -1190,14 +1038,6 @@
           ],
           "priority_aspects": [],
           "priority_affixes": [
-            {
-              "name": "unique_passiverankbonus_pal_heavyweight",
-              "weight": 10
-            },
-            {
-              "name": "unique_passiverankbonus_pal_breaktheline",
-              "weight": 8
-            },
             {
               "name": "the_powerful",
               "weight": 6
@@ -1217,10 +1057,6 @@
             {
               "name": "riving",
               "weight": 10
-            },
-            {
-              "name": "ph_shieldbashers",
-              "weight": 8
             },
             {
               "name": "the_powerful",
@@ -1357,27 +1193,11 @@
           "priority_aspects": [],
           "priority_affixes": [
             {
-              "name": "offense",
-              "weight": 10
-            },
-            {
-              "name": "heartiness",
-              "weight": 8
-            },
-            {
-              "name": "righteousness",
-              "weight": 6
-            },
-            {
               "name": "swiftness",
               "weight": 4
             },
             {
               "name": "the_adept",
-              "weight": 3
-            },
-            {
-              "name": "cracking",
               "weight": 3
             },
             {
@@ -1430,10 +1250,6 @@
               "weight": 10
             },
             {
-              "name": "unique_skillrankbonus_paladin_juggernaut",
-              "weight": 8
-            },
-            {
               "name": "sturdiness",
               "weight": 6
             },
@@ -1451,14 +1267,6 @@
           ],
           "priority_aspects": [],
           "priority_affixes": [
-            {
-              "name": "unique_passiverankbonus_pal_heavyweight",
-              "weight": 10
-            },
-            {
-              "name": "unique_passiverankbonus_pal_breaktheline",
-              "weight": 8
-            },
             {
               "name": "the_powerful",
               "weight": 6
@@ -1478,10 +1286,6 @@
             {
               "name": "riving",
               "weight": 10
-            },
-            {
-              "name": "ph_shieldbashers",
-              "weight": 8
             },
             {
               "name": "the_powerful",
@@ -1618,27 +1422,11 @@
           "priority_aspects": [],
           "priority_affixes": [
             {
-              "name": "offense",
-              "weight": 10
-            },
-            {
-              "name": "heartiness",
-              "weight": 8
-            },
-            {
-              "name": "righteousness",
-              "weight": 6
-            },
-            {
               "name": "keenness",
               "weight": 4
             },
             {
               "name": "swiftness",
-              "weight": 3
-            },
-            {
-              "name": "cracking",
               "weight": 3
             },
             {

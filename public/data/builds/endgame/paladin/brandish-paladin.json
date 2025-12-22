@@ -6,7 +6,7 @@
   "source_url": "https://maxroll.gg/d4/build-guides/brandish-paladin-guide",
   "tier": "S",
   "tags": [],
-  "last_updated": "2025-12-21",
+  "last_updated": "2025-12-22",
   "profile_order": [
     "starter",
     "ancestral",
@@ -86,16 +86,8 @@
           "priority_aspects": [],
           "priority_affixes": [
             {
-              "name": "ph_brandishers",
-              "weight": 8
-            },
-            {
               "name": "unique_attackspeed_basics",
               "weight": 6
-            },
-            {
-              "name": "unique_double_damage_skill_pal_brandish",
-              "weight": 4
             },
             {
               "name": "the_powerful",
@@ -133,10 +125,6 @@
           "priority_uniques": [],
           "priority_aspects": [],
           "priority_affixes": [
-            {
-              "name": "ph_brandishers",
-              "weight": 10
-            },
             {
               "name": "the_powerful",
               "weight": 8
@@ -224,34 +212,6 @@
             {
               "name": "keenness",
               "weight": 6
-            },
-            {
-              "name": "righteousness",
-              "weight": 4
-            },
-            {
-              "name": "iron",
-              "weight": 3
-            },
-            {
-              "name": "cracking",
-              "weight": 3
-            },
-            {
-              "name": "heartiness",
-              "weight": 3
-            },
-            {
-              "name": "fortitude",
-              "weight": 3
-            },
-            {
-              "name": "offense",
-              "weight": 3
-            },
-            {
-              "name": "riposting",
-              "weight": 3
             }
           ],
           "required_tempers": []
@@ -327,16 +287,8 @@
           "priority_aspects": [],
           "priority_affixes": [
             {
-              "name": "ph_brandishers",
-              "weight": 8
-            },
-            {
               "name": "unique_attackspeed_basics",
               "weight": 6
-            },
-            {
-              "name": "unique_double_damage_skill_pal_brandish",
-              "weight": 4
             },
             {
               "name": "the_powerful",
@@ -374,10 +326,6 @@
           "priority_uniques": [],
           "priority_aspects": [],
           "priority_affixes": [
-            {
-              "name": "ph_brandishers",
-              "weight": 10
-            },
             {
               "name": "the_powerful",
               "weight": 8
@@ -457,34 +405,6 @@
             {
               "name": "keenness",
               "weight": 8
-            },
-            {
-              "name": "righteousness",
-              "weight": 6
-            },
-            {
-              "name": "iron",
-              "weight": 4
-            },
-            {
-              "name": "cracking",
-              "weight": 3
-            },
-            {
-              "name": "heartiness",
-              "weight": 3
-            },
-            {
-              "name": "fortitude",
-              "weight": 3
-            },
-            {
-              "name": "offense",
-              "weight": 3
-            },
-            {
-              "name": "riposting",
-              "weight": 3
             },
             {
               "name": "swiftness",
@@ -541,16 +461,8 @@
           "priority_aspects": [],
           "priority_affixes": [
             {
-              "name": "ph_brandishers",
-              "weight": 8
-            },
-            {
               "name": "unique_attackspeed_basics",
               "weight": 6
-            },
-            {
-              "name": "unique_double_damage_skill_pal_brandish",
-              "weight": 4
             },
             {
               "name": "the_powerful",
@@ -588,10 +500,6 @@
           "priority_uniques": [],
           "priority_aspects": [],
           "priority_affixes": [
-            {
-              "name": "ph_brandishers",
-              "weight": 10
-            },
             {
               "name": "the_powerful",
               "weight": 8
@@ -671,34 +579,6 @@
             {
               "name": "keenness",
               "weight": 8
-            },
-            {
-              "name": "righteousness",
-              "weight": 6
-            },
-            {
-              "name": "iron",
-              "weight": 4
-            },
-            {
-              "name": "cracking",
-              "weight": 3
-            },
-            {
-              "name": "heartiness",
-              "weight": 3
-            },
-            {
-              "name": "fortitude",
-              "weight": 3
-            },
-            {
-              "name": "offense",
-              "weight": 3
-            },
-            {
-              "name": "riposting",
-              "weight": 3
             },
             {
               "name": "swiftness",
@@ -755,16 +635,8 @@
           "priority_aspects": [],
           "priority_affixes": [
             {
-              "name": "ph_brandishers",
-              "weight": 8
-            },
-            {
               "name": "unique_attackspeed_basics",
               "weight": 6
-            },
-            {
-              "name": "unique_double_damage_skill_pal_brandish",
-              "weight": 4
             },
             {
               "name": "the_powerful",
@@ -802,10 +674,6 @@
           "priority_uniques": [],
           "priority_aspects": [],
           "priority_affixes": [
-            {
-              "name": "ph_brandishers",
-              "weight": 10
-            },
             {
               "name": "the_powerful",
               "weight": 8
@@ -845,10 +713,6 @@
             {
               "name": "auric",
               "weight": 4
-            },
-            {
-              "name": "auras",
-              "weight": 3
             }
           ],
           "required_tempers": []
@@ -897,34 +761,6 @@
             {
               "name": "keenness",
               "weight": 8
-            },
-            {
-              "name": "righteousness",
-              "weight": 6
-            },
-            {
-              "name": "iron",
-              "weight": 4
-            },
-            {
-              "name": "cracking",
-              "weight": 3
-            },
-            {
-              "name": "heartiness",
-              "weight": 3
-            },
-            {
-              "name": "fortitude",
-              "weight": 3
-            },
-            {
-              "name": "offense",
-              "weight": 3
-            },
-            {
-              "name": "riposting",
-              "weight": 3
             },
             {
               "name": "swiftness",
@@ -981,16 +817,8 @@
           "priority_aspects": [],
           "priority_affixes": [
             {
-              "name": "ph_brandishers",
-              "weight": 8
-            },
-            {
               "name": "unique_attackspeed_basics",
               "weight": 6
-            },
-            {
-              "name": "unique_double_damage_skill_pal_brandish",
-              "weight": 4
             },
             {
               "name": "the_powerful",
@@ -1028,10 +856,6 @@
           "priority_uniques": [],
           "priority_aspects": [],
           "priority_affixes": [
-            {
-              "name": "ph_brandishers",
-              "weight": 10
-            },
             {
               "name": "the_powerful",
               "weight": 8
@@ -1111,34 +935,6 @@
             {
               "name": "keenness",
               "weight": 8
-            },
-            {
-              "name": "righteousness",
-              "weight": 6
-            },
-            {
-              "name": "iron",
-              "weight": 4
-            },
-            {
-              "name": "cracking",
-              "weight": 3
-            },
-            {
-              "name": "heartiness",
-              "weight": 3
-            },
-            {
-              "name": "fortitude",
-              "weight": 3
-            },
-            {
-              "name": "offense",
-              "weight": 3
-            },
-            {
-              "name": "riposting",
-              "weight": 3
             },
             {
               "name": "swiftness",

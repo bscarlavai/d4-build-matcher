@@ -6,7 +6,7 @@
   "source_url": "https://maxroll.gg/d4/build-guides/flurry-rogue-guide",
   "tier": "S",
   "tags": [],
-  "last_updated": "2025-12-21",
+  "last_updated": "2025-12-22",
   "profile_order": [
     "starter",
     "ancestral",
@@ -808,7 +808,7 @@
               "weight": 6
             },
             {
-              "name": "neutralizing",
+              "name": "auric",
               "weight": 4
             }
           ],
@@ -840,28 +840,30 @@
         },
         "ring": {
           "slot": "ring",
-          "priority_uniques": [],
+          "priority_uniques": [
+            "Ring of Starless Skies"
+          ],
           "priority_aspects": [],
           "priority_affixes": [
+            {
+              "name": "sanctification_skillrankbonus_allskills",
+              "weight": 3
+            },
             {
               "name": "the_adroit",
               "weight": 10
             },
             {
-              "name": "vigor",
+              "name": "swiftness",
               "weight": 8
             },
             {
-              "name": "insulation",
+              "name": "vigor",
               "weight": 6
             },
             {
               "name": "auric",
               "weight": 4
-            },
-            {
-              "name": "grounding",
-              "weight": 6
             }
           ],
           "required_tempers": []

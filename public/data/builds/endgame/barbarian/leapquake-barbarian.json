@@ -6,7 +6,7 @@
   "source_url": "https://maxroll.gg/d4/build-guides/leapquake-barbarian-guide",
   "tier": "S",
   "tags": [],
-  "last_updated": "2025-12-21",
+  "last_updated": "2025-12-22",
   "profile_order": [
     "starter",
     "ancestral",
@@ -32,7 +32,7 @@
               "weight": 8
             },
             {
-              "name": "steel",
+              "name": "steeling",
               "weight": 6
             },
             {
@@ -784,10 +784,6 @@
             {
               "name": "unique_armor_giga_specialscaling",
               "weight": 3
-            },
-            {
-              "name": "the_focused",
-              "weight": 3
             }
           ],
           "required_tempers": []
@@ -970,25 +966,31 @@
         },
         "amulet": {
           "slot": "amulet",
-          "priority_uniques": [
-            "Battle Trance"
-          ],
+          "priority_uniques": [],
           "priority_aspects": [],
           "priority_affixes": [
             {
-              "name": "the_adept",
+              "name": "oppression",
+              "weight": 10
+            },
+            {
+              "name": "countering",
               "weight": 8
             },
             {
-              "name": "the_sturdy",
+              "name": "the_pit_fighter",
               "weight": 6
             },
             {
-              "name": "resource_maxfury_greater_jewelry_unique",
+              "name": "the_slayer",
               "weight": 4
             },
             {
-              "name": "unique_skillrankbonus_barb_basic_3_frenzy_double",
+              "name": "resources",
+              "weight": 3
+            },
+            {
+              "name": "the_adept",
               "weight": 3
             }
           ],

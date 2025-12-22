@@ -6,7 +6,7 @@
   "source_url": "https://maxroll.gg/d4/build-guides/hammer-of-the-ancients-barbarian-guide",
   "tier": "S",
   "tags": [],
-  "last_updated": "2025-12-21",
+  "last_updated": "2025-12-22",
   "profile_order": [
     "mythic",
     "start",
@@ -136,7 +136,7 @@
               "weight": 8
             },
             {
-              "name": "steel",
+              "name": "steeling",
               "weight": 6
             },
             {

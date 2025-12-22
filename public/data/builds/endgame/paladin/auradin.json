@@ -6,7 +6,7 @@
   "source_url": "https://maxroll.gg/d4/build-guides/auradin-guide",
   "tier": "S",
   "tags": [],
-  "last_updated": "2025-12-21",
+  "last_updated": "2025-12-22",
   "profile_order": [
     "starter",
     "ancestral",
@@ -60,10 +60,6 @@
               "weight": 6
             },
             {
-              "name": "auras",
-              "weight": 4
-            },
-            {
               "name": "sturdiness",
               "weight": 10
             },
@@ -106,14 +102,6 @@
           "priority_aspects": [],
           "priority_affixes": [
             {
-              "name": "unique_double_damage_skill_pal_holylight",
-              "weight": 8
-            },
-            {
-              "name": "unique_passiverankbonus_pal_righteousness",
-              "weight": 6
-            },
-            {
               "name": "unique_corestat_strength_higherhigher",
               "weight": 4
             },
@@ -142,7 +130,7 @@
               "weight": 6
             },
             {
-              "name": "steel",
+              "name": "steeling",
               "weight": 4
             }
           ],
@@ -216,26 +204,6 @@
             {
               "name": "swiftness",
               "weight": 6
-            },
-            {
-              "name": "offense",
-              "weight": 4
-            },
-            {
-              "name": "righteousness",
-              "weight": 3
-            },
-            {
-              "name": "iron",
-              "weight": 3
-            },
-            {
-              "name": "fortitude",
-              "weight": 3
-            },
-            {
-              "name": "heartiness",
-              "weight": 3
             }
           ],
           "required_tempers": []
@@ -289,10 +257,6 @@
               "weight": 6
             },
             {
-              "name": "auras",
-              "weight": 4
-            },
-            {
               "name": "sturdiness",
               "weight": 10
             },
@@ -311,14 +275,6 @@
           "priority_aspects": [],
           "priority_affixes": [
             {
-              "name": "unique_passiverankbonus_pal_breaktheline",
-              "weight": 8
-            },
-            {
-              "name": "unique_passiverankbonus_pal_heavyweight",
-              "weight": 6
-            },
-            {
               "name": "the_powerful",
               "weight": 4
             },
@@ -336,14 +292,6 @@
           ],
           "priority_aspects": [],
           "priority_affixes": [
-            {
-              "name": "unique_double_damage_skill_pal_holylight",
-              "weight": 8
-            },
-            {
-              "name": "unique_passiverankbonus_pal_righteousness",
-              "weight": 6
-            },
             {
               "name": "unique_corestat_strength_higherhigher",
               "weight": 4
@@ -373,7 +321,7 @@
               "weight": 6
             },
             {
-              "name": "steel",
+              "name": "steeling",
               "weight": 4
             }
           ],
@@ -443,26 +391,6 @@
             {
               "name": "swiftness",
               "weight": 6
-            },
-            {
-              "name": "offense",
-              "weight": 4
-            },
-            {
-              "name": "iron",
-              "weight": 3
-            },
-            {
-              "name": "fortitude",
-              "weight": 3
-            },
-            {
-              "name": "heartiness",
-              "weight": 3
-            },
-            {
-              "name": "righteousness",
-              "weight": 3
             }
           ],
           "required_tempers": []
@@ -515,14 +443,6 @@
           "priority_aspects": [],
           "priority_affixes": [
             {
-              "name": "unique_passiverankbonus_pal_breaktheline",
-              "weight": 8
-            },
-            {
-              "name": "unique_passiverankbonus_pal_heavyweight",
-              "weight": 6
-            },
-            {
               "name": "the_powerful",
               "weight": 4
             },
@@ -540,14 +460,6 @@
           ],
           "priority_aspects": [],
           "priority_affixes": [
-            {
-              "name": "unique_double_damage_skill_pal_holylight",
-              "weight": 8
-            },
-            {
-              "name": "unique_passiverankbonus_pal_righteousness",
-              "weight": 6
-            },
             {
               "name": "unique_corestat_strength_higherhigher",
               "weight": 4
@@ -577,7 +489,7 @@
               "weight": 6
             },
             {
-              "name": "steel",
+              "name": "steeling",
               "weight": 4
             }
           ],
@@ -647,26 +559,6 @@
             {
               "name": "swiftness",
               "weight": 6
-            },
-            {
-              "name": "offense",
-              "weight": 4
-            },
-            {
-              "name": "iron",
-              "weight": 3
-            },
-            {
-              "name": "fortitude",
-              "weight": 3
-            },
-            {
-              "name": "heartiness",
-              "weight": 3
-            },
-            {
-              "name": "righteousness",
-              "weight": 3
             }
           ],
           "required_tempers": []
@@ -707,10 +599,6 @@
             {
               "name": "vigor",
               "weight": 4
-            },
-            {
-              "name": "auras",
-              "weight": 3
             }
           ],
           "required_tempers": []
@@ -723,23 +611,11 @@
           "priority_aspects": [],
           "priority_affixes": [
             {
-              "name": "unique_passiverankbonus_pal_breaktheline",
-              "weight": 8
-            },
-            {
-              "name": "unique_passiverankbonus_pal_heavyweight",
-              "weight": 6
-            },
-            {
               "name": "the_powerful",
               "weight": 4
             },
             {
               "name": "vigor",
-              "weight": 3
-            },
-            {
-              "name": "the_adroit",
               "weight": 3
             }
           ],
@@ -752,14 +628,6 @@
           ],
           "priority_aspects": [],
           "priority_affixes": [
-            {
-              "name": "unique_double_damage_skill_pal_holylight",
-              "weight": 8
-            },
-            {
-              "name": "unique_passiverankbonus_pal_righteousness",
-              "weight": 6
-            },
             {
               "name": "unique_corestat_strength_higherhigher",
               "weight": 4
@@ -789,12 +657,8 @@
               "weight": 6
             },
             {
-              "name": "steel",
+              "name": "steeling",
               "weight": 4
-            },
-            {
-              "name": "auras",
-              "weight": 3
             }
           ],
           "required_tempers": []
@@ -819,10 +683,6 @@
             {
               "name": "speed",
               "weight": 4
-            },
-            {
-              "name": "auras",
-              "weight": 3
             }
           ],
           "required_tempers": []
@@ -871,26 +731,6 @@
             {
               "name": "swiftness",
               "weight": 6
-            },
-            {
-              "name": "offense",
-              "weight": 4
-            },
-            {
-              "name": "iron",
-              "weight": 3
-            },
-            {
-              "name": "fortitude",
-              "weight": 3
-            },
-            {
-              "name": "heartiness",
-              "weight": 3
-            },
-            {
-              "name": "righteousness",
-              "weight": 3
             }
           ],
           "required_tempers": []
@@ -943,14 +783,6 @@
           "priority_aspects": [],
           "priority_affixes": [
             {
-              "name": "unique_passiverankbonus_pal_breaktheline",
-              "weight": 8
-            },
-            {
-              "name": "unique_passiverankbonus_pal_heavyweight",
-              "weight": 6
-            },
-            {
               "name": "the_powerful",
               "weight": 4
             },
@@ -968,14 +800,6 @@
           ],
           "priority_aspects": [],
           "priority_affixes": [
-            {
-              "name": "unique_double_damage_skill_pal_holylight",
-              "weight": 8
-            },
-            {
-              "name": "unique_passiverankbonus_pal_righteousness",
-              "weight": 6
-            },
             {
               "name": "unique_corestat_strength_higherhigher",
               "weight": 4
@@ -1005,7 +829,7 @@
               "weight": 6
             },
             {
-              "name": "steel",
+              "name": "steeling",
               "weight": 4
             }
           ],
@@ -1075,26 +899,6 @@
             {
               "name": "swiftness",
               "weight": 6
-            },
-            {
-              "name": "offense",
-              "weight": 4
-            },
-            {
-              "name": "iron",
-              "weight": 3
-            },
-            {
-              "name": "fortitude",
-              "weight": 3
-            },
-            {
-              "name": "heartiness",
-              "weight": 3
-            },
-            {
-              "name": "righteousness",
-              "weight": 3
             }
           ],
           "required_tempers": []

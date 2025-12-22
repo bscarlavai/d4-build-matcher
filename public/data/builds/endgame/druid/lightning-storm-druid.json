@@ -6,7 +6,7 @@
   "source_url": "https://maxroll.gg/d4/build-guides/lightning-storm-druid-guide",
   "tier": "C",
   "tags": [],
-  "last_updated": "2025-12-21",
+  "last_updated": "2025-12-22",
   "profile_order": [
     "starter",
     "ancestral",
@@ -984,10 +984,6 @@
             {
               "name": "resources",
               "weight": 3
-            },
-            {
-              "name": "the_focused",
-              "weight": 3
             }
           ],
           "required_tempers": []
@@ -1121,10 +1117,6 @@
             },
             {
               "name": "auric",
-              "weight": 3
-            },
-            {
-              "name": "the_focused",
               "weight": 3
             }
           ],

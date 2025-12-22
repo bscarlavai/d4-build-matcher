@@ -6,7 +6,7 @@
   "source_url": "https://maxroll.gg/d4/build-guides/blessed-shield-paladin-guide",
   "tier": "A",
   "tags": [],
-  "last_updated": "2025-12-21",
+  "last_updated": "2025-12-22",
   "profile_order": [
     "starter",
     "ancestral",
@@ -89,10 +89,6 @@
           "priority_uniques": [],
           "priority_aspects": [],
           "priority_affixes": [
-            {
-              "name": "ph_shieldthrowers",
-              "weight": 10
-            },
             {
               "name": "the_powerful",
               "weight": 8
@@ -230,32 +226,8 @@
           "priority_aspects": [],
           "priority_affixes": [
             {
-              "name": "offense",
-              "weight": 10
-            },
-            {
-              "name": "heartiness",
-              "weight": 8
-            },
-            {
-              "name": "discipline",
-              "weight": 6
-            },
-            {
               "name": "swiftness",
               "weight": 4
-            },
-            {
-              "name": "righteousness",
-              "weight": 3
-            },
-            {
-              "name": "cracking",
-              "weight": 3
-            },
-            {
-              "name": "dizziness",
-              "weight": 3
             },
             {
               "name": "the_powerful",
@@ -325,14 +297,6 @@
             {
               "name": "auric",
               "weight": 4
-            },
-            {
-              "name": "unique_double_damage_skill_pal_blessedshield",
-              "weight": 8
-            },
-            {
-              "name": "ph_shieldthrowers",
-              "weight": 6
             }
           ],
           "required_tempers": []
@@ -344,14 +308,6 @@
           ],
           "priority_aspects": [],
           "priority_affixes": [
-            {
-              "name": "unique_passiverankbonus_pal_heavyweight",
-              "weight": 10
-            },
-            {
-              "name": "unique_passiverankbonus_pal_breaktheline",
-              "weight": 8
-            },
             {
               "name": "the_powerful",
               "weight": 6
@@ -371,10 +327,6 @@
             {
               "name": "riving",
               "weight": 10
-            },
-            {
-              "name": "ph_shieldthrowers",
-              "weight": 8
             },
             {
               "name": "the_powerful",
@@ -519,32 +471,8 @@
           "priority_aspects": [],
           "priority_affixes": [
             {
-              "name": "offense",
-              "weight": 10
-            },
-            {
-              "name": "heartiness",
-              "weight": 8
-            },
-            {
-              "name": "discipline",
-              "weight": 6
-            },
-            {
               "name": "swiftness",
               "weight": 4
-            },
-            {
-              "name": "righteousness",
-              "weight": 3
-            },
-            {
-              "name": "cracking",
-              "weight": 3
-            },
-            {
-              "name": "dizziness",
-              "weight": 3
             },
             {
               "name": "the_powerful",
@@ -580,14 +508,6 @@
           "priority_aspects": [],
           "priority_affixes": [
             {
-              "name": "unique_double_damage_skill_pal_blessedshield",
-              "weight": 8
-            },
-            {
-              "name": "ph_shieldthrowers",
-              "weight": 6
-            },
-            {
               "name": "vigor",
               "weight": 4
             },
@@ -605,14 +525,6 @@
           ],
           "priority_aspects": [],
           "priority_affixes": [
-            {
-              "name": "unique_passiverankbonus_pal_heavyweight",
-              "weight": 10
-            },
-            {
-              "name": "unique_passiverankbonus_pal_breaktheline",
-              "weight": 8
-            },
             {
               "name": "the_powerful",
               "weight": 6
@@ -632,10 +544,6 @@
             {
               "name": "riving",
               "weight": 10
-            },
-            {
-              "name": "ph_shieldthrowers",
-              "weight": 8
             },
             {
               "name": "the_powerful",
@@ -757,32 +665,8 @@
           "priority_aspects": [],
           "priority_affixes": [
             {
-              "name": "offense",
-              "weight": 10
-            },
-            {
-              "name": "heartiness",
-              "weight": 8
-            },
-            {
-              "name": "discipline",
-              "weight": 6
-            },
-            {
               "name": "swiftness",
               "weight": 4
-            },
-            {
-              "name": "righteousness",
-              "weight": 3
-            },
-            {
-              "name": "cracking",
-              "weight": 3
-            },
-            {
-              "name": "dizziness",
-              "weight": 3
             },
             {
               "name": "the_powerful",
