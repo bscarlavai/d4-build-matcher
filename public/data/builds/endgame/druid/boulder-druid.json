@@ -6,7 +6,7 @@
   "source_url": "https://maxroll.gg/d4/build-guides/boulder-druid-guide",
   "tier": "A",
   "tags": [],
-  "last_updated": "2025-12-22",
+  "last_updated": "2025-12-23",
   "profile_order": [
     "ancestral",
     "mythic",
@@ -547,7 +547,7 @@
               "weight": 3
             },
             {
-              "name": "the_focused",
+              "name": "sanctification",
               "weight": 3
             }
           ],
@@ -598,6 +598,10 @@
             },
             {
               "name": "cruelty",
+              "weight": 3
+            },
+            {
+              "name": "sanctification",
               "weight": 3
             }
           ],
@@ -703,7 +707,7 @@
               "weight": 3
             },
             {
-              "name": "the_focused",
+              "name": "sanctification",
               "weight": 3
             }
           ],
@@ -1027,6 +1031,10 @@
             {
               "name": "unique_passiverankbonus_druid_04_defensiveposture",
               "weight": 3
+            },
+            {
+              "name": "sanctification",
+              "weight": 3
             }
           ],
           "required_tempers": []
@@ -1076,6 +1084,10 @@
             },
             {
               "name": "cruelty",
+              "weight": 3
+            },
+            {
+              "name": "sanctification",
               "weight": 3
             }
           ],
@@ -1178,6 +1190,10 @@
             },
             {
               "name": "auric",
+              "weight": 3
+            },
+            {
+              "name": "sanctification",
               "weight": 3
             }
           ],

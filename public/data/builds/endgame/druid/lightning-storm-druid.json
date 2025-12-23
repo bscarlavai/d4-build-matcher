@@ -6,7 +6,7 @@
   "source_url": "https://maxroll.gg/d4/build-guides/lightning-storm-druid-guide",
   "tier": "C",
   "tags": [],
-  "last_updated": "2025-12-22",
+  "last_updated": "2025-12-23",
   "profile_order": [
     "starter",
     "ancestral",
@@ -984,6 +984,10 @@
             {
               "name": "resources",
               "weight": 3
+            },
+            {
+              "name": "sanctification",
+              "weight": 3
             }
           ],
           "required_tempers": []
@@ -1029,6 +1033,10 @@
             },
             {
               "name": "cruelty",
+              "weight": 3
+            },
+            {
+              "name": "sanctification",
               "weight": 3
             }
           ],
@@ -1117,6 +1125,10 @@
             },
             {
               "name": "auric",
+              "weight": 3
+            },
+            {
+              "name": "sanctification",
               "weight": 3
             }
           ],

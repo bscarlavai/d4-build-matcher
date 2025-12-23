@@ -6,7 +6,7 @@
   "source_url": "https://maxroll.gg/d4/build-guides/leapquake-barbarian-guide",
   "tier": "S",
   "tags": [],
-  "last_updated": "2025-12-22",
+  "last_updated": "2025-12-23",
   "profile_order": [
     "starter",
     "ancestral",
@@ -32,7 +32,7 @@
               "weight": 8
             },
             {
-              "name": "steeling",
+              "name": "steel",
               "weight": 6
             },
             {
@@ -437,7 +437,7 @@
               "weight": 8
             },
             {
-              "name": "toughened",
+              "name": "infusing",
               "weight": 6
             },
             {
@@ -681,7 +681,7 @@
               "weight": 6
             },
             {
-              "name": "toughened",
+              "name": "infusing",
               "weight": 4
             }
           ],
@@ -784,6 +784,10 @@
             {
               "name": "unique_armor_giga_specialscaling",
               "weight": 3
+            },
+            {
+              "name": "sanctification",
+              "weight": 3
             }
           ],
           "required_tempers": []
@@ -878,6 +882,10 @@
             {
               "name": "unique_generic_luckyhit_vulnerable_highvariance",
               "weight": 3
+            },
+            {
+              "name": "sanctification",
+              "weight": 3
             }
           ],
           "required_tempers": []
@@ -926,7 +934,7 @@
               "weight": 8
             },
             {
-              "name": "toughened",
+              "name": "infusing",
               "weight": 6
             },
             {
@@ -960,6 +968,10 @@
             {
               "name": "keenness",
               "weight": 4
+            },
+            {
+              "name": "sanctification",
+              "weight": 3
             }
           ],
           "required_tempers": []
@@ -1053,6 +1065,10 @@
             {
               "name": "unique_armor_giga_specialscaling",
               "weight": 3
+            },
+            {
+              "name": "sanctification",
+              "weight": 3
             }
           ],
           "required_tempers": []
@@ -1147,6 +1163,10 @@
             {
               "name": "unique_generic_luckyhit_vulnerable_highvariance",
               "weight": 3
+            },
+            {
+              "name": "sanctification",
+              "weight": 3
             }
           ],
           "required_tempers": []
@@ -1225,41 +1245,47 @@
               "weight": 10
             },
             {
-              "name": "the_adept",
-              "weight": 8
-            },
-            {
               "name": "swiftness",
               "weight": 6
             },
             {
               "name": "keenness",
               "weight": 4
+            },
+            {
+              "name": "sanctification",
+              "weight": 3
             }
           ],
           "required_tempers": []
         },
         "amulet": {
           "slot": "amulet",
-          "priority_uniques": [
-            "Battle Trance"
-          ],
+          "priority_uniques": [],
           "priority_aspects": [],
           "priority_affixes": [
             {
-              "name": "the_adept",
+              "name": "oppression",
+              "weight": 10
+            },
+            {
+              "name": "countering",
               "weight": 8
             },
             {
-              "name": "the_sturdy",
+              "name": "the_pit_fighter",
               "weight": 6
             },
             {
-              "name": "resource_maxfury_greater_jewelry_unique",
+              "name": "the_slayer",
               "weight": 4
             },
             {
-              "name": "unique_skillrankbonus_barb_basic_3_frenzy_double",
+              "name": "resources",
+              "weight": 3
+            },
+            {
+              "name": "the_adept",
               "weight": 3
             }
           ],

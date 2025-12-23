@@ -6,7 +6,7 @@
   "source_url": "https://maxroll.gg/d4/build-guides/shred-druid-guide",
   "tier": "B",
   "tags": [],
-  "last_updated": "2025-12-22",
+  "last_updated": "2025-12-23",
   "profile_order": [
     "starter",
     "ancestral",
@@ -789,7 +789,7 @@
               "weight": 3
             },
             {
-              "name": "the_focused",
+              "name": "sanctification",
               "weight": 3
             },
             {
@@ -869,6 +869,10 @@
             {
               "name": "auric",
               "weight": 3
+            },
+            {
+              "name": "principals",
+              "weight": 3
             }
           ],
           "required_tempers": []
@@ -896,10 +900,6 @@
             },
             {
               "name": "evasion",
-              "weight": 3
-            },
-            {
-              "name": "the_focused",
               "weight": 3
             }
           ],
@@ -931,7 +931,7 @@
               "weight": 3
             },
             {
-              "name": "the_focused",
+              "name": "sanctification",
               "weight": 3
             }
           ],
@@ -944,6 +944,10 @@
           ],
           "priority_aspects": [],
           "priority_affixes": [
+            {
+              "name": "sanctification_skillrankbonus_allskills",
+              "weight": 3
+            },
             {
               "name": "determination",
               "weight": 10
@@ -1006,6 +1010,10 @@
             },
             {
               "name": "speed",
+              "weight": 3
+            },
+            {
+              "name": "sanctification",
               "weight": 3
             }
           ],
@@ -1318,7 +1326,7 @@
               "weight": 3
             },
             {
-              "name": "the_focused",
+              "name": "sanctification",
               "weight": 3
             },
             {
@@ -1339,6 +1347,10 @@
             },
             {
               "name": "riving",
+              "weight": 3
+            },
+            {
+              "name": "the_adroit",
               "weight": 3
             }
           ],
@@ -1398,6 +1410,10 @@
             {
               "name": "auric",
               "weight": 3
+            },
+            {
+              "name": "principals",
+              "weight": 3
             }
           ],
           "required_tempers": []
@@ -1408,27 +1424,27 @@
           "priority_aspects": [],
           "priority_affixes": [
             {
-              "name": "determination",
+              "name": "carrying",
               "weight": 10
             },
             {
-              "name": "vigor",
+              "name": "determination",
               "weight": 8
             },
             {
-              "name": "toughened",
+              "name": "vigor",
               "weight": 6
             },
             {
-              "name": "auric",
+              "name": "toughened",
               "weight": 4
             },
             {
-              "name": "evasion",
+              "name": "auric",
               "weight": 3
             },
             {
-              "name": "the_focused",
+              "name": "evasion",
               "weight": 3
             }
           ],
@@ -1460,7 +1476,7 @@
               "weight": 3
             },
             {
-              "name": "the_focused",
+              "name": "sanctification",
               "weight": 3
             }
           ],
@@ -1473,6 +1489,10 @@
           ],
           "priority_aspects": [],
           "priority_affixes": [
+            {
+              "name": "sanctification_skillrankbonus_allskills",
+              "weight": 3
+            },
             {
               "name": "determination",
               "weight": 10
@@ -1535,6 +1555,10 @@
             },
             {
               "name": "speed",
+              "weight": 3
+            },
+            {
+              "name": "sanctification",
               "weight": 3
             }
           ],

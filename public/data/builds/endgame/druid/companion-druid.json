@@ -6,7 +6,7 @@
   "source_url": "https://maxroll.gg/d4/build-guides/companion-druid-guide",
   "tier": "S",
   "tags": [],
-  "last_updated": "2025-12-22",
+  "last_updated": "2025-12-23",
   "profile_order": [
     "starter",
     "ancestral",
@@ -746,12 +746,7 @@
             "Heir of Perdition"
           ],
           "priority_aspects": [],
-          "priority_affixes": [
-            {
-              "name": "the_companion",
-              "weight": 3
-            }
-          ],
+          "priority_affixes": [],
           "required_tempers": []
         },
         "chest": {
@@ -795,6 +790,10 @@
             },
             {
               "name": "the_focused",
+              "weight": 3
+            },
+            {
+              "name": "sanctification",
               "weight": 3
             }
           ],
@@ -856,7 +855,7 @@
               "weight": 3
             },
             {
-              "name": "the_focused",
+              "name": "sanctification",
               "weight": 3
             }
           ],
@@ -886,7 +885,7 @@
               "weight": 3
             },
             {
-              "name": "the_focused",
+              "name": "sanctification",
               "weight": 3
             }
           ],
@@ -1219,6 +1218,10 @@
             {
               "name": "demolition",
               "weight": 3
+            },
+            {
+              "name": "sanctification",
+              "weight": 3
             }
           ],
           "required_tempers": []
@@ -1277,6 +1280,10 @@
             {
               "name": "toughened",
               "weight": 4
+            },
+            {
+              "name": "sanctification",
+              "weight": 3
             }
           ],
           "required_tempers": []
@@ -1302,6 +1309,10 @@
             },
             {
               "name": "unique_damage_generic_tag_ultimate_giga",
+              "weight": 3
+            },
+            {
+              "name": "sanctification",
               "weight": 3
             }
           ],
@@ -1334,6 +1345,10 @@
             },
             {
               "name": "carnage",
+              "weight": 3
+            },
+            {
+              "name": "the_companion",
               "weight": 3
             }
           ],

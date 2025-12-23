@@ -6,7 +6,7 @@
   "source_url": "https://maxroll.gg/d4/build-guides/blood-surge-necromancer-guide",
   "tier": "C",
   "tags": [],
-  "last_updated": "2025-12-22",
+  "last_updated": "2025-12-23",
   "profile_order": [
     "starter",
     "ancestral",
@@ -322,12 +322,8 @@
               "weight": 10
             },
             {
-              "name": "perpetuity",
-              "weight": 6
-            },
-            {
-              "name": "the_adept",
-              "weight": 3
+              "name": "sturdiness",
+              "weight": 8
             }
           ],
           "required_tempers": []
@@ -532,24 +528,7 @@
             "Shroud of False Death"
           ],
           "priority_aspects": [],
-          "priority_affixes": [
-            {
-              "name": "swiftness",
-              "weight": 10
-            },
-            {
-              "name": "sturdiness",
-              "weight": 8
-            },
-            {
-              "name": "vigor",
-              "weight": 6
-            },
-            {
-              "name": "toughened",
-              "weight": 4
-            }
-          ],
+          "priority_affixes": [],
           "required_tempers": []
         },
         "weapon": {
@@ -572,14 +551,6 @@
             {
               "name": "riving",
               "weight": 4
-            },
-            {
-              "name": "demolition",
-              "weight": 3
-            },
-            {
-              "name": "the_focused",
-              "weight": 3
             }
           ],
           "required_tempers": []
@@ -654,8 +625,16 @@
               "weight": 6
             },
             {
-              "name": "infusing",
+              "name": "toughened",
               "weight": 4
+            },
+            {
+              "name": "infusing",
+              "weight": 3
+            },
+            {
+              "name": "auric",
+              "weight": 3
             }
           ],
           "required_tempers": []
@@ -752,24 +731,8 @@
           "priority_aspects": [],
           "priority_affixes": [
             {
-              "name": "the_focused",
+              "name": "sanctification",
               "weight": 3
-            },
-            {
-              "name": "swiftness",
-              "weight": 10
-            },
-            {
-              "name": "sturdiness",
-              "weight": 8
-            },
-            {
-              "name": "vigor",
-              "weight": 6
-            },
-            {
-              "name": "toughened",
-              "weight": 4
             }
           ],
           "required_tempers": []
@@ -796,11 +759,7 @@
               "weight": 4
             },
             {
-              "name": "demolition",
-              "weight": 3
-            },
-            {
-              "name": "the_focused",
+              "name": "sanctification",
               "weight": 3
             }
           ],
@@ -827,10 +786,6 @@
             },
             {
               "name": "the_wise",
-              "weight": 3
-            },
-            {
-              "name": "the_focused",
               "weight": 3
             }
           ],
@@ -884,8 +839,20 @@
               "weight": 6
             },
             {
-              "name": "infusing",
+              "name": "toughened",
               "weight": 4
+            },
+            {
+              "name": "infusing",
+              "weight": 3
+            },
+            {
+              "name": "auric",
+              "weight": 3
+            },
+            {
+              "name": "the_focused",
+              "weight": 3
             }
           ],
           "required_tempers": []
@@ -923,6 +890,10 @@
             },
             {
               "name": "auric",
+              "weight": 3
+            },
+            {
+              "name": "sanctification",
               "weight": 3
             }
           ],
@@ -980,24 +951,7 @@
             "Shroud of False Death"
           ],
           "priority_aspects": [],
-          "priority_affixes": [
-            {
-              "name": "swiftness",
-              "weight": 10
-            },
-            {
-              "name": "sturdiness",
-              "weight": 8
-            },
-            {
-              "name": "vigor",
-              "weight": 6
-            },
-            {
-              "name": "toughened",
-              "weight": 4
-            }
-          ],
+          "priority_affixes": [],
           "required_tempers": []
         },
         "weapon": {
@@ -1094,7 +1048,7 @@
               "weight": 6
             },
             {
-              "name": "infusing",
+              "name": "toughened",
               "weight": 4
             }
           ],
@@ -1192,7 +1146,7 @@
           "priority_aspects": [],
           "priority_affixes": [
             {
-              "name": "the_focused",
+              "name": "sanctification",
               "weight": 3
             }
           ],
@@ -1218,6 +1172,10 @@
             {
               "name": "riving",
               "weight": 4
+            },
+            {
+              "name": "sanctification",
+              "weight": 3
             }
           ],
           "required_tempers": []
@@ -1335,6 +1293,10 @@
             },
             {
               "name": "auric",
+              "weight": 3
+            },
+            {
+              "name": "sanctification",
               "weight": 3
             }
           ],

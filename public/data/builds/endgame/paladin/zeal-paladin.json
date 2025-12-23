@@ -6,7 +6,7 @@
   "source_url": "https://maxroll.gg/d4/build-guides/zeal-paladin-guide",
   "tier": "A",
   "tags": [],
-  "last_updated": "2025-12-22",
+  "last_updated": "2025-12-23",
   "profile_order": [
     "starter",
     "ancestral",
@@ -92,6 +92,10 @@
           "priority_uniques": [],
           "priority_aspects": [],
           "priority_affixes": [
+            {
+              "name": "ph_zealots",
+              "weight": 10
+            },
             {
               "name": "the_adept",
               "weight": 8
@@ -230,6 +234,10 @@
               "weight": 8
             },
             {
+              "name": "auras",
+              "weight": 6
+            },
+            {
               "name": "toughened",
               "weight": 4
             },
@@ -248,6 +256,14 @@
           "priority_aspects": [],
           "priority_affixes": [
             {
+              "name": "unique_passiverankbonus_pal_heavyweight",
+              "weight": 10
+            },
+            {
+              "name": "unique_passiverankbonus_pal_breaktheline",
+              "weight": 8
+            },
+            {
               "name": "the_powerful",
               "weight": 4
             },
@@ -263,6 +279,10 @@
           "priority_uniques": [],
           "priority_aspects": [],
           "priority_affixes": [
+            {
+              "name": "ph_zealots",
+              "weight": 10
+            },
             {
               "name": "keenness",
               "weight": 8
@@ -284,6 +304,10 @@
           "priority_aspects": [],
           "priority_affixes": [
             {
+              "name": "infusing",
+              "weight": 10
+            },
+            {
               "name": "the_powerful",
               "weight": 8
             },
@@ -303,6 +327,10 @@
           "priority_uniques": [],
           "priority_aspects": [],
           "priority_affixes": [
+            {
+              "name": "infusing",
+              "weight": 10
+            },
             {
               "name": "the_powerful",
               "weight": 8
@@ -428,6 +456,14 @@
           "priority_aspects": [],
           "priority_affixes": [
             {
+              "name": "unique_passiverankbonus_pal_heavyweight",
+              "weight": 10
+            },
+            {
+              "name": "unique_passiverankbonus_pal_breaktheline",
+              "weight": 8
+            },
+            {
               "name": "the_powerful",
               "weight": 4
             },
@@ -443,6 +479,10 @@
           "priority_uniques": [],
           "priority_aspects": [],
           "priority_affixes": [
+            {
+              "name": "ph_zealots",
+              "weight": 10
+            },
             {
               "name": "keenness",
               "weight": 8
@@ -464,6 +504,10 @@
           "priority_aspects": [],
           "priority_affixes": [
             {
+              "name": "infusing",
+              "weight": 10
+            },
+            {
               "name": "the_powerful",
               "weight": 8
             },
@@ -483,6 +527,10 @@
           "priority_uniques": [],
           "priority_aspects": [],
           "priority_affixes": [
+            {
+              "name": "infusing",
+              "weight": 10
+            },
             {
               "name": "the_powerful",
               "weight": 8
@@ -540,7 +588,36 @@
           "slot": "amulet",
           "priority_uniques": [],
           "priority_aspects": [],
-          "priority_affixes": [],
+          "priority_affixes": [
+            {
+              "name": "iron",
+              "weight": 10
+            },
+            {
+              "name": "fortitude",
+              "weight": 8
+            },
+            {
+              "name": "cracking",
+              "weight": 6
+            },
+            {
+              "name": "offense",
+              "weight": 4
+            },
+            {
+              "name": "heartiness",
+              "weight": 3
+            },
+            {
+              "name": "discipline",
+              "weight": 3
+            },
+            {
+              "name": "riposting",
+              "weight": 3
+            }
+          ],
           "required_tempers": []
         }
       }
@@ -596,11 +673,23 @@
           "priority_aspects": [],
           "priority_affixes": [
             {
+              "name": "unique_passiverankbonus_pal_heavyweight",
+              "weight": 10
+            },
+            {
+              "name": "unique_passiverankbonus_pal_breaktheline",
+              "weight": 8
+            },
+            {
               "name": "the_powerful",
               "weight": 4
             },
             {
               "name": "vigor",
+              "weight": 3
+            },
+            {
+              "name": "the_adroit",
               "weight": 3
             }
           ],
@@ -611,6 +700,10 @@
           "priority_uniques": [],
           "priority_aspects": [],
           "priority_affixes": [
+            {
+              "name": "ph_zealots",
+              "weight": 10
+            },
             {
               "name": "keenness",
               "weight": 8
@@ -646,6 +739,14 @@
             {
               "name": "toughened",
               "weight": 6
+            },
+            {
+              "name": "infusing",
+              "weight": 4
+            },
+            {
+              "name": "sanctification",
+              "weight": 3
             }
           ],
           "required_tempers": []
@@ -666,6 +767,14 @@
             {
               "name": "toughened",
               "weight": 6
+            },
+            {
+              "name": "infusing",
+              "weight": 4
+            },
+            {
+              "name": "sanctification",
+              "weight": 3
             }
           ],
           "required_tempers": []
@@ -694,6 +803,10 @@
               "weight": 4
             },
             {
+              "name": "sanctification",
+              "weight": 3
+            },
+            {
               "name": "principals",
               "weight": 10
             },
@@ -716,7 +829,36 @@
           "slot": "amulet",
           "priority_uniques": [],
           "priority_aspects": [],
-          "priority_affixes": [],
+          "priority_affixes": [
+            {
+              "name": "iron",
+              "weight": 10
+            },
+            {
+              "name": "fortitude",
+              "weight": 8
+            },
+            {
+              "name": "cracking",
+              "weight": 6
+            },
+            {
+              "name": "offense",
+              "weight": 4
+            },
+            {
+              "name": "heartiness",
+              "weight": 3
+            },
+            {
+              "name": "discipline",
+              "weight": 3
+            },
+            {
+              "name": "riposting",
+              "weight": 3
+            }
+          ],
           "required_tempers": []
         }
       }
@@ -767,6 +909,14 @@
           "priority_aspects": [],
           "priority_affixes": [
             {
+              "name": "unique_passiverankbonus_pal_heavyweight",
+              "weight": 10
+            },
+            {
+              "name": "unique_passiverankbonus_pal_breaktheline",
+              "weight": 8
+            },
+            {
               "name": "the_powerful",
               "weight": 4
             },
@@ -782,6 +932,10 @@
           "priority_uniques": [],
           "priority_aspects": [],
           "priority_affixes": [
+            {
+              "name": "ph_zealots",
+              "weight": 10
+            },
             {
               "name": "keenness",
               "weight": 8
@@ -813,6 +967,10 @@
             {
               "name": "toughened",
               "weight": 6
+            },
+            {
+              "name": "infusing",
+              "weight": 4
             }
           ],
           "required_tempers": []
@@ -833,6 +991,10 @@
             {
               "name": "toughened",
               "weight": 6
+            },
+            {
+              "name": "infusing",
+              "weight": 4
             }
           ],
           "required_tempers": []
@@ -879,7 +1041,36 @@
           "slot": "amulet",
           "priority_uniques": [],
           "priority_aspects": [],
-          "priority_affixes": [],
+          "priority_affixes": [
+            {
+              "name": "iron",
+              "weight": 10
+            },
+            {
+              "name": "fortitude",
+              "weight": 8
+            },
+            {
+              "name": "cracking",
+              "weight": 6
+            },
+            {
+              "name": "offense",
+              "weight": 4
+            },
+            {
+              "name": "heartiness",
+              "weight": 3
+            },
+            {
+              "name": "discipline",
+              "weight": 3
+            },
+            {
+              "name": "riposting",
+              "weight": 3
+            }
+          ],
           "required_tempers": []
         }
       }
@@ -913,6 +1104,14 @@
           "priority_aspects": [],
           "priority_affixes": [
             {
+              "name": "unique_double_damage_skill_pal_zeal",
+              "weight": 8
+            },
+            {
+              "name": "the_zealot",
+              "weight": 6
+            },
+            {
               "name": "carnage",
               "weight": 4
             },
@@ -928,6 +1127,10 @@
           "priority_uniques": [],
           "priority_aspects": [],
           "priority_affixes": [
+            {
+              "name": "ph_zealots",
+              "weight": 10
+            },
             {
               "name": "the_powerful",
               "weight": 8
@@ -1029,7 +1232,36 @@
           "slot": "amulet",
           "priority_uniques": [],
           "priority_aspects": [],
-          "priority_affixes": [],
+          "priority_affixes": [
+            {
+              "name": "iron",
+              "weight": 10
+            },
+            {
+              "name": "fortitude",
+              "weight": 8
+            },
+            {
+              "name": "cracking",
+              "weight": 6
+            },
+            {
+              "name": "offense",
+              "weight": 4
+            },
+            {
+              "name": "heartiness",
+              "weight": 3
+            },
+            {
+              "name": "discipline",
+              "weight": 3
+            },
+            {
+              "name": "riposting",
+              "weight": 3
+            }
+          ],
           "required_tempers": []
         }
       }
