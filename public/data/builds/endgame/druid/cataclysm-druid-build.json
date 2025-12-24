@@ -6,7 +6,7 @@
   "source_url": "https://maxroll.gg/d4/build-guides/cataclysm-druid-build-guide",
   "tier": "A",
   "tags": [],
-  "last_updated": "2025-12-23",
+  "last_updated": "2025-12-24",
   "profile_order": [
     "ancestral",
     "mythic",
@@ -140,6 +140,32 @@
         },
         "pants": {
           "slot": "pants",
+          "priority_uniques": [
+            "Tibault's Will"
+          ],
+          "priority_aspects": [],
+          "priority_affixes": [
+            {
+              "name": "the_adept",
+              "weight": 8
+            },
+            {
+              "name": "resources",
+              "weight": 6
+            },
+            {
+              "name": "harmony",
+              "weight": 4
+            },
+            {
+              "name": "keenness",
+              "weight": 3
+            }
+          ],
+          "required_tempers": []
+        },
+        "boots": {
+          "slot": "boots",
           "priority_uniques": [],
           "priority_aspects": [],
           "priority_affixes": [
@@ -148,11 +174,11 @@
               "weight": 10
             },
             {
-              "name": "vigor",
+              "name": "speed",
               "weight": 8
             },
             {
-              "name": "auric",
+              "name": "vigor",
               "weight": 6
             },
             {
@@ -160,33 +186,7 @@
               "weight": 4
             },
             {
-              "name": "evasion",
-              "weight": 3
-            }
-          ],
-          "required_tempers": []
-        },
-        "boots": {
-          "slot": "boots",
-          "priority_uniques": [
-            "Khamsin Steppewalkers"
-          ],
-          "priority_aspects": [],
-          "priority_affixes": [
-            {
-              "name": "unique_cooldownreductioncdr_druid_tag_naturemagic_verybig",
-              "weight": 10
-            },
-            {
-              "name": "speed",
-              "weight": 6
-            },
-            {
-              "name": "unique_passiverankbonus_druid_naturemagic_t4_n1_electricshock",
-              "weight": 4
-            },
-            {
-              "name": "unique_duration_generic_cc_all_higher",
+              "name": "auric",
               "weight": 3
             }
           ],
@@ -195,37 +195,26 @@
         "ring": {
           "slot": "ring",
           "priority_uniques": [
+            "Airidah's Inexorable Will",
             "Mj\u00f6lnic Ryng"
           ],
           "priority_aspects": [],
           "priority_affixes": [
             {
-              "name": "determination",
+              "name": "unique_cdr_tag_generic_ultimate_higher",
               "weight": 10
             },
             {
-              "name": "the_adept",
+              "name": "unique_corestat_willpowerpercent_higher",
               "weight": 8
             },
             {
-              "name": "vigor",
+              "name": "unique_damage_generic_vs_close_higher",
               "weight": 6
             },
             {
-              "name": "carnage",
+              "name": "luck",
               "weight": 4
-            },
-            {
-              "name": "swiftness",
-              "weight": 3
-            },
-            {
-              "name": "auric",
-              "weight": 3
-            },
-            {
-              "name": "demolition",
-              "weight": 3
             },
             {
               "name": "endless_storm",
@@ -234,6 +223,10 @@
             {
               "name": "unique_corestat_willpower_higher",
               "weight": 8
+            },
+            {
+              "name": "the_adept",
+              "weight": 6
             },
             {
               "name": "unique_movement_speed_druid_whilecataclysm",
@@ -388,6 +381,32 @@
         },
         "pants": {
           "slot": "pants",
+          "priority_uniques": [
+            "Tibault's Will"
+          ],
+          "priority_aspects": [],
+          "priority_affixes": [
+            {
+              "name": "resources",
+              "weight": 8
+            },
+            {
+              "name": "harmony",
+              "weight": 6
+            },
+            {
+              "name": "the_adept",
+              "weight": 4
+            },
+            {
+              "name": "keenness",
+              "weight": 3
+            }
+          ],
+          "required_tempers": []
+        },
+        "boots": {
+          "slot": "boots",
           "priority_uniques": [],
           "priority_aspects": [],
           "priority_affixes": [
@@ -396,11 +415,11 @@
               "weight": 10
             },
             {
-              "name": "vigor",
+              "name": "speed",
               "weight": 8
             },
             {
-              "name": "auric",
+              "name": "vigor",
               "weight": 6
             },
             {
@@ -408,33 +427,7 @@
               "weight": 4
             },
             {
-              "name": "evasion",
-              "weight": 3
-            }
-          ],
-          "required_tempers": []
-        },
-        "boots": {
-          "slot": "boots",
-          "priority_uniques": [
-            "Khamsin Steppewalkers"
-          ],
-          "priority_aspects": [],
-          "priority_affixes": [
-            {
-              "name": "unique_cooldownreductioncdr_druid_tag_naturemagic_verybig",
-              "weight": 10
-            },
-            {
-              "name": "speed",
-              "weight": 6
-            },
-            {
-              "name": "unique_passiverankbonus_druid_naturemagic_t4_n1_electricshock",
-              "weight": 4
-            },
-            {
-              "name": "unique_duration_generic_cc_all_higher",
+              "name": "auric",
               "weight": 3
             }
           ],
@@ -443,37 +436,26 @@
         "ring": {
           "slot": "ring",
           "priority_uniques": [
+            "Airidah's Inexorable Will",
             "Mj\u00f6lnic Ryng"
           ],
           "priority_aspects": [],
           "priority_affixes": [
             {
-              "name": "determination",
+              "name": "unique_cdr_tag_generic_ultimate_higher",
               "weight": 10
             },
             {
-              "name": "the_adept",
+              "name": "unique_corestat_willpowerpercent_higher",
               "weight": 8
             },
             {
-              "name": "vigor",
+              "name": "unique_damage_generic_vs_close_higher",
               "weight": 6
             },
             {
-              "name": "carnage",
+              "name": "luck",
               "weight": 4
-            },
-            {
-              "name": "swiftness",
-              "weight": 3
-            },
-            {
-              "name": "auric",
-              "weight": 3
-            },
-            {
-              "name": "demolition",
-              "weight": 3
             },
             {
               "name": "endless_storm",
@@ -482,6 +464,10 @@
             {
               "name": "unique_corestat_willpower_higher",
               "weight": 8
+            },
+            {
+              "name": "the_adept",
+              "weight": 6
             },
             {
               "name": "unique_movement_speed_druid_whilecataclysm",
@@ -508,11 +494,11 @@
               "weight": 6
             },
             {
-              "name": "determination",
+              "name": "the_adept",
               "weight": 4
             },
             {
-              "name": "the_adept",
+              "name": "determination",
               "weight": 3
             },
             {
@@ -555,7 +541,7 @@
               "weight": 4
             },
             {
-              "name": "the_focused",
+              "name": "sanctification",
               "weight": 3
             }
           ],
@@ -603,6 +589,10 @@
             {
               "name": "cruelty",
               "weight": 3
+            },
+            {
+              "name": "sanctification",
+              "weight": 3
             }
           ],
           "required_tempers": []
@@ -645,27 +635,25 @@
         },
         "pants": {
           "slot": "pants",
-          "priority_uniques": [],
+          "priority_uniques": [
+            "Tibault's Will"
+          ],
           "priority_aspects": [],
           "priority_affixes": [
             {
-              "name": "determination",
-              "weight": 10
-            },
-            {
-              "name": "vigor",
+              "name": "resources",
               "weight": 8
             },
             {
-              "name": "auric",
+              "name": "harmony",
               "weight": 6
             },
             {
-              "name": "toughened",
+              "name": "the_adept",
               "weight": 4
             },
             {
-              "name": "evasion",
+              "name": "keenness",
               "weight": 3
             },
             {
@@ -677,29 +665,31 @@
         },
         "boots": {
           "slot": "boots",
-          "priority_uniques": [
-            "Khamsin Steppewalkers"
-          ],
+          "priority_uniques": [],
           "priority_aspects": [],
           "priority_affixes": [
             {
-              "name": "unique_cooldownreductioncdr_druid_tag_naturemagic_verybig",
+              "name": "determination",
               "weight": 10
             },
             {
               "name": "speed",
+              "weight": 8
+            },
+            {
+              "name": "vigor",
               "weight": 6
             },
             {
-              "name": "unique_passiverankbonus_druid_naturemagic_t4_n1_electricshock",
+              "name": "toughened",
               "weight": 4
             },
             {
-              "name": "unique_duration_generic_cc_all_higher",
+              "name": "auric",
               "weight": 3
             },
             {
-              "name": "the_focused",
+              "name": "sanctification",
               "weight": 3
             }
           ],
@@ -708,37 +698,26 @@
         "ring": {
           "slot": "ring",
           "priority_uniques": [
+            "Airidah's Inexorable Will",
             "Mj\u00f6lnic Ryng"
           ],
           "priority_aspects": [],
           "priority_affixes": [
             {
-              "name": "determination",
+              "name": "unique_corestat_willpowerpercent_higher",
               "weight": 10
             },
             {
-              "name": "the_adept",
+              "name": "unique_cdr_tag_generic_ultimate_higher",
               "weight": 8
             },
             {
-              "name": "vigor",
+              "name": "unique_damage_generic_vs_close_higher",
               "weight": 6
             },
             {
-              "name": "carnage",
+              "name": "luck",
               "weight": 4
-            },
-            {
-              "name": "swiftness",
-              "weight": 3
-            },
-            {
-              "name": "auric",
-              "weight": 3
-            },
-            {
-              "name": "demolition",
-              "weight": 3
             },
             {
               "name": "endless_storm",
@@ -747,6 +726,10 @@
             {
               "name": "unique_corestat_willpower_higher",
               "weight": 8
+            },
+            {
+              "name": "the_adept",
+              "weight": 6
             },
             {
               "name": "unique_movement_speed_druid_whilecataclysm",
@@ -773,7 +756,7 @@
               "weight": 6
             },
             {
-              "name": "branching",
+              "name": "the_adept",
               "weight": 4
             },
             {
@@ -781,11 +764,11 @@
               "weight": 3
             },
             {
-              "name": "the_adept",
+              "name": "swiftness",
               "weight": 3
             },
             {
-              "name": "swiftness",
+              "name": "branching",
               "weight": 3
             }
           ],
@@ -924,15 +907,15 @@
           "priority_aspects": [],
           "priority_affixes": [
             {
-              "name": "the_adept",
+              "name": "resources",
               "weight": 8
             },
             {
-              "name": "resources",
+              "name": "harmony",
               "weight": 6
             },
             {
-              "name": "harmony",
+              "name": "the_adept",
               "weight": 4
             },
             {
@@ -954,16 +937,16 @@
               "weight": 10
             },
             {
-              "name": "speed",
-              "weight": 6
+              "name": "endless_storm",
+              "weight": 8
             },
             {
               "name": "unique_passiverankbonus_druid_naturemagic_t4_n1_electricshock",
-              "weight": 4
+              "weight": 6
             },
             {
               "name": "unique_duration_generic_cc_all_higher",
-              "weight": 3
+              "weight": 4
             }
           ],
           "required_tempers": []
@@ -984,15 +967,15 @@
               "weight": 8
             },
             {
-              "name": "vigor",
+              "name": "swiftness",
               "weight": 6
             },
             {
-              "name": "carnage",
+              "name": "vigor",
               "weight": 4
             },
             {
-              "name": "swiftness",
+              "name": "carnage",
               "weight": 3
             },
             {

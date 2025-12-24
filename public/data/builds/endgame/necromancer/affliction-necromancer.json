@@ -6,7 +6,7 @@
   "source_url": "https://maxroll.gg/d4/build-guides/affliction-necromancer-guide",
   "tier": "C",
   "tags": [],
-  "last_updated": "2025-12-23",
+  "last_updated": "2025-12-24",
   "profile_order": [
     "starter",
     "ancestral",
@@ -783,7 +783,7 @@
           "priority_aspects": [],
           "priority_affixes": [
             {
-              "name": "the_focused",
+              "name": "sanctification",
               "weight": 3
             }
           ],
@@ -797,7 +797,7 @@
           "priority_aspects": [],
           "priority_affixes": [
             {
-              "name": "the_focused",
+              "name": "sanctification",
               "weight": 3
             }
           ],
@@ -834,6 +834,10 @@
             },
             {
               "name": "efficiency",
+              "weight": 3
+            },
+            {
+              "name": "sanctification",
               "weight": 3
             }
           ],

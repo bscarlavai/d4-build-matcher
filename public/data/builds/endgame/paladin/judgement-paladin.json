@@ -6,7 +6,7 @@
   "source_url": "https://maxroll.gg/d4/build-guides/judgement-paladin-guide",
   "tier": "S",
   "tags": [],
-  "last_updated": "2025-12-23",
+  "last_updated": "2025-12-24",
   "profile_order": [
     "starter",
     "ancestral",
@@ -696,7 +696,7 @@
           "priority_aspects": [],
           "priority_affixes": [
             {
-              "name": "unique_double_damage_skill_pal_judgement",
+              "name": "unique_passiverankbonus_pal_shiningarmor",
               "weight": 10
             },
             {
@@ -704,7 +704,7 @@
               "weight": 8
             },
             {
-              "name": "unique_passiverankbonus_pal_shiningarmor",
+              "name": "unique_double_damage_skill_pal_judgement",
               "weight": 6
             },
             {
@@ -945,7 +945,7 @@
           "priority_aspects": [],
           "priority_affixes": [
             {
-              "name": "unique_double_damage_skill_pal_judgement",
+              "name": "unique_passiverankbonus_pal_shiningarmor",
               "weight": 10
             },
             {
@@ -953,7 +953,7 @@
               "weight": 8
             },
             {
-              "name": "unique_passiverankbonus_pal_shiningarmor",
+              "name": "unique_double_damage_skill_pal_judgement",
               "weight": 6
             },
             {
@@ -1206,7 +1206,7 @@
           "priority_aspects": [],
           "priority_affixes": [
             {
-              "name": "unique_double_damage_skill_pal_judgement",
+              "name": "unique_passiverankbonus_pal_shiningarmor",
               "weight": 10
             },
             {
@@ -1214,7 +1214,7 @@
               "weight": 8
             },
             {
-              "name": "unique_passiverankbonus_pal_shiningarmor",
+              "name": "unique_double_damage_skill_pal_judgement",
               "weight": 6
             },
             {
@@ -1450,7 +1450,7 @@
           "priority_aspects": [],
           "priority_affixes": [
             {
-              "name": "unique_double_damage_skill_pal_judgement",
+              "name": "unique_passiverankbonus_pal_shiningarmor",
               "weight": 10
             },
             {
@@ -1458,7 +1458,7 @@
               "weight": 8
             },
             {
-              "name": "unique_passiverankbonus_pal_shiningarmor",
+              "name": "unique_double_damage_skill_pal_judgement",
               "weight": 6
             },
             {

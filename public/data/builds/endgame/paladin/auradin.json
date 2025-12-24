@@ -6,7 +6,7 @@
   "source_url": "https://maxroll.gg/d4/build-guides/auradin-guide",
   "tier": "S",
   "tags": [],
-  "last_updated": "2025-12-23",
+  "last_updated": "2025-12-24",
   "profile_order": [
     "starter",
     "ancestral",
@@ -154,15 +154,15 @@
           "priority_aspects": [],
           "priority_affixes": [
             {
-              "name": "toughened",
+              "name": "the_powerful",
               "weight": 10
             },
             {
-              "name": "the_powerful",
+              "name": "vigor",
               "weight": 8
             },
             {
-              "name": "vigor",
+              "name": "toughened",
               "weight": 6
             },
             {
@@ -178,19 +178,19 @@
           "priority_aspects": [],
           "priority_affixes": [
             {
-              "name": "the_powerful",
+              "name": "keenness",
               "weight": 10
             },
             {
-              "name": "keenness",
+              "name": "swiftness",
               "weight": 8
             },
             {
-              "name": "swiftness",
+              "name": "vigor",
               "weight": 6
             },
             {
-              "name": "vigor",
+              "name": "the_powerful",
               "weight": 4
             },
             {
@@ -385,15 +385,15 @@
           "priority_aspects": [],
           "priority_affixes": [
             {
-              "name": "toughened",
+              "name": "the_powerful",
               "weight": 10
             },
             {
-              "name": "the_powerful",
+              "name": "vigor",
               "weight": 8
             },
             {
-              "name": "vigor",
+              "name": "toughened",
               "weight": 6
             },
             {
@@ -409,19 +409,19 @@
           "priority_aspects": [],
           "priority_affixes": [
             {
-              "name": "the_powerful",
+              "name": "keenness",
               "weight": 10
             },
             {
-              "name": "keenness",
+              "name": "swiftness",
               "weight": 8
             },
             {
-              "name": "swiftness",
+              "name": "the_adept",
               "weight": 6
             },
             {
-              "name": "the_adept",
+              "name": "the_powerful",
               "weight": 4
             }
           ],
@@ -589,15 +589,15 @@
           "priority_aspects": [],
           "priority_affixes": [
             {
-              "name": "toughened",
+              "name": "the_powerful",
               "weight": 10
             },
             {
-              "name": "the_powerful",
+              "name": "vigor",
               "weight": 8
             },
             {
-              "name": "vigor",
+              "name": "toughened",
               "weight": 6
             },
             {
@@ -613,19 +613,19 @@
           "priority_aspects": [],
           "priority_affixes": [
             {
-              "name": "the_powerful",
+              "name": "keenness",
               "weight": 10
             },
             {
-              "name": "keenness",
+              "name": "swiftness",
               "weight": 8
             },
             {
-              "name": "swiftness",
+              "name": "the_adept",
               "weight": 6
             },
             {
-              "name": "the_adept",
+              "name": "the_powerful",
               "weight": 4
             }
           ],
@@ -805,15 +805,15 @@
           "priority_aspects": [],
           "priority_affixes": [
             {
-              "name": "toughened",
+              "name": "the_powerful",
               "weight": 10
             },
             {
-              "name": "the_powerful",
+              "name": "vigor",
               "weight": 8
             },
             {
-              "name": "vigor",
+              "name": "toughened",
               "weight": 6
             },
             {
@@ -833,19 +833,19 @@
           "priority_aspects": [],
           "priority_affixes": [
             {
-              "name": "the_powerful",
+              "name": "keenness",
               "weight": 10
             },
             {
-              "name": "keenness",
+              "name": "swiftness",
               "weight": 8
             },
             {
-              "name": "swiftness",
+              "name": "the_adept",
               "weight": 6
             },
             {
-              "name": "the_adept",
+              "name": "the_powerful",
               "weight": 4
             },
             {
@@ -1017,15 +1017,15 @@
           "priority_aspects": [],
           "priority_affixes": [
             {
-              "name": "toughened",
+              "name": "the_powerful",
               "weight": 10
             },
             {
-              "name": "the_powerful",
+              "name": "vigor",
               "weight": 8
             },
             {
-              "name": "vigor",
+              "name": "toughened",
               "weight": 6
             },
             {
@@ -1041,19 +1041,19 @@
           "priority_aspects": [],
           "priority_affixes": [
             {
-              "name": "the_powerful",
+              "name": "keenness",
               "weight": 10
             },
             {
-              "name": "keenness",
+              "name": "swiftness",
               "weight": 8
             },
             {
-              "name": "swiftness",
+              "name": "the_adept",
               "weight": 6
             },
             {
-              "name": "the_adept",
+              "name": "the_powerful",
               "weight": 4
             }
           ],
