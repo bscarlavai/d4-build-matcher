@@ -6,7 +6,7 @@
   "source_url": "https://maxroll.gg/d4/build-guides/auradin-guide",
   "tier": "S",
   "tags": [],
-  "last_updated": "2025-12-24",
+  "last_updated": "2025-12-25",
   "profile_order": [
     "starter",
     "ancestral",
@@ -142,7 +142,7 @@
               "weight": 6
             },
             {
-              "name": "steel",
+              "name": "regeneration",
               "weight": 4
             }
           ],
@@ -373,7 +373,7 @@
               "weight": 6
             },
             {
-              "name": "steel",
+              "name": "regeneration",
               "weight": 4
             }
           ],
@@ -577,7 +577,7 @@
               "weight": 6
             },
             {
-              "name": "steel",
+              "name": "regeneration",
               "weight": 4
             }
           ],
@@ -627,6 +627,10 @@
             {
               "name": "the_powerful",
               "weight": 4
+            },
+            {
+              "name": "vigor",
+              "weight": 6
             }
           ],
           "required_tempers": []
@@ -637,35 +641,47 @@
           "priority_aspects": [],
           "priority_affixes": [
             {
-              "name": "keenness",
+              "name": "offense",
               "weight": 10
             },
             {
-              "name": "the_adept",
+              "name": "iron",
               "weight": 8
             },
             {
-              "name": "swiftness",
+              "name": "fortitude",
               "weight": 6
             },
             {
-              "name": "offense",
+              "name": "heartiness",
               "weight": 4
             },
             {
-              "name": "iron",
-              "weight": 3
-            },
-            {
-              "name": "fortitude",
-              "weight": 3
-            },
-            {
-              "name": "heartiness",
-              "weight": 3
-            },
-            {
               "name": "righteousness",
+              "weight": 3
+            },
+            {
+              "name": "cracking",
+              "weight": 3
+            },
+            {
+              "name": "riposting",
+              "weight": 3
+            },
+            {
+              "name": "dizziness",
+              "weight": 3
+            },
+            {
+              "name": "keenness",
+              "weight": 3
+            },
+            {
+              "name": "the_adept",
+              "weight": 3
+            },
+            {
+              "name": "swiftness",
               "weight": 3
             }
           ],
@@ -682,7 +698,12 @@
             "Heir of Perdition"
           ],
           "priority_aspects": [],
-          "priority_affixes": [],
+          "priority_affixes": [
+            {
+              "name": "auras",
+              "weight": 3
+            }
+          ],
           "required_tempers": []
         },
         "chest": {
@@ -709,7 +730,7 @@
               "weight": 4
             },
             {
-              "name": "auras",
+              "name": "sanctification",
               "weight": 3
             }
           ],
@@ -767,6 +788,10 @@
             {
               "name": "vigor",
               "weight": 3
+            },
+            {
+              "name": "sanctification",
+              "weight": 3
             }
           ],
           "required_tempers": []
@@ -789,7 +814,7 @@
               "weight": 6
             },
             {
-              "name": "steel",
+              "name": "regeneration",
               "weight": 4
             },
             {
@@ -821,7 +846,7 @@
               "weight": 4
             },
             {
-              "name": "auras",
+              "name": "sanctification",
               "weight": 3
             }
           ],
@@ -841,7 +866,7 @@
               "weight": 8
             },
             {
-              "name": "the_adept",
+              "name": "vigor",
               "weight": 6
             },
             {
@@ -861,35 +886,47 @@
           "priority_aspects": [],
           "priority_affixes": [
             {
-              "name": "keenness",
+              "name": "offense",
               "weight": 10
             },
             {
-              "name": "the_adept",
+              "name": "iron",
               "weight": 8
             },
             {
-              "name": "swiftness",
+              "name": "fortitude",
               "weight": 6
             },
             {
-              "name": "offense",
+              "name": "heartiness",
               "weight": 4
             },
             {
-              "name": "iron",
-              "weight": 3
-            },
-            {
-              "name": "fortitude",
-              "weight": 3
-            },
-            {
-              "name": "heartiness",
-              "weight": 3
-            },
-            {
               "name": "righteousness",
+              "weight": 3
+            },
+            {
+              "name": "cracking",
+              "weight": 3
+            },
+            {
+              "name": "riposting",
+              "weight": 3
+            },
+            {
+              "name": "dizziness",
+              "weight": 3
+            },
+            {
+              "name": "the_adept",
+              "weight": 3
+            },
+            {
+              "name": "keenness",
+              "weight": 3
+            },
+            {
+              "name": "swiftness",
               "weight": 3
             }
           ],
@@ -1005,7 +1042,7 @@
               "weight": 6
             },
             {
-              "name": "steel",
+              "name": "infusing",
               "weight": 4
             }
           ],
@@ -1017,19 +1054,19 @@
           "priority_aspects": [],
           "priority_affixes": [
             {
-              "name": "the_powerful",
+              "name": "infusing",
               "weight": 10
             },
             {
-              "name": "vigor",
+              "name": "speed",
               "weight": 8
             },
             {
-              "name": "toughened",
+              "name": "the_powerful",
               "weight": 6
             },
             {
-              "name": "speed",
+              "name": "vigor",
               "weight": 4
             }
           ],
@@ -1037,23 +1074,25 @@
         },
         "ring": {
           "slot": "ring",
-          "priority_uniques": [],
+          "priority_uniques": [
+            "Ring of Starless Skies"
+          ],
           "priority_aspects": [],
           "priority_affixes": [
             {
-              "name": "keenness",
+              "name": "swiftness",
               "weight": 10
             },
             {
-              "name": "swiftness",
+              "name": "the_powerful",
               "weight": 8
             },
             {
-              "name": "the_adept",
+              "name": "carnage",
               "weight": 6
             },
             {
-              "name": "the_powerful",
+              "name": "vigor",
               "weight": 4
             }
           ],
@@ -1065,27 +1104,23 @@
           "priority_aspects": [],
           "priority_affixes": [
             {
-              "name": "keenness",
+              "name": "offense",
               "weight": 10
             },
             {
-              "name": "the_adept",
+              "name": "iron",
               "weight": 8
             },
             {
-              "name": "swiftness",
+              "name": "fortitude",
               "weight": 6
             },
             {
-              "name": "offense",
+              "name": "riposting",
               "weight": 4
             },
             {
-              "name": "iron",
-              "weight": 3
-            },
-            {
-              "name": "fortitude",
+              "name": "cracking",
               "weight": 3
             },
             {
@@ -1094,6 +1129,22 @@
             },
             {
               "name": "righteousness",
+              "weight": 3
+            },
+            {
+              "name": "dizziness",
+              "weight": 3
+            },
+            {
+              "name": "keenness",
+              "weight": 3
+            },
+            {
+              "name": "the_adept",
+              "weight": 3
+            },
+            {
+              "name": "swiftness",
               "weight": 3
             }
           ],

@@ -6,7 +6,7 @@
   "source_url": "https://maxroll.gg/d4/build-guides/boulder-druid-guide",
   "tier": "A",
   "tags": [],
-  "last_updated": "2025-12-24",
+  "last_updated": "2025-12-25",
   "profile_order": [
     "ancestral",
     "mythic",
@@ -1119,10 +1119,6 @@
               "weight": 3
             },
             {
-              "name": "toughened",
-              "weight": 3
-            },
-            {
               "name": "auric",
               "weight": 3
             }
@@ -1131,25 +1127,31 @@
         },
         "pants": {
           "slot": "pants",
-          "priority_uniques": [
-            "Tibault's Will"
-          ],
+          "priority_uniques": [],
           "priority_aspects": [],
           "priority_affixes": [
             {
-              "name": "the_adept",
+              "name": "carrying",
+              "weight": 10
+            },
+            {
+              "name": "determination",
               "weight": 8
             },
             {
-              "name": "harmony",
+              "name": "vigor",
               "weight": 6
             },
             {
-              "name": "keenness",
+              "name": "evasion",
               "weight": 4
             },
             {
-              "name": "resources",
+              "name": "auric",
+              "weight": 3
+            },
+            {
+              "name": "toughened",
               "weight": 3
             },
             {
@@ -1161,35 +1163,25 @@
         },
         "boots": {
           "slot": "boots",
-          "priority_uniques": [],
+          "priority_uniques": [
+            "Flickerstep"
+          ],
           "priority_aspects": [],
           "priority_affixes": [
             {
-              "name": "the_stonebringer",
-              "weight": 10
-            },
-            {
-              "name": "determination",
+              "name": "speed",
               "weight": 8
             },
             {
-              "name": "speed",
+              "name": "vigor",
               "weight": 6
             },
             {
-              "name": "vigor",
+              "name": "auric",
               "weight": 4
             },
             {
-              "name": "evasion",
-              "weight": 3
-            },
-            {
-              "name": "toughened",
-              "weight": 3
-            },
-            {
-              "name": "auric",
+              "name": "unique_damage_generic_tag_ultimate_giga",
               "weight": 3
             },
             {
@@ -1201,9 +1193,7 @@
         },
         "ring": {
           "slot": "ring",
-          "priority_uniques": [
-            "Ring of Starless Skies"
-          ],
+          "priority_uniques": [],
           "priority_aspects": [],
           "priority_affixes": [
             {
@@ -1223,15 +1213,11 @@
               "weight": 4
             },
             {
+              "name": "carnage",
+              "weight": 3
+            },
+            {
               "name": "riving",
-              "weight": 3
-            },
-            {
-              "name": "keenness",
-              "weight": 3
-            },
-            {
-              "name": "auric",
               "weight": 3
             }
           ],
@@ -1249,11 +1235,11 @@
               "weight": 8
             },
             {
-              "name": "unique_cooldownreductioncdr_druid_tag_naturemagic_verybig",
+              "name": "unique_passiverankbonus_druid_naturemagic_t2_n2_crushingearth_higher",
               "weight": 6
             },
             {
-              "name": "unique_passiverankbonus_druid_naturemagic_t2_n2_crushingearth_higher",
+              "name": "unique_cooldownreductioncdr_druid_tag_naturemagic_verybig",
               "weight": 4
             },
             {

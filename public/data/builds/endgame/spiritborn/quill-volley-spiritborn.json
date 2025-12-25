@@ -6,7 +6,7 @@
   "source_url": "https://maxroll.gg/d4/build-guides/quill-volley-spiritborn-guide",
   "tier": "A",
   "tags": [],
-  "last_updated": "2025-12-24",
+  "last_updated": "2025-12-25",
   "profile_order": [
     "starter",
     "ancestral",
@@ -564,6 +564,10 @@
             {
               "name": "unique_passiverankbonus_spiritborn_velocity_higher",
               "weight": 3
+            },
+            {
+              "name": "resources",
+              "weight": 3
             }
           ],
           "required_tempers": []
@@ -576,7 +580,7 @@
           "priority_aspects": [],
           "priority_affixes": [
             {
-              "name": "the_focused",
+              "name": "resources",
               "weight": 3
             }
           ],
@@ -604,6 +608,10 @@
             {
               "name": "unique_damage_to_vulnerable_higher",
               "weight": 3
+            },
+            {
+              "name": "sanctification",
+              "weight": 3
             }
           ],
           "required_tempers": []
@@ -630,6 +638,10 @@
             {
               "name": "unique_generic_luckyhit_heallife",
               "weight": 3
+            },
+            {
+              "name": "sanctification",
+              "weight": 3
             }
           ],
           "required_tempers": []
@@ -655,6 +667,10 @@
             },
             {
               "name": "unique_cc_duration_reduction_generic_high",
+              "weight": 3
+            },
+            {
+              "name": "sanctification",
               "weight": 3
             }
           ],

@@ -6,7 +6,7 @@
   "source_url": "https://maxroll.gg/d4/build-guides/shield-of-retribution-paladin-guide",
   "tier": "S",
   "tags": [],
-  "last_updated": "2025-12-24",
+  "last_updated": "2025-12-25",
   "profile_order": [
     "starter",
     "ancestral",
@@ -630,7 +630,12 @@
             "Heir of Perdition"
           ],
           "priority_aspects": [],
-          "priority_affixes": [],
+          "priority_affixes": [
+            {
+              "name": "auras",
+              "weight": 3
+            }
+          ],
           "required_tempers": []
         },
         "chest": {
@@ -655,6 +660,10 @@
             },
             {
               "name": "ph_shieldthrowers",
+              "weight": 3
+            },
+            {
+              "name": "sanctification",
               "weight": 3
             }
           ],
@@ -710,6 +719,10 @@
             {
               "name": "the_adept",
               "weight": 4
+            },
+            {
+              "name": "sanctification",
+              "weight": 3
             }
           ],
           "required_tempers": []
@@ -734,6 +747,10 @@
             {
               "name": "toughened",
               "weight": 4
+            },
+            {
+              "name": "sanctification",
+              "weight": 3
             }
           ],
           "required_tempers": []
@@ -760,7 +777,7 @@
               "weight": 4
             },
             {
-              "name": "auras",
+              "name": "sanctification",
               "weight": 3
             }
           ],
