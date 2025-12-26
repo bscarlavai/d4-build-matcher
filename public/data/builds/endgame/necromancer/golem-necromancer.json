@@ -6,7 +6,7 @@
   "source_url": "https://maxroll.gg/d4/build-guides/golem-necromancer-guide",
   "tier": "A",
   "tags": [],
-  "last_updated": "2025-12-25",
+  "last_updated": "2025-12-26",
   "profile_order": [
     "starter",
     "ancestral",
@@ -635,7 +635,12 @@
             "Heir of Perdition"
           ],
           "priority_aspects": [],
-          "priority_affixes": [],
+          "priority_affixes": [
+            {
+              "name": "the_focused",
+              "weight": 3
+            }
+          ],
           "required_tempers": []
         },
         "chest": {

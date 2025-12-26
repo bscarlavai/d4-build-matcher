@@ -6,7 +6,7 @@
   "source_url": "https://maxroll.gg/d4/build-guides/crackling-energy-sorcerer-guide",
   "tier": "S",
   "tags": [],
-  "last_updated": "2025-12-25",
+  "last_updated": "2025-12-26",
   "profile_order": [
     "starter",
     "ancestral",
@@ -409,12 +409,8 @@
               "weight": 6
             },
             {
-              "name": "keenness",
-              "weight": 4
-            },
-            {
               "name": "vigor",
-              "weight": 3
+              "weight": 4
             },
             {
               "name": "carnage",
@@ -515,15 +511,11 @@
               "weight": 10
             },
             {
-              "name": "keenness",
+              "name": "vigor",
               "weight": 6
             },
             {
-              "name": "vigor",
-              "weight": 4
-            },
-            {
-              "name": "carnage",
+              "name": "cruelty",
               "weight": 3
             },
             {
@@ -531,7 +523,7 @@
               "weight": 3
             },
             {
-              "name": "cruelty",
+              "name": "carnage",
               "weight": 3
             }
           ],
@@ -643,12 +635,28 @@
               "weight": 8
             },
             {
-              "name": "keenness",
+              "name": "the_adept",
               "weight": 6
             },
             {
-              "name": "the_adept",
+              "name": "vigor",
               "weight": 4
+            },
+            {
+              "name": "carnage",
+              "weight": 3
+            },
+            {
+              "name": "the_focused",
+              "weight": 3
+            },
+            {
+              "name": "cruelty",
+              "weight": 3
+            },
+            {
+              "name": "swiftness",
+              "weight": 3
             }
           ],
           "required_tempers": []
@@ -845,12 +853,28 @@
               "weight": 8
             },
             {
-              "name": "keenness",
+              "name": "the_adept",
               "weight": 6
             },
             {
-              "name": "the_adept",
+              "name": "vigor",
               "weight": 4
+            },
+            {
+              "name": "carnage",
+              "weight": 3
+            },
+            {
+              "name": "the_focused",
+              "weight": 3
+            },
+            {
+              "name": "cruelty",
+              "weight": 3
+            },
+            {
+              "name": "swiftness",
+              "weight": 3
             }
           ],
           "required_tempers": []
@@ -1010,18 +1034,18 @@
             },
             {
               "name": "the_wise",
-              "weight": 8
-            },
-            {
-              "name": "unique_attackspeed_after_using_defensive",
-              "weight": 6
+              "weight": 10
             },
             {
               "name": "the_voltaic",
-              "weight": 4
+              "weight": 8
             },
             {
               "name": "unique_projectiles_skill_sorc_balllightning",
+              "weight": 4
+            },
+            {
+              "name": "unique_attackspeed_after_using_defensive",
               "weight": 3
             }
           ],
@@ -1073,6 +1097,22 @@
             {
               "name": "the_adept",
               "weight": 4
+            },
+            {
+              "name": "vigor",
+              "weight": 3
+            },
+            {
+              "name": "cruelty",
+              "weight": 3
+            },
+            {
+              "name": "the_focused",
+              "weight": 3
+            },
+            {
+              "name": "swiftness",
+              "weight": 3
             }
           ],
           "required_tempers": []
@@ -1223,8 +1263,16 @@
               "weight": 6
             },
             {
-              "name": "the_adept",
+              "name": "ferocity",
               "weight": 4
+            },
+            {
+              "name": "the_adept",
+              "weight": 3
+            },
+            {
+              "name": "swiftness",
+              "weight": 3
             }
           ],
           "required_tempers": []
@@ -1273,11 +1321,23 @@
               "weight": 6
             },
             {
-              "name": "the_focused",
+              "name": "cruelty",
               "weight": 4
             },
             {
-              "name": "cruelty",
+              "name": "the_focused",
+              "weight": 3
+            },
+            {
+              "name": "vigor",
+              "weight": 3
+            },
+            {
+              "name": "carnage",
+              "weight": 3
+            },
+            {
+              "name": "swiftness",
               "weight": 3
             }
           ],
@@ -1757,11 +1817,19 @@
               "weight": 6
             },
             {
-              "name": "keenness",
+              "name": "cruelty",
               "weight": 4
             },
             {
               "name": "the_focused",
+              "weight": 3
+            },
+            {
+              "name": "the_adept",
+              "weight": 3
+            },
+            {
+              "name": "swiftness",
               "weight": 3
             }
           ],
@@ -1959,6 +2027,22 @@
             {
               "name": "the_adept",
               "weight": 4
+            },
+            {
+              "name": "vigor",
+              "weight": 3
+            },
+            {
+              "name": "cruelty",
+              "weight": 3
+            },
+            {
+              "name": "the_focused",
+              "weight": 3
+            },
+            {
+              "name": "swiftness",
+              "weight": 3
             }
           ],
           "required_tempers": []

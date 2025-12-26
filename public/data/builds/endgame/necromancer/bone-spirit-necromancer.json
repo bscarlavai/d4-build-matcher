@@ -6,7 +6,7 @@
   "source_url": "https://maxroll.gg/d4/build-guides/bone-spirit-necromancer-guide",
   "tier": "A",
   "tags": [],
-  "last_updated": "2025-12-25",
+  "last_updated": "2025-12-26",
   "profile_order": [
     "starter",
     "ancestral",
@@ -45,49 +45,180 @@
           "slot": "chest",
           "priority_uniques": [],
           "priority_aspects": [],
-          "priority_affixes": [],
+          "priority_affixes": [
+            {
+              "name": "the_wise",
+              "weight": 10
+            },
+            {
+              "name": "toughened",
+              "weight": 8
+            },
+            {
+              "name": "auric",
+              "weight": 6
+            },
+            {
+              "name": "vigor",
+              "weight": 4
+            },
+            {
+              "name": "swiftness",
+              "weight": 8
+            },
+            {
+              "name": "the_adept",
+              "weight": 6
+            },
+            {
+              "name": "resources",
+              "weight": 4
+            }
+          ],
           "required_tempers": []
         },
         "weapon": {
           "slot": "weapon",
           "priority_uniques": [],
           "priority_aspects": [],
-          "priority_affixes": [],
+          "priority_affixes": [
+            {
+              "name": "the_wise",
+              "weight": 10
+            },
+            {
+              "name": "vigor",
+              "weight": 8
+            },
+            {
+              "name": "the_focused",
+              "weight": 6
+            },
+            {
+              "name": "perpetuity",
+              "weight": 4
+            }
+          ],
           "required_tempers": []
         },
         "gloves": {
           "slot": "gloves",
           "priority_uniques": [],
           "priority_aspects": [],
-          "priority_affixes": [],
+          "priority_affixes": [
+            {
+              "name": "principals",
+              "weight": 10
+            },
+            {
+              "name": "keenness",
+              "weight": 8
+            },
+            {
+              "name": "the_adept",
+              "weight": 6
+            },
+            {
+              "name": "the_wise",
+              "weight": 4
+            }
+          ],
           "required_tempers": []
         },
         "pants": {
           "slot": "pants",
           "priority_uniques": [],
           "priority_aspects": [],
-          "priority_affixes": [],
+          "priority_affixes": [
+            {
+              "name": "the_wise",
+              "weight": 10
+            },
+            {
+              "name": "vigor",
+              "weight": 8
+            },
+            {
+              "name": "toughened",
+              "weight": 6
+            },
+            {
+              "name": "auric",
+              "weight": 4
+            }
+          ],
           "required_tempers": []
         },
         "boots": {
           "slot": "boots",
           "priority_uniques": [],
           "priority_aspects": [],
-          "priority_affixes": [],
+          "priority_affixes": [
+            {
+              "name": "the_wise",
+              "weight": 10
+            },
+            {
+              "name": "speed",
+              "weight": 8
+            },
+            {
+              "name": "toughened",
+              "weight": 6
+            },
+            {
+              "name": "vigor",
+              "weight": 4
+            }
+          ],
           "required_tempers": []
         },
         "ring": {
           "slot": "ring",
           "priority_uniques": [],
           "priority_aspects": [],
-          "priority_affixes": [],
+          "priority_affixes": [
+            {
+              "name": "the_wise",
+              "weight": 10
+            },
+            {
+              "name": "the_adept",
+              "weight": 8
+            },
+            {
+              "name": "keenness",
+              "weight": 6
+            },
+            {
+              "name": "swiftness",
+              "weight": 4
+            }
+          ],
           "required_tempers": []
         },
         "amulet": {
           "slot": "amulet",
           "priority_uniques": [],
           "priority_aspects": [],
-          "priority_affixes": [],
+          "priority_affixes": [
+            {
+              "name": "keenness",
+              "weight": 10
+            },
+            {
+              "name": "the_adept",
+              "weight": 8
+            },
+            {
+              "name": "impaling",
+              "weight": 6
+            },
+            {
+              "name": "imbalance",
+              "weight": 4
+            }
+          ],
           "required_tempers": []
         }
       }

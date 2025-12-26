@@ -6,7 +6,7 @@
   "source_url": "https://maxroll.gg/d4/build-guides/minion-necromancer-guide",
   "tier": "A",
   "tags": [],
-  "last_updated": "2025-12-25",
+  "last_updated": "2025-12-26",
   "profile_order": [
     "starter",
     "ancestral",
@@ -410,15 +410,15 @@
               "weight": 10
             },
             {
-              "name": "the_astue",
+              "name": "gloom",
               "weight": 8
             },
             {
-              "name": "gloom",
+              "name": "the_adept",
               "weight": 6
             },
             {
-              "name": "the_adept",
+              "name": "the_wise",
               "weight": 4
             }
           ],
