@@ -8,10 +8,10 @@
       "file": "dance-of-knives-rogue.json"
     },
     {
-      "id": "rain-of-arrows-rogue",
-      "name": "Rain Of Arrows Rogue",
+      "id": "twisting-blades-rogue",
+      "name": "Twisting Blades Rogue",
       "tier": "A",
-      "file": "rain-of-arrows-rogue.json"
+      "file": "twisting-blades-rogue.json"
     },
     {
       "id": "penetrating-shot-rogue",
@@ -32,16 +32,16 @@
       "file": "heartseeker-rogue-specialized.json"
     },
     {
-      "id": "twisting-blades-rogue",
-      "name": "Twisting Blades Rogue",
-      "tier": "S",
-      "file": "twisting-blades-rogue.json"
-    },
-    {
       "id": "flurry-rogue",
       "name": "Flurry Rogue",
       "tier": "S",
       "file": "flurry-rogue.json"
+    },
+    {
+      "id": "rain-of-arrows-rogue",
+      "name": "Rain Of Arrows Rogue",
+      "tier": "S",
+      "file": "rain-of-arrows-rogue.json"
     }
   ]
 }

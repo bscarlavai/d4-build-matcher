@@ -6,7 +6,7 @@
   "source_url": "https://maxroll.gg/d4/build-guides/flurry-rogue-guide",
   "tier": "S",
   "tags": [],
-  "last_updated": "2025-12-26",
+  "last_updated": "2025-12-27",
   "profile_order": [
     "starter",
     "ancestral",
@@ -784,7 +784,7 @@
               "weight": 3
             },
             {
-              "name": "principals",
+              "name": "sanctification",
               "weight": 3
             }
           ],
@@ -810,6 +810,10 @@
             {
               "name": "auric",
               "weight": 4
+            },
+            {
+              "name": "sanctification",
+              "weight": 3
             }
           ],
           "required_tempers": []
@@ -834,6 +838,10 @@
             {
               "name": "auric",
               "weight": 4
+            },
+            {
+              "name": "sanctification",
+              "weight": 3
             }
           ],
           "required_tempers": []

@@ -6,7 +6,7 @@
   "source_url": "https://maxroll.gg/d4/build-guides/pulverize-druid-guide",
   "tier": "S",
   "tags": [],
-  "last_updated": "2025-12-26",
+  "last_updated": "2025-12-27",
   "profile_order": [
     "starter",
     "ancestral",
@@ -732,7 +732,7 @@
           "priority_aspects": [],
           "priority_affixes": [
             {
-              "name": "the_adept",
+              "name": "the_focused",
               "weight": 3
             }
           ],
@@ -759,6 +759,10 @@
             },
             {
               "name": "unique_resource_cost_reduction_scaled2h",
+              "weight": 3
+            },
+            {
+              "name": "sanctification",
               "weight": 3
             }
           ],
@@ -824,7 +828,7 @@
               "weight": 3
             },
             {
-              "name": "the_focused",
+              "name": "sanctification",
               "weight": 3
             }
           ],
@@ -860,7 +864,7 @@
               "weight": 3
             },
             {
-              "name": "the_focused",
+              "name": "sanctification",
               "weight": 3
             }
           ],
@@ -896,6 +900,10 @@
             {
               "name": "vigor",
               "weight": 3
+            },
+            {
+              "name": "sanctification_skillrankbonus_allskills",
+              "weight": 3
             }
           ],
           "required_tempers": []
@@ -922,11 +930,11 @@
               "weight": 4
             },
             {
-              "name": "keenness",
+              "name": "the_adept",
               "weight": 3
             },
             {
-              "name": "the_adept",
+              "name": "keenness",
               "weight": 3
             },
             {
@@ -1172,7 +1180,7 @@
           "priority_aspects": [],
           "priority_affixes": [
             {
-              "name": "the_adept",
+              "name": "the_focused",
               "weight": 3
             }
           ],
@@ -1199,6 +1207,10 @@
             },
             {
               "name": "unique_resource_cost_reduction_scaled2h",
+              "weight": 3
+            },
+            {
+              "name": "sanctification",
               "weight": 3
             }
           ],
@@ -1264,7 +1276,7 @@
               "weight": 3
             },
             {
-              "name": "determination",
+              "name": "sanctification",
               "weight": 3
             }
           ],
@@ -1297,6 +1309,10 @@
             },
             {
               "name": "auric",
+              "weight": 3
+            },
+            {
+              "name": "sanctification",
               "weight": 3
             }
           ],
@@ -1331,6 +1347,10 @@
             },
             {
               "name": "vigor",
+              "weight": 3
+            },
+            {
+              "name": "sanctification_skillrankbonus_allskills",
               "weight": 3
             }
           ],
