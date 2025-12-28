@@ -6,7 +6,7 @@
   "source_url": "https://maxroll.gg/d4/build-guides/fireball-sorcerer-guide",
   "tier": "C",
   "tags": [],
-  "last_updated": "2025-12-27",
+  "last_updated": "2025-12-28",
   "profile_order": [
     "starter",
     "ancestral",
@@ -302,19 +302,19 @@
           "priority_aspects": [],
           "priority_affixes": [
             {
-              "name": "unique_generic_luckyhit_heallife",
+              "name": "vigor",
               "weight": 8
             },
             {
-              "name": "unique_healingpercent_verybig",
+              "name": "toughened",
               "weight": 6
             },
             {
-              "name": "vigor",
+              "name": "unique_healingpercent_verybig",
               "weight": 4
             },
             {
-              "name": "toughened",
+              "name": "unique_generic_luckyhit_heallife",
               "weight": 3
             }
           ],
@@ -483,19 +483,19 @@
           "priority_aspects": [],
           "priority_affixes": [
             {
-              "name": "unique_generic_luckyhit_heallife",
+              "name": "vigor",
               "weight": 8
             },
             {
-              "name": "unique_healingpercent_verybig",
+              "name": "toughened",
               "weight": 6
             },
             {
-              "name": "vigor",
+              "name": "unique_healingpercent_verybig",
               "weight": 4
             },
             {
-              "name": "toughened",
+              "name": "unique_generic_luckyhit_heallife",
               "weight": 3
             }
           ],
@@ -617,7 +617,7 @@
           "priority_aspects": [],
           "priority_affixes": [
             {
-              "name": "the_focused",
+              "name": "sanctification",
               "weight": 3
             }
           ],
@@ -657,7 +657,7 @@
           "priority_aspects": [],
           "priority_affixes": [
             {
-              "name": "unique_generic_luckyhit_heallife",
+              "name": "vigor",
               "weight": 8
             },
             {
@@ -665,15 +665,15 @@
               "weight": 6
             },
             {
-              "name": "vigor",
+              "name": "toughened",
               "weight": 4
             },
             {
-              "name": "toughened",
+              "name": "unique_generic_luckyhit_heallife",
               "weight": 3
             },
             {
-              "name": "the_focused",
+              "name": "sanctification",
               "weight": 3
             }
           ],
@@ -964,7 +964,7 @@
           "priority_aspects": [],
           "priority_affixes": [
             {
-              "name": "the_focused",
+              "name": "sanctification",
               "weight": 3
             }
           ],
@@ -1004,7 +1004,7 @@
           "priority_aspects": [],
           "priority_affixes": [
             {
-              "name": "unique_generic_luckyhit_heallife",
+              "name": "vigor",
               "weight": 8
             },
             {
@@ -1012,15 +1012,15 @@
               "weight": 6
             },
             {
-              "name": "vigor",
+              "name": "toughened",
               "weight": 4
             },
             {
-              "name": "toughened",
+              "name": "unique_generic_luckyhit_heallife",
               "weight": 3
             },
             {
-              "name": "the_focused",
+              "name": "sanctification",
               "weight": 3
             }
           ],

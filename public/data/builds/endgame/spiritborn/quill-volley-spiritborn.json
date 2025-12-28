@@ -6,7 +6,7 @@
   "source_url": "https://maxroll.gg/d4/build-guides/quill-volley-spiritborn-guide",
   "tier": "A",
   "tags": [],
-  "last_updated": "2025-12-27",
+  "last_updated": "2025-12-28",
   "profile_order": [
     "starter",
     "ancestral",
@@ -175,16 +175,16 @@
           "priority_aspects": [],
           "priority_affixes": [
             {
-              "name": "unique_corestats_all_higher",
-              "weight": 10
-            },
-            {
-              "name": "unique_movement_speed_lesser",
+              "name": "the_adroit",
               "weight": 8
             },
             {
-              "name": "unique_damagereduction",
+              "name": "unique_movement_speed_lesser",
               "weight": 6
+            },
+            {
+              "name": "unique_corestats_all_higher",
+              "weight": 4
             },
             {
               "name": "unique_passiverankbonus_spiritborn_velocity_higher",
@@ -370,16 +370,16 @@
           "priority_aspects": [],
           "priority_affixes": [
             {
-              "name": "unique_corestats_all_higher",
-              "weight": 10
-            },
-            {
-              "name": "unique_movement_speed_lesser",
+              "name": "the_adroit",
               "weight": 8
             },
             {
-              "name": "unique_damagereduction",
+              "name": "unique_movement_speed_lesser",
               "weight": 6
+            },
+            {
+              "name": "unique_corestats_all_higher",
+              "weight": 4
             },
             {
               "name": "unique_passiverankbonus_spiritborn_velocity_higher",
@@ -550,16 +550,16 @@
           "priority_aspects": [],
           "priority_affixes": [
             {
-              "name": "unique_corestats_all_higher",
-              "weight": 10
-            },
-            {
-              "name": "unique_movement_speed_lesser",
+              "name": "the_adroit",
               "weight": 8
             },
             {
-              "name": "unique_damagereduction",
+              "name": "unique_movement_speed_lesser",
               "weight": 6
+            },
+            {
+              "name": "unique_corestats_all_higher",
+              "weight": 4
             },
             {
               "name": "unique_passiverankbonus_spiritborn_velocity_higher",
@@ -751,16 +751,16 @@
           "priority_aspects": [],
           "priority_affixes": [
             {
-              "name": "unique_corestats_all_higher",
-              "weight": 10
-            },
-            {
-              "name": "unique_movement_speed_lesser",
+              "name": "the_adroit",
               "weight": 8
             },
             {
-              "name": "unique_damagereduction",
+              "name": "unique_movement_speed_lesser",
               "weight": 6
+            },
+            {
+              "name": "unique_corestats_all_higher",
+              "weight": 4
             },
             {
               "name": "unique_passiverankbonus_spiritborn_velocity_higher",

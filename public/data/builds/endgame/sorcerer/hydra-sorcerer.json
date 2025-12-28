@@ -6,7 +6,7 @@
   "source_url": "https://maxroll.gg/d4/build-guides/hydra-sorcerer-guide",
   "tier": "A",
   "tags": [],
-  "last_updated": "2025-12-27",
+  "last_updated": "2025-12-28",
   "profile_order": [
     "starter",
     "ancestral",
@@ -758,7 +758,7 @@
           "priority_aspects": [],
           "priority_affixes": [
             {
-              "name": "the_focused",
+              "name": "sanctification",
               "weight": 3
             },
             {
@@ -862,7 +862,7 @@
               "weight": 3
             },
             {
-              "name": "the_focused",
+              "name": "sanctification",
               "weight": 3
             }
           ],
@@ -952,6 +952,10 @@
             },
             {
               "name": "unique_damage_sorc_tag_pyromancy",
+              "weight": 3
+            },
+            {
+              "name": "sanctification",
               "weight": 3
             }
           ],
@@ -1184,7 +1188,7 @@
           "priority_aspects": [],
           "priority_affixes": [
             {
-              "name": "the_focused",
+              "name": "sanctification",
               "weight": 3
             },
             {
@@ -1284,7 +1288,7 @@
               "weight": 3
             },
             {
-              "name": "the_focused",
+              "name": "sanctification",
               "weight": 3
             }
           ],
@@ -1374,6 +1378,10 @@
             },
             {
               "name": "unique_damage_sorc_tag_pyromancy",
+              "weight": 3
+            },
+            {
+              "name": "sanctification",
               "weight": 3
             }
           ],

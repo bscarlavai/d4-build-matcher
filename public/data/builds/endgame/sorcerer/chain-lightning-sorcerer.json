@@ -6,7 +6,7 @@
   "source_url": "https://maxroll.gg/d4/build-guides/chain-lightning-sorcerer-guide",
   "tier": "B",
   "tags": [],
-  "last_updated": "2025-12-27",
+  "last_updated": "2025-12-28",
   "profile_order": [
     "starter",
     "ancestral",
@@ -733,6 +733,10 @@
           "priority_aspects": [],
           "priority_affixes": [
             {
+              "name": "sanctification",
+              "weight": 3
+            },
+            {
               "name": "carnage",
               "weight": 10
             },
@@ -839,6 +843,10 @@
             {
               "name": "the_wise",
               "weight": 3
+            },
+            {
+              "name": "sanctification",
+              "weight": 3
             }
           ],
           "required_tempers": []
@@ -933,6 +941,10 @@
             },
             {
               "name": "the_wise",
+              "weight": 3
+            },
+            {
+              "name": "sanctification",
               "weight": 3
             }
           ],
@@ -1179,6 +1191,10 @@
           "priority_aspects": [],
           "priority_affixes": [
             {
+              "name": "sanctification",
+              "weight": 3
+            },
+            {
               "name": "carnage",
               "weight": 10
             },
@@ -1285,6 +1301,10 @@
             {
               "name": "the_wise",
               "weight": 3
+            },
+            {
+              "name": "sanctification",
+              "weight": 3
             }
           ],
           "required_tempers": []
@@ -1379,6 +1399,10 @@
             },
             {
               "name": "the_wise",
+              "weight": 3
+            },
+            {
+              "name": "sanctification",
               "weight": 3
             }
           ],

@@ -6,7 +6,7 @@
   "source_url": "https://maxroll.gg/d4/build-guides/meteor-sorcerer-guide",
   "tier": "B",
   "tags": [],
-  "last_updated": "2025-12-27",
+  "last_updated": "2025-12-28",
   "profile_order": [
     "starter",
     "ancestral",
@@ -740,6 +740,10 @@
             {
               "name": "unique_size_skill_sorc_meteor",
               "weight": 3
+            },
+            {
+              "name": "sanctification",
+              "weight": 3
             }
           ],
           "required_tempers": []
@@ -804,6 +808,10 @@
             {
               "name": "vigor",
               "weight": 3
+            },
+            {
+              "name": "sanctification",
+              "weight": 3
             }
           ],
           "required_tempers": []
@@ -864,7 +872,7 @@
               "weight": 3
             },
             {
-              "name": "the_focused",
+              "name": "sanctification",
               "weight": 3
             }
           ],
@@ -1250,7 +1258,7 @@
           "priority_aspects": [],
           "priority_affixes": [
             {
-              "name": "the_focused",
+              "name": "sanctification",
               "weight": 3
             },
             {
@@ -1301,6 +1309,10 @@
             },
             {
               "name": "vigor",
+              "weight": 3
+            },
+            {
+              "name": "sanctification",
               "weight": 3
             }
           ],
@@ -1362,7 +1374,7 @@
               "weight": 3
             },
             {
-              "name": "the_focused",
+              "name": "sanctification",
               "weight": 3
             }
           ],

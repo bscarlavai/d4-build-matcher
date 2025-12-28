@@ -6,12 +6,13 @@
   "source_url": "https://maxroll.gg/d4/build-guides/wing-strikes-paladin-guide",
   "tier": "S",
   "tags": [],
-  "last_updated": "2025-12-27",
+  "last_updated": "2025-12-28",
   "profile_order": [
     "starter",
     "ancestral",
     "mythic",
-    "sanctified"
+    "sanctified",
+    "tests"
   ],
   "profiles": {
     "starter": {
@@ -396,6 +397,10 @@
             {
               "name": "vigor",
               "weight": 4
+            },
+            {
+              "name": "carnage",
+              "weight": 4
             }
           ],
           "required_tempers": []
@@ -583,6 +588,10 @@
             },
             {
               "name": "vigor",
+              "weight": 4
+            },
+            {
+              "name": "carnage",
               "weight": 4
             }
           ],
@@ -800,6 +809,223 @@
             },
             {
               "name": "the_adept",
+              "weight": 8
+            }
+          ],
+          "required_tempers": []
+        },
+        "amulet": {
+          "slot": "amulet",
+          "priority_uniques": [
+            "Sanctis of Kethamar"
+          ],
+          "priority_aspects": [],
+          "priority_affixes": [
+            {
+              "name": "unique_double_damage_skill_pal_wingstrike",
+              "weight": 8
+            },
+            {
+              "name": "unique_passiverankbonus_pal_giantslayer",
+              "weight": 6
+            },
+            {
+              "name": "unique_corestats_all_higher",
+              "weight": 4
+            },
+            {
+              "name": "vigor",
+              "weight": 3
+            }
+          ],
+          "required_tempers": []
+        }
+      }
+    },
+    "tests": {
+      "name": "Tests",
+      "gear": {
+        "helm": {
+          "slot": "helm",
+          "priority_uniques": [
+            "Heir of Perdition"
+          ],
+          "priority_aspects": [],
+          "priority_affixes": [
+            {
+              "name": "the_focused",
+              "weight": 3
+            }
+          ],
+          "required_tempers": []
+        },
+        "chest": {
+          "slot": "chest",
+          "priority_uniques": [
+            "Shroud of False Death"
+          ],
+          "priority_aspects": [],
+          "priority_affixes": [
+            {
+              "name": "the_powerful",
+              "weight": 10
+            },
+            {
+              "name": "toughened",
+              "weight": 8
+            },
+            {
+              "name": "swiftness",
+              "weight": 6
+            },
+            {
+              "name": "sturdiness",
+              "weight": 4
+            },
+            {
+              "name": "the_focused",
+              "weight": 3
+            }
+          ],
+          "required_tempers": []
+        },
+        "weapon": {
+          "slot": "weapon",
+          "priority_uniques": [
+            "Griswold's Opus"
+          ],
+          "priority_aspects": [],
+          "priority_affixes": [
+            {
+              "name": "unique_passiverankbonus_pal_heavyweight",
+              "weight": 8
+            },
+            {
+              "name": "unique_passiverankbonus_pal_breaktheline",
+              "weight": 6
+            },
+            {
+              "name": "the_powerful",
+              "weight": 4
+            },
+            {
+              "name": "vigor",
+              "weight": 3
+            }
+          ],
+          "required_tempers": []
+        },
+        "gloves": {
+          "slot": "gloves",
+          "priority_uniques": [],
+          "priority_aspects": [],
+          "priority_affixes": [
+            {
+              "name": "the_powerful",
+              "weight": 10
+            },
+            {
+              "name": "keenness",
+              "weight": 8
+            },
+            {
+              "name": "the_adept",
+              "weight": 6
+            },
+            {
+              "name": "toughened",
+              "weight": 4
+            },
+            {
+              "name": "sanctification",
+              "weight": 3
+            }
+          ],
+          "required_tempers": []
+        },
+        "pants": {
+          "slot": "pants",
+          "priority_uniques": [],
+          "priority_aspects": [],
+          "priority_affixes": [
+            {
+              "name": "the_powerful",
+              "weight": 10
+            },
+            {
+              "name": "toughened",
+              "weight": 8
+            },
+            {
+              "name": "carrying",
+              "weight": 6
+            },
+            {
+              "name": "infusing",
+              "weight": 4
+            },
+            {
+              "name": "sanctification",
+              "weight": 3
+            }
+          ],
+          "required_tempers": []
+        },
+        "boots": {
+          "slot": "boots",
+          "priority_uniques": [],
+          "priority_aspects": [],
+          "priority_affixes": [
+            {
+              "name": "the_powerful",
+              "weight": 10
+            },
+            {
+              "name": "toughened",
+              "weight": 8
+            },
+            {
+              "name": "vigor",
+              "weight": 6
+            },
+            {
+              "name": "infusing",
+              "weight": 4
+            },
+            {
+              "name": "sanctification",
+              "weight": 3
+            }
+          ],
+          "required_tempers": []
+        },
+        "ring": {
+          "slot": "ring",
+          "priority_uniques": [],
+          "priority_aspects": [],
+          "priority_affixes": [
+            {
+              "name": "the_powerful",
+              "weight": 10
+            },
+            {
+              "name": "carnage",
+              "weight": 8
+            },
+            {
+              "name": "keenness",
+              "weight": 6
+            },
+            {
+              "name": "vigor",
+              "weight": 4
+            },
+            {
+              "name": "the_focused",
+              "weight": 3
+            },
+            {
+              "name": "swiftness",
               "weight": 8
             }
           ],

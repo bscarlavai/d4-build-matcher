@@ -6,7 +6,7 @@
   "source_url": "https://maxroll.gg/d4/build-guides/ball-lightning-sorcerer-guide",
   "tier": "C",
   "tags": [],
-  "last_updated": "2025-12-27",
+  "last_updated": "2025-12-28",
   "profile_order": [
     "starter",
     "ancestral",
@@ -765,7 +765,7 @@
           "priority_aspects": [],
           "priority_affixes": [
             {
-              "name": "the_focused",
+              "name": "sanctification",
               "weight": 3
             },
             {
@@ -877,7 +877,7 @@
               "weight": 3
             },
             {
-              "name": "the_focused",
+              "name": "sanctification",
               "weight": 3
             }
           ],
@@ -973,6 +973,10 @@
             },
             {
               "name": "the_wise",
+              "weight": 3
+            },
+            {
+              "name": "sanctification",
               "weight": 3
             }
           ],
@@ -1242,7 +1246,7 @@
           "priority_aspects": [],
           "priority_affixes": [
             {
-              "name": "the_focused",
+              "name": "sanctification",
               "weight": 3
             },
             {
@@ -1354,7 +1358,7 @@
               "weight": 3
             },
             {
-              "name": "the_focused",
+              "name": "sanctification",
               "weight": 3
             }
           ],
@@ -1450,6 +1454,10 @@
             },
             {
               "name": "the_wise",
+              "weight": 3
+            },
+            {
+              "name": "sanctification",
               "weight": 3
             }
           ],
