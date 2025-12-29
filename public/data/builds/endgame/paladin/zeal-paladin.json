@@ -6,7 +6,7 @@
   "source_url": "https://maxroll.gg/d4/build-guides/zeal-paladin-guide",
   "tier": "A",
   "tags": [],
-  "last_updated": "2025-12-28",
+  "last_updated": "2025-12-29",
   "profile_order": [
     "starter",
     "ancestral",
@@ -687,10 +687,6 @@
             {
               "name": "vigor",
               "weight": 3
-            },
-            {
-              "name": "the_adroit",
-              "weight": 3
             }
           ],
           "required_tempers": []
@@ -803,7 +799,7 @@
               "weight": 4
             },
             {
-              "name": "sanctification",
+              "name": "sanctification_skillrankbonus_allskills",
               "weight": 3
             },
             {
@@ -816,10 +812,6 @@
             },
             {
               "name": "cruelty",
-              "weight": 3
-            },
-            {
-              "name": "sanctification_skillrankbonus_allskills",
               "weight": 3
             }
           ],
@@ -856,6 +848,10 @@
             },
             {
               "name": "riposting",
+              "weight": 3
+            },
+            {
+              "name": "sanctification",
               "weight": 3
             }
           ],

@@ -6,7 +6,7 @@
   "source_url": "https://maxroll.gg/d4/build-guides/divine-lance-paladin-guide",
   "tier": "A",
   "tags": [],
-  "last_updated": "2025-12-28",
+  "last_updated": "2025-12-29",
   "profile_order": [
     "starter",
     "ancestral",
@@ -714,10 +714,6 @@
             {
               "name": "life_greater",
               "weight": 3
-            },
-            {
-              "name": "the_adroit",
-              "weight": 3
             }
           ],
           "required_tempers": []
@@ -832,10 +828,6 @@
             {
               "name": "the_powerful",
               "weight": 4
-            },
-            {
-              "name": "sanctification",
-              "weight": 3
             }
           ],
           "required_tempers": []
@@ -871,6 +863,10 @@
             },
             {
               "name": "heartiness",
+              "weight": 3
+            },
+            {
+              "name": "sanctification",
               "weight": 3
             }
           ],
