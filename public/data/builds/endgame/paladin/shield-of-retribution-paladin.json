@@ -6,7 +6,7 @@
   "source_url": "https://maxroll.gg/d4/build-guides/shield-of-retribution-paladin-guide",
   "tier": "S",
   "tags": [],
-  "last_updated": "2025-12-30",
+  "last_updated": "2025-12-31",
   "profile_order": [
     "starter",
     "ancestral",
@@ -24,15 +24,15 @@
           "priority_aspects": [],
           "priority_affixes": [
             {
-              "name": "the_powerful",
+              "name": "infusing",
               "weight": 10
             },
             {
-              "name": "vigor",
+              "name": "the_powerful",
               "weight": 8
             },
             {
-              "name": "swiftness",
+              "name": "vigor",
               "weight": 6
             }
           ],
@@ -44,15 +44,15 @@
           "priority_aspects": [],
           "priority_affixes": [
             {
-              "name": "the_powerful",
+              "name": "infusing",
               "weight": 10
             },
             {
-              "name": "vigor",
+              "name": "the_powerful",
               "weight": 8
             },
             {
-              "name": "auric",
+              "name": "vigor",
               "weight": 6
             },
             {
@@ -116,15 +116,15 @@
           "priority_aspects": [],
           "priority_affixes": [
             {
-              "name": "vigor",
+              "name": "infusing",
               "weight": 10
             },
             {
-              "name": "the_powerful",
+              "name": "vigor",
               "weight": 8
             },
             {
-              "name": "auric",
+              "name": "the_powerful",
               "weight": 6
             }
           ],
@@ -140,7 +140,7 @@
               "weight": 10
             },
             {
-              "name": "the_powerful",
+              "name": "infusing",
               "weight": 8
             },
             {
@@ -224,11 +224,23 @@
         "chest": {
           "slot": "chest",
           "priority_uniques": [
-            "Razorplate",
+            "Mantle of the Grey",
             "Ward of the White Dove"
           ],
           "priority_aspects": [],
           "priority_affixes": [
+            {
+              "name": "reckless_magic",
+              "weight": 8
+            },
+            {
+              "name": "unique_lifeflat_higherhigher",
+              "weight": 6
+            },
+            {
+              "name": "unique_skillrankbonus_paladin_juggernaut",
+              "weight": 3
+            },
             {
               "name": "unique_double_damage_skill_pal_blessedshield",
               "weight": 8
@@ -284,7 +296,7 @@
               "weight": 10
             },
             {
-              "name": "keenness",
+              "name": "the_powerful",
               "weight": 8
             },
             {
@@ -304,19 +316,19 @@
           "priority_aspects": [],
           "priority_affixes": [
             {
-              "name": "regeneration",
+              "name": "thorns",
               "weight": 10
             },
             {
-              "name": "vigor",
+              "name": "infusing",
               "weight": 8
             },
             {
-              "name": "the_powerful",
+              "name": "vigor",
               "weight": 6
             },
             {
-              "name": "toughened",
+              "name": "the_powerful",
               "weight": 4
             }
           ],
@@ -332,11 +344,11 @@
               "weight": 10
             },
             {
-              "name": "vigor",
+              "name": "infusing",
               "weight": 8
             },
             {
-              "name": "the_powerful",
+              "name": "vigor",
               "weight": 6
             },
             {
@@ -435,11 +447,23 @@
         "chest": {
           "slot": "chest",
           "priority_uniques": [
-            "Shroud of False Death",
+            "Mantle of the Grey",
             "Ward of the White Dove"
           ],
           "priority_aspects": [],
           "priority_affixes": [
+            {
+              "name": "reckless_magic",
+              "weight": 8
+            },
+            {
+              "name": "unique_lifeflat_higherhigher",
+              "weight": 6
+            },
+            {
+              "name": "unique_skillrankbonus_paladin_juggernaut",
+              "weight": 3
+            },
             {
               "name": "unique_double_damage_skill_pal_blessedshield",
               "weight": 8
@@ -495,7 +519,7 @@
               "weight": 10
             },
             {
-              "name": "keenness",
+              "name": "the_powerful",
               "weight": 8
             },
             {
@@ -515,19 +539,19 @@
           "priority_aspects": [],
           "priority_affixes": [
             {
-              "name": "regeneration",
+              "name": "thorns",
               "weight": 10
             },
             {
-              "name": "vigor",
+              "name": "infusing",
               "weight": 8
             },
             {
-              "name": "the_powerful",
+              "name": "vigor",
               "weight": 6
             },
             {
-              "name": "toughened",
+              "name": "the_powerful",
               "weight": 4
             }
           ],
@@ -543,11 +567,11 @@
               "weight": 10
             },
             {
-              "name": "vigor",
+              "name": "the_powerful",
               "weight": 8
             },
             {
-              "name": "the_powerful",
+              "name": "vigor",
               "weight": 6
             },
             {
@@ -641,11 +665,27 @@
         "chest": {
           "slot": "chest",
           "priority_uniques": [
-            "Shroud of False Death",
+            "Mantle of the Grey",
             "Ward of the White Dove"
           ],
           "priority_aspects": [],
           "priority_affixes": [
+            {
+              "name": "reckless_magic",
+              "weight": 8
+            },
+            {
+              "name": "unique_lifeflat_higherhigher",
+              "weight": 6
+            },
+            {
+              "name": "unique_skillrankbonus_paladin_juggernaut",
+              "weight": 3
+            },
+            {
+              "name": "auras",
+              "weight": 3
+            },
             {
               "name": "unique_double_damage_skill_pal_blessedshield",
               "weight": 8
@@ -660,10 +700,6 @@
             },
             {
               "name": "ph_shieldthrowers",
-              "weight": 3
-            },
-            {
-              "name": "sanctification",
               "weight": 3
             }
           ],
@@ -691,10 +727,6 @@
             {
               "name": "vigor",
               "weight": 3
-            },
-            {
-              "name": "the_adroit",
-              "weight": 3
             }
           ],
           "required_tempers": []
@@ -709,7 +741,7 @@
               "weight": 10
             },
             {
-              "name": "keenness",
+              "name": "the_powerful",
               "weight": 8
             },
             {
@@ -733,7 +765,7 @@
           "priority_aspects": [],
           "priority_affixes": [
             {
-              "name": "regeneration",
+              "name": "thorns",
               "weight": 10
             },
             {
@@ -765,11 +797,11 @@
               "weight": 10
             },
             {
-              "name": "vigor",
+              "name": "the_powerful",
               "weight": 8
             },
             {
-              "name": "the_powerful",
+              "name": "vigor",
               "weight": 6
             },
             {
@@ -866,11 +898,23 @@
         "chest": {
           "slot": "chest",
           "priority_uniques": [
-            "Shroud of False Death",
+            "Mantle of the Grey",
             "Ward of the White Dove"
           ],
           "priority_aspects": [],
           "priority_affixes": [
+            {
+              "name": "reckless_magic",
+              "weight": 8
+            },
+            {
+              "name": "unique_lifeflat_higherhigher",
+              "weight": 6
+            },
+            {
+              "name": "unique_skillrankbonus_paladin_juggernaut",
+              "weight": 3
+            },
             {
               "name": "unique_double_damage_skill_pal_blessedshield",
               "weight": 8
@@ -926,7 +970,7 @@
               "weight": 10
             },
             {
-              "name": "keenness",
+              "name": "the_powerful",
               "weight": 8
             },
             {
@@ -946,7 +990,7 @@
           "priority_aspects": [],
           "priority_affixes": [
             {
-              "name": "regeneration",
+              "name": "carrying",
               "weight": 10
             },
             {
@@ -958,7 +1002,7 @@
               "weight": 6
             },
             {
-              "name": "toughened",
+              "name": "thorns",
               "weight": 4
             }
           ],
@@ -970,19 +1014,19 @@
           "priority_aspects": [],
           "priority_affixes": [
             {
-              "name": "speed",
+              "name": "infusing",
               "weight": 10
             },
             {
-              "name": "vigor",
+              "name": "the_powerful",
               "weight": 8
             },
             {
-              "name": "the_powerful",
+              "name": "vigor",
               "weight": 6
             },
             {
-              "name": "regeneration",
+              "name": "toughened",
               "weight": 4
             }
           ],
@@ -1008,7 +1052,7 @@
               "weight": 6
             },
             {
-              "name": "keenness",
+              "name": "the_powerful",
               "weight": 4
             }
           ],
@@ -1032,7 +1076,7 @@
               "weight": 6
             },
             {
-              "name": "swiftness",
+              "name": "fortitude",
               "weight": 4
             },
             {
@@ -1040,11 +1084,19 @@
               "weight": 3
             },
             {
-              "name": "fortitude",
+              "name": "heartiness",
               "weight": 3
             },
             {
-              "name": "heartiness",
+              "name": "dizziness",
+              "weight": 3
+            },
+            {
+              "name": "riposting",
+              "weight": 3
+            },
+            {
+              "name": "swiftness",
               "weight": 3
             }
           ],
