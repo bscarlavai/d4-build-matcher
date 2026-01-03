@@ -6,7 +6,7 @@
   "source_url": "https://maxroll.gg/d4/build-guides/crackling-energy-sorcerer-guide",
   "tier": "S",
   "tags": [],
-  "last_updated": "2026-01-02",
+  "last_updated": "2026-01-03",
   "profile_order": [
     "starter",
     "ancestral",
@@ -703,8 +703,16 @@
               "weight": 6
             },
             {
-              "name": "toughened",
+              "name": "infusing",
               "weight": 4
+            },
+            {
+              "name": "toughened",
+              "weight": 3
+            },
+            {
+              "name": "dampening",
+              "weight": 3
             }
           ],
           "required_tempers": []
@@ -925,8 +933,16 @@
               "weight": 6
             },
             {
-              "name": "toughened",
+              "name": "infusing",
               "weight": 4
+            },
+            {
+              "name": "toughened",
+              "weight": 3
+            },
+            {
+              "name": "dampening",
+              "weight": 3
             },
             {
               "name": "sanctification",
@@ -1139,6 +1155,14 @@
             {
               "name": "toughened",
               "weight": 4
+            },
+            {
+              "name": "infusing",
+              "weight": 3
+            },
+            {
+              "name": "dampening",
+              "weight": 3
             }
           ],
           "required_tempers": []
@@ -1367,8 +1391,16 @@
               "weight": 6
             },
             {
-              "name": "toughened",
+              "name": "infusing",
               "weight": 4
+            },
+            {
+              "name": "toughened",
+              "weight": 3
+            },
+            {
+              "name": "dampening",
+              "weight": 3
             },
             {
               "name": "sanctification",

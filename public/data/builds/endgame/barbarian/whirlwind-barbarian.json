@@ -6,14 +6,15 @@
   "source_url": "https://maxroll.gg/d4/build-guides/whirlwind-barbarian-guide",
   "tier": "S",
   "tags": [],
-  "last_updated": "2026-01-02",
+  "last_updated": "2026-01-03",
   "profile_order": [
     "starter",
     "ancestral",
     "mythic",
     "sanctified",
     "push",
-    "early_bossing"
+    "early_bossing",
+    "double_selig"
   ],
   "profiles": {
     "starter": {
@@ -1476,6 +1477,265 @@
             },
             {
               "name": "ferocity",
+              "weight": 3
+            }
+          ],
+          "required_tempers": []
+        }
+      }
+    },
+    "double_selig": {
+      "name": "Double Selig",
+      "gear": {
+        "helm": {
+          "slot": "helm",
+          "priority_uniques": [
+            "Crown of Lucion"
+          ],
+          "priority_aspects": [],
+          "priority_affixes": [
+            {
+              "name": "bsk_generic_002",
+              "weight": 10
+            },
+            {
+              "name": "vigor",
+              "weight": 8
+            },
+            {
+              "name": "swiftness",
+              "weight": 6
+            },
+            {
+              "name": "luck",
+              "weight": 4
+            },
+            {
+              "name": "sanctity",
+              "weight": 3
+            },
+            {
+              "name": "the_focused",
+              "weight": 3
+            }
+          ],
+          "required_tempers": []
+        },
+        "chest": {
+          "slot": "chest",
+          "priority_uniques": [
+            "Mantle of Mountain's Fury"
+          ],
+          "priority_aspects": [],
+          "priority_affixes": [
+            {
+              "name": "tempered_double_damage_skill_barb_earthquake_tier3",
+              "weight": 10
+            },
+            {
+              "name": "passiverankbonus_barb_defensivestance_unique",
+              "weight": 8
+            },
+            {
+              "name": "unique_armor_giga_specialscaling",
+              "weight": 6
+            },
+            {
+              "name": "battering",
+              "weight": 4
+            },
+            {
+              "name": "sanctification",
+              "weight": 3
+            }
+          ],
+          "required_tempers": []
+        },
+        "weapon": {
+          "slot": "weapon",
+          "priority_uniques": [
+            "Ramaladni's Magnum Opus"
+          ],
+          "priority_aspects": [],
+          "priority_affixes": [
+            {
+              "name": "the_powerful",
+              "weight": 10
+            },
+            {
+              "name": "the_focused",
+              "weight": 8
+            },
+            {
+              "name": "ferocity",
+              "weight": 6
+            },
+            {
+              "name": "riving",
+              "weight": 4
+            },
+            {
+              "name": "vigor",
+              "weight": 8
+            },
+            {
+              "name": "unique_resource_max_allclasses_higher",
+              "weight": 8
+            },
+            {
+              "name": "demolition",
+              "weight": 3
+            }
+          ],
+          "required_tempers": []
+        },
+        "offhand": {
+          "slot": "offhand",
+          "priority_uniques": [
+            "Sabre of Tsasgal"
+          ],
+          "priority_aspects": [],
+          "priority_affixes": [
+            {
+              "name": "the_powerful",
+              "weight": 8
+            },
+            {
+              "name": "unique_damage_generic_type_physical",
+              "weight": 6
+            },
+            {
+              "name": "unique_skillrankbonus_generic_category_core_higher",
+              "weight": 4
+            },
+            {
+              "name": "unique_passiverankbonus_barb_talent_13_warpath",
+              "weight": 3
+            },
+            {
+              "name": "sanctification",
+              "weight": 3
+            }
+          ],
+          "required_tempers": []
+        },
+        "gloves": {
+          "slot": "gloves",
+          "priority_uniques": [],
+          "priority_aspects": [],
+          "priority_affixes": [
+            {
+              "name": "the_adept",
+              "weight": 10
+            },
+            {
+              "name": "the_powerful",
+              "weight": 8
+            },
+            {
+              "name": "the_focused",
+              "weight": 6
+            },
+            {
+              "name": "swiftness",
+              "weight": 4
+            }
+          ],
+          "required_tempers": []
+        },
+        "pants": {
+          "slot": "pants",
+          "priority_uniques": [
+            "Tibault's Will"
+          ],
+          "priority_aspects": [],
+          "priority_affixes": [
+            {
+              "name": "resources",
+              "weight": 10
+            },
+            {
+              "name": "the_adept",
+              "weight": 8
+            },
+            {
+              "name": "harmony",
+              "weight": 4
+            },
+            {
+              "name": "keenness",
+              "weight": 3
+            },
+            {
+              "name": "sanctification",
+              "weight": 3
+            }
+          ],
+          "required_tempers": []
+        },
+        "boots": {
+          "slot": "boots",
+          "priority_uniques": [],
+          "priority_aspects": [],
+          "priority_affixes": [
+            {
+              "name": "roaring",
+              "weight": 10
+            },
+            {
+              "name": "the_powerful",
+              "weight": 8
+            },
+            {
+              "name": "speed",
+              "weight": 6
+            },
+            {
+              "name": "vigor",
+              "weight": 4
+            },
+            {
+              "name": "the_focused",
+              "weight": 3
+            }
+          ],
+          "required_tempers": []
+        },
+        "ring": {
+          "slot": "ring",
+          "priority_uniques": [
+            "Ring of Starless Skies"
+          ],
+          "priority_aspects": [],
+          "priority_affixes": [
+            {
+              "name": "the_focused",
+              "weight": 3
+            },
+            {
+              "name": "the_powerful",
+              "weight": 10
+            },
+            {
+              "name": "the_adept",
+              "weight": 8
+            },
+            {
+              "name": "swiftness",
+              "weight": 6
+            }
+          ],
+          "required_tempers": []
+        },
+        "amulet": {
+          "slot": "amulet",
+          "priority_uniques": [
+            "Melted Heart of Selig"
+          ],
+          "priority_aspects": [],
+          "priority_affixes": [
+            {
+              "name": "sanctification",
               "weight": 3
             }
           ],
