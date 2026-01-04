@@ -6,17 +6,17 @@
   "source_url": "https://maxroll.gg/d4/build-guides/hammer-of-the-ancients-barbarian-guide",
   "tier": "S",
   "tags": [],
-  "last_updated": "2026-01-03",
+  "last_updated": "2026-01-04",
   "profile_order": [
+    "starter",
+    "ancestral",
     "mythic",
-    "start",
-    "ancest",
-    "sancti",
+    "sanctified",
     "push"
   ],
   "profiles": {
-    "start": {
-      "name": "Start",
+    "starter": {
+      "name": "Starter",
       "gear": {
         "helm": {
           "slot": "helm",
@@ -90,6 +90,10 @@
             {
               "name": "the_focused",
               "weight": 6
+            },
+            {
+              "name": "ferocity",
+              "weight": 4
             },
             {
               "name": "carnage",
@@ -244,8 +248,8 @@
         }
       }
     },
-    "ancest": {
-      "name": "Ancest",
+    "ancestral": {
+      "name": "Ancestral",
       "gear": {
         "helm": {
           "slot": "helm",
@@ -315,7 +319,7 @@
               "weight": 8
             },
             {
-              "name": "efficiency",
+              "name": "the_focused",
               "weight": 6
             },
             {
@@ -323,8 +327,8 @@
               "weight": 4
             },
             {
-              "name": "the_focused",
-              "weight": 6
+              "name": "efficiency",
+              "weight": 4
             },
             {
               "name": "unique_damage_generic_type_physical",
@@ -419,24 +423,26 @@
         },
         "boots": {
           "slot": "boots",
-          "priority_uniques": [],
+          "priority_uniques": [
+            "100,000 Steps"
+          ],
           "priority_aspects": [],
           "priority_affixes": [
             {
-              "name": "the_powerful",
-              "weight": 10
-            },
-            {
-              "name": "vigor",
+              "name": "speed",
               "weight": 8
             },
             {
-              "name": "roaring",
+              "name": "unique_movement_speed_barb_perwalkingarsenal",
               "weight": 6
             },
             {
-              "name": "infusing",
+              "name": "unique_damage_to_stunned_verybig",
               "weight": 4
+            },
+            {
+              "name": "unique_size_skill_barb_groundstomp",
+              "weight": 3
             }
           ],
           "required_tempers": []
@@ -548,7 +554,7 @@
               "weight": 8
             },
             {
-              "name": "efficiency",
+              "name": "the_focused",
               "weight": 6
             },
             {
@@ -648,24 +654,26 @@
         },
         "boots": {
           "slot": "boots",
-          "priority_uniques": [],
+          "priority_uniques": [
+            "100,000 Steps"
+          ],
           "priority_aspects": [],
           "priority_affixes": [
             {
-              "name": "the_powerful",
-              "weight": 10
-            },
-            {
-              "name": "vigor",
+              "name": "speed",
               "weight": 8
             },
             {
-              "name": "roaring",
+              "name": "unique_movement_speed_barb_perwalkingarsenal",
               "weight": 6
             },
             {
-              "name": "infusing",
+              "name": "unique_damage_to_stunned_verybig",
               "weight": 4
+            },
+            {
+              "name": "unique_size_skill_barb_groundstomp",
+              "weight": 3
             }
           ],
           "required_tempers": []
@@ -724,8 +732,8 @@
         }
       }
     },
-    "sancti": {
-      "name": "Sancti",
+    "sanctified": {
+      "name": "Sanctified",
       "gear": {
         "helm": {
           "slot": "helm",
@@ -788,7 +796,7 @@
               "weight": 8
             },
             {
-              "name": "efficiency",
+              "name": "the_focused",
               "weight": 6
             },
             {
@@ -892,24 +900,26 @@
         },
         "boots": {
           "slot": "boots",
-          "priority_uniques": [],
+          "priority_uniques": [
+            "100,000 Steps"
+          ],
           "priority_aspects": [],
           "priority_affixes": [
             {
-              "name": "the_powerful",
-              "weight": 10
-            },
-            {
-              "name": "vigor",
+              "name": "speed",
               "weight": 8
             },
             {
-              "name": "roaring",
+              "name": "unique_movement_speed_barb_perwalkingarsenal",
               "weight": 6
             },
             {
-              "name": "infusing",
+              "name": "unique_damage_to_stunned_verybig",
               "weight": 4
+            },
+            {
+              "name": "unique_size_skill_barb_groundstomp",
+              "weight": 3
             },
             {
               "name": "swiftness",
@@ -926,7 +936,7 @@
           "priority_aspects": [],
           "priority_affixes": [
             {
-              "name": "sanctification_skillrankbonus_allskills",
+              "name": "the_focused",
               "weight": 3
             },
             {
@@ -1005,6 +1015,10 @@
             {
               "name": "sanctity",
               "weight": 3
+            },
+            {
+              "name": "sanctification",
+              "weight": 3
             }
           ],
           "required_tempers": []
@@ -1031,6 +1045,10 @@
             {
               "name": "unique_armor_giga_specialscaling",
               "weight": 3
+            },
+            {
+              "name": "resources",
+              "weight": 3
             }
           ],
           "required_tempers": []
@@ -1048,11 +1066,11 @@
               "weight": 10
             },
             {
-              "name": "vigor",
+              "name": "the_focused",
               "weight": 8
             },
             {
-              "name": "the_focused",
+              "name": "ferocity",
               "weight": 6
             },
             {
@@ -1114,12 +1132,16 @@
               "weight": 8
             },
             {
-              "name": "the_adept",
+              "name": "keenness",
               "weight": 6
             },
             {
               "name": "swiftness",
               "weight": 4
+            },
+            {
+              "name": "sanctification",
+              "weight": 3
             }
           ],
           "required_tempers": []
@@ -1146,6 +1168,10 @@
             {
               "name": "keenness",
               "weight": 3
+            },
+            {
+              "name": "sanctification",
+              "weight": 3
             }
           ],
           "required_tempers": []
@@ -1153,7 +1179,7 @@
         "boots": {
           "slot": "boots",
           "priority_uniques": [
-            "Hooves of the Mountain God"
+            "100,000 Steps"
           ],
           "priority_aspects": [],
           "priority_affixes": [
@@ -1162,15 +1188,19 @@
               "weight": 8
             },
             {
-              "name": "infusing",
+              "name": "unique_movement_speed_barb_perwalkingarsenal",
               "weight": 6
             },
             {
-              "name": "unique_attackspeed_basics",
+              "name": "unique_damage_to_stunned_verybig",
               "weight": 4
             },
             {
-              "name": "unique_passiverankbonus_barb_talent_11_belligerence",
+              "name": "unique_size_skill_barb_groundstomp",
+              "weight": 3
+            },
+            {
+              "name": "sanctification",
               "weight": 3
             }
           ],
@@ -1184,12 +1214,12 @@
           "priority_aspects": [],
           "priority_affixes": [
             {
-              "name": "the_powerful",
-              "weight": 10
+              "name": "the_focused",
+              "weight": 3
             },
             {
-              "name": "the_adept",
-              "weight": 8
+              "name": "the_powerful",
+              "weight": 10
             },
             {
               "name": "keenness",
@@ -1205,24 +1235,12 @@
         "amulet": {
           "slot": "amulet",
           "priority_uniques": [
-            "Battle Trance"
+            "Melted Heart of Selig"
           ],
           "priority_aspects": [],
           "priority_affixes": [
             {
-              "name": "the_adept",
-              "weight": 8
-            },
-            {
-              "name": "the_sturdy",
-              "weight": 6
-            },
-            {
-              "name": "resource_maxfury_greater_jewelry_unique",
-              "weight": 4
-            },
-            {
-              "name": "unique_skillrankbonus_barb_basic_3_frenzy_double",
+              "name": "sanctification",
               "weight": 3
             }
           ],

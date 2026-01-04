@@ -6,7 +6,7 @@
   "source_url": "https://maxroll.gg/d4/build-guides/whirlwind-barbarian-guide",
   "tier": "S",
   "tags": [],
-  "last_updated": "2026-01-03",
+  "last_updated": "2026-01-04",
   "profile_order": [
     "starter",
     "ancestral",
@@ -1575,8 +1575,8 @@
               "weight": 4
             },
             {
-              "name": "vigor",
-              "weight": 8
+              "name": "perpetuity",
+              "weight": 4
             },
             {
               "name": "unique_resource_max_allclasses_higher",
