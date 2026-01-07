@@ -6,7 +6,7 @@
   "source_url": "https://maxroll.gg/d4/build-guides/blessed-shield-paladin-guide",
   "tier": "A",
   "tags": [],
-  "last_updated": "2026-01-06",
+  "last_updated": "2026-01-07",
   "profile_order": [
     "starter",
     "ancestral",
@@ -833,6 +833,10 @@
             {
               "name": "toughened",
               "weight": 3
+            },
+            {
+              "name": "keenness",
+              "weight": 3
             }
           ],
           "required_tempers": []
@@ -907,6 +911,10 @@
             {
               "name": "auric",
               "weight": 3
+            },
+            {
+              "name": "the_focused",
+              "weight": 3
             }
           ],
           "required_tempers": []
@@ -931,6 +939,10 @@
             {
               "name": "auric",
               "weight": 4
+            },
+            {
+              "name": "sanctification",
+              "weight": 3
             }
           ],
           "required_tempers": []
@@ -958,6 +970,10 @@
             },
             {
               "name": "auric",
+              "weight": 3
+            },
+            {
+              "name": "sanctification",
               "weight": 3
             }
           ],
@@ -1029,6 +1045,10 @@
             },
             {
               "name": "vigor",
+              "weight": 3
+            },
+            {
+              "name": "sanctification",
               "weight": 3
             }
           ],
