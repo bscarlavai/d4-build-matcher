@@ -6,7 +6,7 @@
   "source_url": "https://maxroll.gg/d4/build-guides/evade-spiritborn-build-guide",
   "tier": "S",
   "tags": [],
-  "last_updated": "2026-01-08",
+  "last_updated": "2026-01-09",
   "profile_order": [
     "starter",
     "ancestral",
@@ -964,12 +964,8 @@
               "weight": 6
             },
             {
-              "name": "the_focused",
-              "weight": 4
-            },
-            {
               "name": "unique_healingpercent_verybig",
-              "weight": 3
+              "weight": 4
             },
             {
               "name": "unique_generic_luckyhit_heallife",
@@ -1058,7 +1054,7 @@
               "weight": 3
             },
             {
-              "name": "sanctification_skillrankbonus_allskills",
+              "name": "sanctification",
               "weight": 3
             }
           ],
@@ -1237,11 +1233,11 @@
           "priority_aspects": [],
           "priority_affixes": [
             {
-              "name": "swiftness",
+              "name": "the_adroit",
               "weight": 10
             },
             {
-              "name": "the_adroit",
+              "name": "swiftness",
               "weight": 8
             },
             {
