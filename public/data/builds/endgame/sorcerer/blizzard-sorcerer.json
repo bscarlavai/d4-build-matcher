@@ -6,7 +6,7 @@
   "source_url": "https://maxroll.gg/d4/build-guides/blizzard-sorcerer-guide",
   "tier": "A",
   "tags": [],
-  "last_updated": "2026-01-09",
+  "last_updated": "2026-01-10",
   "profile_order": [
     "starter",
     "ancestral",
@@ -833,6 +833,10 @@
           "priority_aspects": [],
           "priority_affixes": [
             {
+              "name": "the_focused",
+              "weight": 3
+            },
+            {
               "name": "carnage",
               "weight": 10
             },
@@ -913,6 +917,10 @@
             {
               "name": "vigor",
               "weight": 3
+            },
+            {
+              "name": "the_focused",
+              "weight": 3
             }
           ],
           "required_tempers": []
@@ -938,6 +946,10 @@
             },
             {
               "name": "unique_generic_luckyhit_heallife",
+              "weight": 3
+            },
+            {
+              "name": "sanctification",
               "weight": 3
             }
           ],
@@ -984,6 +996,10 @@
           "priority_aspects": [],
           "priority_affixes": [
             {
+              "name": "the_focused",
+              "weight": 3
+            },
+            {
               "name": "unique_sorc_special_icespikes_explodetwice",
               "weight": 10
             },
@@ -998,10 +1014,6 @@
             {
               "name": "unique_critchance_higher",
               "weight": 4
-            },
-            {
-              "name": "the_focused",
-              "weight": 3
             }
           ],
           "required_tempers": []
@@ -1053,6 +1065,10 @@
             },
             {
               "name": "vigor",
+              "weight": 3
+            },
+            {
+              "name": "sanctification",
               "weight": 3
             }
           ],
@@ -1452,7 +1468,7 @@
               "weight": 3
             },
             {
-              "name": "the_focused",
+              "name": "sanctification",
               "weight": 3
             }
           ],
@@ -1499,6 +1515,10 @@
           "priority_aspects": [],
           "priority_affixes": [
             {
+              "name": "the_focused",
+              "weight": 3
+            },
+            {
               "name": "unique_sorc_special_icespikes_explodetwice",
               "weight": 10
             },
@@ -1513,10 +1533,6 @@
             {
               "name": "unique_critchance_higher",
               "weight": 4
-            },
-            {
-              "name": "the_focused",
-              "weight": 3
             }
           ],
           "required_tempers": []
@@ -1568,6 +1584,10 @@
             },
             {
               "name": "vigor",
+              "weight": 3
+            },
+            {
+              "name": "sanctification",
               "weight": 3
             }
           ],

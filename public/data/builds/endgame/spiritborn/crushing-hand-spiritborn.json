@@ -6,7 +6,7 @@
   "source_url": "https://maxroll.gg/d4/build-guides/crushing-hand-spiritborn-guide",
   "tier": "A",
   "tags": [],
-  "last_updated": "2026-01-09",
+  "last_updated": "2026-01-10",
   "profile_order": [
     "starter",
     "ancestral",
@@ -947,7 +947,7 @@
             },
             {
               "name": "efficiency",
-              "weight": 6
+              "weight": 8
             },
             {
               "name": "vigor",
@@ -966,15 +966,15 @@
               "weight": 10
             },
             {
-              "name": "sparking",
+              "name": "resources",
               "weight": 8
             },
             {
-              "name": "surmounting",
+              "name": "sparking",
               "weight": 6
             },
             {
-              "name": "resources",
+              "name": "surmounting",
               "weight": 4
             }
           ],
@@ -1113,12 +1113,26 @@
         },
         "ring": {
           "slot": "ring",
-          "priority_uniques": [],
+          "priority_uniques": [
+            "Ring of the Midnight Sun"
+          ],
           "priority_aspects": [],
           "priority_affixes": [
             {
               "name": "the_adroit",
               "weight": 10
+            },
+            {
+              "name": "swiftness",
+              "weight": 6
+            },
+            {
+              "name": "the_focused",
+              "weight": 4
+            },
+            {
+              "name": "unique_x1_passiverankbonus_spiritborn_talent_plains_2_mirage_higher",
+              "weight": 3
             },
             {
               "name": "keenness",
@@ -1130,10 +1144,6 @@
             },
             {
               "name": "efficiency",
-              "weight": 4
-            },
-            {
-              "name": "riving",
               "weight": 4
             }
           ],
@@ -1149,7 +1159,7 @@
               "weight": 10
             },
             {
-              "name": "efficiency",
+              "name": "resources",
               "weight": 8
             },
             {
@@ -1161,7 +1171,7 @@
               "weight": 4
             },
             {
-              "name": "resources",
+              "name": "efficiency",
               "weight": 3
             },
             {
