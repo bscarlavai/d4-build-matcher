@@ -6,7 +6,7 @@
   "source_url": "https://maxroll.gg/d4/build-guides/blizzard-sorcerer-guide",
   "tier": "A",
   "tags": [],
-  "last_updated": "2026-01-10",
+  "last_updated": "2026-01-11",
   "profile_order": [
     "starter",
     "ancestral",
@@ -981,7 +981,7 @@
               "weight": 3
             },
             {
-              "name": "the_focused",
+              "name": "sanctification",
               "weight": 3
             }
           ],
@@ -995,10 +995,6 @@
           ],
           "priority_aspects": [],
           "priority_affixes": [
-            {
-              "name": "the_focused",
-              "weight": 3
-            },
             {
               "name": "unique_sorc_special_icespikes_explodetwice",
               "weight": 10
@@ -1014,6 +1010,10 @@
             {
               "name": "unique_critchance_higher",
               "weight": 4
+            },
+            {
+              "name": "the_focused",
+              "weight": 3
             }
           ],
           "required_tempers": []
@@ -1430,8 +1430,12 @@
               "weight": 6
             },
             {
-              "name": "cruelty",
+              "name": "vigor",
               "weight": 4
+            },
+            {
+              "name": "cruelty",
+              "weight": 3
             },
             {
               "name": "the_focused",
@@ -1515,10 +1519,6 @@
           "priority_aspects": [],
           "priority_affixes": [
             {
-              "name": "the_focused",
-              "weight": 3
-            },
-            {
               "name": "unique_sorc_special_icespikes_explodetwice",
               "weight": 10
             },
@@ -1533,6 +1533,10 @@
             {
               "name": "unique_critchance_higher",
               "weight": 4
+            },
+            {
+              "name": "the_focused",
+              "weight": 3
             }
           ],
           "required_tempers": []

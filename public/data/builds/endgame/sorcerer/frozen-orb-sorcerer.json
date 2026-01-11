@@ -6,7 +6,7 @@
   "source_url": "https://maxroll.gg/d4/build-guides/frozen-orb-sorcerer-guide",
   "tier": "A",
   "tags": [],
-  "last_updated": "2026-01-10",
+  "last_updated": "2026-01-11",
   "profile_order": [
     "starter",
     "ancestral",
@@ -933,7 +933,7 @@
               "weight": 3
             },
             {
-              "name": "the_focused",
+              "name": "sanctification",
               "weight": 3
             }
           ],
@@ -961,10 +961,6 @@
             },
             {
               "name": "unique_passiverankbonus_sorc_elemental_t1_n1_potentwarding",
-              "weight": 3
-            },
-            {
-              "name": "the_focused",
               "weight": 3
             }
           ],
@@ -1266,11 +1262,11 @@
               "weight": 8
             },
             {
-              "name": "ferocity",
+              "name": "swiftness",
               "weight": 6
             },
             {
-              "name": "swiftness",
+              "name": "vigor",
               "weight": 4
             }
           ],
@@ -1320,15 +1316,15 @@
               "weight": 6
             },
             {
-              "name": "cruelty",
+              "name": "vigor",
               "weight": 4
             },
             {
-              "name": "the_focused",
+              "name": "cruelty",
               "weight": 3
             },
             {
-              "name": "vigor",
+              "name": "the_focused",
               "weight": 3
             },
             {
@@ -1424,10 +1420,6 @@
             },
             {
               "name": "unique_passiverankbonus_sorc_elemental_t1_n1_potentwarding",
-              "weight": 3
-            },
-            {
-              "name": "the_focused",
               "weight": 3
             }
           ],

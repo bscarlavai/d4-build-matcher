@@ -6,7 +6,7 @@
   "source_url": "https://maxroll.gg/d4/build-guides/shield-charge-paladin-guide",
   "tier": "A",
   "tags": [],
-  "last_updated": "2026-01-10",
+  "last_updated": "2026-01-11",
   "profile_order": [
     "starter",
     "ancestral",
@@ -136,15 +136,15 @@
           "priority_aspects": [],
           "priority_affixes": [
             {
-              "name": "speed",
+              "name": "infusing",
               "weight": 10
             },
             {
-              "name": "the_powerful",
+              "name": "vigor",
               "weight": 8
             },
             {
-              "name": "vigor",
+              "name": "speed",
               "weight": 6
             }
           ],
@@ -224,11 +224,23 @@
         "chest": {
           "slot": "chest",
           "priority_uniques": [
-            "Razorplate",
+            "Mantle of the Grey",
             "Herald of Zakarum"
           ],
           "priority_aspects": [],
           "priority_affixes": [
+            {
+              "name": "unique_lifeflat_higherhigher",
+              "weight": 6
+            },
+            {
+              "name": "unique_skillrankbonus_paladin_juggernaut",
+              "weight": 4
+            },
+            {
+              "name": "reckless_magic",
+              "weight": 3
+            },
             {
               "name": "unique_double_damage_skill_pal_retribution",
               "weight": 8
@@ -328,7 +340,7 @@
           "priority_aspects": [],
           "priority_affixes": [
             {
-              "name": "remedies",
+              "name": "infusing",
               "weight": 10
             },
             {
@@ -431,11 +443,23 @@
         "chest": {
           "slot": "chest",
           "priority_uniques": [
-            "Shroud of False Death",
+            "Mantle of the Grey",
             "Herald of Zakarum"
           ],
           "priority_aspects": [],
           "priority_affixes": [
+            {
+              "name": "unique_lifeflat_higherhigher",
+              "weight": 6
+            },
+            {
+              "name": "unique_skillrankbonus_paladin_juggernaut",
+              "weight": 4
+            },
+            {
+              "name": "reckless_magic",
+              "weight": 3
+            },
             {
               "name": "unique_double_damage_skill_pal_retribution",
               "weight": 8
@@ -535,7 +559,7 @@
           "priority_aspects": [],
           "priority_affixes": [
             {
-              "name": "remedies",
+              "name": "infusing",
               "weight": 10
             },
             {
@@ -641,11 +665,23 @@
         "chest": {
           "slot": "chest",
           "priority_uniques": [
-            "Shroud of False Death",
+            "Mantle of the Grey",
             "Herald of Zakarum"
           ],
           "priority_aspects": [],
           "priority_affixes": [
+            {
+              "name": "unique_lifeflat_higherhigher",
+              "weight": 6
+            },
+            {
+              "name": "unique_skillrankbonus_paladin_juggernaut",
+              "weight": 4
+            },
+            {
+              "name": "reckless_magic",
+              "weight": 3
+            },
             {
               "name": "unique_double_damage_skill_pal_retribution",
               "weight": 8
@@ -693,7 +729,7 @@
               "weight": 3
             },
             {
-              "name": "the_adroit",
+              "name": "swiftness",
               "weight": 3
             }
           ],
@@ -761,7 +797,7 @@
           "priority_aspects": [],
           "priority_affixes": [
             {
-              "name": "remedies",
+              "name": "infusing",
               "weight": 10
             },
             {
@@ -866,11 +902,23 @@
         "chest": {
           "slot": "chest",
           "priority_uniques": [
-            "Shroud of False Death",
+            "Mantle of the Grey",
             "Herald of Zakarum"
           ],
           "priority_aspects": [],
           "priority_affixes": [
+            {
+              "name": "unique_lifeflat_higherhigher",
+              "weight": 6
+            },
+            {
+              "name": "unique_skillrankbonus_paladin_juggernaut",
+              "weight": 4
+            },
+            {
+              "name": "reckless_magic",
+              "weight": 3
+            },
             {
               "name": "unique_double_damage_skill_pal_retribution",
               "weight": 8
@@ -970,7 +1018,7 @@
           "priority_aspects": [],
           "priority_affixes": [
             {
-              "name": "remedies",
+              "name": "infusing",
               "weight": 10
             },
             {

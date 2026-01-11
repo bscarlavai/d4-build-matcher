@@ -6,7 +6,7 @@
   "source_url": "https://maxroll.gg/d4/build-guides/ice-shards-sorcerer-guide",
   "tier": "B",
   "tags": [],
-  "last_updated": "2026-01-10",
+  "last_updated": "2026-01-11",
   "profile_order": [
     "starter",
     "ancestral",
@@ -961,8 +961,12 @@
               "weight": 6
             },
             {
-              "name": "the_focused",
+              "name": "vigor",
               "weight": 4
+            },
+            {
+              "name": "the_focused",
+              "weight": 3
             },
             {
               "name": "cruelty",
@@ -970,10 +974,6 @@
             },
             {
               "name": "swiftness",
-              "weight": 3
-            },
-            {
-              "name": "vigor",
               "weight": 3
             },
             {
@@ -1037,7 +1037,7 @@
               "weight": 3
             },
             {
-              "name": "the_focused",
+              "name": "sanctification",
               "weight": 3
             }
           ],
@@ -1266,8 +1266,12 @@
               "weight": 6
             },
             {
-              "name": "the_focused",
+              "name": "vigor",
               "weight": 4
+            },
+            {
+              "name": "the_focused",
+              "weight": 3
             },
             {
               "name": "cruelty",
@@ -1275,10 +1279,6 @@
             },
             {
               "name": "swiftness",
-              "weight": 3
-            },
-            {
-              "name": "vigor",
               "weight": 3
             },
             {
@@ -1493,11 +1493,11 @@
               "weight": 6
             },
             {
-              "name": "ferocity",
+              "name": "vigor",
               "weight": 4
             },
             {
-              "name": "vigor",
+              "name": "ferocity",
               "weight": 3
             },
             {
@@ -1551,8 +1551,12 @@
               "weight": 6
             },
             {
-              "name": "the_focused",
+              "name": "vigor",
               "weight": 4
+            },
+            {
+              "name": "the_focused",
+              "weight": 3
             },
             {
               "name": "cruelty",
@@ -1560,10 +1564,6 @@
             },
             {
               "name": "swiftness",
-              "weight": 3
-            },
-            {
-              "name": "vigor",
               "weight": 3
             },
             {
@@ -1653,11 +1653,11 @@
               "weight": 6
             },
             {
-              "name": "ferocity",
+              "name": "vigor",
               "weight": 4
             },
             {
-              "name": "vigor",
+              "name": "ferocity",
               "weight": 3
             },
             {
