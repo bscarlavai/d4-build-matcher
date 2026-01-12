@@ -6,7 +6,7 @@
   "source_url": "https://maxroll.gg/d4/build-guides/lunging-strike-barbarian-guide",
   "tier": "S",
   "tags": [],
-  "last_updated": "2026-01-11",
+  "last_updated": "2026-01-12",
   "profile_order": [
     "mythic",
     "start",
@@ -1017,7 +1017,6 @@
         "weapon": {
           "slot": "weapon",
           "priority_uniques": [
-            "The Grandfather",
             "Shard of Verathiel"
           ],
           "priority_aspects": [],
@@ -1123,27 +1122,25 @@
         },
         "pants": {
           "slot": "pants",
-          "priority_uniques": [],
+          "priority_uniques": [
+            "Tibault's Will"
+          ],
           "priority_aspects": [],
           "priority_affixes": [
             {
-              "name": "the_powerful",
-              "weight": 10
-            },
-            {
-              "name": "vigor",
+              "name": "harmony",
               "weight": 8
             },
             {
-              "name": "thrusting",
+              "name": "the_adept",
               "weight": 6
             },
             {
-              "name": "carrying",
+              "name": "resources",
               "weight": 4
             },
             {
-              "name": "the_skillful",
+              "name": "keenness",
               "weight": 3
             }
           ],

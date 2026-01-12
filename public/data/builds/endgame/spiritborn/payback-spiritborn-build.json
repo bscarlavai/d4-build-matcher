@@ -6,7 +6,7 @@
   "source_url": "https://maxroll.gg/d4/build-guides/payback-spiritborn-build-guide",
   "tier": "B",
   "tags": [],
-  "last_updated": "2026-01-11",
+  "last_updated": "2026-01-12",
   "profile_order": [
     "starter",
     "ancestral",
@@ -319,8 +319,7 @@
         "ring": {
           "slot": "ring",
           "priority_uniques": [
-            "Ring of the Midnight Sun",
-            "Ring of the Midday Hunt"
+            "Ring of the Midnight Sun"
           ],
           "priority_aspects": [],
           "priority_affixes": [
@@ -341,20 +340,16 @@
               "weight": 3
             },
             {
-              "name": "unique_movement_speed_generic_afteranykill",
-              "weight": 8
+              "name": "keenness",
+              "weight": 10
             },
             {
-              "name": "unique_lifeonkill",
+              "name": "demolition",
               "weight": 6
             },
             {
-              "name": "unique_attackspeed_higher",
+              "name": "vigor",
               "weight": 4
-            },
-            {
-              "name": "unique_x1_passiverankbonus_spiritborn_talent_soil_2_nourishment_higher",
-              "weight": 3
             }
           ],
           "required_tempers": []
@@ -502,8 +497,7 @@
         "ring": {
           "slot": "ring",
           "priority_uniques": [
-            "Ring of the Midnight Sun",
-            "Ring of the Midday Hunt"
+            "Ring of the Midnight Sun"
           ],
           "priority_aspects": [],
           "priority_affixes": [
@@ -524,20 +518,16 @@
               "weight": 3
             },
             {
-              "name": "unique_movement_speed_generic_afteranykill",
-              "weight": 8
+              "name": "keenness",
+              "weight": 10
             },
             {
-              "name": "unique_lifeonkill",
+              "name": "demolition",
               "weight": 6
             },
             {
-              "name": "unique_attackspeed_higher",
+              "name": "vigor",
               "weight": 4
-            },
-            {
-              "name": "unique_x1_passiverankbonus_spiritborn_talent_soil_2_nourishment_higher",
-              "weight": 3
             }
           ],
           "required_tempers": []
@@ -593,6 +583,10 @@
             {
               "name": "unique_passiverankbonus_spiritborn_velocity_higher",
               "weight": 3
+            },
+            {
+              "name": "resources",
+              "weight": 3
             }
           ],
           "required_tempers": []
@@ -603,7 +597,12 @@
             "Shroud of False Death"
           ],
           "priority_aspects": [],
-          "priority_affixes": [],
+          "priority_affixes": [
+            {
+              "name": "resources",
+              "weight": 3
+            }
+          ],
           "required_tempers": []
         },
         "gloves": {
@@ -654,6 +653,10 @@
             {
               "name": "keenness",
               "weight": 3
+            },
+            {
+              "name": "sanctification",
+              "weight": 3
             }
           ],
           "required_tempers": []
@@ -678,6 +681,10 @@
             {
               "name": "auric",
               "weight": 4
+            },
+            {
+              "name": "sanctification",
+              "weight": 3
             }
           ],
           "required_tempers": []
@@ -685,8 +692,7 @@
         "ring": {
           "slot": "ring",
           "priority_uniques": [
-            "Ring of the Midnight Sun",
-            "Ring of the Midday Hunt"
+            "Ring of the Midnight Sun"
           ],
           "priority_aspects": [],
           "priority_affixes": [
@@ -707,20 +713,16 @@
               "weight": 3
             },
             {
-              "name": "unique_movement_speed_generic_afteranykill",
-              "weight": 8
+              "name": "keenness",
+              "weight": 10
             },
             {
-              "name": "unique_lifeonkill",
+              "name": "demolition",
               "weight": 6
             },
             {
-              "name": "unique_attackspeed_higher",
+              "name": "vigor",
               "weight": 4
-            },
-            {
-              "name": "unique_x1_passiverankbonus_spiritborn_talent_soil_2_nourishment_higher",
-              "weight": 3
             }
           ],
           "required_tempers": []
@@ -776,6 +778,10 @@
             {
               "name": "unique_passiverankbonus_spiritborn_velocity_higher",
               "weight": 3
+            },
+            {
+              "name": "resources",
+              "weight": 3
             }
           ],
           "required_tempers": []
@@ -786,7 +792,12 @@
             "Shroud of False Death"
           ],
           "priority_aspects": [],
-          "priority_affixes": [],
+          "priority_affixes": [
+            {
+              "name": "resources",
+              "weight": 3
+            }
+          ],
           "required_tempers": []
         },
         "gloves": {
@@ -837,6 +848,10 @@
             {
               "name": "keenness",
               "weight": 3
+            },
+            {
+              "name": "sanctification",
+              "weight": 3
             }
           ],
           "required_tempers": []
@@ -861,6 +876,10 @@
             {
               "name": "auric",
               "weight": 4
+            },
+            {
+              "name": "sanctification",
+              "weight": 3
             }
           ],
           "required_tempers": []
@@ -868,8 +887,7 @@
         "ring": {
           "slot": "ring",
           "priority_uniques": [
-            "Ring of the Midnight Sun",
-            "Ring of the Midday Hunt"
+            "Ring of the Midnight Sun"
           ],
           "priority_aspects": [],
           "priority_affixes": [
@@ -890,20 +908,16 @@
               "weight": 3
             },
             {
-              "name": "unique_movement_speed_generic_afteranykill",
-              "weight": 8
+              "name": "keenness",
+              "weight": 10
             },
             {
-              "name": "unique_lifeonkill",
+              "name": "demolition",
               "weight": 6
             },
             {
-              "name": "unique_attackspeed_higher",
+              "name": "vigor",
               "weight": 4
-            },
-            {
-              "name": "unique_x1_passiverankbonus_spiritborn_talent_soil_2_nourishment_higher",
-              "weight": 3
             }
           ],
           "required_tempers": []
