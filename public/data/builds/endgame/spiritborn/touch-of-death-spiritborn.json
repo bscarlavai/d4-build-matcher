@@ -6,7 +6,7 @@
   "source_url": "https://maxroll.gg/d4/build-guides/touch-of-death-spiritborn-guide",
   "tier": "B",
   "tags": [],
-  "last_updated": "2026-01-12",
+  "last_updated": "2026-01-13",
   "profile_order": [
     "starter",
     "ancestral",
@@ -586,7 +586,7 @@
               "weight": 3
             },
             {
-              "name": "the_focused",
+              "name": "potency",
               "weight": 3
             }
           ],
@@ -654,6 +654,10 @@
             {
               "name": "keenness",
               "weight": 3
+            },
+            {
+              "name": "sanctification",
+              "weight": 3
             }
           ],
           "required_tempers": []
@@ -680,7 +684,7 @@
               "weight": 4
             },
             {
-              "name": "the_focused",
+              "name": "sanctification",
               "weight": 3
             }
           ],
@@ -716,10 +720,6 @@
             {
               "name": "vigor",
               "weight": 6
-            },
-            {
-              "name": "efficiency",
-              "weight": 4
             }
           ],
           "required_tempers": []
@@ -742,7 +742,7 @@
               "weight": 6
             },
             {
-              "name": "efficiency",
+              "name": "surmounting",
               "weight": 4
             }
           ],
@@ -777,7 +777,7 @@
               "weight": 3
             },
             {
-              "name": "the_focused",
+              "name": "potency",
               "weight": 3
             }
           ],
@@ -845,6 +845,10 @@
             {
               "name": "keenness",
               "weight": 3
+            },
+            {
+              "name": "sanctification",
+              "weight": 3
             }
           ],
           "required_tempers": []
@@ -871,7 +875,7 @@
               "weight": 4
             },
             {
-              "name": "the_focused",
+              "name": "sanctification",
               "weight": 3
             }
           ],
@@ -907,10 +911,6 @@
             {
               "name": "vigor",
               "weight": 6
-            },
-            {
-              "name": "efficiency",
-              "weight": 4
             }
           ],
           "required_tempers": []
@@ -933,7 +933,7 @@
               "weight": 6
             },
             {
-              "name": "efficiency",
+              "name": "surmounting",
               "weight": 4
             }
           ],

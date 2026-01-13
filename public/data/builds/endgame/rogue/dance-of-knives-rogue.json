@@ -6,7 +6,7 @@
   "source_url": "https://maxroll.gg/d4/build-guides/dance-of-knives-rogue-guide",
   "tier": "A",
   "tags": [],
-  "last_updated": "2026-01-12",
+  "last_updated": "2026-01-13",
   "profile_order": [
     "starter",
     "ancestral",
@@ -660,7 +660,12 @@
             "Heir of Perdition"
           ],
           "priority_aspects": [],
-          "priority_affixes": [],
+          "priority_affixes": [
+            {
+              "name": "subtlety",
+              "weight": 3
+            }
+          ],
           "required_tempers": []
         },
         "chest": {
@@ -733,6 +738,10 @@
             {
               "name": "ferocity",
               "weight": 4
+            },
+            {
+              "name": "sanctification",
+              "weight": 3
             }
           ],
           "required_tempers": []
@@ -758,6 +767,10 @@
             },
             {
               "name": "neutralizing",
+              "weight": 3
+            },
+            {
+              "name": "sanctification",
               "weight": 3
             }
           ],
@@ -835,6 +848,10 @@
             {
               "name": "swiftness",
               "weight": 4
+            },
+            {
+              "name": "sanctification",
+              "weight": 3
             }
           ],
           "required_tempers": []
@@ -863,6 +880,10 @@
             {
               "name": "the_adept",
               "weight": 3
+            },
+            {
+              "name": "sanctification",
+              "weight": 3
             }
           ],
           "required_tempers": []
@@ -878,7 +899,12 @@
             "Heir of Perdition"
           ],
           "priority_aspects": [],
-          "priority_affixes": [],
+          "priority_affixes": [
+            {
+              "name": "sanctification",
+              "weight": 3
+            }
+          ],
           "required_tempers": []
         },
         "chest": {
@@ -927,6 +953,10 @@
             {
               "name": "ferocity",
               "weight": 4
+            },
+            {
+              "name": "sanctification",
+              "weight": 3
             }
           ],
           "required_tempers": []
@@ -951,6 +981,10 @@
             {
               "name": "ferocity",
               "weight": 4
+            },
+            {
+              "name": "the_focused",
+              "weight": 3
             }
           ],
           "required_tempers": []
@@ -1025,6 +1059,10 @@
             {
               "name": "speed",
               "weight": 4
+            },
+            {
+              "name": "subtlety",
+              "weight": 3
             }
           ],
           "required_tempers": []
@@ -1051,6 +1089,10 @@
             {
               "name": "the_adept",
               "weight": 4
+            },
+            {
+              "name": "sanctification",
+              "weight": 3
             }
           ],
           "required_tempers": []

@@ -6,7 +6,7 @@
   "source_url": "https://maxroll.gg/d4/build-guides/thorns-spiritborn-build-guide",
   "tier": "A",
   "tags": [],
-  "last_updated": "2026-01-12",
+  "last_updated": "2026-01-13",
   "profile_order": [
     "starter",
     "ancestral",
@@ -601,6 +601,10 @@
             {
               "name": "keenness",
               "weight": 3
+            },
+            {
+              "name": "sanctification",
+              "weight": 3
             }
           ],
           "required_tempers": []
@@ -625,6 +629,10 @@
             {
               "name": "toughened",
               "weight": 4
+            },
+            {
+              "name": "sanctification",
+              "weight": 3
             }
           ],
           "required_tempers": []
@@ -639,7 +647,7 @@
               "weight": 10
             },
             {
-              "name": "ferocity",
+              "name": "keenness",
               "weight": 8
             },
             {
@@ -649,10 +657,6 @@
             {
               "name": "demolition",
               "weight": 4
-            },
-            {
-              "name": "keenness",
-              "weight": 10
             },
             {
               "name": "auric",
@@ -775,6 +779,10 @@
             {
               "name": "keenness",
               "weight": 3
+            },
+            {
+              "name": "sanctification",
+              "weight": 3
             }
           ],
           "required_tempers": []
@@ -799,6 +807,10 @@
             {
               "name": "toughened",
               "weight": 4
+            },
+            {
+              "name": "sanctification",
+              "weight": 3
             }
           ],
           "required_tempers": []
@@ -813,7 +825,7 @@
               "weight": 10
             },
             {
-              "name": "ferocity",
+              "name": "keenness",
               "weight": 8
             },
             {
@@ -823,10 +835,6 @@
             {
               "name": "demolition",
               "weight": 4
-            },
-            {
-              "name": "keenness",
-              "weight": 10
             },
             {
               "name": "auric",

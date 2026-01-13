@@ -6,7 +6,7 @@
   "source_url": "https://maxroll.gg/d4/build-guides/judgement-paladin-guide",
   "tier": "S",
   "tags": [],
-  "last_updated": "2026-01-12",
+  "last_updated": "2026-01-13",
   "profile_order": [
     "starter",
     "ancestral",
@@ -1158,7 +1158,7 @@
               "weight": 8
             },
             {
-              "name": "toughened",
+              "name": "vigor",
               "weight": 6
             },
             {
@@ -1252,11 +1252,11 @@
               "weight": 10
             },
             {
-              "name": "offense",
+              "name": "cracking",
               "weight": 8
             },
             {
-              "name": "heartiness",
+              "name": "fortitude",
               "weight": 6
             },
             {
@@ -1264,7 +1264,11 @@
               "weight": 4
             },
             {
-              "name": "cracking",
+              "name": "offense",
+              "weight": 3
+            },
+            {
+              "name": "heartiness",
               "weight": 3
             },
             {

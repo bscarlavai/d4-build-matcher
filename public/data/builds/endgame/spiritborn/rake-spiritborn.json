@@ -6,7 +6,7 @@
   "source_url": "https://maxroll.gg/d4/build-guides/rake-spiritborn-guide",
   "tier": "A",
   "tags": [],
-  "last_updated": "2026-01-12",
+  "last_updated": "2026-01-13",
   "profile_order": [
     "starter",
     "ancestral",
@@ -815,7 +815,12 @@
             "Heir of Perdition"
           ],
           "priority_aspects": [],
-          "priority_affixes": [],
+          "priority_affixes": [
+            {
+              "name": "the_adroit",
+              "weight": 3
+            }
+          ],
           "required_tempers": []
         },
         "chest": {
@@ -824,7 +829,12 @@
             "Shroud of False Death"
           ],
           "priority_aspects": [],
-          "priority_affixes": [],
+          "priority_affixes": [
+            {
+              "name": "sanctification",
+              "weight": 3
+            }
+          ],
           "required_tempers": []
         },
         "gloves": {
@@ -906,6 +916,10 @@
             },
             {
               "name": "infusing",
+              "weight": 3
+            },
+            {
+              "name": "sanctification",
               "weight": 3
             }
           ],

@@ -6,7 +6,7 @@
   "source_url": "https://maxroll.gg/d4/build-guides/flurry-rogue-guide",
   "tier": "S",
   "tags": [],
-  "last_updated": "2026-01-12",
+  "last_updated": "2026-01-13",
   "profile_order": [
     "starter",
     "ancestral",
@@ -693,7 +693,7 @@
               "weight": 3
             },
             {
-              "name": "the_adroit",
+              "name": "sanctification",
               "weight": 3
             }
           ],
@@ -705,7 +705,12 @@
             "Shroud of False Death"
           ],
           "priority_aspects": [],
-          "priority_affixes": [],
+          "priority_affixes": [
+            {
+              "name": "the_adroit",
+              "weight": 3
+            }
+          ],
           "required_tempers": []
         },
         "offhand": {
@@ -781,10 +786,6 @@
             },
             {
               "name": "unique_damage_generic_tag_ultimate_higher",
-              "weight": 3
-            },
-            {
-              "name": "sanctification",
               "weight": 3
             }
           ],

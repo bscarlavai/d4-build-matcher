@@ -6,7 +6,7 @@
   "source_url": "https://maxroll.gg/d4/build-guides/blood-surge-necromancer-guide",
   "tier": "C",
   "tags": [],
-  "last_updated": "2026-01-12",
+  "last_updated": "2026-01-13",
   "profile_order": [
     "starter",
     "ancestral",
@@ -815,7 +815,7 @@
               "weight": 3
             },
             {
-              "name": "the_focused",
+              "name": "sanctification",
               "weight": 3
             }
           ],
@@ -848,10 +848,6 @@
             },
             {
               "name": "auric",
-              "weight": 3
-            },
-            {
-              "name": "the_focused",
               "weight": 3
             }
           ],
@@ -890,10 +886,6 @@
             },
             {
               "name": "auric",
-              "weight": 3
-            },
-            {
-              "name": "sanctification",
               "weight": 3
             }
           ],
@@ -1230,7 +1222,7 @@
               "weight": 3
             },
             {
-              "name": "the_focused",
+              "name": "sanctification",
               "weight": 3
             }
           ],
@@ -1293,10 +1285,6 @@
             },
             {
               "name": "auric",
-              "weight": 3
-            },
-            {
-              "name": "sanctification",
               "weight": 3
             }
           ],

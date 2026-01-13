@@ -6,7 +6,7 @@
   "source_url": "https://maxroll.gg/d4/build-guides/minion-necromancer-guide",
   "tier": "A",
   "tags": [],
-  "last_updated": "2026-01-12",
+  "last_updated": "2026-01-13",
   "profile_order": [
     "starter",
     "ancestral",
@@ -444,7 +444,24 @@
             "Shroud of False Death"
           ],
           "priority_aspects": [],
-          "priority_affixes": [],
+          "priority_affixes": [
+            {
+              "name": "the_wise",
+              "weight": 10
+            },
+            {
+              "name": "vigor",
+              "weight": 8
+            },
+            {
+              "name": "swiftness",
+              "weight": 6
+            },
+            {
+              "name": "sturdiness",
+              "weight": 4
+            }
+          ],
           "required_tempers": []
         },
         "weapon": {
@@ -483,11 +500,11 @@
               "weight": 10
             },
             {
-              "name": "unique_damage_necro_pet_skeletonmage",
+              "name": "unique_attackspeed_higher",
               "weight": 8
             },
             {
-              "name": "unique_attackspeed_higher",
+              "name": "unique_damage_necro_pet_skeletonmage",
               "weight": 6
             },
             {
@@ -541,7 +558,7 @@
               "weight": 6
             },
             {
-              "name": "toughened",
+              "name": "infusing",
               "weight": 4
             }
           ],
@@ -549,9 +566,7 @@
         },
         "ring": {
           "slot": "ring",
-          "priority_uniques": [
-            "Ring of Mendeln"
-          ],
+          "priority_uniques": [],
           "priority_aspects": [],
           "priority_affixes": [
             {
@@ -563,24 +578,12 @@
               "weight": 8
             },
             {
-              "name": "the_adept",
-              "weight": 6
-            },
-            {
               "name": "swiftness",
-              "weight": 4
-            },
-            {
-              "name": "unique_passiverankbonus_necro_allminionmastery",
-              "weight": 10
-            },
-            {
-              "name": "unique_attackspeed_necro_pet",
-              "weight": 8
-            },
-            {
-              "name": "unique_damage_all",
               "weight": 6
+            },
+            {
+              "name": "keenness",
+              "weight": 4
             }
           ],
           "required_tempers": []
@@ -595,15 +598,15 @@
               "weight": 10
             },
             {
-              "name": "coalescence",
+              "name": "gloom",
               "weight": 8
             },
             {
-              "name": "gloom",
+              "name": "engulfing",
               "weight": 6
             },
             {
-              "name": "keenness",
+              "name": "the_wise",
               "weight": 4
             }
           ],
@@ -620,12 +623,7 @@
             "Heir of Perdition"
           ],
           "priority_aspects": [],
-          "priority_affixes": [
-            {
-              "name": "the_focused",
-              "weight": 3
-            }
-          ],
+          "priority_affixes": [],
           "required_tempers": []
         },
         "chest": {
@@ -638,6 +636,22 @@
             {
               "name": "the_focused",
               "weight": 3
+            },
+            {
+              "name": "the_wise",
+              "weight": 10
+            },
+            {
+              "name": "vigor",
+              "weight": 8
+            },
+            {
+              "name": "swiftness",
+              "weight": 6
+            },
+            {
+              "name": "sturdiness",
+              "weight": 4
             }
           ],
           "required_tempers": []
@@ -678,11 +692,11 @@
               "weight": 10
             },
             {
-              "name": "unique_damage_necro_pet_skeletonmage",
+              "name": "unique_attackspeed_higher",
               "weight": 8
             },
             {
-              "name": "unique_attackspeed_higher",
+              "name": "unique_damage_necro_pet_skeletonmage",
               "weight": 6
             },
             {
@@ -716,7 +730,7 @@
               "weight": 4
             },
             {
-              "name": "the_focused",
+              "name": "sanctification",
               "weight": 3
             }
           ],
@@ -740,17 +754,19 @@
               "weight": 6
             },
             {
-              "name": "toughened",
+              "name": "infusing",
               "weight": 4
+            },
+            {
+              "name": "sanctification",
+              "weight": 3
             }
           ],
           "required_tempers": []
         },
         "ring": {
           "slot": "ring",
-          "priority_uniques": [
-            "Ring of Mendeln"
-          ],
+          "priority_uniques": [],
           "priority_aspects": [],
           "priority_affixes": [
             {
@@ -762,24 +778,12 @@
               "weight": 8
             },
             {
-              "name": "the_adept",
+              "name": "keenness",
               "weight": 6
             },
             {
               "name": "swiftness",
               "weight": 4
-            },
-            {
-              "name": "unique_passiverankbonus_necro_allminionmastery",
-              "weight": 10
-            },
-            {
-              "name": "unique_attackspeed_necro_pet",
-              "weight": 8
-            },
-            {
-              "name": "unique_damage_all",
-              "weight": 6
             }
           ],
           "required_tempers": []
@@ -794,15 +798,15 @@
               "weight": 10
             },
             {
-              "name": "coalescence",
+              "name": "gloom",
               "weight": 8
             },
             {
-              "name": "tormenting",
+              "name": "engulfing",
               "weight": 6
             },
             {
-              "name": "keenness",
+              "name": "the_wise",
               "weight": 4
             }
           ],

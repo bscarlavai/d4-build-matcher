@@ -6,7 +6,7 @@
   "source_url": "https://maxroll.gg/d4/build-guides/heartseeker-rogue-specialized-guide",
   "tier": "S",
   "tags": [],
-  "last_updated": "2026-01-12",
+  "last_updated": "2026-01-13",
   "profile_order": [
     "starter",
     "ancestral",
@@ -680,12 +680,32 @@
         "helm": {
           "slot": "helm",
           "priority_uniques": [
-            "Harlequin Crest"
+            "Crown of Lucion"
           ],
           "priority_aspects": [],
           "priority_affixes": [
             {
-              "name": "sanctification",
+              "name": "bsk_generic_002",
+              "weight": 10
+            },
+            {
+              "name": "vigor",
+              "weight": 8
+            },
+            {
+              "name": "swiftness",
+              "weight": 6
+            },
+            {
+              "name": "luck",
+              "weight": 4
+            },
+            {
+              "name": "sanctity",
+              "weight": 3
+            },
+            {
+              "name": "the_adroit",
               "weight": 3
             }
           ],
@@ -697,7 +717,12 @@
             "Shroud of False Death"
           ],
           "priority_aspects": [],
-          "priority_affixes": [],
+          "priority_affixes": [
+            {
+              "name": "the_adroit",
+              "weight": 3
+            }
+          ],
           "required_tempers": []
         },
         "offhand": {
@@ -856,7 +881,9 @@
         },
         "ring": {
           "slot": "ring",
-          "priority_uniques": [],
+          "priority_uniques": [
+            "Ring of Starless Skies"
+          ],
           "priority_aspects": [],
           "priority_affixes": [
             {
@@ -868,16 +895,12 @@
               "weight": 8
             },
             {
-              "name": "swiftness",
+              "name": "vigor",
               "weight": 6
             },
             {
               "name": "the_adept",
               "weight": 4
-            },
-            {
-              "name": "vigor",
-              "weight": 6
             }
           ],
           "required_tempers": []

@@ -6,7 +6,7 @@
   "source_url": "https://maxroll.gg/d4/build-guides/brandish-paladin-guide",
   "tier": "S",
   "tags": [],
-  "last_updated": "2026-01-12",
+  "last_updated": "2026-01-13",
   "profile_order": [
     "starter",
     "ancestral",
@@ -455,20 +455,16 @@
               "weight": 10
             },
             {
-              "name": "keenness",
+              "name": "righteousness",
               "weight": 8
             },
             {
-              "name": "righteousness",
+              "name": "iron",
               "weight": 6
             },
             {
-              "name": "iron",
-              "weight": 4
-            },
-            {
               "name": "cracking",
-              "weight": 3
+              "weight": 4
             },
             {
               "name": "heartiness",
@@ -488,6 +484,10 @@
             },
             {
               "name": "swiftness",
+              "weight": 3
+            },
+            {
+              "name": "keenness",
               "weight": 3
             }
           ],
@@ -669,20 +669,16 @@
               "weight": 10
             },
             {
-              "name": "keenness",
+              "name": "righteousness",
               "weight": 8
             },
             {
-              "name": "righteousness",
+              "name": "iron",
               "weight": 6
             },
             {
-              "name": "iron",
-              "weight": 4
-            },
-            {
               "name": "cracking",
-              "weight": 3
+              "weight": 4
             },
             {
               "name": "heartiness",
@@ -702,6 +698,10 @@
             },
             {
               "name": "swiftness",
+              "weight": 3
+            },
+            {
+              "name": "keenness",
               "weight": 3
             }
           ],
@@ -748,10 +748,6 @@
             {
               "name": "vigor",
               "weight": 4
-            },
-            {
-              "name": "sanctification",
-              "weight": 3
             }
           ],
           "required_tempers": []
@@ -832,7 +828,7 @@
               "weight": 4
             },
             {
-              "name": "the_skillful",
+              "name": "sanctification",
               "weight": 3
             }
           ],
@@ -908,20 +904,16 @@
               "weight": 10
             },
             {
-              "name": "keenness",
+              "name": "righteousness",
               "weight": 8
             },
             {
-              "name": "righteousness",
+              "name": "iron",
               "weight": 6
             },
             {
-              "name": "iron",
-              "weight": 4
-            },
-            {
               "name": "cracking",
-              "weight": 3
+              "weight": 4
             },
             {
               "name": "heartiness",
@@ -941,6 +933,10 @@
             },
             {
               "name": "swiftness",
+              "weight": 3
+            },
+            {
+              "name": "keenness",
               "weight": 3
             }
           ],
@@ -1122,20 +1118,16 @@
               "weight": 10
             },
             {
-              "name": "keenness",
+              "name": "righteousness",
               "weight": 8
             },
             {
-              "name": "righteousness",
+              "name": "iron",
               "weight": 6
             },
             {
-              "name": "iron",
-              "weight": 4
-            },
-            {
               "name": "cracking",
-              "weight": 3
+              "weight": 4
             },
             {
               "name": "heartiness",
@@ -1155,6 +1147,10 @@
             },
             {
               "name": "swiftness",
+              "weight": 3
+            },
+            {
+              "name": "keenness",
               "weight": 3
             }
           ],
