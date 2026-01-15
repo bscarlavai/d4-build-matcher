@@ -6,7 +6,7 @@
   "source_url": "https://maxroll.gg/d4/build-guides/crackling-energy-sorcerer-guide",
   "tier": "S",
   "tags": [],
-  "last_updated": "2026-01-14",
+  "last_updated": "2026-01-15",
   "profile_order": [
     "starter",
     "ancestral",
@@ -960,10 +960,6 @@
           "priority_aspects": [],
           "priority_affixes": [
             {
-              "name": "sanctification_skillrankbonus_allskills",
-              "weight": 3
-            },
-            {
               "name": "reckless_magic",
               "weight": 8
             },
@@ -1417,10 +1413,6 @@
           ],
           "priority_aspects": [],
           "priority_affixes": [
-            {
-              "name": "sanctification_skillrankbonus_allskills",
-              "weight": 3
-            },
             {
               "name": "reckless_magic",
               "weight": 8
