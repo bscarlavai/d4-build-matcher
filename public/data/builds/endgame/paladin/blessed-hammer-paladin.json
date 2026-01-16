@@ -6,7 +6,7 @@
   "source_url": "https://maxroll.gg/d4/build-guides/blessed-hammer-paladin-guide",
   "tier": "S",
   "tags": [],
-  "last_updated": "2026-01-15",
+  "last_updated": "2026-01-16",
   "profile_order": [
     "starter",
     "ancestral",
@@ -104,7 +104,7 @@
           "priority_aspects": [],
           "priority_affixes": [
             {
-              "name": "ph_hammerthrowers",
+              "name": "hammerthrowing",
               "weight": 10
             },
             {
@@ -297,7 +297,7 @@
               "weight": 10
             },
             {
-              "name": "ph_hammerthrowers",
+              "name": "hammerthrowing",
               "weight": 6
             },
             {
@@ -325,7 +325,7 @@
               "weight": 8
             },
             {
-              "name": "ph_hammerthrowers",
+              "name": "hammerthrowing",
               "weight": 6
             },
             {
@@ -502,7 +502,7 @@
               "weight": 10
             },
             {
-              "name": "ph_hammerthrowers",
+              "name": "hammerthrowing",
               "weight": 6
             },
             {
@@ -530,7 +530,7 @@
               "weight": 8
             },
             {
-              "name": "ph_hammerthrowers",
+              "name": "hammerthrowing",
               "weight": 6
             },
             {
@@ -717,7 +717,7 @@
               "weight": 10
             },
             {
-              "name": "ph_hammerthrowers",
+              "name": "hammerthrowing",
               "weight": 6
             },
             {
@@ -745,7 +745,7 @@
               "weight": 8
             },
             {
-              "name": "ph_hammerthrowers",
+              "name": "hammerthrowing",
               "weight": 6
             },
             {
@@ -938,7 +938,7 @@
               "weight": 10
             },
             {
-              "name": "ph_hammerthrowers",
+              "name": "hammerthrowing",
               "weight": 6
             },
             {
@@ -966,7 +966,7 @@
               "weight": 8
             },
             {
-              "name": "ph_hammerthrowers",
+              "name": "hammerthrowing",
               "weight": 6
             },
             {
