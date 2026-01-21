@@ -6,7 +6,7 @@
   "source_url": "https://maxroll.gg/d4/build-guides/lunging-strike-barbarian-guide",
   "tier": "S",
   "tags": [],
-  "last_updated": "2026-01-20",
+  "last_updated": "2026-01-21",
   "profile_order": [
     "mythic",
     "start",
@@ -251,15 +251,15 @@
           "priority_aspects": [],
           "priority_affixes": [
             {
-              "name": "unique_passiverankbonus_barb_berserker_t4_n3_prolificfury",
+              "name": "unique_cdr_skill_barb_wrathoftheberserker",
               "weight": 8
             },
             {
-              "name": "unique_cdr_skill_barb_wrathoftheberserker",
+              "name": "walloping",
               "weight": 6
             },
             {
-              "name": "walloping",
+              "name": "unique_passiverankbonus_barb_berserker_t4_n3_prolificfury",
               "weight": 4
             },
             {
@@ -277,7 +277,7 @@
           "priority_aspects": [],
           "priority_affixes": [
             {
-              "name": "vigor",
+              "name": "steel",
               "weight": 8
             },
             {
@@ -289,7 +289,7 @@
               "weight": 4
             },
             {
-              "name": "steel",
+              "name": "vigor",
               "weight": 3
             }
           ],
@@ -327,11 +327,11 @@
               "weight": 10
             },
             {
-              "name": "harmony",
+              "name": "unique_skillrankbonus_generic_category_basic",
               "weight": 8
             },
             {
-              "name": "unique_skillrankbonus_generic_category_basic",
+              "name": "resources",
               "weight": 6
             },
             {
@@ -339,7 +339,7 @@
               "weight": 4
             },
             {
-              "name": "resources",
+              "name": "harmony",
               "weight": 3
             }
           ],
@@ -353,7 +353,7 @@
           "priority_aspects": [],
           "priority_affixes": [
             {
-              "name": "the_focused",
+              "name": "unique_resource_max_allclasses_higher",
               "weight": 8
             },
             {
@@ -361,7 +361,7 @@
               "weight": 6
             },
             {
-              "name": "unique_resource_max_allclasses_higher",
+              "name": "the_focused",
               "weight": 4
             },
             {
@@ -379,15 +379,15 @@
           "priority_aspects": [],
           "priority_affixes": [
             {
-              "name": "keenness",
+              "name": "unique_skillrankbonus_generic_category_basic_higher",
               "weight": 8
             },
             {
-              "name": "unique_skillrankbonus_generic_category_basic_higher",
+              "name": "swiftness",
               "weight": 6
             },
             {
-              "name": "swiftness",
+              "name": "keenness",
               "weight": 4
             },
             {
@@ -405,7 +405,7 @@
           "priority_aspects": [],
           "priority_affixes": [
             {
-              "name": "harmony",
+              "name": "resources",
               "weight": 8
             },
             {
@@ -413,7 +413,7 @@
               "weight": 6
             },
             {
-              "name": "resources",
+              "name": "harmony",
               "weight": 4
             },
             {
@@ -431,19 +431,19 @@
           "priority_aspects": [],
           "priority_affixes": [
             {
-              "name": "speed",
+              "name": "unique_passiverankbonus_barb_talent_11_belligerence",
               "weight": 8
             },
             {
-              "name": "infusing",
+              "name": "unique_attackspeed_basics",
               "weight": 6
             },
             {
-              "name": "unique_attackspeed_basics",
+              "name": "infusing",
               "weight": 4
             },
             {
-              "name": "unique_passiverankbonus_barb_talent_11_belligerence",
+              "name": "speed",
               "weight": 3
             }
           ],
@@ -455,28 +455,28 @@
           "priority_aspects": [],
           "priority_affixes": [
             {
-              "name": "the_powerful",
+              "name": "swiftness",
               "weight": 10
             },
             {
-              "name": "efficiency",
+              "name": "the_adept",
               "weight": 8
             },
             {
-              "name": "swiftness",
+              "name": "the_powerful",
               "weight": 6
             },
             {
-              "name": "the_adept",
+              "name": "efficiency",
               "weight": 4
             },
             {
-              "name": "vigor",
-              "weight": 8
+              "name": "riving",
+              "weight": 10
             },
             {
-              "name": "riving",
-              "weight": 6
+              "name": "vigor",
+              "weight": 4
             }
           ],
           "required_tempers": []
@@ -489,15 +489,15 @@
           "priority_aspects": [],
           "priority_affixes": [
             {
-              "name": "the_adept",
+              "name": "the_sturdy",
               "weight": 8
             },
             {
-              "name": "the_sturdy",
+              "name": "resource_maxfury_greater_jewelry_unique",
               "weight": 6
             },
             {
-              "name": "resource_maxfury_greater_jewelry_unique",
+              "name": "the_adept",
               "weight": 4
             },
             {
@@ -559,11 +559,11 @@
               "weight": 10
             },
             {
-              "name": "harmony",
+              "name": "unique_skillrankbonus_generic_category_basic",
               "weight": 8
             },
             {
-              "name": "unique_skillrankbonus_generic_category_basic",
+              "name": "resources",
               "weight": 6
             },
             {
@@ -571,7 +571,7 @@
               "weight": 4
             },
             {
-              "name": "resources",
+              "name": "harmony",
               "weight": 3
             }
           ],
@@ -585,7 +585,7 @@
           "priority_aspects": [],
           "priority_affixes": [
             {
-              "name": "the_focused",
+              "name": "unique_resource_max_allclasses_higher",
               "weight": 8
             },
             {
@@ -593,7 +593,7 @@
               "weight": 6
             },
             {
-              "name": "unique_resource_max_allclasses_higher",
+              "name": "the_focused",
               "weight": 4
             },
             {
@@ -611,15 +611,15 @@
           "priority_aspects": [],
           "priority_affixes": [
             {
-              "name": "keenness",
+              "name": "unique_skillrankbonus_generic_category_basic_higher",
               "weight": 8
             },
             {
-              "name": "unique_skillrankbonus_generic_category_basic_higher",
+              "name": "swiftness",
               "weight": 6
             },
             {
-              "name": "swiftness",
+              "name": "keenness",
               "weight": 4
             },
             {
@@ -637,7 +637,7 @@
           "priority_aspects": [],
           "priority_affixes": [
             {
-              "name": "harmony",
+              "name": "resources",
               "weight": 8
             },
             {
@@ -645,7 +645,7 @@
               "weight": 6
             },
             {
-              "name": "resources",
+              "name": "harmony",
               "weight": 4
             },
             {
@@ -663,19 +663,19 @@
           "priority_aspects": [],
           "priority_affixes": [
             {
-              "name": "speed",
+              "name": "unique_passiverankbonus_barb_talent_11_belligerence",
               "weight": 8
             },
             {
-              "name": "infusing",
+              "name": "unique_attackspeed_basics",
               "weight": 6
             },
             {
-              "name": "unique_attackspeed_basics",
+              "name": "infusing",
               "weight": 4
             },
             {
-              "name": "unique_passiverankbonus_barb_talent_11_belligerence",
+              "name": "speed",
               "weight": 3
             }
           ],
@@ -689,19 +689,19 @@
           "priority_aspects": [],
           "priority_affixes": [
             {
-              "name": "the_powerful",
+              "name": "riving",
               "weight": 10
             },
             {
-              "name": "vigor",
+              "name": "swiftness",
               "weight": 8
             },
             {
-              "name": "riving",
+              "name": "the_powerful",
               "weight": 6
             },
             {
-              "name": "swiftness",
+              "name": "vigor",
               "weight": 4
             }
           ],
@@ -715,15 +715,15 @@
           "priority_aspects": [],
           "priority_affixes": [
             {
-              "name": "the_adept",
+              "name": "the_sturdy",
               "weight": 8
             },
             {
-              "name": "the_sturdy",
+              "name": "resource_maxfury_greater_jewelry_unique",
               "weight": 6
             },
             {
-              "name": "resource_maxfury_greater_jewelry_unique",
+              "name": "the_adept",
               "weight": 4
             },
             {
@@ -795,11 +795,11 @@
               "weight": 10
             },
             {
-              "name": "harmony",
+              "name": "unique_skillrankbonus_generic_category_basic",
               "weight": 8
             },
             {
-              "name": "unique_skillrankbonus_generic_category_basic",
+              "name": "resources",
               "weight": 6
             },
             {
@@ -807,7 +807,7 @@
               "weight": 4
             },
             {
-              "name": "resources",
+              "name": "harmony",
               "weight": 3
             },
             {
@@ -825,7 +825,7 @@
           "priority_aspects": [],
           "priority_affixes": [
             {
-              "name": "the_focused",
+              "name": "unique_resource_max_allclasses_higher",
               "weight": 8
             },
             {
@@ -833,7 +833,7 @@
               "weight": 6
             },
             {
-              "name": "unique_resource_max_allclasses_higher",
+              "name": "the_focused",
               "weight": 4
             },
             {
@@ -855,15 +855,15 @@
           "priority_aspects": [],
           "priority_affixes": [
             {
-              "name": "keenness",
+              "name": "unique_skillrankbonus_generic_category_basic_higher",
               "weight": 8
             },
             {
-              "name": "unique_skillrankbonus_generic_category_basic_higher",
+              "name": "swiftness",
               "weight": 6
             },
             {
-              "name": "swiftness",
+              "name": "keenness",
               "weight": 4
             },
             {
@@ -881,7 +881,7 @@
           "priority_aspects": [],
           "priority_affixes": [
             {
-              "name": "harmony",
+              "name": "resources",
               "weight": 8
             },
             {
@@ -889,11 +889,11 @@
               "weight": 6
             },
             {
-              "name": "resources",
+              "name": "keenness",
               "weight": 4
             },
             {
-              "name": "keenness",
+              "name": "harmony",
               "weight": 3
             }
           ],
@@ -907,19 +907,19 @@
           "priority_aspects": [],
           "priority_affixes": [
             {
-              "name": "speed",
+              "name": "unique_passiverankbonus_barb_talent_11_belligerence",
               "weight": 8
             },
             {
-              "name": "infusing",
+              "name": "unique_attackspeed_basics",
               "weight": 6
             },
             {
-              "name": "unique_attackspeed_basics",
+              "name": "infusing",
               "weight": 4
             },
             {
-              "name": "unique_passiverankbonus_barb_talent_11_belligerence",
+              "name": "speed",
               "weight": 3
             }
           ],
@@ -937,19 +937,19 @@
               "weight": 3
             },
             {
-              "name": "the_powerful",
+              "name": "riving",
               "weight": 10
             },
             {
-              "name": "vigor",
+              "name": "swiftness",
               "weight": 8
             },
             {
-              "name": "riving",
+              "name": "the_powerful",
               "weight": 6
             },
             {
-              "name": "swiftness",
+              "name": "vigor",
               "weight": 4
             }
           ],
@@ -963,15 +963,15 @@
           "priority_aspects": [],
           "priority_affixes": [
             {
-              "name": "the_adept",
+              "name": "the_sturdy",
               "weight": 8
             },
             {
-              "name": "the_sturdy",
+              "name": "resource_maxfury_greater_jewelry_unique",
               "weight": 6
             },
             {
-              "name": "resource_maxfury_greater_jewelry_unique",
+              "name": "the_adept",
               "weight": 4
             },
             {
@@ -1042,11 +1042,11 @@
               "weight": 10
             },
             {
-              "name": "harmony",
+              "name": "unique_skillrankbonus_generic_category_basic",
               "weight": 8
             },
             {
-              "name": "unique_skillrankbonus_generic_category_basic",
+              "name": "resources",
               "weight": 6
             },
             {
@@ -1054,7 +1054,7 @@
               "weight": 4
             },
             {
-              "name": "resources",
+              "name": "harmony",
               "weight": 3
             },
             {
@@ -1072,7 +1072,7 @@
           "priority_aspects": [],
           "priority_affixes": [
             {
-              "name": "the_focused",
+              "name": "unique_resource_max_allclasses_higher",
               "weight": 8
             },
             {
@@ -1080,7 +1080,7 @@
               "weight": 6
             },
             {
-              "name": "unique_resource_max_allclasses_higher",
+              "name": "the_focused",
               "weight": 4
             },
             {
@@ -1102,15 +1102,15 @@
           "priority_aspects": [],
           "priority_affixes": [
             {
-              "name": "keenness",
+              "name": "unique_skillrankbonus_generic_category_basic_higher",
               "weight": 8
             },
             {
-              "name": "unique_skillrankbonus_generic_category_basic_higher",
+              "name": "swiftness",
               "weight": 6
             },
             {
-              "name": "swiftness",
+              "name": "keenness",
               "weight": 4
             },
             {
@@ -1128,7 +1128,7 @@
           "priority_aspects": [],
           "priority_affixes": [
             {
-              "name": "harmony",
+              "name": "resources",
               "weight": 8
             },
             {
@@ -1136,11 +1136,11 @@
               "weight": 6
             },
             {
-              "name": "resources",
+              "name": "keenness",
               "weight": 4
             },
             {
-              "name": "keenness",
+              "name": "harmony",
               "weight": 3
             }
           ],
@@ -1154,19 +1154,19 @@
           "priority_aspects": [],
           "priority_affixes": [
             {
-              "name": "speed",
+              "name": "unique_passiverankbonus_barb_talent_11_belligerence",
               "weight": 8
             },
             {
-              "name": "infusing",
+              "name": "unique_attackspeed_basics",
               "weight": 6
             },
             {
-              "name": "unique_attackspeed_basics",
+              "name": "infusing",
               "weight": 4
             },
             {
-              "name": "unique_passiverankbonus_barb_talent_11_belligerence",
+              "name": "speed",
               "weight": 3
             }
           ],
@@ -1184,19 +1184,19 @@
               "weight": 3
             },
             {
-              "name": "the_powerful",
+              "name": "riving",
               "weight": 10
             },
             {
-              "name": "vigor",
+              "name": "swiftness",
               "weight": 8
             },
             {
-              "name": "riving",
+              "name": "the_powerful",
               "weight": 6
             },
             {
-              "name": "swiftness",
+              "name": "vigor",
               "weight": 4
             }
           ],
@@ -1210,15 +1210,15 @@
           "priority_aspects": [],
           "priority_affixes": [
             {
-              "name": "the_adept",
+              "name": "the_sturdy",
               "weight": 8
             },
             {
-              "name": "the_sturdy",
+              "name": "resource_maxfury_greater_jewelry_unique",
               "weight": 6
             },
             {
-              "name": "resource_maxfury_greater_jewelry_unique",
+              "name": "the_adept",
               "weight": 4
             },
             {

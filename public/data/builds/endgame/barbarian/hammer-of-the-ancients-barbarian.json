@@ -6,7 +6,7 @@
   "source_url": "https://maxroll.gg/d4/build-guides/hammer-of-the-ancients-barbarian-guide",
   "tier": "S",
   "tags": [],
-  "last_updated": "2026-01-20",
+  "last_updated": "2026-01-21",
   "profile_order": [
     "starter",
     "ancestral",
@@ -285,20 +285,20 @@
           "priority_aspects": [],
           "priority_affixes": [
             {
-              "name": "tempered_double_damage_skill_barb_earthquake_tier3",
-              "weight": 8
-            },
-            {
               "name": "battering",
-              "weight": 6
+              "weight": 10
             },
             {
               "name": "passiverankbonus_barb_defensivestance_unique",
-              "weight": 4
+              "weight": 8
             },
             {
               "name": "unique_armor_giga_specialscaling",
-              "weight": 3
+              "weight": 6
+            },
+            {
+              "name": "tempered_double_damage_skill_barb_earthquake_tier3",
+              "weight": 4
             }
           ],
           "required_tempers": []
@@ -331,15 +331,15 @@
               "weight": 4
             },
             {
-              "name": "unique_damage_generic_type_physical",
-              "weight": 6
+              "name": "unique_passiverankbonus_barb_talent_13_warpath",
+              "weight": 8
             },
             {
               "name": "unique_skillrankbonus_generic_category_core_higher",
-              "weight": 4
+              "weight": 6
             },
             {
-              "name": "unique_passiverankbonus_barb_talent_13_warpath",
+              "name": "unique_damage_generic_type_physical",
               "weight": 3
             }
           ],
@@ -353,7 +353,7 @@
           "priority_aspects": [],
           "priority_affixes": [
             {
-              "name": "the_focused",
+              "name": "unique_resource_max_allclasses_higher",
               "weight": 8
             },
             {
@@ -361,7 +361,7 @@
               "weight": 6
             },
             {
-              "name": "unique_resource_max_allclasses_higher",
+              "name": "the_focused",
               "weight": 4
             },
             {
@@ -381,15 +381,15 @@
               "weight": 10
             },
             {
-              "name": "the_powerful",
+              "name": "swiftness",
               "weight": 8
             },
             {
-              "name": "keenness",
+              "name": "the_powerful",
               "weight": 6
             },
             {
-              "name": "swiftness",
+              "name": "keenness",
               "weight": 4
             }
           ],
@@ -403,19 +403,19 @@
           "priority_aspects": [],
           "priority_affixes": [
             {
-              "name": "harmony",
+              "name": "resources",
               "weight": 8
             },
             {
-              "name": "the_adept",
+              "name": "harmony",
               "weight": 6
             },
             {
-              "name": "resources",
+              "name": "keenness",
               "weight": 4
             },
             {
-              "name": "keenness",
+              "name": "the_adept",
               "weight": 3
             }
           ],
@@ -429,19 +429,19 @@
           "priority_aspects": [],
           "priority_affixes": [
             {
-              "name": "speed",
-              "weight": 8
-            },
-            {
-              "name": "unique_movement_speed_barb_perwalkingarsenal",
-              "weight": 6
-            },
-            {
               "name": "unique_damage_to_stunned_verybig",
-              "weight": 4
+              "weight": 10
             },
             {
               "name": "unique_size_skill_barb_groundstomp",
+              "weight": 8
+            },
+            {
+              "name": "speed",
+              "weight": 4
+            },
+            {
+              "name": "unique_movement_speed_barb_perwalkingarsenal",
               "weight": 3
             }
           ],
@@ -457,7 +457,7 @@
               "weight": 10
             },
             {
-              "name": "vigor",
+              "name": "swiftness",
               "weight": 8
             },
             {
@@ -465,7 +465,7 @@
               "weight": 6
             },
             {
-              "name": "swiftness",
+              "name": "vigor",
               "weight": 4
             }
           ],
@@ -479,15 +479,15 @@
           "priority_aspects": [],
           "priority_affixes": [
             {
-              "name": "the_adept",
+              "name": "the_sturdy",
               "weight": 8
             },
             {
-              "name": "the_sturdy",
+              "name": "resource_maxfury_greater_jewelry_unique",
               "weight": 6
             },
             {
-              "name": "resource_maxfury_greater_jewelry_unique",
+              "name": "the_adept",
               "weight": 4
             },
             {
@@ -519,20 +519,20 @@
           "priority_aspects": [],
           "priority_affixes": [
             {
-              "name": "tempered_double_damage_skill_barb_earthquake_tier3",
-              "weight": 8
-            },
-            {
               "name": "battering",
-              "weight": 6
+              "weight": 10
             },
             {
               "name": "passiverankbonus_barb_defensivestance_unique",
-              "weight": 4
+              "weight": 8
             },
             {
               "name": "unique_armor_giga_specialscaling",
-              "weight": 3
+              "weight": 6
+            },
+            {
+              "name": "tempered_double_damage_skill_barb_earthquake_tier3",
+              "weight": 4
             }
           ],
           "required_tempers": []
@@ -562,15 +562,15 @@
               "weight": 4
             },
             {
-              "name": "unique_damage_generic_type_physical",
-              "weight": 6
+              "name": "unique_passiverankbonus_barb_talent_13_warpath",
+              "weight": 8
             },
             {
               "name": "unique_skillrankbonus_generic_category_core_higher",
-              "weight": 4
+              "weight": 6
             },
             {
-              "name": "unique_passiverankbonus_barb_talent_13_warpath",
+              "name": "unique_damage_generic_type_physical",
               "weight": 3
             }
           ],
@@ -612,15 +612,15 @@
               "weight": 10
             },
             {
-              "name": "the_powerful",
+              "name": "swiftness",
               "weight": 8
             },
             {
-              "name": "keenness",
+              "name": "the_powerful",
               "weight": 6
             },
             {
-              "name": "swiftness",
+              "name": "keenness",
               "weight": 4
             }
           ],
@@ -634,19 +634,19 @@
           "priority_aspects": [],
           "priority_affixes": [
             {
-              "name": "harmony",
+              "name": "resources",
               "weight": 8
             },
             {
-              "name": "the_adept",
+              "name": "harmony",
               "weight": 6
             },
             {
-              "name": "resources",
+              "name": "keenness",
               "weight": 4
             },
             {
-              "name": "keenness",
+              "name": "the_adept",
               "weight": 3
             }
           ],
@@ -660,19 +660,19 @@
           "priority_aspects": [],
           "priority_affixes": [
             {
-              "name": "speed",
-              "weight": 8
-            },
-            {
-              "name": "unique_movement_speed_barb_perwalkingarsenal",
-              "weight": 6
-            },
-            {
               "name": "unique_damage_to_stunned_verybig",
-              "weight": 4
+              "weight": 10
             },
             {
               "name": "unique_size_skill_barb_groundstomp",
+              "weight": 8
+            },
+            {
+              "name": "speed",
+              "weight": 4
+            },
+            {
+              "name": "unique_movement_speed_barb_perwalkingarsenal",
               "weight": 3
             }
           ],
@@ -690,7 +690,7 @@
               "weight": 10
             },
             {
-              "name": "vigor",
+              "name": "swiftness",
               "weight": 8
             },
             {
@@ -698,7 +698,7 @@
               "weight": 6
             },
             {
-              "name": "swiftness",
+              "name": "vigor",
               "weight": 4
             }
           ],
@@ -712,11 +712,11 @@
           "priority_aspects": [],
           "priority_affixes": [
             {
-              "name": "the_adept",
+              "name": "the_sturdy",
               "weight": 8
             },
             {
-              "name": "the_sturdy",
+              "name": "the_adept",
               "weight": 6
             },
             {
@@ -757,20 +757,20 @@
           "priority_aspects": [],
           "priority_affixes": [
             {
-              "name": "tempered_double_damage_skill_barb_earthquake_tier3",
-              "weight": 8
-            },
-            {
               "name": "battering",
-              "weight": 6
+              "weight": 10
             },
             {
               "name": "passiverankbonus_barb_defensivestance_unique",
-              "weight": 4
+              "weight": 8
             },
             {
               "name": "unique_armor_giga_specialscaling",
-              "weight": 3
+              "weight": 6
+            },
+            {
+              "name": "tempered_double_damage_skill_barb_earthquake_tier3",
+              "weight": 4
             },
             {
               "name": "resources",
@@ -804,15 +804,15 @@
               "weight": 4
             },
             {
-              "name": "unique_damage_generic_type_physical",
-              "weight": 6
+              "name": "unique_passiverankbonus_barb_talent_13_warpath",
+              "weight": 8
             },
             {
               "name": "unique_skillrankbonus_generic_category_core_higher",
-              "weight": 4
+              "weight": 6
             },
             {
-              "name": "unique_passiverankbonus_barb_talent_13_warpath",
+              "name": "unique_damage_generic_type_physical",
               "weight": 3
             }
           ],
@@ -826,7 +826,7 @@
           "priority_aspects": [],
           "priority_affixes": [
             {
-              "name": "the_focused",
+              "name": "unique_resource_max_allclasses_higher",
               "weight": 8
             },
             {
@@ -834,7 +834,7 @@
               "weight": 6
             },
             {
-              "name": "unique_resource_max_allclasses_higher",
+              "name": "the_focused",
               "weight": 4
             },
             {
@@ -854,15 +854,15 @@
               "weight": 10
             },
             {
-              "name": "the_powerful",
+              "name": "swiftness",
               "weight": 8
             },
             {
-              "name": "keenness",
+              "name": "the_powerful",
               "weight": 6
             },
             {
-              "name": "swiftness",
+              "name": "keenness",
               "weight": 4
             },
             {
@@ -880,19 +880,19 @@
           "priority_aspects": [],
           "priority_affixes": [
             {
-              "name": "harmony",
+              "name": "resources",
               "weight": 8
             },
             {
-              "name": "the_adept",
+              "name": "harmony",
               "weight": 6
             },
             {
-              "name": "resources",
+              "name": "keenness",
               "weight": 4
             },
             {
-              "name": "keenness",
+              "name": "the_adept",
               "weight": 3
             }
           ],
@@ -906,19 +906,19 @@
           "priority_aspects": [],
           "priority_affixes": [
             {
-              "name": "speed",
-              "weight": 8
-            },
-            {
-              "name": "unique_movement_speed_barb_perwalkingarsenal",
-              "weight": 6
-            },
-            {
               "name": "unique_damage_to_stunned_verybig",
-              "weight": 4
+              "weight": 10
             },
             {
               "name": "unique_size_skill_barb_groundstomp",
+              "weight": 8
+            },
+            {
+              "name": "speed",
+              "weight": 4
+            },
+            {
+              "name": "unique_movement_speed_barb_perwalkingarsenal",
               "weight": 3
             },
             {
@@ -944,7 +944,7 @@
               "weight": 10
             },
             {
-              "name": "vigor",
+              "name": "swiftness",
               "weight": 8
             },
             {
@@ -952,7 +952,7 @@
               "weight": 6
             },
             {
-              "name": "swiftness",
+              "name": "vigor",
               "weight": 4
             }
           ],
@@ -966,15 +966,15 @@
           "priority_aspects": [],
           "priority_affixes": [
             {
-              "name": "the_adept",
+              "name": "the_sturdy",
               "weight": 8
             },
             {
-              "name": "the_sturdy",
+              "name": "resource_maxfury_greater_jewelry_unique",
               "weight": 6
             },
             {
-              "name": "resource_maxfury_greater_jewelry_unique",
+              "name": "the_adept",
               "weight": 4
             },
             {
@@ -1001,19 +1001,19 @@
               "weight": 10
             },
             {
-              "name": "vigor",
+              "name": "swiftness",
               "weight": 8
             },
             {
-              "name": "swiftness",
+              "name": "luck",
               "weight": 6
             },
             {
-              "name": "luck",
+              "name": "sanctity",
               "weight": 4
             },
             {
-              "name": "sanctity",
+              "name": "vigor",
               "weight": 3
             },
             {
@@ -1031,20 +1031,20 @@
           "priority_aspects": [],
           "priority_affixes": [
             {
-              "name": "tempered_double_damage_skill_barb_earthquake_tier3",
-              "weight": 8
-            },
-            {
               "name": "battering",
-              "weight": 6
+              "weight": 10
             },
             {
               "name": "passiverankbonus_barb_defensivestance_unique",
-              "weight": 4
+              "weight": 8
             },
             {
               "name": "unique_armor_giga_specialscaling",
-              "weight": 3
+              "weight": 6
+            },
+            {
+              "name": "tempered_double_damage_skill_barb_earthquake_tier3",
+              "weight": 4
             },
             {
               "name": "resources",
@@ -1078,15 +1078,15 @@
               "weight": 4
             },
             {
-              "name": "unique_damage_generic_type_physical",
-              "weight": 6
+              "name": "unique_passiverankbonus_barb_talent_13_warpath",
+              "weight": 8
             },
             {
               "name": "unique_skillrankbonus_generic_category_core_higher",
-              "weight": 4
+              "weight": 6
             },
             {
-              "name": "unique_passiverankbonus_barb_talent_13_warpath",
+              "name": "unique_damage_generic_type_physical",
               "weight": 3
             }
           ],
@@ -1100,7 +1100,7 @@
           "priority_aspects": [],
           "priority_affixes": [
             {
-              "name": "the_focused",
+              "name": "unique_resource_max_allclasses_higher",
               "weight": 8
             },
             {
@@ -1108,7 +1108,7 @@
               "weight": 6
             },
             {
-              "name": "unique_resource_max_allclasses_higher",
+              "name": "the_focused",
               "weight": 4
             },
             {
@@ -1128,15 +1128,15 @@
               "weight": 10
             },
             {
-              "name": "the_powerful",
+              "name": "swiftness",
               "weight": 8
             },
             {
-              "name": "keenness",
+              "name": "the_powerful",
               "weight": 6
             },
             {
-              "name": "swiftness",
+              "name": "keenness",
               "weight": 4
             },
             {
@@ -1154,19 +1154,19 @@
           "priority_aspects": [],
           "priority_affixes": [
             {
-              "name": "harmony",
+              "name": "resources",
               "weight": 8
             },
             {
-              "name": "the_adept",
+              "name": "harmony",
               "weight": 6
             },
             {
-              "name": "resources",
+              "name": "keenness",
               "weight": 4
             },
             {
-              "name": "keenness",
+              "name": "the_adept",
               "weight": 3
             },
             {
@@ -1184,19 +1184,19 @@
           "priority_aspects": [],
           "priority_affixes": [
             {
-              "name": "speed",
-              "weight": 8
-            },
-            {
-              "name": "unique_movement_speed_barb_perwalkingarsenal",
-              "weight": 6
-            },
-            {
               "name": "unique_damage_to_stunned_verybig",
-              "weight": 4
+              "weight": 10
             },
             {
               "name": "unique_size_skill_barb_groundstomp",
+              "weight": 8
+            },
+            {
+              "name": "speed",
+              "weight": 4
+            },
+            {
+              "name": "unique_movement_speed_barb_perwalkingarsenal",
               "weight": 3
             },
             {
@@ -1222,11 +1222,11 @@
               "weight": 10
             },
             {
-              "name": "keenness",
-              "weight": 6
+              "name": "swiftness",
+              "weight": 8
             },
             {
-              "name": "swiftness",
+              "name": "keenness",
               "weight": 4
             }
           ],
