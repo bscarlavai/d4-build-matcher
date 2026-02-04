@@ -6,7 +6,7 @@
   "source_url": "https://maxroll.gg/d4/build-guides/divine-lance-paladin-guide",
   "tier": "A",
   "tags": [],
-  "last_updated": "2026-02-03",
+  "last_updated": "2026-02-04",
   "profile_order": [
     "starter",
     "ancestral",
@@ -229,9 +229,7 @@
       "gear": {
         "helm": {
           "slot": "helm",
-          "priority_uniques": [
-            "Godslayer Crown"
-          ],
+          "priority_uniques": [],
           "priority_aspects": [],
           "priority_affixes": [
             {
@@ -239,16 +237,16 @@
               "weight": 10
             },
             {
+              "name": "the_powerful",
+              "weight": 8
+            },
+            {
               "name": "vigor",
               "weight": 6
             },
             {
-              "name": "harmony",
+              "name": "toughened",
               "weight": 4
-            },
-            {
-              "name": "unique_damage_to_elite_specialscaling",
-              "weight": 3
             }
           ],
           "required_tempers": []

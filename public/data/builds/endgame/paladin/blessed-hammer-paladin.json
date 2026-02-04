@@ -6,7 +6,7 @@
   "source_url": "https://maxroll.gg/d4/build-guides/blessed-hammer-paladin-guide",
   "tier": "S",
   "tags": [],
-  "last_updated": "2026-02-03",
+  "last_updated": "2026-02-04",
   "profile_order": [
     "starter",
     "ancestral",
@@ -621,24 +621,20 @@
           "priority_aspects": [],
           "priority_affixes": [
             {
-              "name": "swiftness",
+              "name": "righteousness",
               "weight": 10
             },
             {
-              "name": "righteousness",
+              "name": "iron",
               "weight": 8
             },
             {
-              "name": "iron",
+              "name": "discipline",
               "weight": 6
             },
             {
-              "name": "discipline",
-              "weight": 4
-            },
-            {
               "name": "offense",
-              "weight": 3
+              "weight": 4
             },
             {
               "name": "fortitude",
@@ -666,10 +662,6 @@
             },
             {
               "name": "keenness",
-              "weight": 3
-            },
-            {
-              "name": "vigor",
               "weight": 3
             }
           ],
