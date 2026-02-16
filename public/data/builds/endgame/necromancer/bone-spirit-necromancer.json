@@ -6,7 +6,7 @@
   "source_url": "https://maxroll.gg/d4/build-guides/bone-spirit-necromancer-guide",
   "tier": "A",
   "tags": [],
-  "last_updated": "2026-02-15",
+  "last_updated": "2026-02-16",
   "profile_order": [
     "starter",
     "ancestral",
@@ -597,10 +597,27 @@
         "amulet": {
           "slot": "amulet",
           "priority_uniques": [
-            "Melted Heart of Selig"
+            "Banished Lord's Talisman"
           ],
           "priority_aspects": [],
-          "priority_affixes": [],
+          "priority_affixes": [
+            {
+              "name": "principals",
+              "weight": 10
+            },
+            {
+              "name": "vigor",
+              "weight": 8
+            },
+            {
+              "name": "demolition",
+              "weight": 6
+            },
+            {
+              "name": "keenness",
+              "weight": 4
+            }
+          ],
           "required_tempers": []
         }
       }
@@ -791,10 +808,31 @@
         "amulet": {
           "slot": "amulet",
           "priority_uniques": [
-            "Melted Heart of Selig"
+            "Banished Lord's Talisman"
           ],
           "priority_aspects": [],
-          "priority_affixes": [],
+          "priority_affixes": [
+            {
+              "name": "principals",
+              "weight": 10
+            },
+            {
+              "name": "vigor",
+              "weight": 8
+            },
+            {
+              "name": "demolition",
+              "weight": 6
+            },
+            {
+              "name": "keenness",
+              "weight": 4
+            },
+            {
+              "name": "sanctification",
+              "weight": 3
+            }
+          ],
           "required_tempers": []
         }
       }
