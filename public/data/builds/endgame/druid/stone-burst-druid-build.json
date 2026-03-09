@@ -1,10 +1,10 @@
 {
-  "id": "rake-spiritborn",
-  "name": "Rake Spiritborn",
-  "class": "spiritborn",
+  "id": "stone-burst-druid-build",
+  "name": "Stone Burst Druid Build",
+  "class": "druid",
   "category": "endgame",
-  "source_url": "https://maxroll.gg/d4/build-guides/rake-spiritborn-guide",
-  "tier": "A",
+  "source_url": "https://maxroll.gg/d4/build-guides/stone-burst-druid-build-guide",
+  "tier": "B",
   "tags": [],
   "last_updated": "2026-03-09",
   "profile_order": [
@@ -22,15 +22,15 @@
           "priority_aspects": [],
           "priority_affixes": [
             {
-              "name": "the_adroit",
+              "name": "infusing",
               "weight": 10
             },
             {
-              "name": "vigor",
+              "name": "determination",
               "weight": 8
             },
             {
-              "name": "toughened",
+              "name": "vigor",
               "weight": 6
             },
             {
@@ -38,15 +38,7 @@
               "weight": 4
             },
             {
-              "name": "thorns",
-              "weight": 3
-            },
-            {
-              "name": "swiftness",
-              "weight": 3
-            },
-            {
-              "name": "luck",
+              "name": "toughened",
               "weight": 3
             }
           ],
@@ -58,11 +50,11 @@
           "priority_aspects": [],
           "priority_affixes": [
             {
-              "name": "the_adroit",
+              "name": "infusing",
               "weight": 10
             },
             {
-              "name": "vigor",
+              "name": "determination",
               "weight": 8
             },
             {
@@ -70,15 +62,11 @@
               "weight": 6
             },
             {
-              "name": "auric",
+              "name": "vigor",
               "weight": 4
             },
             {
-              "name": "thorns",
-              "weight": 3
-            },
-            {
-              "name": "infusing",
+              "name": "auric",
               "weight": 3
             }
           ],
@@ -90,23 +78,23 @@
           "priority_aspects": [],
           "priority_affixes": [
             {
-              "name": "perpetuity",
+              "name": "determination",
               "weight": 10
             },
             {
-              "name": "the_adroit",
+              "name": "vigor",
               "weight": 8
             },
             {
-              "name": "keenness",
+              "name": "efficiency",
               "weight": 6
             },
             {
-              "name": "vigor",
+              "name": "demolition",
               "weight": 4
             },
             {
-              "name": "cruelty",
+              "name": "the_focused",
               "weight": 3
             }
           ],
@@ -118,51 +106,23 @@
           "priority_aspects": [],
           "priority_affixes": [
             {
-              "name": "perpetuity",
+              "name": "bursting_earth",
               "weight": 10
             },
             {
-              "name": "riving",
+              "name": "keenness",
               "weight": 8
             },
             {
-              "name": "the_adroit",
+              "name": "determination",
               "weight": 6
             },
             {
-              "name": "keenness",
+              "name": "toughened",
               "weight": 4
             },
             {
               "name": "vigor",
-              "weight": 3
-            },
-            {
-              "name": "toughened",
-              "weight": 3
-            },
-            {
-              "name": "auric",
-              "weight": 3
-            },
-            {
-              "name": "cruelty",
-              "weight": 3
-            },
-            {
-              "name": "the_focused",
-              "weight": 3
-            },
-            {
-              "name": "swiftness",
-              "weight": 3
-            },
-            {
-              "name": "luck",
-              "weight": 3
-            },
-            {
-              "name": "the_adept",
               "weight": 3
             }
           ],
@@ -174,24 +134,20 @@
           "priority_aspects": [],
           "priority_affixes": [
             {
-              "name": "the_adroit",
+              "name": "determination",
               "weight": 10
             },
             {
-              "name": "vigor",
+              "name": "auric",
               "weight": 8
             },
             {
-              "name": "toughened",
+              "name": "vigor",
               "weight": 6
             },
             {
-              "name": "auric",
+              "name": "toughened",
               "weight": 4
-            },
-            {
-              "name": "thorns",
-              "weight": 3
             },
             {
               "name": "evasion",
@@ -210,23 +166,19 @@
               "weight": 10
             },
             {
-              "name": "the_adroit",
+              "name": "determination",
               "weight": 8
             },
             {
-              "name": "vigor",
+              "name": "infusing",
               "weight": 6
             },
             {
-              "name": "toughened",
+              "name": "vigor",
               "weight": 4
             },
             {
-              "name": "auric",
-              "weight": 3
-            },
-            {
-              "name": "infusing",
+              "name": "toughened",
               "weight": 3
             }
           ],
@@ -238,47 +190,23 @@
           "priority_aspects": [],
           "priority_affixes": [
             {
-              "name": "riving",
+              "name": "keenness",
               "weight": 10
             },
             {
-              "name": "the_adroit",
+              "name": "determination",
               "weight": 8
             },
             {
-              "name": "carnage",
+              "name": "vigor",
               "weight": 6
             },
             {
-              "name": "vigor",
+              "name": "auric",
               "weight": 4
             },
             {
-              "name": "keenness",
-              "weight": 3
-            },
-            {
-              "name": "cruelty",
-              "weight": 3
-            },
-            {
-              "name": "auric",
-              "weight": 3
-            },
-            {
-              "name": "the_focused",
-              "weight": 3
-            },
-            {
               "name": "the_adept",
-              "weight": 3
-            },
-            {
-              "name": "efficiency",
-              "weight": 3
-            },
-            {
-              "name": "swiftness",
               "weight": 3
             }
           ],
@@ -290,47 +218,27 @@
           "priority_aspects": [],
           "priority_affixes": [
             {
-              "name": "elevation",
+              "name": "toxicity",
               "weight": 10
             },
             {
-              "name": "surmounting",
+              "name": "poison_soaked",
               "weight": 8
             },
             {
-              "name": "rampaging",
+              "name": "the_tenacious",
               "weight": 6
             },
             {
-              "name": "speed",
+              "name": "keenness",
               "weight": 4
             },
             {
-              "name": "riving",
-              "weight": 3
-            },
-            {
-              "name": "the_adroit",
-              "weight": 3
-            },
-            {
-              "name": "vigor",
-              "weight": 3
-            },
-            {
-              "name": "auric",
-              "weight": 3
-            },
-            {
-              "name": "keenness",
+              "name": "speed",
               "weight": 3
             },
             {
               "name": "the_adept",
-              "weight": 3
-            },
-            {
-              "name": "swiftness",
               "weight": 3
             }
           ],
@@ -344,24 +252,24 @@
         "helm": {
           "slot": "helm",
           "priority_uniques": [
-            "Loyalty's Mantle"
+            "Vasily's Prayer"
           ],
           "priority_aspects": [],
           "priority_affixes": [
             {
-              "name": "the_adroit",
+              "name": "the_tenacious",
+              "weight": 10
+            },
+            {
+              "name": "unique_passiverankbonus_druid_04_defensiveposture",
               "weight": 8
             },
             {
-              "name": "unique_corestats_all_higher",
+              "name": "vigor",
               "weight": 6
             },
             {
-              "name": "unique_movement_speed_lesser",
-              "weight": 4
-            },
-            {
-              "name": "unique_passiverankbonus_spiritborn_velocity_higher",
+              "name": "toughened",
               "weight": 3
             }
           ],
@@ -370,33 +278,97 @@
         "chest": {
           "slot": "chest",
           "priority_uniques": [
-            "Razorplate"
-          ],
-          "priority_aspects": [],
-          "priority_affixes": [],
-          "required_tempers": []
-        },
-        "gloves": {
-          "slot": "gloves",
-          "priority_uniques": [
-            "Hesha e Kesungi"
+            "Insatiable Fury",
+            "Stone of Vehemen"
           ],
           "priority_aspects": [],
           "priority_affixes": [
             {
-              "name": "unique_attackspeed_higher",
+              "name": "unique_overpowerdamage_druid_tag_bear",
               "weight": 8
             },
             {
-              "name": "unique_cdr_tag_generic_ultimate_higher",
+              "name": "unique_lifepercent_lesshigher",
               "weight": 6
             },
             {
-              "name": "unique_damage_to_vulnerable_higher",
+              "name": "unique_passiverankbonus_druid_shapeshifting_t2_n1_ironfur_higher",
               "weight": 4
             },
             {
-              "name": "unique_skillrankbonus_spiritborn_category_gorilla",
+              "name": "unique_life_and_damagemultiplicative_druid_whenursinestrength",
+              "weight": 3
+            },
+            {
+              "name": "unique_projectiles_skill_druid_stoneburst",
+              "weight": 10
+            },
+            {
+              "name": "bursting_earth",
+              "weight": 8
+            },
+            {
+              "name": "unique_critdamage_higherweapon",
+              "weight": 6
+            },
+            {
+              "name": "unique_corestat_willpower_higher",
+              "weight": 3
+            }
+          ],
+          "required_tempers": []
+        },
+        "weapon": {
+          "slot": "weapon",
+          "priority_uniques": [],
+          "priority_aspects": [],
+          "priority_affixes": [
+            {
+              "name": "determination",
+              "weight": 10
+            },
+            {
+              "name": "vigor",
+              "weight": 8
+            },
+            {
+              "name": "demolition",
+              "weight": 6
+            },
+            {
+              "name": "the_focused",
+              "weight": 4
+            },
+            {
+              "name": "cruelty",
+              "weight": 3
+            }
+          ],
+          "required_tempers": []
+        },
+        "gloves": {
+          "slot": "gloves",
+          "priority_uniques": [],
+          "priority_aspects": [],
+          "priority_affixes": [
+            {
+              "name": "bursting_earth",
+              "weight": 10
+            },
+            {
+              "name": "keenness",
+              "weight": 8
+            },
+            {
+              "name": "determination",
+              "weight": 6
+            },
+            {
+              "name": "toughened",
+              "weight": 4
+            },
+            {
+              "name": "auric",
               "weight": 3
             }
           ],
@@ -405,24 +377,24 @@
         "pants": {
           "slot": "pants",
           "priority_uniques": [
-            "Balazan's Maxtlatl"
+            "Tibault's Will"
           ],
           "priority_aspects": [],
           "priority_affixes": [
             {
-              "name": "unique_thorns_higher",
+              "name": "harmony",
               "weight": 8
             },
             {
-              "name": "unique_passiverankbonus_spiritborn_talent_forest_4_bastion",
+              "name": "unique_damagereduction_whileunstoppable",
               "weight": 6
             },
             {
-              "name": "the_adroit",
+              "name": "vigor",
               "weight": 4
             },
             {
-              "name": "vigor",
+              "name": "resources",
               "weight": 3
             }
           ],
@@ -434,93 +406,47 @@
           "priority_aspects": [],
           "priority_affixes": [
             {
-              "name": "the_adroit",
+              "name": "determination",
               "weight": 10
             },
             {
-              "name": "vigor",
+              "name": "auric",
               "weight": 8
             },
             {
-              "name": "toughened",
+              "name": "vigor",
               "weight": 6
             },
             {
-              "name": "speed",
-              "weight": 4
-            },
-            {
-              "name": "auric",
-              "weight": 3
-            },
-            {
               "name": "infusing",
-              "weight": 3
+              "weight": 4
             }
           ],
           "required_tempers": []
         },
         "ring": {
           "slot": "ring",
-          "priority_uniques": [
-            "Wound Drinker"
-          ],
+          "priority_uniques": [],
           "priority_aspects": [],
           "priority_affixes": [
             {
-              "name": "unique_thorns_higher",
-              "weight": 8
-            },
-            {
-              "name": "unique_damage_generic_to_poisoned",
-              "weight": 6
-            },
-            {
-              "name": "toughened",
-              "weight": 4
-            },
-            {
-              "name": "venom",
-              "weight": 3
-            },
-            {
-              "name": "riving",
+              "name": "determination",
               "weight": 10
             },
             {
-              "name": "the_adroit",
+              "name": "keenness",
               "weight": 8
             },
             {
-              "name": "keenness",
+              "name": "vigor",
               "weight": 6
             },
             {
-              "name": "swiftness",
+              "name": "auric",
               "weight": 4
             },
             {
-              "name": "the_adept",
-              "weight": 3
-            },
-            {
-              "name": "vigor",
-              "weight": 3
-            },
-            {
-              "name": "the_focused",
-              "weight": 3
-            },
-            {
-              "name": "cruelty",
-              "weight": 3
-            },
-            {
-              "name": "auric",
-              "weight": 3
-            },
-            {
-              "name": "carnage",
+              "name": "efficiency",
               "weight": 3
             }
           ],
@@ -532,47 +458,23 @@
           "priority_aspects": [],
           "priority_affixes": [
             {
-              "name": "elevation",
+              "name": "toxicity",
               "weight": 10
             },
             {
-              "name": "surmounting",
+              "name": "poison_soaked",
               "weight": 8
             },
             {
-              "name": "rampaging",
+              "name": "the_tenacious",
               "weight": 6
             },
             {
-              "name": "riving",
+              "name": "disasters",
               "weight": 4
             },
             {
-              "name": "keenness",
-              "weight": 3
-            },
-            {
-              "name": "the_adept",
-              "weight": 3
-            },
-            {
-              "name": "swiftness",
-              "weight": 3
-            },
-            {
-              "name": "vigor",
-              "weight": 3
-            },
-            {
-              "name": "speed",
-              "weight": 3
-            },
-            {
-              "name": "auric",
-              "weight": 3
-            },
-            {
-              "name": "the_adroit",
+              "name": "shifting",
               "weight": 3
             }
           ],
@@ -595,33 +497,81 @@
         "chest": {
           "slot": "chest",
           "priority_uniques": [
-            "Shroud of False Death"
-          ],
-          "priority_aspects": [],
-          "priority_affixes": [],
-          "required_tempers": []
-        },
-        "gloves": {
-          "slot": "gloves",
-          "priority_uniques": [
-            "Hesha e Kesungi"
+            "Shroud of False Death",
+            "Stone of Vehemen"
           ],
           "priority_aspects": [],
           "priority_affixes": [
             {
-              "name": "unique_attackspeed_higher",
+              "name": "unique_projectiles_skill_druid_stoneburst",
               "weight": 8
             },
             {
-              "name": "unique_cdr_tag_generic_ultimate_higher",
+              "name": "bursting_earth",
               "weight": 6
             },
             {
-              "name": "unique_damage_to_vulnerable_higher",
+              "name": "unique_corestat_willpower_higher",
               "weight": 4
             },
             {
-              "name": "unique_skillrankbonus_spiritborn_category_gorilla",
+              "name": "unique_critdamage_higherweapon",
+              "weight": 3
+            }
+          ],
+          "required_tempers": []
+        },
+        "weapon": {
+          "slot": "weapon",
+          "priority_uniques": [],
+          "priority_aspects": [],
+          "priority_affixes": [
+            {
+              "name": "determination",
+              "weight": 10
+            },
+            {
+              "name": "vigor",
+              "weight": 8
+            },
+            {
+              "name": "demolition",
+              "weight": 6
+            },
+            {
+              "name": "the_focused",
+              "weight": 4
+            },
+            {
+              "name": "cruelty",
+              "weight": 3
+            }
+          ],
+          "required_tempers": []
+        },
+        "gloves": {
+          "slot": "gloves",
+          "priority_uniques": [],
+          "priority_aspects": [],
+          "priority_affixes": [
+            {
+              "name": "bursting_earth",
+              "weight": 10
+            },
+            {
+              "name": "keenness",
+              "weight": 8
+            },
+            {
+              "name": "determination",
+              "weight": 6
+            },
+            {
+              "name": "toughened",
+              "weight": 4
+            },
+            {
+              "name": "auric",
               "weight": 3
             }
           ],
@@ -630,122 +580,78 @@
         "pants": {
           "slot": "pants",
           "priority_uniques": [
-            "Balazan's Maxtlatl"
+            "Banished Lord's Talisman"
           ],
           "priority_aspects": [],
           "priority_affixes": [
             {
-              "name": "unique_thorns_higher",
+              "name": "principals",
+              "weight": 10
+            },
+            {
+              "name": "keenness",
               "weight": 8
             },
             {
-              "name": "unique_passiverankbonus_spiritborn_talent_forest_4_bastion",
+              "name": "demolition",
               "weight": 6
             },
             {
-              "name": "the_adroit",
+              "name": "unique_lifepercent",
               "weight": 4
-            },
-            {
-              "name": "vigor",
-              "weight": 3
             }
           ],
           "required_tempers": []
         },
         "boots": {
           "slot": "boots",
-          "priority_uniques": [],
+          "priority_uniques": [
+            "Fists of Fate"
+          ],
           "priority_aspects": [],
           "priority_affixes": [
             {
-              "name": "the_adroit",
+              "name": "unique_luck_gigagiga_highvariance",
               "weight": 10
             },
             {
-              "name": "vigor",
+              "name": "unique_attackspeed_highvariance",
               "weight": 8
             },
             {
-              "name": "toughened",
+              "name": "unique_generic_luckyhit_vulnerable_highvariance",
               "weight": 6
             },
             {
-              "name": "speed",
+              "name": "unique_critchance_highvariance",
               "weight": 4
-            },
-            {
-              "name": "auric",
-              "weight": 3
-            },
-            {
-              "name": "infusing",
-              "weight": 3
             }
           ],
           "required_tempers": []
         },
         "ring": {
           "slot": "ring",
-          "priority_uniques": [
-            "Wound Drinker"
-          ],
+          "priority_uniques": [],
           "priority_aspects": [],
           "priority_affixes": [
             {
-              "name": "unique_thorns_higher",
-              "weight": 8
-            },
-            {
-              "name": "unique_damage_generic_to_poisoned",
-              "weight": 6
-            },
-            {
-              "name": "toughened",
-              "weight": 4
-            },
-            {
-              "name": "venom",
-              "weight": 3
-            },
-            {
-              "name": "riving",
+              "name": "determination",
               "weight": 10
             },
             {
-              "name": "the_adroit",
+              "name": "keenness",
               "weight": 8
             },
             {
-              "name": "keenness",
+              "name": "vigor",
               "weight": 6
             },
             {
-              "name": "swiftness",
+              "name": "efficiency",
               "weight": 4
             },
             {
-              "name": "the_adept",
-              "weight": 3
-            },
-            {
-              "name": "vigor",
-              "weight": 3
-            },
-            {
-              "name": "the_focused",
-              "weight": 3
-            },
-            {
-              "name": "cruelty",
-              "weight": 3
-            },
-            {
               "name": "auric",
-              "weight": 3
-            },
-            {
-              "name": "carnage",
               "weight": 3
             }
           ],
@@ -757,47 +663,23 @@
           "priority_aspects": [],
           "priority_affixes": [
             {
-              "name": "elevation",
+              "name": "toxicity",
               "weight": 10
             },
             {
-              "name": "surmounting",
+              "name": "poison_soaked",
               "weight": 8
             },
             {
-              "name": "rampaging",
+              "name": "the_tenacious",
               "weight": 6
             },
             {
-              "name": "riving",
+              "name": "disasters",
               "weight": 4
             },
             {
-              "name": "keenness",
-              "weight": 3
-            },
-            {
-              "name": "the_adept",
-              "weight": 3
-            },
-            {
-              "name": "swiftness",
-              "weight": 3
-            },
-            {
-              "name": "vigor",
-              "weight": 3
-            },
-            {
-              "name": "speed",
-              "weight": 3
-            },
-            {
-              "name": "auric",
-              "weight": 3
-            },
-            {
-              "name": "the_adroit",
+              "name": "shifting",
               "weight": 3
             }
           ],

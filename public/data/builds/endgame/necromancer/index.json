@@ -4,14 +4,14 @@
     {
       "id": "shadowblight-necromancer",
       "name": "Shadowblight Necromancer",
-      "tier": "S",
+      "tier": "A",
       "file": "shadowblight-necromancer.json"
     },
     {
-      "id": "bone-spirit-necromancer",
-      "name": "Bone Spirit Necromancer",
+      "id": "blood-wave-necromancer",
+      "name": "Blood Wave Necromancer",
       "tier": "A",
-      "file": "bone-spirit-necromancer.json"
+      "file": "blood-wave-necromancer.json"
     },
     {
       "id": "golem-necromancer",
@@ -20,16 +20,16 @@
       "file": "golem-necromancer.json"
     },
     {
+      "id": "bone-spirit-necromancer",
+      "name": "Bone Spirit Necromancer",
+      "tier": "A",
+      "file": "bone-spirit-necromancer.json"
+    },
+    {
       "id": "minion-necromancer",
       "name": "Minion Necromancer",
       "tier": "A",
       "file": "minion-necromancer.json"
-    },
-    {
-      "id": "blood-wave-necromancer",
-      "name": "Blood Wave Necromancer",
-      "tier": "S",
-      "file": "blood-wave-necromancer.json"
     },
     {
       "id": "bone-spear-necromancer",
@@ -64,7 +64,7 @@
     {
       "id": "affliction-necromancer",
       "name": "Affliction Necromancer",
-      "tier": "C",
+      "tier": "B",
       "file": "affliction-necromancer.json"
     }
   ]

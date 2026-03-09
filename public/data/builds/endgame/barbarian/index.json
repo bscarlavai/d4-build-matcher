@@ -8,10 +8,10 @@
       "file": "leapquake-barbarian.json"
     },
     {
-      "id": "whirlwind-barbarian",
-      "name": "Whirlwind Barbarian",
+      "id": "hammer-of-the-ancients-barbarian",
+      "name": "Hammer Of The Ancients Barbarian",
       "tier": "S",
-      "file": "whirlwind-barbarian.json"
+      "file": "hammer-of-the-ancients-barbarian.json"
     },
     {
       "id": "lunging-strike-barbarian",
@@ -20,10 +20,10 @@
       "file": "lunging-strike-barbarian.json"
     },
     {
-      "id": "hammer-of-the-ancients-barbarian",
-      "name": "Hammer Of The Ancients Barbarian",
+      "id": "whirlwind-barbarian",
+      "name": "Whirlwind Barbarian",
       "tier": "S",
-      "file": "hammer-of-the-ancients-barbarian.json"
+      "file": "whirlwind-barbarian.json"
     },
     {
       "id": "mighty-throw-barbarian",

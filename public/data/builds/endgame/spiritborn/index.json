@@ -10,7 +10,7 @@
     {
       "id": "crushing-hand-spiritborn",
       "name": "Crushing Hand Spiritborn",
-      "tier": "A",
+      "tier": "S",
       "file": "crushing-hand-spiritborn.json"
     },
     {
@@ -18,12 +18,6 @@
       "name": "Quill Volley Spiritborn",
       "tier": "A",
       "file": "quill-volley-spiritborn.json"
-    },
-    {
-      "id": "thorns-spiritborn-build",
-      "name": "Thorns Spiritborn Build",
-      "tier": "A",
-      "file": "thorns-spiritborn-build.json"
     },
     {
       "id": "rake-spiritborn",
@@ -34,20 +28,26 @@
     {
       "id": "payback-spiritborn-build",
       "name": "Payback Spiritborn Build",
-      "tier": "B",
+      "tier": "A",
       "file": "payback-spiritborn-build.json"
     },
     {
       "id": "touch-of-death-spiritborn",
       "name": "Touch Of Death Spiritborn",
-      "tier": "B",
+      "tier": "A",
       "file": "touch-of-death-spiritborn.json"
     },
     {
       "id": "beast-strike-spiritborn",
       "name": "Beast Strike Spiritborn",
-      "tier": "S",
+      "tier": "A",
       "file": "beast-strike-spiritborn.json"
+    },
+    {
+      "id": "thorns-spiritborn-build",
+      "name": "Thorns Spiritborn Build",
+      "tier": "B",
+      "file": "thorns-spiritborn-build.json"
     }
   ]
 }

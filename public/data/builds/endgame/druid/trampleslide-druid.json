@@ -1,19 +1,18 @@
 {
-  "id": "fireball-sorcerer",
-  "name": "Fireball Sorcerer",
-  "class": "sorcerer",
+  "id": "trampleslide-druid",
+  "name": "Trampleslide Druid",
+  "class": "druid",
   "category": "endgame",
-  "source_url": "https://maxroll.gg/d4/build-guides/fireball-sorcerer-guide",
-  "tier": "C",
+  "source_url": "https://maxroll.gg/d4/build-guides/trampleslide-druid-guide",
+  "tier": "A",
   "tags": [],
   "last_updated": "2026-03-09",
   "profile_order": [
     "starter",
     "ancestral",
     "mythic",
-    "push",
     "speedfarm",
-    "sanctified"
+    "push"
   ],
   "profiles": {
     "starter": {
@@ -25,19 +24,19 @@
           "priority_aspects": [],
           "priority_affixes": [
             {
-              "name": "swiftness",
+              "name": "determination",
               "weight": 10
             },
             {
-              "name": "the_wise",
+              "name": "vigor",
               "weight": 8
             },
             {
-              "name": "vigor",
+              "name": "toughened",
               "weight": 6
             },
             {
-              "name": "toughened",
+              "name": "auric",
               "weight": 4
             }
           ],
@@ -49,7 +48,7 @@
           "priority_aspects": [],
           "priority_affixes": [
             {
-              "name": "the_wise",
+              "name": "determination",
               "weight": 10
             },
             {
@@ -63,31 +62,61 @@
             {
               "name": "auric",
               "weight": 4
+            },
+            {
+              "name": "infusing",
+              "weight": 3
+            }
+          ],
+          "required_tempers": []
+        },
+        "weapon": {
+          "slot": "weapon",
+          "priority_uniques": [],
+          "priority_aspects": [],
+          "priority_affixes": [
+            {
+              "name": "determination",
+              "weight": 10
+            },
+            {
+              "name": "vigor",
+              "weight": 8
+            },
+            {
+              "name": "efficiency",
+              "weight": 6
+            },
+            {
+              "name": "the_focused",
+              "weight": 4
             }
           ],
           "required_tempers": []
         },
         "gloves": {
           "slot": "gloves",
-          "priority_uniques": [
-            "Gloves of the Illuminator"
-          ],
+          "priority_uniques": [],
           "priority_aspects": [],
           "priority_affixes": [
             {
-              "name": "detonation",
+              "name": "the_earthmover",
+              "weight": 10
+            },
+            {
+              "name": "the_adept",
               "weight": 8
             },
             {
-              "name": "unique_attackspeed_fireball",
+              "name": "keenness",
               "weight": 6
             },
             {
-              "name": "unique_critchance_higher",
+              "name": "determination",
               "weight": 4
             },
             {
-              "name": "unique_resource_sorcmana_onfireballexplosion",
+              "name": "vigor",
               "weight": 3
             }
           ],
@@ -99,19 +128,19 @@
           "priority_aspects": [],
           "priority_affixes": [
             {
-              "name": "the_wise",
+              "name": "determination",
               "weight": 10
             },
             {
-              "name": "vigor",
+              "name": "toughened",
               "weight": 8
             },
             {
-              "name": "toughened",
+              "name": "auric",
               "weight": 6
             },
             {
-              "name": "auric",
+              "name": "vigor",
               "weight": 4
             }
           ],
@@ -123,20 +152,24 @@
           "priority_aspects": [],
           "priority_affixes": [
             {
-              "name": "the_wise",
+              "name": "speed",
               "weight": 10
             },
             {
-              "name": "vigor",
+              "name": "infusing",
               "weight": 8
             },
             {
-              "name": "speed",
+              "name": "toughened",
               "weight": 6
             },
             {
-              "name": "toughened",
+              "name": "auric",
               "weight": 4
+            },
+            {
+              "name": "determination",
+              "weight": 3
             }
           ],
           "required_tempers": []
@@ -147,27 +180,23 @@
           "priority_aspects": [],
           "priority_affixes": [
             {
-              "name": "carnage",
+              "name": "determination",
               "weight": 10
             },
             {
-              "name": "swiftness",
+              "name": "keenness",
               "weight": 8
             },
             {
-              "name": "riving",
+              "name": "the_adept",
               "weight": 6
             },
             {
-              "name": "the_wise",
+              "name": "triumph",
               "weight": 4
             },
             {
-              "name": "keenness",
-              "weight": 3
-            },
-            {
-              "name": "vigor",
+              "name": "the_focused",
               "weight": 3
             }
           ],
@@ -179,35 +208,23 @@
           "priority_aspects": [],
           "priority_affixes": [
             {
-              "name": "combusting",
+              "name": "poison_soaked",
               "weight": 10
             },
             {
-              "name": "reckless_magic",
+              "name": "speed",
               "weight": 8
             },
             {
-              "name": "permafrost",
+              "name": "the_adept",
               "weight": 6
             },
             {
-              "name": "the_adept",
+              "name": "keenness",
               "weight": 4
             },
             {
-              "name": "the_flameborne",
-              "weight": 3
-            },
-            {
-              "name": "the_snowscape",
-              "weight": 3
-            },
-            {
-              "name": "precision",
-              "weight": 3
-            },
-            {
-              "name": "keenness",
+              "name": "crushing",
               "weight": 3
             }
           ],
@@ -221,25 +238,25 @@
         "helm": {
           "slot": "helm",
           "priority_uniques": [
-            "Godslayer Crown"
+            "Vasily's Prayer"
           ],
           "priority_aspects": [],
           "priority_affixes": [
             {
-              "name": "swiftness",
-              "weight": 8
-            },
-            {
-              "name": "harmony",
-              "weight": 6
+              "name": "the_tenacious",
+              "weight": 10
             },
             {
               "name": "vigor",
-              "weight": 4
+              "weight": 8
             },
             {
-              "name": "unique_damage_to_elite_specialscaling",
-              "weight": 3
+              "name": "unique_passiverankbonus_druid_04_defensiveposture",
+              "weight": 6
+            },
+            {
+              "name": "toughened",
+              "weight": 4
             }
           ],
           "required_tempers": []
@@ -250,7 +267,31 @@
           "priority_aspects": [],
           "priority_affixes": [
             {
-              "name": "the_wise",
+              "name": "determination",
+              "weight": 10
+            },
+            {
+              "name": "auric",
+              "weight": 8
+            },
+            {
+              "name": "vigor",
+              "weight": 6
+            },
+            {
+              "name": "toughened",
+              "weight": 4
+            }
+          ],
+          "required_tempers": []
+        },
+        "weapon": {
+          "slot": "weapon",
+          "priority_uniques": [],
+          "priority_aspects": [],
+          "priority_affixes": [
+            {
+              "name": "determination",
               "weight": 10
             },
             {
@@ -258,37 +299,43 @@
               "weight": 8
             },
             {
-              "name": "toughened",
+              "name": "the_focused",
               "weight": 6
             },
             {
-              "name": "auric",
+              "name": "cruelty",
               "weight": 4
+            },
+            {
+              "name": "ferocity",
+              "weight": 3
             }
           ],
           "required_tempers": []
         },
         "gloves": {
           "slot": "gloves",
-          "priority_uniques": [
-            "Gloves of the Illuminator"
-          ],
+          "priority_uniques": [],
           "priority_aspects": [],
           "priority_affixes": [
             {
-              "name": "detonation",
+              "name": "the_earthmover",
+              "weight": 10
+            },
+            {
+              "name": "keenness",
               "weight": 8
             },
             {
-              "name": "unique_attackspeed_fireball",
+              "name": "determination",
               "weight": 6
             },
             {
-              "name": "unique_critchance_higher",
+              "name": "vigor",
               "weight": 4
             },
             {
-              "name": "unique_resource_sorcmana_onfireballexplosion",
+              "name": "the_adept",
               "weight": 3
             }
           ],
@@ -297,25 +344,25 @@
         "pants": {
           "slot": "pants",
           "priority_uniques": [
-            "Temerity"
+            "Tibault's Will"
           ],
           "priority_aspects": [],
           "priority_affixes": [
+            {
+              "name": "unique_damagereduction_whileunstoppable",
+              "weight": 10
+            },
             {
               "name": "vigor",
               "weight": 8
             },
             {
-              "name": "toughened",
+              "name": "harmony",
               "weight": 6
             },
             {
-              "name": "unique_healingpercent_verybig",
+              "name": "resources",
               "weight": 4
-            },
-            {
-              "name": "unique_generic_luckyhit_heallife",
-              "weight": 3
             }
           ],
           "required_tempers": []
@@ -326,65 +373,55 @@
           "priority_aspects": [],
           "priority_affixes": [
             {
-              "name": "the_wise",
+              "name": "determination",
               "weight": 10
             },
             {
-              "name": "vigor",
+              "name": "auric",
               "weight": 8
             },
             {
-              "name": "speed",
+              "name": "vigor",
               "weight": 6
             },
             {
-              "name": "toughened",
+              "name": "speed",
               "weight": 4
+            },
+            {
+              "name": "toughened",
+              "weight": 3
             }
           ],
           "required_tempers": []
         },
         "ring": {
           "slot": "ring",
-          "priority_uniques": [
-            "Tal Rasha's Iridescent Loop"
-          ],
+          "priority_uniques": [],
           "priority_aspects": [],
           "priority_affixes": [
             {
-              "name": "carnage",
+              "name": "determination",
               "weight": 10
             },
             {
-              "name": "swiftness",
+              "name": "riving",
               "weight": 8
             },
             {
-              "name": "riving",
+              "name": "keenness",
               "weight": 6
             },
             {
-              "name": "the_wise",
+              "name": "auric",
               "weight": 4
-            },
-            {
-              "name": "keenness",
-              "weight": 3
             },
             {
               "name": "vigor",
               "weight": 3
             },
             {
-              "name": "unique_damage_type_bonus_nonphysical_higher",
-              "weight": 6
-            },
-            {
-              "name": "luck",
-              "weight": 4
-            },
-            {
-              "name": "unique_passiverankbonus_sorc_elemental_t1_n1_potentwarding",
+              "name": "the_focused",
               "weight": 3
             }
           ],
@@ -396,27 +433,23 @@
           "priority_aspects": [],
           "priority_affixes": [
             {
-              "name": "combusting",
+              "name": "toxicity",
               "weight": 10
             },
             {
-              "name": "reckless_magic",
+              "name": "poison_soaked",
               "weight": 8
             },
             {
-              "name": "the_flameborne",
+              "name": "the_tenacious",
               "weight": 6
             },
             {
-              "name": "permafrost",
+              "name": "shifting",
               "weight": 4
             },
             {
-              "name": "the_snowscape",
-              "weight": 3
-            },
-            {
-              "name": "precision",
+              "name": "speed",
               "weight": 3
             },
             {
@@ -434,7 +467,7 @@
         "helm": {
           "slot": "helm",
           "priority_uniques": [
-            "Harlequin Crest"
+            "Heir of Perdition"
           ],
           "priority_aspects": [],
           "priority_affixes": [],
@@ -449,27 +482,57 @@
           "priority_affixes": [],
           "required_tempers": []
         },
-        "gloves": {
-          "slot": "gloves",
-          "priority_uniques": [
-            "Gloves of the Illuminator"
-          ],
+        "weapon": {
+          "slot": "weapon",
+          "priority_uniques": [],
           "priority_aspects": [],
           "priority_affixes": [
             {
-              "name": "detonation",
+              "name": "determination",
+              "weight": 10
+            },
+            {
+              "name": "vigor",
               "weight": 8
             },
             {
-              "name": "unique_attackspeed_fireball",
+              "name": "the_focused",
               "weight": 6
             },
             {
-              "name": "unique_critchance_higher",
+              "name": "cruelty",
               "weight": 4
             },
             {
-              "name": "unique_resource_sorcmana_onfireballexplosion",
+              "name": "ferocity",
+              "weight": 3
+            }
+          ],
+          "required_tempers": []
+        },
+        "gloves": {
+          "slot": "gloves",
+          "priority_uniques": [],
+          "priority_aspects": [],
+          "priority_affixes": [
+            {
+              "name": "the_earthmover",
+              "weight": 10
+            },
+            {
+              "name": "keenness",
+              "weight": 8
+            },
+            {
+              "name": "determination",
+              "weight": 6
+            },
+            {
+              "name": "vigor",
+              "weight": 4
+            },
+            {
+              "name": "the_adept",
               "weight": 3
             }
           ],
@@ -478,25 +541,25 @@
         "pants": {
           "slot": "pants",
           "priority_uniques": [
-            "Temerity"
+            "Fists of Fate"
           ],
           "priority_aspects": [],
           "priority_affixes": [
             {
-              "name": "vigor",
+              "name": "unique_luck_gigagiga_highvariance",
+              "weight": 10
+            },
+            {
+              "name": "unique_attackspeed_highvariance",
               "weight": 8
             },
             {
-              "name": "toughened",
+              "name": "unique_critchance_highvariance",
               "weight": 6
             },
             {
-              "name": "unique_healingpercent_verybig",
+              "name": "unique_generic_luckyhit_vulnerable_highvariance",
               "weight": 4
-            },
-            {
-              "name": "unique_generic_luckyhit_heallife",
-              "weight": 3
             }
           ],
           "required_tempers": []
@@ -507,53 +570,55 @@
           "priority_aspects": [],
           "priority_affixes": [
             {
-              "name": "the_wise",
+              "name": "determination",
               "weight": 10
             },
             {
-              "name": "vigor",
+              "name": "auric",
               "weight": 8
             },
             {
-              "name": "speed",
+              "name": "vigor",
               "weight": 6
             },
             {
-              "name": "toughened",
+              "name": "speed",
               "weight": 4
+            },
+            {
+              "name": "toughened",
+              "weight": 3
             }
           ],
           "required_tempers": []
         },
         "ring": {
           "slot": "ring",
-          "priority_uniques": [
-            "Ring of Starless Skies"
-          ],
+          "priority_uniques": [],
           "priority_aspects": [],
           "priority_affixes": [
             {
-              "name": "carnage",
+              "name": "determination",
               "weight": 10
             },
             {
-              "name": "swiftness",
+              "name": "keenness",
               "weight": 8
             },
             {
-              "name": "riving",
+              "name": "vigor",
               "weight": 6
             },
             {
-              "name": "the_wise",
+              "name": "auric",
               "weight": 4
             },
             {
-              "name": "keenness",
+              "name": "the_focused",
               "weight": 3
             },
             {
-              "name": "vigor",
+              "name": "riving",
               "weight": 3
             }
           ],
@@ -565,27 +630,223 @@
           "priority_aspects": [],
           "priority_affixes": [
             {
-              "name": "combusting",
+              "name": "toxicity",
               "weight": 10
             },
             {
-              "name": "reckless_magic",
+              "name": "poison_soaked",
               "weight": 8
             },
             {
-              "name": "the_flameborne",
+              "name": "the_tenacious",
               "weight": 6
             },
             {
-              "name": "permafrost",
+              "name": "shifting",
               "weight": 4
             },
             {
-              "name": "the_snowscape",
+              "name": "speed",
               "weight": 3
             },
             {
-              "name": "precision",
+              "name": "keenness",
+              "weight": 3
+            }
+          ],
+          "required_tempers": []
+        }
+      }
+    },
+    "speedfarm": {
+      "name": "Speedfarm",
+      "gear": {
+        "helm": {
+          "slot": "helm",
+          "priority_uniques": [
+            "Heir of Perdition"
+          ],
+          "priority_aspects": [],
+          "priority_affixes": [],
+          "required_tempers": []
+        },
+        "chest": {
+          "slot": "chest",
+          "priority_uniques": [
+            "Shroud of False Death"
+          ],
+          "priority_aspects": [],
+          "priority_affixes": [
+            {
+              "name": "determination",
+              "weight": 10
+            },
+            {
+              "name": "vigor",
+              "weight": 8
+            },
+            {
+              "name": "swiftness",
+              "weight": 6
+            },
+            {
+              "name": "efficiency",
+              "weight": 4
+            }
+          ],
+          "required_tempers": []
+        },
+        "gloves": {
+          "slot": "gloves",
+          "priority_uniques": [],
+          "priority_aspects": [],
+          "priority_affixes": [
+            {
+              "name": "the_earthmover",
+              "weight": 10
+            },
+            {
+              "name": "keenness",
+              "weight": 8
+            },
+            {
+              "name": "determination",
+              "weight": 6
+            },
+            {
+              "name": "vigor",
+              "weight": 4
+            },
+            {
+              "name": "the_adept",
+              "weight": 3
+            }
+          ],
+          "required_tempers": []
+        },
+        "pants": {
+          "slot": "pants",
+          "priority_uniques": [
+            "Fists of Fate"
+          ],
+          "priority_aspects": [],
+          "priority_affixes": [
+            {
+              "name": "unique_luck_gigagiga_highvariance",
+              "weight": 10
+            },
+            {
+              "name": "unique_attackspeed_highvariance",
+              "weight": 8
+            },
+            {
+              "name": "unique_critchance_highvariance",
+              "weight": 6
+            },
+            {
+              "name": "unique_generic_luckyhit_vulnerable_highvariance",
+              "weight": 4
+            }
+          ],
+          "required_tempers": []
+        },
+        "boots": {
+          "slot": "boots",
+          "priority_uniques": [],
+          "priority_aspects": [],
+          "priority_affixes": [
+            {
+              "name": "determination",
+              "weight": 10
+            },
+            {
+              "name": "auric",
+              "weight": 8
+            },
+            {
+              "name": "vigor",
+              "weight": 6
+            },
+            {
+              "name": "speed",
+              "weight": 4
+            },
+            {
+              "name": "toughened",
+              "weight": 3
+            }
+          ],
+          "required_tempers": []
+        },
+        "ring": {
+          "slot": "ring",
+          "priority_uniques": [
+            "Airidah's Inexorable Will"
+          ],
+          "priority_aspects": [],
+          "priority_affixes": [
+            {
+              "name": "unique_corestat_willpowerpercent_higher",
+              "weight": 10
+            },
+            {
+              "name": "unique_cdr_tag_generic_ultimate_higher",
+              "weight": 8
+            },
+            {
+              "name": "unique_damage_generic_vs_close_higher",
+              "weight": 6
+            },
+            {
+              "name": "luck",
+              "weight": 4
+            },
+            {
+              "name": "determination",
+              "weight": 10
+            },
+            {
+              "name": "keenness",
+              "weight": 8
+            },
+            {
+              "name": "vigor",
+              "weight": 6
+            },
+            {
+              "name": "auric",
+              "weight": 4
+            },
+            {
+              "name": "the_focused",
+              "weight": 3
+            }
+          ],
+          "required_tempers": []
+        },
+        "amulet": {
+          "slot": "amulet",
+          "priority_uniques": [],
+          "priority_aspects": [],
+          "priority_affixes": [
+            {
+              "name": "toxicity",
+              "weight": 10
+            },
+            {
+              "name": "poison_soaked",
+              "weight": 8
+            },
+            {
+              "name": "the_tenacious",
+              "weight": 6
+            },
+            {
+              "name": "shifting",
+              "weight": 4
+            },
+            {
+              "name": "speed",
               "weight": 3
             },
             {
@@ -615,9 +876,32 @@
             "Shroud of False Death"
           ],
           "priority_aspects": [],
+          "priority_affixes": [],
+          "required_tempers": []
+        },
+        "weapon": {
+          "slot": "weapon",
+          "priority_uniques": [],
+          "priority_aspects": [],
           "priority_affixes": [
             {
-              "name": "sanctification",
+              "name": "determination",
+              "weight": 10
+            },
+            {
+              "name": "vigor",
+              "weight": 8
+            },
+            {
+              "name": "the_focused",
+              "weight": 6
+            },
+            {
+              "name": "cruelty",
+              "weight": 4
+            },
+            {
+              "name": "ferocity",
               "weight": 3
             }
           ],
@@ -625,25 +909,27 @@
         },
         "gloves": {
           "slot": "gloves",
-          "priority_uniques": [
-            "Gloves of the Illuminator"
-          ],
+          "priority_uniques": [],
           "priority_aspects": [],
           "priority_affixes": [
             {
-              "name": "detonation",
+              "name": "the_earthmover",
+              "weight": 10
+            },
+            {
+              "name": "keenness",
               "weight": 8
             },
             {
-              "name": "unique_attackspeed_fireball",
+              "name": "determination",
               "weight": 6
             },
             {
-              "name": "unique_critchance_higher",
+              "name": "vigor",
               "weight": 4
             },
             {
-              "name": "unique_resource_sorcmana_onfireballexplosion",
+              "name": "the_adept",
               "weight": 3
             }
           ],
@@ -652,29 +938,25 @@
         "pants": {
           "slot": "pants",
           "priority_uniques": [
-            "Temerity"
+            "Fists of Fate"
           ],
           "priority_aspects": [],
           "priority_affixes": [
             {
-              "name": "vigor",
+              "name": "unique_luck_gigagiga_highvariance",
+              "weight": 10
+            },
+            {
+              "name": "unique_attackspeed_highvariance",
               "weight": 8
             },
             {
-              "name": "unique_healingpercent_verybig",
+              "name": "unique_critchance_highvariance",
               "weight": 6
             },
             {
-              "name": "toughened",
+              "name": "unique_generic_luckyhit_vulnerable_highvariance",
               "weight": 4
-            },
-            {
-              "name": "unique_generic_luckyhit_heallife",
-              "weight": 3
-            },
-            {
-              "name": "sanctification",
-              "weight": 3
             }
           ],
           "required_tempers": []
@@ -685,222 +967,55 @@
           "priority_aspects": [],
           "priority_affixes": [
             {
-              "name": "the_wise",
+              "name": "determination",
               "weight": 10
             },
             {
-              "name": "vigor",
+              "name": "auric",
               "weight": 8
             },
             {
-              "name": "speed",
+              "name": "vigor",
               "weight": 6
             },
             {
+              "name": "speed",
+              "weight": 4
+            },
+            {
               "name": "toughened",
+              "weight": 3
+            }
+          ],
+          "required_tempers": []
+        },
+        "ring": {
+          "slot": "ring",
+          "priority_uniques": [],
+          "priority_aspects": [],
+          "priority_affixes": [
+            {
+              "name": "determination",
+              "weight": 10
+            },
+            {
+              "name": "keenness",
+              "weight": 8
+            },
+            {
+              "name": "vigor",
+              "weight": 6
+            },
+            {
+              "name": "auric",
               "weight": 4
             },
             {
               "name": "the_focused",
               "weight": 3
-            }
-          ],
-          "required_tempers": []
-        },
-        "ring": {
-          "slot": "ring",
-          "priority_uniques": [
-            "Ring of Starless Skies"
-          ],
-          "priority_aspects": [],
-          "priority_affixes": [
-            {
-              "name": "carnage",
-              "weight": 10
-            },
-            {
-              "name": "swiftness",
-              "weight": 8
-            },
-            {
-              "name": "the_wise",
-              "weight": 6
-            },
-            {
-              "name": "keenness",
-              "weight": 4
-            },
-            {
-              "name": "vigor",
-              "weight": 3
-            }
-          ],
-          "required_tempers": []
-        },
-        "amulet": {
-          "slot": "amulet",
-          "priority_uniques": [],
-          "priority_aspects": [],
-          "priority_affixes": [
-            {
-              "name": "combusting",
-              "weight": 10
-            },
-            {
-              "name": "reckless_magic",
-              "weight": 8
-            },
-            {
-              "name": "the_flameborne",
-              "weight": 6
-            },
-            {
-              "name": "permafrost",
-              "weight": 4
-            },
-            {
-              "name": "the_snowscape",
-              "weight": 3
-            },
-            {
-              "name": "precision",
-              "weight": 3
-            },
-            {
-              "name": "keenness",
-              "weight": 3
-            }
-          ],
-          "required_tempers": []
-        }
-      }
-    },
-    "speedfarm": {
-      "name": "Speedfarm",
-      "gear": {
-        "helm": {
-          "slot": "helm",
-          "priority_uniques": [
-            "Harlequin Crest"
-          ],
-          "priority_aspects": [],
-          "priority_affixes": [],
-          "required_tempers": []
-        },
-        "chest": {
-          "slot": "chest",
-          "priority_uniques": [
-            "Shroud of False Death"
-          ],
-          "priority_aspects": [],
-          "priority_affixes": [],
-          "required_tempers": []
-        },
-        "gloves": {
-          "slot": "gloves",
-          "priority_uniques": [
-            "Gloves of the Illuminator"
-          ],
-          "priority_aspects": [],
-          "priority_affixes": [
-            {
-              "name": "detonation",
-              "weight": 8
-            },
-            {
-              "name": "unique_attackspeed_fireball",
-              "weight": 6
-            },
-            {
-              "name": "unique_critchance_higher",
-              "weight": 4
-            },
-            {
-              "name": "unique_resource_sorcmana_onfireballexplosion",
-              "weight": 3
-            }
-          ],
-          "required_tempers": []
-        },
-        "pants": {
-          "slot": "pants",
-          "priority_uniques": [
-            "Temerity"
-          ],
-          "priority_aspects": [],
-          "priority_affixes": [
-            {
-              "name": "unique_generic_luckyhit_heallife",
-              "weight": 8
-            },
-            {
-              "name": "unique_healingpercent_verybig",
-              "weight": 6
-            },
-            {
-              "name": "vigor",
-              "weight": 4
-            },
-            {
-              "name": "toughened",
-              "weight": 3
-            }
-          ],
-          "required_tempers": []
-        },
-        "boots": {
-          "slot": "boots",
-          "priority_uniques": [],
-          "priority_aspects": [],
-          "priority_affixes": [
-            {
-              "name": "the_wise",
-              "weight": 10
-            },
-            {
-              "name": "vigor",
-              "weight": 8
-            },
-            {
-              "name": "speed",
-              "weight": 6
-            },
-            {
-              "name": "toughened",
-              "weight": 4
-            }
-          ],
-          "required_tempers": []
-        },
-        "ring": {
-          "slot": "ring",
-          "priority_uniques": [
-            "Ring of Starless Skies"
-          ],
-          "priority_aspects": [],
-          "priority_affixes": [
-            {
-              "name": "carnage",
-              "weight": 10
-            },
-            {
-              "name": "swiftness",
-              "weight": 8
             },
             {
               "name": "riving",
-              "weight": 6
-            },
-            {
-              "name": "the_wise",
-              "weight": 4
-            },
-            {
-              "name": "keenness",
-              "weight": 3
-            },
-            {
-              "name": "vigor",
               "weight": 3
             }
           ],
@@ -912,209 +1027,23 @@
           "priority_aspects": [],
           "priority_affixes": [
             {
-              "name": "combusting",
+              "name": "toxicity",
               "weight": 10
             },
             {
-              "name": "reckless_magic",
+              "name": "poison_soaked",
               "weight": 8
             },
             {
-              "name": "the_flameborne",
+              "name": "the_tenacious",
               "weight": 6
             },
             {
-              "name": "permafrost",
+              "name": "shifting",
               "weight": 4
-            },
-            {
-              "name": "the_snowscape",
-              "weight": 3
-            },
-            {
-              "name": "precision",
-              "weight": 3
-            },
-            {
-              "name": "keenness",
-              "weight": 3
-            }
-          ],
-          "required_tempers": []
-        }
-      }
-    },
-    "sanctified": {
-      "name": "Sanctified",
-      "gear": {
-        "helm": {
-          "slot": "helm",
-          "priority_uniques": [
-            "Harlequin Crest"
-          ],
-          "priority_aspects": [],
-          "priority_affixes": [],
-          "required_tempers": []
-        },
-        "chest": {
-          "slot": "chest",
-          "priority_uniques": [
-            "Shroud of False Death"
-          ],
-          "priority_aspects": [],
-          "priority_affixes": [
-            {
-              "name": "sanctification",
-              "weight": 3
-            }
-          ],
-          "required_tempers": []
-        },
-        "gloves": {
-          "slot": "gloves",
-          "priority_uniques": [
-            "Gloves of the Illuminator"
-          ],
-          "priority_aspects": [],
-          "priority_affixes": [
-            {
-              "name": "detonation",
-              "weight": 8
-            },
-            {
-              "name": "unique_attackspeed_fireball",
-              "weight": 6
-            },
-            {
-              "name": "unique_critchance_higher",
-              "weight": 4
-            },
-            {
-              "name": "unique_resource_sorcmana_onfireballexplosion",
-              "weight": 3
-            }
-          ],
-          "required_tempers": []
-        },
-        "pants": {
-          "slot": "pants",
-          "priority_uniques": [
-            "Temerity"
-          ],
-          "priority_aspects": [],
-          "priority_affixes": [
-            {
-              "name": "vigor",
-              "weight": 8
-            },
-            {
-              "name": "unique_healingpercent_verybig",
-              "weight": 6
-            },
-            {
-              "name": "toughened",
-              "weight": 4
-            },
-            {
-              "name": "unique_generic_luckyhit_heallife",
-              "weight": 3
-            },
-            {
-              "name": "sanctification",
-              "weight": 3
-            }
-          ],
-          "required_tempers": []
-        },
-        "boots": {
-          "slot": "boots",
-          "priority_uniques": [],
-          "priority_aspects": [],
-          "priority_affixes": [
-            {
-              "name": "the_wise",
-              "weight": 10
-            },
-            {
-              "name": "vigor",
-              "weight": 8
             },
             {
               "name": "speed",
-              "weight": 6
-            },
-            {
-              "name": "toughened",
-              "weight": 4
-            },
-            {
-              "name": "the_focused",
-              "weight": 3
-            }
-          ],
-          "required_tempers": []
-        },
-        "ring": {
-          "slot": "ring",
-          "priority_uniques": [
-            "Ring of Starless Skies"
-          ],
-          "priority_aspects": [],
-          "priority_affixes": [
-            {
-              "name": "carnage",
-              "weight": 10
-            },
-            {
-              "name": "swiftness",
-              "weight": 8
-            },
-            {
-              "name": "riving",
-              "weight": 6
-            },
-            {
-              "name": "the_wise",
-              "weight": 4
-            },
-            {
-              "name": "keenness",
-              "weight": 3
-            },
-            {
-              "name": "vigor",
-              "weight": 3
-            }
-          ],
-          "required_tempers": []
-        },
-        "amulet": {
-          "slot": "amulet",
-          "priority_uniques": [],
-          "priority_aspects": [],
-          "priority_affixes": [
-            {
-              "name": "combusting",
-              "weight": 10
-            },
-            {
-              "name": "reckless_magic",
-              "weight": 8
-            },
-            {
-              "name": "the_flameborne",
-              "weight": 6
-            },
-            {
-              "name": "permafrost",
-              "weight": 4
-            },
-            {
-              "name": "the_snowscape",
-              "weight": 3
-            },
-            {
-              "name": "precision",
               "weight": 3
             },
             {

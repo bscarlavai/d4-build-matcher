@@ -6,7 +6,7 @@
   "source_url": "https://maxroll.gg/d4/build-guides/twisting-blades-rogue-guide",
   "tier": "A",
   "tags": [],
-  "last_updated": "2026-03-08",
+  "last_updated": "2026-03-09",
   "profile_order": [
     "starter",
     "ancestral",
@@ -394,24 +394,26 @@
       "gear": {
         "helm": {
           "slot": "helm",
-          "priority_uniques": [],
+          "priority_uniques": [
+            "Godslayer Crown"
+          ],
           "priority_aspects": [],
           "priority_affixes": [
             {
-              "name": "the_venomsalve",
-              "weight": 10
-            },
-            {
-              "name": "the_adroit",
+              "name": "harmony",
               "weight": 8
             },
             {
-              "name": "vigor",
+              "name": "swiftness",
               "weight": 6
             },
             {
-              "name": "swiftness",
+              "name": "vigor",
               "weight": 4
+            },
+            {
+              "name": "unique_damage_to_elite_specialscaling",
+              "weight": 3
             }
           ],
           "required_tempers": []
@@ -824,12 +826,7 @@
             "Heir of Perdition"
           ],
           "priority_aspects": [],
-          "priority_affixes": [
-            {
-              "name": "imbuements",
-              "weight": 3
-            }
-          ],
+          "priority_affixes": [],
           "required_tempers": []
         },
         "chest": {
@@ -861,10 +858,6 @@
             {
               "name": "lingering",
               "weight": 4
-            },
-            {
-              "name": "sanctification",
-              "weight": 3
             }
           ],
           "required_tempers": []
@@ -889,10 +882,6 @@
             {
               "name": "riving",
               "weight": 4
-            },
-            {
-              "name": "the_focused",
-              "weight": 3
             }
           ],
           "required_tempers": []
@@ -965,10 +954,6 @@
             {
               "name": "speed",
               "weight": 4
-            },
-            {
-              "name": "sanctification",
-              "weight": 3
             }
           ],
           "required_tempers": []
@@ -980,10 +965,6 @@
           ],
           "priority_aspects": [],
           "priority_affixes": [
-            {
-              "name": "the_focused",
-              "weight": 3
-            },
             {
               "name": "keenness",
               "weight": 10

@@ -2,28 +2,28 @@
   "class": "paladin",
   "builds": [
     {
-      "id": "auradin",
-      "name": "Auradin",
-      "tier": "S",
-      "file": "auradin.json"
-    },
-    {
       "id": "wing-strikes-paladin",
       "name": "Wing Strikes Paladin",
       "tier": "S",
       "file": "wing-strikes-paladin.json"
     },
     {
-      "id": "judgement-paladin",
-      "name": "Judgement Paladin",
+      "id": "auradin",
+      "name": "Auradin",
       "tier": "S",
-      "file": "judgement-paladin.json"
+      "file": "auradin.json"
     },
     {
       "id": "blessed-hammer-paladin",
       "name": "Blessed Hammer Paladin",
       "tier": "S",
       "file": "blessed-hammer-paladin.json"
+    },
+    {
+      "id": "fist-of-the-heavens-paladin",
+      "name": "Fist Of The Heavens Paladin",
+      "tier": "S",
+      "file": "fist-of-the-heavens-paladin.json"
     },
     {
       "id": "shield-of-retribution-paladin",
@@ -50,22 +50,40 @@
       "file": "shield-bash-paladin.json"
     },
     {
-      "id": "zeal-paladin",
-      "name": "Zeal Paladin",
-      "tier": "A",
-      "file": "zeal-paladin.json"
-    },
-    {
       "id": "shield-charge-paladin",
       "name": "Shield Charge Paladin",
       "tier": "A",
       "file": "shield-charge-paladin.json"
     },
     {
+      "id": "divine-javelin-paladin",
+      "name": "Divine Javelin Paladin",
+      "tier": "A",
+      "file": "divine-javelin-paladin.json"
+    },
+    {
       "id": "blessed-shield-paladin",
       "name": "Blessed Shield Paladin",
       "tier": "A",
       "file": "blessed-shield-paladin.json"
+    },
+    {
+      "id": "zeal-paladin",
+      "name": "Zeal Paladin",
+      "tier": "A",
+      "file": "zeal-paladin.json"
+    },
+    {
+      "id": "judgement-paladin",
+      "name": "Judgement Paladin",
+      "tier": "A",
+      "file": "judgement-paladin.json"
+    },
+    {
+      "id": "divine-javelin-paladin",
+      "name": "Divine Javelin Paladin",
+      "tier": "A",
+      "file": "divine-javelin-paladin.json"
     }
   ]
 }

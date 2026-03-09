@@ -6,12 +6,11 @@
   "source_url": "https://maxroll.gg/d4/build-guides/brandish-paladin-guide",
   "tier": "S",
   "tags": [],
-  "last_updated": "2026-03-08",
+  "last_updated": "2026-03-09",
   "profile_order": [
     "starter",
     "ancestral",
     "mythic",
-    "sanctified",
     "push"
   ],
   "profiles": {
@@ -182,7 +181,7 @@
           "priority_aspects": [],
           "priority_affixes": [
             {
-              "name": "keenness",
+              "name": "swiftness",
               "weight": 10
             },
             {
@@ -190,11 +189,11 @@
               "weight": 8
             },
             {
-              "name": "the_adept",
+              "name": "keenness",
               "weight": 6
             },
             {
-              "name": "swiftness",
+              "name": "the_adept",
               "weight": 4
             },
             {
@@ -203,7 +202,7 @@
             },
             {
               "name": "the_powerful",
-              "weight": 6
+              "weight": 4
             }
           ],
           "required_tempers": []
@@ -252,6 +251,10 @@
             {
               "name": "riposting",
               "weight": 3
+            },
+            {
+              "name": "swiftness",
+              "weight": 3
             }
           ],
           "required_tempers": []
@@ -269,11 +272,11 @@
           "priority_aspects": [],
           "priority_affixes": [
             {
-              "name": "vigor",
+              "name": "swiftness",
               "weight": 8
             },
             {
-              "name": "swiftness",
+              "name": "vigor",
               "weight": 6
             },
             {
@@ -315,6 +318,10 @@
             {
               "name": "the_adept",
               "weight": 8
+            },
+            {
+              "name": "swiftness",
+              "weight": 4
             }
           ],
           "required_tempers": []
@@ -423,7 +430,7 @@
           "priority_aspects": [],
           "priority_affixes": [
             {
-              "name": "keenness",
+              "name": "swiftness",
               "weight": 10
             },
             {
@@ -431,16 +438,16 @@
               "weight": 8
             },
             {
-              "name": "the_adept",
+              "name": "keenness",
               "weight": 6
+            },
+            {
+              "name": "the_adept",
+              "weight": 4
             },
             {
               "name": "the_powerful",
               "weight": 4
-            },
-            {
-              "name": "swiftness",
-              "weight": 10
             }
           ],
           "required_tempers": []
@@ -455,16 +462,20 @@
               "weight": 10
             },
             {
-              "name": "righteousness",
+              "name": "the_adept",
               "weight": 8
             },
             {
-              "name": "iron",
+              "name": "righteousness",
               "weight": 6
             },
             {
-              "name": "cracking",
+              "name": "iron",
               "weight": 4
+            },
+            {
+              "name": "cracking",
+              "weight": 3
             },
             {
               "name": "heartiness",
@@ -527,7 +538,7 @@
               "weight": 6
             },
             {
-              "name": "vigor",
+              "name": "swiftness",
               "weight": 4
             }
           ],
@@ -637,7 +648,7 @@
           "priority_aspects": [],
           "priority_affixes": [
             {
-              "name": "keenness",
+              "name": "swiftness",
               "weight": 10
             },
             {
@@ -645,251 +656,16 @@
               "weight": 8
             },
             {
-              "name": "swiftness",
-              "weight": 6
-            },
-            {
-              "name": "the_powerful",
-              "weight": 4
-            },
-            {
-              "name": "the_adept",
-              "weight": 8
-            }
-          ],
-          "required_tempers": []
-        },
-        "amulet": {
-          "slot": "amulet",
-          "priority_uniques": [],
-          "priority_aspects": [],
-          "priority_affixes": [
-            {
-              "name": "resources",
-              "weight": 10
-            },
-            {
-              "name": "righteousness",
-              "weight": 8
-            },
-            {
-              "name": "iron",
-              "weight": 6
-            },
-            {
-              "name": "cracking",
-              "weight": 4
-            },
-            {
-              "name": "heartiness",
-              "weight": 3
-            },
-            {
-              "name": "fortitude",
-              "weight": 3
-            },
-            {
-              "name": "offense",
-              "weight": 3
-            },
-            {
-              "name": "riposting",
-              "weight": 3
-            },
-            {
-              "name": "swiftness",
-              "weight": 3
-            },
-            {
               "name": "keenness",
-              "weight": 3
-            }
-          ],
-          "required_tempers": []
-        }
-      }
-    },
-    "sanctified": {
-      "name": "Sanctified",
-      "gear": {
-        "helm": {
-          "slot": "helm",
-          "priority_uniques": [
-            "Heir of Perdition"
-          ],
-          "priority_aspects": [],
-          "priority_affixes": [
-            {
-              "name": "auras",
-              "weight": 3
-            }
-          ],
-          "required_tempers": []
-        },
-        "chest": {
-          "slot": "chest",
-          "priority_uniques": [
-            "Shroud of False Death"
-          ],
-          "priority_aspects": [],
-          "priority_affixes": [
-            {
-              "name": "sturdiness",
-              "weight": 10
-            },
-            {
-              "name": "the_adept",
-              "weight": 8
+              "weight": 6
             },
             {
               "name": "the_powerful",
-              "weight": 6
+              "weight": 4
             },
             {
               "name": "vigor",
               "weight": 4
-            }
-          ],
-          "required_tempers": []
-        },
-        "weapon": {
-          "slot": "weapon",
-          "priority_uniques": [
-            "Supplication"
-          ],
-          "priority_aspects": [],
-          "priority_affixes": [
-            {
-              "name": "brandishing",
-              "weight": 8
-            },
-            {
-              "name": "unique_attackspeed_basics",
-              "weight": 6
-            },
-            {
-              "name": "unique_double_damage_skill_pal_brandish",
-              "weight": 4
-            },
-            {
-              "name": "the_powerful",
-              "weight": 3
-            }
-          ],
-          "required_tempers": []
-        },
-        "gloves": {
-          "slot": "gloves",
-          "priority_uniques": [],
-          "priority_aspects": [],
-          "priority_affixes": [
-            {
-              "name": "the_adept",
-              "weight": 10
-            },
-            {
-              "name": "swiftness",
-              "weight": 8
-            },
-            {
-              "name": "vigor",
-              "weight": 6
-            },
-            {
-              "name": "the_powerful",
-              "weight": 4
-            },
-            {
-              "name": "sanctification",
-              "weight": 3
-            }
-          ],
-          "required_tempers": []
-        },
-        "pants": {
-          "slot": "pants",
-          "priority_uniques": [],
-          "priority_aspects": [],
-          "priority_affixes": [
-            {
-              "name": "brandishing",
-              "weight": 10
-            },
-            {
-              "name": "the_powerful",
-              "weight": 8
-            },
-            {
-              "name": "vigor",
-              "weight": 6
-            },
-            {
-              "name": "toughened",
-              "weight": 4
-            },
-            {
-              "name": "sanctification",
-              "weight": 3
-            }
-          ],
-          "required_tempers": []
-        },
-        "boots": {
-          "slot": "boots",
-          "priority_uniques": [],
-          "priority_aspects": [],
-          "priority_affixes": [
-            {
-              "name": "speed",
-              "weight": 10
-            },
-            {
-              "name": "the_powerful",
-              "weight": 8
-            },
-            {
-              "name": "vigor",
-              "weight": 6
-            },
-            {
-              "name": "auric",
-              "weight": 4
-            },
-            {
-              "name": "sanctification",
-              "weight": 3
-            }
-          ],
-          "required_tempers": []
-        },
-        "ring": {
-          "slot": "ring",
-          "priority_uniques": [],
-          "priority_aspects": [],
-          "priority_affixes": [
-            {
-              "name": "keenness",
-              "weight": 10
-            },
-            {
-              "name": "carnage",
-              "weight": 8
-            },
-            {
-              "name": "swiftness",
-              "weight": 6
-            },
-            {
-              "name": "the_powerful",
-              "weight": 4
-            },
-            {
-              "name": "sanctification_skillrankbonus_allskills",
-              "weight": 3
-            },
-            {
-              "name": "the_adept",
-              "weight": 8
             }
           ],
           "required_tempers": []
@@ -976,7 +752,7 @@
               "weight": 6
             },
             {
-              "name": "vigor",
+              "name": "swiftness",
               "weight": 4
             }
           ],
@@ -1086,7 +862,7 @@
           "priority_aspects": [],
           "priority_affixes": [
             {
-              "name": "keenness",
+              "name": "swiftness",
               "weight": 10
             },
             {
@@ -1094,7 +870,7 @@
               "weight": 8
             },
             {
-              "name": "swiftness",
+              "name": "keenness",
               "weight": 6
             },
             {
@@ -1102,8 +878,8 @@
               "weight": 4
             },
             {
-              "name": "the_adept",
-              "weight": 8
+              "name": "vigor",
+              "weight": 4
             }
           ],
           "required_tempers": []

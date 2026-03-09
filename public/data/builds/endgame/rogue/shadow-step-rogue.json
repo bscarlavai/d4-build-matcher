@@ -1,40 +1,42 @@
 {
-  "id": "death-trap-rogue",
-  "name": "Death Trap Rogue",
+  "id": "shadow-step-rogue",
+  "name": "Shadow Step Rogue",
   "class": "rogue",
   "category": "endgame",
-  "source_url": "https://maxroll.gg/d4/build-guides/death-trap-rogue-guide",
-  "tier": "A",
+  "source_url": "https://maxroll.gg/d4/build-guides/shadow-step-rogue-guide",
+  "tier": "B",
   "tags": [],
   "last_updated": "2026-03-09",
   "profile_order": [
-    "starter",
     "ancestral",
-    "mythic"
+    "mythic",
+    "poisonstep"
   ],
   "profiles": {
-    "starter": {
-      "name": "Starter",
+    "ancestral": {
+      "name": "Ancestral",
       "gear": {
         "helm": {
           "slot": "helm",
-          "priority_uniques": [],
+          "priority_uniques": [
+            "Cowl of the Nameless"
+          ],
           "priority_aspects": [],
           "priority_affixes": [
             {
-              "name": "swiftness",
+              "name": "unique_passiverankbonus_rogue_04_trickattacks",
               "weight": 10
             },
             {
-              "name": "the_adroit",
+              "name": "instability",
               "weight": 8
             },
             {
-              "name": "vigor",
+              "name": "unique_passiverankbonus_rogue_06_rapidgambits",
               "weight": 6
             },
             {
-              "name": "auric",
+              "name": "unique_duration_generic_cc_all_higher",
               "weight": 4
             }
           ],
@@ -46,11 +48,11 @@
           "priority_aspects": [],
           "priority_affixes": [
             {
-              "name": "the_adroit",
+              "name": "the_veil",
               "weight": 10
             },
             {
-              "name": "toughened",
+              "name": "the_adroit",
               "weight": 8
             },
             {
@@ -58,7 +60,7 @@
               "weight": 6
             },
             {
-              "name": "the_veil",
+              "name": "toughened",
               "weight": 4
             }
           ],
@@ -78,12 +80,419 @@
               "weight": 8
             },
             {
-              "name": "the_focused",
+              "name": "cruelty",
+              "weight": 6
+            },
+            {
+              "name": "ferocity",
+              "weight": 4
+            }
+          ],
+          "required_tempers": []
+        },
+        "weapon": {
+          "slot": "weapon",
+          "priority_uniques": [
+            "Asheara's Khanjar"
+          ],
+          "priority_aspects": [],
+          "priority_affixes": [
+            {
+              "name": "brandishing",
+              "weight": 10
+            },
+            {
+              "name": "the_adept",
+              "weight": 6
+            },
+            {
+              "name": "luck",
+              "weight": 4
+            },
+            {
+              "name": "vigor",
+              "weight": 3
+            }
+          ],
+          "required_tempers": []
+        },
+        "gloves": {
+          "slot": "gloves",
+          "priority_uniques": [
+            "Grasp of Shadow"
+          ],
+          "priority_aspects": [],
+          "priority_affixes": [
+            {
+              "name": "unique_skillrankbonus_rogue_category_marksman_cutthroat",
+              "weight": 10
+            },
+            {
+              "name": "unique_attackspeed_higher",
+              "weight": 8
+            },
+            {
+              "name": "the_adept",
+              "weight": 6
+            },
+            {
+              "name": "unique_damage_generic_tag_ultimate_higher",
+              "weight": 4
+            }
+          ],
+          "required_tempers": []
+        },
+        "pants": {
+          "slot": "pants",
+          "priority_uniques": [],
+          "priority_aspects": [],
+          "priority_affixes": [
+            {
+              "name": "vigor",
+              "weight": 10
+            },
+            {
+              "name": "the_adroit",
+              "weight": 8
+            },
+            {
+              "name": "auric",
+              "weight": 6
+            },
+            {
+              "name": "toughened",
+              "weight": 4
+            }
+          ],
+          "required_tempers": []
+        },
+        "boots": {
+          "slot": "boots",
+          "priority_uniques": [
+            "Assassin's Stride"
+          ],
+          "priority_aspects": [],
+          "priority_affixes": [
+            {
+              "name": "unique_cdr_tag_generic_mobility",
+              "weight": 8
+            },
+            {
+              "name": "unique_skillrankbonus_generic_category_mobility",
+              "weight": 6
+            },
+            {
+              "name": "unique_skillrankbonus_rogue_shadowimbuement_higher",
+              "weight": 4
+            },
+            {
+              "name": "sanctity",
+              "weight": 3
+            }
+          ],
+          "required_tempers": []
+        },
+        "ring": {
+          "slot": "ring",
+          "priority_uniques": [],
+          "priority_aspects": [],
+          "priority_affixes": [
+            {
+              "name": "keenness",
+              "weight": 10
+            },
+            {
+              "name": "swiftness",
+              "weight": 8
+            },
+            {
+              "name": "the_adroit",
+              "weight": 6
+            },
+            {
+              "name": "vigor",
+              "weight": 4
+            }
+          ],
+          "required_tempers": []
+        },
+        "amulet": {
+          "slot": "amulet",
+          "priority_uniques": [],
+          "priority_aspects": [],
+          "priority_affixes": [
+            {
+              "name": "malice",
+              "weight": 10
+            },
+            {
+              "name": "swiftness",
+              "weight": 8
+            },
+            {
+              "name": "exploits",
               "weight": 6
             },
             {
               "name": "keenness",
               "weight": 4
+            }
+          ],
+          "required_tempers": []
+        }
+      }
+    },
+    "mythic": {
+      "name": "Mythic",
+      "gear": {
+        "helm": {
+          "slot": "helm",
+          "priority_uniques": [
+            "Heir of Perdition"
+          ],
+          "priority_aspects": [],
+          "priority_affixes": [],
+          "required_tempers": []
+        },
+        "chest": {
+          "slot": "chest",
+          "priority_uniques": [
+            "Shroud of False Death"
+          ],
+          "priority_aspects": [],
+          "priority_affixes": [],
+          "required_tempers": []
+        },
+        "offhand": {
+          "slot": "offhand",
+          "priority_uniques": [],
+          "priority_aspects": [],
+          "priority_affixes": [
+            {
+              "name": "the_adroit",
+              "weight": 10
+            },
+            {
+              "name": "vigor",
+              "weight": 8
+            },
+            {
+              "name": "cruelty",
+              "weight": 6
+            },
+            {
+              "name": "ferocity",
+              "weight": 4
+            }
+          ],
+          "required_tempers": []
+        },
+        "weapon": {
+          "slot": "weapon",
+          "priority_uniques": [
+            "Asheara's Khanjar"
+          ],
+          "priority_aspects": [],
+          "priority_affixes": [
+            {
+              "name": "brandishing",
+              "weight": 10
+            },
+            {
+              "name": "the_adept",
+              "weight": 6
+            },
+            {
+              "name": "luck",
+              "weight": 4
+            },
+            {
+              "name": "vigor",
+              "weight": 3
+            }
+          ],
+          "required_tempers": []
+        },
+        "gloves": {
+          "slot": "gloves",
+          "priority_uniques": [
+            "Grasp of Shadow"
+          ],
+          "priority_aspects": [],
+          "priority_affixes": [
+            {
+              "name": "unique_skillrankbonus_rogue_category_marksman_cutthroat",
+              "weight": 10
+            },
+            {
+              "name": "unique_attackspeed_higher",
+              "weight": 8
+            },
+            {
+              "name": "the_adept",
+              "weight": 6
+            },
+            {
+              "name": "unique_damage_generic_tag_ultimate_higher",
+              "weight": 4
+            }
+          ],
+          "required_tempers": []
+        },
+        "pants": {
+          "slot": "pants",
+          "priority_uniques": [],
+          "priority_aspects": [],
+          "priority_affixes": [
+            {
+              "name": "vigor",
+              "weight": 10
+            },
+            {
+              "name": "the_adroit",
+              "weight": 8
+            },
+            {
+              "name": "auric",
+              "weight": 6
+            },
+            {
+              "name": "toughened",
+              "weight": 4
+            }
+          ],
+          "required_tempers": []
+        },
+        "boots": {
+          "slot": "boots",
+          "priority_uniques": [
+            "Assassin's Stride"
+          ],
+          "priority_aspects": [],
+          "priority_affixes": [
+            {
+              "name": "unique_cdr_tag_generic_mobility",
+              "weight": 10
+            },
+            {
+              "name": "unique_skillrankbonus_generic_category_mobility",
+              "weight": 6
+            },
+            {
+              "name": "unique_skillrankbonus_rogue_shadowimbuement_higher",
+              "weight": 4
+            },
+            {
+              "name": "sanctity",
+              "weight": 3
+            }
+          ],
+          "required_tempers": []
+        },
+        "ring": {
+          "slot": "ring",
+          "priority_uniques": [],
+          "priority_aspects": [],
+          "priority_affixes": [
+            {
+              "name": "swiftness",
+              "weight": 10
+            },
+            {
+              "name": "keenness",
+              "weight": 8
+            },
+            {
+              "name": "the_adroit",
+              "weight": 6
+            },
+            {
+              "name": "vigor",
+              "weight": 4
+            }
+          ],
+          "required_tempers": []
+        },
+        "amulet": {
+          "slot": "amulet",
+          "priority_uniques": [],
+          "priority_aspects": [],
+          "priority_affixes": [
+            {
+              "name": "malice",
+              "weight": 10
+            },
+            {
+              "name": "swiftness",
+              "weight": 8
+            },
+            {
+              "name": "exploits",
+              "weight": 6
+            },
+            {
+              "name": "keenness",
+              "weight": 4
+            }
+          ],
+          "required_tempers": []
+        }
+      }
+    },
+    "poisonstep": {
+      "name": "Poisonstep",
+      "gear": {
+        "helm": {
+          "slot": "helm",
+          "priority_uniques": [
+            "Heir of Perdition"
+          ],
+          "priority_aspects": [],
+          "priority_affixes": [],
+          "required_tempers": []
+        },
+        "chest": {
+          "slot": "chest",
+          "priority_uniques": [
+            "Scoundrel's Leathers"
+          ],
+          "priority_aspects": [],
+          "priority_affixes": [
+            {
+              "name": "unique_damage_rogue_tag_trap_giga",
+              "weight": 10
+            },
+            {
+              "name": "the_adroit",
+              "weight": 6
+            },
+            {
+              "name": "damage_to_trapped_triple_unique",
+              "weight": 4
+            },
+            {
+              "name": "unique_movement_speed_higher",
+              "weight": 3
+            }
+          ],
+          "required_tempers": []
+        },
+        "offhand": {
+          "slot": "offhand",
+          "priority_uniques": [],
+          "priority_aspects": [],
+          "priority_affixes": [
+            {
+              "name": "the_adroit",
+              "weight": 10
+            },
+            {
+              "name": "vigor",
+              "weight": 8
+            },
+            {
+              "name": "cruelty",
+              "weight": 6
             },
             {
               "name": "ferocity",
@@ -98,7 +507,7 @@
           "priority_aspects": [],
           "priority_affixes": [
             {
-              "name": "the_focused",
+              "name": "vigor",
               "weight": 10
             },
             {
@@ -106,7 +515,7 @@
               "weight": 8
             },
             {
-              "name": "vigor",
+              "name": "cruelty",
               "weight": 6
             },
             {
@@ -118,24 +527,26 @@
         },
         "gloves": {
           "slot": "gloves",
-          "priority_uniques": [],
+          "priority_uniques": [
+            "Bands of Ichorous Rose"
+          ],
           "priority_aspects": [],
           "priority_affixes": [
             {
-              "name": "keenness",
-              "weight": 10
-            },
-            {
-              "name": "the_adroit",
+              "name": "unique_projectiles_skill_rogue_poisontrap",
               "weight": 8
             },
             {
-              "name": "vigor",
+              "name": "unique_attackspeed_higher",
               "weight": 6
             },
             {
-              "name": "the_focused",
+              "name": "the_adroit",
               "weight": 4
+            },
+            {
+              "name": "neutralizing",
+              "weight": 3
             }
           ],
           "required_tempers": []
@@ -166,24 +577,26 @@
         },
         "boots": {
           "slot": "boots",
-          "priority_uniques": [],
+          "priority_uniques": [
+            "Assassin's Stride"
+          ],
           "priority_aspects": [],
           "priority_affixes": [
             {
-              "name": "speed",
-              "weight": 10
-            },
-            {
-              "name": "the_adroit",
+              "name": "unique_cdr_tag_generic_mobility",
               "weight": 8
             },
             {
-              "name": "auric",
+              "name": "unique_skillrankbonus_generic_category_mobility",
               "weight": 6
             },
             {
-              "name": "vigor",
+              "name": "unique_skillrankbonus_rogue_shadowimbuement_higher",
               "weight": 4
+            },
+            {
+              "name": "sanctity",
+              "weight": 3
             }
           ],
           "required_tempers": []
@@ -194,19 +607,19 @@
           "priority_aspects": [],
           "priority_affixes": [
             {
-              "name": "vigor",
+              "name": "keenness",
               "weight": 10
             },
             {
-              "name": "the_adroit",
+              "name": "swiftness",
               "weight": 8
             },
             {
-              "name": "keenness",
+              "name": "the_adroit",
               "weight": 6
             },
             {
-              "name": "the_focused",
+              "name": "vigor",
               "weight": 4
             }
           ],
@@ -226,452 +639,11 @@
               "weight": 8
             },
             {
-              "name": "shattering",
+              "name": "the_alchemist",
               "weight": 6
-            },
-            {
-              "name": "swiftness",
-              "weight": 4
-            }
-          ],
-          "required_tempers": []
-        }
-      }
-    },
-    "ancestral": {
-      "name": "Ancestral",
-      "gear": {
-        "helm": {
-          "slot": "helm",
-          "priority_uniques": [
-            "Godslayer Crown"
-          ],
-          "priority_aspects": [],
-          "priority_affixes": [
-            {
-              "name": "swiftness",
-              "weight": 10
-            },
-            {
-              "name": "harmony",
-              "weight": 6
-            },
-            {
-              "name": "vigor",
-              "weight": 4
-            },
-            {
-              "name": "unique_damage_to_elite_specialscaling",
-              "weight": 3
-            }
-          ],
-          "required_tempers": []
-        },
-        "chest": {
-          "slot": "chest",
-          "priority_uniques": [
-            "Scoundrel's Leathers"
-          ],
-          "priority_aspects": [],
-          "priority_affixes": [
-            {
-              "name": "unique_damage_rogue_tag_trap_giga",
-              "weight": 10
-            },
-            {
-              "name": "the_adroit",
-              "weight": 6
-            },
-            {
-              "name": "unique_movement_speed_higher",
-              "weight": 4
-            },
-            {
-              "name": "damage_to_trapped_triple_unique",
-              "weight": 3
-            }
-          ],
-          "required_tempers": []
-        },
-        "offhand": {
-          "slot": "offhand",
-          "priority_uniques": [],
-          "priority_aspects": [],
-          "priority_affixes": [
-            {
-              "name": "the_adroit",
-              "weight": 10
-            },
-            {
-              "name": "vigor",
-              "weight": 8
-            },
-            {
-              "name": "the_focused",
-              "weight": 6
-            },
-            {
-              "name": "ferocity",
-              "weight": 4
-            }
-          ],
-          "required_tempers": []
-        },
-        "weapon": {
-          "slot": "weapon",
-          "priority_uniques": [],
-          "priority_aspects": [],
-          "priority_affixes": [
-            {
-              "name": "the_adroit",
-              "weight": 10
-            },
-            {
-              "name": "vigor",
-              "weight": 8
-            },
-            {
-              "name": "the_focused",
-              "weight": 6
-            },
-            {
-              "name": "ferocity",
-              "weight": 4
-            }
-          ],
-          "required_tempers": []
-        },
-        "gloves": {
-          "slot": "gloves",
-          "priority_uniques": [],
-          "priority_aspects": [],
-          "priority_affixes": [
-            {
-              "name": "principals",
-              "weight": 10
-            },
-            {
-              "name": "swiftness",
-              "weight": 8
             },
             {
               "name": "keenness",
-              "weight": 6
-            },
-            {
-              "name": "the_adroit",
-              "weight": 4
-            }
-          ],
-          "required_tempers": []
-        },
-        "pants": {
-          "slot": "pants",
-          "priority_uniques": [
-            "Eyes in the Dark"
-          ],
-          "priority_aspects": [],
-          "priority_affixes": [
-            {
-              "name": "unique_damage_generic_tag_ultimate_giga",
-              "weight": 10
-            },
-            {
-              "name": "unique_lifeflat_higherhigher",
-              "weight": 8
-            },
-            {
-              "name": "the_adroit",
-              "weight": 6
-            },
-            {
-              "name": "unique_passiverankbonus_rogue_12_aftermath",
-              "weight": 4
-            }
-          ],
-          "required_tempers": []
-        },
-        "boots": {
-          "slot": "boots",
-          "priority_uniques": [
-            "Beastfall Boots"
-          ],
-          "priority_aspects": [],
-          "priority_affixes": [
-            {
-              "name": "unique_cdr_tag_generic_ultimate",
-              "weight": 10
-            },
-            {
-              "name": "unique_resource_max_allclasses_higher",
-              "weight": 8
-            },
-            {
-              "name": "speed",
-              "weight": 4
-            },
-            {
-              "name": "unique_passiverankbonus_rogue_cunning_t1_n1_agile",
-              "weight": 3
-            }
-          ],
-          "required_tempers": []
-        },
-        "ring": {
-          "slot": "ring",
-          "priority_uniques": [],
-          "priority_aspects": [],
-          "priority_affixes": [
-            {
-              "name": "swiftness",
-              "weight": 10
-            },
-            {
-              "name": "keenness",
-              "weight": 8
-            },
-            {
-              "name": "the_adroit",
-              "weight": 6
-            },
-            {
-              "name": "vigor",
-              "weight": 4
-            }
-          ],
-          "required_tempers": []
-        },
-        "amulet": {
-          "slot": "amulet",
-          "priority_uniques": [],
-          "priority_aspects": [],
-          "priority_affixes": [
-            {
-              "name": "shattering",
-              "weight": 10
-            },
-            {
-              "name": "exploits",
-              "weight": 8
-            },
-            {
-              "name": "instability",
-              "weight": 6
-            },
-            {
-              "name": "swiftness",
-              "weight": 4
-            }
-          ],
-          "required_tempers": []
-        }
-      }
-    },
-    "mythic": {
-      "name": "Mythic",
-      "gear": {
-        "helm": {
-          "slot": "helm",
-          "priority_uniques": [
-            "Heir of Perdition"
-          ],
-          "priority_aspects": [],
-          "priority_affixes": [],
-          "required_tempers": []
-        },
-        "chest": {
-          "slot": "chest",
-          "priority_uniques": [
-            "Scoundrel's Leathers"
-          ],
-          "priority_aspects": [],
-          "priority_affixes": [
-            {
-              "name": "unique_damage_rogue_tag_trap_giga",
-              "weight": 10
-            },
-            {
-              "name": "the_adroit",
-              "weight": 6
-            },
-            {
-              "name": "unique_movement_speed_higher",
-              "weight": 4
-            },
-            {
-              "name": "damage_to_trapped_triple_unique",
-              "weight": 3
-            }
-          ],
-          "required_tempers": []
-        },
-        "offhand": {
-          "slot": "offhand",
-          "priority_uniques": [],
-          "priority_aspects": [],
-          "priority_affixes": [
-            {
-              "name": "the_adroit",
-              "weight": 10
-            },
-            {
-              "name": "vigor",
-              "weight": 8
-            },
-            {
-              "name": "the_focused",
-              "weight": 6
-            },
-            {
-              "name": "ferocity",
-              "weight": 4
-            }
-          ],
-          "required_tempers": []
-        },
-        "weapon": {
-          "slot": "weapon",
-          "priority_uniques": [],
-          "priority_aspects": [],
-          "priority_affixes": [
-            {
-              "name": "the_adroit",
-              "weight": 10
-            },
-            {
-              "name": "vigor",
-              "weight": 8
-            },
-            {
-              "name": "the_focused",
-              "weight": 6
-            },
-            {
-              "name": "ferocity",
-              "weight": 4
-            }
-          ],
-          "required_tempers": []
-        },
-        "gloves": {
-          "slot": "gloves",
-          "priority_uniques": [],
-          "priority_aspects": [],
-          "priority_affixes": [
-            {
-              "name": "principals",
-              "weight": 10
-            },
-            {
-              "name": "keenness",
-              "weight": 8
-            },
-            {
-              "name": "the_adroit",
-              "weight": 6
-            },
-            {
-              "name": "vigor",
-              "weight": 4
-            }
-          ],
-          "required_tempers": []
-        },
-        "pants": {
-          "slot": "pants",
-          "priority_uniques": [
-            "Eyes in the Dark"
-          ],
-          "priority_aspects": [],
-          "priority_affixes": [
-            {
-              "name": "unique_damage_generic_tag_ultimate_giga",
-              "weight": 8
-            },
-            {
-              "name": "unique_lifeflat_higherhigher",
-              "weight": 6
-            },
-            {
-              "name": "the_adroit",
-              "weight": 4
-            },
-            {
-              "name": "unique_passiverankbonus_rogue_12_aftermath",
-              "weight": 3
-            }
-          ],
-          "required_tempers": []
-        },
-        "boots": {
-          "slot": "boots",
-          "priority_uniques": [
-            "Beastfall Boots"
-          ],
-          "priority_aspects": [],
-          "priority_affixes": [
-            {
-              "name": "unique_cdr_tag_generic_ultimate",
-              "weight": 10
-            },
-            {
-              "name": "unique_resource_max_allclasses_higher",
-              "weight": 8
-            },
-            {
-              "name": "speed",
-              "weight": 4
-            },
-            {
-              "name": "unique_passiverankbonus_rogue_cunning_t1_n1_agile",
-              "weight": 3
-            }
-          ],
-          "required_tempers": []
-        },
-        "ring": {
-          "slot": "ring",
-          "priority_uniques": [],
-          "priority_aspects": [],
-          "priority_affixes": [
-            {
-              "name": "swiftness",
-              "weight": 10
-            },
-            {
-              "name": "keenness",
-              "weight": 8
-            },
-            {
-              "name": "vigor",
-              "weight": 6
-            },
-            {
-              "name": "the_adroit",
-              "weight": 4
-            }
-          ],
-          "required_tempers": []
-        },
-        "amulet": {
-          "slot": "amulet",
-          "priority_uniques": [],
-          "priority_aspects": [],
-          "priority_affixes": [
-            {
-              "name": "shattering",
-              "weight": 10
-            },
-            {
-              "name": "exploits",
-              "weight": 8
-            },
-            {
-              "name": "keenness",
-              "weight": 6
-            },
-            {
-              "name": "malice",
               "weight": 4
             }
           ],
