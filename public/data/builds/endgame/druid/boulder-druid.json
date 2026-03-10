@@ -6,11 +6,10 @@
   "source_url": "https://maxroll.gg/d4/build-guides/boulder-druid-guide",
   "tier": "A",
   "tags": [],
-  "last_updated": "2026-03-09",
+  "last_updated": "2026-03-10",
   "profile_order": [
     "ancestral",
     "mythic",
-    "sanctified",
     "speedfarming",
     "push"
   ],
@@ -188,10 +187,6 @@
             {
               "name": "vigor",
               "weight": 4
-            },
-            {
-              "name": "evasion",
-              "weight": 3
             },
             {
               "name": "toughened",
@@ -440,274 +435,11 @@
               "weight": 4
             },
             {
-              "name": "evasion",
-              "weight": 3
-            },
-            {
               "name": "toughened",
               "weight": 3
             },
             {
               "name": "auric",
-              "weight": 3
-            }
-          ],
-          "required_tempers": []
-        },
-        "ring": {
-          "slot": "ring",
-          "priority_uniques": [
-            "Ring of Starless Skies"
-          ],
-          "priority_aspects": [],
-          "priority_affixes": [
-            {
-              "name": "the_adept",
-              "weight": 10
-            },
-            {
-              "name": "swiftness",
-              "weight": 8
-            },
-            {
-              "name": "determination",
-              "weight": 6
-            },
-            {
-              "name": "vigor",
-              "weight": 4
-            },
-            {
-              "name": "riving",
-              "weight": 3
-            },
-            {
-              "name": "keenness",
-              "weight": 3
-            },
-            {
-              "name": "auric",
-              "weight": 3
-            }
-          ],
-          "required_tempers": []
-        },
-        "amulet": {
-          "slot": "amulet",
-          "priority_uniques": [
-            "Dolmen Stone"
-          ],
-          "priority_aspects": [],
-          "priority_affixes": [
-            {
-              "name": "unique_cooldownreductioncdr_druid_tag_naturemagic_verybig",
-              "weight": 10
-            },
-            {
-              "name": "unique_skillrankbonus_druid_category_wrath_verybig",
-              "weight": 8
-            },
-            {
-              "name": "unique_passiverankbonus_druid_naturemagic_t2_n2_crushingearth_higher",
-              "weight": 6
-            },
-            {
-              "name": "unique_movement_speed_druid_whilehurricane",
-              "weight": 4
-            }
-          ],
-          "required_tempers": []
-        }
-      }
-    },
-    "sanctified": {
-      "name": "Sanctified",
-      "gear": {
-        "helm": {
-          "slot": "helm",
-          "priority_uniques": [
-            "Vasily's Prayer"
-          ],
-          "priority_aspects": [],
-          "priority_affixes": [
-            {
-              "name": "the_tenacious",
-              "weight": 10
-            },
-            {
-              "name": "vigor",
-              "weight": 8
-            },
-            {
-              "name": "toughened",
-              "weight": 4
-            },
-            {
-              "name": "unique_passiverankbonus_druid_04_defensiveposture",
-              "weight": 3
-            },
-            {
-              "name": "sanctification",
-              "weight": 3
-            }
-          ],
-          "required_tempers": []
-        },
-        "chest": {
-          "slot": "chest",
-          "priority_uniques": [
-            "Shroud of False Death"
-          ],
-          "priority_aspects": [],
-          "priority_affixes": [
-            {
-              "name": "the_focused",
-              "weight": 3
-            }
-          ],
-          "required_tempers": []
-        },
-        "weapon": {
-          "slot": "weapon",
-          "priority_uniques": [],
-          "priority_aspects": [],
-          "priority_affixes": [
-            {
-              "name": "determination",
-              "weight": 10
-            },
-            {
-              "name": "vigor",
-              "weight": 8
-            },
-            {
-              "name": "carnage",
-              "weight": 6
-            },
-            {
-              "name": "riving",
-              "weight": 4
-            },
-            {
-              "name": "demolition",
-              "weight": 3
-            },
-            {
-              "name": "the_focused",
-              "weight": 3
-            },
-            {
-              "name": "cruelty",
-              "weight": 3
-            },
-            {
-              "name": "sanctification",
-              "weight": 3
-            }
-          ],
-          "required_tempers": []
-        },
-        "gloves": {
-          "slot": "gloves",
-          "priority_uniques": [],
-          "priority_aspects": [],
-          "priority_affixes": [
-            {
-              "name": "principals",
-              "weight": 10
-            },
-            {
-              "name": "the_adept",
-              "weight": 8
-            },
-            {
-              "name": "swiftness",
-              "weight": 6
-            },
-            {
-              "name": "determination",
-              "weight": 4
-            },
-            {
-              "name": "vigor",
-              "weight": 3
-            },
-            {
-              "name": "toughened",
-              "weight": 3
-            },
-            {
-              "name": "auric",
-              "weight": 3
-            }
-          ],
-          "required_tempers": []
-        },
-        "pants": {
-          "slot": "pants",
-          "priority_uniques": [
-            "Tibault's Will"
-          ],
-          "priority_aspects": [],
-          "priority_affixes": [
-            {
-              "name": "the_adept",
-              "weight": 8
-            },
-            {
-              "name": "harmony",
-              "weight": 6
-            },
-            {
-              "name": "keenness",
-              "weight": 4
-            },
-            {
-              "name": "resources",
-              "weight": 3
-            },
-            {
-              "name": "the_focused",
-              "weight": 3
-            }
-          ],
-          "required_tempers": []
-        },
-        "boots": {
-          "slot": "boots",
-          "priority_uniques": [],
-          "priority_aspects": [],
-          "priority_affixes": [
-            {
-              "name": "the_stonebringer",
-              "weight": 10
-            },
-            {
-              "name": "determination",
-              "weight": 8
-            },
-            {
-              "name": "speed",
-              "weight": 6
-            },
-            {
-              "name": "vigor",
-              "weight": 4
-            },
-            {
-              "name": "evasion",
-              "weight": 3
-            },
-            {
-              "name": "toughened",
-              "weight": 3
-            },
-            {
-              "name": "auric",
-              "weight": 3
-            },
-            {
-              "name": "sanctification",
               "weight": 3
             }
           ],
@@ -937,10 +669,6 @@
               "weight": 4
             },
             {
-              "name": "evasion",
-              "weight": 3
-            },
-            {
               "name": "toughened",
               "weight": 3
             },
@@ -1031,10 +759,6 @@
             {
               "name": "unique_passiverankbonus_druid_04_defensiveposture",
               "weight": 3
-            },
-            {
-              "name": "sanctification",
-              "weight": 3
             }
           ],
           "required_tempers": []
@@ -1045,12 +769,7 @@
             "Shroud of False Death"
           ],
           "priority_aspects": [],
-          "priority_affixes": [
-            {
-              "name": "the_focused",
-              "weight": 3
-            }
-          ],
+          "priority_affixes": [],
           "required_tempers": []
         },
         "weapon": {
@@ -1084,10 +803,6 @@
             },
             {
               "name": "cruelty",
-              "weight": 3
-            },
-            {
-              "name": "sanctification",
               "weight": 3
             }
           ],
@@ -1127,11 +842,37 @@
         },
         "pants": {
           "slot": "pants",
+          "priority_uniques": [
+            "Tibault's Will"
+          ],
+          "priority_aspects": [],
+          "priority_affixes": [
+            {
+              "name": "the_adept",
+              "weight": 10
+            },
+            {
+              "name": "harmony",
+              "weight": 8
+            },
+            {
+              "name": "keenness",
+              "weight": 6
+            },
+            {
+              "name": "resources",
+              "weight": 4
+            }
+          ],
+          "required_tempers": []
+        },
+        "boots": {
+          "slot": "boots",
           "priority_uniques": [],
           "priority_aspects": [],
           "priority_affixes": [
             {
-              "name": "carrying",
+              "name": "the_stonebringer",
               "weight": 10
             },
             {
@@ -1139,53 +880,19 @@
               "weight": 8
             },
             {
-              "name": "vigor",
+              "name": "speed",
               "weight": 6
             },
             {
-              "name": "evasion",
+              "name": "vigor",
               "weight": 4
-            },
-            {
-              "name": "auric",
-              "weight": 3
             },
             {
               "name": "toughened",
               "weight": 3
             },
             {
-              "name": "the_focused",
-              "weight": 3
-            }
-          ],
-          "required_tempers": []
-        },
-        "boots": {
-          "slot": "boots",
-          "priority_uniques": [
-            "Flickerstep"
-          ],
-          "priority_aspects": [],
-          "priority_affixes": [
-            {
-              "name": "speed",
-              "weight": 8
-            },
-            {
-              "name": "vigor",
-              "weight": 6
-            },
-            {
               "name": "auric",
-              "weight": 4
-            },
-            {
-              "name": "unique_damage_generic_tag_ultimate_giga",
-              "weight": 3
-            },
-            {
-              "name": "sanctification",
               "weight": 3
             }
           ],

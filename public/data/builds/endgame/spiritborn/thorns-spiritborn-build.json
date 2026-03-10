@@ -6,12 +6,11 @@
   "source_url": "https://maxroll.gg/d4/build-guides/thorns-spiritborn-build-guide",
   "tier": "B",
   "tags": [],
-  "last_updated": "2026-03-09",
+  "last_updated": "2026-03-10",
   "profile_order": [
     "starter",
     "ancestral",
     "mythic",
-    "sanctified",
     "push"
   ],
   "profiles": {
@@ -498,184 +497,6 @@
         }
       }
     },
-    "sanctified": {
-      "name": "Sanctified",
-      "gear": {
-        "helm": {
-          "slot": "helm",
-          "priority_uniques": [
-            "Harmony of Ebewaka"
-          ],
-          "priority_aspects": [],
-          "priority_affixes": [
-            {
-              "name": "unique_corestats_all_higher",
-              "weight": 8
-            },
-            {
-              "name": "unique_movement_speed_lesser",
-              "weight": 6
-            },
-            {
-              "name": "the_adroit",
-              "weight": 4
-            },
-            {
-              "name": "unique_passiverankbonus_spiritborn_velocity_higher",
-              "weight": 3
-            }
-          ],
-          "required_tempers": []
-        },
-        "chest": {
-          "slot": "chest",
-          "priority_uniques": [
-            "Jacinth Shell"
-          ],
-          "priority_aspects": [],
-          "priority_affixes": [
-            {
-              "name": "auric",
-              "weight": 8
-            },
-            {
-              "name": "the_adroit",
-              "weight": 6
-            },
-            {
-              "name": "unique_armor_higher",
-              "weight": 4
-            },
-            {
-              "name": "unique_passiverankbonus_spiritborn_talent_generic_6_endurance",
-              "weight": 3
-            }
-          ],
-          "required_tempers": []
-        },
-        "gloves": {
-          "slot": "gloves",
-          "priority_uniques": [
-            "Hesha e Kesungi"
-          ],
-          "priority_aspects": [],
-          "priority_affixes": [
-            {
-              "name": "unique_skillrankbonus_spiritborn_category_gorilla",
-              "weight": 8
-            },
-            {
-              "name": "unique_attackspeed_higher",
-              "weight": 6
-            },
-            {
-              "name": "unique_cdr_tag_generic_ultimate_higher",
-              "weight": 4
-            },
-            {
-              "name": "unique_damage_to_vulnerable_higher",
-              "weight": 3
-            }
-          ],
-          "required_tempers": []
-        },
-        "pants": {
-          "slot": "pants",
-          "priority_uniques": [
-            "Tibault's Will"
-          ],
-          "priority_aspects": [],
-          "priority_affixes": [
-            {
-              "name": "harmony",
-              "weight": 8
-            },
-            {
-              "name": "the_adept",
-              "weight": 6
-            },
-            {
-              "name": "resources",
-              "weight": 4
-            },
-            {
-              "name": "keenness",
-              "weight": 3
-            },
-            {
-              "name": "sanctification",
-              "weight": 3
-            }
-          ],
-          "required_tempers": []
-        },
-        "boots": {
-          "slot": "boots",
-          "priority_uniques": [],
-          "priority_aspects": [],
-          "priority_affixes": [
-            {
-              "name": "speed",
-              "weight": 10
-            },
-            {
-              "name": "the_adroit",
-              "weight": 8
-            },
-            {
-              "name": "auric",
-              "weight": 6
-            },
-            {
-              "name": "toughened",
-              "weight": 4
-            },
-            {
-              "name": "sanctification",
-              "weight": 3
-            }
-          ],
-          "required_tempers": []
-        },
-        "ring": {
-          "slot": "ring",
-          "priority_uniques": [],
-          "priority_aspects": [],
-          "priority_affixes": [
-            {
-              "name": "carnage",
-              "weight": 10
-            },
-            {
-              "name": "keenness",
-              "weight": 8
-            },
-            {
-              "name": "the_adroit",
-              "weight": 6
-            },
-            {
-              "name": "demolition",
-              "weight": 4
-            },
-            {
-              "name": "auric",
-              "weight": 4
-            }
-          ],
-          "required_tempers": []
-        },
-        "amulet": {
-          "slot": "amulet",
-          "priority_uniques": [
-            "Melted Heart of Selig"
-          ],
-          "priority_aspects": [],
-          "priority_affixes": [],
-          "required_tempers": []
-        }
-      }
-    },
     "push": {
       "name": "Push",
       "gear": {
@@ -779,10 +600,6 @@
             {
               "name": "keenness",
               "weight": 3
-            },
-            {
-              "name": "sanctification",
-              "weight": 3
             }
           ],
           "required_tempers": []
@@ -807,10 +624,6 @@
             {
               "name": "toughened",
               "weight": 4
-            },
-            {
-              "name": "sanctification",
-              "weight": 3
             }
           ],
           "required_tempers": []

@@ -6,14 +6,13 @@
   "source_url": "https://maxroll.gg/d4/build-guides/blood-lance-necromancer-guide",
   "tier": "C",
   "tags": [],
-  "last_updated": "2026-03-09",
+  "last_updated": "2026-03-10",
   "profile_order": [
     "starter",
     "ancestral",
     "mythic",
     "speed_farming",
-    "push",
-    "sanctified"
+    "push"
   ],
   "profiles": {
     "starter": {
@@ -137,8 +136,12 @@
               "weight": 6
             },
             {
-              "name": "swiftness",
+              "name": "the_wise",
               "weight": 4
+            },
+            {
+              "name": "swiftness",
+              "weight": 3
             },
             {
               "name": "toughened",
@@ -221,7 +224,7 @@
               "weight": 10
             },
             {
-              "name": "swiftness",
+              "name": "the_wise",
               "weight": 8
             },
             {
@@ -233,11 +236,11 @@
               "weight": 4
             },
             {
-              "name": "the_wise",
+              "name": "auric",
               "weight": 3
             },
             {
-              "name": "auric",
+              "name": "swiftness",
               "weight": 3
             }
           ],
@@ -257,7 +260,7 @@
               "weight": 8
             },
             {
-              "name": "swiftness",
+              "name": "the_wise",
               "weight": 6
             },
             {
@@ -270,6 +273,10 @@
             },
             {
               "name": "tormenting",
+              "weight": 3
+            },
+            {
+              "name": "swiftness",
               "weight": 3
             }
           ],
@@ -404,8 +411,12 @@
               "weight": 6
             },
             {
-              "name": "swiftness",
+              "name": "the_wise",
               "weight": 4
+            },
+            {
+              "name": "swiftness",
+              "weight": 3
             },
             {
               "name": "toughened",
@@ -486,7 +497,7 @@
               "weight": 10
             },
             {
-              "name": "swiftness",
+              "name": "the_wise",
               "weight": 8
             },
             {
@@ -494,11 +505,11 @@
               "weight": 6
             },
             {
-              "name": "vigor",
+              "name": "swiftness",
               "weight": 4
             },
             {
-              "name": "the_wise",
+              "name": "vigor",
               "weight": 3
             },
             {
@@ -526,7 +537,7 @@
               "weight": 6
             },
             {
-              "name": "swiftness",
+              "name": "the_wise",
               "weight": 4
             },
             {
@@ -642,11 +653,11 @@
               "weight": 6
             },
             {
-              "name": "swiftness",
+              "name": "the_wise",
               "weight": 4
             },
             {
-              "name": "the_wise",
+              "name": "swiftness",
               "weight": 3
             },
             {
@@ -886,11 +897,11 @@
               "weight": 6
             },
             {
-              "name": "swiftness",
+              "name": "the_wise",
               "weight": 4
             },
             {
-              "name": "the_wise",
+              "name": "swiftness",
               "weight": 3
             },
             {
@@ -1010,7 +1021,7 @@
               "weight": 8
             },
             {
-              "name": "swiftness",
+              "name": "the_wise",
               "weight": 6
             },
             {
@@ -1019,6 +1030,10 @@
             },
             {
               "name": "tormenting",
+              "weight": 3
+            },
+            {
+              "name": "swiftness",
               "weight": 3
             }
           ],
@@ -1035,12 +1050,7 @@
             "Heir of Perdition"
           ],
           "priority_aspects": [],
-          "priority_affixes": [
-            {
-              "name": "sanctification",
-              "weight": 3
-            }
-          ],
+          "priority_affixes": [],
           "required_tempers": []
         },
         "chest": {
@@ -1064,10 +1074,6 @@
             },
             {
               "name": "vigor",
-              "weight": 3
-            },
-            {
-              "name": "sanctification",
               "weight": 3
             },
             {
@@ -1139,8 +1145,12 @@
               "weight": 6
             },
             {
-              "name": "swiftness",
+              "name": "the_wise",
               "weight": 4
+            },
+            {
+              "name": "swiftness",
+              "weight": 3
             }
           ],
           "required_tempers": []
@@ -1166,10 +1176,6 @@
             },
             {
               "name": "golemlords",
-              "weight": 3
-            },
-            {
-              "name": "sanctification",
               "weight": 3
             }
           ],
@@ -1206,239 +1212,6 @@
           ],
           "priority_aspects": [],
           "priority_affixes": [
-            {
-              "name": "keenness",
-              "weight": 10
-            },
-            {
-              "name": "swiftness",
-              "weight": 8
-            },
-            {
-              "name": "the_wise",
-              "weight": 6
-            },
-            {
-              "name": "vigor",
-              "weight": 4
-            }
-          ],
-          "required_tempers": []
-        },
-        "amulet": {
-          "slot": "amulet",
-          "priority_uniques": [],
-          "priority_aspects": [],
-          "priority_affixes": [
-            {
-              "name": "drowning",
-              "weight": 10
-            },
-            {
-              "name": "coalescence",
-              "weight": 8
-            },
-            {
-              "name": "tormenting",
-              "weight": 6
-            },
-            {
-              "name": "keenness",
-              "weight": 4
-            }
-          ],
-          "required_tempers": []
-        }
-      }
-    },
-    "sanctified": {
-      "name": "Sanctified",
-      "gear": {
-        "helm": {
-          "slot": "helm",
-          "priority_uniques": [
-            "Heir of Perdition"
-          ],
-          "priority_aspects": [],
-          "priority_affixes": [
-            {
-              "name": "sanctification",
-              "weight": 3
-            }
-          ],
-          "required_tempers": []
-        },
-        "chest": {
-          "slot": "chest",
-          "priority_uniques": [
-            "Mutilator Plate"
-          ],
-          "priority_aspects": [],
-          "priority_affixes": [
-            {
-              "name": "skillrankbonus_necro_core_bloodlance_higher",
-              "weight": 8
-            },
-            {
-              "name": "unique_double_damage_skill_necro_bloodlance",
-              "weight": 6
-            },
-            {
-              "name": "the_wise",
-              "weight": 4
-            },
-            {
-              "name": "vigor",
-              "weight": 3
-            },
-            {
-              "name": "sanctification",
-              "weight": 3
-            },
-            {
-              "name": "swiftness",
-              "weight": 8
-            },
-            {
-              "name": "sturdiness",
-              "weight": 6
-            },
-            {
-              "name": "toughened",
-              "weight": 4
-            },
-            {
-              "name": "the_adept",
-              "weight": 3
-            }
-          ],
-          "required_tempers": []
-        },
-        "weapon": {
-          "slot": "weapon",
-          "priority_uniques": [],
-          "priority_aspects": [],
-          "priority_affixes": [
-            {
-              "name": "vigor",
-              "weight": 10
-            },
-            {
-              "name": "the_wise",
-              "weight": 8
-            },
-            {
-              "name": "perpetuity",
-              "weight": 6
-            },
-            {
-              "name": "riving",
-              "weight": 4
-            },
-            {
-              "name": "demolition",
-              "weight": 3
-            },
-            {
-              "name": "the_focused",
-              "weight": 3
-            }
-          ],
-          "required_tempers": []
-        },
-        "gloves": {
-          "slot": "gloves",
-          "priority_uniques": [],
-          "priority_aspects": [],
-          "priority_affixes": [
-            {
-              "name": "skillrankbonus_necro_core_bloodlance",
-              "weight": 10
-            },
-            {
-              "name": "keenness",
-              "weight": 8
-            },
-            {
-              "name": "vigor",
-              "weight": 6
-            },
-            {
-              "name": "swiftness",
-              "weight": 4
-            }
-          ],
-          "required_tempers": []
-        },
-        "pants": {
-          "slot": "pants",
-          "priority_uniques": [
-            "Blood Moon Breeches"
-          ],
-          "priority_aspects": [],
-          "priority_affixes": [
-            {
-              "name": "unique_critchance_higherhigher",
-              "weight": 8
-            },
-            {
-              "name": "unique_skillrankbonus_necro_category_curse_higher",
-              "weight": 6
-            },
-            {
-              "name": "swarming",
-              "weight": 4
-            },
-            {
-              "name": "golemlords",
-              "weight": 3
-            },
-            {
-              "name": "sanctification",
-              "weight": 3
-            }
-          ],
-          "required_tempers": []
-        },
-        "boots": {
-          "slot": "boots",
-          "priority_uniques": [],
-          "priority_aspects": [],
-          "priority_affixes": [
-            {
-              "name": "speed",
-              "weight": 10
-            },
-            {
-              "name": "the_wise",
-              "weight": 8
-            },
-            {
-              "name": "vigor",
-              "weight": 6
-            },
-            {
-              "name": "toughened",
-              "weight": 4
-            },
-            {
-              "name": "auric",
-              "weight": 3
-            }
-          ],
-          "required_tempers": []
-        },
-        "ring": {
-          "slot": "ring",
-          "priority_uniques": [
-            "Ring of Starless Skies"
-          ],
-          "priority_aspects": [],
-          "priority_affixes": [
-            {
-              "name": "sanctification",
-              "weight": 3
-            },
             {
               "name": "keenness",
               "weight": 10

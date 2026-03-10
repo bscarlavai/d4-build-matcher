@@ -14,6 +14,12 @@
       "file": "crushing-hand-spiritborn.json"
     },
     {
+      "id": "gorilla-thorns-spiritborn",
+      "name": "Gorilla Thorns Spiritborn",
+      "tier": "A",
+      "file": "gorilla-thorns-spiritborn.json"
+    },
+    {
       "id": "quill-volley-spiritborn",
       "name": "Quill Volley Spiritborn",
       "tier": "A",

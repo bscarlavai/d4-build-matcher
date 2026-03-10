@@ -6,12 +6,12 @@
   "source_url": "https://maxroll.gg/d4/build-guides/sever-necromancer-endgame-guide",
   "tier": "A",
   "tags": [],
-  "last_updated": "2026-03-09",
+  "last_updated": "2026-03-10",
   "profile_order": [
     "starter",
     "ancestral",
     "mythic",
-    "sanctified",
+    "push",
     "speedfarm"
   ],
   "profiles": {
@@ -439,20 +439,20 @@
           "priority_aspects": [],
           "priority_affixes": [
             {
+              "name": "unique_double_damage_skill_necro_sever",
+              "weight": 10
+            },
+            {
               "name": "unique_movement_speed_higher",
               "weight": 8
             },
             {
-              "name": "unique_double_damage_skill_necro_sever",
+              "name": "unique_size_skill_necro_sever",
               "weight": 6
             },
             {
-              "name": "unique_size_skill_necro_sever",
-              "weight": 4
-            },
-            {
               "name": "the_wise",
-              "weight": 3
+              "weight": 4
             }
           ],
           "required_tempers": []
@@ -654,20 +654,20 @@
           "priority_aspects": [],
           "priority_affixes": [
             {
-              "name": "unique_movement_speed_higher",
-              "weight": 8
-            },
-            {
               "name": "unique_double_damage_skill_necro_sever",
-              "weight": 6
+              "weight": 10
             },
             {
               "name": "unique_size_skill_necro_sever",
-              "weight": 4
+              "weight": 8
             },
             {
               "name": "the_wise",
-              "weight": 3
+              "weight": 6
+            },
+            {
+              "name": "unique_movement_speed_higher",
+              "weight": 4
             }
           ],
           "required_tempers": []
@@ -744,8 +744,8 @@
         }
       }
     },
-    "sanctified": {
-      "name": "Sanctified",
+    "push": {
+      "name": "Push",
       "gear": {
         "helm": {
           "slot": "helm",
@@ -753,12 +753,7 @@
             "Heir of Perdition"
           ],
           "priority_aspects": [],
-          "priority_affixes": [
-            {
-              "name": "sanctification",
-              "weight": 3
-            }
-          ],
+          "priority_affixes": [],
           "required_tempers": []
         },
         "chest": {
@@ -767,12 +762,7 @@
             "Shroud of False Death"
           ],
           "priority_aspects": [],
-          "priority_affixes": [
-            {
-              "name": "sanctification",
-              "weight": 3
-            }
-          ],
+          "priority_affixes": [],
           "required_tempers": []
         },
         "weapon": {
@@ -806,10 +796,6 @@
             },
             {
               "name": "efficiency",
-              "weight": 3
-            },
-            {
-              "name": "sanctification",
               "weight": 3
             }
           ],
@@ -885,24 +871,20 @@
           "priority_aspects": [],
           "priority_affixes": [
             {
-              "name": "unique_movement_speed_higher",
-              "weight": 8
-            },
-            {
               "name": "unique_double_damage_skill_necro_sever",
-              "weight": 6
+              "weight": 10
             },
             {
               "name": "unique_size_skill_necro_sever",
-              "weight": 4
+              "weight": 8
             },
             {
               "name": "the_wise",
-              "weight": 3
+              "weight": 6
             },
             {
-              "name": "the_focused",
-              "weight": 3
+              "name": "unique_movement_speed_higher",
+              "weight": 4
             }
           ],
           "required_tempers": []
@@ -1100,23 +1082,25 @@
         },
         "boots": {
           "slot": "boots",
-          "priority_uniques": [],
+          "priority_uniques": [
+            "Greaves of the Empty Tomb"
+          ],
           "priority_aspects": [],
           "priority_affixes": [
             {
-              "name": "speed",
+              "name": "unique_double_damage_skill_necro_sever",
               "weight": 10
             },
             {
-              "name": "the_wise",
+              "name": "unique_size_skill_necro_sever",
               "weight": 8
             },
             {
-              "name": "infusing",
+              "name": "the_wise",
               "weight": 6
             },
             {
-              "name": "swiftness",
+              "name": "unique_movement_speed_higher",
               "weight": 4
             }
           ],

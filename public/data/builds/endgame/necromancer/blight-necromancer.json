@@ -6,12 +6,12 @@
   "source_url": "https://maxroll.gg/d4/build-guides/blight-necromancer-guide",
   "tier": "B",
   "tags": [],
-  "last_updated": "2026-03-09",
+  "last_updated": "2026-03-10",
   "profile_order": [
     "starter",
     "ancestral",
     "mythic",
-    "sanctified",
+    "push",
     "speedfarm"
   ],
   "profiles": {
@@ -315,11 +315,11 @@
           "priority_aspects": [],
           "priority_affixes": [
             {
-              "name": "unique_damage_to_elite_specialscaling",
+              "name": "swiftness",
               "weight": 8
             },
             {
-              "name": "swiftness",
+              "name": "harmony",
               "weight": 6
             },
             {
@@ -327,7 +327,7 @@
               "weight": 4
             },
             {
-              "name": "harmony",
+              "name": "unique_damage_to_elite_specialscaling",
               "weight": 3
             }
           ],
@@ -567,10 +567,27 @@
         "helm": {
           "slot": "helm",
           "priority_uniques": [
-            "Heir of Perdition"
+            "Godslayer Crown"
           ],
           "priority_aspects": [],
-          "priority_affixes": [],
+          "priority_affixes": [
+            {
+              "name": "swiftness",
+              "weight": 8
+            },
+            {
+              "name": "harmony",
+              "weight": 6
+            },
+            {
+              "name": "vigor",
+              "weight": 4
+            },
+            {
+              "name": "unique_damage_to_elite_specialscaling",
+              "weight": 3
+            }
+          ],
           "required_tempers": []
         },
         "chest": {
@@ -780,8 +797,8 @@
         }
       }
     },
-    "sanctified": {
-      "name": "Sanctified",
+    "push": {
+      "name": "Push",
       "gear": {
         "helm": {
           "slot": "helm",
@@ -799,19 +816,15 @@
               "weight": 8
             },
             {
-              "name": "luck",
+              "name": "vigor",
               "weight": 6
             },
             {
-              "name": "vigor",
+              "name": "luck",
               "weight": 4
             },
             {
               "name": "sanctity",
-              "weight": 3
-            },
-            {
-              "name": "the_focused",
               "weight": 3
             }
           ],
@@ -823,12 +836,7 @@
             "Shroud of False Death"
           ],
           "priority_aspects": [],
-          "priority_affixes": [
-            {
-              "name": "the_focused",
-              "weight": 3
-            }
-          ],
+          "priority_affixes": [],
           "required_tempers": []
         },
         "weapon": {
@@ -866,10 +874,6 @@
             },
             {
               "name": "riving",
-              "weight": 3
-            },
-            {
-              "name": "sanctification",
               "weight": 3
             }
           ],
@@ -931,10 +935,6 @@
             {
               "name": "auric",
               "weight": 4
-            },
-            {
-              "name": "sanctification",
-              "weight": 3
             }
           ],
           "required_tempers": []
@@ -1047,10 +1047,27 @@
         "helm": {
           "slot": "helm",
           "priority_uniques": [
-            "Heir of Perdition"
+            "Godslayer Crown"
           ],
           "priority_aspects": [],
-          "priority_affixes": [],
+          "priority_affixes": [
+            {
+              "name": "swiftness",
+              "weight": 8
+            },
+            {
+              "name": "harmony",
+              "weight": 6
+            },
+            {
+              "name": "vigor",
+              "weight": 4
+            },
+            {
+              "name": "unique_damage_to_elite_specialscaling",
+              "weight": 3
+            }
+          ],
           "required_tempers": []
         },
         "chest": {

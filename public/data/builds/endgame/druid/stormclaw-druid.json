@@ -6,12 +6,11 @@
   "source_url": "https://maxroll.gg/d4/build-guides/stormclaw-druid-guide",
   "tier": "C",
   "tags": [],
-  "last_updated": "2026-03-09",
+  "last_updated": "2026-03-10",
   "profile_order": [
     "ancestral",
     "mythic",
-    "speedfarming",
-    "push"
+    "speedfarming"
   ],
   "profiles": {
     "ancestral": {
@@ -78,7 +77,7 @@
           "priority_affixes": [
             {
               "name": "unique_skillrankbonus_generic_category_basic_higher",
-              "weight": 8
+              "weight": 10
             },
             {
               "name": "keenness",
@@ -103,19 +102,19 @@
           "priority_aspects": [],
           "priority_affixes": [
             {
-              "name": "unique_damagereduction_whileunstoppable",
-              "weight": 10
+              "name": "keenness",
+              "weight": 8
             },
             {
-              "name": "resources",
+              "name": "the_adept",
               "weight": 6
             },
             {
-              "name": "harmony",
+              "name": "resources",
               "weight": 4
             },
             {
-              "name": "vigor",
+              "name": "harmony",
               "weight": 3
             }
           ],
@@ -131,19 +130,19 @@
               "weight": 10
             },
             {
-              "name": "vigor",
+              "name": "speed",
               "weight": 8
             },
             {
-              "name": "speed",
+              "name": "vigor",
               "weight": 6
             },
             {
-              "name": "auric",
+              "name": "toughened",
               "weight": 4
             },
             {
-              "name": "toughened",
+              "name": "auric",
               "weight": 3
             }
           ],
@@ -159,7 +158,7 @@
               "weight": 10
             },
             {
-              "name": "riving",
+              "name": "the_adept",
               "weight": 8
             },
             {
@@ -172,10 +171,6 @@
             },
             {
               "name": "auric",
-              "weight": 3
-            },
-            {
-              "name": "efficiency",
               "weight": 3
             }
           ],
@@ -195,19 +190,27 @@
               "weight": 8
             },
             {
-              "name": "the_tenacious",
+              "name": "keenness",
               "weight": 6
             },
             {
-              "name": "shifting",
+              "name": "the_adept",
               "weight": 4
             },
             {
-              "name": "keenness",
+              "name": "shifting",
               "weight": 3
             },
             {
-              "name": "the_adept",
+              "name": "speed",
+              "weight": 3
+            },
+            {
+              "name": "determination",
+              "weight": 3
+            },
+            {
+              "name": "vigor",
               "weight": 3
             }
           ],
@@ -221,78 +224,6 @@
         "helm": {
           "slot": "helm",
           "priority_uniques": [
-            "Paingorger's Gauntlets"
-          ],
-          "priority_aspects": [],
-          "priority_affixes": [
-            {
-              "name": "unique_skillrankbonus_generic_category_basic_higher",
-              "weight": 10
-            },
-            {
-              "name": "keenness",
-              "weight": 8
-            },
-            {
-              "name": "swiftness",
-              "weight": 6
-            },
-            {
-              "name": "unique_generic_luckyhit_stun",
-              "weight": 4
-            }
-          ],
-          "required_tempers": []
-        },
-        "chest": {
-          "slot": "chest",
-          "priority_uniques": [
-            "Malefic Crescent"
-          ],
-          "priority_aspects": [],
-          "priority_affixes": [
-            {
-              "name": "unique_passiverankbonus_druid_18_aptitude",
-              "weight": 10
-            },
-            {
-              "name": "unique_corestat_willpowerpercent_higher",
-              "weight": 8
-            },
-            {
-              "name": "unique_critdamage_druid_tag_wolf",
-              "weight": 6
-            },
-            {
-              "name": "unique_movement_speed_druid_whilewerewolf",
-              "weight": 4
-            },
-            {
-              "name": "resources",
-              "weight": 10
-            },
-            {
-              "name": "vigor",
-              "weight": 8
-            },
-            {
-              "name": "determination",
-              "weight": 6
-            },
-            {
-              "name": "swiftness",
-              "weight": 4
-            },
-            {
-              "name": "efficiency",
-              "weight": 3
-            }
-          ],
-          "required_tempers": []
-        },
-        "gloves": {
-          "slot": "gloves",
-          "priority_uniques": [
             "Tempest Roar"
           ],
           "priority_aspects": [],
@@ -306,39 +237,89 @@
               "weight": 8
             },
             {
-              "name": "impulses",
+              "name": "grounding",
               "weight": 6
             },
             {
-              "name": "grounding",
+              "name": "impulses",
               "weight": 4
+            }
+          ],
+          "required_tempers": []
+        },
+        "chest": {
+          "slot": "chest",
+          "priority_uniques": [
+            "Mad Wolf's Glee"
+          ],
+          "priority_aspects": [],
+          "priority_affixes": [
+            {
+              "name": "unique_damagemultiplicative_druid_whenlupineferocity",
+              "weight": 8
+            },
+            {
+              "name": "unique_attackspeed_druid_tag_wolf",
+              "weight": 6
+            },
+            {
+              "name": "unique_lifeflat_higherhigher",
+              "weight": 4
+            },
+            {
+              "name": "unique_passiverankbonus_druid_shapeshifting_t2_n2_digitigradegait",
+              "weight": 3
+            }
+          ],
+          "required_tempers": []
+        },
+        "gloves": {
+          "slot": "gloves",
+          "priority_uniques": [
+            "Paingorger's Gauntlets"
+          ],
+          "priority_aspects": [],
+          "priority_affixes": [
+            {
+              "name": "unique_skillrankbonus_generic_category_basic_higher",
+              "weight": 10
+            },
+            {
+              "name": "keenness",
+              "weight": 6
+            },
+            {
+              "name": "swiftness",
+              "weight": 4
+            },
+            {
+              "name": "unique_generic_luckyhit_stun",
+              "weight": 3
             }
           ],
           "required_tempers": []
         },
         "pants": {
           "slot": "pants",
-          "priority_uniques": [],
+          "priority_uniques": [
+            "Tibault's Will"
+          ],
           "priority_aspects": [],
           "priority_affixes": [
             {
-              "name": "the_skillful",
-              "weight": 10
-            },
-            {
-              "name": "vigor",
+              "name": "keenness",
               "weight": 8
             },
             {
-              "name": "determination",
+              "name": "the_adept",
               "weight": 6
             },
             {
-              "name": "auric",
+              "name": "resources",
               "weight": 4
             },
             {
-              "name": "toughened",
+              "name": "harmony",
               "weight": 3
             }
           ],
@@ -346,26 +327,28 @@
         },
         "boots": {
           "slot": "boots",
-          "priority_uniques": [
-            "Greatstaff of the Crone"
-          ],
+          "priority_uniques": [],
           "priority_aspects": [],
           "priority_affixes": [
             {
-              "name": "unique_hit_twice_skill_druid_stormstrike",
+              "name": "determination",
               "weight": 10
             },
             {
-              "name": "the_skillful",
+              "name": "speed",
               "weight": 8
             },
             {
-              "name": "unique_druid_special_skill_stormstrike_chainadditionaltargets",
+              "name": "vigor",
               "weight": 6
             },
             {
-              "name": "unique_damage_generic_vs_close_higher",
+              "name": "toughened",
               "weight": 4
+            },
+            {
+              "name": "auric",
+              "weight": 3
             }
           ],
           "required_tempers": []
@@ -380,7 +363,7 @@
               "weight": 10
             },
             {
-              "name": "riving",
+              "name": "the_adept",
               "weight": 8
             },
             {
@@ -393,10 +376,6 @@
             },
             {
               "name": "auric",
-              "weight": 3
-            },
-            {
-              "name": "efficiency",
               "weight": 3
             }
           ],
@@ -416,19 +395,27 @@
               "weight": 8
             },
             {
-              "name": "the_tenacious",
+              "name": "shifting",
               "weight": 6
             },
             {
-              "name": "shifting",
+              "name": "keenness",
               "weight": 4
             },
             {
-              "name": "keenness",
+              "name": "the_adept",
               "weight": 3
             },
             {
-              "name": "the_adept",
+              "name": "speed",
+              "weight": 3
+            },
+            {
+              "name": "determination",
+              "weight": 3
+            },
+            {
+              "name": "vigor",
               "weight": 3
             }
           ],
@@ -442,78 +429,6 @@
         "helm": {
           "slot": "helm",
           "priority_uniques": [
-            "Paingorger's Gauntlets"
-          ],
-          "priority_aspects": [],
-          "priority_affixes": [
-            {
-              "name": "unique_skillrankbonus_generic_category_basic_higher",
-              "weight": 10
-            },
-            {
-              "name": "keenness",
-              "weight": 8
-            },
-            {
-              "name": "swiftness",
-              "weight": 6
-            },
-            {
-              "name": "unique_generic_luckyhit_stun",
-              "weight": 4
-            }
-          ],
-          "required_tempers": []
-        },
-        "chest": {
-          "slot": "chest",
-          "priority_uniques": [
-            "Malefic Crescent"
-          ],
-          "priority_aspects": [],
-          "priority_affixes": [
-            {
-              "name": "unique_passiverankbonus_druid_18_aptitude",
-              "weight": 10
-            },
-            {
-              "name": "unique_corestat_willpowerpercent_higher",
-              "weight": 8
-            },
-            {
-              "name": "unique_critdamage_druid_tag_wolf",
-              "weight": 6
-            },
-            {
-              "name": "unique_movement_speed_druid_whilewerewolf",
-              "weight": 4
-            },
-            {
-              "name": "resources",
-              "weight": 10
-            },
-            {
-              "name": "vigor",
-              "weight": 8
-            },
-            {
-              "name": "determination",
-              "weight": 6
-            },
-            {
-              "name": "swiftness",
-              "weight": 4
-            },
-            {
-              "name": "efficiency",
-              "weight": 3
-            }
-          ],
-          "required_tempers": []
-        },
-        "gloves": {
-          "slot": "gloves",
-          "priority_uniques": [
             "Tempest Roar"
           ],
           "priority_aspects": [],
@@ -527,39 +442,72 @@
               "weight": 8
             },
             {
-              "name": "impulses",
+              "name": "grounding",
               "weight": 6
             },
             {
-              "name": "grounding",
+              "name": "impulses",
               "weight": 4
+            }
+          ],
+          "required_tempers": []
+        },
+        "chest": {
+          "slot": "chest",
+          "priority_uniques": [
+            "Shroud of False Death"
+          ],
+          "priority_aspects": [],
+          "priority_affixes": [],
+          "required_tempers": []
+        },
+        "gloves": {
+          "slot": "gloves",
+          "priority_uniques": [
+            "Paingorger's Gauntlets"
+          ],
+          "priority_aspects": [],
+          "priority_affixes": [
+            {
+              "name": "unique_skillrankbonus_generic_category_basic_higher",
+              "weight": 10
+            },
+            {
+              "name": "keenness",
+              "weight": 6
+            },
+            {
+              "name": "swiftness",
+              "weight": 4
+            },
+            {
+              "name": "unique_generic_luckyhit_stun",
+              "weight": 3
             }
           ],
           "required_tempers": []
         },
         "pants": {
           "slot": "pants",
-          "priority_uniques": [],
+          "priority_uniques": [
+            "Tibault's Will"
+          ],
           "priority_aspects": [],
           "priority_affixes": [
             {
-              "name": "the_skillful",
-              "weight": 10
-            },
-            {
-              "name": "vigor",
+              "name": "keenness",
               "weight": 8
             },
             {
-              "name": "determination",
+              "name": "the_adept",
               "weight": 6
             },
             {
-              "name": "auric",
+              "name": "resources",
               "weight": 4
             },
             {
-              "name": "toughened",
+              "name": "harmony",
               "weight": 3
             }
           ],
@@ -567,26 +515,28 @@
         },
         "boots": {
           "slot": "boots",
-          "priority_uniques": [
-            "Greatstaff of the Crone"
-          ],
+          "priority_uniques": [],
           "priority_aspects": [],
           "priority_affixes": [
             {
-              "name": "unique_hit_twice_skill_druid_stormstrike",
+              "name": "determination",
               "weight": 10
             },
             {
-              "name": "the_skillful",
+              "name": "speed",
               "weight": 8
             },
             {
-              "name": "unique_druid_special_skill_stormstrike_chainadditionaltargets",
+              "name": "vigor",
               "weight": 6
             },
             {
-              "name": "unique_damage_generic_vs_close_higher",
+              "name": "toughened",
               "weight": 4
+            },
+            {
+              "name": "auric",
+              "weight": 3
             }
           ],
           "required_tempers": []
@@ -601,7 +551,7 @@
               "weight": 10
             },
             {
-              "name": "riving",
+              "name": "the_adept",
               "weight": 8
             },
             {
@@ -614,10 +564,6 @@
             },
             {
               "name": "auric",
-              "weight": 3
-            },
-            {
-              "name": "efficiency",
               "weight": 3
             }
           ],
@@ -637,240 +583,27 @@
               "weight": 8
             },
             {
-              "name": "the_tenacious",
+              "name": "shifting",
               "weight": 6
             },
             {
-              "name": "shifting",
-              "weight": 4
-            },
-            {
               "name": "keenness",
-              "weight": 3
+              "weight": 4
             },
             {
               "name": "the_adept",
               "weight": 3
-            }
-          ],
-          "required_tempers": []
-        }
-      }
-    },
-    "push": {
-      "name": "Push",
-      "gear": {
-        "helm": {
-          "slot": "helm",
-          "priority_uniques": [
-            "Paingorger's Gauntlets"
-          ],
-          "priority_aspects": [],
-          "priority_affixes": [
-            {
-              "name": "unique_skillrankbonus_generic_category_basic_higher",
-              "weight": 10
             },
             {
-              "name": "keenness",
-              "weight": 8
-            },
-            {
-              "name": "swiftness",
-              "weight": 6
-            },
-            {
-              "name": "unique_generic_luckyhit_stun",
-              "weight": 4
-            }
-          ],
-          "required_tempers": []
-        },
-        "chest": {
-          "slot": "chest",
-          "priority_uniques": [
-            "Malefic Crescent"
-          ],
-          "priority_aspects": [],
-          "priority_affixes": [
-            {
-              "name": "unique_passiverankbonus_druid_18_aptitude",
-              "weight": 10
-            },
-            {
-              "name": "unique_corestat_willpowerpercent_higher",
-              "weight": 8
-            },
-            {
-              "name": "unique_critdamage_druid_tag_wolf",
-              "weight": 6
-            },
-            {
-              "name": "unique_movement_speed_druid_whilewerewolf",
-              "weight": 4
-            },
-            {
-              "name": "resources",
-              "weight": 10
-            },
-            {
-              "name": "vigor",
-              "weight": 8
+              "name": "speed",
+              "weight": 3
             },
             {
               "name": "determination",
-              "weight": 6
-            },
-            {
-              "name": "swiftness",
-              "weight": 4
-            },
-            {
-              "name": "efficiency",
               "weight": 3
-            }
-          ],
-          "required_tempers": []
-        },
-        "gloves": {
-          "slot": "gloves",
-          "priority_uniques": [
-            "Tempest Roar"
-          ],
-          "priority_aspects": [],
-          "priority_affixes": [
-            {
-              "name": "the_tenacious",
-              "weight": 10
-            },
-            {
-              "name": "resources",
-              "weight": 8
-            },
-            {
-              "name": "impulses",
-              "weight": 6
-            },
-            {
-              "name": "grounding",
-              "weight": 4
-            }
-          ],
-          "required_tempers": []
-        },
-        "pants": {
-          "slot": "pants",
-          "priority_uniques": [],
-          "priority_aspects": [],
-          "priority_affixes": [
-            {
-              "name": "the_skillful",
-              "weight": 10
             },
             {
               "name": "vigor",
-              "weight": 8
-            },
-            {
-              "name": "determination",
-              "weight": 6
-            },
-            {
-              "name": "auric",
-              "weight": 4
-            },
-            {
-              "name": "toughened",
-              "weight": 3
-            }
-          ],
-          "required_tempers": []
-        },
-        "boots": {
-          "slot": "boots",
-          "priority_uniques": [
-            "Greatstaff of the Crone"
-          ],
-          "priority_aspects": [],
-          "priority_affixes": [
-            {
-              "name": "unique_hit_twice_skill_druid_stormstrike",
-              "weight": 10
-            },
-            {
-              "name": "the_skillful",
-              "weight": 8
-            },
-            {
-              "name": "unique_druid_special_skill_stormstrike_chainadditionaltargets",
-              "weight": 6
-            },
-            {
-              "name": "unique_damage_generic_vs_close_higher",
-              "weight": 4
-            }
-          ],
-          "required_tempers": []
-        },
-        "ring": {
-          "slot": "ring",
-          "priority_uniques": [],
-          "priority_aspects": [],
-          "priority_affixes": [
-            {
-              "name": "keenness",
-              "weight": 10
-            },
-            {
-              "name": "riving",
-              "weight": 8
-            },
-            {
-              "name": "determination",
-              "weight": 6
-            },
-            {
-              "name": "vigor",
-              "weight": 4
-            },
-            {
-              "name": "auric",
-              "weight": 3
-            },
-            {
-              "name": "efficiency",
-              "weight": 3
-            }
-          ],
-          "required_tempers": []
-        },
-        "amulet": {
-          "slot": "amulet",
-          "priority_uniques": [],
-          "priority_aspects": [],
-          "priority_affixes": [
-            {
-              "name": "toxicity",
-              "weight": 10
-            },
-            {
-              "name": "poison_soaked",
-              "weight": 8
-            },
-            {
-              "name": "the_tenacious",
-              "weight": 6
-            },
-            {
-              "name": "shifting",
-              "weight": 4
-            },
-            {
-              "name": "keenness",
-              "weight": 3
-            },
-            {
-              "name": "the_adept",
               "weight": 3
             }
           ],

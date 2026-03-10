@@ -50,6 +50,18 @@
       "file": "dash-rogue.json"
     },
     {
+      "id": "rapid-fire-rogue",
+      "name": "Rapid Fire Rogue",
+      "tier": "B",
+      "file": "rapid-fire-rogue.json"
+    },
+    {
+      "id": "barrage-rogue",
+      "name": "Barrage Rogue",
+      "tier": "B",
+      "file": "barrage-rogue.json"
+    },
+    {
       "id": "heartseeker-rogue-specialized",
       "name": "Heartseeker Rogue Specialized",
       "tier": "S",

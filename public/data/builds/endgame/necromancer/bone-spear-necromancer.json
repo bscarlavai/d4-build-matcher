@@ -6,12 +6,12 @@
   "source_url": "https://maxroll.gg/d4/build-guides/bone-spear-necromancer-guide",
   "tier": "B",
   "tags": [],
-  "last_updated": "2026-03-09",
+  "last_updated": "2026-03-10",
   "profile_order": [
     "starter",
     "ancestral",
     "mythic",
-    "sanctified"
+    "speed_farming"
   ],
   "profiles": {
     "starter": {
@@ -258,6 +258,10 @@
               "weight": 6
             },
             {
+              "name": "auric",
+              "weight": 4
+            },
+            {
               "name": "perpetuity",
               "weight": 6
             },
@@ -384,7 +388,7 @@
               "weight": 6
             },
             {
-              "name": "demolition",
+              "name": "vigor",
               "weight": 4
             }
           ],
@@ -589,7 +593,7 @@
               "weight": 6
             },
             {
-              "name": "demolition",
+              "name": "vigor",
               "weight": 4
             }
           ],
@@ -621,8 +625,8 @@
         }
       }
     },
-    "sanctified": {
-      "name": "Sanctified",
+    "speed_farming": {
+      "name": "Speed Farming",
       "gear": {
         "helm": {
           "slot": "helm",
@@ -646,10 +650,6 @@
             {
               "name": "unique_resource_max_allclasses_higher",
               "weight": 4
-            },
-            {
-              "name": "the_focused",
-              "weight": 3
             }
           ],
           "required_tempers": []
@@ -661,10 +661,6 @@
           ],
           "priority_aspects": [],
           "priority_affixes": [
-            {
-              "name": "the_focused",
-              "weight": 3
-            },
             {
               "name": "the_wise",
               "weight": 10
@@ -754,10 +750,6 @@
             {
               "name": "vigor",
               "weight": 4
-            },
-            {
-              "name": "the_focused",
-              "weight": 3
             }
           ],
           "required_tempers": []
@@ -782,10 +774,6 @@
             {
               "name": "speed",
               "weight": 4
-            },
-            {
-              "name": "the_focused",
-              "weight": 3
             }
           ],
           "required_tempers": []
@@ -810,12 +798,8 @@
               "weight": 6
             },
             {
-              "name": "demolition",
+              "name": "vigor",
               "weight": 4
-            },
-            {
-              "name": "the_focused",
-              "weight": 3
             }
           ],
           "required_tempers": []

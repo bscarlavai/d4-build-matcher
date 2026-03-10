@@ -6,12 +6,11 @@
   "source_url": "https://maxroll.gg/d4/build-guides/blood-wave-necromancer-guide",
   "tier": "A",
   "tags": [],
-  "last_updated": "2026-03-09",
+  "last_updated": "2026-03-10",
   "profile_order": [
     "starter",
     "ancestral",
     "mythic",
-    "sanctified",
     "speed_farm",
     "push"
   ],
@@ -288,27 +287,25 @@
       "gear": {
         "helm": {
           "slot": "helm",
-          "priority_uniques": [],
+          "priority_uniques": [
+            "Godslayer Crown"
+          ],
           "priority_aspects": [],
           "priority_affixes": [
             {
               "name": "swiftness",
-              "weight": 10
-            },
-            {
-              "name": "vigor",
               "weight": 8
             },
             {
-              "name": "the_wise",
+              "name": "harmony",
               "weight": 6
             },
             {
-              "name": "toughened",
+              "name": "vigor",
               "weight": 4
             },
             {
-              "name": "auric",
+              "name": "unique_damage_to_elite_specialscaling",
               "weight": 3
             }
           ],
@@ -747,239 +744,6 @@
         }
       }
     },
-    "sanctified": {
-      "name": "Sanctified",
-      "gear": {
-        "helm": {
-          "slot": "helm",
-          "priority_uniques": [
-            "Heir of Perdition"
-          ],
-          "priority_aspects": [],
-          "priority_affixes": [
-            {
-              "name": "sanctification",
-              "weight": 3
-            }
-          ],
-          "required_tempers": []
-        },
-        "chest": {
-          "slot": "chest",
-          "priority_uniques": [
-            "Shroud of False Death"
-          ],
-          "priority_aspects": [],
-          "priority_affixes": [
-            {
-              "name": "sanctification",
-              "weight": 3
-            }
-          ],
-          "required_tempers": []
-        },
-        "weapon": {
-          "slot": "weapon",
-          "priority_uniques": [
-            "Bloodless Scream"
-          ],
-          "priority_aspects": [],
-          "priority_affixes": [
-            {
-              "name": "unique_skillrankbonus_necro_tag_darkness",
-              "weight": 8
-            },
-            {
-              "name": "the_wise",
-              "weight": 6
-            },
-            {
-              "name": "perpetuity",
-              "weight": 4
-            },
-            {
-              "name": "unique_generic_luckyhit_flatdamage_elementalsurge_shadow_higher",
-              "weight": 3
-            },
-            {
-              "name": "sanctification",
-              "weight": 3
-            }
-          ],
-          "required_tempers": []
-        },
-        "gloves": {
-          "slot": "gloves",
-          "priority_uniques": [],
-          "priority_aspects": [],
-          "priority_affixes": [
-            {
-              "name": "the_adept",
-              "weight": 10
-            },
-            {
-              "name": "the_wise",
-              "weight": 8
-            },
-            {
-              "name": "swiftness",
-              "weight": 6
-            },
-            {
-              "name": "vigor",
-              "weight": 4
-            },
-            {
-              "name": "demolition",
-              "weight": 3
-            },
-            {
-              "name": "keenness",
-              "weight": 3
-            },
-            {
-              "name": "toughened",
-              "weight": 3
-            }
-          ],
-          "required_tempers": []
-        },
-        "pants": {
-          "slot": "pants",
-          "priority_uniques": [
-            "Kessime's Legacy"
-          ],
-          "priority_aspects": [],
-          "priority_affixes": [
-            {
-              "name": "unique_double_damage_necro_bloodwave",
-              "weight": 10
-            },
-            {
-              "name": "unique_necro_bloodwavecooldownreduction",
-              "weight": 8
-            },
-            {
-              "name": "the_wise",
-              "weight": 6
-            },
-            {
-              "name": "unique_damage_generic_tag_ultimate_giga",
-              "weight": 4
-            },
-            {
-              "name": "the_focused",
-              "weight": 3
-            }
-          ],
-          "required_tempers": []
-        },
-        "boots": {
-          "slot": "boots",
-          "priority_uniques": [],
-          "priority_aspects": [],
-          "priority_affixes": [
-            {
-              "name": "speed",
-              "weight": 10
-            },
-            {
-              "name": "the_wise",
-              "weight": 8
-            },
-            {
-              "name": "vigor",
-              "weight": 6
-            },
-            {
-              "name": "toughened",
-              "weight": 4
-            },
-            {
-              "name": "sanctification",
-              "weight": 3
-            }
-          ],
-          "required_tempers": []
-        },
-        "ring": {
-          "slot": "ring",
-          "priority_uniques": [],
-          "priority_aspects": [],
-          "priority_affixes": [
-            {
-              "name": "the_wise",
-              "weight": 10
-            },
-            {
-              "name": "riving",
-              "weight": 8
-            },
-            {
-              "name": "swiftness",
-              "weight": 6
-            },
-            {
-              "name": "vigor",
-              "weight": 4
-            },
-            {
-              "name": "demolition",
-              "weight": 3
-            },
-            {
-              "name": "keenness",
-              "weight": 3
-            },
-            {
-              "name": "the_adept",
-              "weight": 10
-            }
-          ],
-          "required_tempers": []
-        },
-        "amulet": {
-          "slot": "amulet",
-          "priority_uniques": [],
-          "priority_aspects": [],
-          "priority_affixes": [
-            {
-              "name": "drowning",
-              "weight": 10
-            },
-            {
-              "name": "gloom",
-              "weight": 8
-            },
-            {
-              "name": "coalescence",
-              "weight": 6
-            },
-            {
-              "name": "tormenting",
-              "weight": 4
-            },
-            {
-              "name": "engulfing",
-              "weight": 3
-            },
-            {
-              "name": "keenness",
-              "weight": 3
-            },
-            {
-              "name": "swiftness",
-              "weight": 3
-            },
-            {
-              "name": "the_wise",
-              "weight": 3
-            }
-          ],
-          "required_tempers": []
-        }
-      }
-    },
     "speed_farm": {
       "name": "Speed Farm",
       "gear": {
@@ -1200,12 +964,7 @@
             "Heir of Perdition"
           ],
           "priority_aspects": [],
-          "priority_affixes": [
-            {
-              "name": "sanctification",
-              "weight": 3
-            }
-          ],
+          "priority_affixes": [],
           "required_tempers": []
         },
         "chest": {
@@ -1214,12 +973,7 @@
             "Shroud of False Death"
           ],
           "priority_aspects": [],
-          "priority_affixes": [
-            {
-              "name": "sanctification",
-              "weight": 3
-            }
-          ],
+          "priority_affixes": [],
           "required_tempers": []
         },
         "weapon": {
@@ -1306,10 +1060,6 @@
             {
               "name": "unique_damage_generic_tag_ultimate_giga",
               "weight": 4
-            },
-            {
-              "name": "the_focused",
-              "weight": 3
             }
           ],
           "required_tempers": []
@@ -1335,10 +1085,6 @@
             },
             {
               "name": "speed",
-              "weight": 3
-            },
-            {
-              "name": "sanctification",
               "weight": 3
             }
           ],

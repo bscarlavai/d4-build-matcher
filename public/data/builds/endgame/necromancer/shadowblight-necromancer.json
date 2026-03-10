@@ -6,12 +6,11 @@
   "source_url": "https://maxroll.gg/d4/build-guides/shadowblight-necromancer-guide",
   "tier": "A",
   "tags": [],
-  "last_updated": "2026-03-09",
+  "last_updated": "2026-03-10",
   "profile_order": [
     "starter",
     "ancestral",
     "mythic",
-    "sanctified",
     "speedfarm"
   ],
   "profiles": {
@@ -798,8 +797,8 @@
         }
       }
     },
-    "sanctified": {
-      "name": "Sanctified",
+    "speedfarm": {
+      "name": "Speedfarm",
       "gear": {
         "helm": {
           "slot": "helm",
@@ -807,12 +806,7 @@
             "Heir of Perdition"
           ],
           "priority_aspects": [],
-          "priority_affixes": [
-            {
-              "name": "sanctification",
-              "weight": 3
-            }
-          ],
+          "priority_affixes": [],
           "required_tempers": []
         },
         "chest": {
@@ -821,12 +815,7 @@
             "Shroud of False Death"
           ],
           "priority_aspects": [],
-          "priority_affixes": [
-            {
-              "name": "the_focused",
-              "weight": 3
-            }
-          ],
+          "priority_affixes": [],
           "required_tempers": []
         },
         "weapon": {
@@ -843,11 +832,11 @@
               "weight": 8
             },
             {
-              "name": "ferocity",
+              "name": "the_focused",
               "weight": 6
             },
             {
-              "name": "the_focused",
+              "name": "ferocity",
               "weight": 4
             },
             {
@@ -856,10 +845,6 @@
             },
             {
               "name": "perpetuity",
-              "weight": 3
-            },
-            {
-              "name": "sanctification",
               "weight": 3
             }
           ],
@@ -888,10 +873,6 @@
             },
             {
               "name": "toughened",
-              "weight": 3
-            },
-            {
-              "name": "the_adept",
               "weight": 3
             },
             {
@@ -935,10 +916,6 @@
             {
               "name": "golemlords",
               "weight": 3
-            },
-            {
-              "name": "sanctification",
-              "weight": 3
             }
           ],
           "required_tempers": []
@@ -971,10 +948,6 @@
             {
               "name": "infusing",
               "weight": 3
-            },
-            {
-              "name": "the_focused",
-              "weight": 3
             }
           ],
           "required_tempers": []
@@ -989,11 +962,11 @@
               "weight": 10
             },
             {
-              "name": "keenness",
+              "name": "vigor",
               "weight": 8
             },
             {
-              "name": "vigor",
+              "name": "keenness",
               "weight": 6
             },
             {
@@ -1058,219 +1031,6 @@
             },
             {
               "name": "the_wise",
-              "weight": 3
-            }
-          ],
-          "required_tempers": []
-        }
-      }
-    },
-    "speedfarm": {
-      "name": "Speedfarm",
-      "gear": {
-        "helm": {
-          "slot": "helm",
-          "priority_uniques": [
-            "Heir of Perdition"
-          ],
-          "priority_aspects": [],
-          "priority_affixes": [],
-          "required_tempers": []
-        },
-        "chest": {
-          "slot": "chest",
-          "priority_uniques": [
-            "Shroud of False Death"
-          ],
-          "priority_aspects": [],
-          "priority_affixes": [],
-          "required_tempers": []
-        },
-        "weapon": {
-          "slot": "weapon",
-          "priority_uniques": [],
-          "priority_aspects": [],
-          "priority_affixes": [
-            {
-              "name": "the_wise",
-              "weight": 10
-            },
-            {
-              "name": "vigor",
-              "weight": 8
-            },
-            {
-              "name": "the_focused",
-              "weight": 6
-            },
-            {
-              "name": "ferocity",
-              "weight": 4
-            },
-            {
-              "name": "cruelty",
-              "weight": 3
-            },
-            {
-              "name": "perpetuity",
-              "weight": 3
-            }
-          ],
-          "required_tempers": []
-        },
-        "gloves": {
-          "slot": "gloves",
-          "priority_uniques": [],
-          "priority_aspects": [],
-          "priority_affixes": [
-            {
-              "name": "the_wise",
-              "weight": 10
-            },
-            {
-              "name": "keenness",
-              "weight": 8
-            },
-            {
-              "name": "the_adept",
-              "weight": 6
-            },
-            {
-              "name": "vigor",
-              "weight": 4
-            },
-            {
-              "name": "toughened",
-              "weight": 3
-            },
-            {
-              "name": "the_focused",
-              "weight": 3
-            },
-            {
-              "name": "cruelty",
-              "weight": 3
-            },
-            {
-              "name": "auric",
-              "weight": 3
-            },
-            {
-              "name": "perpetuity",
-              "weight": 3
-            }
-          ],
-          "required_tempers": []
-        },
-        "pants": {
-          "slot": "pants",
-          "priority_uniques": [],
-          "priority_aspects": [],
-          "priority_affixes": [
-            {
-              "name": "the_wise",
-              "weight": 10
-            },
-            {
-              "name": "vigor",
-              "weight": 8
-            },
-            {
-              "name": "toughened",
-              "weight": 6
-            },
-            {
-              "name": "infusing",
-              "weight": 4
-            }
-          ],
-          "required_tempers": []
-        },
-        "boots": {
-          "slot": "boots",
-          "priority_uniques": [],
-          "priority_aspects": [],
-          "priority_affixes": [
-            {
-              "name": "speed",
-              "weight": 10
-            },
-            {
-              "name": "the_wise",
-              "weight": 8
-            },
-            {
-              "name": "toughened",
-              "weight": 6
-            },
-            {
-              "name": "vigor",
-              "weight": 4
-            },
-            {
-              "name": "auric",
-              "weight": 3
-            },
-            {
-              "name": "infusing",
-              "weight": 3
-            }
-          ],
-          "required_tempers": []
-        },
-        "ring": {
-          "slot": "ring",
-          "priority_uniques": [],
-          "priority_aspects": [],
-          "priority_affixes": [
-            {
-              "name": "the_wise",
-              "weight": 10
-            },
-            {
-              "name": "keenness",
-              "weight": 8
-            },
-            {
-              "name": "vigor",
-              "weight": 6
-            },
-            {
-              "name": "the_focused",
-              "weight": 4
-            },
-            {
-              "name": "cruelty",
-              "weight": 3
-            },
-            {
-              "name": "the_adept",
-              "weight": 3
-            }
-          ],
-          "required_tempers": []
-        },
-        "amulet": {
-          "slot": "amulet",
-          "priority_uniques": [
-            "Ebonpiercer"
-          ],
-          "priority_aspects": [],
-          "priority_affixes": [
-            {
-              "name": "the_scourge",
-              "weight": 8
-            },
-            {
-              "name": "gloom",
-              "weight": 6
-            },
-            {
-              "name": "unique_passiverankbonus_necro_caster_t4_n1_reaperspursuit",
-              "weight": 4
-            },
-            {
-              "name": "unique_projectiles_skill_necro_blight",
               "weight": 3
             }
           ],

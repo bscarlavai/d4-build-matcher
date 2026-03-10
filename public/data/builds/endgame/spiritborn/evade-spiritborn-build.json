@@ -6,13 +6,12 @@
   "source_url": "https://maxroll.gg/d4/build-guides/evade-spiritborn-build-guide",
   "tier": "S",
   "tags": [],
-  "last_updated": "2026-03-09",
+  "last_updated": "2026-03-10",
   "profile_order": [
     "starter",
     "ancestral",
     "mythic",
     "level_1-60",
-    "sanctified",
     "push"
   ],
   "profiles": {
@@ -877,231 +876,6 @@
         }
       }
     },
-    "sanctified": {
-      "name": "Sanctified",
-      "gear": {
-        "helm": {
-          "slot": "helm",
-          "priority_uniques": [
-            "Loyalty's Mantle"
-          ],
-          "priority_aspects": [],
-          "priority_affixes": [
-            {
-              "name": "the_adroit",
-              "weight": 8
-            },
-            {
-              "name": "unique_corestats_all_higher",
-              "weight": 6
-            },
-            {
-              "name": "the_focused",
-              "weight": 4
-            },
-            {
-              "name": "unique_movement_speed_lesser",
-              "weight": 3
-            },
-            {
-              "name": "unique_passiverankbonus_spiritborn_velocity_higher",
-              "weight": 3
-            }
-          ],
-          "required_tempers": []
-        },
-        "chest": {
-          "slot": "chest",
-          "priority_uniques": [
-            "Shroud of False Death"
-          ],
-          "priority_aspects": [],
-          "priority_affixes": [
-            {
-              "name": "the_focused",
-              "weight": 3
-            }
-          ],
-          "required_tempers": []
-        },
-        "gloves": {
-          "slot": "gloves",
-          "priority_uniques": [],
-          "priority_aspects": [],
-          "priority_affixes": [
-            {
-              "name": "the_adroit",
-              "weight": 10
-            },
-            {
-              "name": "vigor",
-              "weight": 8
-            },
-            {
-              "name": "toughened",
-              "weight": 6
-            },
-            {
-              "name": "the_focused",
-              "weight": 4
-            }
-          ],
-          "required_tempers": []
-        },
-        "pants": {
-          "slot": "pants",
-          "priority_uniques": [
-            "Temerity"
-          ],
-          "priority_aspects": [],
-          "priority_affixes": [
-            {
-              "name": "vigor",
-              "weight": 8
-            },
-            {
-              "name": "toughened",
-              "weight": 6
-            },
-            {
-              "name": "unique_healingpercent_verybig",
-              "weight": 4
-            },
-            {
-              "name": "unique_generic_luckyhit_heallife",
-              "weight": 3
-            }
-          ],
-          "required_tempers": []
-        },
-        "boots": {
-          "slot": "boots",
-          "priority_uniques": [],
-          "priority_aspects": [],
-          "priority_affixes": [
-            {
-              "name": "the_adroit",
-              "weight": 10
-            },
-            {
-              "name": "the_focused",
-              "weight": 8
-            },
-            {
-              "name": "vigor",
-              "weight": 6
-            },
-            {
-              "name": "toughened",
-              "weight": 4
-            }
-          ],
-          "required_tempers": []
-        },
-        "ring": {
-          "slot": "ring",
-          "priority_uniques": [
-            "Band of First Breath"
-          ],
-          "priority_aspects": [],
-          "priority_affixes": [
-            {
-              "name": "swiftness",
-              "weight": 10
-            },
-            {
-              "name": "the_adroit",
-              "weight": 8
-            },
-            {
-              "name": "the_focused",
-              "weight": 6
-            },
-            {
-              "name": "vigor",
-              "weight": 4
-            },
-            {
-              "name": "cruelty",
-              "weight": 3
-            },
-            {
-              "name": "ferocity",
-              "weight": 3
-            },
-            {
-              "name": "remedies",
-              "weight": 3
-            },
-            {
-              "name": "auric",
-              "weight": 3
-            },
-            {
-              "name": "unique_special_skill_spiritborn_resolve_maxstacks",
-              "weight": 8
-            },
-            {
-              "name": "unique_lifeflat_higherhigher",
-              "weight": 6
-            },
-            {
-              "name": "unique_resource_after_spiritborn_resolveloss",
-              "weight": 4
-            },
-            {
-              "name": "unique_spiritborn_resolve_generation",
-              "weight": 3
-            },
-            {
-              "name": "sanctification",
-              "weight": 3
-            }
-          ],
-          "required_tempers": []
-        },
-        "amulet": {
-          "slot": "amulet",
-          "priority_uniques": [],
-          "priority_aspects": [],
-          "priority_affixes": [
-            {
-              "name": "brilliance",
-              "weight": 10
-            },
-            {
-              "name": "elevation",
-              "weight": 8
-            },
-            {
-              "name": "rampaging",
-              "weight": 6
-            },
-            {
-              "name": "the_adroit",
-              "weight": 4
-            },
-            {
-              "name": "ferocity",
-              "weight": 3
-            },
-            {
-              "name": "vigor",
-              "weight": 3
-            },
-            {
-              "name": "carnage",
-              "weight": 3
-            },
-            {
-              "name": "swiftness",
-              "weight": 3
-            }
-          ],
-          "required_tempers": []
-        }
-      }
-    },
     "push": {
       "name": "Push",
       "gear": {
@@ -1121,12 +895,8 @@
               "weight": 6
             },
             {
-              "name": "the_focused",
-              "weight": 4
-            },
-            {
               "name": "unique_movement_speed_lesser",
-              "weight": 3
+              "weight": 4
             },
             {
               "name": "unique_passiverankbonus_spiritborn_velocity_higher",
@@ -1141,12 +911,7 @@
             "Shroud of False Death"
           ],
           "priority_aspects": [],
-          "priority_affixes": [
-            {
-              "name": "the_focused",
-              "weight": 3
-            }
-          ],
+          "priority_affixes": [],
           "required_tempers": []
         },
         "gloves": {
@@ -1155,11 +920,11 @@
           "priority_aspects": [],
           "priority_affixes": [
             {
-              "name": "swiftness",
+              "name": "the_adroit",
               "weight": 10
             },
             {
-              "name": "the_adroit",
+              "name": "the_focused",
               "weight": 8
             },
             {
@@ -1167,8 +932,24 @@
               "weight": 6
             },
             {
-              "name": "the_focused",
+              "name": "toughened",
               "weight": 4
+            },
+            {
+              "name": "cruelty",
+              "weight": 3
+            },
+            {
+              "name": "auric",
+              "weight": 3
+            },
+            {
+              "name": "carnage",
+              "weight": 3
+            },
+            {
+              "name": "swiftness",
+              "weight": 3
             }
           ],
           "required_tempers": []
@@ -1176,28 +957,24 @@
         "pants": {
           "slot": "pants",
           "priority_uniques": [
-            "Temerity"
+            "Tibault's Will"
           ],
           "priority_aspects": [],
           "priority_affixes": [
             {
-              "name": "vigor",
+              "name": "harmony",
               "weight": 8
             },
             {
-              "name": "toughened",
+              "name": "the_adept",
               "weight": 6
             },
             {
-              "name": "the_focused",
+              "name": "resources",
               "weight": 4
             },
             {
-              "name": "unique_healingpercent_verybig",
-              "weight": 3
-            },
-            {
-              "name": "unique_generic_luckyhit_heallife",
+              "name": "keenness",
               "weight": 3
             }
           ],
@@ -1209,11 +986,11 @@
           "priority_aspects": [],
           "priority_affixes": [
             {
-              "name": "the_adroit",
+              "name": "the_focused",
               "weight": 10
             },
             {
-              "name": "the_focused",
+              "name": "the_adroit",
               "weight": 8
             },
             {
@@ -1223,6 +1000,14 @@
             {
               "name": "toughened",
               "weight": 4
+            },
+            {
+              "name": "auric",
+              "weight": 3
+            },
+            {
+              "name": "remedies",
+              "weight": 3
             }
           ],
           "required_tempers": []
@@ -1233,19 +1018,19 @@
           "priority_aspects": [],
           "priority_affixes": [
             {
-              "name": "the_adroit",
+              "name": "swiftness",
               "weight": 10
             },
             {
-              "name": "swiftness",
+              "name": "the_adroit",
               "weight": 8
             },
             {
-              "name": "the_focused",
+              "name": "vigor",
               "weight": 6
             },
             {
-              "name": "vigor",
+              "name": "the_focused",
               "weight": 4
             },
             {
@@ -1262,6 +1047,18 @@
             },
             {
               "name": "auric",
+              "weight": 3
+            },
+            {
+              "name": "carnage",
+              "weight": 3
+            },
+            {
+              "name": "regrowth",
+              "weight": 3
+            },
+            {
+              "name": "neutralizing",
               "weight": 3
             }
           ],
@@ -1289,11 +1086,19 @@
               "weight": 4
             },
             {
+              "name": "vigor",
+              "weight": 3
+            },
+            {
               "name": "ferocity",
               "weight": 3
             },
             {
-              "name": "vigor",
+              "name": "auric",
+              "weight": 3
+            },
+            {
+              "name": "remedies",
               "weight": 3
             },
             {

@@ -16,19 +16,19 @@
     {
       "id": "meteor-sorcerer",
       "name": "Meteor Sorcerer",
-      "tier": "B",
+      "tier": "C",
       "file": "meteor-sorcerer.json"
     },
     {
       "id": "ice-shards-sorcerer",
       "name": "Ice Shards Sorcerer",
-      "tier": "B",
+      "tier": "C",
       "file": "ice-shards-sorcerer.json"
     },
     {
       "id": "frozen-orb-sorcerer",
       "name": "Frozen Orb Sorcerer",
-      "tier": "A",
+      "tier": "B",
       "file": "frozen-orb-sorcerer.json"
     },
     {
@@ -38,16 +38,16 @@
       "file": "blizzard-sorcerer.json"
     },
     {
-      "id": "fireball-sorcerer",
-      "name": "Fireball Sorcerer",
-      "tier": "C",
-      "file": "fireball-sorcerer.json"
-    },
-    {
       "id": "ball-lightning-sorcerer",
       "name": "Ball Lightning Sorcerer",
       "tier": "C",
       "file": "ball-lightning-sorcerer.json"
+    },
+    {
+      "id": "fireball-sorcerer",
+      "name": "Fireball Sorcerer",
+      "tier": "C",
+      "file": "fireball-sorcerer.json"
     },
     {
       "id": "lightning-spear-sorcerer",
@@ -58,14 +58,8 @@
     {
       "id": "chain-lightning-sorcerer",
       "name": "Chain Lightning Sorcerer",
-      "tier": "B",
-      "file": "chain-lightning-sorcerer.json"
-    },
-    {
-      "id": "incinerate-sorcerer",
-      "name": "Incinerate Sorcerer",
       "tier": "C",
-      "file": "incinerate-sorcerer.json"
+      "file": "chain-lightning-sorcerer.json"
     }
   ]
 }

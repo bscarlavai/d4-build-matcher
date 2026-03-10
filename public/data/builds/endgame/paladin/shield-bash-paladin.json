@@ -6,14 +6,13 @@
   "source_url": "https://maxroll.gg/d4/build-guides/shield-bash-paladin-guide",
   "tier": "S",
   "tags": [],
-  "last_updated": "2026-03-09",
+  "last_updated": "2026-03-10",
   "profile_order": [
     "starter",
     "ancestral",
     "mythic",
     "speedfarming_anc",
-    "speedfarming_m",
-    "sanctified"
+    "speedfarming_m"
   ],
   "profiles": {
     "starter": {
@@ -328,7 +327,7 @@
           "slot": "chest",
           "priority_uniques": [
             "Mantle of the Grey",
-            "Gate of the Red Dawn"
+            "Bastion of Sir Matthias"
           ],
           "priority_aspects": [],
           "priority_affixes": [
@@ -345,16 +344,20 @@
               "weight": 3
             },
             {
-              "name": "the_sturdy",
-              "weight": 10
+              "name": "unique_double_damage_skill_pal_shieldbash",
+              "weight": 8
             },
             {
-              "name": "sturdiness",
+              "name": "the_sturdy",
               "weight": 6
             },
             {
-              "name": "swiftness",
+              "name": "shieldbashing",
               "weight": 4
+            },
+            {
+              "name": "sturdiness",
+              "weight": 3
             }
           ],
           "required_tempers": []
@@ -599,7 +602,7 @@
           "slot": "chest",
           "priority_uniques": [
             "Mantle of the Grey",
-            "Gate of the Red Dawn"
+            "Bastion of Sir Matthias"
           ],
           "priority_aspects": [],
           "priority_affixes": [
@@ -616,16 +619,20 @@
               "weight": 6
             },
             {
-              "name": "the_sturdy",
-              "weight": 10
+              "name": "unique_double_damage_skill_pal_shieldbash",
+              "weight": 8
             },
             {
-              "name": "sturdiness",
+              "name": "the_sturdy",
               "weight": 6
             },
             {
-              "name": "swiftness",
+              "name": "shieldbashing",
               "weight": 4
+            },
+            {
+              "name": "sturdiness",
+              "weight": 3
             }
           ],
           "required_tempers": []
@@ -912,20 +919,20 @@
               "weight": 3
             },
             {
-              "name": "the_sturdy",
-              "weight": 10
-            },
-            {
               "name": "unique_double_damage_skill_pal_shieldbash",
               "weight": 8
             },
             {
-              "name": "shieldbashing",
+              "name": "the_sturdy",
               "weight": 6
             },
             {
-              "name": "sturdiness",
+              "name": "shieldbashing",
               "weight": 4
+            },
+            {
+              "name": "sturdiness",
+              "weight": 3
             }
           ],
           "required_tempers": []
@@ -1185,20 +1192,20 @@
               "weight": 6
             },
             {
-              "name": "the_sturdy",
-              "weight": 10
-            },
-            {
               "name": "unique_double_damage_skill_pal_shieldbash",
               "weight": 8
             },
             {
-              "name": "shieldbashing",
+              "name": "the_sturdy",
               "weight": 6
             },
             {
-              "name": "sturdiness",
+              "name": "shieldbashing",
               "weight": 4
+            },
+            {
+              "name": "sturdiness",
+              "weight": 3
             }
           ],
           "required_tempers": []
@@ -1418,295 +1425,6 @@
             },
             {
               "name": "auric",
-              "weight": 3
-            }
-          ],
-          "required_tempers": []
-        }
-      }
-    },
-    "sanctified": {
-      "name": "Sanctified",
-      "gear": {
-        "helm": {
-          "slot": "helm",
-          "priority_uniques": [
-            "Heir of Perdition"
-          ],
-          "priority_aspects": [],
-          "priority_affixes": [],
-          "required_tempers": []
-        },
-        "chest": {
-          "slot": "chest",
-          "priority_uniques": [
-            "Mantle of the Grey",
-            "Gate of the Red Dawn"
-          ],
-          "priority_aspects": [],
-          "priority_affixes": [
-            {
-              "name": "reckless_magic",
-              "weight": 10
-            },
-            {
-              "name": "unique_skillrankbonus_paladin_juggernaut",
-              "weight": 8
-            },
-            {
-              "name": "unique_lifeflat_higherhigher",
-              "weight": 6
-            },
-            {
-              "name": "the_sturdy",
-              "weight": 10
-            },
-            {
-              "name": "sturdiness",
-              "weight": 6
-            },
-            {
-              "name": "swiftness",
-              "weight": 4
-            },
-            {
-              "name": "keenness",
-              "weight": 3
-            }
-          ],
-          "required_tempers": []
-        },
-        "weapon": {
-          "slot": "weapon",
-          "priority_uniques": [
-            "Griswold's Opus"
-          ],
-          "priority_aspects": [],
-          "priority_affixes": [
-            {
-              "name": "unique_passiverankbonus_pal_heavyweight",
-              "weight": 10
-            },
-            {
-              "name": "unique_passiverankbonus_pal_breaktheline",
-              "weight": 8
-            },
-            {
-              "name": "the_powerful",
-              "weight": 6
-            },
-            {
-              "name": "vigor",
-              "weight": 4
-            }
-          ],
-          "required_tempers": []
-        },
-        "gloves": {
-          "slot": "gloves",
-          "priority_uniques": [],
-          "priority_aspects": [],
-          "priority_affixes": [
-            {
-              "name": "riving",
-              "weight": 10
-            },
-            {
-              "name": "shieldbashing",
-              "weight": 8
-            },
-            {
-              "name": "the_powerful",
-              "weight": 6
-            },
-            {
-              "name": "keenness",
-              "weight": 4
-            },
-            {
-              "name": "toughened",
-              "weight": 3
-            },
-            {
-              "name": "vigor",
-              "weight": 3
-            },
-            {
-              "name": "the_adept",
-              "weight": 3
-            },
-            {
-              "name": "swiftness",
-              "weight": 3
-            },
-            {
-              "name": "the_focused",
-              "weight": 3
-            }
-          ],
-          "required_tempers": []
-        },
-        "pants": {
-          "slot": "pants",
-          "priority_uniques": [],
-          "priority_aspects": [],
-          "priority_affixes": [
-            {
-              "name": "the_powerful",
-              "weight": 10
-            },
-            {
-              "name": "vigor",
-              "weight": 8
-            },
-            {
-              "name": "toughened",
-              "weight": 6
-            },
-            {
-              "name": "auric",
-              "weight": 4
-            },
-            {
-              "name": "sanctification",
-              "weight": 3
-            }
-          ],
-          "required_tempers": []
-        },
-        "boots": {
-          "slot": "boots",
-          "priority_uniques": [],
-          "priority_aspects": [],
-          "priority_affixes": [
-            {
-              "name": "speed",
-              "weight": 10
-            },
-            {
-              "name": "the_powerful",
-              "weight": 8
-            },
-            {
-              "name": "vigor",
-              "weight": 6
-            },
-            {
-              "name": "toughened",
-              "weight": 4
-            },
-            {
-              "name": "auric",
-              "weight": 3
-            },
-            {
-              "name": "sanctification",
-              "weight": 3
-            }
-          ],
-          "required_tempers": []
-        },
-        "ring": {
-          "slot": "ring",
-          "priority_uniques": [
-            "Ring of Starless Skies"
-          ],
-          "priority_aspects": [],
-          "priority_affixes": [
-            {
-              "name": "the_powerful",
-              "weight": 10
-            },
-            {
-              "name": "the_adept",
-              "weight": 8
-            },
-            {
-              "name": "keenness",
-              "weight": 6
-            },
-            {
-              "name": "vigor",
-              "weight": 4
-            },
-            {
-              "name": "swiftness",
-              "weight": 3
-            },
-            {
-              "name": "the_focused",
-              "weight": 3
-            },
-            {
-              "name": "cruelty",
-              "weight": 3
-            },
-            {
-              "name": "auric",
-              "weight": 3
-            },
-            {
-              "name": "riving",
-              "weight": 3
-            }
-          ],
-          "required_tempers": []
-        },
-        "amulet": {
-          "slot": "amulet",
-          "priority_uniques": [],
-          "priority_aspects": [],
-          "priority_affixes": [
-            {
-              "name": "offense",
-              "weight": 10
-            },
-            {
-              "name": "heartiness",
-              "weight": 8
-            },
-            {
-              "name": "righteousness",
-              "weight": 6
-            },
-            {
-              "name": "keenness",
-              "weight": 4
-            },
-            {
-              "name": "swiftness",
-              "weight": 3
-            },
-            {
-              "name": "cracking",
-              "weight": 3
-            },
-            {
-              "name": "the_adept",
-              "weight": 3
-            },
-            {
-              "name": "the_powerful",
-              "weight": 3
-            },
-            {
-              "name": "vigor",
-              "weight": 3
-            },
-            {
-              "name": "riving",
-              "weight": 3
-            },
-            {
-              "name": "speed",
-              "weight": 3
-            },
-            {
-              "name": "auric",
-              "weight": 3
-            },
-            {
-              "name": "sanctification",
               "weight": 3
             }
           ],

@@ -6,12 +6,11 @@
   "source_url": "https://maxroll.gg/d4/build-guides/pulverize-druid-guide",
   "tier": "S",
   "tags": [],
-  "last_updated": "2026-03-09",
+  "last_updated": "2026-03-10",
   "profile_order": [
     "starter",
     "ancestral",
     "mythic",
-    "sanctified",
     "speedfarming",
     "push"
   ],
@@ -691,254 +690,19 @@
               "weight": 4
             },
             {
-              "name": "keenness",
-              "weight": 3
-            },
-            {
-              "name": "determination",
-              "weight": 3
-            },
-            {
-              "name": "branching",
-              "weight": 3
-            }
-          ],
-          "required_tempers": []
-        }
-      }
-    },
-    "sanctified": {
-      "name": "Sanctified",
-      "gear": {
-        "helm": {
-          "slot": "helm",
-          "priority_uniques": [
-            "Heir of Perdition"
-          ],
-          "priority_aspects": [],
-          "priority_affixes": [
-            {
-              "name": "the_adept",
-              "weight": 3
-            }
-          ],
-          "required_tempers": []
-        },
-        "chest": {
-          "slot": "chest",
-          "priority_uniques": [
-            "Shroud of False Death"
-          ],
-          "priority_aspects": [],
-          "priority_affixes": [
-            {
-              "name": "the_focused",
-              "weight": 3
-            }
-          ],
-          "required_tempers": []
-        },
-        "weapon": {
-          "slot": "weapon",
-          "priority_uniques": [
-            "Rotting Lightbringer"
-          ],
-          "priority_aspects": [],
-          "priority_affixes": [
-            {
-              "name": "unique_corestat_willpowerpercent_higher",
-              "weight": 8
-            },
-            {
-              "name": "unique_hit_twice_skill_druid_pulverize",
-              "weight": 6
-            },
-            {
-              "name": "unique_damage_generic_type_poison",
-              "weight": 4
-            },
-            {
-              "name": "unique_resource_cost_reduction_scaled2h",
-              "weight": 3
-            },
-            {
-              "name": "sanctification",
-              "weight": 3
-            }
-          ],
-          "required_tempers": []
-        },
-        "gloves": {
-          "slot": "gloves",
-          "priority_uniques": [],
-          "priority_aspects": [],
-          "priority_affixes": [
-            {
-              "name": "the_brutalizer",
-              "weight": 10
-            },
-            {
-              "name": "the_adept",
-              "weight": 8
-            },
-            {
-              "name": "keenness",
-              "weight": 6
-            },
-            {
-              "name": "determination",
-              "weight": 4
-            },
-            {
-              "name": "carnage",
-              "weight": 3
-            },
-            {
-              "name": "vigor",
-              "weight": 3
-            },
-            {
-              "name": "riving",
-              "weight": 3
-            }
-          ],
-          "required_tempers": []
-        },
-        "pants": {
-          "slot": "pants",
-          "priority_uniques": [
-            "Temerity"
-          ],
-          "priority_aspects": [],
-          "priority_affixes": [
-            {
-              "name": "vigor",
-              "weight": 8
-            },
-            {
-              "name": "toughened",
-              "weight": 6
-            },
-            {
-              "name": "unique_generic_luckyhit_heallife",
-              "weight": 4
-            },
-            {
-              "name": "unique_healingpercent_verybig",
-              "weight": 3
-            },
-            {
-              "name": "sanctification",
-              "weight": 3
-            }
-          ],
-          "required_tempers": []
-        },
-        "boots": {
-          "slot": "boots",
-          "priority_uniques": [],
-          "priority_aspects": [],
-          "priority_affixes": [
-            {
-              "name": "determination",
-              "weight": 10
-            },
-            {
-              "name": "vigor",
-              "weight": 8
-            },
-            {
               "name": "speed",
-              "weight": 6
-            },
-            {
-              "name": "toughened",
-              "weight": 4
-            },
-            {
-              "name": "infusing",
               "weight": 3
-            },
-            {
-              "name": "auric",
-              "weight": 3
-            },
-            {
-              "name": "sanctification",
-              "weight": 3
-            }
-          ],
-          "required_tempers": []
-        },
-        "ring": {
-          "slot": "ring",
-          "priority_uniques": [
-            "Ring of Starless Skies"
-          ],
-          "priority_aspects": [],
-          "priority_affixes": [
-            {
-              "name": "determination",
-              "weight": 10
-            },
-            {
-              "name": "riving",
-              "weight": 8
-            },
-            {
-              "name": "carnage",
-              "weight": 6
             },
             {
               "name": "keenness",
-              "weight": 4
-            },
-            {
-              "name": "the_adept",
               "weight": 3
             },
             {
-              "name": "vigor",
+              "name": "determination",
               "weight": 3
-            },
-            {
-              "name": "sanctification_skillrankbonus_allskills",
-              "weight": 3
-            }
-          ],
-          "required_tempers": []
-        },
-        "amulet": {
-          "slot": "amulet",
-          "priority_uniques": [],
-          "priority_aspects": [],
-          "priority_affixes": [
-            {
-              "name": "poison_soaked",
-              "weight": 10
-            },
-            {
-              "name": "shifting",
-              "weight": 8
-            },
-            {
-              "name": "toxicity",
-              "weight": 6
             },
             {
               "name": "branching",
-              "weight": 4
-            },
-            {
-              "name": "the_adept",
-              "weight": 3
-            },
-            {
-              "name": "keenness",
-              "weight": 3
-            },
-            {
-              "name": "determination",
               "weight": 3
             }
           ],
@@ -1164,12 +928,7 @@
             "Heir of Perdition"
           ],
           "priority_aspects": [],
-          "priority_affixes": [
-            {
-              "name": "the_adept",
-              "weight": 3
-            }
-          ],
+          "priority_affixes": [],
           "required_tempers": []
         },
         "chest": {
@@ -1178,12 +937,7 @@
             "Shroud of False Death"
           ],
           "priority_aspects": [],
-          "priority_affixes": [
-            {
-              "name": "the_focused",
-              "weight": 3
-            }
-          ],
+          "priority_affixes": [],
           "required_tempers": []
         },
         "weapon": {
@@ -1207,10 +961,6 @@
             },
             {
               "name": "unique_resource_cost_reduction_scaled2h",
-              "weight": 3
-            },
-            {
-              "name": "sanctification",
               "weight": 3
             }
           ],
@@ -1254,11 +1004,13 @@
         },
         "pants": {
           "slot": "pants",
-          "priority_uniques": [
-            "Temerity"
-          ],
+          "priority_uniques": [],
           "priority_aspects": [],
           "priority_affixes": [
+            {
+              "name": "determination",
+              "weight": 10
+            },
             {
               "name": "vigor",
               "weight": 8
@@ -1268,15 +1020,11 @@
               "weight": 6
             },
             {
-              "name": "unique_generic_luckyhit_heallife",
+              "name": "auric",
               "weight": 4
             },
             {
-              "name": "unique_healingpercent_verybig",
-              "weight": 3
-            },
-            {
-              "name": "sanctification",
+              "name": "evasion",
               "weight": 3
             }
           ],
@@ -1309,10 +1057,6 @@
             },
             {
               "name": "auric",
-              "weight": 3
-            },
-            {
-              "name": "sanctification",
               "weight": 3
             }
           ],
@@ -1347,10 +1091,6 @@
             },
             {
               "name": "vigor",
-              "weight": 3
-            },
-            {
-              "name": "sanctification_skillrankbonus_allskills",
               "weight": 3
             }
           ],
