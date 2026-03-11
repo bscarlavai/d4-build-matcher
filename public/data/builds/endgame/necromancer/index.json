@@ -26,6 +26,12 @@
       "file": "bone-spirit-necromancer.json"
     },
     {
+      "id": "minion-necromancer",
+      "name": "Minion Necromancer",
+      "tier": "A",
+      "file": "minion-necromancer.json"
+    },
+    {
       "id": "bone-spear-necromancer",
       "name": "Bone Spear Necromancer",
       "tier": "B",

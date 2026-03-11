@@ -6,13 +6,12 @@
   "source_url": "https://maxroll.gg/d4/build-guides/crushing-hand-spiritborn-guide",
   "tier": "S",
   "tags": [],
-  "last_updated": "2026-03-10",
+  "last_updated": "2026-03-11",
   "profile_order": [
     "starter",
     "ancestral",
     "mythic",
     "1-60",
-    "sanctified",
     "push"
   ],
   "profiles": {
@@ -314,16 +313,20 @@
           "priority_aspects": [],
           "priority_affixes": [
             {
-              "name": "toughened",
+              "name": "the_adroit",
               "weight": 10
             },
             {
-              "name": "the_adroit",
+              "name": "toughened",
               "weight": 8
             },
             {
               "name": "vigor",
               "weight": 6
+            },
+            {
+              "name": "speed",
+              "weight": 4
             }
           ],
           "required_tempers": []
@@ -409,26 +412,24 @@
         },
         "chest": {
           "slot": "chest",
-          "priority_uniques": [
-            "Soulbrand"
-          ],
+          "priority_uniques": [],
           "priority_aspects": [],
           "priority_affixes": [
             {
-              "name": "vigor",
+              "name": "resources",
+              "weight": 10
+            },
+            {
+              "name": "the_adroit",
               "weight": 8
             },
             {
-              "name": "unique_barrier_strength_percent",
+              "name": "vigor",
               "weight": 6
             },
             {
               "name": "toughened",
               "weight": 4
-            },
-            {
-              "name": "unique_potioncharges",
-              "weight": 3
             }
           ],
           "required_tempers": []
@@ -468,7 +469,7 @@
           "priority_affixes": [
             {
               "name": "vigor",
-              "weight": 10
+              "weight": 8
             },
             {
               "name": "unique_healingpercent_verybig",
@@ -491,19 +492,19 @@
           "priority_aspects": [],
           "priority_affixes": [
             {
-              "name": "the_adroit",
+              "name": "razing",
               "weight": 10
             },
             {
-              "name": "toughened",
+              "name": "the_adroit",
               "weight": 8
             },
             {
-              "name": "vigor",
+              "name": "toughened",
               "weight": 6
             },
             {
-              "name": "speed",
+              "name": "vigor",
               "weight": 4
             }
           ],
@@ -533,7 +534,7 @@
               "weight": 3
             },
             {
-              "name": "efficiency",
+              "name": "vigor",
               "weight": 8
             },
             {
@@ -541,7 +542,7 @@
               "weight": 6
             },
             {
-              "name": "vigor",
+              "name": "efficiency",
               "weight": 4
             }
           ],
@@ -557,11 +558,11 @@
               "weight": 10
             },
             {
-              "name": "sparking",
+              "name": "resources",
               "weight": 8
             },
             {
-              "name": "surmounting",
+              "name": "sparking",
               "weight": 6
             },
             {
@@ -669,11 +670,11 @@
           "priority_aspects": [],
           "priority_affixes": [
             {
-              "name": "the_adroit",
+              "name": "razing",
               "weight": 10
             },
             {
-              "name": "toughened",
+              "name": "the_adroit",
               "weight": 8
             },
             {
@@ -681,7 +682,7 @@
               "weight": 6
             },
             {
-              "name": "speed",
+              "name": "toughened",
               "weight": 4
             }
           ],
@@ -735,15 +736,15 @@
               "weight": 10
             },
             {
-              "name": "sparking",
+              "name": "resources",
               "weight": 8
             },
             {
-              "name": "brilliance",
+              "name": "sparking",
               "weight": 6
             },
             {
-              "name": "resources",
+              "name": "brilliance",
               "weight": 4
             },
             {
@@ -791,197 +792,6 @@
         }
       }
     },
-    "sanctified": {
-      "name": "Sanctified",
-      "gear": {
-        "helm": {
-          "slot": "helm",
-          "priority_uniques": [
-            "Harmony of Ebewaka"
-          ],
-          "priority_aspects": [],
-          "priority_affixes": [
-            {
-              "name": "the_adroit",
-              "weight": 8
-            },
-            {
-              "name": "unique_corestats_all_higher",
-              "weight": 6
-            },
-            {
-              "name": "unique_movement_speed_lesser",
-              "weight": 4
-            },
-            {
-              "name": "unique_passiverankbonus_spiritborn_velocity_higher",
-              "weight": 3
-            },
-            {
-              "name": "sanctification",
-              "weight": 3
-            }
-          ],
-          "required_tempers": []
-        },
-        "chest": {
-          "slot": "chest",
-          "priority_uniques": [
-            "Shroud of False Death"
-          ],
-          "priority_aspects": [],
-          "priority_affixes": [
-            {
-              "name": "sanctification",
-              "weight": 3
-            }
-          ],
-          "required_tempers": []
-        },
-        "gloves": {
-          "slot": "gloves",
-          "priority_uniques": [
-            "Hesha e Kesungi"
-          ],
-          "priority_aspects": [],
-          "priority_affixes": [
-            {
-              "name": "unique_skillrankbonus_spiritborn_category_gorilla",
-              "weight": 8
-            },
-            {
-              "name": "unique_attackspeed_higher",
-              "weight": 6
-            },
-            {
-              "name": "unique_damage_to_vulnerable_higher",
-              "weight": 4
-            },
-            {
-              "name": "unique_cdr_tag_generic_ultimate_higher",
-              "weight": 3
-            }
-          ],
-          "required_tempers": []
-        },
-        "pants": {
-          "slot": "pants",
-          "priority_uniques": [
-            "Temerity"
-          ],
-          "priority_aspects": [],
-          "priority_affixes": [
-            {
-              "name": "vigor",
-              "weight": 8
-            },
-            {
-              "name": "unique_generic_luckyhit_heallife",
-              "weight": 6
-            },
-            {
-              "name": "unique_healingpercent_verybig",
-              "weight": 4
-            },
-            {
-              "name": "toughened",
-              "weight": 3
-            }
-          ],
-          "required_tempers": []
-        },
-        "boots": {
-          "slot": "boots",
-          "priority_uniques": [],
-          "priority_aspects": [],
-          "priority_affixes": [
-            {
-              "name": "the_adroit",
-              "weight": 10
-            },
-            {
-              "name": "toughened",
-              "weight": 8
-            },
-            {
-              "name": "vigor",
-              "weight": 6
-            },
-            {
-              "name": "speed",
-              "weight": 4
-            },
-            {
-              "name": "sanctification",
-              "weight": 3
-            }
-          ],
-          "required_tempers": []
-        },
-        "ring": {
-          "slot": "ring",
-          "priority_uniques": [
-            "Ring of the Midnight Sun"
-          ],
-          "priority_aspects": [],
-          "priority_affixes": [
-            {
-              "name": "the_adroit",
-              "weight": 10
-            },
-            {
-              "name": "swiftness",
-              "weight": 6
-            },
-            {
-              "name": "the_focused",
-              "weight": 4
-            },
-            {
-              "name": "unique_x1_passiverankbonus_spiritborn_talent_plains_2_mirage_higher",
-              "weight": 3
-            },
-            {
-              "name": "keenness",
-              "weight": 10
-            },
-            {
-              "name": "efficiency",
-              "weight": 8
-            },
-            {
-              "name": "vigor",
-              "weight": 4
-            }
-          ],
-          "required_tempers": []
-        },
-        "amulet": {
-          "slot": "amulet",
-          "priority_uniques": [],
-          "priority_aspects": [],
-          "priority_affixes": [
-            {
-              "name": "elevation",
-              "weight": 10
-            },
-            {
-              "name": "resources",
-              "weight": 8
-            },
-            {
-              "name": "sparking",
-              "weight": 6
-            },
-            {
-              "name": "surmounting",
-              "weight": 4
-            }
-          ],
-          "required_tempers": []
-        }
-      }
-    },
     "push": {
       "name": "Push",
       "gear": {
@@ -1007,10 +817,6 @@
             {
               "name": "unique_passiverankbonus_spiritborn_velocity_higher",
               "weight": 3
-            },
-            {
-              "name": "sanctification",
-              "weight": 3
             }
           ],
           "required_tempers": []
@@ -1021,12 +827,7 @@
             "Shroud of False Death"
           ],
           "priority_aspects": [],
-          "priority_affixes": [
-            {
-              "name": "sanctification",
-              "weight": 3
-            }
-          ],
+          "priority_affixes": [],
           "required_tempers": []
         },
         "gloves": {
@@ -1103,10 +904,6 @@
             {
               "name": "unique_cc_duration_reduction_generic_high",
               "weight": 4
-            },
-            {
-              "name": "sanctification",
-              "weight": 3
             }
           ],
           "required_tempers": []

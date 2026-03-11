@@ -6,14 +6,12 @@
   "source_url": "https://maxroll.gg/d4/build-guides/zeal-paladin-guide",
   "tier": "A",
   "tags": [],
-  "last_updated": "2026-03-10",
+  "last_updated": "2026-03-11",
   "profile_order": [
     "starter",
     "ancestral",
     "mythic",
-    "sanctified",
-    "push",
-    "red_sermon"
+    "push"
   ],
   "profiles": {
     "starter": {
@@ -198,7 +196,9 @@
       "gear": {
         "helm": {
           "slot": "helm",
-          "priority_uniques": [],
+          "priority_uniques": [
+            "Crown of Lucion"
+          ],
           "priority_aspects": [],
           "priority_affixes": [
             {
@@ -206,7 +206,7 @@
               "weight": 10
             },
             {
-              "name": "the_powerful",
+              "name": "bsk_generic_002",
               "weight": 8
             },
             {
@@ -214,8 +214,12 @@
               "weight": 6
             },
             {
-              "name": "toughened",
+              "name": "luck",
               "weight": 4
+            },
+            {
+              "name": "sanctity",
+              "weight": 3
             }
           ],
           "required_tempers": []
@@ -234,16 +238,12 @@
               "weight": 8
             },
             {
-              "name": "auras",
+              "name": "fanaticism",
               "weight": 6
             },
             {
               "name": "toughened",
               "weight": 4
-            },
-            {
-              "name": "sturdiness",
-              "weight": 10
             }
           ],
           "required_tempers": []
@@ -251,24 +251,24 @@
         "weapon": {
           "slot": "weapon",
           "priority_uniques": [
-            "Griswold's Opus"
+            "Red Sermon"
           ],
           "priority_aspects": [],
           "priority_affixes": [
             {
-              "name": "unique_passiverankbonus_pal_heavyweight",
+              "name": "unique_double_damage_skill_pal_zeal",
               "weight": 10
             },
             {
-              "name": "unique_passiverankbonus_pal_breaktheline",
+              "name": "the_zealot",
               "weight": 8
             },
             {
-              "name": "the_powerful",
+              "name": "carnage",
               "weight": 4
             },
             {
-              "name": "vigor",
+              "name": "unique_corestat_strength_higherhigher",
               "weight": 3
             }
           ],
@@ -288,11 +288,11 @@
               "weight": 8
             },
             {
-              "name": "the_adept",
+              "name": "the_powerful",
               "weight": 6
             },
             {
-              "name": "the_powerful",
+              "name": "vigor",
               "weight": 4
             }
           ],
@@ -300,11 +300,13 @@
         },
         "pants": {
           "slot": "pants",
-          "priority_uniques": [],
+          "priority_uniques": [
+            "Arcadia"
+          ],
           "priority_aspects": [],
           "priority_affixes": [
             {
-              "name": "infusing",
+              "name": "unique_passiverankbonus_pal_heavyweight",
               "weight": 10
             },
             {
@@ -316,7 +318,7 @@
               "weight": 6
             },
             {
-              "name": "toughened",
+              "name": "unique_resistance_all_higher_tassets",
               "weight": 4
             }
           ],
@@ -328,19 +330,19 @@
           "priority_aspects": [],
           "priority_affixes": [
             {
-              "name": "infusing",
+              "name": "the_powerful",
               "weight": 10
             },
             {
-              "name": "the_powerful",
+              "name": "vigor",
               "weight": 8
             },
             {
-              "name": "vigor",
+              "name": "toughened",
               "weight": 6
             },
             {
-              "name": "toughened",
+              "name": "remedies",
               "weight": 4
             }
           ],
@@ -354,7 +356,7 @@
           "priority_aspects": [],
           "priority_affixes": [
             {
-              "name": "carnage",
+              "name": "swiftness",
               "weight": 10
             },
             {
@@ -362,20 +364,16 @@
               "weight": 8
             },
             {
-              "name": "the_adept",
+              "name": "the_powerful",
               "weight": 6
             },
             {
-              "name": "the_powerful",
+              "name": "vigor",
               "weight": 4
             },
             {
               "name": "principals",
               "weight": 10
-            },
-            {
-              "name": "vigor",
-              "weight": 4
             },
             {
               "name": "cruelty",
@@ -390,20 +388,32 @@
           "priority_aspects": [],
           "priority_affixes": [
             {
-              "name": "the_adept",
+              "name": "iron",
               "weight": 10
             },
             {
-              "name": "keenness",
+              "name": "fortitude",
               "weight": 8
             },
             {
-              "name": "the_powerful",
+              "name": "cracking",
               "weight": 6
             },
             {
-              "name": "vigor",
+              "name": "offense",
               "weight": 4
+            },
+            {
+              "name": "heartiness",
+              "weight": 3
+            },
+            {
+              "name": "discipline",
+              "weight": 3
+            },
+            {
+              "name": "riposting",
+              "weight": 3
             }
           ],
           "required_tempers": []
@@ -416,59 +426,63 @@
         "helm": {
           "slot": "helm",
           "priority_uniques": [
-            "Heir of Perdition"
+            "Crown of Lucion"
+          ],
+          "priority_aspects": [],
+          "priority_affixes": [
+            {
+              "name": "swiftness",
+              "weight": 10
+            },
+            {
+              "name": "bsk_generic_002",
+              "weight": 8
+            },
+            {
+              "name": "vigor",
+              "weight": 6
+            },
+            {
+              "name": "luck",
+              "weight": 4
+            },
+            {
+              "name": "sanctity",
+              "weight": 3
+            }
+          ],
+          "required_tempers": []
+        },
+        "chest": {
+          "slot": "chest",
+          "priority_uniques": [
+            "Shroud of False Death"
           ],
           "priority_aspects": [],
           "priority_affixes": [],
           "required_tempers": []
         },
-        "chest": {
-          "slot": "chest",
-          "priority_uniques": [
-            "Shroud of False Death"
-          ],
-          "priority_aspects": [],
-          "priority_affixes": [
-            {
-              "name": "sturdiness",
-              "weight": 10
-            },
-            {
-              "name": "the_powerful",
-              "weight": 8
-            },
-            {
-              "name": "vigor",
-              "weight": 6
-            },
-            {
-              "name": "the_adept",
-              "weight": 4
-            }
-          ],
-          "required_tempers": []
-        },
         "weapon": {
           "slot": "weapon",
           "priority_uniques": [
-            "Griswold's Opus"
+            "Red Sermon"
           ],
           "priority_aspects": [],
           "priority_affixes": [
             {
-              "name": "unique_passiverankbonus_pal_heavyweight",
+              "name": "unique_double_damage_skill_pal_zeal",
               "weight": 10
             },
             {
-              "name": "unique_passiverankbonus_pal_breaktheline",
+              "name": "the_zealot",
               "weight": 8
             },
             {
-              "name": "the_powerful",
+              "name": "carnage",
               "weight": 4
             },
             {
-              "name": "vigor",
+              "name": "unique_corestat_strength_higherhigher",
               "weight": 3
             }
           ],
@@ -488,11 +502,11 @@
               "weight": 8
             },
             {
-              "name": "the_adept",
+              "name": "the_powerful",
               "weight": 6
             },
             {
-              "name": "the_powerful",
+              "name": "vigor",
               "weight": 4
             }
           ],
@@ -500,11 +514,13 @@
         },
         "pants": {
           "slot": "pants",
-          "priority_uniques": [],
+          "priority_uniques": [
+            "Arcadia"
+          ],
           "priority_aspects": [],
           "priority_affixes": [
             {
-              "name": "infusing",
+              "name": "unique_passiverankbonus_pal_heavyweight",
               "weight": 10
             },
             {
@@ -516,7 +532,7 @@
               "weight": 6
             },
             {
-              "name": "toughened",
+              "name": "unique_resistance_all_higher_tassets",
               "weight": 4
             }
           ],
@@ -528,19 +544,19 @@
           "priority_aspects": [],
           "priority_affixes": [
             {
-              "name": "infusing",
+              "name": "the_powerful",
               "weight": 10
             },
             {
-              "name": "the_powerful",
+              "name": "vigor",
               "weight": 8
             },
             {
-              "name": "vigor",
+              "name": "toughened",
               "weight": 6
             },
             {
-              "name": "toughened",
+              "name": "remedies",
               "weight": 4
             }
           ],
@@ -554,7 +570,7 @@
           "priority_aspects": [],
           "priority_affixes": [
             {
-              "name": "carnage",
+              "name": "swiftness",
               "weight": 10
             },
             {
@@ -562,20 +578,16 @@
               "weight": 8
             },
             {
-              "name": "the_adept",
+              "name": "the_powerful",
               "weight": 6
             },
             {
-              "name": "the_powerful",
+              "name": "vigor",
               "weight": 4
             },
             {
               "name": "principals",
               "weight": 10
-            },
-            {
-              "name": "vigor",
-              "weight": 4
             },
             {
               "name": "cruelty",
@@ -615,263 +627,6 @@
             },
             {
               "name": "riposting",
-              "weight": 3
-            },
-            {
-              "name": "the_powerful",
-              "weight": 3
-            },
-            {
-              "name": "ferocity",
-              "weight": 3
-            },
-            {
-              "name": "the_adept",
-              "weight": 3
-            },
-            {
-              "name": "keenness",
-              "weight": 3
-            },
-            {
-              "name": "vigor",
-              "weight": 3
-            }
-          ],
-          "required_tempers": []
-        }
-      }
-    },
-    "sanctified": {
-      "name": "Sanctified",
-      "gear": {
-        "helm": {
-          "slot": "helm",
-          "priority_uniques": [
-            "Heir of Perdition"
-          ],
-          "priority_aspects": [],
-          "priority_affixes": [
-            {
-              "name": "the_powerful",
-              "weight": 3
-            }
-          ],
-          "required_tempers": []
-        },
-        "chest": {
-          "slot": "chest",
-          "priority_uniques": [
-            "Shroud of False Death"
-          ],
-          "priority_aspects": [],
-          "priority_affixes": [
-            {
-              "name": "the_powerful",
-              "weight": 3
-            },
-            {
-              "name": "vigor",
-              "weight": 8
-            },
-            {
-              "name": "sturdiness",
-              "weight": 6
-            },
-            {
-              "name": "the_adept",
-              "weight": 4
-            }
-          ],
-          "required_tempers": []
-        },
-        "weapon": {
-          "slot": "weapon",
-          "priority_uniques": [
-            "Griswold's Opus"
-          ],
-          "priority_aspects": [],
-          "priority_affixes": [
-            {
-              "name": "unique_passiverankbonus_pal_heavyweight",
-              "weight": 10
-            },
-            {
-              "name": "unique_passiverankbonus_pal_breaktheline",
-              "weight": 8
-            },
-            {
-              "name": "the_powerful",
-              "weight": 4
-            },
-            {
-              "name": "vigor",
-              "weight": 3
-            }
-          ],
-          "required_tempers": []
-        },
-        "gloves": {
-          "slot": "gloves",
-          "priority_uniques": [],
-          "priority_aspects": [],
-          "priority_affixes": [
-            {
-              "name": "zeal",
-              "weight": 10
-            },
-            {
-              "name": "keenness",
-              "weight": 8
-            },
-            {
-              "name": "the_adept",
-              "weight": 6
-            },
-            {
-              "name": "the_powerful",
-              "weight": 4
-            },
-            {
-              "name": "principals",
-              "weight": 3
-            }
-          ],
-          "required_tempers": []
-        },
-        "pants": {
-          "slot": "pants",
-          "priority_uniques": [],
-          "priority_aspects": [],
-          "priority_affixes": [
-            {
-              "name": "the_powerful",
-              "weight": 10
-            },
-            {
-              "name": "vigor",
-              "weight": 8
-            },
-            {
-              "name": "toughened",
-              "weight": 6
-            },
-            {
-              "name": "infusing",
-              "weight": 4
-            },
-            {
-              "name": "sanctification",
-              "weight": 3
-            }
-          ],
-          "required_tempers": []
-        },
-        "boots": {
-          "slot": "boots",
-          "priority_uniques": [],
-          "priority_aspects": [],
-          "priority_affixes": [
-            {
-              "name": "the_powerful",
-              "weight": 10
-            },
-            {
-              "name": "vigor",
-              "weight": 8
-            },
-            {
-              "name": "toughened",
-              "weight": 6
-            },
-            {
-              "name": "infusing",
-              "weight": 4
-            },
-            {
-              "name": "sanctification",
-              "weight": 3
-            }
-          ],
-          "required_tempers": []
-        },
-        "ring": {
-          "slot": "ring",
-          "priority_uniques": [
-            "Argent Veil"
-          ],
-          "priority_aspects": [],
-          "priority_affixes": [
-            {
-              "name": "carnage",
-              "weight": 10
-            },
-            {
-              "name": "keenness",
-              "weight": 8
-            },
-            {
-              "name": "the_adept",
-              "weight": 6
-            },
-            {
-              "name": "the_powerful",
-              "weight": 4
-            },
-            {
-              "name": "sanctification_skillrankbonus_allskills",
-              "weight": 3
-            },
-            {
-              "name": "principals",
-              "weight": 10
-            },
-            {
-              "name": "vigor",
-              "weight": 4
-            },
-            {
-              "name": "cruelty",
-              "weight": 3
-            }
-          ],
-          "required_tempers": []
-        },
-        "amulet": {
-          "slot": "amulet",
-          "priority_uniques": [],
-          "priority_aspects": [],
-          "priority_affixes": [
-            {
-              "name": "iron",
-              "weight": 10
-            },
-            {
-              "name": "fortitude",
-              "weight": 8
-            },
-            {
-              "name": "cracking",
-              "weight": 6
-            },
-            {
-              "name": "offense",
-              "weight": 4
-            },
-            {
-              "name": "heartiness",
-              "weight": 3
-            },
-            {
-              "name": "discipline",
-              "weight": 3
-            },
-            {
-              "name": "riposting",
-              "weight": 3
-            },
-            {
-              "name": "sanctification",
               "weight": 3
             }
           ],
@@ -885,222 +640,31 @@
         "helm": {
           "slot": "helm",
           "priority_uniques": [
-            "Heir of Perdition"
-          ],
-          "priority_aspects": [],
-          "priority_affixes": [],
-          "required_tempers": []
-        },
-        "chest": {
-          "slot": "chest",
-          "priority_uniques": [
-            "Shroud of False Death"
+            "Crown of Lucion"
           ],
           "priority_aspects": [],
           "priority_affixes": [
             {
-              "name": "the_powerful",
+              "name": "swiftness",
               "weight": 10
+            },
+            {
+              "name": "bsk_generic_002",
+              "weight": 8
             },
             {
               "name": "vigor",
-              "weight": 8
-            },
-            {
-              "name": "sturdiness",
               "weight": 6
             },
             {
-              "name": "the_adept",
-              "weight": 4
-            }
-          ],
-          "required_tempers": []
-        },
-        "weapon": {
-          "slot": "weapon",
-          "priority_uniques": [
-            "Griswold's Opus"
-          ],
-          "priority_aspects": [],
-          "priority_affixes": [
-            {
-              "name": "unique_passiverankbonus_pal_heavyweight",
-              "weight": 10
-            },
-            {
-              "name": "unique_passiverankbonus_pal_breaktheline",
-              "weight": 8
-            },
-            {
-              "name": "the_powerful",
+              "name": "luck",
               "weight": 4
             },
             {
-              "name": "vigor",
+              "name": "sanctity",
               "weight": 3
             }
           ],
-          "required_tempers": []
-        },
-        "gloves": {
-          "slot": "gloves",
-          "priority_uniques": [],
-          "priority_aspects": [],
-          "priority_affixes": [
-            {
-              "name": "zeal",
-              "weight": 10
-            },
-            {
-              "name": "keenness",
-              "weight": 8
-            },
-            {
-              "name": "the_adept",
-              "weight": 6
-            },
-            {
-              "name": "the_powerful",
-              "weight": 4
-            }
-          ],
-          "required_tempers": []
-        },
-        "pants": {
-          "slot": "pants",
-          "priority_uniques": [],
-          "priority_aspects": [],
-          "priority_affixes": [
-            {
-              "name": "the_powerful",
-              "weight": 10
-            },
-            {
-              "name": "vigor",
-              "weight": 8
-            },
-            {
-              "name": "toughened",
-              "weight": 6
-            },
-            {
-              "name": "infusing",
-              "weight": 4
-            }
-          ],
-          "required_tempers": []
-        },
-        "boots": {
-          "slot": "boots",
-          "priority_uniques": [],
-          "priority_aspects": [],
-          "priority_affixes": [
-            {
-              "name": "the_powerful",
-              "weight": 10
-            },
-            {
-              "name": "vigor",
-              "weight": 8
-            },
-            {
-              "name": "toughened",
-              "weight": 6
-            },
-            {
-              "name": "infusing",
-              "weight": 4
-            }
-          ],
-          "required_tempers": []
-        },
-        "ring": {
-          "slot": "ring",
-          "priority_uniques": [
-            "Argent Veil"
-          ],
-          "priority_aspects": [],
-          "priority_affixes": [
-            {
-              "name": "carnage",
-              "weight": 10
-            },
-            {
-              "name": "keenness",
-              "weight": 8
-            },
-            {
-              "name": "the_adept",
-              "weight": 6
-            },
-            {
-              "name": "the_powerful",
-              "weight": 4
-            },
-            {
-              "name": "principals",
-              "weight": 10
-            },
-            {
-              "name": "vigor",
-              "weight": 4
-            },
-            {
-              "name": "cruelty",
-              "weight": 3
-            }
-          ],
-          "required_tempers": []
-        },
-        "amulet": {
-          "slot": "amulet",
-          "priority_uniques": [],
-          "priority_aspects": [],
-          "priority_affixes": [
-            {
-              "name": "iron",
-              "weight": 10
-            },
-            {
-              "name": "fortitude",
-              "weight": 8
-            },
-            {
-              "name": "cracking",
-              "weight": 6
-            },
-            {
-              "name": "offense",
-              "weight": 4
-            },
-            {
-              "name": "heartiness",
-              "weight": 3
-            },
-            {
-              "name": "discipline",
-              "weight": 3
-            },
-            {
-              "name": "riposting",
-              "weight": 3
-            }
-          ],
-          "required_tempers": []
-        }
-      }
-    },
-    "red_sermon": {
-      "name": "Red Sermon",
-      "gear": {
-        "helm": {
-          "slot": "helm",
-          "priority_uniques": [
-            "Harlequin Crest"
-          ],
-          "priority_aspects": [],
-          "priority_affixes": [],
           "required_tempers": []
         },
         "chest": {
@@ -1148,15 +712,15 @@
               "weight": 10
             },
             {
-              "name": "the_powerful",
+              "name": "keenness",
               "weight": 8
             },
             {
-              "name": "vigor",
+              "name": "the_powerful",
               "weight": 6
             },
             {
-              "name": "carnage",
+              "name": "perpetuity",
               "weight": 4
             }
           ],
@@ -1164,11 +728,13 @@
         },
         "pants": {
           "slot": "pants",
-          "priority_uniques": [],
+          "priority_uniques": [
+            "Arcadia"
+          ],
           "priority_aspects": [],
           "priority_affixes": [
             {
-              "name": "the_powerful",
+              "name": "unique_passiverankbonus_pal_heavyweight",
               "weight": 10
             },
             {
@@ -1176,11 +742,11 @@
               "weight": 8
             },
             {
-              "name": "toughened",
+              "name": "unique_resistance_all_higher_tassets",
               "weight": 6
             },
             {
-              "name": "remedies",
+              "name": "the_powerful",
               "weight": 4
             }
           ],
@@ -1218,19 +784,19 @@
           "priority_aspects": [],
           "priority_affixes": [
             {
-              "name": "the_powerful",
+              "name": "swiftness",
               "weight": 10
             },
             {
-              "name": "vigor",
+              "name": "keenness",
               "weight": 8
             },
             {
-              "name": "carnage",
+              "name": "the_powerful",
               "weight": 6
             },
             {
-              "name": "keenness",
+              "name": "vigor",
               "weight": 4
             },
             {

@@ -6,12 +6,11 @@
   "source_url": "https://maxroll.gg/d4/build-guides/divine-lance-paladin-guide",
   "tier": "A",
   "tags": [],
-  "last_updated": "2026-03-10",
+  "last_updated": "2026-03-11",
   "profile_order": [
     "starter",
     "ancestral",
     "mythic",
-    "sanctified",
     "push"
   ],
   "profiles": {
@@ -24,20 +23,16 @@
           "priority_aspects": [],
           "priority_affixes": [
             {
-              "name": "swiftness",
+              "name": "the_powerful",
               "weight": 10
             },
             {
-              "name": "the_powerful",
+              "name": "vigor",
               "weight": 8
             },
             {
-              "name": "vigor",
-              "weight": 6
-            },
-            {
               "name": "sanctity",
-              "weight": 4
+              "weight": 6
             }
           ],
           "required_tempers": []
@@ -56,20 +51,20 @@
               "weight": 8
             },
             {
-              "name": "toughened",
+              "name": "insulation",
               "weight": 6
             },
             {
-              "name": "insulation",
+              "name": "toughened",
               "weight": 4
             },
             {
-              "name": "sturdiness",
+              "name": "the_adept",
               "weight": 10
             },
             {
-              "name": "the_adept",
-              "weight": 8
+              "name": "riving",
+              "weight": 6
             }
           ],
           "required_tempers": []
@@ -88,12 +83,8 @@
               "weight": 8
             },
             {
-              "name": "ferocity",
-              "weight": 6
-            },
-            {
               "name": "carnage",
-              "weight": 4
+              "weight": 6
             }
           ],
           "required_tempers": []
@@ -104,20 +95,16 @@
           "priority_aspects": [],
           "priority_affixes": [
             {
-              "name": "keenness",
+              "name": "the_adept",
               "weight": 10
             },
             {
-              "name": "the_adept",
+              "name": "keenness",
               "weight": 8
             },
             {
-              "name": "swiftness",
-              "weight": 6
-            },
-            {
               "name": "the_powerful",
-              "weight": 4
+              "weight": 6
             }
           ],
           "required_tempers": []
@@ -162,10 +149,6 @@
             {
               "name": "vigor",
               "weight": 6
-            },
-            {
-              "name": "toughened",
-              "weight": 4
             }
           ],
           "required_tempers": []
@@ -176,24 +159,16 @@
           "priority_aspects": [],
           "priority_affixes": [
             {
-              "name": "keenness",
+              "name": "the_adept",
               "weight": 10
             },
             {
-              "name": "the_adept",
+              "name": "keenness",
               "weight": 8
             },
             {
-              "name": "swiftness",
-              "weight": 6
-            },
-            {
               "name": "the_powerful",
-              "weight": 4
-            },
-            {
-              "name": "riving",
-              "weight": 10
+              "weight": 6
             }
           ],
           "required_tempers": []
@@ -204,20 +179,16 @@
           "priority_aspects": [],
           "priority_affixes": [
             {
-              "name": "keenness",
+              "name": "the_adept",
               "weight": 10
             },
             {
-              "name": "the_adept",
+              "name": "keenness",
               "weight": 8
             },
             {
-              "name": "swiftness",
+              "name": "the_powerful",
               "weight": 6
-            },
-            {
-              "name": "vigor",
-              "weight": 4
             }
           ],
           "required_tempers": []
@@ -229,7 +200,9 @@
       "gear": {
         "helm": {
           "slot": "helm",
-          "priority_uniques": [],
+          "priority_uniques": [
+            "Godslayer Crown"
+          ],
           "priority_aspects": [],
           "priority_affixes": [
             {
@@ -237,25 +210,23 @@
               "weight": 10
             },
             {
-              "name": "the_powerful",
-              "weight": 8
-            },
-            {
               "name": "vigor",
               "weight": 6
             },
             {
-              "name": "toughened",
+              "name": "harmony",
               "weight": 4
+            },
+            {
+              "name": "unique_damage_to_elite_specialscaling",
+              "weight": 3
             }
           ],
           "required_tempers": []
         },
         "chest": {
           "slot": "chest",
-          "priority_uniques": [
-            "Herald of Zakarum"
-          ],
+          "priority_uniques": [],
           "priority_aspects": [],
           "priority_affixes": [
             {
@@ -267,24 +238,20 @@
               "weight": 8
             },
             {
-              "name": "auric",
+              "name": "toughened",
               "weight": 6
             },
             {
-              "name": "toughened",
+              "name": "auric",
               "weight": 4
             },
             {
-              "name": "unique_skillrankbonus_paladin_core",
-              "weight": 8
+              "name": "sturdiness",
+              "weight": 10
             },
             {
-              "name": "unique_armor_giga_specialscaling",
-              "weight": 6
-            },
-            {
-              "name": "unique_double_damage_skill_pal_retribution",
-              "weight": 3
+              "name": "carnage",
+              "weight": 4
             }
           ],
           "required_tempers": []
@@ -325,11 +292,11 @@
               "weight": 10
             },
             {
-              "name": "carnage",
+              "name": "the_adept",
               "weight": 8
             },
             {
-              "name": "the_adept",
+              "name": "keenness",
               "weight": 6
             },
             {
@@ -341,23 +308,25 @@
         },
         "pants": {
           "slot": "pants",
-          "priority_uniques": [],
+          "priority_uniques": [
+            "Arcadia"
+          ],
           "priority_aspects": [],
           "priority_affixes": [
             {
-              "name": "the_powerful",
+              "name": "unique_passiverankbonus_pal_heavyweight",
               "weight": 10
             },
             {
-              "name": "vigor",
+              "name": "the_powerful",
               "weight": 8
             },
             {
-              "name": "toughened",
+              "name": "vigor",
               "weight": 6
             },
             {
-              "name": "auric",
+              "name": "unique_resistance_all_higher_tassets",
               "weight": 4
             }
           ],
@@ -401,11 +370,11 @@
               "weight": 8
             },
             {
-              "name": "swiftness",
+              "name": "the_powerful",
               "weight": 6
             },
             {
-              "name": "the_powerful",
+              "name": "vigor",
               "weight": 4
             },
             {
@@ -425,15 +394,15 @@
               "weight": 10
             },
             {
-              "name": "swiftness",
+              "name": "keenness",
               "weight": 8
             },
             {
-              "name": "keenness",
+              "name": "the_powerful",
               "weight": 6
             },
             {
-              "name": "the_powerful",
+              "name": "vigor",
               "weight": 4
             }
           ],
@@ -447,35 +416,55 @@
         "helm": {
           "slot": "helm",
           "priority_uniques": [
-            "Heir of Perdition"
+            "Crown of Lucion"
           ],
           "priority_aspects": [],
-          "priority_affixes": [],
+          "priority_affixes": [
+            {
+              "name": "swiftness",
+              "weight": 10
+            },
+            {
+              "name": "bsk_generic_002",
+              "weight": 8
+            },
+            {
+              "name": "vigor",
+              "weight": 6
+            },
+            {
+              "name": "luck",
+              "weight": 4
+            },
+            {
+              "name": "sanctity",
+              "weight": 3
+            }
+          ],
           "required_tempers": []
         },
         "chest": {
           "slot": "chest",
           "priority_uniques": [
-            "Shroud of False Death",
-            "Herald of Zakarum"
+            "Shroud of False Death"
           ],
           "priority_aspects": [],
           "priority_affixes": [
             {
-              "name": "unique_skillrankbonus_paladin_core",
+              "name": "sturdiness",
+              "weight": 10
+            },
+            {
+              "name": "the_powerful",
               "weight": 8
             },
             {
-              "name": "unique_armor_giga_specialscaling",
+              "name": "vigor",
               "weight": 6
             },
             {
-              "name": "vigor",
+              "name": "carnage",
               "weight": 4
-            },
-            {
-              "name": "unique_double_damage_skill_pal_retribution",
-              "weight": 3
             }
           ],
           "required_tempers": []
@@ -516,15 +505,15 @@
               "weight": 10
             },
             {
-              "name": "carnage",
+              "name": "the_powerful",
               "weight": 8
             },
             {
-              "name": "the_powerful",
+              "name": "vigor",
               "weight": 6
             },
             {
-              "name": "vigor",
+              "name": "keenness",
               "weight": 4
             }
           ],
@@ -532,23 +521,25 @@
         },
         "pants": {
           "slot": "pants",
-          "priority_uniques": [],
+          "priority_uniques": [
+            "Arcadia"
+          ],
           "priority_aspects": [],
           "priority_affixes": [
             {
-              "name": "the_powerful",
+              "name": "unique_passiverankbonus_pal_heavyweight",
               "weight": 10
             },
             {
-              "name": "vigor",
+              "name": "the_powerful",
               "weight": 8
             },
             {
-              "name": "toughened",
+              "name": "vigor",
               "weight": 6
             },
             {
-              "name": "auric",
+              "name": "unique_resistance_all_higher_tassets",
               "weight": 4
             }
           ],
@@ -590,15 +581,15 @@
               "weight": 10
             },
             {
-              "name": "the_adept",
+              "name": "keenness",
               "weight": 8
             },
             {
-              "name": "keenness",
+              "name": "the_powerful",
               "weight": 6
             },
             {
-              "name": "the_powerful",
+              "name": "vigor",
               "weight": 4
             }
           ],
@@ -662,246 +653,37 @@
         }
       }
     },
-    "sanctified": {
-      "name": "Sanctified",
-      "gear": {
-        "helm": {
-          "slot": "helm",
-          "priority_uniques": [
-            "Heir of Perdition"
-          ],
-          "priority_aspects": [],
-          "priority_affixes": [
-            {
-              "name": "the_powerful",
-              "weight": 3
-            }
-          ],
-          "required_tempers": []
-        },
-        "chest": {
-          "slot": "chest",
-          "priority_uniques": [
-            "Shroud of False Death",
-            "Herald of Zakarum"
-          ],
-          "priority_aspects": [],
-          "priority_affixes": [
-            {
-              "name": "the_powerful",
-              "weight": 3
-            },
-            {
-              "name": "unique_skillrankbonus_paladin_core",
-              "weight": 8
-            },
-            {
-              "name": "unique_armor_giga_specialscaling",
-              "weight": 6
-            },
-            {
-              "name": "vigor",
-              "weight": 4
-            },
-            {
-              "name": "unique_double_damage_skill_pal_retribution",
-              "weight": 3
-            }
-          ],
-          "required_tempers": []
-        },
-        "weapon": {
-          "slot": "weapon",
-          "priority_uniques": [
-            "Light's Rebuke"
-          ],
-          "priority_aspects": [],
-          "priority_affixes": [
-            {
-              "name": "unique_double_damage_skill_pal_divinelance",
-              "weight": 10
-            },
-            {
-              "name": "the_divine_lance",
-              "weight": 8
-            },
-            {
-              "name": "the_powerful",
-              "weight": 4
-            },
-            {
-              "name": "life_greater",
-              "weight": 3
-            }
-          ],
-          "required_tempers": []
-        },
-        "gloves": {
-          "slot": "gloves",
-          "priority_uniques": [],
-          "priority_aspects": [],
-          "priority_affixes": [
-            {
-              "name": "the_divine_lance",
-              "weight": 10
-            },
-            {
-              "name": "carnage",
-              "weight": 8
-            },
-            {
-              "name": "the_powerful",
-              "weight": 6
-            },
-            {
-              "name": "principals",
-              "weight": 4
-            },
-            {
-              "name": "vigor",
-              "weight": 3
-            }
-          ],
-          "required_tempers": []
-        },
-        "pants": {
-          "slot": "pants",
-          "priority_uniques": [],
-          "priority_aspects": [],
-          "priority_affixes": [
-            {
-              "name": "the_powerful",
-              "weight": 10
-            },
-            {
-              "name": "vigor",
-              "weight": 8
-            },
-            {
-              "name": "toughened",
-              "weight": 6
-            },
-            {
-              "name": "auric",
-              "weight": 4
-            },
-            {
-              "name": "sanctification",
-              "weight": 3
-            }
-          ],
-          "required_tempers": []
-        },
-        "boots": {
-          "slot": "boots",
-          "priority_uniques": [],
-          "priority_aspects": [],
-          "priority_affixes": [
-            {
-              "name": "speed",
-              "weight": 10
-            },
-            {
-              "name": "the_powerful",
-              "weight": 8
-            },
-            {
-              "name": "vigor",
-              "weight": 6
-            },
-            {
-              "name": "toughened",
-              "weight": 4
-            },
-            {
-              "name": "sanctification",
-              "weight": 3
-            }
-          ],
-          "required_tempers": []
-        },
-        "ring": {
-          "slot": "ring",
-          "priority_uniques": [
-            "Ring of Starless Skies"
-          ],
-          "priority_aspects": [],
-          "priority_affixes": [
-            {
-              "name": "sanctification_skillrankbonus_allskills",
-              "weight": 3
-            },
-            {
-              "name": "riving",
-              "weight": 10
-            },
-            {
-              "name": "the_adept",
-              "weight": 8
-            },
-            {
-              "name": "keenness",
-              "weight": 6
-            },
-            {
-              "name": "the_powerful",
-              "weight": 4
-            }
-          ],
-          "required_tempers": []
-        },
-        "amulet": {
-          "slot": "amulet",
-          "priority_uniques": [],
-          "priority_aspects": [],
-          "priority_affixes": [
-            {
-              "name": "discipline",
-              "weight": 10
-            },
-            {
-              "name": "offense",
-              "weight": 8
-            },
-            {
-              "name": "fortitude",
-              "weight": 6
-            },
-            {
-              "name": "cracking",
-              "weight": 4
-            },
-            {
-              "name": "iron",
-              "weight": 3
-            },
-            {
-              "name": "riposting",
-              "weight": 3
-            },
-            {
-              "name": "heartiness",
-              "weight": 3
-            },
-            {
-              "name": "sanctification",
-              "weight": 3
-            }
-          ],
-          "required_tempers": []
-        }
-      }
-    },
     "push": {
       "name": "Push",
       "gear": {
         "helm": {
           "slot": "helm",
           "priority_uniques": [
-            "Heir of Perdition"
+            "Crown of Lucion"
           ],
           "priority_aspects": [],
-          "priority_affixes": [],
+          "priority_affixes": [
+            {
+              "name": "swiftness",
+              "weight": 10
+            },
+            {
+              "name": "bsk_generic_002",
+              "weight": 8
+            },
+            {
+              "name": "vigor",
+              "weight": 6
+            },
+            {
+              "name": "luck",
+              "weight": 4
+            },
+            {
+              "name": "sanctity",
+              "weight": 3
+            }
+          ],
           "required_tempers": []
         },
         "chest": {
@@ -924,7 +706,7 @@
               "weight": 6
             },
             {
-              "name": "the_adept",
+              "name": "carnage",
               "weight": 4
             }
           ],
@@ -966,15 +748,15 @@
               "weight": 10
             },
             {
-              "name": "carnage",
+              "name": "the_powerful",
               "weight": 8
             },
             {
-              "name": "the_powerful",
+              "name": "vigor",
               "weight": 6
             },
             {
-              "name": "vigor",
+              "name": "keenness",
               "weight": 4
             }
           ],
@@ -982,23 +764,25 @@
         },
         "pants": {
           "slot": "pants",
-          "priority_uniques": [],
+          "priority_uniques": [
+            "Arcadia"
+          ],
           "priority_aspects": [],
           "priority_affixes": [
             {
-              "name": "the_powerful",
+              "name": "unique_passiverankbonus_pal_heavyweight",
               "weight": 10
             },
             {
-              "name": "vigor",
+              "name": "the_powerful",
               "weight": 8
             },
             {
-              "name": "toughened",
+              "name": "vigor",
               "weight": 6
             },
             {
-              "name": "auric",
+              "name": "unique_resistance_all_higher_tassets",
               "weight": 4
             }
           ],
@@ -1040,15 +824,15 @@
               "weight": 10
             },
             {
-              "name": "the_adept",
+              "name": "keenness",
               "weight": 8
             },
             {
-              "name": "keenness",
+              "name": "the_powerful",
               "weight": 6
             },
             {
-              "name": "the_powerful",
+              "name": "vigor",
               "weight": 4
             }
           ],

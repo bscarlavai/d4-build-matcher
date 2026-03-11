@@ -84,6 +84,12 @@
       "name": "Divine Javelin Paladin",
       "tier": "A",
       "file": "divine-javelin-paladin.json"
+    },
+    {
+      "id": "zenith-paladin",
+      "name": "Zenith Paladin",
+      "tier": "A",
+      "file": "zenith-paladin.json"
     }
   ]
 }
