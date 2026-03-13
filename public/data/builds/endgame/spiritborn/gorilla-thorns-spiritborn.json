@@ -6,7 +6,7 @@
   "source_url": "https://maxroll.gg/d4/build-guides/gorilla-thorns-spiritborn-guide",
   "tier": "A",
   "tags": [],
-  "last_updated": "2026-03-12",
+  "last_updated": "2026-03-13",
   "profile_order": [
     "starter",
     "ancestral",
@@ -242,11 +242,26 @@
         },
         "chest": {
           "slot": "chest",
-          "priority_uniques": [
-            "Razorplate"
-          ],
+          "priority_uniques": [],
           "priority_aspects": [],
-          "priority_affixes": [],
+          "priority_affixes": [
+            {
+              "name": "the_adroit",
+              "weight": 10
+            },
+            {
+              "name": "toughened",
+              "weight": 8
+            },
+            {
+              "name": "vigor",
+              "weight": 6
+            },
+            {
+              "name": "thorns",
+              "weight": 4
+            }
+          ],
           "required_tempers": []
         },
         "gloves": {

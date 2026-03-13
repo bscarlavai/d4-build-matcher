@@ -6,7 +6,7 @@
   "source_url": "https://maxroll.gg/d4/build-guides/wing-strikes-paladin-guide",
   "tier": "S",
   "tags": [],
-  "last_updated": "2026-03-12",
+  "last_updated": "2026-03-13",
   "profile_order": [
     "starter",
     "ancestral",
@@ -228,24 +228,26 @@
       "gear": {
         "helm": {
           "slot": "helm",
-          "priority_uniques": [],
+          "priority_uniques": [
+            "Godslayer Crown"
+          ],
           "priority_aspects": [],
           "priority_affixes": [
             {
-              "name": "the_powerful",
-              "weight": 10
-            },
-            {
-              "name": "toughened",
+              "name": "swiftness",
               "weight": 8
             },
             {
-              "name": "vigor",
+              "name": "harmony",
               "weight": 6
             },
             {
-              "name": "steel",
+              "name": "unique_damage_to_elite_specialscaling",
               "weight": 4
+            },
+            {
+              "name": "vigor",
+              "weight": 3
             }
           ],
           "required_tempers": []
@@ -358,24 +360,26 @@
         },
         "boots": {
           "slot": "boots",
-          "priority_uniques": [],
+          "priority_uniques": [
+            "Penitent Greaves"
+          ],
           "priority_aspects": [],
           "priority_affixes": [
             {
-              "name": "the_powerful",
-              "weight": 10
-            },
-            {
-              "name": "toughened",
+              "name": "unique_movement_speed_higher",
               "weight": 8
             },
             {
-              "name": "vigor",
+              "name": "unique_cc_generic_chillslowamount",
               "weight": 6
             },
             {
-              "name": "grounding",
+              "name": "unique_critchance_against_ccd_chill",
               "weight": 4
+            },
+            {
+              "name": "unique_resistance_single_cold_higher",
+              "weight": 3
             }
           ],
           "required_tempers": []
