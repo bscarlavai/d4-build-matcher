@@ -6,7 +6,7 @@
   "source_url": "https://maxroll.gg/d4/build-guides/blessed-hammer-paladin-guide",
   "tier": "S",
   "tags": [],
-  "last_updated": "2026-03-13",
+  "last_updated": "2026-03-14",
   "profile_order": [
     "starter",
     "ancestral",
@@ -33,6 +33,10 @@
             {
               "name": "sanctity",
               "weight": 6
+            },
+            {
+              "name": "anatomy",
+              "weight": 4
             }
           ],
           "required_tempers": []
@@ -57,6 +61,10 @@
             {
               "name": "toughened",
               "weight": 4
+            },
+            {
+              "name": "anatomy",
+              "weight": 3
             },
             {
               "name": "swiftness",
@@ -85,6 +93,10 @@
             {
               "name": "carnage",
               "weight": 6
+            },
+            {
+              "name": "tenderize",
+              "weight": 4
             }
           ],
           "required_tempers": []
@@ -105,6 +117,10 @@
             {
               "name": "the_adept",
               "weight": 6
+            },
+            {
+              "name": "anatomy",
+              "weight": 4
             }
           ],
           "required_tempers": []
@@ -129,6 +145,10 @@
             {
               "name": "toughened",
               "weight": 4
+            },
+            {
+              "name": "anatomy",
+              "weight": 3
             }
           ],
           "required_tempers": []
@@ -149,6 +169,10 @@
             {
               "name": "vigor",
               "weight": 6
+            },
+            {
+              "name": "anatomy",
+              "weight": 4
             }
           ],
           "required_tempers": []
@@ -246,6 +270,10 @@
               "weight": 4
             },
             {
+              "name": "anatomy",
+              "weight": 3
+            },
+            {
               "name": "sturdiness",
               "weight": 10
             },
@@ -277,6 +305,10 @@
             },
             {
               "name": "vigor",
+              "weight": 3
+            },
+            {
+              "name": "tenderize",
               "weight": 3
             }
           ],
@@ -475,6 +507,10 @@
             },
             {
               "name": "vigor",
+              "weight": 3
+            },
+            {
+              "name": "tenderize",
               "weight": 3
             }
           ],
@@ -694,6 +730,10 @@
             },
             {
               "name": "vigor",
+              "weight": 3
+            },
+            {
+              "name": "tenderize",
               "weight": 3
             }
           ],

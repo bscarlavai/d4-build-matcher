@@ -6,7 +6,7 @@
   "source_url": "https://maxroll.gg/d4/build-guides/blessed-shield-paladin-guide",
   "tier": "A",
   "tags": [],
-  "last_updated": "2026-03-13",
+  "last_updated": "2026-03-14",
   "profile_order": [
     "starter",
     "ancestral",
@@ -299,6 +299,10 @@
             {
               "name": "bsk_generic_002",
               "weight": 3
+            },
+            {
+              "name": "gluttony",
+              "weight": 3
             }
           ],
           "required_tempers": []
@@ -325,6 +329,10 @@
             {
               "name": "auric",
               "weight": 4
+            },
+            {
+              "name": "gluttony",
+              "weight": 3
             },
             {
               "name": "unique_double_damage_skill_pal_blessedshield",
@@ -359,6 +367,10 @@
             {
               "name": "vigor",
               "weight": 4
+            },
+            {
+              "name": "tenderize",
+              "weight": 3
             }
           ],
           "required_tempers": []
@@ -407,6 +419,10 @@
             {
               "name": "auric",
               "weight": 3
+            },
+            {
+              "name": "gluttony",
+              "weight": 3
             }
           ],
           "required_tempers": []
@@ -431,6 +447,10 @@
             {
               "name": "auric",
               "weight": 4
+            },
+            {
+              "name": "gluttony",
+              "weight": 3
             }
           ],
           "required_tempers": []
@@ -459,6 +479,10 @@
             {
               "name": "auric",
               "weight": 3
+            },
+            {
+              "name": "gluttony",
+              "weight": 3
             }
           ],
           "required_tempers": []
@@ -485,6 +509,10 @@
             {
               "name": "cruelty",
               "weight": 4
+            },
+            {
+              "name": "tenderize",
+              "weight": 3
             },
             {
               "name": "the_adept",
@@ -553,6 +581,10 @@
             {
               "name": "vigor",
               "weight": 3
+            },
+            {
+              "name": "tenderize",
+              "weight": 3
             }
           ],
           "required_tempers": []
@@ -568,7 +600,12 @@
             "Heir of Perdition"
           ],
           "priority_aspects": [],
-          "priority_affixes": [],
+          "priority_affixes": [
+            {
+              "name": "gluttony",
+              "weight": 3
+            }
+          ],
           "required_tempers": []
         },
         "chest": {
@@ -579,6 +616,10 @@
           ],
           "priority_aspects": [],
           "priority_affixes": [
+            {
+              "name": "gluttony",
+              "weight": 3
+            },
             {
               "name": "unique_double_damage_skill_pal_blessedshield",
               "weight": 8
@@ -620,6 +661,10 @@
             {
               "name": "vigor",
               "weight": 4
+            },
+            {
+              "name": "tenderize",
+              "weight": 3
             }
           ],
           "required_tempers": []
@@ -668,6 +713,10 @@
             {
               "name": "auric",
               "weight": 3
+            },
+            {
+              "name": "gluttony",
+              "weight": 3
             }
           ],
           "required_tempers": []
@@ -692,6 +741,10 @@
             {
               "name": "auric",
               "weight": 4
+            },
+            {
+              "name": "gluttony",
+              "weight": 3
             }
           ],
           "required_tempers": []
@@ -720,6 +773,10 @@
             {
               "name": "auric",
               "weight": 3
+            },
+            {
+              "name": "gluttony",
+              "weight": 3
             }
           ],
           "required_tempers": []
@@ -747,6 +804,10 @@
             {
               "name": "cruelty",
               "weight": 4
+            },
+            {
+              "name": "tenderize",
+              "weight": 3
             }
           ],
           "required_tempers": []
@@ -790,6 +851,10 @@
             },
             {
               "name": "vigor",
+              "weight": 3
+            },
+            {
+              "name": "tenderize",
               "weight": 3
             }
           ],

@@ -6,7 +6,7 @@
   "source_url": "https://maxroll.gg/d4/build-guides/blight-necromancer-guide",
   "tier": "B",
   "tags": [],
-  "last_updated": "2026-03-13",
+  "last_updated": "2026-03-14",
   "profile_order": [
     "starter",
     "ancestral",
@@ -50,6 +50,10 @@
             {
               "name": "vigor",
               "weight": 3
+            },
+            {
+              "name": "keenness",
+              "weight": 3
             }
           ],
           "required_tempers": []
@@ -77,6 +81,10 @@
             },
             {
               "name": "vigor",
+              "weight": 3
+            },
+            {
+              "name": "keenness",
               "weight": 3
             }
           ],
@@ -109,6 +117,10 @@
             },
             {
               "name": "efficiency",
+              "weight": 3
+            },
+            {
+              "name": "tenderize",
               "weight": 3
             }
           ],
@@ -190,6 +202,10 @@
             {
               "name": "insulation",
               "weight": 3
+            },
+            {
+              "name": "revel",
+              "weight": 3
             }
           ],
           "required_tempers": []
@@ -221,6 +237,10 @@
             },
             {
               "name": "vigor",
+              "weight": 3
+            },
+            {
+              "name": "revel",
               "weight": 3
             }
           ],
@@ -257,6 +277,10 @@
             },
             {
               "name": "cruelty",
+              "weight": 3
+            },
+            {
+              "name": "tenderize",
               "weight": 3
             }
           ],
@@ -298,6 +322,10 @@
             {
               "name": "vigor",
               "weight": 3
+            },
+            {
+              "name": "tenderize",
+              "weight": 3
             }
           ],
           "required_tempers": []
@@ -328,6 +356,10 @@
             },
             {
               "name": "unique_damage_to_elite_specialscaling",
+              "weight": 3
+            },
+            {
+              "name": "seethe",
               "weight": 3
             }
           ],
@@ -361,6 +393,10 @@
             {
               "name": "walling",
               "weight": 3
+            },
+            {
+              "name": "seethe",
+              "weight": 3
             }
           ],
           "required_tempers": []
@@ -401,6 +437,10 @@
             {
               "name": "riving",
               "weight": 3
+            },
+            {
+              "name": "tenderize",
+              "weight": 3
             }
           ],
           "required_tempers": []
@@ -433,6 +473,10 @@
             {
               "name": "cruelty",
               "weight": 3
+            },
+            {
+              "name": "seethe",
+              "weight": 3
             }
           ],
           "required_tempers": []
@@ -457,6 +501,10 @@
             {
               "name": "auric",
               "weight": 4
+            },
+            {
+              "name": "seethe",
+              "weight": 3
             }
           ],
           "required_tempers": []
@@ -488,6 +536,10 @@
             },
             {
               "name": "auric",
+              "weight": 3
+            },
+            {
+              "name": "seethe",
               "weight": 3
             }
           ],
@@ -529,6 +581,10 @@
             {
               "name": "luck",
               "weight": 3
+            },
+            {
+              "name": "tenderize",
+              "weight": 3
             }
           ],
           "required_tempers": []
@@ -554,6 +610,10 @@
             },
             {
               "name": "the_scourge",
+              "weight": 3
+            },
+            {
+              "name": "tenderize",
               "weight": 3
             }
           ],
@@ -586,6 +646,10 @@
             {
               "name": "unique_damage_to_elite_specialscaling",
               "weight": 3
+            },
+            {
+              "name": "seethe",
+              "weight": 3
             }
           ],
           "required_tempers": []
@@ -596,7 +660,12 @@
             "Shroud of False Death"
           ],
           "priority_aspects": [],
-          "priority_affixes": [],
+          "priority_affixes": [
+            {
+              "name": "revel",
+              "weight": 3
+            }
+          ],
           "required_tempers": []
         },
         "weapon": {
@@ -635,6 +704,10 @@
             {
               "name": "riving",
               "weight": 3
+            },
+            {
+              "name": "tenderize",
+              "weight": 3
             }
           ],
           "required_tempers": []
@@ -667,6 +740,10 @@
             {
               "name": "cruelty",
               "weight": 3
+            },
+            {
+              "name": "revel",
+              "weight": 3
             }
           ],
           "required_tempers": []
@@ -691,6 +768,10 @@
             {
               "name": "auric",
               "weight": 4
+            },
+            {
+              "name": "revel",
+              "weight": 3
             }
           ],
           "required_tempers": []
@@ -723,6 +804,10 @@
             {
               "name": "speed",
               "weight": 3
+            },
+            {
+              "name": "revel",
+              "weight": 3
             }
           ],
           "required_tempers": []
@@ -734,6 +819,10 @@
           ],
           "priority_aspects": [],
           "priority_affixes": [
+            {
+              "name": "tenderize",
+              "weight": 3
+            },
             {
               "name": "the_wise",
               "weight": 10
@@ -790,6 +879,10 @@
             },
             {
               "name": "the_scourge",
+              "weight": 3
+            },
+            {
+              "name": "tenderize",
               "weight": 3
             }
           ],
@@ -826,6 +919,10 @@
             {
               "name": "sanctity",
               "weight": 3
+            },
+            {
+              "name": "revel",
+              "weight": 3
             }
           ],
           "required_tempers": []
@@ -836,7 +933,12 @@
             "Shroud of False Death"
           ],
           "priority_aspects": [],
-          "priority_affixes": [],
+          "priority_affixes": [
+            {
+              "name": "revel",
+              "weight": 3
+            }
+          ],
           "required_tempers": []
         },
         "weapon": {
@@ -875,6 +977,10 @@
             {
               "name": "riving",
               "weight": 3
+            },
+            {
+              "name": "tenderize",
+              "weight": 3
             }
           ],
           "required_tempers": []
@@ -911,6 +1017,10 @@
             {
               "name": "cruelty",
               "weight": 3
+            },
+            {
+              "name": "revel",
+              "weight": 3
             }
           ],
           "required_tempers": []
@@ -935,6 +1045,10 @@
             {
               "name": "auric",
               "weight": 4
+            },
+            {
+              "name": "revel",
+              "weight": 3
             }
           ],
           "required_tempers": []
@@ -967,6 +1081,10 @@
             {
               "name": "speed",
               "weight": 3
+            },
+            {
+              "name": "revel",
+              "weight": 3
             }
           ],
           "required_tempers": []
@@ -978,6 +1096,10 @@
           ],
           "priority_aspects": [],
           "priority_affixes": [
+            {
+              "name": "tenderize",
+              "weight": 3
+            },
             {
               "name": "the_wise",
               "weight": 10
@@ -1034,6 +1156,10 @@
             },
             {
               "name": "the_scourge",
+              "weight": 3
+            },
+            {
+              "name": "tenderize",
               "weight": 3
             }
           ],
@@ -1066,6 +1192,10 @@
             {
               "name": "unique_damage_to_elite_specialscaling",
               "weight": 3
+            },
+            {
+              "name": "seethe",
+              "weight": 3
             }
           ],
           "required_tempers": []
@@ -1076,7 +1206,12 @@
             "Shroud of False Death"
           ],
           "priority_aspects": [],
-          "priority_affixes": [],
+          "priority_affixes": [
+            {
+              "name": "revel",
+              "weight": 3
+            }
+          ],
           "required_tempers": []
         },
         "weapon": {
@@ -1115,6 +1250,10 @@
             {
               "name": "riving",
               "weight": 3
+            },
+            {
+              "name": "tenderize",
+              "weight": 3
             }
           ],
           "required_tempers": []
@@ -1147,6 +1286,10 @@
             {
               "name": "cruelty",
               "weight": 3
+            },
+            {
+              "name": "revel",
+              "weight": 3
             }
           ],
           "required_tempers": []
@@ -1171,6 +1314,10 @@
             {
               "name": "auric",
               "weight": 4
+            },
+            {
+              "name": "revel",
+              "weight": 3
             }
           ],
           "required_tempers": []
@@ -1203,6 +1350,10 @@
             {
               "name": "speed",
               "weight": 3
+            },
+            {
+              "name": "revel",
+              "weight": 3
             }
           ],
           "required_tempers": []
@@ -1214,6 +1365,10 @@
           ],
           "priority_aspects": [],
           "priority_affixes": [
+            {
+              "name": "tenderize",
+              "weight": 3
+            },
             {
               "name": "the_wise",
               "weight": 10
@@ -1270,6 +1425,10 @@
             },
             {
               "name": "the_scourge",
+              "weight": 3
+            },
+            {
+              "name": "tenderize",
               "weight": 3
             }
           ],

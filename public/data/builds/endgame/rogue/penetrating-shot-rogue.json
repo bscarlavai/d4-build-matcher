@@ -6,7 +6,7 @@
   "source_url": "https://maxroll.gg/d4/build-guides/penetrating-shot-rogue-guide",
   "tier": "B",
   "tags": [],
-  "last_updated": "2026-03-13",
+  "last_updated": "2026-03-14",
   "profile_order": [
     "starter",
     "ancestral",
@@ -74,6 +74,10 @@
               "weight": 6
             },
             {
+              "name": "tenderize",
+              "weight": 4
+            },
+            {
               "name": "carnage",
               "weight": 4
             }
@@ -96,6 +100,10 @@
             {
               "name": "vigor",
               "weight": 6
+            },
+            {
+              "name": "tenderize",
+              "weight": 4
             }
           ],
           "required_tempers": []
@@ -176,6 +184,10 @@
             {
               "name": "the_focused",
               "weight": 6
+            },
+            {
+              "name": "tenderize",
+              "weight": 4
             }
           ],
           "required_tempers": []
@@ -200,6 +212,10 @@
             {
               "name": "exploits",
               "weight": 4
+            },
+            {
+              "name": "tenderize",
+              "weight": 3
             }
           ],
           "required_tempers": []
@@ -231,6 +247,10 @@
             {
               "name": "unique_damage_to_elite_specialscaling",
               "weight": 3
+            },
+            {
+              "name": "keenness",
+              "weight": 3
             }
           ],
           "required_tempers": []
@@ -255,6 +275,10 @@
             {
               "name": "the_adroit",
               "weight": 4
+            },
+            {
+              "name": "seethe",
+              "weight": 3
             }
           ],
           "required_tempers": []
@@ -280,6 +304,10 @@
             },
             {
               "name": "keenness",
+              "weight": 3
+            },
+            {
+              "name": "tenderize",
               "weight": 3
             },
             {
@@ -321,6 +349,10 @@
             {
               "name": "perpetuity",
               "weight": 4
+            },
+            {
+              "name": "tenderize",
+              "weight": 3
             }
           ],
           "required_tempers": []
@@ -347,6 +379,10 @@
             {
               "name": "unique_damage_generic_tag_ultimate_higher",
               "weight": 3
+            },
+            {
+              "name": "anatomy",
+              "weight": 3
             }
           ],
           "required_tempers": []
@@ -371,6 +407,10 @@
             {
               "name": "the_adroit",
               "weight": 4
+            },
+            {
+              "name": "anatomy",
+              "weight": 3
             }
           ],
           "required_tempers": []
@@ -397,6 +437,10 @@
             {
               "name": "unique_resistance_single_cold_higher",
               "weight": 3
+            },
+            {
+              "name": "clamber",
+              "weight": 3
             }
           ],
           "required_tempers": []
@@ -421,6 +465,10 @@
             {
               "name": "keenness",
               "weight": 4
+            },
+            {
+              "name": "tenderize",
+              "weight": 3
             },
             {
               "name": "riving",
@@ -456,6 +504,10 @@
             },
             {
               "name": "the_adroit",
+              "weight": 3
+            },
+            {
+              "name": "tenderize",
               "weight": 3
             }
           ],
@@ -472,7 +524,12 @@
             "Heir of Perdition"
           ],
           "priority_aspects": [],
-          "priority_affixes": [],
+          "priority_affixes": [
+            {
+              "name": "keenness",
+              "weight": 3
+            }
+          ],
           "required_tempers": []
         },
         "chest": {
@@ -481,7 +538,12 @@
             "Shroud of False Death"
           ],
           "priority_aspects": [],
-          "priority_affixes": [],
+          "priority_affixes": [
+            {
+              "name": "seethe",
+              "weight": 3
+            }
+          ],
           "required_tempers": []
         },
         "offhand": {
@@ -505,6 +567,10 @@
             },
             {
               "name": "keenness",
+              "weight": 3
+            },
+            {
+              "name": "tenderize",
               "weight": 3
             },
             {
@@ -546,6 +612,10 @@
             {
               "name": "perpetuity",
               "weight": 4
+            },
+            {
+              "name": "tenderize",
+              "weight": 3
             }
           ],
           "required_tempers": []
@@ -572,6 +642,10 @@
             {
               "name": "unique_attackspeed_higher",
               "weight": 3
+            },
+            {
+              "name": "gluttony",
+              "weight": 3
             }
           ],
           "required_tempers": []
@@ -596,6 +670,10 @@
             {
               "name": "the_adroit",
               "weight": 4
+            },
+            {
+              "name": "gluttony",
+              "weight": 3
             }
           ],
           "required_tempers": []
@@ -622,6 +700,10 @@
             {
               "name": "unique_critchance_against_ccd_chill",
               "weight": 3
+            },
+            {
+              "name": "gluttony",
+              "weight": 3
             }
           ],
           "required_tempers": []
@@ -633,6 +715,10 @@
           ],
           "priority_aspects": [],
           "priority_affixes": [
+            {
+              "name": "tenderize",
+              "weight": 3
+            },
             {
               "name": "vigor",
               "weight": 10
@@ -679,6 +765,10 @@
             },
             {
               "name": "the_adroit",
+              "weight": 3
+            },
+            {
+              "name": "tenderize",
               "weight": 3
             }
           ],

@@ -6,7 +6,7 @@
   "source_url": "https://maxroll.gg/d4/build-guides/dash-rogue-guide",
   "tier": "B",
   "tags": [],
-  "last_updated": "2026-03-13",
+  "last_updated": "2026-03-14",
   "profile_order": [
     "ancestral",
     "mythic"
@@ -35,6 +35,10 @@
             {
               "name": "toughened",
               "weight": 4
+            },
+            {
+              "name": "anatomy",
+              "weight": 3
             }
           ],
           "required_tempers": []
@@ -59,6 +63,10 @@
             {
               "name": "toughened",
               "weight": 4
+            },
+            {
+              "name": "anatomy",
+              "weight": 3
             }
           ],
           "required_tempers": []
@@ -83,6 +91,10 @@
             {
               "name": "ferocity",
               "weight": 4
+            },
+            {
+              "name": "tenderize",
+              "weight": 3
             },
             {
               "name": "riving",
@@ -111,6 +123,10 @@
             {
               "name": "riving",
               "weight": 4
+            },
+            {
+              "name": "tenderize",
+              "weight": 3
             }
           ],
           "required_tempers": []
@@ -135,6 +151,10 @@
             {
               "name": "the_adept",
               "weight": 4
+            },
+            {
+              "name": "gluttony",
+              "weight": 3
             }
           ],
           "required_tempers": []
@@ -159,6 +179,10 @@
             {
               "name": "toughened",
               "weight": 4
+            },
+            {
+              "name": "gluttony",
+              "weight": 3
             }
           ],
           "required_tempers": []
@@ -185,6 +209,10 @@
             {
               "name": "sanctity",
               "weight": 3
+            },
+            {
+              "name": "gluttony",
+              "weight": 3
             }
           ],
           "required_tempers": []
@@ -209,6 +237,10 @@
             {
               "name": "the_adept",
               "weight": 4
+            },
+            {
+              "name": "tenderize",
+              "weight": 3
             },
             {
               "name": "swiftness",
@@ -237,6 +269,10 @@
             {
               "name": "keenness",
               "weight": 4
+            },
+            {
+              "name": "tenderize",
+              "weight": 3
             }
           ],
           "required_tempers": []
@@ -286,6 +322,10 @@
               "weight": 4
             },
             {
+              "name": "tenderize",
+              "weight": 3
+            },
+            {
               "name": "riving",
               "weight": 4
             }
@@ -312,6 +352,10 @@
             {
               "name": "riving",
               "weight": 4
+            },
+            {
+              "name": "tenderize",
+              "weight": 3
             }
           ],
           "required_tempers": []
@@ -410,6 +454,10 @@
             {
               "name": "the_adept",
               "weight": 4
+            },
+            {
+              "name": "tenderize",
+              "weight": 3
             }
           ],
           "required_tempers": []
@@ -434,6 +482,10 @@
             {
               "name": "keenness",
               "weight": 4
+            },
+            {
+              "name": "tenderize",
+              "weight": 3
             }
           ],
           "required_tempers": []

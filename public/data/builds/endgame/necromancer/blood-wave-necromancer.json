@@ -6,7 +6,7 @@
   "source_url": "https://maxroll.gg/d4/build-guides/blood-wave-necromancer-guide",
   "tier": "A",
   "tags": [],
-  "last_updated": "2026-03-13",
+  "last_updated": "2026-03-14",
   "profile_order": [
     "starter",
     "ancestral",
@@ -46,6 +46,10 @@
             {
               "name": "remedies",
               "weight": 3
+            },
+            {
+              "name": "gluttony",
+              "weight": 3
             }
           ],
           "required_tempers": []
@@ -73,6 +77,10 @@
             },
             {
               "name": "the_haze",
+              "weight": 3
+            },
+            {
+              "name": "gluttony",
               "weight": 3
             }
           ],
@@ -110,6 +118,10 @@
             {
               "name": "ferocity",
               "weight": 3
+            },
+            {
+              "name": "tenderize",
+              "weight": 3
             }
           ],
           "required_tempers": []
@@ -146,6 +158,10 @@
             {
               "name": "demolition",
               "weight": 3
+            },
+            {
+              "name": "gluttony",
+              "weight": 3
             }
           ],
           "required_tempers": []
@@ -172,6 +188,10 @@
             {
               "name": "the_wise",
               "weight": 4
+            },
+            {
+              "name": "gluttony",
+              "weight": 3
             }
           ],
           "required_tempers": []
@@ -199,6 +219,10 @@
             },
             {
               "name": "auric",
+              "weight": 3
+            },
+            {
+              "name": "gluttony",
               "weight": 3
             }
           ],
@@ -231,6 +255,10 @@
             },
             {
               "name": "demolition",
+              "weight": 3
+            },
+            {
+              "name": "tenderize",
               "weight": 3
             },
             {
@@ -276,6 +304,10 @@
             {
               "name": "vigor",
               "weight": 3
+            },
+            {
+              "name": "tenderize",
+              "weight": 3
             }
           ],
           "required_tempers": []
@@ -306,6 +338,10 @@
             },
             {
               "name": "unique_damage_to_elite_specialscaling",
+              "weight": 3
+            },
+            {
+              "name": "gluttony",
               "weight": 3
             }
           ],
@@ -339,6 +375,10 @@
             {
               "name": "remedies",
               "weight": 3
+            },
+            {
+              "name": "gluttony",
+              "weight": 3
             }
           ],
           "required_tempers": []
@@ -364,6 +404,10 @@
             },
             {
               "name": "unique_generic_luckyhit_flatdamage_elementalsurge_shadow_higher",
+              "weight": 3
+            },
+            {
+              "name": "tenderize",
               "weight": 3
             }
           ],
@@ -397,6 +441,10 @@
             {
               "name": "keenness",
               "weight": 3
+            },
+            {
+              "name": "gluttony",
+              "weight": 3
             }
           ],
           "required_tempers": []
@@ -423,6 +471,10 @@
             {
               "name": "the_wise",
               "weight": 4
+            },
+            {
+              "name": "gluttony",
+              "weight": 3
             }
           ],
           "required_tempers": []
@@ -450,6 +502,10 @@
             },
             {
               "name": "auric",
+              "weight": 3
+            },
+            {
+              "name": "gluttony",
               "weight": 3
             }
           ],
@@ -486,6 +542,10 @@
             },
             {
               "name": "keenness",
+              "weight": 3
+            },
+            {
+              "name": "tenderize",
               "weight": 3
             }
           ],
@@ -526,6 +586,10 @@
             },
             {
               "name": "the_wise",
+              "weight": 3
+            },
+            {
+              "name": "tenderize",
               "weight": 3
             }
           ],
@@ -542,7 +606,12 @@
             "Heir of Perdition"
           ],
           "priority_aspects": [],
-          "priority_affixes": [],
+          "priority_affixes": [
+            {
+              "name": "gluttony",
+              "weight": 3
+            }
+          ],
           "required_tempers": []
         },
         "chest": {
@@ -551,7 +620,12 @@
             "Shroud of False Death"
           ],
           "priority_aspects": [],
-          "priority_affixes": [],
+          "priority_affixes": [
+            {
+              "name": "gluttony",
+              "weight": 3
+            }
+          ],
           "required_tempers": []
         },
         "weapon": {
@@ -575,6 +649,10 @@
             },
             {
               "name": "unique_generic_luckyhit_flatdamage_elementalsurge_shadow_higher",
+              "weight": 3
+            },
+            {
+              "name": "tenderize",
               "weight": 3
             }
           ],
@@ -608,6 +686,10 @@
             {
               "name": "toughened",
               "weight": 3
+            },
+            {
+              "name": "gluttony",
+              "weight": 3
             }
           ],
           "required_tempers": []
@@ -634,6 +716,10 @@
             {
               "name": "unique_damage_generic_tag_ultimate_giga",
               "weight": 4
+            },
+            {
+              "name": "gluttony",
+              "weight": 3
             }
           ],
           "required_tempers": []
@@ -661,6 +747,10 @@
             },
             {
               "name": "auric",
+              "weight": 3
+            },
+            {
+              "name": "gluttony",
               "weight": 3
             }
           ],
@@ -697,6 +787,10 @@
             },
             {
               "name": "auric",
+              "weight": 3
+            },
+            {
+              "name": "tenderize",
               "weight": 3
             },
             {
@@ -737,6 +831,10 @@
             },
             {
               "name": "vigor",
+              "weight": 3
+            },
+            {
+              "name": "tenderize",
               "weight": 3
             }
           ],
@@ -753,7 +851,12 @@
             "Heir of Perdition"
           ],
           "priority_aspects": [],
-          "priority_affixes": [],
+          "priority_affixes": [
+            {
+              "name": "gluttony",
+              "weight": 3
+            }
+          ],
           "required_tempers": []
         },
         "chest": {
@@ -762,7 +865,12 @@
             "Shroud of False Death"
           ],
           "priority_aspects": [],
-          "priority_affixes": [],
+          "priority_affixes": [
+            {
+              "name": "gluttony",
+              "weight": 3
+            }
+          ],
           "required_tempers": []
         },
         "weapon": {
@@ -786,6 +894,10 @@
             },
             {
               "name": "unique_generic_luckyhit_flatdamage_elementalsurge_shadow_higher",
+              "weight": 3
+            },
+            {
+              "name": "tenderize",
               "weight": 3
             }
           ],
@@ -819,6 +931,10 @@
             {
               "name": "toughened",
               "weight": 3
+            },
+            {
+              "name": "gluttony",
+              "weight": 3
             }
           ],
           "required_tempers": []
@@ -845,6 +961,10 @@
             {
               "name": "unique_damage_generic_tag_ultimate_giga",
               "weight": 4
+            },
+            {
+              "name": "gluttony",
+              "weight": 3
             }
           ],
           "required_tempers": []
@@ -872,6 +992,10 @@
             },
             {
               "name": "auric",
+              "weight": 3
+            },
+            {
+              "name": "gluttony",
               "weight": 3
             }
           ],
@@ -904,6 +1028,10 @@
             },
             {
               "name": "keenness",
+              "weight": 3
+            },
+            {
+              "name": "tenderize",
               "weight": 3
             },
             {
@@ -949,6 +1077,10 @@
             {
               "name": "vigor",
               "weight": 3
+            },
+            {
+              "name": "tenderize",
+              "weight": 3
             }
           ],
           "required_tempers": []
@@ -964,7 +1096,12 @@
             "Heir of Perdition"
           ],
           "priority_aspects": [],
-          "priority_affixes": [],
+          "priority_affixes": [
+            {
+              "name": "gluttony",
+              "weight": 3
+            }
+          ],
           "required_tempers": []
         },
         "chest": {
@@ -973,7 +1110,12 @@
             "Shroud of False Death"
           ],
           "priority_aspects": [],
-          "priority_affixes": [],
+          "priority_affixes": [
+            {
+              "name": "gluttony",
+              "weight": 3
+            }
+          ],
           "required_tempers": []
         },
         "weapon": {
@@ -997,6 +1139,10 @@
             },
             {
               "name": "unique_generic_luckyhit_flatdamage_elementalsurge_shadow_higher",
+              "weight": 3
+            },
+            {
+              "name": "tenderize",
               "weight": 3
             }
           ],
@@ -1034,6 +1180,10 @@
             {
               "name": "keenness",
               "weight": 3
+            },
+            {
+              "name": "gluttony",
+              "weight": 3
             }
           ],
           "required_tempers": []
@@ -1060,6 +1210,10 @@
             {
               "name": "unique_damage_generic_tag_ultimate_giga",
               "weight": 4
+            },
+            {
+              "name": "gluttony",
+              "weight": 3
             }
           ],
           "required_tempers": []
@@ -1085,6 +1239,10 @@
             },
             {
               "name": "speed",
+              "weight": 3
+            },
+            {
+              "name": "gluttony",
               "weight": 3
             }
           ],

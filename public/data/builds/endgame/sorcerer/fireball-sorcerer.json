@@ -6,7 +6,7 @@
   "source_url": "https://maxroll.gg/d4/build-guides/fireball-sorcerer-guide",
   "tier": "C",
   "tags": [],
-  "last_updated": "2026-03-13",
+  "last_updated": "2026-03-14",
   "profile_order": [
     "starter",
     "ancestral",
@@ -38,6 +38,10 @@
             {
               "name": "toughened",
               "weight": 4
+            },
+            {
+              "name": "clamber",
+              "weight": 3
             }
           ],
           "required_tempers": []
@@ -62,6 +66,10 @@
             {
               "name": "auric",
               "weight": 4
+            },
+            {
+              "name": "clamber",
+              "weight": 3
             }
           ],
           "required_tempers": []
@@ -88,6 +96,10 @@
             {
               "name": "unique_resource_sorcmana_onfireballexplosion",
               "weight": 3
+            },
+            {
+              "name": "clamber",
+              "weight": 3
             }
           ],
           "required_tempers": []
@@ -112,6 +124,10 @@
             {
               "name": "auric",
               "weight": 4
+            },
+            {
+              "name": "clamber",
+              "weight": 3
             }
           ],
           "required_tempers": []
@@ -136,6 +152,10 @@
             {
               "name": "toughened",
               "weight": 4
+            },
+            {
+              "name": "clamber",
+              "weight": 3
             }
           ],
           "required_tempers": []
@@ -167,6 +187,10 @@
             },
             {
               "name": "vigor",
+              "weight": 3
+            },
+            {
+              "name": "tenderize",
               "weight": 3
             }
           ],
@@ -208,6 +232,10 @@
             {
               "name": "keenness",
               "weight": 3
+            },
+            {
+              "name": "tenderize",
+              "weight": 3
             }
           ],
           "required_tempers": []
@@ -239,6 +267,10 @@
             {
               "name": "unique_damage_to_elite_specialscaling",
               "weight": 3
+            },
+            {
+              "name": "keenness",
+              "weight": 3
             }
           ],
           "required_tempers": []
@@ -263,6 +295,10 @@
             {
               "name": "auric",
               "weight": 4
+            },
+            {
+              "name": "keenness",
+              "weight": 3
             }
           ],
           "required_tempers": []
@@ -288,6 +324,10 @@
             },
             {
               "name": "unique_resource_sorcmana_onfireballexplosion",
+              "weight": 3
+            },
+            {
+              "name": "keenness",
               "weight": 3
             }
           ],
@@ -315,6 +355,10 @@
             {
               "name": "unique_generic_luckyhit_heallife",
               "weight": 3
+            },
+            {
+              "name": "keenness",
+              "weight": 3
             }
           ],
           "required_tempers": []
@@ -339,6 +383,10 @@
             {
               "name": "toughened",
               "weight": 4
+            },
+            {
+              "name": "keenness",
+              "weight": 3
             }
           ],
           "required_tempers": []
@@ -372,6 +420,10 @@
             },
             {
               "name": "vigor",
+              "weight": 3
+            },
+            {
+              "name": "tenderize",
               "weight": 3
             },
             {
@@ -421,6 +473,10 @@
             {
               "name": "keenness",
               "weight": 3
+            },
+            {
+              "name": "tenderize",
+              "weight": 3
             }
           ],
           "required_tempers": []
@@ -436,7 +492,12 @@
             "Harlequin Crest"
           ],
           "priority_aspects": [],
-          "priority_affixes": [],
+          "priority_affixes": [
+            {
+              "name": "keenness",
+              "weight": 3
+            }
+          ],
           "required_tempers": []
         },
         "chest": {
@@ -445,7 +506,12 @@
             "Shroud of False Death"
           ],
           "priority_aspects": [],
-          "priority_affixes": [],
+          "priority_affixes": [
+            {
+              "name": "keenness",
+              "weight": 3
+            }
+          ],
           "required_tempers": []
         },
         "gloves": {
@@ -469,6 +535,10 @@
             },
             {
               "name": "unique_resource_sorcmana_onfireballexplosion",
+              "weight": 3
+            },
+            {
+              "name": "keenness",
               "weight": 3
             }
           ],
@@ -496,6 +566,10 @@
             {
               "name": "unique_generic_luckyhit_heallife",
               "weight": 3
+            },
+            {
+              "name": "keenness",
+              "weight": 3
             }
           ],
           "required_tempers": []
@@ -520,6 +594,10 @@
             {
               "name": "toughened",
               "weight": 4
+            },
+            {
+              "name": "keenness",
+              "weight": 3
             }
           ],
           "required_tempers": []
@@ -553,6 +631,10 @@
             },
             {
               "name": "vigor",
+              "weight": 3
+            },
+            {
+              "name": "tenderize",
               "weight": 3
             }
           ],
@@ -589,6 +671,10 @@
             },
             {
               "name": "keenness",
+              "weight": 3
+            },
+            {
+              "name": "tenderize",
               "weight": 3
             }
           ],
@@ -605,7 +691,12 @@
             "Heir of Perdition"
           ],
           "priority_aspects": [],
-          "priority_affixes": [],
+          "priority_affixes": [
+            {
+              "name": "keenness",
+              "weight": 3
+            }
+          ],
           "required_tempers": []
         },
         "chest": {
@@ -614,7 +705,12 @@
             "Shroud of False Death"
           ],
           "priority_aspects": [],
-          "priority_affixes": [],
+          "priority_affixes": [
+            {
+              "name": "keenness",
+              "weight": 3
+            }
+          ],
           "required_tempers": []
         },
         "gloves": {
@@ -638,6 +734,10 @@
             },
             {
               "name": "unique_resource_sorcmana_onfireballexplosion",
+              "weight": 3
+            },
+            {
+              "name": "keenness",
               "weight": 3
             }
           ],
@@ -665,6 +765,10 @@
             {
               "name": "unique_generic_luckyhit_heallife",
               "weight": 3
+            },
+            {
+              "name": "keenness",
+              "weight": 3
             }
           ],
           "required_tempers": []
@@ -689,6 +793,10 @@
             {
               "name": "toughened",
               "weight": 4
+            },
+            {
+              "name": "keenness",
+              "weight": 3
             }
           ],
           "required_tempers": []
@@ -718,6 +826,10 @@
             },
             {
               "name": "vigor",
+              "weight": 3
+            },
+            {
+              "name": "tenderize",
               "weight": 3
             }
           ],
@@ -755,6 +867,10 @@
             {
               "name": "keenness",
               "weight": 3
+            },
+            {
+              "name": "tenderize",
+              "weight": 3
             }
           ],
           "required_tempers": []
@@ -770,7 +886,12 @@
             "Harlequin Crest"
           ],
           "priority_aspects": [],
-          "priority_affixes": [],
+          "priority_affixes": [
+            {
+              "name": "keenness",
+              "weight": 3
+            }
+          ],
           "required_tempers": []
         },
         "chest": {
@@ -779,7 +900,12 @@
             "Shroud of False Death"
           ],
           "priority_aspects": [],
-          "priority_affixes": [],
+          "priority_affixes": [
+            {
+              "name": "keenness",
+              "weight": 3
+            }
+          ],
           "required_tempers": []
         },
         "gloves": {
@@ -803,6 +929,10 @@
             },
             {
               "name": "unique_resource_sorcmana_onfireballexplosion",
+              "weight": 3
+            },
+            {
+              "name": "keenness",
               "weight": 3
             }
           ],
@@ -830,6 +960,10 @@
             {
               "name": "toughened",
               "weight": 4
+            },
+            {
+              "name": "keenness",
+              "weight": 3
             }
           ],
           "required_tempers": []
@@ -854,6 +988,10 @@
             {
               "name": "toughened",
               "weight": 4
+            },
+            {
+              "name": "keenness",
+              "weight": 3
             }
           ],
           "required_tempers": []
@@ -888,6 +1026,10 @@
             {
               "name": "vigor",
               "weight": 3
+            },
+            {
+              "name": "tenderize",
+              "weight": 3
             }
           ],
           "required_tempers": []
@@ -923,6 +1065,10 @@
             },
             {
               "name": "keenness",
+              "weight": 3
+            },
+            {
+              "name": "tenderize",
               "weight": 3
             }
           ],

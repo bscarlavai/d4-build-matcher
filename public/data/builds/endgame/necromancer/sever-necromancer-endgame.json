@@ -6,7 +6,7 @@
   "source_url": "https://maxroll.gg/d4/build-guides/sever-necromancer-endgame-guide",
   "tier": "A",
   "tags": [],
-  "last_updated": "2026-03-13",
+  "last_updated": "2026-03-14",
   "profile_order": [
     "starter",
     "ancestral",
@@ -42,6 +42,10 @@
             {
               "name": "swiftness",
               "weight": 3
+            },
+            {
+              "name": "anatomy",
+              "weight": 3
             }
           ],
           "required_tempers": []
@@ -69,6 +73,10 @@
             },
             {
               "name": "auric",
+              "weight": 3
+            },
+            {
+              "name": "anatomy",
               "weight": 3
             }
           ],
@@ -106,6 +114,10 @@
             {
               "name": "perpetuity",
               "weight": 3
+            },
+            {
+              "name": "tenderize",
+              "weight": 3
             }
           ],
           "required_tempers": []
@@ -137,6 +149,10 @@
             },
             {
               "name": "cruelty",
+              "weight": 3
+            },
+            {
+              "name": "anatomy",
               "weight": 3
             }
           ],
@@ -178,6 +194,10 @@
             {
               "name": "sanctity",
               "weight": 3
+            },
+            {
+              "name": "seethe",
+              "weight": 3
             }
           ],
           "required_tempers": []
@@ -210,6 +230,10 @@
             {
               "name": "auric",
               "weight": 3
+            },
+            {
+              "name": "seethe",
+              "weight": 3
             }
           ],
           "required_tempers": []
@@ -241,6 +265,10 @@
             },
             {
               "name": "cruelty",
+              "weight": 3
+            },
+            {
+              "name": "tenderize",
               "weight": 3
             }
           ],
@@ -274,6 +302,10 @@
             {
               "name": "the_astue",
               "weight": 3
+            },
+            {
+              "name": "tenderize",
+              "weight": 3
             }
           ],
           "required_tempers": []
@@ -305,6 +337,10 @@
             {
               "name": "unique_damage_to_elite_specialscaling",
               "weight": 3
+            },
+            {
+              "name": "keenness",
+              "weight": 3
             }
           ],
           "required_tempers": []
@@ -329,6 +365,10 @@
             {
               "name": "infusing",
               "weight": 4
+            },
+            {
+              "name": "keenness",
+              "weight": 3
             }
           ],
           "required_tempers": []
@@ -364,6 +404,10 @@
             },
             {
               "name": "efficiency",
+              "weight": 3
+            },
+            {
+              "name": "tenderize",
               "weight": 3
             }
           ],
@@ -401,6 +445,10 @@
             {
               "name": "principals",
               "weight": 3
+            },
+            {
+              "name": "seethe",
+              "weight": 3
             }
           ],
           "required_tempers": []
@@ -426,6 +474,10 @@
             },
             {
               "name": "golemlords",
+              "weight": 3
+            },
+            {
+              "name": "seethe",
               "weight": 3
             }
           ],
@@ -453,6 +505,10 @@
             {
               "name": "the_wise",
               "weight": 4
+            },
+            {
+              "name": "seethe",
+              "weight": 3
             }
           ],
           "required_tempers": []
@@ -484,6 +540,10 @@
             },
             {
               "name": "luck",
+              "weight": 3
+            },
+            {
+              "name": "tenderize",
               "weight": 3
             }
           ],
@@ -520,6 +580,10 @@
             },
             {
               "name": "the_wise",
+              "weight": 3
+            },
+            {
+              "name": "tenderize",
               "weight": 3
             }
           ],
@@ -536,7 +600,12 @@
             "Heir of Perdition"
           ],
           "priority_aspects": [],
-          "priority_affixes": [],
+          "priority_affixes": [
+            {
+              "name": "keenness",
+              "weight": 3
+            }
+          ],
           "required_tempers": []
         },
         "chest": {
@@ -545,7 +614,12 @@
             "Shroud of False Death"
           ],
           "priority_aspects": [],
-          "priority_affixes": [],
+          "priority_affixes": [
+            {
+              "name": "gluttony",
+              "weight": 3
+            }
+          ],
           "required_tempers": []
         },
         "weapon": {
@@ -579,6 +653,10 @@
             },
             {
               "name": "efficiency",
+              "weight": 3
+            },
+            {
+              "name": "tenderize",
               "weight": 3
             }
           ],
@@ -616,6 +694,10 @@
             {
               "name": "principals",
               "weight": 3
+            },
+            {
+              "name": "gluttony",
+              "weight": 3
             }
           ],
           "required_tempers": []
@@ -641,6 +723,10 @@
             },
             {
               "name": "golemlords",
+              "weight": 3
+            },
+            {
+              "name": "gluttony",
               "weight": 3
             }
           ],
@@ -668,6 +754,10 @@
             {
               "name": "unique_movement_speed_higher",
               "weight": 4
+            },
+            {
+              "name": "gluttony",
+              "weight": 3
             }
           ],
           "required_tempers": []
@@ -701,6 +791,10 @@
             },
             {
               "name": "luck",
+              "weight": 3
+            },
+            {
+              "name": "tenderize",
               "weight": 3
             }
           ],
@@ -737,6 +831,10 @@
             },
             {
               "name": "the_wise",
+              "weight": 3
+            },
+            {
+              "name": "tenderize",
               "weight": 3
             }
           ],
@@ -753,7 +851,12 @@
             "Heir of Perdition"
           ],
           "priority_aspects": [],
-          "priority_affixes": [],
+          "priority_affixes": [
+            {
+              "name": "keenness",
+              "weight": 3
+            }
+          ],
           "required_tempers": []
         },
         "chest": {
@@ -762,7 +865,12 @@
             "Shroud of False Death"
           ],
           "priority_aspects": [],
-          "priority_affixes": [],
+          "priority_affixes": [
+            {
+              "name": "gluttony",
+              "weight": 3
+            }
+          ],
           "required_tempers": []
         },
         "weapon": {
@@ -796,6 +904,10 @@
             },
             {
               "name": "efficiency",
+              "weight": 3
+            },
+            {
+              "name": "tenderize",
               "weight": 3
             }
           ],
@@ -833,6 +945,10 @@
             {
               "name": "principals",
               "weight": 3
+            },
+            {
+              "name": "gluttony",
+              "weight": 3
             }
           ],
           "required_tempers": []
@@ -858,6 +974,10 @@
             },
             {
               "name": "golemlords",
+              "weight": 3
+            },
+            {
+              "name": "gluttony",
               "weight": 3
             }
           ],
@@ -885,6 +1005,10 @@
             {
               "name": "unique_movement_speed_higher",
               "weight": 4
+            },
+            {
+              "name": "gluttony",
+              "weight": 3
             }
           ],
           "required_tempers": []
@@ -918,6 +1042,10 @@
             },
             {
               "name": "luck",
+              "weight": 3
+            },
+            {
+              "name": "tenderize",
               "weight": 3
             }
           ],
@@ -954,6 +1082,10 @@
             },
             {
               "name": "the_wise",
+              "weight": 3
+            },
+            {
+              "name": "tenderize",
               "weight": 3
             }
           ],
@@ -970,7 +1102,12 @@
             "Heir of Perdition"
           ],
           "priority_aspects": [],
-          "priority_affixes": [],
+          "priority_affixes": [
+            {
+              "name": "keenness",
+              "weight": 3
+            }
+          ],
           "required_tempers": []
         },
         "chest": {
@@ -979,7 +1116,12 @@
             "Shroud of False Death"
           ],
           "priority_aspects": [],
-          "priority_affixes": [],
+          "priority_affixes": [
+            {
+              "name": "gluttony",
+              "weight": 3
+            }
+          ],
           "required_tempers": []
         },
         "weapon": {
@@ -1013,6 +1155,10 @@
             },
             {
               "name": "efficiency",
+              "weight": 3
+            },
+            {
+              "name": "tenderize",
               "weight": 3
             }
           ],
@@ -1050,6 +1196,10 @@
             {
               "name": "principals",
               "weight": 3
+            },
+            {
+              "name": "gluttony",
+              "weight": 3
             }
           ],
           "required_tempers": []
@@ -1075,6 +1225,10 @@
             },
             {
               "name": "golemlords",
+              "weight": 3
+            },
+            {
+              "name": "gluttony",
               "weight": 3
             }
           ],
@@ -1102,6 +1256,10 @@
             {
               "name": "unique_movement_speed_higher",
               "weight": 4
+            },
+            {
+              "name": "gluttony",
+              "weight": 3
             }
           ],
           "required_tempers": []
@@ -1135,6 +1293,10 @@
             },
             {
               "name": "luck",
+              "weight": 3
+            },
+            {
+              "name": "tenderize",
               "weight": 3
             }
           ],
@@ -1171,6 +1333,10 @@
             },
             {
               "name": "the_wise",
+              "weight": 3
+            },
+            {
+              "name": "tenderize",
               "weight": 3
             }
           ],

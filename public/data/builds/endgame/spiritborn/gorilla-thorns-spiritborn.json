@@ -6,7 +6,7 @@
   "source_url": "https://maxroll.gg/d4/build-guides/gorilla-thorns-spiritborn-guide",
   "tier": "A",
   "tags": [],
-  "last_updated": "2026-03-13",
+  "last_updated": "2026-03-14",
   "profile_order": [
     "starter",
     "ancestral",
@@ -37,6 +37,10 @@
             {
               "name": "toughened",
               "weight": 4
+            },
+            {
+              "name": "gluttony",
+              "weight": 3
             }
           ],
           "required_tempers": []
@@ -61,6 +65,10 @@
             {
               "name": "glorius",
               "weight": 4
+            },
+            {
+              "name": "gluttony",
+              "weight": 3
             }
           ],
           "required_tempers": []
@@ -85,6 +93,10 @@
             {
               "name": "cruelty",
               "weight": 4
+            },
+            {
+              "name": "gluttony",
+              "weight": 3
             }
           ],
           "required_tempers": []
@@ -109,6 +121,10 @@
             {
               "name": "vigor",
               "weight": 4
+            },
+            {
+              "name": "gluttony",
+              "weight": 3
             }
           ],
           "required_tempers": []
@@ -133,6 +149,10 @@
             {
               "name": "toughened",
               "weight": 4
+            },
+            {
+              "name": "gluttony",
+              "weight": 3
             }
           ],
           "required_tempers": []
@@ -157,6 +177,10 @@
             {
               "name": "vigor",
               "weight": 4
+            },
+            {
+              "name": "tenderize",
+              "weight": 3
             }
           ],
           "required_tempers": []
@@ -200,6 +224,10 @@
             },
             {
               "name": "unique_movement_speed_lesser",
+              "weight": 3
+            },
+            {
+              "name": "tenderize",
               "weight": 3
             }
           ],
@@ -236,6 +264,10 @@
             {
               "name": "sanctity",
               "weight": 3
+            },
+            {
+              "name": "gluttony",
+              "weight": 3
             }
           ],
           "required_tempers": []
@@ -260,6 +292,10 @@
             {
               "name": "thorns",
               "weight": 4
+            },
+            {
+              "name": "gluttony",
+              "weight": 3
             }
           ],
           "required_tempers": []
@@ -286,6 +322,10 @@
             {
               "name": "unique_skillrankbonus_spiritborn_category_gorilla",
               "weight": 4
+            },
+            {
+              "name": "gluttony",
+              "weight": 3
             }
           ],
           "required_tempers": []
@@ -312,6 +352,10 @@
             {
               "name": "vigor",
               "weight": 3
+            },
+            {
+              "name": "gluttony",
+              "weight": 3
             }
           ],
           "required_tempers": []
@@ -336,6 +380,10 @@
             {
               "name": "toughened",
               "weight": 4
+            },
+            {
+              "name": "gluttony",
+              "weight": 3
             }
           ],
           "required_tempers": []
@@ -362,6 +410,10 @@
             {
               "name": "swiftness",
               "weight": 4
+            },
+            {
+              "name": "tenderize",
+              "weight": 3
             },
             {
               "name": "unique_thorns_higher",
@@ -422,6 +474,10 @@
             {
               "name": "unique_movement_speed_lesser",
               "weight": 3
+            },
+            {
+              "name": "tenderize",
+              "weight": 3
             }
           ],
           "required_tempers": []
@@ -457,6 +513,10 @@
             {
               "name": "sanctity",
               "weight": 3
+            },
+            {
+              "name": "gluttony",
+              "weight": 3
             }
           ],
           "required_tempers": []
@@ -467,7 +527,12 @@
             "Shroud of False Death"
           ],
           "priority_aspects": [],
-          "priority_affixes": [],
+          "priority_affixes": [
+            {
+              "name": "gluttony",
+              "weight": 3
+            }
+          ],
           "required_tempers": []
         },
         "gloves": {
@@ -492,6 +557,10 @@
             {
               "name": "unique_skillrankbonus_spiritborn_category_gorilla",
               "weight": 4
+            },
+            {
+              "name": "gluttony",
+              "weight": 3
             }
           ],
           "required_tempers": []
@@ -518,6 +587,10 @@
             {
               "name": "vigor",
               "weight": 3
+            },
+            {
+              "name": "gluttony",
+              "weight": 3
             }
           ],
           "required_tempers": []
@@ -542,6 +615,10 @@
             {
               "name": "speed",
               "weight": 4
+            },
+            {
+              "name": "gluttony",
+              "weight": 3
             }
           ],
           "required_tempers": []
@@ -568,6 +645,10 @@
             {
               "name": "swiftness",
               "weight": 4
+            },
+            {
+              "name": "tenderize",
+              "weight": 3
             },
             {
               "name": "unique_thorns_higher",
@@ -619,6 +700,10 @@
             },
             {
               "name": "vigor",
+              "weight": 3
+            },
+            {
+              "name": "tenderize",
               "weight": 3
             }
           ],
@@ -655,6 +740,10 @@
             {
               "name": "sanctity",
               "weight": 3
+            },
+            {
+              "name": "gluttony",
+              "weight": 3
             }
           ],
           "required_tempers": []
@@ -665,7 +754,12 @@
             "Shroud of False Death"
           ],
           "priority_aspects": [],
-          "priority_affixes": [],
+          "priority_affixes": [
+            {
+              "name": "gluttony",
+              "weight": 3
+            }
+          ],
           "required_tempers": []
         },
         "gloves": {
@@ -690,6 +784,10 @@
             {
               "name": "unique_skillrankbonus_spiritborn_category_gorilla",
               "weight": 4
+            },
+            {
+              "name": "gluttony",
+              "weight": 3
             }
           ],
           "required_tempers": []
@@ -716,6 +814,10 @@
             {
               "name": "vigor",
               "weight": 3
+            },
+            {
+              "name": "gluttony",
+              "weight": 3
             }
           ],
           "required_tempers": []
@@ -740,6 +842,10 @@
             {
               "name": "speed",
               "weight": 4
+            },
+            {
+              "name": "clamber",
+              "weight": 3
             }
           ],
           "required_tempers": []
@@ -766,6 +872,10 @@
             {
               "name": "swiftness",
               "weight": 4
+            },
+            {
+              "name": "tenderize",
+              "weight": 3
             },
             {
               "name": "unique_thorns_higher",
@@ -817,6 +927,10 @@
             },
             {
               "name": "vigor",
+              "weight": 3
+            },
+            {
+              "name": "tenderize",
               "weight": 3
             }
           ],

@@ -6,7 +6,7 @@
   "source_url": "https://maxroll.gg/d4/build-guides/rapid-fire-rogue-guide",
   "tier": "B",
   "tags": [],
-  "last_updated": "2026-03-13",
+  "last_updated": "2026-03-14",
   "profile_order": [
     "rapid_fire"
   ],
@@ -36,6 +36,10 @@
             {
               "name": "harmony",
               "weight": 3
+            },
+            {
+              "name": "seethe",
+              "weight": 3
             }
           ],
           "required_tempers": []
@@ -46,7 +50,12 @@
             "Shroud of False Death"
           ],
           "priority_aspects": [],
-          "priority_affixes": [],
+          "priority_affixes": [
+            {
+              "name": "keenness",
+              "weight": 3
+            }
+          ],
           "required_tempers": []
         },
         "offhand": {
@@ -70,6 +79,10 @@
             },
             {
               "name": "unique_projectiles_tag_rogue_marksman",
+              "weight": 3
+            },
+            {
+              "name": "tenderize",
               "weight": 3
             },
             {
@@ -113,6 +126,10 @@
             {
               "name": "unique_corestat_dexterity_higher",
               "weight": 3
+            },
+            {
+              "name": "tenderize",
+              "weight": 3
             }
           ],
           "required_tempers": []
@@ -139,6 +156,10 @@
             {
               "name": "unique_skillrankbonus_rogue_category_marksman_cutthroat",
               "weight": 3
+            },
+            {
+              "name": "gluttony",
+              "weight": 3
             }
           ],
           "required_tempers": []
@@ -163,6 +184,10 @@
             {
               "name": "auric",
               "weight": 4
+            },
+            {
+              "name": "gluttony",
+              "weight": 3
             }
           ],
           "required_tempers": []
@@ -183,6 +208,10 @@
             {
               "name": "auric",
               "weight": 6
+            },
+            {
+              "name": "clamber",
+              "weight": 4
             }
           ],
           "required_tempers": []
@@ -208,6 +237,10 @@
             },
             {
               "name": "keenness",
+              "weight": 3
+            },
+            {
+              "name": "tenderize",
               "weight": 3
             },
             {
@@ -245,6 +278,10 @@
             {
               "name": "exploits",
               "weight": 4
+            },
+            {
+              "name": "tenderize",
+              "weight": 3
             }
           ],
           "required_tempers": []

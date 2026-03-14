@@ -6,7 +6,7 @@
   "source_url": "https://maxroll.gg/d4/build-guides/shield-bash-paladin-guide",
   "tier": "S",
   "tags": [],
-  "last_updated": "2026-03-13",
+  "last_updated": "2026-03-14",
   "profile_order": [
     "starter",
     "ancestral",
@@ -319,6 +319,10 @@
             {
               "name": "auric",
               "weight": 3
+            },
+            {
+              "name": "gluttony",
+              "weight": 3
             }
           ],
           "required_tempers": []
@@ -341,6 +345,10 @@
             },
             {
               "name": "reckless_magic",
+              "weight": 3
+            },
+            {
+              "name": "gluttony",
               "weight": 3
             },
             {
@@ -384,6 +392,10 @@
             {
               "name": "vigor",
               "weight": 4
+            },
+            {
+              "name": "tenderize",
+              "weight": 3
             }
           ],
           "required_tempers": []
@@ -428,6 +440,10 @@
             {
               "name": "the_focused",
               "weight": 3
+            },
+            {
+              "name": "gluttony",
+              "weight": 3
             }
           ],
           "required_tempers": []
@@ -452,6 +468,10 @@
             {
               "name": "auric",
               "weight": 4
+            },
+            {
+              "name": "gluttony",
+              "weight": 3
             }
           ],
           "required_tempers": []
@@ -479,6 +499,10 @@
             },
             {
               "name": "auric",
+              "weight": 3
+            },
+            {
+              "name": "gluttony",
               "weight": 3
             }
           ],
@@ -523,6 +547,10 @@
             },
             {
               "name": "riving",
+              "weight": 3
+            },
+            {
+              "name": "tenderize",
               "weight": 3
             }
           ],
@@ -579,6 +607,10 @@
             },
             {
               "name": "auric",
+              "weight": 3
+            },
+            {
+              "name": "tenderize",
               "weight": 3
             }
           ],
@@ -595,7 +627,12 @@
             "Heir of Perdition"
           ],
           "priority_aspects": [],
-          "priority_affixes": [],
+          "priority_affixes": [
+            {
+              "name": "gluttony",
+              "weight": 3
+            }
+          ],
           "required_tempers": []
         },
         "chest": {
@@ -617,6 +654,10 @@
             {
               "name": "unique_lifeflat_higherhigher",
               "weight": 6
+            },
+            {
+              "name": "gluttony",
+              "weight": 3
             },
             {
               "name": "unique_double_damage_skill_pal_shieldbash",
@@ -659,6 +700,10 @@
             {
               "name": "vigor",
               "weight": 4
+            },
+            {
+              "name": "tenderize",
+              "weight": 3
             }
           ],
           "required_tempers": []
@@ -703,6 +748,10 @@
             {
               "name": "the_focused",
               "weight": 3
+            },
+            {
+              "name": "gluttony",
+              "weight": 3
             }
           ],
           "required_tempers": []
@@ -727,6 +776,10 @@
             {
               "name": "auric",
               "weight": 4
+            },
+            {
+              "name": "gluttony",
+              "weight": 3
             }
           ],
           "required_tempers": []
@@ -755,6 +808,10 @@
             {
               "name": "auric",
               "weight": 3
+            },
+            {
+              "name": "gluttony",
+              "weight": 3
             }
           ],
           "required_tempers": []
@@ -766,6 +823,10 @@
           ],
           "priority_aspects": [],
           "priority_affixes": [
+            {
+              "name": "tenderize",
+              "weight": 3
+            },
             {
               "name": "the_powerful",
               "weight": 10
@@ -856,6 +917,10 @@
             },
             {
               "name": "auric",
+              "weight": 3
+            },
+            {
+              "name": "tenderize",
               "weight": 3
             }
           ],
@@ -894,6 +959,10 @@
             {
               "name": "auric",
               "weight": 3
+            },
+            {
+              "name": "gluttony",
+              "weight": 3
             }
           ],
           "required_tempers": []
@@ -916,6 +985,10 @@
             },
             {
               "name": "reckless_magic",
+              "weight": 3
+            },
+            {
+              "name": "gluttony",
               "weight": 3
             },
             {
@@ -959,6 +1032,10 @@
             {
               "name": "vigor",
               "weight": 4
+            },
+            {
+              "name": "tenderize",
+              "weight": 3
             }
           ],
           "required_tempers": []
@@ -1003,6 +1080,10 @@
             {
               "name": "the_focused",
               "weight": 3
+            },
+            {
+              "name": "gluttony",
+              "weight": 3
             }
           ],
           "required_tempers": []
@@ -1027,6 +1108,10 @@
             {
               "name": "auric",
               "weight": 4
+            },
+            {
+              "name": "gluttony",
+              "weight": 3
             }
           ],
           "required_tempers": []
@@ -1054,6 +1139,10 @@
             },
             {
               "name": "auric",
+              "weight": 3
+            },
+            {
+              "name": "gluttony",
               "weight": 3
             }
           ],
@@ -1096,6 +1185,10 @@
             },
             {
               "name": "riving",
+              "weight": 3
+            },
+            {
+              "name": "tenderize",
               "weight": 3
             },
             {
@@ -1152,6 +1245,10 @@
             },
             {
               "name": "auric",
+              "weight": 3
+            },
+            {
+              "name": "tenderize",
               "weight": 3
             }
           ],
@@ -1168,7 +1265,12 @@
             "Heir of Perdition"
           ],
           "priority_aspects": [],
-          "priority_affixes": [],
+          "priority_affixes": [
+            {
+              "name": "gluttony",
+              "weight": 3
+            }
+          ],
           "required_tempers": []
         },
         "chest": {
@@ -1190,6 +1292,10 @@
             {
               "name": "unique_lifeflat_higherhigher",
               "weight": 6
+            },
+            {
+              "name": "gluttony",
+              "weight": 3
             },
             {
               "name": "unique_double_damage_skill_pal_shieldbash",
@@ -1232,6 +1338,10 @@
             {
               "name": "vigor",
               "weight": 4
+            },
+            {
+              "name": "tenderize",
+              "weight": 3
             }
           ],
           "required_tempers": []
@@ -1276,6 +1386,10 @@
             {
               "name": "the_focused",
               "weight": 3
+            },
+            {
+              "name": "gluttony",
+              "weight": 3
             }
           ],
           "required_tempers": []
@@ -1300,6 +1414,10 @@
             {
               "name": "auric",
               "weight": 4
+            },
+            {
+              "name": "gluttony",
+              "weight": 3
             }
           ],
           "required_tempers": []
@@ -1327,6 +1445,10 @@
             },
             {
               "name": "auric",
+              "weight": 3
+            },
+            {
+              "name": "gluttony",
               "weight": 3
             }
           ],
@@ -1369,6 +1491,10 @@
             },
             {
               "name": "riving",
+              "weight": 3
+            },
+            {
+              "name": "tenderize",
               "weight": 3
             },
             {
@@ -1425,6 +1551,10 @@
             },
             {
               "name": "auric",
+              "weight": 3
+            },
+            {
+              "name": "tenderize",
               "weight": 3
             }
           ],

@@ -6,7 +6,7 @@
   "source_url": "https://maxroll.gg/d4/build-guides/payback-spiritborn-build-guide",
   "tier": "A",
   "tags": [],
-  "last_updated": "2026-03-13",
+  "last_updated": "2026-03-14",
   "profile_order": [
     "starter",
     "ancestral",
@@ -37,6 +37,10 @@
             {
               "name": "toughened",
               "weight": 4
+            },
+            {
+              "name": "revel",
+              "weight": 3
             }
           ],
           "required_tempers": []
@@ -61,6 +65,10 @@
             {
               "name": "toughened",
               "weight": 4
+            },
+            {
+              "name": "revel",
+              "weight": 3
             }
           ],
           "required_tempers": []
@@ -85,6 +93,10 @@
             {
               "name": "auric",
               "weight": 4
+            },
+            {
+              "name": "revel",
+              "weight": 3
             }
           ],
           "required_tempers": []
@@ -109,6 +121,10 @@
             {
               "name": "toughened",
               "weight": 4
+            },
+            {
+              "name": "revel",
+              "weight": 3
             }
           ],
           "required_tempers": []
@@ -133,6 +149,10 @@
             {
               "name": "auric",
               "weight": 4
+            },
+            {
+              "name": "revel",
+              "weight": 3
             }
           ],
           "required_tempers": []
@@ -158,6 +178,10 @@
             },
             {
               "name": "unique_x1_passiverankbonus_spiritborn_talent_plains_2_mirage_higher",
+              "weight": 3
+            },
+            {
+              "name": "tenderize",
               "weight": 3
             },
             {
@@ -195,6 +219,10 @@
             {
               "name": "sparking",
               "weight": 4
+            },
+            {
+              "name": "tenderize",
+              "weight": 3
             }
           ],
           "required_tempers": []
@@ -226,6 +254,10 @@
             {
               "name": "unique_passiverankbonus_spiritborn_velocity_higher",
               "weight": 3
+            },
+            {
+              "name": "revel",
+              "weight": 3
             }
           ],
           "required_tempers": []
@@ -236,7 +268,12 @@
             "Razorplate"
           ],
           "priority_aspects": [],
-          "priority_affixes": [],
+          "priority_affixes": [
+            {
+              "name": "revel",
+              "weight": 3
+            }
+          ],
           "required_tempers": []
         },
         "gloves": {
@@ -260,6 +297,10 @@
             },
             {
               "name": "unique_damage_to_vulnerable_higher",
+              "weight": 3
+            },
+            {
+              "name": "revel",
               "weight": 3
             }
           ],
@@ -287,6 +328,10 @@
             {
               "name": "toughened",
               "weight": 3
+            },
+            {
+              "name": "revel",
+              "weight": 3
             }
           ],
           "required_tempers": []
@@ -311,6 +356,10 @@
             {
               "name": "auric",
               "weight": 4
+            },
+            {
+              "name": "revel",
+              "weight": 3
             }
           ],
           "required_tempers": []
@@ -336,6 +385,10 @@
             },
             {
               "name": "unique_x1_passiverankbonus_spiritborn_talent_plains_2_mirage_higher",
+              "weight": 3
+            },
+            {
+              "name": "tenderize",
               "weight": 3
             },
             {
@@ -373,6 +426,10 @@
             {
               "name": "incinerating",
               "weight": 4
+            },
+            {
+              "name": "tenderize",
+              "weight": 3
             }
           ],
           "required_tempers": []
@@ -404,6 +461,10 @@
             {
               "name": "unique_passiverankbonus_spiritborn_velocity_higher",
               "weight": 3
+            },
+            {
+              "name": "revel",
+              "weight": 3
             }
           ],
           "required_tempers": []
@@ -414,7 +475,12 @@
             "Shroud of False Death"
           ],
           "priority_aspects": [],
-          "priority_affixes": [],
+          "priority_affixes": [
+            {
+              "name": "revel",
+              "weight": 3
+            }
+          ],
           "required_tempers": []
         },
         "gloves": {
@@ -438,6 +504,10 @@
             },
             {
               "name": "unique_damage_to_vulnerable_higher",
+              "weight": 3
+            },
+            {
+              "name": "revel",
               "weight": 3
             }
           ],
@@ -465,6 +535,10 @@
             {
               "name": "toughened",
               "weight": 3
+            },
+            {
+              "name": "revel",
+              "weight": 3
             }
           ],
           "required_tempers": []
@@ -489,6 +563,10 @@
             {
               "name": "auric",
               "weight": 4
+            },
+            {
+              "name": "revel",
+              "weight": 3
             }
           ],
           "required_tempers": []
@@ -514,6 +592,10 @@
             },
             {
               "name": "unique_x1_passiverankbonus_spiritborn_talent_plains_2_mirage_higher",
+              "weight": 3
+            },
+            {
+              "name": "tenderize",
               "weight": 3
             },
             {
@@ -551,6 +633,10 @@
             {
               "name": "incinerating",
               "weight": 4
+            },
+            {
+              "name": "tenderize",
+              "weight": 3
             }
           ],
           "required_tempers": []
@@ -582,6 +668,10 @@
             {
               "name": "unique_passiverankbonus_spiritborn_velocity_higher",
               "weight": 3
+            },
+            {
+              "name": "revel",
+              "weight": 3
             }
           ],
           "required_tempers": []
@@ -592,7 +682,12 @@
             "Shroud of False Death"
           ],
           "priority_aspects": [],
-          "priority_affixes": [],
+          "priority_affixes": [
+            {
+              "name": "revel",
+              "weight": 3
+            }
+          ],
           "required_tempers": []
         },
         "gloves": {
@@ -616,6 +711,10 @@
             },
             {
               "name": "unique_damage_to_vulnerable_higher",
+              "weight": 3
+            },
+            {
+              "name": "revel",
               "weight": 3
             }
           ],
@@ -643,6 +742,10 @@
             {
               "name": "toughened",
               "weight": 3
+            },
+            {
+              "name": "revel",
+              "weight": 3
             }
           ],
           "required_tempers": []
@@ -667,6 +770,10 @@
             {
               "name": "auric",
               "weight": 4
+            },
+            {
+              "name": "revel",
+              "weight": 3
             }
           ],
           "required_tempers": []
@@ -692,6 +799,10 @@
             },
             {
               "name": "unique_x1_passiverankbonus_spiritborn_talent_plains_2_mirage_higher",
+              "weight": 3
+            },
+            {
+              "name": "tenderize",
               "weight": 3
             },
             {
@@ -729,6 +840,10 @@
             {
               "name": "incinerating",
               "weight": 4
+            },
+            {
+              "name": "tenderize",
+              "weight": 3
             }
           ],
           "required_tempers": []

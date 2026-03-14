@@ -6,7 +6,7 @@
   "source_url": "https://maxroll.gg/d4/build-guides/auradin-guide",
   "tier": "S",
   "tags": [],
-  "last_updated": "2026-03-13",
+  "last_updated": "2026-03-14",
   "profile_order": [
     "starter",
     "ancestral",
@@ -38,6 +38,10 @@
             {
               "name": "auric",
               "weight": 4
+            },
+            {
+              "name": "anatomy",
+              "weight": 3
             }
           ],
           "required_tempers": []
@@ -64,12 +68,20 @@
               "weight": 4
             },
             {
+              "name": "anatomy",
+              "weight": 3
+            },
+            {
               "name": "sturdiness",
               "weight": 10
             },
             {
               "name": "swiftness",
               "weight": 8
+            },
+            {
+              "name": "seethe",
+              "weight": 3
             }
           ],
           "required_tempers": []
@@ -94,6 +106,10 @@
             {
               "name": "ferocity",
               "weight": 4
+            },
+            {
+              "name": "tenderize",
+              "weight": 3
             }
           ],
           "required_tempers": []
@@ -120,6 +136,10 @@
             {
               "name": "vigor",
               "weight": 3
+            },
+            {
+              "name": "keenness",
+              "weight": 3
             }
           ],
           "required_tempers": []
@@ -144,6 +164,10 @@
             {
               "name": "regeneration",
               "weight": 4
+            },
+            {
+              "name": "keenness",
+              "weight": 3
             }
           ],
           "required_tempers": []
@@ -168,6 +192,10 @@
             {
               "name": "infusing",
               "weight": 4
+            },
+            {
+              "name": "seethe",
+              "weight": 3
             }
           ],
           "required_tempers": []
@@ -192,6 +220,10 @@
             {
               "name": "the_adept",
               "weight": 4
+            },
+            {
+              "name": "tenderize",
+              "weight": 3
             }
           ],
           "required_tempers": []
@@ -231,6 +263,10 @@
             },
             {
               "name": "heartiness",
+              "weight": 3
+            },
+            {
+              "name": "tenderize",
               "weight": 3
             }
           ],
@@ -267,6 +303,10 @@
             {
               "name": "sanctity",
               "weight": 3
+            },
+            {
+              "name": "gluttony",
+              "weight": 3
             }
           ],
           "required_tempers": []
@@ -291,6 +331,10 @@
             {
               "name": "auras",
               "weight": 4
+            },
+            {
+              "name": "gluttony",
+              "weight": 3
             }
           ],
           "required_tempers": []
@@ -316,6 +360,10 @@
             },
             {
               "name": "speed",
+              "weight": 3
+            },
+            {
+              "name": "tenderize",
               "weight": 3
             }
           ],
@@ -343,6 +391,10 @@
             {
               "name": "vigor",
               "weight": 3
+            },
+            {
+              "name": "gluttony",
+              "weight": 3
             }
           ],
           "required_tempers": []
@@ -367,6 +419,10 @@
             {
               "name": "infusing",
               "weight": 4
+            },
+            {
+              "name": "gluttony",
+              "weight": 3
             }
           ],
           "required_tempers": []
@@ -391,6 +447,10 @@
             {
               "name": "infusing",
               "weight": 4
+            },
+            {
+              "name": "gluttony",
+              "weight": 3
             }
           ],
           "required_tempers": []
@@ -415,6 +475,10 @@
             {
               "name": "the_powerful",
               "weight": 4
+            },
+            {
+              "name": "tenderize",
+              "weight": 3
             },
             {
               "name": "the_adept",
@@ -459,6 +523,10 @@
             {
               "name": "righteousness",
               "weight": 3
+            },
+            {
+              "name": "tenderize",
+              "weight": 3
             }
           ],
           "required_tempers": []
@@ -474,7 +542,12 @@
             "Heir of Perdition"
           ],
           "priority_aspects": [],
-          "priority_affixes": [],
+          "priority_affixes": [
+            {
+              "name": "gluttony",
+              "weight": 3
+            }
+          ],
           "required_tempers": []
         },
         "chest": {
@@ -483,7 +556,12 @@
             "Shroud of False Death"
           ],
           "priority_aspects": [],
-          "priority_affixes": [],
+          "priority_affixes": [
+            {
+              "name": "gluttony",
+              "weight": 3
+            }
+          ],
           "required_tempers": []
         },
         "weapon": {
@@ -507,6 +585,10 @@
             },
             {
               "name": "speed",
+              "weight": 3
+            },
+            {
+              "name": "tenderize",
               "weight": 3
             }
           ],
@@ -534,6 +616,10 @@
             {
               "name": "vigor",
               "weight": 3
+            },
+            {
+              "name": "gluttony",
+              "weight": 3
             }
           ],
           "required_tempers": []
@@ -558,6 +644,10 @@
             {
               "name": "infusing",
               "weight": 4
+            },
+            {
+              "name": "gluttony",
+              "weight": 3
             }
           ],
           "required_tempers": []
@@ -582,6 +672,10 @@
             {
               "name": "infusing",
               "weight": 4
+            },
+            {
+              "name": "gluttony",
+              "weight": 3
             }
           ],
           "required_tempers": []
@@ -606,6 +700,10 @@
             {
               "name": "the_powerful",
               "weight": 4
+            },
+            {
+              "name": "tenderize",
+              "weight": 3
             },
             {
               "name": "vigor",
@@ -662,6 +760,10 @@
             {
               "name": "swiftness",
               "weight": 3
+            },
+            {
+              "name": "tenderize",
+              "weight": 3
             }
           ],
           "required_tempers": []
@@ -677,7 +779,12 @@
             "Heir of Perdition"
           ],
           "priority_aspects": [],
-          "priority_affixes": [],
+          "priority_affixes": [
+            {
+              "name": "gluttony",
+              "weight": 3
+            }
+          ],
           "required_tempers": []
         },
         "chest": {
@@ -686,7 +793,12 @@
             "Shroud of False Death"
           ],
           "priority_aspects": [],
-          "priority_affixes": [],
+          "priority_affixes": [
+            {
+              "name": "gluttony",
+              "weight": 3
+            }
+          ],
           "required_tempers": []
         },
         "weapon": {
@@ -710,6 +822,10 @@
             },
             {
               "name": "speed",
+              "weight": 3
+            },
+            {
+              "name": "tenderize",
               "weight": 3
             }
           ],
@@ -736,6 +852,10 @@
             },
             {
               "name": "vigor",
+              "weight": 3
+            },
+            {
+              "name": "gluttony",
               "weight": 3
             }
           ],
@@ -761,6 +881,10 @@
             {
               "name": "regeneration",
               "weight": 4
+            },
+            {
+              "name": "gluttony",
+              "weight": 3
             }
           ],
           "required_tempers": []
@@ -785,6 +909,10 @@
             {
               "name": "infusing",
               "weight": 4
+            },
+            {
+              "name": "gluttony",
+              "weight": 3
             }
           ],
           "required_tempers": []
@@ -809,6 +937,10 @@
             {
               "name": "the_powerful",
               "weight": 4
+            },
+            {
+              "name": "tenderize",
+              "weight": 3
             },
             {
               "name": "vigor",
@@ -865,6 +997,10 @@
             {
               "name": "swiftness",
               "weight": 3
+            },
+            {
+              "name": "tenderize",
+              "weight": 3
             }
           ],
           "required_tempers": []
@@ -880,7 +1016,12 @@
             "Heir of Perdition"
           ],
           "priority_aspects": [],
-          "priority_affixes": [],
+          "priority_affixes": [
+            {
+              "name": "gluttony",
+              "weight": 3
+            }
+          ],
           "required_tempers": []
         },
         "chest": {
@@ -890,6 +1031,10 @@
           ],
           "priority_aspects": [],
           "priority_affixes": [
+            {
+              "name": "gluttony",
+              "weight": 3
+            },
             {
               "name": "sturdiness",
               "weight": 10
@@ -931,6 +1076,10 @@
             {
               "name": "vigor",
               "weight": 3
+            },
+            {
+              "name": "tenderize",
+              "weight": 3
             }
           ],
           "required_tempers": []
@@ -957,6 +1106,10 @@
             {
               "name": "vigor",
               "weight": 3
+            },
+            {
+              "name": "gluttony",
+              "weight": 3
             }
           ],
           "required_tempers": []
@@ -981,6 +1134,10 @@
             {
               "name": "infusing",
               "weight": 4
+            },
+            {
+              "name": "gluttony",
+              "weight": 3
             }
           ],
           "required_tempers": []
@@ -1005,6 +1162,10 @@
             {
               "name": "infusing",
               "weight": 4
+            },
+            {
+              "name": "gluttony",
+              "weight": 3
             }
           ],
           "required_tempers": []
@@ -1029,6 +1190,10 @@
             {
               "name": "the_powerful",
               "weight": 4
+            },
+            {
+              "name": "tenderize",
+              "weight": 3
             },
             {
               "name": "vigor",
@@ -1084,6 +1249,10 @@
             },
             {
               "name": "swiftness",
+              "weight": 3
+            },
+            {
+              "name": "tenderize",
               "weight": 3
             }
           ],

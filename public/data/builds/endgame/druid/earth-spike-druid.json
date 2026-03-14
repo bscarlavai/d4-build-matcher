@@ -6,7 +6,7 @@
   "source_url": "https://maxroll.gg/d4/build-guides/earth-spike-druid-guide",
   "tier": "A",
   "tags": [],
-  "last_updated": "2026-03-13",
+  "last_updated": "2026-03-14",
   "profile_order": [
     "starter",
     "ancestral",
@@ -42,6 +42,10 @@
             {
               "name": "swiftness",
               "weight": 3
+            },
+            {
+              "name": "gluttony",
+              "weight": 3
             }
           ],
           "required_tempers": []
@@ -70,6 +74,10 @@
             {
               "name": "glorius",
               "weight": 3
+            },
+            {
+              "name": "gluttony",
+              "weight": 3
             }
           ],
           "required_tempers": []
@@ -97,6 +105,10 @@
             },
             {
               "name": "the_focused",
+              "weight": 3
+            },
+            {
+              "name": "tenderize",
               "weight": 3
             }
           ],
@@ -158,6 +170,10 @@
             {
               "name": "toughened",
               "weight": 3
+            },
+            {
+              "name": "keenness",
+              "weight": 3
             }
           ],
           "required_tempers": []
@@ -185,6 +201,10 @@
             },
             {
               "name": "auric",
+              "weight": 3
+            },
+            {
+              "name": "anatomy",
               "weight": 3
             }
           ],
@@ -281,6 +301,10 @@
             {
               "name": "unique_passiverankbonus_druid_04_defensiveposture",
               "weight": 4
+            },
+            {
+              "name": "gluttony",
+              "weight": 3
             }
           ],
           "required_tempers": []
@@ -309,6 +333,10 @@
               "weight": 3
             },
             {
+              "name": "gluttony",
+              "weight": 3
+            },
+            {
               "name": "resources",
               "weight": 10
             },
@@ -326,6 +354,10 @@
             },
             {
               "name": "swiftness",
+              "weight": 3
+            },
+            {
+              "name": "tenderize",
               "weight": 3
             }
           ],
@@ -359,6 +391,10 @@
             {
               "name": "toughened",
               "weight": 3
+            },
+            {
+              "name": "gluttony",
+              "weight": 3
             }
           ],
           "required_tempers": []
@@ -384,6 +420,10 @@
             },
             {
               "name": "resources",
+              "weight": 3
+            },
+            {
+              "name": "gluttony",
               "weight": 3
             }
           ],
@@ -412,6 +452,10 @@
             },
             {
               "name": "auric",
+              "weight": 3
+            },
+            {
+              "name": "keenness",
               "weight": 3
             }
           ],
@@ -512,6 +556,10 @@
             {
               "name": "unique_passiverankbonus_druid_04_defensiveposture",
               "weight": 4
+            },
+            {
+              "name": "gluttony",
+              "weight": 3
             }
           ],
           "required_tempers": []
@@ -523,6 +571,10 @@
           ],
           "priority_aspects": [],
           "priority_affixes": [
+            {
+              "name": "gluttony",
+              "weight": 3
+            },
             {
               "name": "resources",
               "weight": 10
@@ -545,6 +597,10 @@
             },
             {
               "name": "swiftness",
+              "weight": 3
+            },
+            {
+              "name": "tenderize",
               "weight": 3
             }
           ],
@@ -578,6 +634,10 @@
             {
               "name": "toughened",
               "weight": 3
+            },
+            {
+              "name": "gluttony",
+              "weight": 3
             }
           ],
           "required_tempers": []
@@ -603,6 +663,10 @@
             },
             {
               "name": "resources",
+              "weight": 3
+            },
+            {
+              "name": "gluttony",
               "weight": 3
             }
           ],
@@ -631,6 +695,10 @@
             },
             {
               "name": "auric",
+              "weight": 3
+            },
+            {
+              "name": "keenness",
               "weight": 3
             }
           ],
@@ -731,6 +799,10 @@
             {
               "name": "unique_passiverankbonus_druid_04_defensiveposture",
               "weight": 4
+            },
+            {
+              "name": "gluttony",
+              "weight": 3
             }
           ],
           "required_tempers": []
@@ -742,6 +814,10 @@
           ],
           "priority_aspects": [],
           "priority_affixes": [
+            {
+              "name": "gluttony",
+              "weight": 3
+            },
             {
               "name": "resources",
               "weight": 10
@@ -764,6 +840,10 @@
             },
             {
               "name": "swiftness",
+              "weight": 3
+            },
+            {
+              "name": "tenderize",
               "weight": 3
             }
           ],
@@ -797,6 +877,10 @@
             {
               "name": "toughened",
               "weight": 3
+            },
+            {
+              "name": "gluttony",
+              "weight": 3
             }
           ],
           "required_tempers": []
@@ -822,6 +906,10 @@
             },
             {
               "name": "resources",
+              "weight": 3
+            },
+            {
+              "name": "gluttony",
               "weight": 3
             }
           ],
@@ -850,6 +938,10 @@
             },
             {
               "name": "auric",
+              "weight": 3
+            },
+            {
+              "name": "keenness",
               "weight": 3
             }
           ],
@@ -950,6 +1042,10 @@
             {
               "name": "unique_passiverankbonus_druid_04_defensiveposture",
               "weight": 4
+            },
+            {
+              "name": "gluttony",
+              "weight": 3
             }
           ],
           "required_tempers": []
@@ -961,6 +1057,10 @@
           ],
           "priority_aspects": [],
           "priority_affixes": [
+            {
+              "name": "gluttony",
+              "weight": 3
+            },
             {
               "name": "resources",
               "weight": 10
@@ -983,6 +1083,10 @@
             },
             {
               "name": "swiftness",
+              "weight": 3
+            },
+            {
+              "name": "tenderize",
               "weight": 3
             }
           ],
@@ -1016,6 +1120,10 @@
             {
               "name": "toughened",
               "weight": 3
+            },
+            {
+              "name": "gluttony",
+              "weight": 3
             }
           ],
           "required_tempers": []
@@ -1044,6 +1152,10 @@
             {
               "name": "auric",
               "weight": 3
+            },
+            {
+              "name": "gluttony",
+              "weight": 3
             }
           ],
           "required_tempers": []
@@ -1071,6 +1183,10 @@
             },
             {
               "name": "auric",
+              "weight": 3
+            },
+            {
+              "name": "keenness",
               "weight": 3
             }
           ],

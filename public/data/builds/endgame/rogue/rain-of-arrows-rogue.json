@@ -6,7 +6,7 @@
   "source_url": "https://maxroll.gg/d4/build-guides/rain-of-arrows-rogue-guide",
   "tier": "A",
   "tags": [],
-  "last_updated": "2026-03-13",
+  "last_updated": "2026-03-14",
   "profile_order": [
     "starter",
     "ancestral",
@@ -37,6 +37,10 @@
             {
               "name": "swiftness",
               "weight": 4
+            },
+            {
+              "name": "seethe",
+              "weight": 3
             }
           ],
           "required_tempers": []
@@ -61,6 +65,10 @@
             {
               "name": "toughened",
               "weight": 4
+            },
+            {
+              "name": "anatomy",
+              "weight": 3
             }
           ],
           "required_tempers": []
@@ -85,6 +93,10 @@
             {
               "name": "ferocity",
               "weight": 4
+            },
+            {
+              "name": "tenderize",
+              "weight": 3
             },
             {
               "name": "perpetuity",
@@ -113,6 +125,10 @@
             {
               "name": "perpetuity",
               "weight": 4
+            },
+            {
+              "name": "tenderize",
+              "weight": 3
             }
           ],
           "required_tempers": []
@@ -161,6 +177,10 @@
             {
               "name": "toughened",
               "weight": 4
+            },
+            {
+              "name": "clamber",
+              "weight": 3
             }
           ],
           "required_tempers": []
@@ -187,6 +207,10 @@
             {
               "name": "speed",
               "weight": 3
+            },
+            {
+              "name": "clamber",
+              "weight": 3
             }
           ],
           "required_tempers": []
@@ -211,6 +235,10 @@
             {
               "name": "vigor",
               "weight": 4
+            },
+            {
+              "name": "tenderize",
+              "weight": 3
             }
           ],
           "required_tempers": []
@@ -236,6 +264,10 @@
             },
             {
               "name": "unique_skillrankbonus_rogue_category_imbuements_higher",
+              "weight": 3
+            },
+            {
+              "name": "tenderize",
               "weight": 3
             }
           ],
@@ -272,6 +304,10 @@
             {
               "name": "sanctity",
               "weight": 3
+            },
+            {
+              "name": "keenness",
+              "weight": 3
             }
           ],
           "required_tempers": []
@@ -296,6 +332,10 @@
             {
               "name": "resources",
               "weight": 4
+            },
+            {
+              "name": "gluttony",
+              "weight": 3
             }
           ],
           "required_tempers": []
@@ -320,6 +360,10 @@
             {
               "name": "ferocity",
               "weight": 4
+            },
+            {
+              "name": "tenderize",
+              "weight": 3
             }
           ],
           "required_tempers": []
@@ -344,6 +388,10 @@
             {
               "name": "ferocity",
               "weight": 4
+            },
+            {
+              "name": "tenderize",
+              "weight": 3
             }
           ],
           "required_tempers": []
@@ -368,6 +416,10 @@
             {
               "name": "vigor",
               "weight": 4
+            },
+            {
+              "name": "clamber",
+              "weight": 3
             }
           ],
           "required_tempers": []
@@ -392,6 +444,10 @@
             {
               "name": "auric",
               "weight": 4
+            },
+            {
+              "name": "seethe",
+              "weight": 3
             }
           ],
           "required_tempers": []
@@ -418,6 +474,10 @@
             {
               "name": "speed",
               "weight": 3
+            },
+            {
+              "name": "clamber",
+              "weight": 3
             }
           ],
           "required_tempers": []
@@ -442,6 +502,10 @@
             {
               "name": "keenness",
               "weight": 4
+            },
+            {
+              "name": "tenderize",
+              "weight": 3
             },
             {
               "name": "the_focused",
@@ -471,6 +535,10 @@
             },
             {
               "name": "unique_skillrankbonus_rogue_category_imbuements_higher",
+              "weight": 3
+            },
+            {
+              "name": "tenderize",
               "weight": 3
             }
           ],
@@ -507,6 +575,10 @@
             {
               "name": "sanctity",
               "weight": 3
+            },
+            {
+              "name": "keenness",
+              "weight": 3
             }
           ],
           "required_tempers": []
@@ -517,7 +589,12 @@
             "Shroud of False Death"
           ],
           "priority_aspects": [],
-          "priority_affixes": [],
+          "priority_affixes": [
+            {
+              "name": "gluttony",
+              "weight": 3
+            }
+          ],
           "required_tempers": []
         },
         "offhand": {
@@ -540,6 +617,10 @@
             {
               "name": "ferocity",
               "weight": 4
+            },
+            {
+              "name": "tenderize",
+              "weight": 3
             }
           ],
           "required_tempers": []
@@ -564,6 +645,10 @@
             {
               "name": "ferocity",
               "weight": 4
+            },
+            {
+              "name": "tenderize",
+              "weight": 3
             }
           ],
           "required_tempers": []
@@ -612,6 +697,10 @@
             {
               "name": "auric",
               "weight": 4
+            },
+            {
+              "name": "seethe",
+              "weight": 3
             }
           ],
           "required_tempers": []
@@ -637,6 +726,10 @@
             },
             {
               "name": "speed",
+              "weight": 3
+            },
+            {
+              "name": "clamber",
               "weight": 3
             }
           ],
@@ -664,6 +757,10 @@
             {
               "name": "keenness",
               "weight": 4
+            },
+            {
+              "name": "tenderize",
+              "weight": 3
             }
           ],
           "required_tempers": []
@@ -689,6 +786,10 @@
             },
             {
               "name": "unique_skillrankbonus_rogue_category_imbuements_higher",
+              "weight": 3
+            },
+            {
+              "name": "tenderize",
               "weight": 3
             }
           ],
@@ -725,6 +826,10 @@
             {
               "name": "sanctity",
               "weight": 3
+            },
+            {
+              "name": "keenness",
+              "weight": 3
             }
           ],
           "required_tempers": []
@@ -735,7 +840,12 @@
             "Shroud of False Death"
           ],
           "priority_aspects": [],
-          "priority_affixes": [],
+          "priority_affixes": [
+            {
+              "name": "gluttony",
+              "weight": 3
+            }
+          ],
           "required_tempers": []
         },
         "offhand": {
@@ -759,6 +869,10 @@
             },
             {
               "name": "keenness",
+              "weight": 3
+            },
+            {
+              "name": "tenderize",
               "weight": 3
             },
             {
@@ -806,6 +920,10 @@
             {
               "name": "resources",
               "weight": 3
+            },
+            {
+              "name": "tenderize",
+              "weight": 3
             }
           ],
           "required_tempers": []
@@ -854,6 +972,10 @@
             {
               "name": "auric",
               "weight": 4
+            },
+            {
+              "name": "seethe",
+              "weight": 3
             }
           ],
           "required_tempers": []
@@ -879,6 +1001,10 @@
             },
             {
               "name": "unique_resistance_single_cold_higher",
+              "weight": 3
+            },
+            {
+              "name": "clamber",
               "weight": 3
             }
           ],
@@ -906,6 +1032,10 @@
             {
               "name": "the_focused",
               "weight": 4
+            },
+            {
+              "name": "tenderize",
+              "weight": 3
             }
           ],
           "required_tempers": []
@@ -931,6 +1061,10 @@
             },
             {
               "name": "unique_skillrankbonus_rogue_category_imbuements_higher",
+              "weight": 3
+            },
+            {
+              "name": "tenderize",
               "weight": 3
             }
           ],

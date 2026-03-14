@@ -6,7 +6,7 @@
   "source_url": "https://maxroll.gg/d4/build-guides/blizzard-sorcerer-guide",
   "tier": "A",
   "tags": [],
-  "last_updated": "2026-03-13",
+  "last_updated": "2026-03-14",
   "profile_order": [
     "starter",
     "ancestral",
@@ -44,6 +44,10 @@
             {
               "name": "auric",
               "weight": 3
+            },
+            {
+              "name": "carnivore",
+              "weight": 3
             }
           ],
           "required_tempers": []
@@ -75,6 +79,10 @@
             },
             {
               "name": "auric",
+              "weight": 3
+            },
+            {
+              "name": "clamber",
               "weight": 3
             }
           ],
@@ -144,6 +152,10 @@
             {
               "name": "evasion",
               "weight": 3
+            },
+            {
+              "name": "anatomy",
+              "weight": 3
             }
           ],
           "required_tempers": []
@@ -171,6 +183,10 @@
             },
             {
               "name": "toughened",
+              "weight": 3
+            },
+            {
+              "name": "revel",
               "weight": 3
             }
           ],
@@ -214,6 +230,10 @@
               "weight": 3
             },
             {
+              "name": "tenderize",
+              "weight": 3
+            },
+            {
               "name": "triumph",
               "weight": 3
             }
@@ -243,6 +263,10 @@
             },
             {
               "name": "the_flameborne",
+              "weight": 3
+            },
+            {
+              "name": "tenderize",
               "weight": 3
             }
           ],
@@ -281,6 +305,10 @@
             {
               "name": "auric",
               "weight": 3
+            },
+            {
+              "name": "keenness",
+              "weight": 3
             }
           ],
           "required_tempers": []
@@ -309,6 +337,10 @@
               "weight": 4
             },
             {
+              "name": "keenness",
+              "weight": 3
+            },
+            {
               "name": "carnage",
               "weight": 10
             },
@@ -330,6 +362,10 @@
             },
             {
               "name": "swiftness",
+              "weight": 3
+            },
+            {
+              "name": "tenderize",
               "weight": 3
             }
           ],
@@ -356,6 +392,10 @@
             },
             {
               "name": "vigor",
+              "weight": 3
+            },
+            {
+              "name": "tenderize",
               "weight": 3
             }
           ],
@@ -423,6 +463,10 @@
             {
               "name": "unique_generic_luckyhit_heallife",
               "weight": 3
+            },
+            {
+              "name": "revel",
+              "weight": 3
             }
           ],
           "required_tempers": []
@@ -448,6 +492,10 @@
             },
             {
               "name": "unique_movementspeed_generic_afterelitekill",
+              "weight": 3
+            },
+            {
+              "name": "seethe",
               "weight": 3
             }
           ],
@@ -490,6 +538,10 @@
             },
             {
               "name": "carnage",
+              "weight": 3
+            },
+            {
+              "name": "tenderize",
               "weight": 3
             },
             {
@@ -559,6 +611,10 @@
             {
               "name": "vigor",
               "weight": 3
+            },
+            {
+              "name": "tenderize",
+              "weight": 3
             }
           ],
           "required_tempers": []
@@ -574,7 +630,12 @@
             "Heir of Perdition"
           ],
           "priority_aspects": [],
-          "priority_affixes": [],
+          "priority_affixes": [
+            {
+              "name": "keenness",
+              "weight": 3
+            }
+          ],
           "required_tempers": []
         },
         "chest": {
@@ -584,6 +645,10 @@
           ],
           "priority_aspects": [],
           "priority_affixes": [
+            {
+              "name": "keenness",
+              "weight": 3
+            },
             {
               "name": "carnage",
               "weight": 10
@@ -606,6 +671,10 @@
             },
             {
               "name": "swiftness",
+              "weight": 3
+            },
+            {
+              "name": "tenderize",
               "weight": 3
             }
           ],
@@ -632,6 +701,10 @@
             },
             {
               "name": "vigor",
+              "weight": 3
+            },
+            {
+              "name": "tenderize",
               "weight": 3
             }
           ],
@@ -732,6 +805,10 @@
           "priority_aspects": [],
           "priority_affixes": [
             {
+              "name": "tenderize",
+              "weight": 3
+            },
+            {
               "name": "unique_sorc_special_icespikes_explodetwice",
               "weight": 10
             },
@@ -797,6 +874,10 @@
             },
             {
               "name": "the_adept",
+              "weight": 3
+            },
+            {
+              "name": "tenderize",
               "weight": 3
             }
           ],

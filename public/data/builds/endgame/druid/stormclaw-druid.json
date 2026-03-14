@@ -6,7 +6,7 @@
   "source_url": "https://maxroll.gg/d4/build-guides/stormclaw-druid-guide",
   "tier": "C",
   "tags": [],
-  "last_updated": "2026-03-13",
+  "last_updated": "2026-03-14",
   "profile_order": [
     "ancestral",
     "mythic",
@@ -38,6 +38,10 @@
             {
               "name": "impulses",
               "weight": 4
+            },
+            {
+              "name": "anatomy",
+              "weight": 3
             }
           ],
           "required_tempers": []
@@ -63,6 +67,10 @@
             },
             {
               "name": "unique_passiverankbonus_druid_shapeshifting_t2_n2_digitigradegait",
+              "weight": 3
+            },
+            {
+              "name": "anatomy",
               "weight": 3
             }
           ],
@@ -90,6 +98,10 @@
             {
               "name": "unique_generic_luckyhit_stun",
               "weight": 3
+            },
+            {
+              "name": "gluttony",
+              "weight": 3
             }
           ],
           "required_tempers": []
@@ -115,6 +127,10 @@
             },
             {
               "name": "harmony",
+              "weight": 3
+            },
+            {
+              "name": "gluttony",
               "weight": 3
             }
           ],
@@ -143,6 +159,10 @@
             },
             {
               "name": "auric",
+              "weight": 3
+            },
+            {
+              "name": "gluttony",
               "weight": 3
             }
           ],
@@ -243,6 +263,10 @@
             {
               "name": "impulses",
               "weight": 4
+            },
+            {
+              "name": "anatomy",
+              "weight": 3
             }
           ],
           "required_tempers": []
@@ -268,6 +292,10 @@
             },
             {
               "name": "unique_passiverankbonus_druid_shapeshifting_t2_n2_digitigradegait",
+              "weight": 3
+            },
+            {
+              "name": "anatomy",
               "weight": 3
             }
           ],
@@ -295,6 +323,10 @@
             {
               "name": "unique_generic_luckyhit_stun",
               "weight": 3
+            },
+            {
+              "name": "gluttony",
+              "weight": 3
             }
           ],
           "required_tempers": []
@@ -320,6 +352,10 @@
             },
             {
               "name": "harmony",
+              "weight": 3
+            },
+            {
+              "name": "gluttony",
               "weight": 3
             }
           ],
@@ -348,6 +384,10 @@
             },
             {
               "name": "auric",
+              "weight": 3
+            },
+            {
+              "name": "gluttony",
               "weight": 3
             }
           ],
@@ -448,6 +488,10 @@
             {
               "name": "impulses",
               "weight": 4
+            },
+            {
+              "name": "anatomy",
+              "weight": 3
             }
           ],
           "required_tempers": []
@@ -458,7 +502,12 @@
             "Shroud of False Death"
           ],
           "priority_aspects": [],
-          "priority_affixes": [],
+          "priority_affixes": [
+            {
+              "name": "anatomy",
+              "weight": 3
+            }
+          ],
           "required_tempers": []
         },
         "gloves": {
@@ -482,6 +531,10 @@
             },
             {
               "name": "unique_generic_luckyhit_stun",
+              "weight": 3
+            },
+            {
+              "name": "gluttony",
               "weight": 3
             }
           ],
@@ -508,6 +561,10 @@
             },
             {
               "name": "harmony",
+              "weight": 3
+            },
+            {
+              "name": "gluttony",
               "weight": 3
             }
           ],
@@ -536,6 +593,10 @@
             },
             {
               "name": "auric",
+              "weight": 3
+            },
+            {
+              "name": "gluttony",
               "weight": 3
             }
           ],

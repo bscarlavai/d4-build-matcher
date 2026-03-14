@@ -6,7 +6,7 @@
   "source_url": "https://maxroll.gg/d4/build-guides/ice-shards-sorcerer-guide",
   "tier": "C",
   "tags": [],
-  "last_updated": "2026-03-13",
+  "last_updated": "2026-03-14",
   "profile_order": [
     "starter",
     "ancestral",
@@ -40,6 +40,10 @@
             {
               "name": "auric",
               "weight": 3
+            },
+            {
+              "name": "carnivore",
+              "weight": 3
             }
           ],
           "required_tempers": []
@@ -71,6 +75,10 @@
             },
             {
               "name": "auric",
+              "weight": 3
+            },
+            {
+              "name": "anatomy",
               "weight": 3
             }
           ],
@@ -148,6 +156,10 @@
             {
               "name": "regeneration",
               "weight": 3
+            },
+            {
+              "name": "seethe",
+              "weight": 3
             }
           ],
           "required_tempers": []
@@ -183,6 +195,10 @@
             },
             {
               "name": "regeneration",
+              "weight": 3
+            },
+            {
+              "name": "clamber",
               "weight": 3
             }
           ],
@@ -224,6 +240,10 @@
             {
               "name": "vigor",
               "weight": 3
+            },
+            {
+              "name": "tenderize",
+              "weight": 3
             }
           ],
           "required_tempers": []
@@ -264,6 +284,10 @@
             {
               "name": "vigor",
               "weight": 3
+            },
+            {
+              "name": "tenderize",
+              "weight": 3
             }
           ],
           "required_tempers": []
@@ -294,6 +318,10 @@
             },
             {
               "name": "swiftness",
+              "weight": 3
+            },
+            {
+              "name": "keenness",
               "weight": 3
             }
           ],
@@ -345,6 +373,10 @@
             {
               "name": "ferocity",
               "weight": 3
+            },
+            {
+              "name": "tenderize",
+              "weight": 3
             }
           ],
           "required_tempers": []
@@ -370,6 +402,10 @@
             },
             {
               "name": "vigor",
+              "weight": 3
+            },
+            {
+              "name": "tenderize",
               "weight": 3
             }
           ],
@@ -505,6 +541,10 @@
               "weight": 3
             },
             {
+              "name": "tenderize",
+              "weight": 3
+            },
+            {
               "name": "cruelty",
               "weight": 3
             }
@@ -559,6 +599,10 @@
             {
               "name": "vigor",
               "weight": 3
+            },
+            {
+              "name": "tenderize",
+              "weight": 3
             }
           ],
           "required_tempers": []
@@ -589,6 +633,10 @@
             },
             {
               "name": "swiftness",
+              "weight": 3
+            },
+            {
+              "name": "keenness",
               "weight": 3
             }
           ],
@@ -624,6 +672,10 @@
             {
               "name": "ferocity",
               "weight": 3
+            },
+            {
+              "name": "tenderize",
+              "weight": 3
             }
           ],
           "required_tempers": []
@@ -649,6 +701,10 @@
             },
             {
               "name": "vigor",
+              "weight": 3
+            },
+            {
+              "name": "tenderize",
               "weight": 3
             }
           ],
@@ -784,6 +840,10 @@
             {
               "name": "carnage",
               "weight": 3
+            },
+            {
+              "name": "tenderize",
+              "weight": 3
             }
           ],
           "required_tempers": []
@@ -835,6 +895,10 @@
             },
             {
               "name": "vigor",
+              "weight": 3
+            },
+            {
+              "name": "tenderize",
               "weight": 3
             }
           ],

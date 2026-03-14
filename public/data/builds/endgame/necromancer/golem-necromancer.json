@@ -6,7 +6,7 @@
   "source_url": "https://maxroll.gg/d4/build-guides/golem-necromancer-guide",
   "tier": "A",
   "tags": [],
-  "last_updated": "2026-03-13",
+  "last_updated": "2026-03-14",
   "profile_order": [
     "starter",
     "ancestral",
@@ -38,6 +38,10 @@
             {
               "name": "toughened",
               "weight": 4
+            },
+            {
+              "name": "keenness",
+              "weight": 3
             }
           ],
           "required_tempers": []
@@ -64,12 +68,20 @@
               "weight": 4
             },
             {
+              "name": "keenness",
+              "weight": 3
+            },
+            {
               "name": "the_adept",
               "weight": 8
             },
             {
               "name": "swiftness",
               "weight": 6
+            },
+            {
+              "name": "tenderize",
+              "weight": 3
             }
           ],
           "required_tempers": []
@@ -94,6 +106,10 @@
             {
               "name": "perpetuity",
               "weight": 4
+            },
+            {
+              "name": "tenderize",
+              "weight": 3
             }
           ],
           "required_tempers": []
@@ -142,6 +158,10 @@
             {
               "name": "auric",
               "weight": 4
+            },
+            {
+              "name": "seethe",
+              "weight": 3
             }
           ],
           "required_tempers": []
@@ -166,6 +186,10 @@
             {
               "name": "toughened",
               "weight": 4
+            },
+            {
+              "name": "seethe",
+              "weight": 3
             }
           ],
           "required_tempers": []
@@ -190,6 +214,10 @@
             {
               "name": "the_wise",
               "weight": 4
+            },
+            {
+              "name": "tenderize",
+              "weight": 3
             },
             {
               "name": "vigor",
@@ -218,6 +246,10 @@
             {
               "name": "keenness",
               "weight": 4
+            },
+            {
+              "name": "tenderize",
+              "weight": 3
             }
           ],
           "required_tempers": []
@@ -249,6 +281,10 @@
             {
               "name": "harmony",
               "weight": 4
+            },
+            {
+              "name": "gluttony",
+              "weight": 3
             }
           ],
           "required_tempers": []
@@ -273,6 +309,10 @@
             {
               "name": "toughened",
               "weight": 4
+            },
+            {
+              "name": "gluttony",
+              "weight": 3
             },
             {
               "name": "perpetuity",
@@ -307,6 +347,10 @@
             {
               "name": "unique_corestat_intelligence_higher",
               "weight": 4
+            },
+            {
+              "name": "tenderize",
+              "weight": 3
             }
           ],
           "required_tempers": []
@@ -331,6 +375,10 @@
             {
               "name": "the_focused",
               "weight": 4
+            },
+            {
+              "name": "gluttony",
+              "weight": 3
             }
           ],
           "required_tempers": []
@@ -357,6 +405,10 @@
             {
               "name": "unique_skillrankbonus_necro_category_curse_higher",
               "weight": 4
+            },
+            {
+              "name": "gluttony",
+              "weight": 3
             }
           ],
           "required_tempers": []
@@ -381,6 +433,10 @@
             {
               "name": "toughened",
               "weight": 4
+            },
+            {
+              "name": "gluttony",
+              "weight": 3
             }
           ],
           "required_tempers": []
@@ -405,6 +461,10 @@
             {
               "name": "riving",
               "weight": 4
+            },
+            {
+              "name": "tenderize",
+              "weight": 3
             },
             {
               "name": "vigor",
@@ -433,6 +493,10 @@
             {
               "name": "the_wise",
               "weight": 4
+            },
+            {
+              "name": "tenderize",
+              "weight": 3
             }
           ],
           "required_tempers": []
@@ -448,7 +512,12 @@
             "Heir of Perdition"
           ],
           "priority_aspects": [],
-          "priority_affixes": [],
+          "priority_affixes": [
+            {
+              "name": "gluttony",
+              "weight": 3
+            }
+          ],
           "required_tempers": []
         },
         "chest": {
@@ -458,6 +527,10 @@
           ],
           "priority_aspects": [],
           "priority_affixes": [
+            {
+              "name": "gluttony",
+              "weight": 3
+            },
             {
               "name": "perpetuity",
               "weight": 10
@@ -473,6 +546,10 @@
             {
               "name": "swiftness",
               "weight": 4
+            },
+            {
+              "name": "tenderize",
+              "weight": 3
             }
           ],
           "required_tempers": []
@@ -499,6 +576,10 @@
             {
               "name": "unique_corestat_intelligence_higher",
               "weight": 4
+            },
+            {
+              "name": "tenderize",
+              "weight": 3
             }
           ],
           "required_tempers": []
@@ -523,6 +604,10 @@
             {
               "name": "the_focused",
               "weight": 4
+            },
+            {
+              "name": "gluttony",
+              "weight": 3
             }
           ],
           "required_tempers": []
@@ -549,6 +634,10 @@
             {
               "name": "unique_skillrankbonus_necro_category_curse_higher",
               "weight": 4
+            },
+            {
+              "name": "gluttony",
+              "weight": 3
             }
           ],
           "required_tempers": []
@@ -573,6 +662,10 @@
             {
               "name": "toughened",
               "weight": 4
+            },
+            {
+              "name": "gluttony",
+              "weight": 3
             }
           ],
           "required_tempers": []
@@ -597,6 +690,10 @@
             {
               "name": "vigor",
               "weight": 4
+            },
+            {
+              "name": "tenderize",
+              "weight": 3
             },
             {
               "name": "riving",
@@ -625,6 +722,10 @@
             {
               "name": "the_wise",
               "weight": 4
+            },
+            {
+              "name": "tenderize",
+              "weight": 3
             }
           ],
           "required_tempers": []
@@ -660,6 +761,10 @@
             {
               "name": "sanctity",
               "weight": 3
+            },
+            {
+              "name": "gluttony",
+              "weight": 3
             }
           ],
           "required_tempers": []
@@ -671,6 +776,10 @@
           ],
           "priority_aspects": [],
           "priority_affixes": [
+            {
+              "name": "gluttony",
+              "weight": 3
+            },
             {
               "name": "perpetuity",
               "weight": 10
@@ -686,6 +795,10 @@
             {
               "name": "the_adept",
               "weight": 4
+            },
+            {
+              "name": "tenderize",
+              "weight": 3
             }
           ],
           "required_tempers": []
@@ -712,6 +825,10 @@
             {
               "name": "unique_corestat_intelligence_higher",
               "weight": 4
+            },
+            {
+              "name": "tenderize",
+              "weight": 3
             }
           ],
           "required_tempers": []
@@ -736,6 +853,10 @@
             {
               "name": "the_focused",
               "weight": 4
+            },
+            {
+              "name": "gluttony",
+              "weight": 3
             }
           ],
           "required_tempers": []
@@ -762,6 +883,10 @@
             {
               "name": "unique_skillrankbonus_necro_category_curse_higher",
               "weight": 4
+            },
+            {
+              "name": "gluttony",
+              "weight": 3
             }
           ],
           "required_tempers": []
@@ -786,6 +911,10 @@
             {
               "name": "toughened",
               "weight": 4
+            },
+            {
+              "name": "gluttony",
+              "weight": 3
             }
           ],
           "required_tempers": []
@@ -810,6 +939,10 @@
             {
               "name": "vigor",
               "weight": 4
+            },
+            {
+              "name": "tenderize",
+              "weight": 3
             },
             {
               "name": "the_wise",
@@ -842,6 +975,10 @@
             {
               "name": "the_adept",
               "weight": 4
+            },
+            {
+              "name": "tenderize",
+              "weight": 3
             }
           ],
           "required_tempers": []
@@ -857,7 +994,12 @@
             "Heir of Perdition"
           ],
           "priority_aspects": [],
-          "priority_affixes": [],
+          "priority_affixes": [
+            {
+              "name": "gluttony",
+              "weight": 3
+            }
+          ],
           "required_tempers": []
         },
         "chest": {
@@ -867,6 +1009,10 @@
           ],
           "priority_aspects": [],
           "priority_affixes": [
+            {
+              "name": "gluttony",
+              "weight": 3
+            },
             {
               "name": "perpetuity",
               "weight": 10
@@ -882,6 +1028,10 @@
             {
               "name": "swiftness",
               "weight": 4
+            },
+            {
+              "name": "tenderize",
+              "weight": 3
             }
           ],
           "required_tempers": []
@@ -908,6 +1058,10 @@
             {
               "name": "unique_corestat_intelligence_higher",
               "weight": 4
+            },
+            {
+              "name": "tenderize",
+              "weight": 3
             }
           ],
           "required_tempers": []
@@ -932,6 +1086,10 @@
             {
               "name": "the_focused",
               "weight": 4
+            },
+            {
+              "name": "gluttony",
+              "weight": 3
             }
           ],
           "required_tempers": []
@@ -958,6 +1116,10 @@
             {
               "name": "unique_skillrankbonus_necro_category_curse_higher",
               "weight": 4
+            },
+            {
+              "name": "gluttony",
+              "weight": 3
             }
           ],
           "required_tempers": []
@@ -982,6 +1144,10 @@
             {
               "name": "toughened",
               "weight": 4
+            },
+            {
+              "name": "gluttony",
+              "weight": 3
             }
           ],
           "required_tempers": []
@@ -1006,6 +1172,10 @@
             {
               "name": "vigor",
               "weight": 4
+            },
+            {
+              "name": "tenderize",
+              "weight": 3
             },
             {
               "name": "riving",
@@ -1034,6 +1204,10 @@
             {
               "name": "the_wise",
               "weight": 4
+            },
+            {
+              "name": "tenderize",
+              "weight": 3
             }
           ],
           "required_tempers": []

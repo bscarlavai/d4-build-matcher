@@ -6,7 +6,7 @@
   "source_url": "https://maxroll.gg/d4/build-guides/shred-druid-guide",
   "tier": "B",
   "tags": [],
-  "last_updated": "2026-03-13",
+  "last_updated": "2026-03-14",
   "profile_order": [
     "starter",
     "ancestral",
@@ -46,6 +46,10 @@
             {
               "name": "swiftness",
               "weight": 3
+            },
+            {
+              "name": "gluttony",
+              "weight": 3
             }
           ],
           "required_tempers": []
@@ -73,6 +77,10 @@
             },
             {
               "name": "auric",
+              "weight": 3
+            },
+            {
+              "name": "keenness",
               "weight": 3
             }
           ],
@@ -134,6 +142,10 @@
             {
               "name": "evasion",
               "weight": 3
+            },
+            {
+              "name": "anatomy",
+              "weight": 3
             }
           ],
           "required_tempers": []
@@ -165,6 +177,10 @@
             },
             {
               "name": "auric",
+              "weight": 3
+            },
+            {
+              "name": "anatomy",
               "weight": 3
             }
           ],
@@ -263,6 +279,10 @@
             {
               "name": "auric",
               "weight": 3
+            },
+            {
+              "name": "gluttony",
+              "weight": 3
             }
           ],
           "required_tempers": []
@@ -291,6 +311,10 @@
               "weight": 3
             },
             {
+              "name": "gluttony",
+              "weight": 3
+            },
+            {
               "name": "determination",
               "weight": 10
             },
@@ -308,6 +332,10 @@
             },
             {
               "name": "riving",
+              "weight": 3
+            },
+            {
+              "name": "tenderize",
               "weight": 3
             }
           ],
@@ -334,6 +362,10 @@
             },
             {
               "name": "unique_druid_special_bloodhowl_stealth",
+              "weight": 3
+            },
+            {
+              "name": "tenderize",
               "weight": 3
             }
           ],
@@ -371,6 +403,10 @@
             {
               "name": "auric",
               "weight": 3
+            },
+            {
+              "name": "gluttony",
+              "weight": 3
             }
           ],
           "required_tempers": []
@@ -396,6 +432,10 @@
             },
             {
               "name": "resources",
+              "weight": 3
+            },
+            {
+              "name": "gluttony",
               "weight": 3
             }
           ],
@@ -424,6 +464,10 @@
             },
             {
               "name": "auric",
+              "weight": 3
+            },
+            {
+              "name": "keenness",
               "weight": 3
             }
           ],
@@ -508,7 +552,12 @@
             "Heir of Perdition"
           ],
           "priority_aspects": [],
-          "priority_affixes": [],
+          "priority_affixes": [
+            {
+              "name": "gluttony",
+              "weight": 3
+            }
+          ],
           "required_tempers": []
         },
         "chest": {
@@ -535,6 +584,10 @@
               "weight": 3
             },
             {
+              "name": "gluttony",
+              "weight": 3
+            },
+            {
               "name": "determination",
               "weight": 10
             },
@@ -552,6 +605,10 @@
             },
             {
               "name": "riving",
+              "weight": 3
+            },
+            {
+              "name": "tenderize",
               "weight": 3
             }
           ],
@@ -578,6 +635,10 @@
             },
             {
               "name": "unique_druid_special_bloodhowl_stealth",
+              "weight": 3
+            },
+            {
+              "name": "tenderize",
               "weight": 3
             }
           ],
@@ -611,6 +672,10 @@
             {
               "name": "auric",
               "weight": 3
+            },
+            {
+              "name": "gluttony",
+              "weight": 3
             }
           ],
           "required_tempers": []
@@ -639,6 +704,10 @@
             {
               "name": "evasion",
               "weight": 3
+            },
+            {
+              "name": "gluttony",
+              "weight": 3
             }
           ],
           "required_tempers": []
@@ -666,6 +735,10 @@
             },
             {
               "name": "auric",
+              "weight": 3
+            },
+            {
+              "name": "keenness",
               "weight": 3
             }
           ],
@@ -756,7 +829,12 @@
             "Heir of Perdition"
           ],
           "priority_aspects": [],
-          "priority_affixes": [],
+          "priority_affixes": [
+            {
+              "name": "gluttony",
+              "weight": 3
+            }
+          ],
           "required_tempers": []
         },
         "chest": {
@@ -783,6 +861,10 @@
               "weight": 3
             },
             {
+              "name": "gluttony",
+              "weight": 3
+            },
+            {
               "name": "determination",
               "weight": 10
             },
@@ -800,6 +882,10 @@
             },
             {
               "name": "riving",
+              "weight": 3
+            },
+            {
+              "name": "tenderize",
               "weight": 3
             }
           ],
@@ -826,6 +912,10 @@
             },
             {
               "name": "unique_druid_special_bloodhowl_stealth",
+              "weight": 3
+            },
+            {
+              "name": "tenderize",
               "weight": 3
             }
           ],
@@ -859,6 +949,10 @@
             {
               "name": "auric",
               "weight": 3
+            },
+            {
+              "name": "gluttony",
+              "weight": 3
             }
           ],
           "required_tempers": []
@@ -887,6 +981,10 @@
             {
               "name": "evasion",
               "weight": 3
+            },
+            {
+              "name": "keenness",
+              "weight": 3
             }
           ],
           "required_tempers": []
@@ -914,6 +1012,10 @@
             },
             {
               "name": "auric",
+              "weight": 3
+            },
+            {
+              "name": "keenness",
               "weight": 3
             }
           ],
@@ -1020,7 +1122,12 @@
             "Heir of Perdition"
           ],
           "priority_aspects": [],
-          "priority_affixes": [],
+          "priority_affixes": [
+            {
+              "name": "gluttony",
+              "weight": 3
+            }
+          ],
           "required_tempers": []
         },
         "chest": {
@@ -1047,6 +1154,10 @@
               "weight": 3
             },
             {
+              "name": "gluttony",
+              "weight": 3
+            },
+            {
               "name": "determination",
               "weight": 10
             },
@@ -1064,6 +1175,10 @@
             },
             {
               "name": "riving",
+              "weight": 3
+            },
+            {
+              "name": "tenderize",
               "weight": 3
             }
           ],
@@ -1090,6 +1205,10 @@
             },
             {
               "name": "unique_druid_special_bloodhowl_stealth",
+              "weight": 3
+            },
+            {
+              "name": "tenderize",
               "weight": 3
             }
           ],
@@ -1123,6 +1242,10 @@
             {
               "name": "auric",
               "weight": 3
+            },
+            {
+              "name": "gluttony",
+              "weight": 3
             }
           ],
           "required_tempers": []
@@ -1151,6 +1274,10 @@
             {
               "name": "evasion",
               "weight": 3
+            },
+            {
+              "name": "gluttony",
+              "weight": 3
             }
           ],
           "required_tempers": []
@@ -1178,6 +1305,10 @@
             },
             {
               "name": "auric",
+              "weight": 3
+            },
+            {
+              "name": "gluttony",
               "weight": 3
             }
           ],

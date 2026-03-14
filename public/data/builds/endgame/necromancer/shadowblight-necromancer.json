@@ -6,7 +6,7 @@
   "source_url": "https://maxroll.gg/d4/build-guides/shadowblight-necromancer-guide",
   "tier": "A",
   "tags": [],
-  "last_updated": "2026-03-13",
+  "last_updated": "2026-03-14",
   "profile_order": [
     "starter",
     "ancestral",
@@ -45,6 +45,10 @@
             {
               "name": "enervation",
               "weight": 3
+            },
+            {
+              "name": "keenness",
+              "weight": 3
             }
           ],
           "required_tempers": []
@@ -72,6 +76,10 @@
             },
             {
               "name": "infusing",
+              "weight": 3
+            },
+            {
+              "name": "keenness",
               "weight": 3
             }
           ],
@@ -104,6 +112,10 @@
             },
             {
               "name": "perpetuity",
+              "weight": 3
+            },
+            {
+              "name": "tenderize",
               "weight": 3
             }
           ],
@@ -173,6 +185,10 @@
             {
               "name": "auric",
               "weight": 4
+            },
+            {
+              "name": "seethe",
+              "weight": 3
             }
           ],
           "required_tempers": []
@@ -205,6 +221,10 @@
             {
               "name": "infusing",
               "weight": 3
+            },
+            {
+              "name": "seethe",
+              "weight": 3
             }
           ],
           "required_tempers": []
@@ -236,6 +256,10 @@
             },
             {
               "name": "cruelty",
+              "weight": 3
+            },
+            {
+              "name": "tenderize",
               "weight": 3
             }
           ],
@@ -280,6 +304,10 @@
             },
             {
               "name": "the_wise",
+              "weight": 3
+            },
+            {
+              "name": "tenderize",
               "weight": 3
             }
           ],
@@ -312,6 +340,10 @@
             {
               "name": "unique_damage_to_elite_specialscaling",
               "weight": 3
+            },
+            {
+              "name": "heartbeat",
+              "weight": 3
             }
           ],
           "required_tempers": []
@@ -339,6 +371,10 @@
             },
             {
               "name": "infusing",
+              "weight": 3
+            },
+            {
+              "name": "heartbeat",
               "weight": 3
             }
           ],
@@ -371,6 +407,10 @@
             },
             {
               "name": "perpetuity",
+              "weight": 3
+            },
+            {
+              "name": "tenderize",
               "weight": 3
             }
           ],
@@ -416,6 +456,10 @@
             {
               "name": "perpetuity",
               "weight": 3
+            },
+            {
+              "name": "heartbeat",
+              "weight": 3
             }
           ],
           "required_tempers": []
@@ -441,6 +485,10 @@
             },
             {
               "name": "golemlords",
+              "weight": 3
+            },
+            {
+              "name": "heartbeat",
               "weight": 3
             }
           ],
@@ -474,6 +522,10 @@
             {
               "name": "infusing",
               "weight": 3
+            },
+            {
+              "name": "heartbeat",
+              "weight": 3
             }
           ],
           "required_tempers": []
@@ -505,6 +557,10 @@
             },
             {
               "name": "cruelty",
+              "weight": 3
+            },
+            {
+              "name": "tenderize",
               "weight": 3
             }
           ],
@@ -549,6 +605,10 @@
             },
             {
               "name": "the_wise",
+              "weight": 3
+            },
+            {
+              "name": "tenderize",
               "weight": 3
             }
           ],
@@ -565,7 +625,12 @@
             "Heir of Perdition"
           ],
           "priority_aspects": [],
-          "priority_affixes": [],
+          "priority_affixes": [
+            {
+              "name": "keenness",
+              "weight": 3
+            }
+          ],
           "required_tempers": []
         },
         "chest": {
@@ -574,7 +639,12 @@
             "Shroud of False Death"
           ],
           "priority_aspects": [],
-          "priority_affixes": [],
+          "priority_affixes": [
+            {
+              "name": "heartbeat",
+              "weight": 3
+            }
+          ],
           "required_tempers": []
         },
         "weapon": {
@@ -604,6 +674,10 @@
             },
             {
               "name": "perpetuity",
+              "weight": 3
+            },
+            {
+              "name": "tenderize",
               "weight": 3
             }
           ],
@@ -649,6 +723,10 @@
             {
               "name": "perpetuity",
               "weight": 3
+            },
+            {
+              "name": "heartbeat",
+              "weight": 3
             }
           ],
           "required_tempers": []
@@ -674,6 +752,10 @@
             },
             {
               "name": "golemlords",
+              "weight": 3
+            },
+            {
+              "name": "heartbeat",
               "weight": 3
             }
           ],
@@ -706,6 +788,10 @@
             },
             {
               "name": "infusing",
+              "weight": 3
+            },
+            {
+              "name": "heartbeat",
               "weight": 3
             }
           ],
@@ -746,6 +832,10 @@
             },
             {
               "name": "the_adept",
+              "weight": 3
+            },
+            {
+              "name": "tenderize",
               "weight": 3
             }
           ],
@@ -790,6 +880,10 @@
             },
             {
               "name": "the_wise",
+              "weight": 3
+            },
+            {
+              "name": "tenderize",
               "weight": 3
             }
           ],
@@ -806,7 +900,12 @@
             "Heir of Perdition"
           ],
           "priority_aspects": [],
-          "priority_affixes": [],
+          "priority_affixes": [
+            {
+              "name": "keenness",
+              "weight": 3
+            }
+          ],
           "required_tempers": []
         },
         "chest": {
@@ -815,7 +914,12 @@
             "Shroud of False Death"
           ],
           "priority_aspects": [],
-          "priority_affixes": [],
+          "priority_affixes": [
+            {
+              "name": "heartbeat",
+              "weight": 3
+            }
+          ],
           "required_tempers": []
         },
         "weapon": {
@@ -845,6 +949,10 @@
             },
             {
               "name": "perpetuity",
+              "weight": 3
+            },
+            {
+              "name": "tenderize",
               "weight": 3
             }
           ],
@@ -890,6 +998,10 @@
             {
               "name": "perpetuity",
               "weight": 3
+            },
+            {
+              "name": "heartbeat",
+              "weight": 3
             }
           ],
           "required_tempers": []
@@ -915,6 +1027,10 @@
             },
             {
               "name": "golemlords",
+              "weight": 3
+            },
+            {
+              "name": "heartbeat",
               "weight": 3
             }
           ],
@@ -947,6 +1063,10 @@
             },
             {
               "name": "infusing",
+              "weight": 3
+            },
+            {
+              "name": "heartbeat",
               "weight": 3
             }
           ],
@@ -987,6 +1107,10 @@
             },
             {
               "name": "the_adept",
+              "weight": 3
+            },
+            {
+              "name": "tenderize",
               "weight": 3
             }
           ],
@@ -1031,6 +1155,10 @@
             },
             {
               "name": "the_wise",
+              "weight": 3
+            },
+            {
+              "name": "tenderize",
               "weight": 3
             }
           ],

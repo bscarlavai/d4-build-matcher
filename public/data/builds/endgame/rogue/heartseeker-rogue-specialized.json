@@ -6,7 +6,7 @@
   "source_url": "https://maxroll.gg/d4/build-guides/heartseeker-rogue-specialized-guide",
   "tier": "S",
   "tags": [],
-  "last_updated": "2026-03-13",
+  "last_updated": "2026-03-14",
   "profile_order": [
     "starter",
     "ancestral",
@@ -33,6 +33,10 @@
             {
               "name": "the_adroit",
               "weight": 6
+            },
+            {
+              "name": "anatomy",
+              "weight": 4
             }
           ],
           "required_tempers": []
@@ -53,6 +57,10 @@
             {
               "name": "auric",
               "weight": 6
+            },
+            {
+              "name": "keenness",
+              "weight": 4
             }
           ],
           "required_tempers": []
@@ -79,6 +87,10 @@
               "weight": 4
             },
             {
+              "name": "tenderize",
+              "weight": 3
+            },
+            {
               "name": "cruelty",
               "weight": 8
             }
@@ -101,6 +113,10 @@
             {
               "name": "cruelty",
               "weight": 6
+            },
+            {
+              "name": "tenderize",
+              "weight": 4
             }
           ],
           "required_tempers": []
@@ -125,6 +141,10 @@
             {
               "name": "keenness",
               "weight": 4
+            },
+            {
+              "name": "seethe",
+              "weight": 3
             }
           ],
           "required_tempers": []
@@ -145,6 +165,10 @@
             {
               "name": "auric",
               "weight": 6
+            },
+            {
+              "name": "gluttony",
+              "weight": 4
             }
           ],
           "required_tempers": []
@@ -165,6 +189,10 @@
             {
               "name": "auric",
               "weight": 6
+            },
+            {
+              "name": "clamber",
+              "weight": 4
             }
           ],
           "required_tempers": []
@@ -185,6 +213,10 @@
             {
               "name": "the_adept",
               "weight": 6
+            },
+            {
+              "name": "tenderize",
+              "weight": 4
             }
           ],
           "required_tempers": []
@@ -209,6 +241,10 @@
             {
               "name": "speed",
               "weight": 4
+            },
+            {
+              "name": "tenderize",
+              "weight": 3
             }
           ],
           "required_tempers": []
@@ -240,6 +276,10 @@
             {
               "name": "swiftness",
               "weight": 4
+            },
+            {
+              "name": "gluttony",
+              "weight": 3
             }
           ],
           "required_tempers": []
@@ -264,6 +304,10 @@
             {
               "name": "auric",
               "weight": 4
+            },
+            {
+              "name": "keenness",
+              "weight": 3
             }
           ],
           "required_tempers": []
@@ -288,6 +332,10 @@
             {
               "name": "perpetuity",
               "weight": 4
+            },
+            {
+              "name": "tenderize",
+              "weight": 3
             }
           ],
           "required_tempers": []
@@ -318,6 +366,10 @@
             {
               "name": "resources",
               "weight": 3
+            },
+            {
+              "name": "tenderize",
+              "weight": 3
             }
           ],
           "required_tempers": []
@@ -344,6 +396,10 @@
             {
               "name": "unique_generic_luckyhit_stun",
               "weight": 3
+            },
+            {
+              "name": "gluttony",
+              "weight": 3
             }
           ],
           "required_tempers": []
@@ -368,6 +424,10 @@
             {
               "name": "vigor",
               "weight": 4
+            },
+            {
+              "name": "gluttony",
+              "weight": 3
             }
           ],
           "required_tempers": []
@@ -394,6 +454,10 @@
             {
               "name": "unique_resistance_single_cold_higher",
               "weight": 3
+            },
+            {
+              "name": "clamber",
+              "weight": 3
             }
           ],
           "required_tempers": []
@@ -418,6 +482,10 @@
             {
               "name": "cruelty",
               "weight": 4
+            },
+            {
+              "name": "tenderize",
+              "weight": 3
             }
           ],
           "required_tempers": []
@@ -442,6 +510,10 @@
             {
               "name": "resources",
               "weight": 4
+            },
+            {
+              "name": "tenderize",
+              "weight": 3
             }
           ],
           "required_tempers": []
@@ -457,7 +529,12 @@
             "Heir of Perdition"
           ],
           "priority_aspects": [],
-          "priority_affixes": [],
+          "priority_affixes": [
+            {
+              "name": "gluttony",
+              "weight": 3
+            }
+          ],
           "required_tempers": []
         },
         "chest": {
@@ -466,7 +543,12 @@
             "Shroud of False Death"
           ],
           "priority_aspects": [],
-          "priority_affixes": [],
+          "priority_affixes": [
+            {
+              "name": "gluttony",
+              "weight": 3
+            }
+          ],
           "required_tempers": []
         },
         "offhand": {
@@ -489,6 +571,10 @@
             {
               "name": "perpetuity",
               "weight": 4
+            },
+            {
+              "name": "tenderize",
+              "weight": 3
             }
           ],
           "required_tempers": []
@@ -518,6 +604,10 @@
             },
             {
               "name": "resources",
+              "weight": 3
+            },
+            {
+              "name": "tenderize",
               "weight": 3
             }
           ],
@@ -569,6 +659,10 @@
             {
               "name": "vigor",
               "weight": 4
+            },
+            {
+              "name": "gluttony",
+              "weight": 3
             }
           ],
           "required_tempers": []
@@ -595,6 +689,10 @@
             {
               "name": "unique_resistance_single_cold_higher",
               "weight": 3
+            },
+            {
+              "name": "seethe",
+              "weight": 3
             }
           ],
           "required_tempers": []
@@ -606,6 +704,10 @@
           ],
           "priority_aspects": [],
           "priority_affixes": [
+            {
+              "name": "tenderize",
+              "weight": 3
+            },
             {
               "name": "the_adroit",
               "weight": 10
@@ -645,6 +747,10 @@
             {
               "name": "resources",
               "weight": 4
+            },
+            {
+              "name": "tenderize",
+              "weight": 3
             }
           ],
           "required_tempers": []
@@ -680,6 +786,10 @@
             {
               "name": "sanctity",
               "weight": 3
+            },
+            {
+              "name": "gluttony",
+              "weight": 3
             }
           ],
           "required_tempers": []
@@ -690,7 +800,12 @@
             "Shroud of False Death"
           ],
           "priority_aspects": [],
-          "priority_affixes": [],
+          "priority_affixes": [
+            {
+              "name": "gluttony",
+              "weight": 3
+            }
+          ],
           "required_tempers": []
         },
         "offhand": {
@@ -714,6 +829,10 @@
             },
             {
               "name": "unique_projectiles_tag_rogue_marksman",
+              "weight": 3
+            },
+            {
+              "name": "tenderize",
               "weight": 3
             },
             {
@@ -761,6 +880,10 @@
             {
               "name": "resources",
               "weight": 3
+            },
+            {
+              "name": "tenderize",
+              "weight": 3
             }
           ],
           "required_tempers": []
@@ -787,6 +910,10 @@
             {
               "name": "unique_generic_luckyhit_stun",
               "weight": 3
+            },
+            {
+              "name": "gluttony",
+              "weight": 3
             }
           ],
           "required_tempers": []
@@ -811,6 +938,10 @@
             {
               "name": "vigor",
               "weight": 4
+            },
+            {
+              "name": "gluttony",
+              "weight": 3
             }
           ],
           "required_tempers": []
@@ -837,6 +968,10 @@
             {
               "name": "speed",
               "weight": 3
+            },
+            {
+              "name": "clamber",
+              "weight": 3
             }
           ],
           "required_tempers": []
@@ -848,6 +983,10 @@
           ],
           "priority_aspects": [],
           "priority_affixes": [
+            {
+              "name": "tenderize",
+              "weight": 3
+            },
             {
               "name": "the_adroit",
               "weight": 10
@@ -887,6 +1026,10 @@
             {
               "name": "resources",
               "weight": 4
+            },
+            {
+              "name": "tenderize",
+              "weight": 3
             }
           ],
           "required_tempers": []

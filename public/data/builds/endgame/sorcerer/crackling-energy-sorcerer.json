@@ -6,7 +6,7 @@
   "source_url": "https://maxroll.gg/d4/build-guides/crackling-energy-sorcerer-guide",
   "tier": "S",
   "tags": [],
-  "last_updated": "2026-03-13",
+  "last_updated": "2026-03-14",
   "profile_order": [
     "starter",
     "ancestral",
@@ -50,6 +50,10 @@
             {
               "name": "auric",
               "weight": 3
+            },
+            {
+              "name": "carnivore",
+              "weight": 3
             }
           ],
           "required_tempers": []
@@ -81,6 +85,10 @@
             },
             {
               "name": "auric",
+              "weight": 3
+            },
+            {
+              "name": "anatomy",
               "weight": 3
             }
           ],
@@ -150,6 +158,10 @@
             {
               "name": "auric",
               "weight": 3
+            },
+            {
+              "name": "seethe",
+              "weight": 3
             }
           ],
           "required_tempers": []
@@ -185,6 +197,10 @@
             },
             {
               "name": "auric",
+              "weight": 3
+            },
+            {
+              "name": "clamber",
               "weight": 3
             }
           ],
@@ -225,6 +241,10 @@
             },
             {
               "name": "keenness",
+              "weight": 3
+            },
+            {
+              "name": "tenderize",
               "weight": 3
             }
           ],
@@ -278,6 +298,10 @@
             {
               "name": "reckless_magic",
               "weight": 3
+            },
+            {
+              "name": "tenderize",
+              "weight": 3
             }
           ],
           "required_tempers": []
@@ -289,15 +313,17 @@
       "gear": {
         "helm": {
           "slot": "helm",
-          "priority_uniques": [],
+          "priority_uniques": [
+            "Godslayer Crown"
+          ],
           "priority_aspects": [],
           "priority_affixes": [
             {
-              "name": "infusing",
+              "name": "swiftness",
               "weight": 10
             },
             {
-              "name": "the_wise",
+              "name": "unique_damage_to_elite_specialscaling",
               "weight": 8
             },
             {
@@ -305,33 +331,39 @@
               "weight": 6
             },
             {
-              "name": "swiftness",
+              "name": "harmony",
               "weight": 4
+            },
+            {
+              "name": "keenness",
+              "weight": 3
             }
           ],
           "required_tempers": []
         },
         "chest": {
           "slot": "chest",
-          "priority_uniques": [
-            "Raiment of the Infinite"
-          ],
+          "priority_uniques": [],
           "priority_aspects": [],
           "priority_affixes": [
             {
-              "name": "unique_corestat_intelligence_higher",
+              "name": "the_wise",
+              "weight": 10
+            },
+            {
+              "name": "vigor",
               "weight": 8
             },
             {
-              "name": "unique_resistance_all_higher",
+              "name": "efficiency",
               "weight": 6
             },
             {
-              "name": "unique_cdr_skill_sorc_teleport",
+              "name": "infusing",
               "weight": 4
             },
             {
-              "name": "reckless_magic",
+              "name": "revel",
               "weight": 3
             },
             {
@@ -343,19 +375,15 @@
               "weight": 8
             },
             {
-              "name": "the_wise",
-              "weight": 6
-            },
-            {
-              "name": "vigor",
-              "weight": 4
-            },
-            {
               "name": "ferocity",
               "weight": 3
             },
             {
               "name": "swiftness",
+              "weight": 3
+            },
+            {
+              "name": "tenderize",
               "weight": 3
             }
           ],
@@ -382,6 +410,10 @@
             },
             {
               "name": "vigor",
+              "weight": 3
+            },
+            {
+              "name": "tenderize",
               "weight": 3
             }
           ],
@@ -423,6 +455,10 @@
             {
               "name": "swiftness",
               "weight": 3
+            },
+            {
+              "name": "gluttony",
+              "weight": 3
             }
           ],
           "required_tempers": []
@@ -448,6 +484,10 @@
             },
             {
               "name": "unique_generic_luckyhit_heallife",
+              "weight": 3
+            },
+            {
+              "name": "gluttony",
               "weight": 3
             }
           ],
@@ -475,6 +515,10 @@
             {
               "name": "unique_movementspeed_generic_afterelitekill",
               "weight": 3
+            },
+            {
+              "name": "gluttony",
+              "weight": 3
             }
           ],
           "required_tempers": []
@@ -500,6 +544,10 @@
             },
             {
               "name": "swiftness",
+              "weight": 3
+            },
+            {
+              "name": "tenderize",
               "weight": 3
             },
             {
@@ -547,6 +595,10 @@
             {
               "name": "unique_movement_speed_sorc_aftercracklingenergy",
               "weight": 3
+            },
+            {
+              "name": "tenderize",
+              "weight": 3
             }
           ],
           "required_tempers": []
@@ -562,7 +614,12 @@
             "Heir of Perdition"
           ],
           "priority_aspects": [],
-          "priority_affixes": [],
+          "priority_affixes": [
+            {
+              "name": "gluttony",
+              "weight": 3
+            }
+          ],
           "required_tempers": []
         },
         "chest": {
@@ -572,6 +629,10 @@
           ],
           "priority_aspects": [],
           "priority_affixes": [
+            {
+              "name": "gluttony",
+              "weight": 3
+            },
             {
               "name": "carnage",
               "weight": 10
@@ -587,6 +648,10 @@
             {
               "name": "vigor",
               "weight": 4
+            },
+            {
+              "name": "tenderize",
+              "weight": 3
             }
           ],
           "required_tempers": []
@@ -612,6 +677,10 @@
             },
             {
               "name": "vigor",
+              "weight": 3
+            },
+            {
+              "name": "tenderize",
               "weight": 3
             }
           ],
@@ -653,6 +722,10 @@
             {
               "name": "swiftness",
               "weight": 3
+            },
+            {
+              "name": "gluttony",
+              "weight": 3
             }
           ],
           "required_tempers": []
@@ -678,6 +751,10 @@
             },
             {
               "name": "unique_generic_luckyhit_heallife",
+              "weight": 3
+            },
+            {
+              "name": "gluttony",
               "weight": 3
             }
           ],
@@ -711,6 +788,10 @@
             {
               "name": "dampening",
               "weight": 3
+            },
+            {
+              "name": "gluttony",
+              "weight": 3
             }
           ],
           "required_tempers": []
@@ -723,6 +804,10 @@
           ],
           "priority_aspects": [],
           "priority_affixes": [
+            {
+              "name": "tenderize",
+              "weight": 3
+            },
             {
               "name": "reckless_magic",
               "weight": 8
@@ -763,6 +848,10 @@
             },
             {
               "name": "unique_movement_speed_sorc_aftercracklingenergy",
+              "weight": 3
+            },
+            {
+              "name": "tenderize",
               "weight": 3
             }
           ],
@@ -821,6 +910,10 @@
             {
               "name": "unique_attackspeed_after_using_defensive",
               "weight": 3
+            },
+            {
+              "name": "tenderize",
+              "weight": 3
             }
           ],
           "required_tempers": []
@@ -932,6 +1025,10 @@
           "priority_aspects": [],
           "priority_affixes": [
             {
+              "name": "tenderize",
+              "weight": 3
+            },
+            {
               "name": "reckless_magic",
               "weight": 8
             },
@@ -972,6 +1069,10 @@
             {
               "name": "unique_movement_speed_sorc_aftercracklingenergy",
               "weight": 3
+            },
+            {
+              "name": "tenderize",
+              "weight": 3
             }
           ],
           "required_tempers": []
@@ -987,7 +1088,12 @@
             "Heir of Perdition"
           ],
           "priority_aspects": [],
-          "priority_affixes": [],
+          "priority_affixes": [
+            {
+              "name": "gluttony",
+              "weight": 3
+            }
+          ],
           "required_tempers": []
         },
         "chest": {
@@ -997,6 +1103,10 @@
           ],
           "priority_aspects": [],
           "priority_affixes": [
+            {
+              "name": "gluttony",
+              "weight": 3
+            },
             {
               "name": "carnage",
               "weight": 10
@@ -1019,6 +1129,10 @@
             },
             {
               "name": "swiftness",
+              "weight": 3
+            },
+            {
+              "name": "tenderize",
               "weight": 3
             }
           ],
@@ -1045,6 +1159,10 @@
             },
             {
               "name": "vigor",
+              "weight": 3
+            },
+            {
+              "name": "tenderize",
               "weight": 3
             }
           ],
@@ -1086,6 +1204,10 @@
             {
               "name": "swiftness",
               "weight": 3
+            },
+            {
+              "name": "gluttony",
+              "weight": 3
             }
           ],
           "required_tempers": []
@@ -1111,6 +1233,10 @@
             },
             {
               "name": "unique_generic_luckyhit_heallife",
+              "weight": 3
+            },
+            {
+              "name": "gluttony",
               "weight": 3
             }
           ],
@@ -1147,6 +1273,10 @@
             },
             {
               "name": "dampening",
+              "weight": 3
+            },
+            {
+              "name": "gluttony",
               "weight": 3
             }
           ],

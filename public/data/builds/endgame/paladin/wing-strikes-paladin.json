@@ -6,12 +6,13 @@
   "source_url": "https://maxroll.gg/d4/build-guides/wing-strikes-paladin-guide",
   "tier": "S",
   "tags": [],
-  "last_updated": "2026-03-13",
+  "last_updated": "2026-03-14",
   "profile_order": [
     "starter",
     "ancestral",
     "mythic",
-    "push"
+    "push",
+    "speed_/_horde"
   ],
   "profiles": {
     "starter": {
@@ -37,6 +38,10 @@
             {
               "name": "toughened",
               "weight": 4
+            },
+            {
+              "name": "anatomy",
+              "weight": 3
             }
           ],
           "required_tempers": []
@@ -61,6 +66,10 @@
             {
               "name": "steel",
               "weight": 4
+            },
+            {
+              "name": "gluttony",
+              "weight": 3
             },
             {
               "name": "the_adept",
@@ -97,6 +106,10 @@
             {
               "name": "cruelty",
               "weight": 4
+            },
+            {
+              "name": "tenderize",
+              "weight": 3
             }
           ],
           "required_tempers": []
@@ -121,6 +134,10 @@
             {
               "name": "toughened",
               "weight": 4
+            },
+            {
+              "name": "gluttony",
+              "weight": 3
             }
           ],
           "required_tempers": []
@@ -145,6 +162,10 @@
             {
               "name": "dampening",
               "weight": 4
+            },
+            {
+              "name": "gluttony",
+              "weight": 3
             }
           ],
           "required_tempers": []
@@ -169,6 +190,10 @@
             {
               "name": "grounding",
               "weight": 4
+            },
+            {
+              "name": "gluttony",
+              "weight": 3
             }
           ],
           "required_tempers": []
@@ -193,6 +218,10 @@
             {
               "name": "swiftness",
               "weight": 4
+            },
+            {
+              "name": "tenderize",
+              "weight": 3
             }
           ],
           "required_tempers": []
@@ -217,6 +246,10 @@
             {
               "name": "the_powerful",
               "weight": 4
+            },
+            {
+              "name": "tenderize",
+              "weight": 3
             }
           ],
           "required_tempers": []
@@ -248,6 +281,10 @@
             {
               "name": "vigor",
               "weight": 3
+            },
+            {
+              "name": "gluttony",
+              "weight": 3
             }
           ],
           "required_tempers": []
@@ -272,6 +309,10 @@
             {
               "name": "auras",
               "weight": 4
+            },
+            {
+              "name": "gluttony",
+              "weight": 3
             },
             {
               "name": "the_adept",
@@ -306,6 +347,10 @@
             {
               "name": "vigor",
               "weight": 3
+            },
+            {
+              "name": "tenderize",
+              "weight": 3
             }
           ],
           "required_tempers": []
@@ -330,6 +375,10 @@
             {
               "name": "vigor",
               "weight": 4
+            },
+            {
+              "name": "gluttony",
+              "weight": 3
             }
           ],
           "required_tempers": []
@@ -354,6 +403,10 @@
             {
               "name": "dampening",
               "weight": 4
+            },
+            {
+              "name": "gluttony",
+              "weight": 3
             }
           ],
           "required_tempers": []
@@ -406,6 +459,10 @@
               "weight": 4
             },
             {
+              "name": "tenderize",
+              "weight": 3
+            },
+            {
               "name": "carnage",
               "weight": 4
             }
@@ -434,6 +491,10 @@
             {
               "name": "vigor",
               "weight": 3
+            },
+            {
+              "name": "tenderize",
+              "weight": 3
             }
           ],
           "required_tempers": []
@@ -449,7 +510,12 @@
             "Heir of Perdition"
           ],
           "priority_aspects": [],
-          "priority_affixes": [],
+          "priority_affixes": [
+            {
+              "name": "gluttony",
+              "weight": 3
+            }
+          ],
           "required_tempers": []
         },
         "chest": {
@@ -459,6 +525,10 @@
           ],
           "priority_aspects": [],
           "priority_affixes": [
+            {
+              "name": "gluttony",
+              "weight": 3
+            },
             {
               "name": "the_powerful",
               "weight": 10
@@ -500,6 +570,10 @@
             {
               "name": "vigor",
               "weight": 3
+            },
+            {
+              "name": "tenderize",
+              "weight": 3
             }
           ],
           "required_tempers": []
@@ -524,6 +598,10 @@
             {
               "name": "vigor",
               "weight": 4
+            },
+            {
+              "name": "gluttony",
+              "weight": 3
             }
           ],
           "required_tempers": []
@@ -548,6 +626,10 @@
             {
               "name": "auric",
               "weight": 4
+            },
+            {
+              "name": "gluttony",
+              "weight": 3
             }
           ],
           "required_tempers": []
@@ -572,6 +654,10 @@
             {
               "name": "auric",
               "weight": 4
+            },
+            {
+              "name": "gluttony",
+              "weight": 3
             }
           ],
           "required_tempers": []
@@ -596,6 +682,10 @@
             {
               "name": "vigor",
               "weight": 4
+            },
+            {
+              "name": "tenderize",
+              "weight": 3
             },
             {
               "name": "carnage",
@@ -625,6 +715,10 @@
             },
             {
               "name": "vigor",
+              "weight": 3
+            },
+            {
+              "name": "tenderize",
               "weight": 3
             }
           ],
@@ -661,6 +755,10 @@
             {
               "name": "sanctity",
               "weight": 3
+            },
+            {
+              "name": "gluttony",
+              "weight": 3
             }
           ],
           "required_tempers": []
@@ -672,6 +770,10 @@
           ],
           "priority_aspects": [],
           "priority_affixes": [
+            {
+              "name": "gluttony",
+              "weight": 3
+            },
             {
               "name": "the_powerful",
               "weight": 10
@@ -713,6 +815,10 @@
             {
               "name": "vigor",
               "weight": 3
+            },
+            {
+              "name": "tenderize",
+              "weight": 3
             }
           ],
           "required_tempers": []
@@ -737,6 +843,10 @@
             {
               "name": "swiftness",
               "weight": 4
+            },
+            {
+              "name": "gluttony",
+              "weight": 3
             }
           ],
           "required_tempers": []
@@ -763,6 +873,10 @@
             {
               "name": "keenness",
               "weight": 3
+            },
+            {
+              "name": "gluttony",
+              "weight": 3
             }
           ],
           "required_tempers": []
@@ -787,6 +901,10 @@
             {
               "name": "infusing",
               "weight": 4
+            },
+            {
+              "name": "gluttony",
+              "weight": 3
             }
           ],
           "required_tempers": []
@@ -836,6 +954,249 @@
             },
             {
               "name": "vigor",
+              "weight": 3
+            }
+          ],
+          "required_tempers": []
+        }
+      }
+    },
+    "speed_/_horde": {
+      "name": "Speed / Horde",
+      "gear": {
+        "helm": {
+          "slot": "helm",
+          "priority_uniques": [
+            "Godslayer Crown"
+          ],
+          "priority_aspects": [],
+          "priority_affixes": [
+            {
+              "name": "swiftness",
+              "weight": 8
+            },
+            {
+              "name": "harmony",
+              "weight": 6
+            },
+            {
+              "name": "unique_damage_to_elite_specialscaling",
+              "weight": 4
+            },
+            {
+              "name": "vigor",
+              "weight": 3
+            },
+            {
+              "name": "gluttony",
+              "weight": 3
+            }
+          ],
+          "required_tempers": []
+        },
+        "chest": {
+          "slot": "chest",
+          "priority_uniques": [
+            "Shroud of False Death"
+          ],
+          "priority_aspects": [],
+          "priority_affixes": [
+            {
+              "name": "gluttony",
+              "weight": 3
+            },
+            {
+              "name": "the_powerful",
+              "weight": 10
+            },
+            {
+              "name": "the_adept",
+              "weight": 8
+            },
+            {
+              "name": "swiftness",
+              "weight": 6
+            },
+            {
+              "name": "sturdiness",
+              "weight": 4
+            }
+          ],
+          "required_tempers": []
+        },
+        "weapon": {
+          "slot": "weapon",
+          "priority_uniques": [
+            "Griswold's Opus"
+          ],
+          "priority_aspects": [],
+          "priority_affixes": [
+            {
+              "name": "unique_passiverankbonus_pal_heavyweight",
+              "weight": 8
+            },
+            {
+              "name": "unique_passiverankbonus_pal_breaktheline",
+              "weight": 6
+            },
+            {
+              "name": "the_powerful",
+              "weight": 4
+            },
+            {
+              "name": "vigor",
+              "weight": 3
+            },
+            {
+              "name": "tenderize",
+              "weight": 3
+            }
+          ],
+          "required_tempers": []
+        },
+        "gloves": {
+          "slot": "gloves",
+          "priority_uniques": [],
+          "priority_aspects": [],
+          "priority_affixes": [
+            {
+              "name": "the_powerful",
+              "weight": 10
+            },
+            {
+              "name": "swiftness",
+              "weight": 8
+            },
+            {
+              "name": "the_adept",
+              "weight": 6
+            },
+            {
+              "name": "keenness",
+              "weight": 4
+            },
+            {
+              "name": "gluttony",
+              "weight": 3
+            }
+          ],
+          "required_tempers": []
+        },
+        "pants": {
+          "slot": "pants",
+          "priority_uniques": [],
+          "priority_aspects": [],
+          "priority_affixes": [
+            {
+              "name": "the_powerful",
+              "weight": 10
+            },
+            {
+              "name": "toughened",
+              "weight": 8
+            },
+            {
+              "name": "vigor",
+              "weight": 6
+            },
+            {
+              "name": "harvesting",
+              "weight": 4
+            },
+            {
+              "name": "gluttony",
+              "weight": 3
+            }
+          ],
+          "required_tempers": []
+        },
+        "boots": {
+          "slot": "boots",
+          "priority_uniques": [
+            "Penitent Greaves"
+          ],
+          "priority_aspects": [],
+          "priority_affixes": [
+            {
+              "name": "unique_movement_speed_higher",
+              "weight": 8
+            },
+            {
+              "name": "unique_cc_generic_chillslowamount",
+              "weight": 6
+            },
+            {
+              "name": "unique_critchance_against_ccd_chill",
+              "weight": 4
+            },
+            {
+              "name": "unique_resistance_single_cold_higher",
+              "weight": 3
+            },
+            {
+              "name": "gluttony",
+              "weight": 3
+            }
+          ],
+          "required_tempers": []
+        },
+        "ring": {
+          "slot": "ring",
+          "priority_uniques": [],
+          "priority_aspects": [],
+          "priority_affixes": [
+            {
+              "name": "the_powerful",
+              "weight": 10
+            },
+            {
+              "name": "the_adept",
+              "weight": 8
+            },
+            {
+              "name": "swiftness",
+              "weight": 6
+            },
+            {
+              "name": "keenness",
+              "weight": 4
+            },
+            {
+              "name": "tenderize",
+              "weight": 3
+            },
+            {
+              "name": "harvesting",
+              "weight": 8
+            }
+          ],
+          "required_tempers": []
+        },
+        "amulet": {
+          "slot": "amulet",
+          "priority_uniques": [
+            "Sanctis of Kethamar"
+          ],
+          "priority_aspects": [],
+          "priority_affixes": [
+            {
+              "name": "unique_double_damage_skill_pal_wingstrike",
+              "weight": 8
+            },
+            {
+              "name": "unique_passiverankbonus_pal_giantslayer",
+              "weight": 6
+            },
+            {
+              "name": "unique_corestats_all_higher",
+              "weight": 4
+            },
+            {
+              "name": "vigor",
+              "weight": 3
+            },
+            {
+              "name": "tenderize",
               "weight": 3
             }
           ],

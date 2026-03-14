@@ -6,7 +6,7 @@
   "source_url": "https://maxroll.gg/d4/build-guides/rake-spiritborn-guide",
   "tier": "A",
   "tags": [],
-  "last_updated": "2026-03-13",
+  "last_updated": "2026-03-14",
   "profile_order": [
     "starter",
     "ancestral",
@@ -36,6 +36,10 @@
             {
               "name": "vigor",
               "weight": 4
+            },
+            {
+              "name": "seethe",
+              "weight": 3
             },
             {
               "name": "infusing",
@@ -68,6 +72,10 @@
             {
               "name": "the_encased",
               "weight": 4
+            },
+            {
+              "name": "gluttony",
+              "weight": 3
             },
             {
               "name": "infusing",
@@ -134,6 +142,10 @@
               "weight": 4
             },
             {
+              "name": "gluttony",
+              "weight": 3
+            },
+            {
               "name": "evasion",
               "weight": 3
             },
@@ -170,6 +182,10 @@
               "weight": 4
             },
             {
+              "name": "keenness",
+              "weight": 3
+            },
+            {
               "name": "evasion",
               "weight": 3
             },
@@ -208,6 +224,10 @@
             {
               "name": "the_focused",
               "weight": 3
+            },
+            {
+              "name": "tenderize",
+              "weight": 3
             }
           ],
           "required_tempers": []
@@ -244,6 +264,10 @@
             {
               "name": "speed",
               "weight": 3
+            },
+            {
+              "name": "tenderize",
+              "weight": 3
             }
           ],
           "required_tempers": []
@@ -275,6 +299,10 @@
             {
               "name": "unique_passiverankbonus_spiritborn_velocity_higher",
               "weight": 3
+            },
+            {
+              "name": "seethe",
+              "weight": 3
             }
           ],
           "required_tempers": []
@@ -300,6 +328,10 @@
             },
             {
               "name": "unique_passiverankbonus_spiritborn_talent_generic_6_endurance",
+              "weight": 3
+            },
+            {
+              "name": "gluttony",
               "weight": 3
             }
           ],
@@ -327,6 +359,10 @@
             {
               "name": "unique_damage_to_vulnerable_higher",
               "weight": 3
+            },
+            {
+              "name": "keenness",
+              "weight": 3
             }
           ],
           "required_tempers": []
@@ -353,6 +389,10 @@
             {
               "name": "toughened",
               "weight": 3
+            },
+            {
+              "name": "gluttony",
+              "weight": 3
             }
           ],
           "required_tempers": []
@@ -377,6 +417,10 @@
             {
               "name": "toughened",
               "weight": 4
+            },
+            {
+              "name": "keenness",
+              "weight": 3
             },
             {
               "name": "evasion",
@@ -407,6 +451,10 @@
             {
               "name": "vigor",
               "weight": 4
+            },
+            {
+              "name": "tenderize",
+              "weight": 3
             },
             {
               "name": "swiftness",
@@ -462,6 +510,10 @@
             },
             {
               "name": "vigor",
+              "weight": 3
+            },
+            {
+              "name": "tenderize",
               "weight": 3
             }
           ],
@@ -494,6 +546,10 @@
             {
               "name": "unique_passiverankbonus_spiritborn_velocity_higher",
               "weight": 3
+            },
+            {
+              "name": "seethe",
+              "weight": 3
             }
           ],
           "required_tempers": []
@@ -504,7 +560,12 @@
             "Shroud of False Death"
           ],
           "priority_aspects": [],
-          "priority_affixes": [],
+          "priority_affixes": [
+            {
+              "name": "gluttony",
+              "weight": 3
+            }
+          ],
           "required_tempers": []
         },
         "gloves": {
@@ -528,6 +589,10 @@
             },
             {
               "name": "unique_damage_to_vulnerable_higher",
+              "weight": 3
+            },
+            {
+              "name": "keenness",
               "weight": 3
             }
           ],
@@ -555,6 +620,10 @@
             {
               "name": "toughened",
               "weight": 3
+            },
+            {
+              "name": "gluttony",
+              "weight": 3
             }
           ],
           "required_tempers": []
@@ -579,6 +648,10 @@
             {
               "name": "toughened",
               "weight": 4
+            },
+            {
+              "name": "keenness",
+              "weight": 3
             },
             {
               "name": "evasion",
@@ -609,6 +682,10 @@
             {
               "name": "vigor",
               "weight": 4
+            },
+            {
+              "name": "tenderize",
+              "weight": 3
             },
             {
               "name": "swiftness",
@@ -664,6 +741,10 @@
             },
             {
               "name": "vigor",
+              "weight": 3
+            },
+            {
+              "name": "tenderize",
               "weight": 3
             }
           ],

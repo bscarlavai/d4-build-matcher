@@ -6,7 +6,7 @@
   "source_url": "https://maxroll.gg/d4/build-guides/frozen-orb-sorcerer-guide",
   "tier": "B",
   "tags": [],
-  "last_updated": "2026-03-13",
+  "last_updated": "2026-03-14",
   "profile_order": [
     "starter",
     "ancestral",
@@ -48,6 +48,10 @@
             {
               "name": "auric",
               "weight": 3
+            },
+            {
+              "name": "carnivore",
+              "weight": 3
             }
           ],
           "required_tempers": []
@@ -79,6 +83,10 @@
             },
             {
               "name": "auric",
+              "weight": 3
+            },
+            {
+              "name": "clamber",
               "weight": 3
             }
           ],
@@ -120,6 +128,10 @@
             {
               "name": "vigor",
               "weight": 3
+            },
+            {
+              "name": "anatomy",
+              "weight": 3
             }
           ],
           "required_tempers": []
@@ -151,6 +163,10 @@
             },
             {
               "name": "auric",
+              "weight": 3
+            },
+            {
+              "name": "keenness",
               "weight": 3
             }
           ],
@@ -187,6 +203,10 @@
             },
             {
               "name": "regeneration",
+              "weight": 3
+            },
+            {
+              "name": "gluttony",
               "weight": 3
             }
           ],
@@ -227,6 +247,10 @@
             },
             {
               "name": "vigor",
+              "weight": 3
+            },
+            {
+              "name": "tenderize",
               "weight": 3
             },
             {
@@ -284,6 +308,10 @@
             {
               "name": "ferocity",
               "weight": 3
+            },
+            {
+              "name": "tenderize",
+              "weight": 3
             }
           ],
           "required_tempers": []
@@ -325,6 +353,10 @@
             {
               "name": "regeneration",
               "weight": 3
+            },
+            {
+              "name": "keenness",
+              "weight": 3
             }
           ],
           "required_tempers": []
@@ -350,6 +382,10 @@
             },
             {
               "name": "reckless_magic",
+              "weight": 3
+            },
+            {
+              "name": "keenness",
               "weight": 3
             },
             {
@@ -443,6 +479,10 @@
             {
               "name": "unique_generic_luckyhit_heallife",
               "weight": 3
+            },
+            {
+              "name": "seethe",
+              "weight": 3
             }
           ],
           "required_tempers": []
@@ -468,6 +508,10 @@
             },
             {
               "name": "unique_movementspeed_generic_afterelitekill",
+              "weight": 3
+            },
+            {
+              "name": "seethe",
               "weight": 3
             }
           ],
@@ -509,6 +553,10 @@
               "weight": 3
             },
             {
+              "name": "tenderize",
+              "weight": 3
+            },
+            {
               "name": "unique_damage_type_bonus_nonphysical_higher",
               "weight": 8
             },
@@ -545,6 +593,10 @@
             {
               "name": "unique_passiverankbonus_sorc_02_conjurationmastery_higher",
               "weight": 4
+            },
+            {
+              "name": "tenderize",
+              "weight": 3
             }
           ],
           "required_tempers": []
@@ -560,7 +612,12 @@
             "Heir of Perdition"
           ],
           "priority_aspects": [],
-          "priority_affixes": [],
+          "priority_affixes": [
+            {
+              "name": "keenness",
+              "weight": 3
+            }
+          ],
           "required_tempers": []
         },
         "chest": {
@@ -585,6 +642,10 @@
             {
               "name": "swiftness",
               "weight": 4
+            },
+            {
+              "name": "tenderize",
+              "weight": 3
             }
           ],
           "required_tempers": []
@@ -610,6 +671,10 @@
             },
             {
               "name": "vigor",
+              "weight": 3
+            },
+            {
+              "name": "tenderize",
               "weight": 3
             }
           ],
@@ -716,6 +781,10 @@
           "priority_aspects": [],
           "priority_affixes": [
             {
+              "name": "tenderize",
+              "weight": 3
+            },
+            {
               "name": "unique_damage_type_bonus_nonphysical_higher",
               "weight": 8
             },
@@ -756,6 +825,10 @@
             {
               "name": "unique_passiverankbonus_sorc_02_conjurationmastery_higher",
               "weight": 4
+            },
+            {
+              "name": "tenderize",
+              "weight": 3
             }
           ],
           "required_tempers": []
