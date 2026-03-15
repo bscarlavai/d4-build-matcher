@@ -6,7 +6,7 @@
   "source_url": "https://maxroll.gg/d4/build-guides/rain-of-arrows-rogue-guide",
   "tier": "A",
   "tags": [],
-  "last_updated": "2026-03-14",
+  "last_updated": "2026-03-15",
   "profile_order": [
     "starter",
     "ancestral",
@@ -306,7 +306,7 @@
               "weight": 3
             },
             {
-              "name": "keenness",
+              "name": "gluttony",
               "weight": 3
             }
           ],
@@ -418,7 +418,7 @@
               "weight": 4
             },
             {
-              "name": "clamber",
+              "name": "gluttony",
               "weight": 3
             }
           ],
@@ -446,7 +446,7 @@
               "weight": 4
             },
             {
-              "name": "seethe",
+              "name": "gluttony",
               "weight": 3
             }
           ],
@@ -476,7 +476,7 @@
               "weight": 3
             },
             {
-              "name": "clamber",
+              "name": "gluttony",
               "weight": 3
             }
           ],
@@ -577,7 +577,7 @@
               "weight": 3
             },
             {
-              "name": "keenness",
+              "name": "gluttony",
               "weight": 3
             }
           ],
@@ -673,6 +673,10 @@
             {
               "name": "vigor",
               "weight": 4
+            },
+            {
+              "name": "gluttony",
+              "weight": 3
             }
           ],
           "required_tempers": []
@@ -699,7 +703,7 @@
               "weight": 4
             },
             {
-              "name": "seethe",
+              "name": "gluttony",
               "weight": 3
             }
           ],
@@ -729,7 +733,7 @@
               "weight": 3
             },
             {
-              "name": "clamber",
+              "name": "gluttony",
               "weight": 3
             }
           ],
@@ -828,7 +832,7 @@
               "weight": 3
             },
             {
-              "name": "keenness",
+              "name": "gluttony",
               "weight": 3
             }
           ],
@@ -948,6 +952,10 @@
             {
               "name": "vigor",
               "weight": 4
+            },
+            {
+              "name": "gluttony",
+              "weight": 3
             }
           ],
           "required_tempers": []
@@ -974,7 +982,7 @@
               "weight": 4
             },
             {
-              "name": "seethe",
+              "name": "gluttony",
               "weight": 3
             }
           ],
@@ -1004,7 +1012,7 @@
               "weight": 3
             },
             {
-              "name": "clamber",
+              "name": "gluttony",
               "weight": 3
             }
           ],

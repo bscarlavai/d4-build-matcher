@@ -6,7 +6,7 @@
   "source_url": "https://maxroll.gg/d4/build-guides/gorilla-thorns-spiritborn-guide",
   "tier": "A",
   "tags": [],
-  "last_updated": "2026-03-14",
+  "last_updated": "2026-03-15",
   "profile_order": [
     "starter",
     "ancestral",
@@ -309,22 +309,22 @@
           "priority_affixes": [
             {
               "name": "unique_attackspeed_higher",
-              "weight": 10
-            },
-            {
-              "name": "unique_damage_to_vulnerable_higher",
               "weight": 8
             },
             {
-              "name": "unique_cdr_tag_generic_ultimate_higher",
+              "name": "gluttony",
               "weight": 6
             },
             {
-              "name": "unique_skillrankbonus_spiritborn_category_gorilla",
+              "name": "unique_damage_to_vulnerable_higher",
               "weight": 4
             },
             {
-              "name": "gluttony",
+              "name": "unique_skillrankbonus_spiritborn_category_gorilla",
+              "weight": 3
+            },
+            {
+              "name": "unique_cdr_tag_generic_ultimate_higher",
               "weight": 3
             }
           ],
@@ -544,22 +544,22 @@
           "priority_affixes": [
             {
               "name": "unique_attackspeed_higher",
-              "weight": 10
-            },
-            {
-              "name": "unique_damage_to_vulnerable_higher",
               "weight": 8
             },
             {
-              "name": "unique_cdr_tag_generic_ultimate_higher",
+              "name": "gluttony",
               "weight": 6
             },
             {
-              "name": "unique_skillrankbonus_spiritborn_category_gorilla",
+              "name": "unique_damage_to_vulnerable_higher",
               "weight": 4
             },
             {
-              "name": "gluttony",
+              "name": "unique_skillrankbonus_spiritborn_category_gorilla",
+              "weight": 3
+            },
+            {
+              "name": "unique_cdr_tag_generic_ultimate_higher",
               "weight": 3
             }
           ],
@@ -771,22 +771,22 @@
           "priority_affixes": [
             {
               "name": "unique_attackspeed_higher",
-              "weight": 10
-            },
-            {
-              "name": "unique_damage_to_vulnerable_higher",
               "weight": 8
             },
             {
-              "name": "unique_cdr_tag_generic_ultimate_higher",
+              "name": "gluttony",
               "weight": 6
             },
             {
-              "name": "unique_skillrankbonus_spiritborn_category_gorilla",
+              "name": "unique_damage_to_vulnerable_higher",
               "weight": 4
             },
             {
-              "name": "gluttony",
+              "name": "unique_skillrankbonus_spiritborn_category_gorilla",
+              "weight": 3
+            },
+            {
+              "name": "unique_cdr_tag_generic_ultimate_higher",
               "weight": 3
             }
           ],

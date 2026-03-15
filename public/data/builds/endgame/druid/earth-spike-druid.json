@@ -6,7 +6,7 @@
   "source_url": "https://maxroll.gg/d4/build-guides/earth-spike-druid-guide",
   "tier": "A",
   "tags": [],
-  "last_updated": "2026-03-14",
+  "last_updated": "2026-03-15",
   "profile_order": [
     "starter",
     "ancestral",
@@ -238,6 +238,10 @@
             {
               "name": "auric",
               "weight": 3
+            },
+            {
+              "name": "tenderize",
+              "weight": 3
             }
           ],
           "required_tempers": []
@@ -269,6 +273,10 @@
             },
             {
               "name": "branching",
+              "weight": 3
+            },
+            {
+              "name": "tenderize",
               "weight": 3
             }
           ],
@@ -489,6 +497,10 @@
             {
               "name": "auric",
               "weight": 3
+            },
+            {
+              "name": "tenderize",
+              "weight": 3
             }
           ],
           "required_tempers": []
@@ -524,6 +536,10 @@
             },
             {
               "name": "toxicity",
+              "weight": 3
+            },
+            {
+              "name": "tenderize",
               "weight": 3
             }
           ],
@@ -732,6 +748,10 @@
             {
               "name": "auric",
               "weight": 3
+            },
+            {
+              "name": "tenderize",
+              "weight": 3
             }
           ],
           "required_tempers": []
@@ -767,6 +787,10 @@
             },
             {
               "name": "toxicity",
+              "weight": 3
+            },
+            {
+              "name": "tenderize",
               "weight": 3
             }
           ],
@@ -975,6 +999,10 @@
             {
               "name": "auric",
               "weight": 3
+            },
+            {
+              "name": "tenderize",
+              "weight": 3
             }
           ],
           "required_tempers": []
@@ -1010,6 +1038,10 @@
             },
             {
               "name": "toxicity",
+              "weight": 3
+            },
+            {
+              "name": "tenderize",
               "weight": 3
             }
           ],
@@ -1220,6 +1252,10 @@
             {
               "name": "auric",
               "weight": 3
+            },
+            {
+              "name": "tenderize",
+              "weight": 3
             }
           ],
           "required_tempers": []
@@ -1255,6 +1291,10 @@
             },
             {
               "name": "determination",
+              "weight": 3
+            },
+            {
+              "name": "tenderize",
               "weight": 3
             }
           ],

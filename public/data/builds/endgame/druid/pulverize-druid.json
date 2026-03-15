@@ -6,7 +6,7 @@
   "source_url": "https://maxroll.gg/d4/build-guides/pulverize-druid-guide",
   "tier": "S",
   "tags": [],
-  "last_updated": "2026-03-14",
+  "last_updated": "2026-03-15",
   "profile_order": [
     "starter",
     "ancestral",
@@ -44,7 +44,7 @@
               "weight": 3
             },
             {
-              "name": "gluttony",
+              "name": "keenness",
               "weight": 3
             }
           ],
@@ -76,7 +76,7 @@
               "weight": 3
             },
             {
-              "name": "gluttony",
+              "name": "keenness",
               "weight": 3
             }
           ],
@@ -238,6 +238,10 @@
             {
               "name": "triumph",
               "weight": 3
+            },
+            {
+              "name": "tenderize",
+              "weight": 3
             }
           ],
           "required_tempers": []
@@ -270,6 +274,10 @@
             {
               "name": "poison_soaked",
               "weight": 3
+            },
+            {
+              "name": "tenderize",
+              "weight": 3
             }
           ],
           "required_tempers": []
@@ -282,25 +290,25 @@
         "helm": {
           "slot": "helm",
           "priority_uniques": [
-            "Vasily's Prayer"
+            "Godslayer Crown"
           ],
           "priority_aspects": [],
           "priority_affixes": [
             {
-              "name": "the_tenacious",
-              "weight": 10
-            },
-            {
-              "name": "vigor",
+              "name": "harmony",
               "weight": 8
             },
             {
-              "name": "toughened",
+              "name": "vigor",
               "weight": 6
             },
             {
-              "name": "unique_passiverankbonus_druid_04_defensiveposture",
+              "name": "swiftness",
               "weight": 4
+            },
+            {
+              "name": "unique_damage_to_elite_specialscaling",
+              "weight": 3
             },
             {
               "name": "gluttony",
@@ -495,6 +503,10 @@
             {
               "name": "carnage",
               "weight": 3
+            },
+            {
+              "name": "tenderize",
+              "weight": 3
             }
           ],
           "required_tempers": []
@@ -534,6 +546,10 @@
             },
             {
               "name": "branching",
+              "weight": 3
+            },
+            {
+              "name": "tenderize",
               "weight": 3
             }
           ],
@@ -734,6 +750,10 @@
             {
               "name": "vigor",
               "weight": 3
+            },
+            {
+              "name": "tenderize",
+              "weight": 3
             }
           ],
           "required_tempers": []
@@ -774,6 +794,10 @@
             {
               "name": "branching",
               "weight": 3
+            },
+            {
+              "name": "tenderize",
+              "weight": 3
             }
           ],
           "required_tempers": []
@@ -786,10 +810,26 @@
         "helm": {
           "slot": "helm",
           "priority_uniques": [
-            "Heir of Perdition"
+            "Godslayer Crown"
           ],
           "priority_aspects": [],
           "priority_affixes": [
+            {
+              "name": "harmony",
+              "weight": 8
+            },
+            {
+              "name": "vigor",
+              "weight": 6
+            },
+            {
+              "name": "swiftness",
+              "weight": 4
+            },
+            {
+              "name": "unique_damage_to_elite_specialscaling",
+              "weight": 3
+            },
             {
               "name": "gluttony",
               "weight": 3
@@ -875,7 +915,7 @@
               "weight": 3
             },
             {
-              "name": "gluttony",
+              "name": "anatomy",
               "weight": 3
             }
           ],
@@ -973,6 +1013,10 @@
             {
               "name": "vigor",
               "weight": 3
+            },
+            {
+              "name": "tenderize",
+              "weight": 3
             }
           ],
           "required_tempers": []
@@ -1008,6 +1052,10 @@
             },
             {
               "name": "branching",
+              "weight": 3
+            },
+            {
+              "name": "tenderize",
               "weight": 3
             }
           ],
@@ -1142,7 +1190,7 @@
               "weight": 3
             },
             {
-              "name": "gluttony",
+              "name": "keenness",
               "weight": 3
             }
           ],

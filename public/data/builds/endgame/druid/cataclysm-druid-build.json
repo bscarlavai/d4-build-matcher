@@ -6,7 +6,7 @@
   "source_url": "https://maxroll.gg/d4/build-guides/cataclysm-druid-build-guide",
   "tier": "A",
   "tags": [],
-  "last_updated": "2026-03-14",
+  "last_updated": "2026-03-15",
   "profile_order": [
     "ancestral",
     "mythic",
@@ -240,6 +240,10 @@
               "weight": 4
             },
             {
+              "name": "tenderize",
+              "weight": 3
+            },
+            {
               "name": "endless_storm",
               "weight": 10
             },
@@ -289,6 +293,10 @@
             },
             {
               "name": "branching",
+              "weight": 3
+            },
+            {
+              "name": "tenderize",
               "weight": 3
             }
           ],
@@ -506,6 +514,10 @@
               "weight": 4
             },
             {
+              "name": "tenderize",
+              "weight": 3
+            },
+            {
               "name": "endless_storm",
               "weight": 10
             },
@@ -555,6 +567,10 @@
             },
             {
               "name": "branching",
+              "weight": 3
+            },
+            {
+              "name": "tenderize",
               "weight": 3
             }
           ],
@@ -797,6 +813,10 @@
               "weight": 3
             },
             {
+              "name": "tenderize",
+              "weight": 3
+            },
+            {
               "name": "endless_storm",
               "weight": 10
             },
@@ -842,6 +862,10 @@
             },
             {
               "name": "branching",
+              "weight": 3
+            },
+            {
+              "name": "tenderize",
               "weight": 3
             }
           ],

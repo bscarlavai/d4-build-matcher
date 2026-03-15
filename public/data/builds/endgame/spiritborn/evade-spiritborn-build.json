@@ -6,13 +6,14 @@
   "source_url": "https://maxroll.gg/d4/build-guides/evade-spiritborn-build-guide",
   "tier": "S",
   "tags": [],
-  "last_updated": "2026-03-14",
+  "last_updated": "2026-03-15",
   "profile_order": [
     "starter",
     "ancestral",
     "mythic",
     "level_1-60",
-    "push"
+    "push",
+    "alt_-_transition"
   ],
   "profiles": {
     "level_1-60": {
@@ -715,15 +716,15 @@
               "weight": 6
             },
             {
-              "name": "unique_movement_speed_lesser",
+              "name": "gluttony",
               "weight": 4
             },
             {
-              "name": "unique_passiverankbonus_spiritborn_velocity_higher",
+              "name": "unique_movement_speed_lesser",
               "weight": 3
             },
             {
-              "name": "gluttony",
+              "name": "unique_passiverankbonus_spiritborn_velocity_higher",
               "weight": 3
             }
           ],
@@ -753,16 +754,20 @@
               "weight": 10
             },
             {
-              "name": "vigor",
+              "name": "the_focused",
               "weight": 8
             },
             {
-              "name": "toughened",
+              "name": "gluttony",
               "weight": 6
             },
             {
-              "name": "the_focused",
+              "name": "vigor",
               "weight": 4
+            },
+            {
+              "name": "toughened",
+              "weight": 3
             },
             {
               "name": "cruelty",
@@ -778,10 +783,6 @@
             },
             {
               "name": "swiftness",
-              "weight": 3
-            },
-            {
-              "name": "gluttony",
               "weight": 3
             }
           ],
@@ -799,19 +800,19 @@
               "weight": 8
             },
             {
-              "name": "toughened",
+              "name": "gluttony",
               "weight": 6
             },
             {
-              "name": "unique_healingpercent_verybig",
+              "name": "toughened",
               "weight": 4
             },
             {
-              "name": "unique_generic_luckyhit_heallife",
+              "name": "unique_healingpercent_verybig",
               "weight": 3
             },
             {
-              "name": "gluttony",
+              "name": "unique_generic_luckyhit_heallife",
               "weight": 3
             }
           ],
@@ -831,12 +832,16 @@
               "weight": 8
             },
             {
-              "name": "vigor",
+              "name": "gluttony",
               "weight": 6
             },
             {
-              "name": "toughened",
+              "name": "vigor",
               "weight": 4
+            },
+            {
+              "name": "toughened",
+              "weight": 3
             },
             {
               "name": "auric",
@@ -844,10 +849,6 @@
             },
             {
               "name": "remedies",
-              "weight": 3
-            },
-            {
-              "name": "gluttony",
               "weight": 3
             }
           ],
@@ -869,11 +870,11 @@
               "weight": 8
             },
             {
-              "name": "vigor",
+              "name": "the_focused",
               "weight": 6
             },
             {
-              "name": "the_focused",
+              "name": "vigor",
               "weight": 4
             },
             {
@@ -1026,11 +1027,11 @@
           "priority_aspects": [],
           "priority_affixes": [
             {
-              "name": "the_adroit",
+              "name": "swiftness",
               "weight": 10
             },
             {
-              "name": "the_focused",
+              "name": "the_adroit",
               "weight": 8
             },
             {
@@ -1038,8 +1039,12 @@
               "weight": 6
             },
             {
-              "name": "toughened",
+              "name": "the_focused",
               "weight": 4
+            },
+            {
+              "name": "toughened",
+              "weight": 3
             },
             {
               "name": "cruelty",
@@ -1054,10 +1059,6 @@
               "weight": 3
             },
             {
-              "name": "swiftness",
-              "weight": 3
-            },
-            {
               "name": "gluttony",
               "weight": 3
             }
@@ -1067,28 +1068,28 @@
         "pants": {
           "slot": "pants",
           "priority_uniques": [
-            "Tibault's Will"
+            "Temerity"
           ],
           "priority_aspects": [],
           "priority_affixes": [
             {
-              "name": "harmony",
+              "name": "vigor",
               "weight": 8
             },
             {
-              "name": "the_adept",
+              "name": "gluttony",
               "weight": 6
             },
             {
-              "name": "resources",
+              "name": "unique_generic_luckyhit_heallife",
               "weight": 4
             },
             {
-              "name": "keenness",
+              "name": "unique_healingpercent_verybig",
               "weight": 3
             },
             {
-              "name": "gluttony",
+              "name": "toughened",
               "weight": 3
             }
           ],
@@ -1148,11 +1149,11 @@
               "weight": 6
             },
             {
-              "name": "the_focused",
+              "name": "cruelty",
               "weight": 4
             },
             {
-              "name": "cruelty",
+              "name": "the_focused",
               "weight": 3
             },
             {
@@ -1234,6 +1235,207 @@
             {
               "name": "tenderize",
               "weight": 3
+            }
+          ],
+          "required_tempers": []
+        }
+      }
+    },
+    "alt_-_transition": {
+      "name": "Alt - Transition",
+      "gear": {
+        "helm": {
+          "slot": "helm",
+          "priority_uniques": [
+            "Harmony of Ebewaka"
+          ],
+          "priority_aspects": [],
+          "priority_affixes": [
+            {
+              "name": "the_adroit",
+              "weight": 8
+            },
+            {
+              "name": "unique_corestats_all_higher",
+              "weight": 6
+            },
+            {
+              "name": "gluttony",
+              "weight": 4
+            },
+            {
+              "name": "unique_movement_speed_lesser",
+              "weight": 3
+            },
+            {
+              "name": "unique_passiverankbonus_spiritborn_velocity_higher",
+              "weight": 3
+            }
+          ],
+          "required_tempers": []
+        },
+        "chest": {
+          "slot": "chest",
+          "priority_uniques": [],
+          "priority_aspects": [],
+          "priority_affixes": [
+            {
+              "name": "the_adroit",
+              "weight": 10
+            },
+            {
+              "name": "vigor",
+              "weight": 8
+            },
+            {
+              "name": "toughened",
+              "weight": 6
+            },
+            {
+              "name": "auric",
+              "weight": 4
+            },
+            {
+              "name": "gluttony",
+              "weight": 3
+            }
+          ],
+          "required_tempers": []
+        },
+        "gloves": {
+          "slot": "gloves",
+          "priority_uniques": [],
+          "priority_aspects": [],
+          "priority_affixes": [
+            {
+              "name": "the_adroit",
+              "weight": 10
+            },
+            {
+              "name": "swiftness",
+              "weight": 8
+            },
+            {
+              "name": "the_adept",
+              "weight": 6
+            },
+            {
+              "name": "cruelty",
+              "weight": 4
+            },
+            {
+              "name": "seethe",
+              "weight": 3
+            }
+          ],
+          "required_tempers": []
+        },
+        "pants": {
+          "slot": "pants",
+          "priority_uniques": [],
+          "priority_aspects": [],
+          "priority_affixes": [
+            {
+              "name": "the_adroit",
+              "weight": 10
+            },
+            {
+              "name": "toughened",
+              "weight": 8
+            },
+            {
+              "name": "vigor",
+              "weight": 6
+            },
+            {
+              "name": "auric",
+              "weight": 4
+            },
+            {
+              "name": "seethe",
+              "weight": 3
+            }
+          ],
+          "required_tempers": []
+        },
+        "boots": {
+          "slot": "boots",
+          "priority_uniques": [],
+          "priority_aspects": [],
+          "priority_affixes": [
+            {
+              "name": "the_adroit",
+              "weight": 10
+            },
+            {
+              "name": "toughened",
+              "weight": 8
+            },
+            {
+              "name": "vigor",
+              "weight": 6
+            },
+            {
+              "name": "seethe",
+              "weight": 4
+            },
+            {
+              "name": "the_focused",
+              "weight": 3
+            }
+          ],
+          "required_tempers": []
+        },
+        "ring": {
+          "slot": "ring",
+          "priority_uniques": [],
+          "priority_aspects": [],
+          "priority_affixes": [
+            {
+              "name": "the_adroit",
+              "weight": 10
+            },
+            {
+              "name": "swiftness",
+              "weight": 8
+            },
+            {
+              "name": "cruelty",
+              "weight": 6
+            },
+            {
+              "name": "the_adept",
+              "weight": 4
+            },
+            {
+              "name": "tenderize",
+              "weight": 3
+            }
+          ],
+          "required_tempers": []
+        },
+        "amulet": {
+          "slot": "amulet",
+          "priority_uniques": [
+            "Sunbird's Gorget"
+          ],
+          "priority_aspects": [],
+          "priority_affixes": [
+            {
+              "name": "unique_passiverankbonus_spiritborn_acceleration",
+              "weight": 10
+            },
+            {
+              "name": "unique_passiverankbonus_spiritborn_furnace",
+              "weight": 8
+            },
+            {
+              "name": "unique_passiverankbonus_spiritborn_potent",
+              "weight": 6
+            },
+            {
+              "name": "unique_movement_speed_higher",
+              "weight": 4
             }
           ],
           "required_tempers": []
