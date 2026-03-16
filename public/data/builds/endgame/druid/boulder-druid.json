@@ -6,7 +6,7 @@
   "source_url": "https://maxroll.gg/d4/build-guides/boulder-druid-guide",
   "tier": "A",
   "tags": [],
-  "last_updated": "2026-03-15",
+  "last_updated": "2026-03-16",
   "profile_order": [
     "ancestral",
     "mythic",
@@ -247,6 +247,10 @@
               "weight": 3
             },
             {
+              "name": "tenderize",
+              "weight": 3
+            },
+            {
               "name": "determination",
               "weight": 10
             },
@@ -295,6 +299,10 @@
             {
               "name": "unique_movement_speed_druid_whilehurricane",
               "weight": 4
+            },
+            {
+              "name": "tenderize",
+              "weight": 3
             }
           ],
           "required_tempers": []
@@ -528,6 +536,10 @@
             {
               "name": "auric",
               "weight": 3
+            },
+            {
+              "name": "tenderize",
+              "weight": 3
             }
           ],
           "required_tempers": []
@@ -554,6 +566,10 @@
             {
               "name": "unique_movement_speed_druid_whilehurricane",
               "weight": 4
+            },
+            {
+              "name": "tenderize",
+              "weight": 3
             }
           ],
           "required_tempers": []
@@ -776,6 +792,10 @@
             {
               "name": "luck",
               "weight": 4
+            },
+            {
+              "name": "tenderize",
+              "weight": 3
             }
           ],
           "required_tempers": []
@@ -802,6 +822,10 @@
             {
               "name": "unique_movement_speed_druid_whilehurricane",
               "weight": 4
+            },
+            {
+              "name": "tenderize",
+              "weight": 3
             }
           ],
           "required_tempers": []
@@ -1025,6 +1049,10 @@
             {
               "name": "riving",
               "weight": 3
+            },
+            {
+              "name": "tenderize",
+              "weight": 3
             }
           ],
           "required_tempers": []
@@ -1050,6 +1078,10 @@
             },
             {
               "name": "unique_movement_speed_druid_whilehurricane",
+              "weight": 3
+            },
+            {
+              "name": "tenderize",
               "weight": 3
             }
           ],

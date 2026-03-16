@@ -6,7 +6,7 @@
   "source_url": "https://maxroll.gg/d4/build-guides/death-trap-rogue-guide",
   "tier": "A",
   "tags": [],
-  "last_updated": "2026-03-15",
+  "last_updated": "2026-03-16",
   "profile_order": [
     "starter",
     "ancestral",
@@ -36,6 +36,10 @@
             {
               "name": "auric",
               "weight": 4
+            },
+            {
+              "name": "keenness",
+              "weight": 3
             }
           ],
           "required_tempers": []
@@ -60,6 +64,10 @@
             {
               "name": "the_veil",
               "weight": 4
+            },
+            {
+              "name": "keenness",
+              "weight": 3
             }
           ],
           "required_tempers": []
@@ -84,6 +92,10 @@
             {
               "name": "ferocity",
               "weight": 4
+            },
+            {
+              "name": "tenderize",
+              "weight": 3
             }
           ],
           "required_tempers": []
@@ -108,6 +120,10 @@
             {
               "name": "ferocity",
               "weight": 4
+            },
+            {
+              "name": "tenderize",
+              "weight": 3
             }
           ],
           "required_tempers": []
@@ -156,6 +172,10 @@
             {
               "name": "carrying",
               "weight": 4
+            },
+            {
+              "name": "seethe",
+              "weight": 3
             }
           ],
           "required_tempers": []
@@ -180,6 +200,10 @@
             {
               "name": "vigor",
               "weight": 4
+            },
+            {
+              "name": "seethe",
+              "weight": 3
             }
           ],
           "required_tempers": []
@@ -204,6 +228,10 @@
             {
               "name": "the_focused",
               "weight": 4
+            },
+            {
+              "name": "tenderize",
+              "weight": 3
             }
           ],
           "required_tempers": []
@@ -228,6 +256,10 @@
             {
               "name": "swiftness",
               "weight": 4
+            },
+            {
+              "name": "tenderize",
+              "weight": 3
             }
           ],
           "required_tempers": []
@@ -259,6 +291,10 @@
             {
               "name": "unique_damage_to_elite_specialscaling",
               "weight": 3
+            },
+            {
+              "name": "gluttony",
+              "weight": 3
             }
           ],
           "required_tempers": []
@@ -285,6 +321,10 @@
             {
               "name": "damage_to_trapped_triple_unique",
               "weight": 3
+            },
+            {
+              "name": "keenness",
+              "weight": 3
             }
           ],
           "required_tempers": []
@@ -309,6 +349,10 @@
             {
               "name": "ferocity",
               "weight": 4
+            },
+            {
+              "name": "tenderize",
+              "weight": 3
             }
           ],
           "required_tempers": []
@@ -333,6 +377,10 @@
             {
               "name": "ferocity",
               "weight": 4
+            },
+            {
+              "name": "tenderize",
+              "weight": 3
             }
           ],
           "required_tempers": []
@@ -357,6 +405,10 @@
             {
               "name": "the_adroit",
               "weight": 4
+            },
+            {
+              "name": "gluttony",
+              "weight": 3
             }
           ],
           "required_tempers": []
@@ -383,6 +435,10 @@
             {
               "name": "unique_passiverankbonus_rogue_12_aftermath",
               "weight": 4
+            },
+            {
+              "name": "gluttony",
+              "weight": 3
             }
           ],
           "required_tempers": []
@@ -409,6 +465,10 @@
             {
               "name": "unique_passiverankbonus_rogue_cunning_t1_n1_agile",
               "weight": 3
+            },
+            {
+              "name": "gluttony",
+              "weight": 3
             }
           ],
           "required_tempers": []
@@ -433,6 +493,10 @@
             {
               "name": "vigor",
               "weight": 4
+            },
+            {
+              "name": "tenderize",
+              "weight": 3
             }
           ],
           "required_tempers": []
@@ -457,6 +521,10 @@
             {
               "name": "swiftness",
               "weight": 4
+            },
+            {
+              "name": "tenderize",
+              "weight": 3
             }
           ],
           "required_tempers": []
@@ -472,7 +540,12 @@
             "Heir of Perdition"
           ],
           "priority_aspects": [],
-          "priority_affixes": [],
+          "priority_affixes": [
+            {
+              "name": "gluttony",
+              "weight": 3
+            }
+          ],
           "required_tempers": []
         },
         "chest": {
@@ -496,6 +569,10 @@
             },
             {
               "name": "damage_to_trapped_triple_unique",
+              "weight": 3
+            },
+            {
+              "name": "keenness",
               "weight": 3
             }
           ],
@@ -521,6 +598,10 @@
             {
               "name": "ferocity",
               "weight": 4
+            },
+            {
+              "name": "tenderize",
+              "weight": 3
             }
           ],
           "required_tempers": []
@@ -545,6 +626,10 @@
             {
               "name": "ferocity",
               "weight": 4
+            },
+            {
+              "name": "tenderize",
+              "weight": 3
             }
           ],
           "required_tempers": []
@@ -569,6 +654,10 @@
             {
               "name": "vigor",
               "weight": 4
+            },
+            {
+              "name": "gluttony",
+              "weight": 3
             }
           ],
           "required_tempers": []
@@ -594,6 +683,10 @@
             },
             {
               "name": "unique_passiverankbonus_rogue_12_aftermath",
+              "weight": 3
+            },
+            {
+              "name": "gluttony",
               "weight": 3
             }
           ],
@@ -621,6 +714,10 @@
             {
               "name": "unique_passiverankbonus_rogue_cunning_t1_n1_agile",
               "weight": 3
+            },
+            {
+              "name": "gluttony",
+              "weight": 3
             }
           ],
           "required_tempers": []
@@ -645,6 +742,10 @@
             {
               "name": "the_adroit",
               "weight": 4
+            },
+            {
+              "name": "tenderize",
+              "weight": 3
             }
           ],
           "required_tempers": []
@@ -669,6 +770,10 @@
             {
               "name": "malice",
               "weight": 4
+            },
+            {
+              "name": "tenderize",
+              "weight": 3
             }
           ],
           "required_tempers": []

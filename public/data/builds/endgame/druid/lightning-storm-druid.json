@@ -6,7 +6,7 @@
   "source_url": "https://maxroll.gg/d4/build-guides/lightning-storm-druid-guide",
   "tier": "C",
   "tags": [],
-  "last_updated": "2026-03-15",
+  "last_updated": "2026-03-16",
   "profile_order": [
     "starter",
     "ancestral",
@@ -257,6 +257,10 @@
             {
               "name": "the_focused",
               "weight": 3
+            },
+            {
+              "name": "tenderize",
+              "weight": 3
             }
           ],
           "required_tempers": []
@@ -288,6 +292,10 @@
             },
             {
               "name": "poison_soaked",
+              "weight": 3
+            },
+            {
+              "name": "tenderize",
               "weight": 3
             }
           ],
@@ -518,6 +526,10 @@
             {
               "name": "riving",
               "weight": 3
+            },
+            {
+              "name": "tenderize",
+              "weight": 3
             }
           ],
           "required_tempers": []
@@ -543,6 +555,10 @@
             },
             {
               "name": "unique_movement_speed_druid_whilewerewolf",
+              "weight": 3
+            },
+            {
+              "name": "tenderize",
               "weight": 3
             }
           ],
@@ -759,6 +775,10 @@
             {
               "name": "riving",
               "weight": 3
+            },
+            {
+              "name": "tenderize",
+              "weight": 3
             }
           ],
           "required_tempers": []
@@ -794,6 +814,10 @@
             },
             {
               "name": "swiftness",
+              "weight": 3
+            },
+            {
+              "name": "tenderize",
               "weight": 3
             }
           ],
@@ -1010,6 +1034,10 @@
             {
               "name": "riving",
               "weight": 3
+            },
+            {
+              "name": "tenderize",
+              "weight": 3
             }
           ],
           "required_tempers": []
@@ -1045,6 +1073,10 @@
             },
             {
               "name": "swiftness",
+              "weight": 3
+            },
+            {
+              "name": "tenderize",
               "weight": 3
             }
           ],

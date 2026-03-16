@@ -6,7 +6,7 @@
   "source_url": "https://maxroll.gg/d4/build-guides/crushing-hand-spiritborn-guide",
   "tier": "S",
   "tags": [],
-  "last_updated": "2026-03-15",
+  "last_updated": "2026-03-16",
   "profile_order": [
     "starter",
     "ancestral",
@@ -956,15 +956,15 @@
               "weight": 6
             },
             {
-              "name": "unique_cdr_tag_generic_ultimate_higher",
+              "name": "unique_damage_to_vulnerable_higher",
               "weight": 4
             },
             {
-              "name": "unique_damage_to_vulnerable_higher",
+              "name": "unique_cdr_tag_generic_ultimate_higher",
               "weight": 3
             },
             {
-              "name": "revel",
+              "name": "gluttony",
               "weight": 3
             }
           ],
@@ -972,26 +972,24 @@
         },
         "pants": {
           "slot": "pants",
-          "priority_uniques": [
-            "Temerity"
-          ],
+          "priority_uniques": [],
           "priority_aspects": [],
           "priority_affixes": [
             {
-              "name": "vigor",
+              "name": "the_skillful",
+              "weight": 10
+            },
+            {
+              "name": "the_adroit",
               "weight": 8
             },
             {
-              "name": "unique_healingpercent_verybig",
+              "name": "vigor",
               "weight": 6
             },
             {
               "name": "toughened",
               "weight": 4
-            },
-            {
-              "name": "unique_generic_luckyhit_heallife",
-              "weight": 3
             },
             {
               "name": "revel",
@@ -1064,10 +1062,6 @@
             {
               "name": "vigor",
               "weight": 6
-            },
-            {
-              "name": "efficiency",
-              "weight": 4
             }
           ],
           "required_tempers": []

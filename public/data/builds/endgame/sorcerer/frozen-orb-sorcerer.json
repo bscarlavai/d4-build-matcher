@@ -6,7 +6,7 @@
   "source_url": "https://maxroll.gg/d4/build-guides/frozen-orb-sorcerer-guide",
   "tier": "B",
   "tags": [],
-  "last_updated": "2026-03-15",
+  "last_updated": "2026-03-16",
   "profile_order": [
     "starter",
     "ancestral",
@@ -323,15 +323,17 @@
       "gear": {
         "helm": {
           "slot": "helm",
-          "priority_uniques": [],
+          "priority_uniques": [
+            "Godslayer Crown"
+          ],
           "priority_aspects": [],
           "priority_affixes": [
             {
-              "name": "infusing",
+              "name": "swiftness",
               "weight": 10
             },
             {
-              "name": "the_wise",
+              "name": "unique_damage_to_elite_specialscaling",
               "weight": 8
             },
             {
@@ -339,70 +341,40 @@
               "weight": 6
             },
             {
-              "name": "swiftness",
+              "name": "harmony",
               "weight": 4
-            },
-            {
-              "name": "toughened",
-              "weight": 3
-            },
-            {
-              "name": "auric",
-              "weight": 3
-            },
-            {
-              "name": "regeneration",
-              "weight": 3
-            },
-            {
-              "name": "keenness",
-              "weight": 3
             }
           ],
           "required_tempers": []
         },
         "chest": {
           "slot": "chest",
-          "priority_uniques": [
-            "Raiment of the Infinite"
-          ],
+          "priority_uniques": [],
           "priority_aspects": [],
           "priority_affixes": [
             {
-              "name": "unique_corestat_intelligence_higher",
+              "name": "the_wise",
+              "weight": 10
+            },
+            {
+              "name": "vigor",
               "weight": 8
             },
             {
-              "name": "unique_resistance_all_higher",
+              "name": "infusing",
               "weight": 6
             },
             {
-              "name": "unique_cdr_skill_sorc_teleport",
+              "name": "efficiency",
               "weight": 4
-            },
-            {
-              "name": "reckless_magic",
-              "weight": 3
-            },
-            {
-              "name": "keenness",
-              "weight": 3
             },
             {
               "name": "carnage",
               "weight": 10
             },
             {
-              "name": "the_wise",
-              "weight": 8
-            },
-            {
               "name": "the_adept",
               "weight": 6
-            },
-            {
-              "name": "vigor",
-              "weight": 4
             }
           ],
           "required_tempers": []

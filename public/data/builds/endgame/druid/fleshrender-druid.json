@@ -6,7 +6,7 @@
   "source_url": "https://maxroll.gg/d4/build-guides/fleshrender-druid-guide",
   "tier": "A",
   "tags": [],
-  "last_updated": "2026-03-15",
+  "last_updated": "2026-03-16",
   "profile_order": [
     "ancestral",
     "mythic",
@@ -278,6 +278,10 @@
               "weight": 3
             },
             {
+              "name": "tenderize",
+              "weight": 3
+            },
+            {
               "name": "unique_corestat_willpower_higher",
               "weight": 6
             },
@@ -323,6 +327,10 @@
             },
             {
               "name": "keenness",
+              "weight": 3
+            },
+            {
+              "name": "tenderize",
               "weight": 3
             }
           ],
@@ -585,6 +593,10 @@
               "weight": 3
             },
             {
+              "name": "tenderize",
+              "weight": 3
+            },
+            {
               "name": "unique_corestat_willpower_higher",
               "weight": 6
             },
@@ -630,6 +642,10 @@
             },
             {
               "name": "keenness",
+              "weight": 3
+            },
+            {
+              "name": "tenderize",
               "weight": 3
             }
           ],
@@ -892,6 +908,10 @@
               "weight": 3
             },
             {
+              "name": "tenderize",
+              "weight": 3
+            },
+            {
               "name": "unique_corestat_willpower_higher",
               "weight": 6
             },
@@ -937,6 +957,10 @@
             },
             {
               "name": "keenness",
+              "weight": 3
+            },
+            {
+              "name": "tenderize",
               "weight": 3
             }
           ],
@@ -1177,6 +1201,10 @@
               "weight": 4
             },
             {
+              "name": "tenderize",
+              "weight": 3
+            },
+            {
               "name": "determination",
               "weight": 10
             },
@@ -1234,6 +1262,10 @@
             },
             {
               "name": "keenness",
+              "weight": 3
+            },
+            {
+              "name": "tenderize",
               "weight": 3
             }
           ],
@@ -1482,6 +1514,10 @@
             {
               "name": "auric",
               "weight": 3
+            },
+            {
+              "name": "tenderize",
+              "weight": 3
             }
           ],
           "required_tempers": []
@@ -1517,6 +1553,10 @@
             },
             {
               "name": "keenness",
+              "weight": 3
+            },
+            {
+              "name": "tenderize",
               "weight": 3
             }
           ],

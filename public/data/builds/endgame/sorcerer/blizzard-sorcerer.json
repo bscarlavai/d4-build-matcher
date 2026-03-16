@@ -6,7 +6,7 @@
   "source_url": "https://maxroll.gg/d4/build-guides/blizzard-sorcerer-guide",
   "tier": "A",
   "tags": [],
-  "last_updated": "2026-03-15",
+  "last_updated": "2026-03-16",
   "profile_order": [
     "starter",
     "ancestral",
@@ -279,15 +279,17 @@
       "gear": {
         "helm": {
           "slot": "helm",
-          "priority_uniques": [],
+          "priority_uniques": [
+            "Godslayer Crown"
+          ],
           "priority_aspects": [],
           "priority_affixes": [
             {
-              "name": "infusing",
+              "name": "swiftness",
               "weight": 10
             },
             {
-              "name": "the_wise",
+              "name": "unique_damage_to_elite_specialscaling",
               "weight": 8
             },
             {
@@ -295,16 +297,8 @@
               "weight": 6
             },
             {
-              "name": "swiftness",
+              "name": "harmony",
               "weight": 4
-            },
-            {
-              "name": "toughened",
-              "weight": 3
-            },
-            {
-              "name": "auric",
-              "weight": 3
             },
             {
               "name": "keenness",
@@ -315,46 +309,32 @@
         },
         "chest": {
           "slot": "chest",
-          "priority_uniques": [
-            "Raiment of the Infinite"
-          ],
+          "priority_uniques": [],
           "priority_aspects": [],
           "priority_affixes": [
             {
-              "name": "reckless_magic",
+              "name": "the_wise",
               "weight": 10
             },
             {
-              "name": "unique_corestat_intelligence_higher",
+              "name": "vigor",
               "weight": 8
             },
             {
-              "name": "unique_passiverankbonus_sorc_elemental_t2_n2_elementalattunement",
+              "name": "infusing",
               "weight": 6
             },
             {
-              "name": "shocks",
+              "name": "efficiency",
               "weight": 4
-            },
-            {
-              "name": "keenness",
-              "weight": 3
             },
             {
               "name": "carnage",
               "weight": 10
             },
             {
-              "name": "the_wise",
-              "weight": 8
-            },
-            {
               "name": "the_adept",
               "weight": 6
-            },
-            {
-              "name": "vigor",
-              "weight": 4
             },
             {
               "name": "ferocity",

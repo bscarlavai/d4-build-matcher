@@ -6,7 +6,7 @@
   "source_url": "https://maxroll.gg/d4/build-guides/stone-burst-druid-build-guide",
   "tier": "B",
   "tags": [],
-  "last_updated": "2026-03-15",
+  "last_updated": "2026-03-16",
   "profile_order": [
     "starter",
     "ancestral",
@@ -260,6 +260,10 @@
             {
               "name": "carnage",
               "weight": 3
+            },
+            {
+              "name": "tenderize",
+              "weight": 3
             }
           ],
           "required_tempers": []
@@ -291,6 +295,10 @@
             },
             {
               "name": "determination",
+              "weight": 3
+            },
+            {
+              "name": "tenderize",
               "weight": 3
             }
           ],
@@ -548,6 +556,10 @@
             {
               "name": "carnage",
               "weight": 3
+            },
+            {
+              "name": "tenderize",
+              "weight": 3
             }
           ],
           "required_tempers": []
@@ -583,6 +595,10 @@
             },
             {
               "name": "determination",
+              "weight": 3
+            },
+            {
+              "name": "tenderize",
               "weight": 3
             }
           ],
@@ -826,6 +842,10 @@
             {
               "name": "carnage",
               "weight": 3
+            },
+            {
+              "name": "tenderize",
+              "weight": 3
             }
           ],
           "required_tempers": []
@@ -861,6 +881,10 @@
             },
             {
               "name": "determination",
+              "weight": 3
+            },
+            {
+              "name": "tenderize",
               "weight": 3
             }
           ],
