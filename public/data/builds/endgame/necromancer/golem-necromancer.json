@@ -6,7 +6,7 @@
   "source_url": "https://maxroll.gg/d4/build-guides/golem-necromancer-guide",
   "tier": "A",
   "tags": [],
-  "last_updated": "2026-03-16",
+  "last_updated": "2026-03-17",
   "profile_order": [
     "starter",
     "ancestral",
@@ -465,6 +465,10 @@
             {
               "name": "tenderize",
               "weight": 3
+            },
+            {
+              "name": "the_focused",
+              "weight": 8
             },
             {
               "name": "vigor",

@@ -8,6 +8,12 @@
       "file": "wing-strikes-paladin.json"
     },
     {
+      "id": "shield-of-retribution-paladin",
+      "name": "Shield Of Retribution Paladin",
+      "tier": "S",
+      "file": "shield-of-retribution-paladin.json"
+    },
+    {
       "id": "auradin",
       "name": "Auradin",
       "tier": "S",
@@ -24,12 +30,6 @@
       "name": "Fist Of The Heavens Paladin",
       "tier": "S",
       "file": "fist-of-the-heavens-paladin.json"
-    },
-    {
-      "id": "shield-of-retribution-paladin",
-      "name": "Shield Of Retribution Paladin",
-      "tier": "S",
-      "file": "shield-of-retribution-paladin.json"
     },
     {
       "id": "brandish-paladin",
