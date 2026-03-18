@@ -6,7 +6,7 @@
   "source_url": "https://maxroll.gg/d4/build-guides/golem-necromancer-guide",
   "tier": "A",
   "tags": [],
-  "last_updated": "2026-03-17",
+  "last_updated": "2026-03-18",
   "profile_order": [
     "starter",
     "ancestral",
@@ -321,6 +321,10 @@
             {
               "name": "swiftness",
               "weight": 4
+            },
+            {
+              "name": "tenderize",
+              "weight": 3
             }
           ],
           "required_tempers": []
@@ -377,7 +381,7 @@
               "weight": 4
             },
             {
-              "name": "gluttony",
+              "name": "anatomy",
               "weight": 3
             }
           ],
@@ -407,7 +411,7 @@
               "weight": 4
             },
             {
-              "name": "gluttony",
+              "name": "keenness",
               "weight": 3
             }
           ],
@@ -513,10 +517,26 @@
         "helm": {
           "slot": "helm",
           "priority_uniques": [
-            "Heir of Perdition"
+            "Godslayer Crown"
           ],
           "priority_aspects": [],
           "priority_affixes": [
+            {
+              "name": "unique_damage_to_elite_specialscaling",
+              "weight": 8
+            },
+            {
+              "name": "swiftness",
+              "weight": 6
+            },
+            {
+              "name": "vigor",
+              "weight": 4
+            },
+            {
+              "name": "harmony",
+              "weight": 3
+            },
             {
               "name": "gluttony",
               "weight": 3
@@ -536,23 +556,23 @@
               "weight": 3
             },
             {
-              "name": "perpetuity",
+              "name": "the_wise",
               "weight": 10
             },
             {
-              "name": "the_wise",
+              "name": "vigor",
               "weight": 8
             },
             {
-              "name": "vigor",
+              "name": "tenderize",
               "weight": 6
             },
             {
-              "name": "swiftness",
+              "name": "the_adept",
               "weight": 4
             },
             {
-              "name": "tenderize",
+              "name": "swiftness",
               "weight": 3
             }
           ],
@@ -598,7 +618,7 @@
               "weight": 10
             },
             {
-              "name": "keenness",
+              "name": "the_adept",
               "weight": 8
             },
             {
@@ -684,7 +704,7 @@
               "weight": 10
             },
             {
-              "name": "keenness",
+              "name": "the_adept",
               "weight": 8
             },
             {
@@ -700,8 +720,8 @@
               "weight": 3
             },
             {
-              "name": "riving",
-              "weight": 4
+              "name": "keenness",
+              "weight": 10
             }
           ],
           "required_tempers": []
@@ -995,10 +1015,26 @@
         "helm": {
           "slot": "helm",
           "priority_uniques": [
-            "Heir of Perdition"
+            "Godslayer Crown"
           ],
           "priority_aspects": [],
           "priority_affixes": [
+            {
+              "name": "unique_damage_to_elite_specialscaling",
+              "weight": 8
+            },
+            {
+              "name": "swiftness",
+              "weight": 6
+            },
+            {
+              "name": "vigor",
+              "weight": 4
+            },
+            {
+              "name": "harmony",
+              "weight": 3
+            },
             {
               "name": "gluttony",
               "weight": 3
@@ -1018,7 +1054,7 @@
               "weight": 3
             },
             {
-              "name": "perpetuity",
+              "name": "the_adept",
               "weight": 10
             },
             {
@@ -1080,7 +1116,7 @@
               "weight": 10
             },
             {
-              "name": "keenness",
+              "name": "the_adept",
               "weight": 8
             },
             {
@@ -1166,7 +1202,7 @@
               "weight": 10
             },
             {
-              "name": "keenness",
+              "name": "the_adept",
               "weight": 8
             },
             {
@@ -1180,6 +1216,10 @@
             {
               "name": "tenderize",
               "weight": 3
+            },
+            {
+              "name": "keenness",
+              "weight": 10
             },
             {
               "name": "riving",
