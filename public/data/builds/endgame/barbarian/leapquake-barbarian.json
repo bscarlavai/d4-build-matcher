@@ -6,7 +6,7 @@
   "source_url": "https://maxroll.gg/d4/build-guides/leapquake-barbarian-guide",
   "tier": "S",
   "tags": [],
-  "last_updated": "2026-03-18",
+  "last_updated": "2026-03-19",
   "profile_order": [
     "starter",
     "ancestral",
@@ -276,6 +276,10 @@
             {
               "name": "unique_movement_speed_whileberserking",
               "weight": 3
+            },
+            {
+              "name": "gluttony",
+              "weight": 3
             }
           ],
           "required_tempers": []
@@ -302,6 +306,10 @@
             {
               "name": "battering",
               "weight": 4
+            },
+            {
+              "name": "gluttony",
+              "weight": 3
             }
           ],
           "required_tempers": []
@@ -328,6 +336,10 @@
             {
               "name": "the_focused",
               "weight": 4
+            },
+            {
+              "name": "tenderize",
+              "weight": 3
             },
             {
               "name": "ferocity",
@@ -366,6 +378,10 @@
             {
               "name": "unique_skillrankbonus_generic_category_core_higher",
               "weight": 3
+            },
+            {
+              "name": "tenderize",
+              "weight": 3
             }
           ],
           "required_tempers": []
@@ -391,6 +407,10 @@
             },
             {
               "name": "unique_luck_gigagiga_highvariance",
+              "weight": 3
+            },
+            {
+              "name": "gluttony",
               "weight": 3
             }
           ],
@@ -418,6 +438,10 @@
             {
               "name": "vigor",
               "weight": 4
+            },
+            {
+              "name": "gluttony",
+              "weight": 3
             }
           ],
           "required_tempers": []
@@ -442,6 +466,10 @@
             {
               "name": "infusing",
               "weight": 4
+            },
+            {
+              "name": "gluttony",
+              "weight": 3
             }
           ],
           "required_tempers": []
@@ -466,6 +494,10 @@
             {
               "name": "keenness",
               "weight": 4
+            },
+            {
+              "name": "tenderize",
+              "weight": 3
             },
             {
               "name": "swiftness",
@@ -502,6 +534,10 @@
             {
               "name": "the_adept",
               "weight": 3
+            },
+            {
+              "name": "tenderize",
+              "weight": 3
             }
           ],
           "required_tempers": []
@@ -533,7 +569,7 @@
               "weight": 4
             },
             {
-              "name": "anatomy",
+              "name": "gluttony",
               "weight": 3
             }
           ],
@@ -561,6 +597,10 @@
             {
               "name": "battering",
               "weight": 4
+            },
+            {
+              "name": "gluttony",
+              "weight": 3
             }
           ],
           "required_tempers": []
@@ -629,6 +669,10 @@
             {
               "name": "unique_skillrankbonus_generic_category_core_higher",
               "weight": 3
+            },
+            {
+              "name": "tenderize",
+              "weight": 3
             }
           ],
           "required_tempers": []
@@ -653,6 +697,10 @@
             {
               "name": "the_focused",
               "weight": 4
+            },
+            {
+              "name": "gluttony",
+              "weight": 3
             }
           ],
           "required_tempers": []
@@ -679,6 +727,10 @@
             {
               "name": "vigor",
               "weight": 4
+            },
+            {
+              "name": "gluttony",
+              "weight": 3
             }
           ],
           "required_tempers": []
@@ -704,6 +756,10 @@
             },
             {
               "name": "unique_resistance_all_higher",
+              "weight": 3
+            },
+            {
+              "name": "gluttony",
               "weight": 3
             }
           ],
@@ -743,7 +799,12 @@
             "Melted Heart of Selig"
           ],
           "priority_aspects": [],
-          "priority_affixes": [],
+          "priority_affixes": [
+            {
+              "name": "tenderize",
+              "weight": 3
+            }
+          ],
           "required_tempers": []
         }
       }
@@ -777,6 +838,10 @@
             {
               "name": "sanctity",
               "weight": 3
+            },
+            {
+              "name": "gluttony",
+              "weight": 3
             }
           ],
           "required_tempers": []
@@ -802,6 +867,10 @@
             },
             {
               "name": "unique_armor_giga_specialscaling",
+              "weight": 3
+            },
+            {
+              "name": "gluttony",
               "weight": 3
             }
           ],
@@ -871,6 +940,10 @@
             {
               "name": "unique_passiverankbonus_barb_talent_13_warpath",
               "weight": 3
+            },
+            {
+              "name": "tenderize",
+              "weight": 3
             }
           ],
           "required_tempers": []
@@ -895,6 +968,10 @@
             {
               "name": "the_focused",
               "weight": 4
+            },
+            {
+              "name": "gluttony",
+              "weight": 3
             }
           ],
           "required_tempers": []
@@ -921,6 +998,10 @@
             {
               "name": "keenness",
               "weight": 3
+            },
+            {
+              "name": "gluttony",
+              "weight": 3
             }
           ],
           "required_tempers": []
@@ -946,6 +1027,10 @@
             },
             {
               "name": "unique_passiverankbonus_barb_talent_11_belligerence",
+              "weight": 3
+            },
+            {
+              "name": "gluttony",
               "weight": 3
             }
           ],

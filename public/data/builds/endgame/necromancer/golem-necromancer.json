@@ -6,7 +6,7 @@
   "source_url": "https://maxroll.gg/d4/build-guides/golem-necromancer-guide",
   "tier": "A",
   "tags": [],
-  "last_updated": "2026-03-18",
+  "last_updated": "2026-03-19",
   "profile_order": [
     "starter",
     "ancestral",
@@ -517,31 +517,10 @@
         "helm": {
           "slot": "helm",
           "priority_uniques": [
-            "Godslayer Crown"
+            "Heir of Perdition"
           ],
           "priority_aspects": [],
-          "priority_affixes": [
-            {
-              "name": "unique_damage_to_elite_specialscaling",
-              "weight": 8
-            },
-            {
-              "name": "swiftness",
-              "weight": 6
-            },
-            {
-              "name": "vigor",
-              "weight": 4
-            },
-            {
-              "name": "harmony",
-              "weight": 3
-            },
-            {
-              "name": "gluttony",
-              "weight": 3
-            }
-          ],
+          "priority_affixes": [],
           "required_tempers": []
         },
         "chest": {
@@ -568,7 +547,7 @@
               "weight": 6
             },
             {
-              "name": "the_adept",
+              "name": "perpetuity",
               "weight": 4
             },
             {
@@ -618,7 +597,7 @@
               "weight": 10
             },
             {
-              "name": "the_adept",
+              "name": "swiftness",
               "weight": 8
             },
             {
@@ -704,7 +683,7 @@
               "weight": 10
             },
             {
-              "name": "the_adept",
+              "name": "the_focused",
               "weight": 8
             },
             {

@@ -6,14 +6,15 @@
   "source_url": "https://maxroll.gg/d4/build-guides/evade-spiritborn-build-guide",
   "tier": "S",
   "tags": [],
-  "last_updated": "2026-03-18",
+  "last_updated": "2026-03-19",
   "profile_order": [
     "starter",
     "ancestral",
     "mythic",
     "level_1-60",
     "push",
-    "alt_-_transition"
+    "alt_-_transition",
+    "blood-mad"
   ],
   "profiles": {
     "level_1-60": {
@@ -1105,16 +1106,20 @@
               "weight": 10
             },
             {
-              "name": "the_adroit",
+              "name": "gluttony",
               "weight": 8
             },
             {
-              "name": "vigor",
+              "name": "the_adroit",
               "weight": 6
             },
             {
-              "name": "toughened",
+              "name": "vigor",
               "weight": 4
+            },
+            {
+              "name": "toughened",
+              "weight": 3
             },
             {
               "name": "auric",
@@ -1122,10 +1127,6 @@
             },
             {
               "name": "remedies",
-              "weight": 3
-            },
-            {
-              "name": "gluttony",
               "weight": 3
             }
           ],
@@ -1436,6 +1437,251 @@
             {
               "name": "unique_movement_speed_higher",
               "weight": 4
+            }
+          ],
+          "required_tempers": []
+        }
+      }
+    },
+    "blood-mad": {
+      "name": "Blood-Mad",
+      "gear": {
+        "helm": {
+          "slot": "helm",
+          "priority_uniques": [
+            "Loyalty's Mantle"
+          ],
+          "priority_aspects": [],
+          "priority_affixes": [
+            {
+              "name": "the_adroit",
+              "weight": 8
+            },
+            {
+              "name": "unique_corestats_all_higher",
+              "weight": 6
+            },
+            {
+              "name": "unique_movement_speed_lesser",
+              "weight": 4
+            },
+            {
+              "name": "unique_passiverankbonus_spiritborn_velocity_higher",
+              "weight": 3
+            },
+            {
+              "name": "gluttony",
+              "weight": 3
+            }
+          ],
+          "required_tempers": []
+        },
+        "chest": {
+          "slot": "chest",
+          "priority_uniques": [
+            "Shroud of False Death"
+          ],
+          "priority_aspects": [],
+          "priority_affixes": [
+            {
+              "name": "gluttony",
+              "weight": 3
+            }
+          ],
+          "required_tempers": []
+        },
+        "gloves": {
+          "slot": "gloves",
+          "priority_uniques": [],
+          "priority_aspects": [],
+          "priority_affixes": [
+            {
+              "name": "swiftness",
+              "weight": 10
+            },
+            {
+              "name": "the_adroit",
+              "weight": 8
+            },
+            {
+              "name": "vigor",
+              "weight": 6
+            },
+            {
+              "name": "the_focused",
+              "weight": 4
+            },
+            {
+              "name": "toughened",
+              "weight": 3
+            },
+            {
+              "name": "cruelty",
+              "weight": 3
+            },
+            {
+              "name": "auric",
+              "weight": 3
+            },
+            {
+              "name": "carnage",
+              "weight": 3
+            },
+            {
+              "name": "gluttony",
+              "weight": 3
+            }
+          ],
+          "required_tempers": []
+        },
+        "pants": {
+          "slot": "pants",
+          "priority_uniques": [
+            "Temerity"
+          ],
+          "priority_aspects": [],
+          "priority_affixes": [
+            {
+              "name": "vigor",
+              "weight": 8
+            },
+            {
+              "name": "gluttony",
+              "weight": 6
+            },
+            {
+              "name": "unique_generic_luckyhit_heallife",
+              "weight": 4
+            },
+            {
+              "name": "unique_healingpercent_verybig",
+              "weight": 3
+            },
+            {
+              "name": "toughened",
+              "weight": 3
+            }
+          ],
+          "required_tempers": []
+        },
+        "boots": {
+          "slot": "boots",
+          "priority_uniques": [],
+          "priority_aspects": [],
+          "priority_affixes": [
+            {
+              "name": "the_focused",
+              "weight": 10
+            },
+            {
+              "name": "the_adroit",
+              "weight": 8
+            },
+            {
+              "name": "vigor",
+              "weight": 6
+            },
+            {
+              "name": "toughened",
+              "weight": 4
+            },
+            {
+              "name": "auric",
+              "weight": 3
+            },
+            {
+              "name": "remedies",
+              "weight": 3
+            },
+            {
+              "name": "gluttony",
+              "weight": 3
+            }
+          ],
+          "required_tempers": []
+        },
+        "ring": {
+          "slot": "ring",
+          "priority_uniques": [],
+          "priority_aspects": [],
+          "priority_affixes": [
+            {
+              "name": "swiftness",
+              "weight": 10
+            },
+            {
+              "name": "the_adroit",
+              "weight": 8
+            },
+            {
+              "name": "vigor",
+              "weight": 6
+            },
+            {
+              "name": "cruelty",
+              "weight": 4
+            },
+            {
+              "name": "the_focused",
+              "weight": 3
+            },
+            {
+              "name": "ferocity",
+              "weight": 3
+            },
+            {
+              "name": "remedies",
+              "weight": 3
+            },
+            {
+              "name": "auric",
+              "weight": 3
+            },
+            {
+              "name": "carnage",
+              "weight": 3
+            },
+            {
+              "name": "tenderize",
+              "weight": 3
+            },
+            {
+              "name": "regrowth",
+              "weight": 3
+            },
+            {
+              "name": "neutralizing",
+              "weight": 3
+            }
+          ],
+          "required_tempers": []
+        },
+        "amulet": {
+          "slot": "amulet",
+          "priority_uniques": [
+            "Blood-Mad Idol"
+          ],
+          "priority_aspects": [],
+          "priority_affixes": [
+            {
+              "name": "harmony",
+              "weight": 8
+            },
+            {
+              "name": "keenness",
+              "weight": 6
+            },
+            {
+              "name": "the_adept",
+              "weight": 4
+            },
+            {
+              "name": "desperation",
+              "weight": 3
+            },
+            {
+              "name": "tenderize",
+              "weight": 3
             }
           ],
           "required_tempers": []

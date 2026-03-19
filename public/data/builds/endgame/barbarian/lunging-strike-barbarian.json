@@ -6,7 +6,7 @@
   "source_url": "https://maxroll.gg/d4/build-guides/lunging-strike-barbarian-guide",
   "tier": "S",
   "tags": [],
-  "last_updated": "2026-03-18",
+  "last_updated": "2026-03-19",
   "profile_order": [
     "mythic",
     "start",
@@ -535,6 +535,10 @@
             {
               "name": "vigor",
               "weight": 3
+            },
+            {
+              "name": "seethe",
+              "weight": 3
             }
           ],
           "required_tempers": []
@@ -545,7 +549,12 @@
             "Shroud of False Death"
           ],
           "priority_aspects": [],
-          "priority_affixes": [],
+          "priority_affixes": [
+            {
+              "name": "revel",
+              "weight": 3
+            }
+          ],
           "required_tempers": []
         },
         "weapon": {
@@ -570,6 +579,10 @@
             {
               "name": "ferocity",
               "weight": 4
+            },
+            {
+              "name": "tenderize",
+              "weight": 3
             },
             {
               "name": "perpetuity",
@@ -620,6 +633,10 @@
             {
               "name": "demolition",
               "weight": 3
+            },
+            {
+              "name": "tenderize",
+              "weight": 3
             }
           ],
           "required_tempers": []
@@ -645,6 +662,10 @@
             },
             {
               "name": "unique_generic_luckyhit_stun",
+              "weight": 3
+            },
+            {
+              "name": "gluttony",
               "weight": 3
             }
           ],
@@ -672,6 +693,10 @@
             {
               "name": "keenness",
               "weight": 3
+            },
+            {
+              "name": "gluttony",
+              "weight": 3
             }
           ],
           "required_tempers": []
@@ -697,6 +722,10 @@
             },
             {
               "name": "speed",
+              "weight": 3
+            },
+            {
+              "name": "gluttony",
               "weight": 3
             }
           ],
@@ -768,6 +797,10 @@
             {
               "name": "vigor",
               "weight": 3
+            },
+            {
+              "name": "seethe",
+              "weight": 3
             }
           ],
           "required_tempers": []
@@ -778,7 +811,12 @@
             "Shroud of False Death"
           ],
           "priority_aspects": [],
-          "priority_affixes": [],
+          "priority_affixes": [
+            {
+              "name": "revel",
+              "weight": 3
+            }
+          ],
           "required_tempers": []
         },
         "weapon": {
@@ -803,6 +841,10 @@
             {
               "name": "ferocity",
               "weight": 4
+            },
+            {
+              "name": "tenderize",
+              "weight": 3
             },
             {
               "name": "perpetuity",
@@ -853,6 +895,10 @@
             {
               "name": "demolition",
               "weight": 3
+            },
+            {
+              "name": "tenderize",
+              "weight": 3
             }
           ],
           "required_tempers": []
@@ -878,6 +924,10 @@
             },
             {
               "name": "unique_generic_luckyhit_stun",
+              "weight": 3
+            },
+            {
+              "name": "gluttony",
               "weight": 3
             }
           ],
@@ -905,6 +955,10 @@
             {
               "name": "keenness",
               "weight": 3
+            },
+            {
+              "name": "gluttony",
+              "weight": 3
             }
           ],
           "required_tempers": []
@@ -930,6 +984,10 @@
             },
             {
               "name": "speed",
+              "weight": 3
+            },
+            {
+              "name": "gluttony",
               "weight": 3
             }
           ],
@@ -978,28 +1036,28 @@
         "helm": {
           "slot": "helm",
           "priority_uniques": [
-            "Crown of Lucion"
+            "Godslayer Crown"
           ],
           "priority_aspects": [],
           "priority_affixes": [
             {
-              "name": "bsk_generic_002",
+              "name": "swiftness",
               "weight": 10
             },
             {
-              "name": "swiftness",
+              "name": "unique_damage_to_elite_specialscaling",
               "weight": 8
             },
             {
-              "name": "sanctity",
+              "name": "harmony",
               "weight": 6
             },
             {
-              "name": "luck",
+              "name": "vigor",
               "weight": 4
             },
             {
-              "name": "vigor",
+              "name": "seethe",
               "weight": 3
             }
           ],
@@ -1011,7 +1069,12 @@
             "Shroud of False Death"
           ],
           "priority_aspects": [],
-          "priority_affixes": [],
+          "priority_affixes": [
+            {
+              "name": "revel",
+              "weight": 3
+            }
+          ],
           "required_tempers": []
         },
         "weapon": {
@@ -1036,6 +1099,10 @@
             {
               "name": "ferocity",
               "weight": 4
+            },
+            {
+              "name": "tenderize",
+              "weight": 3
             },
             {
               "name": "perpetuity",
@@ -1086,6 +1153,10 @@
             {
               "name": "demolition",
               "weight": 3
+            },
+            {
+              "name": "tenderize",
+              "weight": 3
             }
           ],
           "required_tempers": []
@@ -1111,6 +1182,10 @@
             },
             {
               "name": "unique_generic_luckyhit_stun",
+              "weight": 3
+            },
+            {
+              "name": "gluttony",
               "weight": 3
             }
           ],
@@ -1138,6 +1213,10 @@
             {
               "name": "keenness",
               "weight": 3
+            },
+            {
+              "name": "gluttony",
+              "weight": 3
             }
           ],
           "required_tempers": []
@@ -1163,6 +1242,10 @@
             },
             {
               "name": "speed",
+              "weight": 3
+            },
+            {
+              "name": "gluttony",
               "weight": 3
             }
           ],
