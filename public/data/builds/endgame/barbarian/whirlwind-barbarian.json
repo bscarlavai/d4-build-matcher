@@ -6,7 +6,7 @@
   "source_url": "https://maxroll.gg/d4/build-guides/whirlwind-barbarian-guide",
   "tier": "S",
   "tags": [],
-  "last_updated": "2026-03-19",
+  "last_updated": "2026-03-20",
   "profile_order": [
     "starter",
     "ancestral",
@@ -38,6 +38,10 @@
             {
               "name": "steel",
               "weight": 4
+            },
+            {
+              "name": "gluttony",
+              "weight": 3
             }
           ],
           "required_tempers": []
@@ -62,6 +66,10 @@
             {
               "name": "toughened",
               "weight": 4
+            },
+            {
+              "name": "gluttony",
+              "weight": 3
             }
           ],
           "required_tempers": []
@@ -134,6 +142,10 @@
             {
               "name": "vigor",
               "weight": 4
+            },
+            {
+              "name": "gluttony",
+              "weight": 3
             }
           ],
           "required_tempers": []
@@ -158,6 +170,10 @@
             {
               "name": "toughened",
               "weight": 4
+            },
+            {
+              "name": "gluttony",
+              "weight": 3
             }
           ],
           "required_tempers": []
@@ -182,6 +198,10 @@
             {
               "name": "vigor",
               "weight": 4
+            },
+            {
+              "name": "gluttony",
+              "weight": 3
             }
           ],
           "required_tempers": []
@@ -261,6 +281,10 @@
             {
               "name": "unique_generic_luckyhit_flatdamage_elementalsurge_fire_higher",
               "weight": 3
+            },
+            {
+              "name": "gluttony",
+              "weight": 3
             }
           ],
           "required_tempers": []
@@ -287,6 +311,10 @@
             {
               "name": "battering",
               "weight": 4
+            },
+            {
+              "name": "gluttony",
+              "weight": 3
             }
           ],
           "required_tempers": []
@@ -371,6 +399,10 @@
             {
               "name": "unique_attackspeed_highvariance",
               "weight": 3
+            },
+            {
+              "name": "gluttony",
+              "weight": 3
             }
           ],
           "required_tempers": []
@@ -396,6 +428,10 @@
             },
             {
               "name": "unique_damage_generic_tag_ultimate_gigagiga",
+              "weight": 3
+            },
+            {
+              "name": "gluttony",
               "weight": 3
             }
           ],
@@ -484,7 +520,12 @@
             "Heir of Perdition"
           ],
           "priority_aspects": [],
-          "priority_affixes": [],
+          "priority_affixes": [
+            {
+              "name": "gluttony",
+              "weight": 3
+            }
+          ],
           "required_tempers": []
         },
         "chest": {
@@ -509,6 +550,10 @@
             {
               "name": "battering",
               "weight": 4
+            },
+            {
+              "name": "gluttony",
+              "weight": 3
             }
           ],
           "required_tempers": []
@@ -594,6 +639,10 @@
             {
               "name": "unique_attackspeed_highvariance",
               "weight": 3
+            },
+            {
+              "name": "gluttony",
+              "weight": 3
             }
           ],
           "required_tempers": []
@@ -620,6 +669,10 @@
             {
               "name": "unique_damage_generic_tag_ultimate_gigagiga",
               "weight": 3
+            },
+            {
+              "name": "gluttony",
+              "weight": 3
             }
           ],
           "required_tempers": []
@@ -644,6 +697,10 @@
             {
               "name": "infusing",
               "weight": 4
+            },
+            {
+              "name": "gluttony",
+              "weight": 3
             }
           ],
           "required_tempers": []
@@ -745,6 +802,10 @@
             {
               "name": "sanctity",
               "weight": 3
+            },
+            {
+              "name": "gluttony",
+              "weight": 3
             }
           ],
           "required_tempers": []
@@ -771,6 +832,10 @@
             {
               "name": "battering",
               "weight": 4
+            },
+            {
+              "name": "gluttony",
+              "weight": 3
             }
           ],
           "required_tempers": []
@@ -859,6 +924,10 @@
             {
               "name": "the_focused",
               "weight": 4
+            },
+            {
+              "name": "gluttony",
+              "weight": 3
             }
           ],
           "required_tempers": []
@@ -885,6 +954,10 @@
             {
               "name": "keenness",
               "weight": 3
+            },
+            {
+              "name": "gluttony",
+              "weight": 3
             }
           ],
           "required_tempers": []
@@ -909,6 +982,10 @@
             {
               "name": "infusing",
               "weight": 4
+            },
+            {
+              "name": "gluttony",
+              "weight": 3
             }
           ],
           "required_tempers": []

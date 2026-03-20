@@ -6,12 +6,13 @@
   "source_url": "https://maxroll.gg/d4/build-guides/heartseeker-rogue-specialized-guide",
   "tier": "S",
   "tags": [],
-  "last_updated": "2026-03-19",
+  "last_updated": "2026-03-20",
   "profile_order": [
     "starter",
     "ancestral",
     "mythic",
-    "push"
+    "push",
+    "cozy_om_speed"
   ],
   "profiles": {
     "starter": {
@@ -1006,6 +1007,283 @@
             {
               "name": "the_adept",
               "weight": 4
+            }
+          ],
+          "required_tempers": []
+        },
+        "amulet": {
+          "slot": "amulet",
+          "priority_uniques": [],
+          "priority_aspects": [],
+          "priority_affixes": [
+            {
+              "name": "shattering",
+              "weight": 10
+            },
+            {
+              "name": "malice",
+              "weight": 8
+            },
+            {
+              "name": "instability",
+              "weight": 6
+            },
+            {
+              "name": "resources",
+              "weight": 4
+            },
+            {
+              "name": "tenderize",
+              "weight": 3
+            }
+          ],
+          "required_tempers": []
+        }
+      }
+    },
+    "cozy_om_speed": {
+      "name": "Cozy Om",
+      "gear": {
+        "helm": {
+          "slot": "helm",
+          "priority_uniques": [
+            "Crown of Lucion"
+          ],
+          "priority_aspects": [],
+          "priority_affixes": [
+            {
+              "name": "bsk_generic_002",
+              "weight": 10
+            },
+            {
+              "name": "vigor",
+              "weight": 8
+            },
+            {
+              "name": "swiftness",
+              "weight": 6
+            },
+            {
+              "name": "luck",
+              "weight": 4
+            },
+            {
+              "name": "sanctity",
+              "weight": 3
+            },
+            {
+              "name": "gluttony",
+              "weight": 3
+            }
+          ],
+          "required_tempers": []
+        },
+        "chest": {
+          "slot": "chest",
+          "priority_uniques": [
+            "Shroud of False Death"
+          ],
+          "priority_aspects": [],
+          "priority_affixes": [
+            {
+              "name": "gluttony",
+              "weight": 3
+            }
+          ],
+          "required_tempers": []
+        },
+        "offhand": {
+          "slot": "offhand",
+          "priority_uniques": [
+            "Orphan Maker"
+          ],
+          "priority_aspects": [],
+          "priority_affixes": [
+            {
+              "name": "unique_skillrankbonus_rogue_category_marksman",
+              "weight": 8
+            },
+            {
+              "name": "unique_passiverankbonus_rogue_t3_n1_exploit",
+              "weight": 6
+            },
+            {
+              "name": "unique_damage_to_vulnerable_higherweapon",
+              "weight": 4
+            },
+            {
+              "name": "unique_projectiles_tag_rogue_marksman",
+              "weight": 3
+            },
+            {
+              "name": "tenderize",
+              "weight": 3
+            },
+            {
+              "name": "the_adroit",
+              "weight": 10
+            },
+            {
+              "name": "cruelty",
+              "weight": 8
+            },
+            {
+              "name": "vigor",
+              "weight": 6
+            },
+            {
+              "name": "perpetuity",
+              "weight": 4
+            }
+          ],
+          "required_tempers": []
+        },
+        "weapon": {
+          "slot": "weapon",
+          "priority_uniques": [
+            "Shard of Verathiel"
+          ],
+          "priority_aspects": [],
+          "priority_affixes": [
+            {
+              "name": "bsk_generic_004",
+              "weight": 10
+            },
+            {
+              "name": "harmony",
+              "weight": 8
+            },
+            {
+              "name": "unique_skillrankbonus_generic_category_basic",
+              "weight": 6
+            },
+            {
+              "name": "unique_attackspeed_basics",
+              "weight": 4
+            },
+            {
+              "name": "resources",
+              "weight": 3
+            },
+            {
+              "name": "tenderize",
+              "weight": 3
+            }
+          ],
+          "required_tempers": []
+        },
+        "gloves": {
+          "slot": "gloves",
+          "priority_uniques": [
+            "Paingorger's Gauntlets"
+          ],
+          "priority_aspects": [],
+          "priority_affixes": [
+            {
+              "name": "keenness",
+              "weight": 8
+            },
+            {
+              "name": "unique_skillrankbonus_generic_category_basic_higher",
+              "weight": 6
+            },
+            {
+              "name": "swiftness",
+              "weight": 4
+            },
+            {
+              "name": "unique_generic_luckyhit_stun",
+              "weight": 3
+            },
+            {
+              "name": "gluttony",
+              "weight": 3
+            }
+          ],
+          "required_tempers": []
+        },
+        "pants": {
+          "slot": "pants",
+          "priority_uniques": [],
+          "priority_aspects": [],
+          "priority_affixes": [
+            {
+              "name": "the_adroit",
+              "weight": 10
+            },
+            {
+              "name": "precision",
+              "weight": 8
+            },
+            {
+              "name": "toughened",
+              "weight": 6
+            },
+            {
+              "name": "vigor",
+              "weight": 4
+            },
+            {
+              "name": "gluttony",
+              "weight": 3
+            }
+          ],
+          "required_tempers": []
+        },
+        "boots": {
+          "slot": "boots",
+          "priority_uniques": [
+            "Beastfall Boots"
+          ],
+          "priority_aspects": [],
+          "priority_affixes": [
+            {
+              "name": "unique_passiverankbonus_rogue_cunning_t1_n1_agile",
+              "weight": 8
+            },
+            {
+              "name": "unique_resource_max_allclasses_higher",
+              "weight": 6
+            },
+            {
+              "name": "unique_cdr_tag_generic_ultimate",
+              "weight": 4
+            },
+            {
+              "name": "speed",
+              "weight": 3
+            },
+            {
+              "name": "gluttony",
+              "weight": 3
+            }
+          ],
+          "required_tempers": []
+        },
+        "ring": {
+          "slot": "ring",
+          "priority_uniques": [],
+          "priority_aspects": [],
+          "priority_affixes": [
+            {
+              "name": "the_adroit",
+              "weight": 10
+            },
+            {
+              "name": "keenness",
+              "weight": 8
+            },
+            {
+              "name": "vigor",
+              "weight": 6
+            },
+            {
+              "name": "swiftness",
+              "weight": 4
+            },
+            {
+              "name": "tenderize",
+              "weight": 3
             }
           ],
           "required_tempers": []
