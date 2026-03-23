@@ -6,7 +6,7 @@
   "source_url": "https://maxroll.gg/d4/build-guides/twisting-blades-rogue-guide",
   "tier": "A",
   "tags": [],
-  "last_updated": "2026-03-22",
+  "last_updated": "2026-03-23",
   "profile_order": [
     "starter",
     "ancestral",
@@ -650,7 +650,7 @@
               "weight": 6
             },
             {
-              "name": "lingering",
+              "name": "the_adept",
               "weight": 4
             },
             {
@@ -805,7 +805,7 @@
               "weight": 3
             },
             {
-              "name": "keenness",
+              "name": "revel",
               "weight": 3
             }
           ],
@@ -968,15 +968,15 @@
               "weight": 10
             },
             {
-              "name": "vigor",
+              "name": "cruelty",
               "weight": 8
             },
             {
-              "name": "ferocity",
+              "name": "vigor",
               "weight": 6
             },
             {
-              "name": "lingering",
+              "name": "ferocity",
               "weight": 4
             },
             {
@@ -996,11 +996,11 @@
               "weight": 10
             },
             {
-              "name": "vigor",
+              "name": "cruelty",
               "weight": 8
             },
             {
-              "name": "lingering",
+              "name": "vigor",
               "weight": 6
             },
             {
@@ -1052,15 +1052,15 @@
               "weight": 8
             },
             {
-              "name": "auric",
+              "name": "toughened",
               "weight": 6
             },
             {
-              "name": "toughened",
+              "name": "carrying",
               "weight": 4
             },
             {
-              "name": "seethe",
+              "name": "keenness",
               "weight": 3
             }
           ],
@@ -1088,7 +1088,7 @@
               "weight": 4
             },
             {
-              "name": "clamber",
+              "name": "revel",
               "weight": 3
             }
           ],
@@ -1110,15 +1110,15 @@
               "weight": 10
             },
             {
-              "name": "vigor",
+              "name": "the_adroit",
               "weight": 8
             },
             {
-              "name": "the_adroit",
+              "name": "vigor",
               "weight": 6
             },
             {
-              "name": "lingering",
+              "name": "cruelty",
               "weight": 4
             }
           ],
@@ -1142,7 +1142,7 @@
               "weight": 6
             },
             {
-              "name": "keenness",
+              "name": "instability",
               "weight": 4
             },
             {

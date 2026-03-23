@@ -6,7 +6,7 @@
   "source_url": "https://maxroll.gg/d4/build-guides/pulverize-druid-guide",
   "tier": "S",
   "tags": [],
-  "last_updated": "2026-03-22",
+  "last_updated": "2026-03-23",
   "profile_order": [
     "starter",
     "ancestral",
@@ -355,7 +355,7 @@
           "priority_aspects": [],
           "priority_affixes": [
             {
-              "name": "unique_corestat_willpowerpercent_higher",
+              "name": "unique_corestat_willpowerpercent_higherhigher",
               "weight": 8
             },
             {
@@ -363,7 +363,7 @@
               "weight": 6
             },
             {
-              "name": "unique_damage_generic_type_poison",
+              "name": "unique_damage_generic_type_poison_giga",
               "weight": 4
             },
             {
@@ -596,7 +596,7 @@
           "priority_aspects": [],
           "priority_affixes": [
             {
-              "name": "unique_corestat_willpowerpercent_higher",
+              "name": "unique_corestat_willpowerpercent_higherhigher",
               "weight": 8
             },
             {
@@ -604,7 +604,7 @@
               "weight": 6
             },
             {
-              "name": "unique_damage_generic_type_poison",
+              "name": "unique_damage_generic_type_poison_giga",
               "weight": 4
             },
             {
@@ -859,7 +859,7 @@
           "priority_aspects": [],
           "priority_affixes": [
             {
-              "name": "unique_corestat_willpowerpercent_higher",
+              "name": "unique_corestat_willpowerpercent_higherhigher",
               "weight": 8
             },
             {
@@ -867,7 +867,7 @@
               "weight": 6
             },
             {
-              "name": "unique_damage_generic_type_poison",
+              "name": "unique_damage_generic_type_poison_giga",
               "weight": 4
             },
             {
@@ -1102,7 +1102,7 @@
           "priority_aspects": [],
           "priority_affixes": [
             {
-              "name": "unique_corestat_willpowerpercent_higher",
+              "name": "unique_corestat_willpowerpercent_higherhigher",
               "weight": 8
             },
             {
@@ -1110,7 +1110,7 @@
               "weight": 6
             },
             {
-              "name": "unique_damage_generic_type_poison",
+              "name": "unique_damage_generic_type_poison_giga",
               "weight": 4
             },
             {
@@ -1190,7 +1190,7 @@
               "weight": 3
             },
             {
-              "name": "keenness",
+              "name": "gluttony",
               "weight": 3
             }
           ],
@@ -1226,7 +1226,7 @@
               "weight": 3
             },
             {
-              "name": "clamber",
+              "name": "keenness",
               "weight": 3
             }
           ],
