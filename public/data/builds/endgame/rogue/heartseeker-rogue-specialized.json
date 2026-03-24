@@ -6,7 +6,7 @@
   "source_url": "https://maxroll.gg/d4/build-guides/heartseeker-rogue-specialized-guide",
   "tier": "S",
   "tags": [],
-  "last_updated": "2026-03-23",
+  "last_updated": "2026-03-24",
   "profile_order": [
     "starter",
     "ancestral",
@@ -408,24 +408,26 @@
         },
         "pants": {
           "slot": "pants",
-          "priority_uniques": [],
+          "priority_uniques": [
+            "Tibault's Will"
+          ],
           "priority_aspects": [],
           "priority_affixes": [
             {
-              "name": "the_adroit",
-              "weight": 10
-            },
-            {
-              "name": "precision",
+              "name": "harmony",
               "weight": 8
             },
             {
-              "name": "toughened",
+              "name": "the_adept",
               "weight": 6
             },
             {
-              "name": "vigor",
+              "name": "resources",
               "weight": 4
+            },
+            {
+              "name": "keenness",
+              "weight": 3
             },
             {
               "name": "gluttony",
@@ -528,10 +530,30 @@
         "helm": {
           "slot": "helm",
           "priority_uniques": [
-            "Heir of Perdition"
+            "Crown of Lucion"
           ],
           "priority_aspects": [],
           "priority_affixes": [
+            {
+              "name": "bsk_generic_002",
+              "weight": 10
+            },
+            {
+              "name": "vigor",
+              "weight": 8
+            },
+            {
+              "name": "swiftness",
+              "weight": 6
+            },
+            {
+              "name": "luck",
+              "weight": 4
+            },
+            {
+              "name": "sanctity",
+              "weight": 3
+            },
             {
               "name": "gluttony",
               "weight": 3
@@ -647,24 +669,26 @@
         },
         "pants": {
           "slot": "pants",
-          "priority_uniques": [],
+          "priority_uniques": [
+            "Tibault's Will"
+          ],
           "priority_aspects": [],
           "priority_affixes": [
             {
-              "name": "the_adroit",
-              "weight": 10
-            },
-            {
-              "name": "precision",
+              "name": "harmony",
               "weight": 8
             },
             {
-              "name": "toughened",
+              "name": "the_adept",
               "weight": 6
             },
             {
-              "name": "vigor",
+              "name": "resources",
               "weight": 4
+            },
+            {
+              "name": "keenness",
+              "weight": 3
             },
             {
               "name": "gluttony",
@@ -1402,11 +1426,11 @@
               "weight": 10
             },
             {
-              "name": "vigor",
+              "name": "cruelty",
               "weight": 8
             },
             {
-              "name": "cruelty",
+              "name": "vigor",
               "weight": 6
             },
             {

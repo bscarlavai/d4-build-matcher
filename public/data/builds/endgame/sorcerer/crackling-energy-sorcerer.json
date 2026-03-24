@@ -6,7 +6,7 @@
   "source_url": "https://maxroll.gg/d4/build-guides/crackling-energy-sorcerer-guide",
   "tier": "S",
   "tags": [],
-  "last_updated": "2026-03-23",
+  "last_updated": "2026-03-24",
   "profile_order": [
     "starter",
     "ancestral",
@@ -375,11 +375,11 @@
               "weight": 8
             },
             {
-              "name": "ferocity",
+              "name": "swiftness",
               "weight": 3
             },
             {
-              "name": "swiftness",
+              "name": "ferocity",
               "weight": 3
             },
             {
@@ -445,15 +445,15 @@
               "weight": 3
             },
             {
+              "name": "swiftness",
+              "weight": 3
+            },
+            {
               "name": "the_focused",
               "weight": 3
             },
             {
               "name": "cruelty",
-              "weight": 3
-            },
-            {
-              "name": "swiftness",
               "weight": 3
             },
             {
@@ -559,15 +559,15 @@
               "weight": 6
             },
             {
+              "name": "carnage",
+              "weight": 3
+            },
+            {
               "name": "cruelty",
               "weight": 3
             },
             {
               "name": "the_focused",
-              "weight": 3
-            },
-            {
-              "name": "carnage",
               "weight": 3
             }
           ],
@@ -961,11 +961,11 @@
               "weight": 6
             },
             {
-              "name": "the_wise",
+              "name": "vigor",
               "weight": 4
             },
             {
-              "name": "vigor",
+              "name": "the_wise",
               "weight": 3
             },
             {
