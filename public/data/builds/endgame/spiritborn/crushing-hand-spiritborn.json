@@ -6,7 +6,7 @@
   "source_url": "https://maxroll.gg/d4/build-guides/crushing-hand-spiritborn-guide",
   "tier": "S",
   "tags": [],
-  "last_updated": "2026-03-24",
+  "last_updated": "2026-03-25",
   "profile_order": [
     "starter",
     "ancestral",
@@ -456,7 +456,7 @@
               "weight": 3
             },
             {
-              "name": "gluttony",
+              "name": "revel",
               "weight": 3
             }
           ],
@@ -484,7 +484,7 @@
               "weight": 4
             },
             {
-              "name": "gluttony",
+              "name": "revel",
               "weight": 3
             }
           ],
@@ -614,8 +614,8 @@
               "weight": 6
             },
             {
-              "name": "efficiency",
-              "weight": 4
+              "name": "demolition",
+              "weight": 3
             }
           ],
           "required_tempers": []
@@ -626,11 +626,11 @@
           "priority_aspects": [],
           "priority_affixes": [
             {
-              "name": "elevation",
+              "name": "resources",
               "weight": 10
             },
             {
-              "name": "resources",
+              "name": "elevation",
               "weight": 8
             },
             {
@@ -638,7 +638,7 @@
               "weight": 6
             },
             {
-              "name": "efficiency",
+              "name": "the_adroit",
               "weight": 4
             },
             {
@@ -677,7 +677,7 @@
               "weight": 3
             },
             {
-              "name": "gluttony",
+              "name": "revel",
               "weight": 3
             }
           ],
@@ -691,7 +691,7 @@
           "priority_aspects": [],
           "priority_affixes": [
             {
-              "name": "gluttony",
+              "name": "revel",
               "weight": 3
             }
           ],
@@ -718,6 +718,10 @@
             },
             {
               "name": "unique_damage_to_vulnerable_higher",
+              "weight": 3
+            },
+            {
+              "name": "revel",
               "weight": 3
             }
           ],
@@ -920,7 +924,7 @@
               "weight": 3
             },
             {
-              "name": "gluttony",
+              "name": "revel",
               "weight": 3
             }
           ],
@@ -934,7 +938,7 @@
           "priority_aspects": [],
           "priority_affixes": [
             {
-              "name": "gluttony",
+              "name": "revel",
               "weight": 3
             }
           ],
@@ -964,7 +968,7 @@
               "weight": 3
             },
             {
-              "name": "gluttony",
+              "name": "revel",
               "weight": 3
             }
           ],
@@ -988,7 +992,7 @@
               "weight": 6
             },
             {
-              "name": "toughened",
+              "name": "auric",
               "weight": 4
             },
             {
