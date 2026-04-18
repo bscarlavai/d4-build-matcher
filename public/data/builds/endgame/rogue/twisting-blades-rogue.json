@@ -6,7 +6,7 @@
   "source_url": "https://maxroll.gg/d4/build-guides/twisting-blades-rogue-guide",
   "tier": "A",
   "tags": [],
-  "last_updated": "2026-04-17",
+  "last_updated": "2026-04-18",
   "profile_order": [
     "starter",
     "ancestral",
@@ -1060,7 +1060,7 @@
               "weight": 4
             },
             {
-              "name": "keenness",
+              "name": "gluttony",
               "weight": 3
             }
           ],
