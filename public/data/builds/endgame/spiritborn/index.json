@@ -4,56 +4,56 @@
     {
       "id": "evade-spiritborn-build",
       "name": "Evade Spiritborn Build",
-      "tier": "S",
+      "tier": "Z",
       "file": "evade-spiritborn-build.json"
-    },
-    {
-      "id": "crushing-hand-spiritborn",
-      "name": "Crushing Hand Spiritborn",
-      "tier": "S",
-      "file": "crushing-hand-spiritborn.json"
-    },
-    {
-      "id": "gorilla-thorns-spiritborn",
-      "name": "Gorilla Thorns Spiritborn",
-      "tier": "A",
-      "file": "gorilla-thorns-spiritborn.json"
     },
     {
       "id": "quill-volley-spiritborn",
       "name": "Quill Volley Spiritborn",
-      "tier": "A",
+      "tier": "Z",
       "file": "quill-volley-spiritborn.json"
     },
     {
-      "id": "rake-spiritborn",
-      "name": "Rake Spiritborn",
-      "tier": "A",
-      "file": "rake-spiritborn.json"
+      "id": "crushing-hand-spiritborn",
+      "name": "Crushing Hand Spiritborn",
+      "tier": "Z",
+      "file": "crushing-hand-spiritborn.json"
+    },
+    {
+      "id": "stinger-spiritborn",
+      "name": "Stinger Spiritborn",
+      "tier": "Z",
+      "file": "stinger-spiritborn.json"
     },
     {
       "id": "payback-spiritborn-build",
       "name": "Payback Spiritborn Build",
-      "tier": "A",
+      "tier": "Z",
       "file": "payback-spiritborn-build.json"
+    },
+    {
+      "id": "gorilla-thorns-spiritborn",
+      "name": "Gorilla Thorns Spiritborn",
+      "tier": "Z",
+      "file": "gorilla-thorns-spiritborn.json"
+    },
+    {
+      "id": "rake-spiritborn",
+      "name": "Rake Spiritborn",
+      "tier": "Z",
+      "file": "rake-spiritborn.json"
     },
     {
       "id": "touch-of-death-spiritborn",
       "name": "Touch Of Death Spiritborn",
-      "tier": "A",
+      "tier": "Z",
       "file": "touch-of-death-spiritborn.json"
     },
     {
-      "id": "beast-strike-spiritborn",
-      "name": "Beast Strike Spiritborn",
-      "tier": "A",
-      "file": "beast-strike-spiritborn.json"
-    },
-    {
-      "id": "thorns-spiritborn-build",
-      "name": "Thorns Spiritborn Build",
-      "tier": "B",
-      "file": "thorns-spiritborn-build.json"
+      "id": "razor-wings-spiritborn",
+      "name": "Razor Wings Spiritborn",
+      "tier": "Z",
+      "file": "razor-wings-spiritborn.json"
     }
   ]
 }

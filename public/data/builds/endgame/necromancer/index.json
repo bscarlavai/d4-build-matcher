@@ -4,68 +4,62 @@
     {
       "id": "shadowblight-necromancer",
       "name": "Shadowblight Necromancer",
-      "tier": "A",
+      "tier": "Z",
       "file": "shadowblight-necromancer.json"
-    },
-    {
-      "id": "blood-wave-necromancer",
-      "name": "Blood Wave Necromancer",
-      "tier": "A",
-      "file": "blood-wave-necromancer.json"
     },
     {
       "id": "golem-necromancer",
       "name": "Golem Necromancer",
-      "tier": "A",
+      "tier": "Z",
       "file": "golem-necromancer.json"
     },
     {
       "id": "bone-spirit-necromancer",
       "name": "Bone Spirit Necromancer",
-      "tier": "A",
+      "tier": "Z",
       "file": "bone-spirit-necromancer.json"
     },
     {
-      "id": "minion-necromancer",
-      "name": "Minion Necromancer",
-      "tier": "A",
-      "file": "minion-necromancer.json"
+      "id": "blood-wave-necromancer",
+      "name": "Blood Wave Necromancer",
+      "tier": "Z",
+      "file": "blood-wave-necromancer.json"
     },
     {
       "id": "bone-spear-necromancer",
       "name": "Bone Spear Necromancer",
-      "tier": "B",
+      "tier": "Z",
       "file": "bone-spear-necromancer.json"
+    },
+    {
+      "id": "minion-necromancer",
+      "name": "Minion Necromancer",
+      "tier": "Z",
+      "file": "minion-necromancer.json"
     },
     {
       "id": "blight-necromancer",
       "name": "Blight Necromancer",
-      "tier": "B",
+      "tier": "Z",
       "file": "blight-necromancer.json"
     },
     {
       "id": "sever-necromancer-endgame",
       "name": "Sever Necromancer Endgame",
-      "tier": "A",
+      "tier": "Z",
       "file": "sever-necromancer-endgame.json"
-    },
-    {
-      "id": "blood-surge-necromancer",
-      "name": "Blood Surge Necromancer",
-      "tier": "C",
-      "file": "blood-surge-necromancer.json"
     },
     {
       "id": "blood-lance-necromancer",
       "name": "Blood Lance Necromancer",
-      "tier": "C",
+      "tier": "Z",
       "file": "blood-lance-necromancer.json"
     },
     {
-      "id": "affliction-necromancer",
-      "name": "Affliction Necromancer",
-      "tier": "B",
-      "file": "affliction-necromancer.json"
+      "id": "blood-surge-necromancer",
+      "name": "Blood Surge Necromancer",
+      "tier": "Z",
+      "file": "blood-surge-necromancer.json"
     }
   ]
 }

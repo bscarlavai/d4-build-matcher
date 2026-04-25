@@ -4,32 +4,32 @@
     {
       "id": "leapquake-barbarian",
       "name": "Leapquake Barbarian",
-      "tier": "S",
+      "tier": "Z",
       "file": "leapquake-barbarian.json"
     },
     {
       "id": "hammer-of-the-ancients-barbarian",
       "name": "Hammer Of The Ancients Barbarian",
-      "tier": "S",
+      "tier": "Z",
       "file": "hammer-of-the-ancients-barbarian.json"
     },
     {
       "id": "lunging-strike-barbarian",
       "name": "Lunging Strike Barbarian",
-      "tier": "S",
+      "tier": "Z",
       "file": "lunging-strike-barbarian.json"
-    },
-    {
-      "id": "whirlwind-barbarian",
-      "name": "Whirlwind Barbarian",
-      "tier": "S",
-      "file": "whirlwind-barbarian.json"
     },
     {
       "id": "mighty-throw-barbarian",
       "name": "Mighty Throw Barbarian",
-      "tier": "A",
+      "tier": "Z",
       "file": "mighty-throw-barbarian.json"
+    },
+    {
+      "id": "whirlwind-barbarian",
+      "name": "Whirlwind Barbarian",
+      "tier": "Z",
+      "file": "whirlwind-barbarian.json"
     }
   ]
 }

@@ -1,9 +1,9 @@
 {
-  "id": "minion-necromancer",
-  "name": "Minion Necromancer",
-  "class": "necromancer",
+  "id": "razor-wings-spiritborn",
+  "name": "Razor Wings Spiritborn",
+  "class": "spiritborn",
   "category": "endgame",
-  "source_url": "https://maxroll.gg/d4/build-guides/minion-necromancer-guide",
+  "source_url": "https://maxroll.gg/d4/build-guides/razor-wings-spiritborn-guide",
   "tier": "Z",
   "tags": [],
   "last_updated": "2026-04-25",
@@ -11,8 +11,8 @@
     "starter",
     "ancestral",
     "mythic",
-    "lucion_tbd",
-    "speed_farming"
+    "speedfarm",
+    "push"
   ],
   "profiles": {
     "starter": {
@@ -24,24 +24,20 @@
           "priority_aspects": [],
           "priority_affixes": [
             {
-              "name": "toughened",
+              "name": "the_adroit",
               "weight": 10
             },
             {
-              "name": "the_wise",
+              "name": "vigor",
               "weight": 8
             },
             {
-              "name": "vigor",
+              "name": "toughened",
               "weight": 6
             },
             {
-              "name": "swiftness",
+              "name": "the_wingbladed",
               "weight": 4
-            },
-            {
-              "name": "gluttony",
-              "weight": 3
             }
           ],
           "required_tempers": []
@@ -56,20 +52,12 @@
               "weight": 10
             },
             {
-              "name": "the_wise",
+              "name": "the_adroit",
               "weight": 8
             },
             {
               "name": "vigor",
               "weight": 6
-            },
-            {
-              "name": "auric",
-              "weight": 4
-            },
-            {
-              "name": "gluttony",
-              "weight": 3
             }
           ],
           "required_tempers": []
@@ -80,24 +68,16 @@
           "priority_aspects": [],
           "priority_affixes": [
             {
-              "name": "the_wise",
+              "name": "the_adroit",
               "weight": 10
             },
             {
-              "name": "vigor",
+              "name": "cruelty",
               "weight": 8
             },
             {
-              "name": "the_focused",
+              "name": "vigor",
               "weight": 6
-            },
-            {
-              "name": "perpetuity",
-              "weight": 4
-            },
-            {
-              "name": "tenderize",
-              "weight": 3
             }
           ],
           "required_tempers": []
@@ -112,20 +92,12 @@
               "weight": 10
             },
             {
-              "name": "the_adept",
+              "name": "the_adroit",
               "weight": 8
             },
             {
-              "name": "the_wise",
+              "name": "the_adept",
               "weight": 6
-            },
-            {
-              "name": "swiftness",
-              "weight": 4
-            },
-            {
-              "name": "gluttony",
-              "weight": 3
             }
           ],
           "required_tempers": []
@@ -136,7 +108,7 @@
           "priority_aspects": [],
           "priority_affixes": [
             {
-              "name": "toughened",
+              "name": "the_adroit",
               "weight": 10
             },
             {
@@ -144,16 +116,8 @@
               "weight": 8
             },
             {
-              "name": "the_wise",
-              "weight": 6
-            },
-            {
               "name": "auric",
-              "weight": 4
-            },
-            {
-              "name": "gluttony",
-              "weight": 3
+              "weight": 6
             }
           ],
           "required_tempers": []
@@ -164,24 +128,16 @@
           "priority_aspects": [],
           "priority_affixes": [
             {
-              "name": "toughened",
+              "name": "speed",
               "weight": 10
             },
             {
-              "name": "speed",
+              "name": "the_adroit",
               "weight": 8
             },
             {
-              "name": "the_wise",
+              "name": "vigor",
               "weight": 6
-            },
-            {
-              "name": "auric",
-              "weight": 4
-            },
-            {
-              "name": "gluttony",
-              "weight": 3
             }
           ],
           "required_tempers": []
@@ -192,24 +148,20 @@
           "priority_aspects": [],
           "priority_affixes": [
             {
-              "name": "keenness",
+              "name": "the_adept",
               "weight": 10
             },
             {
-              "name": "the_wise",
+              "name": "keenness",
               "weight": 8
+            },
+            {
+              "name": "auric",
+              "weight": 6
             },
             {
               "name": "vigor",
               "weight": 6
-            },
-            {
-              "name": "the_adept",
-              "weight": 4
-            },
-            {
-              "name": "tenderize",
-              "weight": 3
             }
           ],
           "required_tempers": []
@@ -220,24 +172,20 @@
           "priority_aspects": [],
           "priority_affixes": [
             {
-              "name": "swarming",
+              "name": "stalwarts",
               "weight": 10
             },
             {
-              "name": "keenness",
+              "name": "the_nimble",
               "weight": 8
             },
             {
-              "name": "the_adept",
+              "name": "sparking",
               "weight": 6
             },
             {
-              "name": "coalescence",
+              "name": "keenness",
               "weight": 4
-            },
-            {
-              "name": "tenderize",
-              "weight": 3
             }
           ],
           "required_tempers": []
@@ -249,28 +197,26 @@
       "gear": {
         "helm": {
           "slot": "helm",
-          "priority_uniques": [],
+          "priority_uniques": [
+            "Harmony of Ebewaka"
+          ],
           "priority_aspects": [],
           "priority_affixes": [
             {
-              "name": "the_wise",
+              "name": "unique_corestats_all_higher",
               "weight": 10
             },
             {
-              "name": "swiftness",
+              "name": "unique_damagereduction",
               "weight": 8
             },
             {
-              "name": "vigor",
+              "name": "unique_movement_speed_lesser",
               "weight": 6
             },
             {
-              "name": "toughened",
+              "name": "unique_passiverankbonus_spiritborn_velocity_higher",
               "weight": 4
-            },
-            {
-              "name": "gluttony",
-              "weight": 3
             }
           ],
           "required_tempers": []
@@ -281,52 +227,16 @@
           "priority_aspects": [],
           "priority_affixes": [
             {
-              "name": "the_wise",
-              "weight": 10
-            },
-            {
               "name": "toughened",
-              "weight": 8
-            },
-            {
-              "name": "vigor",
-              "weight": 6
-            },
-            {
-              "name": "auric",
-              "weight": 4
-            },
-            {
-              "name": "gluttony",
-              "weight": 3
-            }
-          ],
-          "required_tempers": []
-        },
-        "weapon": {
-          "slot": "weapon",
-          "priority_uniques": [],
-          "priority_aspects": [],
-          "priority_affixes": [
-            {
-              "name": "vigor",
               "weight": 10
             },
             {
-              "name": "the_wise",
+              "name": "the_adroit",
               "weight": 8
             },
             {
-              "name": "perpetuity",
+              "name": "vigor",
               "weight": 6
-            },
-            {
-              "name": "the_focused",
-              "weight": 4
-            },
-            {
-              "name": "tenderize",
-              "weight": 3
             }
           ],
           "required_tempers": []
@@ -334,59 +244,45 @@
         "gloves": {
           "slot": "gloves",
           "priority_uniques": [
-            "The Hand of Naz"
+            "Hesha e Kesungi"
           ],
           "priority_aspects": [],
           "priority_affixes": [
             {
-              "name": "unique_damage_necro_pet_skeletonmage",
+              "name": "unique_attackspeed_higher",
+              "weight": 10
+            },
+            {
+              "name": "unique_skillrankbonus_spiritborn_category_gorilla",
               "weight": 8
             },
             {
-              "name": "unique_attackspeed_higher",
+              "name": "unique_cdr_tag_generic_ultimate_higher",
               "weight": 6
             },
             {
-              "name": "vigor",
+              "name": "unique_damage_to_vulnerable_higher",
               "weight": 4
-            },
-            {
-              "name": "unique_skillrankbonus_necro_special_skeletonmage_higher",
-              "weight": 3
-            },
-            {
-              "name": "gluttony",
-              "weight": 3
             }
           ],
           "required_tempers": []
         },
         "pants": {
           "slot": "pants",
-          "priority_uniques": [
-            "Blood Moon Breeches"
-          ],
+          "priority_uniques": [],
           "priority_aspects": [],
           "priority_affixes": [
             {
-              "name": "swarming",
+              "name": "the_adroit",
               "weight": 10
             },
             {
-              "name": "unique_critchance_higherhigher",
+              "name": "vigor",
               "weight": 8
             },
             {
-              "name": "golemlords",
+              "name": "auric",
               "weight": 6
-            },
-            {
-              "name": "unique_skillrankbonus_necro_category_curse_higher",
-              "weight": 4
-            },
-            {
-              "name": "gluttony",
-              "weight": 3
             }
           ],
           "required_tempers": []
@@ -401,62 +297,36 @@
               "weight": 10
             },
             {
-              "name": "the_wise",
+              "name": "the_adroit",
               "weight": 8
             },
             {
-              "name": "toughened",
-              "weight": 6
-            },
-            {
               "name": "vigor",
-              "weight": 4
-            },
-            {
-              "name": "gluttony",
-              "weight": 3
+              "weight": 6
             }
           ],
           "required_tempers": []
         },
         "ring": {
           "slot": "ring",
-          "priority_uniques": [
-            "Ring of Mendeln"
-          ],
+          "priority_uniques": [],
           "priority_aspects": [],
           "priority_affixes": [
             {
-              "name": "unique_passiverankbonus_necro_allminionmastery",
+              "name": "the_adept",
               "weight": 10
             },
             {
-              "name": "unique_attackspeed_necro_pet",
+              "name": "keenness",
               "weight": 8
             },
             {
-              "name": "unique_damage_all",
+              "name": "auric",
               "weight": 6
-            },
-            {
-              "name": "the_wise",
-              "weight": 4
-            },
-            {
-              "name": "tenderize",
-              "weight": 3
             },
             {
               "name": "vigor",
-              "weight": 8
-            },
-            {
-              "name": "keenness",
               "weight": 6
-            },
-            {
-              "name": "the_adept",
-              "weight": 4
             }
           ],
           "required_tempers": []
@@ -467,24 +337,20 @@
           "priority_aspects": [],
           "priority_affixes": [
             {
-              "name": "swarming",
+              "name": "stalwarts",
               "weight": 10
             },
             {
-              "name": "gloom",
+              "name": "the_nimble",
               "weight": 8
             },
             {
-              "name": "the_adept",
+              "name": "sparking",
               "weight": 6
             },
             {
-              "name": "the_wise",
+              "name": "keenness",
               "weight": 4
-            },
-            {
-              "name": "tenderize",
-              "weight": 3
             }
           ],
           "required_tempers": []
@@ -500,12 +366,7 @@
             "Heir of Perdition"
           ],
           "priority_aspects": [],
-          "priority_affixes": [
-            {
-              "name": "gluttony",
-              "weight": 3
-            }
-          ],
+          "priority_affixes": [],
           "required_tempers": []
         },
         "chest": {
@@ -514,28 +375,7 @@
             "Shroud of False Death"
           ],
           "priority_aspects": [],
-          "priority_affixes": [
-            {
-              "name": "gluttony",
-              "weight": 3
-            },
-            {
-              "name": "the_wise",
-              "weight": 10
-            },
-            {
-              "name": "vigor",
-              "weight": 8
-            },
-            {
-              "name": "swiftness",
-              "weight": 6
-            },
-            {
-              "name": "sturdiness",
-              "weight": 4
-            }
-          ],
+          "priority_affixes": [],
           "required_tempers": []
         },
         "weapon": {
@@ -544,7 +384,7 @@
           "priority_aspects": [],
           "priority_affixes": [
             {
-              "name": "the_wise",
+              "name": "the_adroit",
               "weight": 10
             },
             {
@@ -554,14 +394,6 @@
             {
               "name": "the_focused",
               "weight": 6
-            },
-            {
-              "name": "perpetuity",
-              "weight": 4
-            },
-            {
-              "name": "tenderize",
-              "weight": 3
             }
           ],
           "required_tempers": []
@@ -569,29 +401,25 @@
         "gloves": {
           "slot": "gloves",
           "priority_uniques": [
-            "The Hand of Naz"
+            "Sunstained\u00a0War-Crozier"
           ],
           "priority_aspects": [],
           "priority_affixes": [
             {
-              "name": "unique_skillrankbonus_necro_special_skeletonmage_higher",
+              "name": "unique_double_damage_tag_generic_potency",
               "weight": 10
             },
             {
-              "name": "unique_attackspeed_higher",
+              "name": "unique_corestat_dexterity_higher",
               "weight": 8
             },
             {
-              "name": "unique_damage_necro_pet_skeletonmage",
+              "name": "unique_lifeflat_higher",
               "weight": 6
             },
             {
-              "name": "vigor",
+              "name": "the_focused",
               "weight": 4
-            },
-            {
-              "name": "gluttony",
-              "weight": 3
             }
           ],
           "required_tempers": []
@@ -599,57 +427,51 @@
         "pants": {
           "slot": "pants",
           "priority_uniques": [
-            "Blood Moon Breeches"
+            "Hesha e Kesungi"
           ],
           "priority_aspects": [],
           "priority_affixes": [
             {
-              "name": "swarming",
+              "name": "unique_attackspeed_higher",
               "weight": 10
             },
             {
-              "name": "unique_critchance_higherhigher",
+              "name": "unique_skillrankbonus_spiritborn_category_gorilla",
               "weight": 8
             },
             {
-              "name": "golemlords",
+              "name": "unique_cdr_tag_generic_ultimate_higher",
               "weight": 6
             },
             {
-              "name": "unique_skillrankbonus_necro_category_curse_higher",
+              "name": "unique_damage_to_vulnerable_higher",
               "weight": 4
-            },
-            {
-              "name": "gluttony",
-              "weight": 3
             }
           ],
           "required_tempers": []
         },
         "boots": {
           "slot": "boots",
-          "priority_uniques": [],
+          "priority_uniques": [
+            "Harmony of Ebewaka"
+          ],
           "priority_aspects": [],
           "priority_affixes": [
             {
-              "name": "the_wise",
+              "name": "unique_corestats_all_higher",
               "weight": 10
             },
             {
-              "name": "vigor",
+              "name": "unique_damagereduction",
               "weight": 8
             },
             {
-              "name": "speed",
+              "name": "unique_movement_speed_lesser",
               "weight": 6
             },
             {
-              "name": "infusing",
+              "name": "unique_passiverankbonus_spiritborn_velocity_higher",
               "weight": 4
-            },
-            {
-              "name": "gluttony",
-              "weight": 3
             }
           ],
           "required_tempers": []
@@ -660,24 +482,20 @@
           "priority_aspects": [],
           "priority_affixes": [
             {
-              "name": "the_wise",
+              "name": "the_adept",
               "weight": 10
             },
             {
-              "name": "vigor",
+              "name": "keenness",
               "weight": 8
             },
             {
-              "name": "swiftness",
+              "name": "auric",
               "weight": 6
             },
             {
-              "name": "keenness",
-              "weight": 4
-            },
-            {
-              "name": "tenderize",
-              "weight": 3
+              "name": "vigor",
+              "weight": 6
             }
           ],
           "required_tempers": []
@@ -688,273 +506,28 @@
           "priority_aspects": [],
           "priority_affixes": [
             {
-              "name": "swarming",
+              "name": "stalwarts",
               "weight": 10
             },
             {
-              "name": "gloom",
+              "name": "the_nimble",
               "weight": 8
             },
             {
-              "name": "engulfing",
-              "weight": 6
-            },
-            {
-              "name": "the_wise",
-              "weight": 4
-            },
-            {
-              "name": "tenderize",
-              "weight": 3
-            }
-          ],
-          "required_tempers": []
-        }
-      }
-    },
-    "lucion_tbd": {
-      "name": "Lucion Tbd",
-      "gear": {
-        "helm": {
-          "slot": "helm",
-          "priority_uniques": [
-            "Crown of Lucion"
-          ],
-          "priority_aspects": [],
-          "priority_affixes": [
-            {
-              "name": "bsk_generic_002",
-              "weight": 10
-            },
-            {
-              "name": "vigor",
-              "weight": 8
-            },
-            {
-              "name": "swiftness",
-              "weight": 6
-            },
-            {
-              "name": "luck",
-              "weight": 4
-            },
-            {
-              "name": "sanctity",
-              "weight": 3
-            },
-            {
-              "name": "gluttony",
-              "weight": 3
-            }
-          ],
-          "required_tempers": []
-        },
-        "chest": {
-          "slot": "chest",
-          "priority_uniques": [
-            "Shroud of False Death"
-          ],
-          "priority_aspects": [],
-          "priority_affixes": [
-            {
-              "name": "gluttony",
-              "weight": 3
-            },
-            {
-              "name": "the_wise",
-              "weight": 10
-            },
-            {
-              "name": "vigor",
-              "weight": 8
-            },
-            {
-              "name": "swiftness",
-              "weight": 6
-            },
-            {
-              "name": "sturdiness",
-              "weight": 4
-            }
-          ],
-          "required_tempers": []
-        },
-        "weapon": {
-          "slot": "weapon",
-          "priority_uniques": [],
-          "priority_aspects": [],
-          "priority_affixes": [
-            {
-              "name": "the_wise",
-              "weight": 10
-            },
-            {
-              "name": "vigor",
-              "weight": 8
-            },
-            {
-              "name": "the_focused",
-              "weight": 6
-            },
-            {
-              "name": "perpetuity",
-              "weight": 4
-            },
-            {
-              "name": "tenderize",
-              "weight": 3
-            }
-          ],
-          "required_tempers": []
-        },
-        "gloves": {
-          "slot": "gloves",
-          "priority_uniques": [
-            "The Hand of Naz"
-          ],
-          "priority_aspects": [],
-          "priority_affixes": [
-            {
-              "name": "unique_skillrankbonus_necro_special_skeletonmage_higher",
-              "weight": 10
-            },
-            {
-              "name": "unique_attackspeed_higher",
-              "weight": 8
-            },
-            {
-              "name": "unique_damage_necro_pet_skeletonmage",
-              "weight": 6
-            },
-            {
-              "name": "vigor",
-              "weight": 4
-            },
-            {
-              "name": "gluttony",
-              "weight": 3
-            }
-          ],
-          "required_tempers": []
-        },
-        "pants": {
-          "slot": "pants",
-          "priority_uniques": [
-            "Blood Moon Breeches"
-          ],
-          "priority_aspects": [],
-          "priority_affixes": [
-            {
-              "name": "swarming",
-              "weight": 10
-            },
-            {
-              "name": "unique_critchance_higherhigher",
-              "weight": 8
-            },
-            {
-              "name": "golemlords",
-              "weight": 6
-            },
-            {
-              "name": "unique_skillrankbonus_necro_category_curse_higher",
-              "weight": 4
-            },
-            {
-              "name": "gluttony",
-              "weight": 3
-            }
-          ],
-          "required_tempers": []
-        },
-        "boots": {
-          "slot": "boots",
-          "priority_uniques": [],
-          "priority_aspects": [],
-          "priority_affixes": [
-            {
-              "name": "the_wise",
-              "weight": 10
-            },
-            {
-              "name": "vigor",
-              "weight": 8
-            },
-            {
-              "name": "speed",
-              "weight": 6
-            },
-            {
-              "name": "infusing",
-              "weight": 4
-            },
-            {
-              "name": "gluttony",
-              "weight": 3
-            }
-          ],
-          "required_tempers": []
-        },
-        "ring": {
-          "slot": "ring",
-          "priority_uniques": [],
-          "priority_aspects": [],
-          "priority_affixes": [
-            {
-              "name": "the_wise",
-              "weight": 10
-            },
-            {
-              "name": "vigor",
-              "weight": 8
-            },
-            {
-              "name": "the_adept",
+              "name": "sparking",
               "weight": 6
             },
             {
               "name": "keenness",
               "weight": 4
-            },
-            {
-              "name": "tenderize",
-              "weight": 3
-            }
-          ],
-          "required_tempers": []
-        },
-        "amulet": {
-          "slot": "amulet",
-          "priority_uniques": [],
-          "priority_aspects": [],
-          "priority_affixes": [
-            {
-              "name": "swarming",
-              "weight": 10
-            },
-            {
-              "name": "gloom",
-              "weight": 8
-            },
-            {
-              "name": "engulfing",
-              "weight": 6
-            },
-            {
-              "name": "the_adept",
-              "weight": 4
-            },
-            {
-              "name": "tenderize",
-              "weight": 3
             }
           ],
           "required_tempers": []
         }
       }
     },
-    "speed_farming": {
-      "name": "Speed Farming",
+    "speedfarm": {
+      "name": "Speedfarm",
       "gear": {
         "helm": {
           "slot": "helm",
@@ -962,12 +535,7 @@
             "Heir of Perdition"
           ],
           "priority_aspects": [],
-          "priority_affixes": [
-            {
-              "name": "gluttony",
-              "weight": 3
-            }
-          ],
+          "priority_affixes": [],
           "required_tempers": []
         },
         "chest": {
@@ -976,28 +544,7 @@
             "Shroud of False Death"
           ],
           "priority_aspects": [],
-          "priority_affixes": [
-            {
-              "name": "gluttony",
-              "weight": 3
-            },
-            {
-              "name": "the_wise",
-              "weight": 10
-            },
-            {
-              "name": "vigor",
-              "weight": 8
-            },
-            {
-              "name": "swiftness",
-              "weight": 6
-            },
-            {
-              "name": "sturdiness",
-              "weight": 4
-            }
-          ],
+          "priority_affixes": [],
           "required_tempers": []
         },
         "weapon": {
@@ -1006,7 +553,7 @@
           "priority_aspects": [],
           "priority_affixes": [
             {
-              "name": "the_wise",
+              "name": "the_adroit",
               "weight": 10
             },
             {
@@ -1016,14 +563,6 @@
             {
               "name": "the_focused",
               "weight": 6
-            },
-            {
-              "name": "perpetuity",
-              "weight": 4
-            },
-            {
-              "name": "tenderize",
-              "weight": 3
             }
           ],
           "required_tempers": []
@@ -1031,29 +570,25 @@
         "gloves": {
           "slot": "gloves",
           "priority_uniques": [
-            "The Hand of Naz"
+            "Sunstained\u00a0War-Crozier"
           ],
           "priority_aspects": [],
           "priority_affixes": [
             {
-              "name": "unique_skillrankbonus_necro_special_skeletonmage_higher",
+              "name": "unique_double_damage_tag_generic_potency",
               "weight": 10
             },
             {
-              "name": "unique_attackspeed_higher",
+              "name": "unique_corestat_dexterity_higher",
               "weight": 8
             },
             {
-              "name": "unique_damage_necro_pet_skeletonmage",
+              "name": "unique_lifeflat_higher",
               "weight": 6
             },
             {
-              "name": "vigor",
+              "name": "the_focused",
               "weight": 4
-            },
-            {
-              "name": "gluttony",
-              "weight": 3
             }
           ],
           "required_tempers": []
@@ -1061,57 +596,51 @@
         "pants": {
           "slot": "pants",
           "priority_uniques": [
-            "Blood Moon Breeches"
+            "Hesha e Kesungi"
           ],
           "priority_aspects": [],
           "priority_affixes": [
             {
-              "name": "swarming",
+              "name": "unique_attackspeed_higher",
               "weight": 10
             },
             {
-              "name": "unique_critchance_higherhigher",
+              "name": "unique_skillrankbonus_spiritborn_category_gorilla",
               "weight": 8
             },
             {
-              "name": "golemlords",
+              "name": "unique_cdr_tag_generic_ultimate_higher",
               "weight": 6
             },
             {
-              "name": "unique_skillrankbonus_necro_category_curse_higher",
+              "name": "unique_damage_to_vulnerable_higher",
               "weight": 4
-            },
-            {
-              "name": "gluttony",
-              "weight": 3
             }
           ],
           "required_tempers": []
         },
         "boots": {
           "slot": "boots",
-          "priority_uniques": [],
+          "priority_uniques": [
+            "Harmony of Ebewaka"
+          ],
           "priority_aspects": [],
           "priority_affixes": [
             {
-              "name": "the_wise",
+              "name": "unique_corestats_all_higher",
               "weight": 10
             },
             {
-              "name": "vigor",
+              "name": "unique_damagereduction",
               "weight": 8
             },
             {
-              "name": "speed",
+              "name": "unique_movement_speed_lesser",
               "weight": 6
             },
             {
-              "name": "infusing",
+              "name": "unique_passiverankbonus_spiritborn_velocity_higher",
               "weight": 4
-            },
-            {
-              "name": "gluttony",
-              "weight": 3
             }
           ],
           "required_tempers": []
@@ -1122,24 +651,20 @@
           "priority_aspects": [],
           "priority_affixes": [
             {
-              "name": "the_wise",
+              "name": "the_adept",
               "weight": 10
             },
             {
-              "name": "vigor",
+              "name": "keenness",
               "weight": 8
             },
             {
-              "name": "swiftness",
+              "name": "auric",
               "weight": 6
             },
             {
-              "name": "keenness",
-              "weight": 4
-            },
-            {
-              "name": "tenderize",
-              "weight": 3
+              "name": "vigor",
+              "weight": 6
             }
           ],
           "required_tempers": []
@@ -1150,24 +675,189 @@
           "priority_aspects": [],
           "priority_affixes": [
             {
-              "name": "swarming",
+              "name": "stalwarts",
               "weight": 10
             },
             {
-              "name": "gloom",
+              "name": "the_nimble",
               "weight": 8
             },
             {
-              "name": "engulfing",
+              "name": "sparking",
               "weight": 6
             },
             {
-              "name": "the_wise",
+              "name": "keenness",
               "weight": 4
+            }
+          ],
+          "required_tempers": []
+        }
+      }
+    },
+    "push": {
+      "name": "Push",
+      "gear": {
+        "helm": {
+          "slot": "helm",
+          "priority_uniques": [
+            "Heir of Perdition"
+          ],
+          "priority_aspects": [],
+          "priority_affixes": [],
+          "required_tempers": []
+        },
+        "chest": {
+          "slot": "chest",
+          "priority_uniques": [
+            "Shroud of False Death"
+          ],
+          "priority_aspects": [],
+          "priority_affixes": [],
+          "required_tempers": []
+        },
+        "weapon": {
+          "slot": "weapon",
+          "priority_uniques": [],
+          "priority_aspects": [],
+          "priority_affixes": [
+            {
+              "name": "the_adroit",
+              "weight": 10
             },
             {
-              "name": "tenderize",
-              "weight": 3
+              "name": "vigor",
+              "weight": 8
+            },
+            {
+              "name": "the_focused",
+              "weight": 6
+            }
+          ],
+          "required_tempers": []
+        },
+        "gloves": {
+          "slot": "gloves",
+          "priority_uniques": [
+            "Sunstained\u00a0War-Crozier"
+          ],
+          "priority_aspects": [],
+          "priority_affixes": [
+            {
+              "name": "unique_double_damage_tag_generic_potency",
+              "weight": 10
+            },
+            {
+              "name": "unique_corestat_dexterity_higher",
+              "weight": 8
+            },
+            {
+              "name": "unique_lifeflat_higher",
+              "weight": 6
+            },
+            {
+              "name": "the_focused",
+              "weight": 4
+            }
+          ],
+          "required_tempers": []
+        },
+        "pants": {
+          "slot": "pants",
+          "priority_uniques": [
+            "Hesha e Kesungi"
+          ],
+          "priority_aspects": [],
+          "priority_affixes": [
+            {
+              "name": "unique_attackspeed_higher",
+              "weight": 10
+            },
+            {
+              "name": "unique_skillrankbonus_spiritborn_category_gorilla",
+              "weight": 8
+            },
+            {
+              "name": "unique_cdr_tag_generic_ultimate_higher",
+              "weight": 6
+            },
+            {
+              "name": "unique_damage_to_vulnerable_higher",
+              "weight": 4
+            }
+          ],
+          "required_tempers": []
+        },
+        "boots": {
+          "slot": "boots",
+          "priority_uniques": [
+            "Harmony of Ebewaka"
+          ],
+          "priority_aspects": [],
+          "priority_affixes": [
+            {
+              "name": "unique_corestats_all_higher",
+              "weight": 10
+            },
+            {
+              "name": "unique_damagereduction",
+              "weight": 8
+            },
+            {
+              "name": "unique_movement_speed_lesser",
+              "weight": 6
+            },
+            {
+              "name": "unique_passiverankbonus_spiritborn_velocity_higher",
+              "weight": 4
+            }
+          ],
+          "required_tempers": []
+        },
+        "ring": {
+          "slot": "ring",
+          "priority_uniques": [],
+          "priority_aspects": [],
+          "priority_affixes": [
+            {
+              "name": "the_adept",
+              "weight": 10
+            },
+            {
+              "name": "keenness",
+              "weight": 8
+            },
+            {
+              "name": "auric",
+              "weight": 6
+            },
+            {
+              "name": "vigor",
+              "weight": 6
+            }
+          ],
+          "required_tempers": []
+        },
+        "amulet": {
+          "slot": "amulet",
+          "priority_uniques": [],
+          "priority_aspects": [],
+          "priority_affixes": [
+            {
+              "name": "stalwarts",
+              "weight": 10
+            },
+            {
+              "name": "the_nimble",
+              "weight": 8
+            },
+            {
+              "name": "sparking",
+              "weight": 6
+            },
+            {
+              "name": "keenness",
+              "weight": 4
             }
           ],
           "required_tempers": []

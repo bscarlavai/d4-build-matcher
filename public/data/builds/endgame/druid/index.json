@@ -4,73 +4,37 @@
     {
       "id": "pulverize-druid",
       "name": "Pulverize Druid",
-      "tier": "S",
+      "tier": "Z",
       "file": "pulverize-druid.json"
-    },
-    {
-      "id": "fleshrender-druid",
-      "name": "Fleshrender Druid",
-      "tier": "A",
-      "file": "fleshrender-druid.json"
-    },
-    {
-      "id": "companion-druid",
-      "name": "Companion Druid",
-      "tier": "A",
-      "file": "companion-druid.json"
-    },
-    {
-      "id": "boulder-druid",
-      "name": "Boulder Druid",
-      "tier": "A",
-      "file": "boulder-druid.json"
-    },
-    {
-      "id": "cataclysm-druid-build",
-      "name": "Cataclysm Druid Build",
-      "tier": "A",
-      "file": "cataclysm-druid-build.json"
     },
     {
       "id": "shred-druid",
       "name": "Shred Druid",
-      "tier": "B",
+      "tier": "Z",
       "file": "shred-druid.json"
     },
     {
-      "id": "stone-burst-druid-build",
-      "name": "Stone Burst Druid Build",
-      "tier": "B",
-      "file": "stone-burst-druid-build.json"
+      "id": "companion-druid",
+      "name": "Companion Druid",
+      "tier": "Z",
+      "file": "companion-druid.json"
     },
     {
       "id": "lightning-storm-druid",
       "name": "Lightning Storm Druid",
-      "tier": "C",
+      "tier": "Z",
       "file": "lightning-storm-druid.json"
     },
     {
       "id": "tornado-druid",
       "name": "Tornado Druid",
-      "tier": "C",
+      "tier": "Z",
       "file": "tornado-druid.json"
-    },
-    {
-      "id": "stormclaw-druid",
-      "name": "Stormclaw Druid",
-      "tier": "C",
-      "file": "stormclaw-druid.json"
-    },
-    {
-      "id": "earth-spike-druid",
-      "name": "Earth Spike Druid",
-      "tier": "A",
-      "file": "earth-spike-druid.json"
     },
     {
       "id": "trampleslide-druid",
       "name": "Trampleslide Druid",
-      "tier": "A",
+      "tier": "Z",
       "file": "trampleslide-druid.json"
     }
   ]

@@ -2,63 +2,63 @@
   "class": "sorcerer",
   "builds": [
     {
-      "id": "hydra-sorcerer",
-      "name": "Hydra Sorcerer",
-      "tier": "A",
-      "file": "hydra-sorcerer.json"
-    },
-    {
       "id": "crackling-energy-sorcerer",
       "name": "Crackling Energy Sorcerer",
-      "tier": "S",
+      "tier": "Z",
       "file": "crackling-energy-sorcerer.json"
-    },
-    {
-      "id": "meteor-sorcerer",
-      "name": "Meteor Sorcerer",
-      "tier": "C",
-      "file": "meteor-sorcerer.json"
     },
     {
       "id": "ice-shards-sorcerer",
       "name": "Ice Shards Sorcerer",
-      "tier": "C",
+      "tier": "Z",
       "file": "ice-shards-sorcerer.json"
+    },
+    {
+      "id": "ball-lightning-sorcerer",
+      "name": "Ball Lightning Sorcerer",
+      "tier": "Z",
+      "file": "ball-lightning-sorcerer.json"
     },
     {
       "id": "frozen-orb-sorcerer",
       "name": "Frozen Orb Sorcerer",
-      "tier": "B",
+      "tier": "Z",
       "file": "frozen-orb-sorcerer.json"
     },
     {
       "id": "blizzard-sorcerer",
       "name": "Blizzard Sorcerer",
-      "tier": "A",
+      "tier": "Z",
       "file": "blizzard-sorcerer.json"
     },
     {
-      "id": "ball-lightning-sorcerer",
-      "name": "Ball Lightning Sorcerer",
-      "tier": "C",
-      "file": "ball-lightning-sorcerer.json"
+      "id": "hydra-sorcerer",
+      "name": "Hydra Sorcerer",
+      "tier": "Z",
+      "file": "hydra-sorcerer.json"
+    },
+    {
+      "id": "meteor-sorcerer",
+      "name": "Meteor Sorcerer",
+      "tier": "Z",
+      "file": "meteor-sorcerer.json"
     },
     {
       "id": "fireball-sorcerer",
       "name": "Fireball Sorcerer",
-      "tier": "C",
+      "tier": "Z",
       "file": "fireball-sorcerer.json"
     },
     {
       "id": "lightning-spear-sorcerer",
       "name": "Lightning Spear Sorcerer",
-      "tier": "B",
+      "tier": "Z",
       "file": "lightning-spear-sorcerer.json"
     },
     {
       "id": "chain-lightning-sorcerer",
       "name": "Chain Lightning Sorcerer",
-      "tier": "C",
+      "tier": "Z",
       "file": "chain-lightning-sorcerer.json"
     }
   ]
