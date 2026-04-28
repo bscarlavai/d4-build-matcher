@@ -1,19 +1,19 @@
 {
-  "id": "barrage-rogue",
-  "name": "Barrage Rogue",
-  "class": "rogue",
+  "id": "kick-death-blow",
+  "name": "Kick Death Blow",
+  "class": "barbarian",
   "category": "endgame",
-  "source_url": "https://maxroll.gg/d4/build-guides/barrage-rogue-guide",
+  "source_url": "https://maxroll.gg/d4/build-guides/kick-death-blow-guide",
   "tier": "Z",
   "tags": [],
   "last_updated": "2026-04-28",
   "profile_order": [
-    "barrage",
-    "spam_barrage"
+    "mythic",
+    "m-base"
   ],
   "profiles": {
-    "barrage": {
-      "name": "Barrage",
+    "m-base": {
+      "name": "M-Base",
       "gear": {
         "helm": {
           "slot": "helm",
@@ -23,27 +23,23 @@
           "priority_aspects": [],
           "priority_affixes": [
             {
-              "name": "bsk_generic_002",
+              "name": "swiftness",
               "weight": 10
             },
             {
-              "name": "vigor",
+              "name": "sanctity",
               "weight": 8
             },
             {
-              "name": "swiftness",
+              "name": "luck",
               "weight": 6
             },
             {
-              "name": "luck",
+              "name": "vigor",
               "weight": 4
             },
             {
-              "name": "sanctity",
-              "weight": 3
-            },
-            {
-              "name": "seethe",
+              "name": "bsk_generic_002",
               "weight": 3
             }
           ],
@@ -55,27 +51,23 @@
             "Shroud of False Death"
           ],
           "priority_aspects": [],
-          "priority_affixes": [
-            {
-              "name": "keenness",
-              "weight": 3
-            }
-          ],
+          "priority_affixes": [],
           "required_tempers": []
         },
-        "offhand": {
-          "slot": "offhand",
+        "weapon": {
+          "slot": "weapon",
           "priority_uniques": [
-            "Orphan Maker"
+            "Overkill",
+            "The Third Blade"
           ],
           "priority_aspects": [],
           "priority_affixes": [
             {
-              "name": "unique_skillrankbonus_rogue_category_marksman",
+              "name": "unique_corestat_strength_higher",
               "weight": 8
             },
             {
-              "name": "unique_passiverankbonus_rogue_t3_n1_exploit",
+              "name": "unique_damage_generic_type_physical_giga",
               "weight": 6
             },
             {
@@ -83,57 +75,65 @@
               "weight": 4
             },
             {
-              "name": "unique_projectiles_tag_rogue_marksman",
+              "name": "obliteration",
               "weight": 3
             },
             {
-              "name": "tenderize",
-              "weight": 3
-            },
-            {
-              "name": "the_adroit",
+              "name": "the_powerful",
               "weight": 10
             },
             {
-              "name": "vigor",
+              "name": "the_focused",
               "weight": 8
             },
             {
-              "name": "the_focused",
+              "name": "ferocity",
               "weight": 6
             },
             {
               "name": "perpetuity",
               "weight": 4
+            },
+            {
+              "name": "bsk_barbarian_002",
+              "weight": 10
+            },
+            {
+              "name": "cruelty",
+              "weight": 8
+            },
+            {
+              "name": "unique_damage_tag_weaponmastery_double",
+              "weight": 4
+            },
+            {
+              "name": "triumph",
+              "weight": 3
             }
           ],
           "required_tempers": []
         },
-        "weapon": {
-          "slot": "weapon",
+        "offhand": {
+          "slot": "offhand",
           "priority_uniques": [
-            "Condemnation"
+            "Ramaladni's Magnum Opus"
           ],
           "priority_aspects": [],
           "priority_affixes": [
             {
-              "name": "unique_attackspeed_basics",
+              "name": "unique_resource_max_allclasses_higher",
               "weight": 8
             },
             {
-              "name": "riving",
+              "name": "the_powerful",
               "weight": 6
             },
             {
-              "name": "unique_special_skill_rogue_combopoint_bonusdamage",
+              "name": "the_focused",
               "weight": 4
             },
             {
-              "name": "unique_corestat_dexterity_higher",
-              "weight": 3
-            },
-            {
-              "name": "tenderize",
+              "name": "demolition",
               "weight": 3
             }
           ],
@@ -141,57 +141,49 @@
         },
         "gloves": {
           "slot": "gloves",
-          "priority_uniques": [
-            "Grasp of Shadow"
-          ],
+          "priority_uniques": [],
           "priority_aspects": [],
           "priority_affixes": [
             {
-              "name": "unique_attackspeed_higher",
+              "name": "principals",
+              "weight": 10
+            },
+            {
+              "name": "swiftness",
               "weight": 8
             },
             {
-              "name": "the_adept",
+              "name": "the_powerful",
               "weight": 6
             },
             {
-              "name": "unique_damage_generic_tag_ultimate_higher",
+              "name": "keenness",
               "weight": 4
-            },
-            {
-              "name": "unique_skillrankbonus_rogue_category_marksman_cutthroat",
-              "weight": 3
-            },
-            {
-              "name": "gluttony",
-              "weight": 3
             }
           ],
           "required_tempers": []
         },
         "pants": {
           "slot": "pants",
-          "priority_uniques": [],
+          "priority_uniques": [
+            "Tibault's Will"
+          ],
           "priority_aspects": [],
           "priority_affixes": [
             {
-              "name": "the_adroit",
-              "weight": 10
-            },
-            {
-              "name": "vigor",
+              "name": "resources",
               "weight": 8
             },
             {
-              "name": "auric",
+              "name": "keenness",
               "weight": 6
             },
             {
-              "name": "toughened",
+              "name": "harmony",
               "weight": 4
             },
             {
-              "name": "gluttony",
+              "name": "the_adept",
               "weight": 3
             }
           ],
@@ -203,24 +195,20 @@
           "priority_aspects": [],
           "priority_affixes": [
             {
-              "name": "the_adroit",
+              "name": "roaring",
               "weight": 10
             },
             {
-              "name": "speed",
+              "name": "the_powerful",
               "weight": 8
             },
             {
-              "name": "vigor",
+              "name": "speed",
               "weight": 6
             },
             {
-              "name": "auric",
+              "name": "infusing",
               "weight": 4
-            },
-            {
-              "name": "clamber",
-              "weight": 3
             }
           ],
           "required_tempers": []
@@ -228,65 +216,54 @@
         "ring": {
           "slot": "ring",
           "priority_uniques": [
-            "Ring of Starless Skies"
+            "Ring of Red Furor"
           ],
           "priority_aspects": [],
           "priority_affixes": [
             {
-              "name": "the_adroit",
+              "name": "swiftness",
               "weight": 10
             },
             {
-              "name": "vigor",
+              "name": "the_powerful",
               "weight": 8
             },
             {
-              "name": "swiftness",
+              "name": "keenness",
               "weight": 6
             },
             {
-              "name": "keenness",
+              "name": "the_focused",
               "weight": 4
             },
             {
-              "name": "tenderize",
-              "weight": 3
+              "name": "unique_resource_max_allclasses_jewelry_higher",
+              "weight": 10
+            },
+            {
+              "name": "dampening",
+              "weight": 6
+            },
+            {
+              "name": "unique_critdamage_giga",
+              "weight": 4
             }
           ],
           "required_tempers": []
         },
         "amulet": {
           "slot": "amulet",
-          "priority_uniques": [],
-          "priority_aspects": [],
-          "priority_affixes": [
-            {
-              "name": "shattering",
-              "weight": 10
-            },
-            {
-              "name": "instability",
-              "weight": 8
-            },
-            {
-              "name": "malice",
-              "weight": 6
-            },
-            {
-              "name": "exploits",
-              "weight": 4
-            },
-            {
-              "name": "tenderize",
-              "weight": 3
-            }
+          "priority_uniques": [
+            "Melted Heart of Selig"
           ],
+          "priority_aspects": [],
+          "priority_affixes": [],
           "required_tempers": []
         }
       }
     },
-    "spam_barrage": {
-      "name": "Spam Barrage",
+    "mythic": {
+      "name": "Mythic",
       "gear": {
         "helm": {
           "slot": "helm",
@@ -296,27 +273,23 @@
           "priority_aspects": [],
           "priority_affixes": [
             {
-              "name": "bsk_generic_002",
+              "name": "swiftness",
               "weight": 10
             },
             {
-              "name": "vigor",
+              "name": "sanctity",
               "weight": 8
             },
             {
-              "name": "swiftness",
+              "name": "luck",
               "weight": 6
             },
             {
-              "name": "luck",
+              "name": "vigor",
               "weight": 4
             },
             {
-              "name": "sanctity",
-              "weight": 3
-            },
-            {
-              "name": "seethe",
+              "name": "bsk_generic_002",
               "weight": 3
             }
           ],
@@ -330,7 +303,70 @@
           "priority_aspects": [],
           "priority_affixes": [
             {
-              "name": "keenness",
+              "name": "gluttony",
+              "weight": 3
+            }
+          ],
+          "required_tempers": []
+        },
+        "weapon": {
+          "slot": "weapon",
+          "priority_uniques": [
+            "Overkill",
+            "The Third Blade"
+          ],
+          "priority_aspects": [],
+          "priority_affixes": [
+            {
+              "name": "unique_corestat_strength_higher",
+              "weight": 8
+            },
+            {
+              "name": "unique_damage_generic_type_physical_giga",
+              "weight": 6
+            },
+            {
+              "name": "unique_damage_to_vulnerable_higherweapon",
+              "weight": 4
+            },
+            {
+              "name": "obliteration",
+              "weight": 3
+            },
+            {
+              "name": "tenderize",
+              "weight": 3
+            },
+            {
+              "name": "the_powerful",
+              "weight": 10
+            },
+            {
+              "name": "the_focused",
+              "weight": 8
+            },
+            {
+              "name": "ferocity",
+              "weight": 6
+            },
+            {
+              "name": "perpetuity",
+              "weight": 4
+            },
+            {
+              "name": "bsk_barbarian_002",
+              "weight": 10
+            },
+            {
+              "name": "cruelty",
+              "weight": 8
+            },
+            {
+              "name": "unique_damage_tag_weaponmastery_double",
+              "weight": 4
+            },
+            {
+              "name": "triumph",
               "weight": 3
             }
           ],
@@ -339,69 +375,25 @@
         "offhand": {
           "slot": "offhand",
           "priority_uniques": [
-            "Windforce"
+            "Ramaladni's Magnum Opus"
           ],
           "priority_aspects": [],
           "priority_affixes": [
             {
-              "name": "unique_projectiles_skill_rogue_barrage",
+              "name": "unique_resource_max_allclasses_higher",
               "weight": 8
             },
             {
-              "name": "unique_skillrankbonus_rogue_core_barrage_downscaled2h",
+              "name": "the_powerful",
               "weight": 6
-            },
-            {
-              "name": "unique_passiverankbonus_rogue_cunning_t4_n2_malice_downscaled2h",
-              "weight": 4
-            },
-            {
-              "name": "unique_movement_speed_lesserlesser",
-              "weight": 3
-            },
-            {
-              "name": "tenderize",
-              "weight": 3
-            },
-            {
-              "name": "the_adroit",
-              "weight": 10
             },
             {
               "name": "the_focused",
-              "weight": 8
-            },
-            {
-              "name": "vigor",
-              "weight": 6
-            },
-            {
-              "name": "perpetuity",
               "weight": 4
-            }
-          ],
-          "required_tempers": []
-        },
-        "weapon": {
-          "slot": "weapon",
-          "priority_uniques": [],
-          "priority_aspects": [],
-          "priority_affixes": [
-            {
-              "name": "the_adroit",
-              "weight": 10
             },
             {
-              "name": "the_focused",
-              "weight": 8
-            },
-            {
-              "name": "vigor",
-              "weight": 6
-            },
-            {
-              "name": "perpetuity",
-              "weight": 4
+              "name": "demolition",
+              "weight": 3
             },
             {
               "name": "tenderize",
@@ -412,26 +404,24 @@
         },
         "gloves": {
           "slot": "gloves",
-          "priority_uniques": [
-            "Grasp of Shadow"
-          ],
+          "priority_uniques": [],
           "priority_aspects": [],
           "priority_affixes": [
             {
-              "name": "unique_attackspeed_higher",
+              "name": "principals",
+              "weight": 10
+            },
+            {
+              "name": "swiftness",
               "weight": 8
             },
             {
-              "name": "the_adept",
+              "name": "the_powerful",
               "weight": 6
             },
             {
-              "name": "unique_damage_generic_tag_ultimate_higher",
+              "name": "keenness",
               "weight": 4
-            },
-            {
-              "name": "unique_skillrankbonus_rogue_category_marksman_cutthroat",
-              "weight": 3
             },
             {
               "name": "gluttony",
@@ -442,24 +432,26 @@
         },
         "pants": {
           "slot": "pants",
-          "priority_uniques": [],
+          "priority_uniques": [
+            "Tibault's Will"
+          ],
           "priority_aspects": [],
           "priority_affixes": [
             {
-              "name": "the_adroit",
-              "weight": 10
-            },
-            {
-              "name": "vigor",
+              "name": "resources",
               "weight": 8
             },
             {
-              "name": "auric",
+              "name": "keenness",
               "weight": 6
             },
             {
-              "name": "toughened",
+              "name": "harmony",
               "weight": 4
+            },
+            {
+              "name": "the_adept",
+              "weight": 3
             },
             {
               "name": "gluttony",
@@ -474,23 +466,23 @@
           "priority_aspects": [],
           "priority_affixes": [
             {
-              "name": "the_adroit",
+              "name": "roaring",
               "weight": 10
             },
             {
-              "name": "speed",
+              "name": "the_powerful",
               "weight": 8
             },
             {
-              "name": "vigor",
+              "name": "speed",
               "weight": 6
             },
             {
-              "name": "auric",
+              "name": "infusing",
               "weight": 4
             },
             {
-              "name": "clamber",
+              "name": "gluttony",
               "weight": 3
             }
           ],
@@ -499,59 +491,48 @@
         "ring": {
           "slot": "ring",
           "priority_uniques": [
-            "Ring of Starless Skies"
+            "Ring of Red Furor"
           ],
           "priority_aspects": [],
           "priority_affixes": [
             {
-              "name": "the_adroit",
+              "name": "swiftness",
               "weight": 10
             },
             {
-              "name": "vigor",
+              "name": "the_powerful",
               "weight": 8
             },
             {
-              "name": "swiftness",
+              "name": "keenness",
               "weight": 6
             },
             {
-              "name": "keenness",
+              "name": "the_focused",
               "weight": 4
             },
             {
-              "name": "tenderize",
-              "weight": 3
+              "name": "unique_resource_max_allclasses_jewelry_higher",
+              "weight": 10
+            },
+            {
+              "name": "dampening",
+              "weight": 6
+            },
+            {
+              "name": "unique_critdamage_giga",
+              "weight": 4
             }
           ],
           "required_tempers": []
         },
         "amulet": {
           "slot": "amulet",
-          "priority_uniques": [],
-          "priority_aspects": [],
-          "priority_affixes": [
-            {
-              "name": "shattering",
-              "weight": 10
-            },
-            {
-              "name": "instability",
-              "weight": 8
-            },
-            {
-              "name": "malice",
-              "weight": 6
-            },
-            {
-              "name": "exploits",
-              "weight": 4
-            },
-            {
-              "name": "tenderize",
-              "weight": 3
-            }
+          "priority_uniques": [
+            "Melted Heart of Selig"
           ],
+          "priority_aspects": [],
+          "priority_affixes": [],
           "required_tempers": []
         }
       }

@@ -2,6 +2,24 @@
   "class": "barbarian",
   "builds": [
     {
+      "id": "bash-barbarian",
+      "name": "Bash Barbarian",
+      "tier": "Z",
+      "file": "bash-barbarian.json"
+    },
+    {
+      "id": "kick-death-blow",
+      "name": "Kick Death Blow",
+      "tier": "Z",
+      "file": "kick-death-blow.json"
+    },
+    {
+      "id": "double-swing-barbarian",
+      "name": "Double Swing Barbarian",
+      "tier": "Z",
+      "file": "double-swing-barbarian.json"
+    },
+    {
       "id": "leapquake-barbarian",
       "name": "Leapquake Barbarian",
       "tier": "Z",
@@ -14,6 +32,24 @@
       "file": "hammer-of-the-ancients-barbarian.json"
     },
     {
+      "id": "flay-barbarian",
+      "name": "Flay Barbarian",
+      "tier": "Z",
+      "file": "flay-barbarian.json"
+    },
+    {
+      "id": "frenzy-barbarian",
+      "name": "Frenzy Barbarian",
+      "tier": "Z",
+      "file": "frenzy-barbarian.json"
+    },
+    {
+      "id": "kick-barbarian",
+      "name": "Kick Barbarian",
+      "tier": "Z",
+      "file": "kick-barbarian.json"
+    },
+    {
       "id": "lunging-strike-barbarian",
       "name": "Lunging Strike Barbarian",
       "tier": "Z",
@@ -24,6 +60,18 @@
       "name": "Mighty Throw Barbarian",
       "tier": "Z",
       "file": "mighty-throw-barbarian.json"
+    },
+    {
+      "id": "minion-barbarian",
+      "name": "Minion Barbarian",
+      "tier": "Z",
+      "file": "minion-barbarian.json"
+    },
+    {
+      "id": "upheaval-barbarian",
+      "name": "Upheaval Barbarian",
+      "tier": "Z",
+      "file": "upheaval-barbarian.json"
     },
     {
       "id": "whirlwind-barbarian",

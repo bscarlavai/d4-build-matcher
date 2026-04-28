@@ -1,9 +1,9 @@
 {
-  "id": "hammer-of-the-ancients-barbarian",
-  "name": "Hammer Of The Ancients Barbarian",
+  "id": "upheaval-barbarian",
+  "name": "Upheaval Barbarian",
   "class": "barbarian",
   "category": "endgame",
-  "source_url": "https://maxroll.gg/d4/build-guides/hammer-of-the-ancients-barbarian-guide",
+  "source_url": "https://maxroll.gg/d4/build-guides/upheaval-barbarian-guide",
   "tier": "Z",
   "tags": [],
   "last_updated": "2026-04-28",
@@ -11,9 +11,8 @@
     "starter",
     "ancestral",
     "mythic",
-    "push",
-    "speed",
-    "m-base"
+    "m-base",
+    "speed"
   ],
   "profiles": {
     "starter": {
@@ -37,7 +36,7 @@
               "weight": 6
             },
             {
-              "name": "resources",
+              "name": "infusing",
               "weight": 4
             }
           ],
@@ -61,7 +60,7 @@
               "weight": 6
             },
             {
-              "name": "resources",
+              "name": "toughened",
               "weight": 4
             }
           ],
@@ -129,7 +128,7 @@
           "priority_aspects": [],
           "priority_affixes": [
             {
-              "name": "battering",
+              "name": "sundering",
               "weight": 10
             },
             {
@@ -137,7 +136,7 @@
               "weight": 8
             },
             {
-              "name": "steel",
+              "name": "the_adept",
               "weight": 6
             },
             {
@@ -185,12 +184,8 @@
               "weight": 8
             },
             {
-              "name": "roaring",
+              "name": "speed",
               "weight": 6
-            },
-            {
-              "name": "infusing",
-              "weight": 4
             }
           ],
           "required_tempers": []
@@ -209,7 +204,7 @@
               "weight": 8
             },
             {
-              "name": "keenness",
+              "name": "the_adept",
               "weight": 6
             },
             {
@@ -225,7 +220,7 @@
           "priority_aspects": [],
           "priority_affixes": [
             {
-              "name": "keenness",
+              "name": "the_adept",
               "weight": 10
             },
             {
@@ -276,25 +271,23 @@
         },
         "chest": {
           "slot": "chest",
-          "priority_uniques": [
-            "Mantle of Mountain's Fury"
-          ],
+          "priority_uniques": [],
           "priority_aspects": [],
           "priority_affixes": [
             {
-              "name": "battering",
+              "name": "the_powerful",
               "weight": 10
             },
             {
-              "name": "passiverankbonus_barb_defensivestance_unique",
+              "name": "vigor",
               "weight": 8
             },
             {
-              "name": "unique_armor_giga_specialscaling",
+              "name": "auric",
               "weight": 6
             },
             {
-              "name": "tempered_double_damage_skill_barb_earthquake_tier3",
+              "name": "toughened",
               "weight": 4
             }
           ],
@@ -303,8 +296,61 @@
         "weapon": {
           "slot": "weapon",
           "priority_uniques": [
+            "Hellhammer",
             "Sabre of Tsasgal"
           ],
+          "priority_aspects": [],
+          "priority_affixes": [
+            {
+              "name": "unique_size_skill_barb_upheaval_higher",
+              "weight": 8
+            },
+            {
+              "name": "sundering",
+              "weight": 6
+            },
+            {
+              "name": "unique_passiverankbonus_barb_10_wallop",
+              "weight": 4
+            },
+            {
+              "name": "unique_corestat_strength_higherhigher",
+              "weight": 3
+            },
+            {
+              "name": "the_powerful",
+              "weight": 10
+            },
+            {
+              "name": "vigor",
+              "weight": 8
+            },
+            {
+              "name": "the_focused",
+              "weight": 6
+            },
+            {
+              "name": "perpetuity",
+              "weight": 4
+            },
+            {
+              "name": "unique_damage_generic_type_physical",
+              "weight": 6
+            },
+            {
+              "name": "unique_skillrankbonus_generic_category_core_higher",
+              "weight": 4
+            },
+            {
+              "name": "unique_passiverankbonus_barb_talent_13_warpath",
+              "weight": 3
+            }
+          ],
+          "required_tempers": []
+        },
+        "offhand": {
+          "slot": "offhand",
+          "priority_uniques": [],
           "priority_aspects": [],
           "priority_affixes": [
             {
@@ -322,6 +368,215 @@
             {
               "name": "riving",
               "weight": 4
+            }
+          ],
+          "required_tempers": []
+        },
+        "gloves": {
+          "slot": "gloves",
+          "priority_uniques": [],
+          "priority_aspects": [],
+          "priority_affixes": [
+            {
+              "name": "sundering",
+              "weight": 10
+            },
+            {
+              "name": "swiftness",
+              "weight": 8
+            },
+            {
+              "name": "the_adept",
+              "weight": 6
+            },
+            {
+              "name": "the_powerful",
+              "weight": 4
+            }
+          ],
+          "required_tempers": []
+        },
+        "pants": {
+          "slot": "pants",
+          "priority_uniques": [
+            "Tibault's Will"
+          ],
+          "priority_aspects": [],
+          "priority_affixes": [
+            {
+              "name": "the_adept",
+              "weight": 8
+            },
+            {
+              "name": "resources",
+              "weight": 6
+            },
+            {
+              "name": "keenness",
+              "weight": 4
+            },
+            {
+              "name": "harmony",
+              "weight": 3
+            }
+          ],
+          "required_tempers": []
+        },
+        "boots": {
+          "slot": "boots",
+          "priority_uniques": [
+            "100,000 Steps"
+          ],
+          "priority_aspects": [],
+          "priority_affixes": [
+            {
+              "name": "speed",
+              "weight": 8
+            },
+            {
+              "name": "unique_movement_speed_barb_perwalkingarsenal",
+              "weight": 6
+            },
+            {
+              "name": "unique_damage_to_stunned_verybig",
+              "weight": 4
+            },
+            {
+              "name": "unique_size_skill_barb_groundstomp",
+              "weight": 3
+            }
+          ],
+          "required_tempers": []
+        },
+        "ring": {
+          "slot": "ring",
+          "priority_uniques": [],
+          "priority_aspects": [],
+          "priority_affixes": [
+            {
+              "name": "swiftness",
+              "weight": 10
+            },
+            {
+              "name": "the_adept",
+              "weight": 8
+            },
+            {
+              "name": "the_powerful",
+              "weight": 6
+            },
+            {
+              "name": "vigor",
+              "weight": 4
+            }
+          ],
+          "required_tempers": []
+        },
+        "amulet": {
+          "slot": "amulet",
+          "priority_uniques": [
+            "Battle Trance"
+          ],
+          "priority_aspects": [],
+          "priority_affixes": [
+            {
+              "name": "the_sturdy",
+              "weight": 10
+            },
+            {
+              "name": "the_adept",
+              "weight": 8
+            },
+            {
+              "name": "resource_maxfury_greater_jewelry_unique",
+              "weight": 6
+            },
+            {
+              "name": "unique_skillrankbonus_barb_basic_3_frenzy_double",
+              "weight": 4
+            }
+          ],
+          "required_tempers": []
+        }
+      }
+    },
+    "m-base": {
+      "name": "M-Base",
+      "gear": {
+        "helm": {
+          "slot": "helm",
+          "priority_uniques": [
+            "Crown of Lucion"
+          ],
+          "priority_aspects": [],
+          "priority_affixes": [
+            {
+              "name": "bsk_generic_002",
+              "weight": 10
+            },
+            {
+              "name": "swiftness",
+              "weight": 8
+            },
+            {
+              "name": "luck",
+              "weight": 6
+            },
+            {
+              "name": "sanctity",
+              "weight": 4
+            },
+            {
+              "name": "vigor",
+              "weight": 3
+            }
+          ],
+          "required_tempers": []
+        },
+        "chest": {
+          "slot": "chest",
+          "priority_uniques": [
+            "Shroud of False Death"
+          ],
+          "priority_aspects": [],
+          "priority_affixes": [],
+          "required_tempers": []
+        },
+        "weapon": {
+          "slot": "weapon",
+          "priority_uniques": [
+            "Hellhammer",
+            "Sabre of Tsasgal"
+          ],
+          "priority_aspects": [],
+          "priority_affixes": [
+            {
+              "name": "sundering",
+              "weight": 8
+            },
+            {
+              "name": "unique_passiverankbonus_barb_10_wallop",
+              "weight": 6
+            },
+            {
+              "name": "unique_size_skill_barb_upheaval_higher",
+              "weight": 4
+            },
+            {
+              "name": "unique_corestat_strength_higherhigher",
+              "weight": 3
+            },
+            {
+              "name": "the_powerful",
+              "weight": 10
+            },
+            {
+              "name": "the_focused",
+              "weight": 8
+            },
+            {
+              "name": "ferocity",
+              "weight": 6
             },
             {
               "name": "perpetuity",
@@ -354,11 +609,11 @@
               "weight": 8
             },
             {
-              "name": "the_powerful",
+              "name": "the_focused",
               "weight": 6
             },
             {
-              "name": "the_focused",
+              "name": "the_powerful",
               "weight": 4
             },
             {
@@ -374,7 +629,7 @@
           "priority_aspects": [],
           "priority_affixes": [
             {
-              "name": "battering",
+              "name": "sundering",
               "weight": 10
             },
             {
@@ -382,11 +637,11 @@
               "weight": 8
             },
             {
-              "name": "the_powerful",
+              "name": "the_adept",
               "weight": 6
             },
             {
-              "name": "keenness",
+              "name": "the_powerful",
               "weight": 4
             }
           ],
@@ -404,7 +659,7 @@
               "weight": 8
             },
             {
-              "name": "harmony",
+              "name": "the_adept",
               "weight": 6
             },
             {
@@ -412,7 +667,7 @@
               "weight": 4
             },
             {
-              "name": "the_adept",
+              "name": "harmony",
               "weight": 3
             }
           ],
@@ -420,49 +675,49 @@
         },
         "boots": {
           "slot": "boots",
-          "priority_uniques": [
-            "100,000 Steps"
-          ],
+          "priority_uniques": [],
           "priority_aspects": [],
           "priority_affixes": [
             {
-              "name": "unique_damage_to_stunned_verybig",
+              "name": "roaring",
               "weight": 10
             },
             {
-              "name": "unique_size_skill_barb_groundstomp",
+              "name": "the_powerful",
               "weight": 8
+            },
+            {
+              "name": "infusing",
+              "weight": 6
             },
             {
               "name": "speed",
               "weight": 4
-            },
-            {
-              "name": "unique_movement_speed_barb_perwalkingarsenal",
-              "weight": 3
             }
           ],
           "required_tempers": []
         },
         "ring": {
           "slot": "ring",
-          "priority_uniques": [],
+          "priority_uniques": [
+            "Ring of Starless Skies"
+          ],
           "priority_aspects": [],
           "priority_affixes": [
             {
-              "name": "the_powerful",
+              "name": "swiftness",
               "weight": 10
             },
             {
-              "name": "swiftness",
+              "name": "keenness",
               "weight": 8
             },
             {
-              "name": "keenness",
+              "name": "the_powerful",
               "weight": 6
             },
             {
-              "name": "vigor",
+              "name": "riving",
               "weight": 4
             }
           ],
@@ -471,27 +726,10 @@
         "amulet": {
           "slot": "amulet",
           "priority_uniques": [
-            "Battle Trance"
+            "Melted Heart of Selig"
           ],
           "priority_aspects": [],
-          "priority_affixes": [
-            {
-              "name": "the_sturdy",
-              "weight": 8
-            },
-            {
-              "name": "resource_maxfury_greater_jewelry_unique",
-              "weight": 6
-            },
-            {
-              "name": "the_adept",
-              "weight": 4
-            },
-            {
-              "name": "unique_skillrankbonus_barb_basic_3_frenzy_double",
-              "weight": 3
-            }
-          ],
+          "priority_affixes": [],
           "required_tempers": []
         }
       }
@@ -536,26 +774,10 @@
         "chest": {
           "slot": "chest",
           "priority_uniques": [
-            "Mantle of Mountain's Fury"
+            "Shroud of False Death"
           ],
           "priority_aspects": [],
           "priority_affixes": [
-            {
-              "name": "battering",
-              "weight": 10
-            },
-            {
-              "name": "passiverankbonus_barb_defensivestance_unique",
-              "weight": 8
-            },
-            {
-              "name": "unique_armor_giga_specialscaling",
-              "weight": 6
-            },
-            {
-              "name": "tempered_double_damage_skill_barb_earthquake_tier3",
-              "weight": 4
-            },
             {
               "name": "revel",
               "weight": 3
@@ -566,10 +788,31 @@
         "weapon": {
           "slot": "weapon",
           "priority_uniques": [
+            "Hellhammer",
             "Sabre of Tsasgal"
           ],
           "priority_aspects": [],
           "priority_affixes": [
+            {
+              "name": "sundering",
+              "weight": 8
+            },
+            {
+              "name": "unique_passiverankbonus_barb_10_wallop",
+              "weight": 6
+            },
+            {
+              "name": "unique_size_skill_barb_upheaval_higher",
+              "weight": 4
+            },
+            {
+              "name": "unique_corestat_strength_higherhigher",
+              "weight": 3
+            },
+            {
+              "name": "tenderize",
+              "weight": 3
+            },
             {
               "name": "the_powerful",
               "weight": 10
@@ -581,14 +824,6 @@
             {
               "name": "ferocity",
               "weight": 6
-            },
-            {
-              "name": "riving",
-              "weight": 4
-            },
-            {
-              "name": "tenderize",
-              "weight": 3
             },
             {
               "name": "perpetuity",
@@ -621,11 +856,11 @@
               "weight": 8
             },
             {
-              "name": "the_powerful",
+              "name": "the_focused",
               "weight": 6
             },
             {
-              "name": "the_focused",
+              "name": "the_powerful",
               "weight": 4
             },
             {
@@ -645,7 +880,7 @@
           "priority_aspects": [],
           "priority_affixes": [
             {
-              "name": "battering",
+              "name": "sundering",
               "weight": 10
             },
             {
@@ -653,11 +888,11 @@
               "weight": 8
             },
             {
-              "name": "the_powerful",
+              "name": "the_adept",
               "weight": 6
             },
             {
-              "name": "keenness",
+              "name": "the_powerful",
               "weight": 4
             },
             {
@@ -679,15 +914,15 @@
               "weight": 8
             },
             {
-              "name": "keenness",
+              "name": "the_adept",
               "weight": 6
             },
             {
-              "name": "harmony",
+              "name": "keenness",
               "weight": 4
             },
             {
-              "name": "the_adept",
+              "name": "harmony",
               "weight": 3
             },
             {
@@ -699,26 +934,24 @@
         },
         "boots": {
           "slot": "boots",
-          "priority_uniques": [
-            "100,000 Steps"
-          ],
+          "priority_uniques": [],
           "priority_aspects": [],
           "priority_affixes": [
             {
-              "name": "unique_damage_to_stunned_verybig",
+              "name": "roaring",
               "weight": 10
             },
             {
-              "name": "unique_size_skill_barb_groundstomp",
+              "name": "the_powerful",
               "weight": 8
+            },
+            {
+              "name": "infusing",
+              "weight": 6
             },
             {
               "name": "speed",
               "weight": 4
-            },
-            {
-              "name": "unique_movement_speed_barb_perwalkingarsenal",
-              "weight": 3
             },
             {
               "name": "gluttony",
@@ -735,287 +968,19 @@
           "priority_aspects": [],
           "priority_affixes": [
             {
-              "name": "the_powerful",
-              "weight": 10
-            },
-            {
               "name": "swiftness",
-              "weight": 8
+              "weight": 10
             },
             {
               "name": "keenness",
-              "weight": 6
-            },
-            {
-              "name": "the_focused",
-              "weight": 4
-            }
-          ],
-          "required_tempers": []
-        },
-        "amulet": {
-          "slot": "amulet",
-          "priority_uniques": [
-            "Melted Heart of Selig"
-          ],
-          "priority_aspects": [],
-          "priority_affixes": [],
-          "required_tempers": []
-        }
-      }
-    },
-    "push": {
-      "name": "Push",
-      "gear": {
-        "helm": {
-          "slot": "helm",
-          "priority_uniques": [
-            "Crown of Lucion"
-          ],
-          "priority_aspects": [],
-          "priority_affixes": [
-            {
-              "name": "bsk_generic_002",
-              "weight": 10
-            },
-            {
-              "name": "swiftness",
               "weight": 8
             },
-            {
-              "name": "luck",
-              "weight": 6
-            },
-            {
-              "name": "sanctity",
-              "weight": 4
-            },
-            {
-              "name": "vigor",
-              "weight": 3
-            },
-            {
-              "name": "seethe",
-              "weight": 3
-            }
-          ],
-          "required_tempers": []
-        },
-        "chest": {
-          "slot": "chest",
-          "priority_uniques": [
-            "Mantle of Mountain's Fury"
-          ],
-          "priority_aspects": [],
-          "priority_affixes": [
-            {
-              "name": "battering",
-              "weight": 10
-            },
-            {
-              "name": "passiverankbonus_barb_defensivestance_unique",
-              "weight": 8
-            },
-            {
-              "name": "unique_armor_giga_specialscaling",
-              "weight": 6
-            },
-            {
-              "name": "tempered_double_damage_skill_barb_earthquake_tier3",
-              "weight": 4
-            },
-            {
-              "name": "revel",
-              "weight": 3
-            }
-          ],
-          "required_tempers": []
-        },
-        "weapon": {
-          "slot": "weapon",
-          "priority_uniques": [
-            "Sabre of Tsasgal"
-          ],
-          "priority_aspects": [],
-          "priority_affixes": [
             {
               "name": "the_powerful",
-              "weight": 10
-            },
-            {
-              "name": "the_focused",
-              "weight": 8
-            },
-            {
-              "name": "ferocity",
               "weight": 6
             },
             {
               "name": "riving",
-              "weight": 4
-            },
-            {
-              "name": "tenderize",
-              "weight": 3
-            },
-            {
-              "name": "perpetuity",
-              "weight": 4
-            },
-            {
-              "name": "unique_passiverankbonus_barb_talent_13_warpath",
-              "weight": 8
-            },
-            {
-              "name": "unique_skillrankbonus_generic_category_core_higher",
-              "weight": 6
-            },
-            {
-              "name": "unique_damage_generic_type_physical",
-              "weight": 3
-            }
-          ],
-          "required_tempers": []
-        },
-        "offhand": {
-          "slot": "offhand",
-          "priority_uniques": [
-            "Ramaladni's Magnum Opus"
-          ],
-          "priority_aspects": [],
-          "priority_affixes": [
-            {
-              "name": "unique_resource_max_allclasses_higher",
-              "weight": 8
-            },
-            {
-              "name": "the_powerful",
-              "weight": 6
-            },
-            {
-              "name": "the_focused",
-              "weight": 4
-            },
-            {
-              "name": "demolition",
-              "weight": 3
-            },
-            {
-              "name": "tenderize",
-              "weight": 3
-            }
-          ],
-          "required_tempers": []
-        },
-        "gloves": {
-          "slot": "gloves",
-          "priority_uniques": [],
-          "priority_aspects": [],
-          "priority_affixes": [
-            {
-              "name": "battering",
-              "weight": 10
-            },
-            {
-              "name": "swiftness",
-              "weight": 8
-            },
-            {
-              "name": "the_powerful",
-              "weight": 6
-            },
-            {
-              "name": "keenness",
-              "weight": 4
-            },
-            {
-              "name": "gluttony",
-              "weight": 3
-            }
-          ],
-          "required_tempers": []
-        },
-        "pants": {
-          "slot": "pants",
-          "priority_uniques": [
-            "Tibault's Will"
-          ],
-          "priority_aspects": [],
-          "priority_affixes": [
-            {
-              "name": "resources",
-              "weight": 8
-            },
-            {
-              "name": "keenness",
-              "weight": 6
-            },
-            {
-              "name": "harmony",
-              "weight": 4
-            },
-            {
-              "name": "the_adept",
-              "weight": 3
-            },
-            {
-              "name": "gluttony",
-              "weight": 3
-            }
-          ],
-          "required_tempers": []
-        },
-        "boots": {
-          "slot": "boots",
-          "priority_uniques": [
-            "100,000 Steps"
-          ],
-          "priority_aspects": [],
-          "priority_affixes": [
-            {
-              "name": "unique_damage_to_stunned_verybig",
-              "weight": 10
-            },
-            {
-              "name": "unique_size_skill_barb_groundstomp",
-              "weight": 8
-            },
-            {
-              "name": "speed",
-              "weight": 4
-            },
-            {
-              "name": "unique_movement_speed_barb_perwalkingarsenal",
-              "weight": 3
-            },
-            {
-              "name": "gluttony",
-              "weight": 3
-            }
-          ],
-          "required_tempers": []
-        },
-        "ring": {
-          "slot": "ring",
-          "priority_uniques": [
-            "Ring of Starless Skies"
-          ],
-          "priority_aspects": [],
-          "priority_affixes": [
-            {
-              "name": "the_powerful",
-              "weight": 10
-            },
-            {
-              "name": "swiftness",
-              "weight": 8
-            },
-            {
-              "name": "keenness",
-              "weight": 6
-            },
-            {
-              "name": "the_focused",
               "weight": 4
             }
           ],
@@ -1057,10 +1022,6 @@
             {
               "name": "vigor",
               "weight": 4
-            },
-            {
-              "name": "seethe",
-              "weight": 3
             }
           ],
           "required_tempers": []
@@ -1068,26 +1029,10 @@
         "chest": {
           "slot": "chest",
           "priority_uniques": [
-            "Mantle of Mountain's Fury"
+            "Shroud of False Death"
           ],
           "priority_aspects": [],
           "priority_affixes": [
-            {
-              "name": "battering",
-              "weight": 10
-            },
-            {
-              "name": "passiverankbonus_barb_defensivestance_unique",
-              "weight": 8
-            },
-            {
-              "name": "unique_armor_giga_specialscaling",
-              "weight": 6
-            },
-            {
-              "name": "tempered_double_damage_skill_barb_earthquake_tier3",
-              "weight": 4
-            },
             {
               "name": "revel",
               "weight": 3
@@ -1098,10 +1043,31 @@
         "weapon": {
           "slot": "weapon",
           "priority_uniques": [
+            "Hellhammer",
             "Sabre of Tsasgal"
           ],
           "priority_aspects": [],
           "priority_affixes": [
+            {
+              "name": "sundering",
+              "weight": 8
+            },
+            {
+              "name": "unique_passiverankbonus_barb_10_wallop",
+              "weight": 6
+            },
+            {
+              "name": "unique_size_skill_barb_upheaval_higher",
+              "weight": 4
+            },
+            {
+              "name": "unique_corestat_strength_higherhigher",
+              "weight": 3
+            },
+            {
+              "name": "tenderize",
+              "weight": 3
+            },
             {
               "name": "the_powerful",
               "weight": 10
@@ -1113,10 +1079,6 @@
             {
               "name": "ferocity",
               "weight": 6
-            },
-            {
-              "name": "riving",
-              "weight": 4
             },
             {
               "name": "perpetuity",
@@ -1149,15 +1111,19 @@
               "weight": 8
             },
             {
-              "name": "the_powerful",
+              "name": "the_focused",
               "weight": 6
             },
             {
-              "name": "the_focused",
+              "name": "the_powerful",
               "weight": 4
             },
             {
               "name": "demolition",
+              "weight": 3
+            },
+            {
+              "name": "tenderize",
               "weight": 3
             }
           ],
@@ -1169,7 +1135,7 @@
           "priority_aspects": [],
           "priority_affixes": [
             {
-              "name": "battering",
+              "name": "sundering",
               "weight": 10
             },
             {
@@ -1177,11 +1143,11 @@
               "weight": 8
             },
             {
-              "name": "the_powerful",
+              "name": "the_adept",
               "weight": 6
             },
             {
-              "name": "keenness",
+              "name": "the_powerful",
               "weight": 4
             },
             {
@@ -1207,11 +1173,11 @@
               "weight": 8
             },
             {
-              "name": "harmony",
+              "name": "vigor",
               "weight": 6
             },
             {
-              "name": "vigor",
+              "name": "harmony",
               "weight": 4
             },
             {
@@ -1223,269 +1189,27 @@
         },
         "boots": {
           "slot": "boots",
-          "priority_uniques": [
-            "100,000 Steps"
-          ],
-          "priority_aspects": [],
-          "priority_affixes": [
-            {
-              "name": "unique_damage_to_stunned_verybig",
-              "weight": 10
-            },
-            {
-              "name": "unique_size_skill_barb_groundstomp",
-              "weight": 8
-            },
-            {
-              "name": "speed",
-              "weight": 4
-            },
-            {
-              "name": "unique_movement_speed_barb_perwalkingarsenal",
-              "weight": 3
-            },
-            {
-              "name": "gluttony",
-              "weight": 3
-            }
-          ],
-          "required_tempers": []
-        },
-        "ring": {
-          "slot": "ring",
-          "priority_uniques": [
-            "Ring of Starless Skies"
-          ],
-          "priority_aspects": [],
-          "priority_affixes": [
-            {
-              "name": "the_powerful",
-              "weight": 10
-            },
-            {
-              "name": "swiftness",
-              "weight": 8
-            },
-            {
-              "name": "keenness",
-              "weight": 6
-            },
-            {
-              "name": "the_focused",
-              "weight": 4
-            }
-          ],
-          "required_tempers": []
-        },
-        "amulet": {
-          "slot": "amulet",
-          "priority_uniques": [
-            "Melted Heart of Selig"
-          ],
-          "priority_aspects": [],
-          "priority_affixes": [],
-          "required_tempers": []
-        }
-      }
-    },
-    "m-base": {
-      "name": "M-Base",
-      "gear": {
-        "helm": {
-          "slot": "helm",
-          "priority_uniques": [
-            "Crown of Lucion"
-          ],
-          "priority_aspects": [],
-          "priority_affixes": [
-            {
-              "name": "bsk_generic_002",
-              "weight": 10
-            },
-            {
-              "name": "swiftness",
-              "weight": 8
-            },
-            {
-              "name": "luck",
-              "weight": 6
-            },
-            {
-              "name": "sanctity",
-              "weight": 4
-            },
-            {
-              "name": "vigor",
-              "weight": 3
-            }
-          ],
-          "required_tempers": []
-        },
-        "chest": {
-          "slot": "chest",
-          "priority_uniques": [
-            "Mantle of Mountain's Fury"
-          ],
-          "priority_aspects": [],
-          "priority_affixes": [
-            {
-              "name": "battering",
-              "weight": 10
-            },
-            {
-              "name": "passiverankbonus_barb_defensivestance_unique",
-              "weight": 8
-            },
-            {
-              "name": "unique_armor_giga_specialscaling",
-              "weight": 6
-            },
-            {
-              "name": "tempered_double_damage_skill_barb_earthquake_tier3",
-              "weight": 4
-            }
-          ],
-          "required_tempers": []
-        },
-        "weapon": {
-          "slot": "weapon",
-          "priority_uniques": [
-            "Sabre of Tsasgal"
-          ],
-          "priority_aspects": [],
-          "priority_affixes": [
-            {
-              "name": "the_powerful",
-              "weight": 10
-            },
-            {
-              "name": "the_focused",
-              "weight": 8
-            },
-            {
-              "name": "ferocity",
-              "weight": 6
-            },
-            {
-              "name": "riving",
-              "weight": 4
-            },
-            {
-              "name": "perpetuity",
-              "weight": 4
-            },
-            {
-              "name": "unique_passiverankbonus_barb_talent_13_warpath",
-              "weight": 8
-            },
-            {
-              "name": "unique_skillrankbonus_generic_category_core_higher",
-              "weight": 6
-            },
-            {
-              "name": "unique_damage_generic_type_physical",
-              "weight": 3
-            }
-          ],
-          "required_tempers": []
-        },
-        "offhand": {
-          "slot": "offhand",
-          "priority_uniques": [
-            "Ramaladni's Magnum Opus"
-          ],
-          "priority_aspects": [],
-          "priority_affixes": [
-            {
-              "name": "unique_resource_max_allclasses_higher",
-              "weight": 8
-            },
-            {
-              "name": "the_powerful",
-              "weight": 6
-            },
-            {
-              "name": "the_focused",
-              "weight": 4
-            },
-            {
-              "name": "demolition",
-              "weight": 3
-            }
-          ],
-          "required_tempers": []
-        },
-        "gloves": {
-          "slot": "gloves",
           "priority_uniques": [],
           "priority_aspects": [],
           "priority_affixes": [
             {
-              "name": "battering",
+              "name": "roaring",
               "weight": 10
-            },
-            {
-              "name": "swiftness",
-              "weight": 8
             },
             {
               "name": "the_powerful",
-              "weight": 6
-            },
-            {
-              "name": "keenness",
-              "weight": 4
-            }
-          ],
-          "required_tempers": []
-        },
-        "pants": {
-          "slot": "pants",
-          "priority_uniques": [
-            "Tibault's Will"
-          ],
-          "priority_aspects": [],
-          "priority_affixes": [
-            {
-              "name": "resources",
               "weight": 8
             },
             {
-              "name": "keenness",
+              "name": "infusing",
               "weight": 6
-            },
-            {
-              "name": "harmony",
-              "weight": 4
-            },
-            {
-              "name": "the_adept",
-              "weight": 3
-            }
-          ],
-          "required_tempers": []
-        },
-        "boots": {
-          "slot": "boots",
-          "priority_uniques": [
-            "100,000 Steps"
-          ],
-          "priority_aspects": [],
-          "priority_affixes": [
-            {
-              "name": "unique_damage_to_stunned_verybig",
-              "weight": 10
-            },
-            {
-              "name": "unique_size_skill_barb_groundstomp",
-              "weight": 8
             },
             {
               "name": "speed",
               "weight": 4
             },
             {
-              "name": "unique_movement_speed_barb_perwalkingarsenal",
+              "name": "gluttony",
               "weight": 3
             }
           ],
@@ -1499,19 +1223,19 @@
           "priority_aspects": [],
           "priority_affixes": [
             {
-              "name": "the_powerful",
+              "name": "swiftness",
               "weight": 10
             },
             {
-              "name": "swiftness",
+              "name": "keenness",
               "weight": 8
             },
             {
-              "name": "keenness",
+              "name": "the_powerful",
               "weight": 6
             },
             {
-              "name": "the_focused",
+              "name": "riving",
               "weight": 4
             }
           ],
