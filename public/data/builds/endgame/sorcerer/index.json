@@ -26,12 +26,6 @@
       "file": "frozen-orb-sorcerer.json"
     },
     {
-      "id": "blizzard-sorcerer",
-      "name": "Blizzard Sorcerer",
-      "tier": "Z",
-      "file": "blizzard-sorcerer.json"
-    },
-    {
       "id": "hydra-sorcerer",
       "name": "Hydra Sorcerer",
       "tier": "Z",
