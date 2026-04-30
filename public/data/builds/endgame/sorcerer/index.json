@@ -2,12 +2,6 @@
   "class": "sorcerer",
   "builds": [
     {
-      "id": "crackling-energy-sorcerer",
-      "name": "Crackling Energy Sorcerer",
-      "tier": "Z",
-      "file": "crackling-energy-sorcerer.json"
-    },
-    {
       "id": "ice-shards-sorcerer",
       "name": "Ice Shards Sorcerer",
       "tier": "Z",

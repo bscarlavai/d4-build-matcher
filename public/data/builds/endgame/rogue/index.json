@@ -2,24 +2,6 @@
   "class": "rogue",
   "builds": [
     {
-      "id": "dance-of-knives-rogue",
-      "name": "Dance Of Knives Rogue",
-      "tier": "Z",
-      "file": "dance-of-knives-rogue.json"
-    },
-    {
-      "id": "barrage-rogue",
-      "name": "Barrage Rogue",
-      "tier": "Z",
-      "file": "barrage-rogue.json"
-    },
-    {
-      "id": "twisting-blades-rogue",
-      "name": "Twisting Blades Rogue",
-      "tier": "Z",
-      "file": "twisting-blades-rogue.json"
-    },
-    {
       "id": "death-trap-rogue",
       "name": "Death Trap Rogue",
       "tier": "Z",
@@ -42,18 +24,6 @@
       "name": "Penetrating Shot Rogue",
       "tier": "Z",
       "file": "penetrating-shot-rogue.json"
-    },
-    {
-      "id": "rapid-fire-rogue",
-      "name": "Rapid Fire Rogue",
-      "tier": "Z",
-      "file": "rapid-fire-rogue.json"
-    },
-    {
-      "id": "heartseeker-rogue-specialized",
-      "name": "Heartseeker Rogue Specialized",
-      "tier": "Z",
-      "file": "heartseeker-rogue-specialized.json"
     },
     {
       "id": "grenade-rogue",

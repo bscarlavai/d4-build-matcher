@@ -32,12 +32,6 @@
       "file": "bone-spear-necromancer.json"
     },
     {
-      "id": "minion-necromancer",
-      "name": "Minion Necromancer",
-      "tier": "Z",
-      "file": "minion-necromancer.json"
-    },
-    {
       "id": "blight-necromancer",
       "name": "Blight Necromancer",
       "tier": "Z",
@@ -48,18 +42,6 @@
       "name": "Sever Necromancer Endgame",
       "tier": "Z",
       "file": "sever-necromancer-endgame.json"
-    },
-    {
-      "id": "blood-lance-necromancer",
-      "name": "Blood Lance Necromancer",
-      "tier": "Z",
-      "file": "blood-lance-necromancer.json"
-    },
-    {
-      "id": "blood-surge-necromancer",
-      "name": "Blood Surge Necromancer",
-      "tier": "Z",
-      "file": "blood-surge-necromancer.json"
     }
   ]
 }

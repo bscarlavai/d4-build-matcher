@@ -2,12 +2,6 @@
   "class": "paladin",
   "builds": [
     {
-      "id": "wing-strikes-paladin",
-      "name": "Wing Strikes Paladin",
-      "tier": "Z",
-      "file": "wing-strikes-paladin.json"
-    },
-    {
       "id": "shield-of-retribution-paladin",
       "name": "Shield Of Retribution Paladin",
       "tier": "Z",
