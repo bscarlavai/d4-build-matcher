@@ -18,18 +18,6 @@
       "name": "Rain Of Arrows Rogue",
       "tier": "Z",
       "file": "rain-of-arrows-rogue.json"
-    },
-    {
-      "id": "penetrating-shot-rogue",
-      "name": "Penetrating Shot Rogue",
-      "tier": "Z",
-      "file": "penetrating-shot-rogue.json"
-    },
-    {
-      "id": "grenade-rogue",
-      "name": "Grenade Rogue",
-      "tier": "Z",
-      "file": "grenade-rogue.json"
     }
   ]
 }

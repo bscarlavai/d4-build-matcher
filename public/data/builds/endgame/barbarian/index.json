@@ -72,12 +72,6 @@
       "name": "Upheaval Barbarian",
       "tier": "Z",
       "file": "upheaval-barbarian.json"
-    },
-    {
-      "id": "whirlwind-barbarian",
-      "name": "Whirlwind Barbarian",
-      "tier": "Z",
-      "file": "whirlwind-barbarian.json"
     }
   ]
 }

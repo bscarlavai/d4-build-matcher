@@ -2,12 +2,6 @@
   "class": "paladin",
   "builds": [
     {
-      "id": "shield-of-retribution-paladin",
-      "name": "Shield Of Retribution Paladin",
-      "tier": "Z",
-      "file": "shield-of-retribution-paladin.json"
-    },
-    {
       "id": "auradin",
       "name": "Auradin",
       "tier": "Z",
