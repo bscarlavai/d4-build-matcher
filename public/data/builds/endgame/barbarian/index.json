@@ -62,12 +62,6 @@
       "file": "mighty-throw-barbarian.json"
     },
     {
-      "id": "minion-barbarian",
-      "name": "Minion Barbarian",
-      "tier": "Z",
-      "file": "minion-barbarian.json"
-    },
-    {
       "id": "upheaval-barbarian",
       "name": "Upheaval Barbarian",
       "tier": "Z",
