@@ -62,12 +62,6 @@
       "file": "zeal-paladin.json"
     },
     {
-      "id": "judgement-paladin",
-      "name": "Judgement Paladin",
-      "tier": "Z",
-      "file": "judgement-paladin.json"
-    },
-    {
       "id": "divine-javelin-paladin",
       "name": "Divine Javelin Paladin",
       "tier": "Z",

@@ -26,12 +26,6 @@
       "file": "leapquake-barbarian.json"
     },
     {
-      "id": "hammer-of-the-ancients-barbarian",
-      "name": "Hammer Of The Ancients Barbarian",
-      "tier": "Z",
-      "file": "hammer-of-the-ancients-barbarian.json"
-    },
-    {
       "id": "flay-barbarian",
       "name": "Flay Barbarian",
       "tier": "Z",

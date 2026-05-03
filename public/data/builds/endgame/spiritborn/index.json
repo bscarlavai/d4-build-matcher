@@ -2,12 +2,6 @@
   "class": "spiritborn",
   "builds": [
     {
-      "id": "evade-spiritborn-build",
-      "name": "Evade Spiritborn Build",
-      "tier": "Z",
-      "file": "evade-spiritborn-build.json"
-    },
-    {
       "id": "quill-volley-spiritborn",
       "name": "Quill Volley Spiritborn",
       "tier": "Z",

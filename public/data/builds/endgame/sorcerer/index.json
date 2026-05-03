@@ -8,12 +8,6 @@
       "file": "ice-shards-sorcerer.json"
     },
     {
-      "id": "ball-lightning-sorcerer",
-      "name": "Ball Lightning Sorcerer",
-      "tier": "Z",
-      "file": "ball-lightning-sorcerer.json"
-    },
-    {
       "id": "frozen-orb-sorcerer",
       "name": "Frozen Orb Sorcerer",
       "tier": "Z",

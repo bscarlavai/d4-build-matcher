@@ -2,18 +2,6 @@
   "class": "rogue",
   "builds": [
     {
-      "id": "death-trap-rogue",
-      "name": "Death Trap Rogue",
-      "tier": "Z",
-      "file": "death-trap-rogue.json"
-    },
-    {
-      "id": "flurry-rogue",
-      "name": "Flurry Rogue",
-      "tier": "Z",
-      "file": "flurry-rogue.json"
-    },
-    {
       "id": "rain-of-arrows-rogue",
       "name": "Rain Of Arrows Rogue",
       "tier": "Z",

@@ -14,18 +14,6 @@
       "file": "shred-druid.json"
     },
     {
-      "id": "companion-druid",
-      "name": "Companion Druid",
-      "tier": "Z",
-      "file": "companion-druid.json"
-    },
-    {
-      "id": "lightning-storm-druid",
-      "name": "Lightning Storm Druid",
-      "tier": "Z",
-      "file": "lightning-storm-druid.json"
-    },
-    {
       "id": "tornado-druid",
       "name": "Tornado Druid",
       "tier": "Z",
