@@ -32,12 +32,6 @@
       "file": "flay-barbarian.json"
     },
     {
-      "id": "frenzy-barbarian",
-      "name": "Frenzy Barbarian",
-      "tier": "Z",
-      "file": "frenzy-barbarian.json"
-    },
-    {
       "id": "kick-barbarian",
       "name": "Kick Barbarian",
       "tier": "Z",

@@ -8,12 +8,6 @@
       "file": "auradin.json"
     },
     {
-      "id": "blessed-hammer-paladin",
-      "name": "Blessed Hammer Paladin",
-      "tier": "Z",
-      "file": "blessed-hammer-paladin.json"
-    },
-    {
       "id": "fist-of-the-heavens-paladin",
       "name": "Fist Of The Heavens Paladin",
       "tier": "Z",

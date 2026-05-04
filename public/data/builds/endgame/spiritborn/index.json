@@ -2,12 +2,6 @@
   "class": "spiritborn",
   "builds": [
     {
-      "id": "quill-volley-spiritborn",
-      "name": "Quill Volley Spiritborn",
-      "tier": "Z",
-      "file": "quill-volley-spiritborn.json"
-    },
-    {
       "id": "crushing-hand-spiritborn",
       "name": "Crushing Hand Spiritborn",
       "tier": "Z",
