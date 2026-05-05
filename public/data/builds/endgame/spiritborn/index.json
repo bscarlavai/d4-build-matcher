@@ -2,12 +2,6 @@
   "class": "spiritborn",
   "builds": [
     {
-      "id": "crushing-hand-spiritborn",
-      "name": "Crushing Hand Spiritborn",
-      "tier": "Z",
-      "file": "crushing-hand-spiritborn.json"
-    },
-    {
       "id": "stinger-spiritborn",
       "name": "Stinger Spiritborn",
       "tier": "Z",
