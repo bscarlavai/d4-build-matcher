@@ -20,12 +20,6 @@
       "file": "hydra-sorcerer.json"
     },
     {
-      "id": "meteor-sorcerer",
-      "name": "Meteor Sorcerer",
-      "tier": "Z",
-      "file": "meteor-sorcerer.json"
-    },
-    {
       "id": "fireball-sorcerer",
       "name": "Fireball Sorcerer",
       "tier": "Z",
