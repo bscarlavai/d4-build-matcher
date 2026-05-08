@@ -2,12 +2,6 @@
   "class": "druid",
   "builds": [
     {
-      "id": "pulverize-druid",
-      "name": "Pulverize Druid",
-      "tier": "Z",
-      "file": "pulverize-druid.json"
-    },
-    {
       "id": "shred-druid",
       "name": "Shred Druid",
       "tier": "Z",

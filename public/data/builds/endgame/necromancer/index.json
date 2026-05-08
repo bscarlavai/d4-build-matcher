@@ -14,12 +14,6 @@
       "file": "golem-necromancer.json"
     },
     {
-      "id": "bone-spirit-necromancer",
-      "name": "Bone Spirit Necromancer",
-      "tier": "Z",
-      "file": "bone-spirit-necromancer.json"
-    },
-    {
       "id": "bone-spear-necromancer",
       "name": "Bone Spear Necromancer",
       "tier": "Z",
