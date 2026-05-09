@@ -2,12 +2,6 @@
   "class": "sorcerer",
   "builds": [
     {
-      "id": "ice-shards-sorcerer",
-      "name": "Ice Shards Sorcerer",
-      "tier": "Z",
-      "file": "ice-shards-sorcerer.json"
-    },
-    {
       "id": "frozen-orb-sorcerer",
       "name": "Frozen Orb Sorcerer",
       "tier": "Z",
