@@ -6,7 +6,7 @@
   "source_url": "https://maxroll.gg/d4/build-guides/golem-necromancer-guide",
   "tier": "Z",
   "tags": [],
-  "last_updated": "2026-05-10",
+  "last_updated": "2026-05-11",
   "profile_order": [
     "starter",
     "ancestral",
@@ -332,7 +332,7 @@
         "weapon": {
           "slot": "weapon",
           "priority_uniques": [
-            "Mace of King Leoric"
+            "Gravebloom"
           ],
           "priority_aspects": [],
           "priority_affixes": [
@@ -560,7 +560,7 @@
         "weapon": {
           "slot": "weapon",
           "priority_uniques": [
-            "Mace of King Leoric"
+            "Gravebloom"
           ],
           "priority_aspects": [],
           "priority_affixes": [
@@ -809,7 +809,7 @@
         "weapon": {
           "slot": "weapon",
           "priority_uniques": [
-            "Mace of King Leoric"
+            "Gravebloom"
           ],
           "priority_aspects": [],
           "priority_affixes": [
@@ -1058,7 +1058,7 @@
         "weapon": {
           "slot": "weapon",
           "priority_uniques": [
-            "Mace of King Leoric"
+            "Gravebloom"
           ],
           "priority_aspects": [],
           "priority_affixes": [
