@@ -50,12 +50,6 @@
       "file": "blessed-shield-paladin.json"
     },
     {
-      "id": "zeal-paladin",
-      "name": "Zeal Paladin",
-      "tier": "Z",
-      "file": "zeal-paladin.json"
-    },
-    {
       "id": "divine-javelin-paladin",
       "name": "Divine Javelin Paladin",
       "tier": "Z",
