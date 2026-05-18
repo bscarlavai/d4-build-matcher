@@ -38,12 +38,6 @@
       "file": "kick-barbarian.json"
     },
     {
-      "id": "lunging-strike-barbarian",
-      "name": "Lunging Strike Barbarian",
-      "tier": "Z",
-      "file": "lunging-strike-barbarian.json"
-    },
-    {
       "id": "mighty-throw-barbarian",
       "name": "Mighty Throw Barbarian",
       "tier": "Z",
