@@ -4,32 +4,8 @@
     {
       "id": "frozen-orb-sorcerer",
       "name": "Frozen Orb Sorcerer",
-      "tier": "Z",
+      "tier": "D",
       "file": "frozen-orb-sorcerer.json"
-    },
-    {
-      "id": "hydra-sorcerer",
-      "name": "Hydra Sorcerer",
-      "tier": "Z",
-      "file": "hydra-sorcerer.json"
-    },
-    {
-      "id": "fireball-sorcerer",
-      "name": "Fireball Sorcerer",
-      "tier": "Z",
-      "file": "fireball-sorcerer.json"
-    },
-    {
-      "id": "lightning-spear-sorcerer",
-      "name": "Lightning Spear Sorcerer",
-      "tier": "Z",
-      "file": "lightning-spear-sorcerer.json"
-    },
-    {
-      "id": "chain-lightning-sorcerer",
-      "name": "Chain Lightning Sorcerer",
-      "tier": "Z",
-      "file": "chain-lightning-sorcerer.json"
     }
   ]
 }
