@@ -20,12 +20,6 @@
       "file": "brandish-paladin.json"
     },
     {
-      "id": "divine-lance-paladin",
-      "name": "Divine Lance Paladin",
-      "tier": "Z",
-      "file": "divine-lance-paladin.json"
-    },
-    {
       "id": "shield-bash-paladin",
       "name": "Shield Bash Paladin",
       "tier": "Z",

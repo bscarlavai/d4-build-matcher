@@ -12,18 +12,6 @@
       "name": "Bone Spear Necromancer",
       "tier": "C",
       "file": "bone-spear-necromancer.json"
-    },
-    {
-      "id": "blight-necromancer",
-      "name": "Blight Necromancer",
-      "tier": "C",
-      "file": "blight-necromancer.json"
-    },
-    {
-      "id": "sever-necromancer-endgame",
-      "name": "Sever Necromancer Endgame",
-      "tier": "C",
-      "file": "sever-necromancer-endgame.json"
     }
   ]
 }
