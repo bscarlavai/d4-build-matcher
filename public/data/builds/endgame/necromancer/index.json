@@ -2,12 +2,6 @@
   "class": "necromancer",
   "builds": [
     {
-      "id": "golem-necromancer",
-      "name": "Golem Necromancer",
-      "tier": "B",
-      "file": "golem-necromancer.json"
-    },
-    {
       "id": "bone-spear-necromancer",
       "name": "Bone Spear Necromancer",
       "tier": "C",
