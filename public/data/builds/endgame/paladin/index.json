@@ -2,22 +2,10 @@
   "class": "paladin",
   "builds": [
     {
-      "id": "auradin",
-      "name": "Auradin",
-      "tier": "Z",
-      "file": "auradin.json"
-    },
-    {
       "id": "fist-of-the-heavens-paladin",
       "name": "Fist Of The Heavens Paladin",
       "tier": "Z",
       "file": "fist-of-the-heavens-paladin.json"
-    },
-    {
-      "id": "brandish-paladin",
-      "name": "Brandish Paladin",
-      "tier": "Z",
-      "file": "brandish-paladin.json"
     },
     {
       "id": "shield-bash-paladin",
@@ -28,7 +16,7 @@
     {
       "id": "shield-charge-paladin",
       "name": "Shield Charge Paladin",
-      "tier": "Z",
+      "tier": "C",
       "file": "shield-charge-paladin.json"
     },
     {
@@ -48,12 +36,6 @@
       "name": "Divine Javelin Paladin",
       "tier": "Z",
       "file": "divine-javelin-paladin.json"
-    },
-    {
-      "id": "zenith-paladin",
-      "name": "Zenith Paladin",
-      "tier": "Z",
-      "file": "zenith-paladin.json"
     }
   ]
 }
