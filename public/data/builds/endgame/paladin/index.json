@@ -8,18 +8,6 @@
       "file": "fist-of-the-heavens-paladin.json"
     },
     {
-      "id": "shield-bash-paladin",
-      "name": "Shield Bash Paladin",
-      "tier": "Z",
-      "file": "shield-bash-paladin.json"
-    },
-    {
-      "id": "shield-charge-paladin",
-      "name": "Shield Charge Paladin",
-      "tier": "C",
-      "file": "shield-charge-paladin.json"
-    },
-    {
       "id": "divine-javelin-paladin",
       "name": "Divine Javelin Paladin",
       "tier": "Z",
