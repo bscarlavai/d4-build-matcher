@@ -6,7 +6,7 @@
   "source_url": "https://maxroll.gg/d4/build-guides/blessed-shield-paladin-guide",
   "tier": "Z",
   "tags": [],
-  "last_updated": "2026-07-08",
+  "last_updated": "2026-07-09",
   "profile_order": [
     "starter",
     "ancestral",
@@ -38,7 +38,7 @@
               "weight": 4
             },
             {
-              "name": "auric",
+              "name": "resistance_all",
               "weight": 3
             }
           ],
@@ -62,7 +62,7 @@
               "weight": 6
             },
             {
-              "name": "auric",
+              "name": "resistance_all",
               "weight": 4
             },
             {
@@ -126,7 +126,7 @@
               "weight": 3
             },
             {
-              "name": "auric",
+              "name": "resistance_all",
               "weight": 3
             }
           ],
@@ -150,7 +150,7 @@
               "weight": 6
             },
             {
-              "name": "auric",
+              "name": "resistance_all",
               "weight": 4
             }
           ],
@@ -178,7 +178,7 @@
               "weight": 4
             },
             {
-              "name": "auric",
+              "name": "resistance_all",
               "weight": 3
             }
           ],
@@ -218,7 +218,7 @@
               "weight": 3
             },
             {
-              "name": "auric",
+              "name": "resistance_all",
               "weight": 3
             }
           ],
@@ -327,7 +327,7 @@
               "weight": 6
             },
             {
-              "name": "auric",
+              "name": "resistance_all",
               "weight": 4
             },
             {
@@ -417,7 +417,7 @@
               "weight": 3
             },
             {
-              "name": "auric",
+              "name": "resistance_all",
               "weight": 3
             },
             {
@@ -445,7 +445,7 @@
               "weight": 6
             },
             {
-              "name": "auric",
+              "name": "resistance_all",
               "weight": 4
             },
             {
@@ -477,7 +477,7 @@
               "weight": 4
             },
             {
-              "name": "auric",
+              "name": "resistance_all",
               "weight": 3
             },
             {
@@ -535,7 +535,7 @@
               "weight": 3
             },
             {
-              "name": "auric",
+              "name": "resistance_all",
               "weight": 3
             }
           ],
@@ -711,7 +711,7 @@
               "weight": 3
             },
             {
-              "name": "auric",
+              "name": "resistance_all",
               "weight": 3
             },
             {
@@ -739,7 +739,7 @@
               "weight": 6
             },
             {
-              "name": "auric",
+              "name": "resistance_all",
               "weight": 4
             },
             {
@@ -771,7 +771,7 @@
               "weight": 4
             },
             {
-              "name": "auric",
+              "name": "resistance_all",
               "weight": 3
             },
             {

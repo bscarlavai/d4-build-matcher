@@ -6,7 +6,7 @@
   "source_url": "https://maxroll.gg/d4/build-guides/fist-of-the-heavens-paladin-guide",
   "tier": "Z",
   "tags": [],
-  "last_updated": "2026-07-08",
+  "last_updated": "2026-07-09",
   "profile_order": [
     "starter",
     "ancestral",
@@ -183,7 +183,7 @@
               "weight": 10
             },
             {
-              "name": "ph_heavenly_spears",
+              "name": "the_heavenly_spear",
               "weight": 8
             },
             {
@@ -468,7 +468,7 @@
               "weight": 10
             },
             {
-              "name": "ph_heavenly_spears",
+              "name": "the_heavenly_spear",
               "weight": 8
             },
             {
@@ -732,7 +732,7 @@
               "weight": 10
             },
             {
-              "name": "ph_heavenly_spears",
+              "name": "the_heavenly_spear",
               "weight": 8
             },
             {
@@ -1012,7 +1012,7 @@
               "weight": 10
             },
             {
-              "name": "ph_heavenly_spears",
+              "name": "the_heavenly_spear",
               "weight": 8
             },
             {
