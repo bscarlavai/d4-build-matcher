@@ -10,7 +10,7 @@
     {
       "id": "kick-death-blow",
       "name": "Kick Death Blow",
-      "tier": "B",
+      "tier": "Z",
       "file": "kick-death-blow.json"
     },
     {
@@ -42,12 +42,6 @@
       "name": "Upheaval Barbarian",
       "tier": "Z",
       "file": "upheaval-barbarian.json"
-    },
-    {
-      "id": "kick-death-blow",
-      "name": "Kick Death Blow",
-      "tier": "B",
-      "file": "kick-death-blow.json"
     }
   ]
 }
