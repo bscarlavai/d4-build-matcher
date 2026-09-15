@@ -2,12 +2,6 @@
   "class": "paladin",
   "builds": [
     {
-      "id": "fist-of-the-heavens-paladin",
-      "name": "Fist Of The Heavens Paladin",
-      "tier": "Z",
-      "file": "fist-of-the-heavens-paladin.json"
-    },
-    {
       "id": "divine-javelin-paladin",
       "name": "Divine Javelin Paladin",
       "tier": "Z",

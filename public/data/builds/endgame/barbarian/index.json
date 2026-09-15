@@ -20,12 +20,6 @@
       "file": "double-swing-barbarian.json"
     },
     {
-      "id": "leapquake-barbarian",
-      "name": "Leapquake Barbarian",
-      "tier": "Z",
-      "file": "leapquake-barbarian.json"
-    },
-    {
       "id": "flay-barbarian",
       "name": "Flay Barbarian",
       "tier": "Z",
@@ -36,12 +30,6 @@
       "name": "Kick Barbarian",
       "tier": "Z",
       "file": "kick-barbarian.json"
-    },
-    {
-      "id": "upheaval-barbarian",
-      "name": "Upheaval Barbarian",
-      "tier": "Z",
-      "file": "upheaval-barbarian.json"
     }
   ]
 }

@@ -2,34 +2,10 @@
   "class": "spiritborn",
   "builds": [
     {
-      "id": "stinger-spiritborn",
-      "name": "Stinger Spiritborn",
-      "tier": "Z",
-      "file": "stinger-spiritborn.json"
-    },
-    {
-      "id": "payback-spiritborn-build",
-      "name": "Payback Spiritborn Build",
-      "tier": "Z",
-      "file": "payback-spiritborn-build.json"
-    },
-    {
-      "id": "gorilla-thorns-spiritborn",
-      "name": "Gorilla Thorns Spiritborn",
-      "tier": "Z",
-      "file": "gorilla-thorns-spiritborn.json"
-    },
-    {
-      "id": "touch-of-death-spiritborn",
-      "name": "Touch Of Death Spiritborn",
-      "tier": "Z",
-      "file": "touch-of-death-spiritborn.json"
-    },
-    {
-      "id": "razor-wings-spiritborn",
-      "name": "Razor Wings Spiritborn",
-      "tier": "Z",
-      "file": "razor-wings-spiritborn.json"
+      "id": "thrash-spiritborn",
+      "name": "Thrash Spiritborn",
+      "tier": "A",
+      "file": "thrash-spiritborn.json"
     }
   ]
 }

@@ -1,0 +1,903 @@
+{
+  "id": "thrash-spiritborn",
+  "name": "Thrash Spiritborn",
+  "class": "spiritborn",
+  "category": "endgame",
+  "source_url": "https://maxroll.gg/d4/build-guides/thrash-spiritborn-guide",
+  "tier": "A",
+  "tags": [],
+  "last_updated": "2026-09-15",
+  "profile_order": [
+    "starter",
+    "ancestral",
+    "speedfarm",
+    "push",
+    "bossing"
+  ],
+  "profiles": {
+    "starter": {
+      "name": "Starter",
+      "gear": {
+        "helm": {
+          "slot": "helm",
+          "priority_uniques": [],
+          "priority_aspects": [],
+          "priority_affixes": [
+            {
+              "name": "vigor",
+              "weight": 10
+            },
+            {
+              "name": "toughened",
+              "weight": 8
+            },
+            {
+              "name": "resistance_all",
+              "weight": 6
+            },
+            {
+              "name": "the_adroit",
+              "weight": 4
+            },
+            {
+              "name": "thorns",
+              "weight": 3
+            }
+          ],
+          "required_tempers": []
+        },
+        "chest": {
+          "slot": "chest",
+          "priority_uniques": [
+            "Razorplate"
+          ],
+          "priority_aspects": [],
+          "priority_affixes": [],
+          "required_tempers": []
+        },
+        "gloves": {
+          "slot": "gloves",
+          "priority_uniques": [],
+          "priority_aspects": [],
+          "priority_affixes": [
+            {
+              "name": "keenness",
+              "weight": 10
+            },
+            {
+              "name": "resistance_all",
+              "weight": 8
+            },
+            {
+              "name": "toughened",
+              "weight": 6
+            },
+            {
+              "name": "vigor",
+              "weight": 4
+            },
+            {
+              "name": "the_adroit",
+              "weight": 3
+            },
+            {
+              "name": "the_adept",
+              "weight": 3
+            }
+          ],
+          "required_tempers": []
+        },
+        "pants": {
+          "slot": "pants",
+          "priority_uniques": [
+            "Balazan's Maxtlatl"
+          ],
+          "priority_aspects": [],
+          "priority_affixes": [
+            {
+              "name": "unique_thorns_higher",
+              "weight": 8
+            },
+            {
+              "name": "vigor",
+              "weight": 6
+            },
+            {
+              "name": "the_adroit",
+              "weight": 4
+            },
+            {
+              "name": "unique_passiverankbonus_spiritborn_talent_forest_4_bastion",
+              "weight": 3
+            }
+          ],
+          "required_tempers": []
+        },
+        "boots": {
+          "slot": "boots",
+          "priority_uniques": [],
+          "priority_aspects": [],
+          "priority_affixes": [
+            {
+              "name": "toughened",
+              "weight": 10
+            },
+            {
+              "name": "resistance_all",
+              "weight": 8
+            },
+            {
+              "name": "speed",
+              "weight": 6
+            },
+            {
+              "name": "the_adroit",
+              "weight": 4
+            },
+            {
+              "name": "vigor",
+              "weight": 3
+            }
+          ],
+          "required_tempers": []
+        },
+        "ring": {
+          "slot": "ring",
+          "priority_uniques": [],
+          "priority_aspects": [],
+          "priority_affixes": [
+            {
+              "name": "keenness",
+              "weight": 10
+            },
+            {
+              "name": "resistance_all",
+              "weight": 8
+            },
+            {
+              "name": "the_adroit",
+              "weight": 6
+            },
+            {
+              "name": "vigor",
+              "weight": 4
+            },
+            {
+              "name": "the_vampire",
+              "weight": 3
+            },
+            {
+              "name": "cruelty",
+              "weight": 3
+            }
+          ],
+          "required_tempers": []
+        },
+        "amulet": {
+          "slot": "amulet",
+          "priority_uniques": [],
+          "priority_aspects": [],
+          "priority_affixes": [
+            {
+              "name": "the_nimble",
+              "weight": 10
+            },
+            {
+              "name": "sparking",
+              "weight": 8
+            },
+            {
+              "name": "elevation",
+              "weight": 6
+            },
+            {
+              "name": "keenness",
+              "weight": 4
+            },
+            {
+              "name": "vigor",
+              "weight": 3
+            },
+            {
+              "name": "resistance_all",
+              "weight": 3
+            },
+            {
+              "name": "stalwarts",
+              "weight": 3
+            }
+          ],
+          "required_tempers": []
+        }
+      }
+    },
+    "ancestral": {
+      "name": "Ancestral",
+      "gear": {
+        "helm": {
+          "slot": "helm",
+          "priority_uniques": [
+            "Loyalty's Mantle"
+          ],
+          "priority_aspects": [],
+          "priority_affixes": [
+            {
+              "name": "unique_corestats_all_higher",
+              "weight": 8
+            },
+            {
+              "name": "unique_movement_speed_lesser",
+              "weight": 6
+            },
+            {
+              "name": "unique_damagereduction",
+              "weight": 4
+            },
+            {
+              "name": "unique_passiverankbonus_spiritborn_velocity_higher",
+              "weight": 3
+            }
+          ],
+          "required_tempers": []
+        },
+        "chest": {
+          "slot": "chest",
+          "priority_uniques": [
+            "Razorplate"
+          ],
+          "priority_aspects": [],
+          "priority_affixes": [],
+          "required_tempers": []
+        },
+        "gloves": {
+          "slot": "gloves",
+          "priority_uniques": [
+            "Fists of Fate"
+          ],
+          "priority_aspects": [],
+          "priority_affixes": [
+            {
+              "name": "unique_luck_gigagiga_highvariance",
+              "weight": 8
+            },
+            {
+              "name": "unique_critchance_highvariance",
+              "weight": 6
+            },
+            {
+              "name": "unique_attackspeed_highvariance",
+              "weight": 4
+            },
+            {
+              "name": "unique_generic_luckyhit_vulnerable_highvariance",
+              "weight": 3
+            }
+          ],
+          "required_tempers": []
+        },
+        "pants": {
+          "slot": "pants",
+          "priority_uniques": [
+            "Balazan's Maxtlatl"
+          ],
+          "priority_aspects": [],
+          "priority_affixes": [
+            {
+              "name": "unique_thorns_higher",
+              "weight": 8
+            },
+            {
+              "name": "vigor",
+              "weight": 6
+            },
+            {
+              "name": "the_adroit",
+              "weight": 4
+            },
+            {
+              "name": "unique_passiverankbonus_spiritborn_talent_forest_4_bastion",
+              "weight": 3
+            }
+          ],
+          "required_tempers": []
+        },
+        "boots": {
+          "slot": "boots",
+          "priority_uniques": [],
+          "priority_aspects": [],
+          "priority_affixes": [
+            {
+              "name": "toughened",
+              "weight": 10
+            },
+            {
+              "name": "resistance_all",
+              "weight": 8
+            },
+            {
+              "name": "speed",
+              "weight": 6
+            },
+            {
+              "name": "vigor",
+              "weight": 4
+            },
+            {
+              "name": "the_adroit",
+              "weight": 3
+            }
+          ],
+          "required_tempers": []
+        },
+        "ring": {
+          "slot": "ring",
+          "priority_uniques": [],
+          "priority_aspects": [],
+          "priority_affixes": [
+            {
+              "name": "keenness",
+              "weight": 10
+            },
+            {
+              "name": "resistance_all",
+              "weight": 8
+            },
+            {
+              "name": "the_adroit",
+              "weight": 6
+            },
+            {
+              "name": "vigor",
+              "weight": 4
+            },
+            {
+              "name": "the_vampire",
+              "weight": 3
+            },
+            {
+              "name": "cruelty",
+              "weight": 3
+            }
+          ],
+          "required_tempers": []
+        },
+        "amulet": {
+          "slot": "amulet",
+          "priority_uniques": [],
+          "priority_aspects": [],
+          "priority_affixes": [
+            {
+              "name": "the_nimble",
+              "weight": 10
+            },
+            {
+              "name": "sparking",
+              "weight": 8
+            },
+            {
+              "name": "elevation",
+              "weight": 6
+            }
+          ],
+          "required_tempers": []
+        }
+      }
+    },
+    "speedfarm": {
+      "name": "Speedfarm",
+      "gear": {
+        "helm": {
+          "slot": "helm",
+          "priority_uniques": [
+            "Loyalty's Mantle"
+          ],
+          "priority_aspects": [],
+          "priority_affixes": [
+            {
+              "name": "unique_corestats_all_higher",
+              "weight": 8
+            },
+            {
+              "name": "unique_movement_speed_lesser",
+              "weight": 6
+            },
+            {
+              "name": "unique_damagereduction",
+              "weight": 4
+            },
+            {
+              "name": "unique_passiverankbonus_spiritborn_velocity_higher",
+              "weight": 3
+            }
+          ],
+          "required_tempers": []
+        },
+        "chest": {
+          "slot": "chest",
+          "priority_uniques": [
+            "Razorplate"
+          ],
+          "priority_aspects": [],
+          "priority_affixes": [],
+          "required_tempers": []
+        },
+        "gloves": {
+          "slot": "gloves",
+          "priority_uniques": [
+            "Fists of Fate"
+          ],
+          "priority_aspects": [],
+          "priority_affixes": [
+            {
+              "name": "unique_luck_gigagiga_highvariance",
+              "weight": 8
+            },
+            {
+              "name": "unique_critchance_highvariance",
+              "weight": 6
+            },
+            {
+              "name": "unique_attackspeed_highvariance",
+              "weight": 4
+            },
+            {
+              "name": "unique_generic_luckyhit_vulnerable_highvariance",
+              "weight": 3
+            }
+          ],
+          "required_tempers": []
+        },
+        "pants": {
+          "slot": "pants",
+          "priority_uniques": [
+            "Balazan's Maxtlatl"
+          ],
+          "priority_aspects": [],
+          "priority_affixes": [
+            {
+              "name": "unique_thorns_higher",
+              "weight": 8
+            },
+            {
+              "name": "vigor",
+              "weight": 6
+            },
+            {
+              "name": "the_adroit",
+              "weight": 4
+            },
+            {
+              "name": "unique_passiverankbonus_spiritborn_talent_forest_4_bastion",
+              "weight": 3
+            }
+          ],
+          "required_tempers": []
+        },
+        "boots": {
+          "slot": "boots",
+          "priority_uniques": [],
+          "priority_aspects": [],
+          "priority_affixes": [
+            {
+              "name": "toughened",
+              "weight": 10
+            },
+            {
+              "name": "resistance_all",
+              "weight": 8
+            },
+            {
+              "name": "speed",
+              "weight": 6
+            },
+            {
+              "name": "vigor",
+              "weight": 4
+            },
+            {
+              "name": "the_adroit",
+              "weight": 3
+            }
+          ],
+          "required_tempers": []
+        },
+        "ring": {
+          "slot": "ring",
+          "priority_uniques": [],
+          "priority_aspects": [],
+          "priority_affixes": [
+            {
+              "name": "keenness",
+              "weight": 10
+            },
+            {
+              "name": "resistance_all",
+              "weight": 8
+            },
+            {
+              "name": "the_adroit",
+              "weight": 6
+            },
+            {
+              "name": "vigor",
+              "weight": 4
+            },
+            {
+              "name": "the_vampire",
+              "weight": 3
+            },
+            {
+              "name": "cruelty",
+              "weight": 3
+            }
+          ],
+          "required_tempers": []
+        },
+        "amulet": {
+          "slot": "amulet",
+          "priority_uniques": [],
+          "priority_aspects": [],
+          "priority_affixes": [
+            {
+              "name": "the_nimble",
+              "weight": 10
+            },
+            {
+              "name": "sparking",
+              "weight": 8
+            },
+            {
+              "name": "elevation",
+              "weight": 6
+            }
+          ],
+          "required_tempers": []
+        }
+      }
+    },
+    "push": {
+      "name": "Push",
+      "gear": {
+        "helm": {
+          "slot": "helm",
+          "priority_uniques": [
+            "Loyalty's Mantle"
+          ],
+          "priority_aspects": [],
+          "priority_affixes": [
+            {
+              "name": "unique_corestats_all_higher",
+              "weight": 8
+            },
+            {
+              "name": "unique_movement_speed_lesser",
+              "weight": 6
+            },
+            {
+              "name": "unique_damagereduction",
+              "weight": 4
+            },
+            {
+              "name": "unique_passiverankbonus_spiritborn_velocity_higher",
+              "weight": 3
+            }
+          ],
+          "required_tempers": []
+        },
+        "chest": {
+          "slot": "chest",
+          "priority_uniques": [
+            "Razorplate"
+          ],
+          "priority_aspects": [],
+          "priority_affixes": [],
+          "required_tempers": []
+        },
+        "gloves": {
+          "slot": "gloves",
+          "priority_uniques": [
+            "Fists of Fate"
+          ],
+          "priority_aspects": [],
+          "priority_affixes": [
+            {
+              "name": "unique_luck_gigagiga_highvariance",
+              "weight": 8
+            },
+            {
+              "name": "unique_critchance_highvariance",
+              "weight": 6
+            },
+            {
+              "name": "unique_attackspeed_highvariance",
+              "weight": 4
+            },
+            {
+              "name": "unique_generic_luckyhit_vulnerable_highvariance",
+              "weight": 3
+            }
+          ],
+          "required_tempers": []
+        },
+        "pants": {
+          "slot": "pants",
+          "priority_uniques": [
+            "Balazan's Maxtlatl"
+          ],
+          "priority_aspects": [],
+          "priority_affixes": [
+            {
+              "name": "unique_thorns_higher",
+              "weight": 8
+            },
+            {
+              "name": "vigor",
+              "weight": 6
+            },
+            {
+              "name": "the_adroit",
+              "weight": 4
+            },
+            {
+              "name": "unique_passiverankbonus_spiritborn_talent_forest_4_bastion",
+              "weight": 3
+            }
+          ],
+          "required_tempers": []
+        },
+        "boots": {
+          "slot": "boots",
+          "priority_uniques": [],
+          "priority_aspects": [],
+          "priority_affixes": [
+            {
+              "name": "toughened",
+              "weight": 10
+            },
+            {
+              "name": "resistance_all",
+              "weight": 8
+            },
+            {
+              "name": "speed",
+              "weight": 6
+            },
+            {
+              "name": "vigor",
+              "weight": 4
+            },
+            {
+              "name": "the_adroit",
+              "weight": 3
+            }
+          ],
+          "required_tempers": []
+        },
+        "ring": {
+          "slot": "ring",
+          "priority_uniques": [],
+          "priority_aspects": [],
+          "priority_affixes": [
+            {
+              "name": "keenness",
+              "weight": 10
+            },
+            {
+              "name": "resistance_all",
+              "weight": 8
+            },
+            {
+              "name": "the_adroit",
+              "weight": 6
+            },
+            {
+              "name": "vigor",
+              "weight": 4
+            },
+            {
+              "name": "the_vampire",
+              "weight": 3
+            },
+            {
+              "name": "cruelty",
+              "weight": 3
+            }
+          ],
+          "required_tempers": []
+        },
+        "amulet": {
+          "slot": "amulet",
+          "priority_uniques": [],
+          "priority_aspects": [],
+          "priority_affixes": [
+            {
+              "name": "the_nimble",
+              "weight": 10
+            },
+            {
+              "name": "sparking",
+              "weight": 8
+            },
+            {
+              "name": "elevation",
+              "weight": 6
+            }
+          ],
+          "required_tempers": []
+        }
+      }
+    },
+    "bossing": {
+      "name": "Bossing",
+      "gear": {
+        "helm": {
+          "slot": "helm",
+          "priority_uniques": [
+            "Loyalty's Mantle"
+          ],
+          "priority_aspects": [],
+          "priority_affixes": [
+            {
+              "name": "unique_corestats_all_higher",
+              "weight": 8
+            },
+            {
+              "name": "unique_movement_speed_lesser",
+              "weight": 6
+            },
+            {
+              "name": "unique_damagereduction",
+              "weight": 4
+            },
+            {
+              "name": "unique_passiverankbonus_spiritborn_velocity_higher",
+              "weight": 3
+            }
+          ],
+          "required_tempers": []
+        },
+        "chest": {
+          "slot": "chest",
+          "priority_uniques": [
+            "Razorplate"
+          ],
+          "priority_aspects": [],
+          "priority_affixes": [],
+          "required_tempers": []
+        },
+        "gloves": {
+          "slot": "gloves",
+          "priority_uniques": [
+            "Fists of Fate"
+          ],
+          "priority_aspects": [],
+          "priority_affixes": [
+            {
+              "name": "unique_luck_gigagiga_highvariance",
+              "weight": 8
+            },
+            {
+              "name": "unique_critchance_highvariance",
+              "weight": 6
+            },
+            {
+              "name": "unique_attackspeed_highvariance",
+              "weight": 4
+            },
+            {
+              "name": "unique_generic_luckyhit_vulnerable_highvariance",
+              "weight": 3
+            }
+          ],
+          "required_tempers": []
+        },
+        "pants": {
+          "slot": "pants",
+          "priority_uniques": [
+            "Balazan's Maxtlatl"
+          ],
+          "priority_aspects": [],
+          "priority_affixes": [
+            {
+              "name": "unique_thorns_higher",
+              "weight": 8
+            },
+            {
+              "name": "vigor",
+              "weight": 6
+            },
+            {
+              "name": "the_adroit",
+              "weight": 4
+            },
+            {
+              "name": "unique_passiverankbonus_spiritborn_talent_forest_4_bastion",
+              "weight": 3
+            }
+          ],
+          "required_tempers": []
+        },
+        "boots": {
+          "slot": "boots",
+          "priority_uniques": [],
+          "priority_aspects": [],
+          "priority_affixes": [
+            {
+              "name": "toughened",
+              "weight": 10
+            },
+            {
+              "name": "resistance_all",
+              "weight": 8
+            },
+            {
+              "name": "speed",
+              "weight": 6
+            },
+            {
+              "name": "vigor",
+              "weight": 4
+            },
+            {
+              "name": "the_adroit",
+              "weight": 3
+            }
+          ],
+          "required_tempers": []
+        },
+        "ring": {
+          "slot": "ring",
+          "priority_uniques": [],
+          "priority_aspects": [],
+          "priority_affixes": [
+            {
+              "name": "keenness",
+              "weight": 10
+            },
+            {
+              "name": "resistance_all",
+              "weight": 8
+            },
+            {
+              "name": "the_adroit",
+              "weight": 6
+            },
+            {
+              "name": "vigor",
+              "weight": 4
+            },
+            {
+              "name": "the_vampire",
+              "weight": 3
+            },
+            {
+              "name": "cruelty",
+              "weight": 3
+            }
+          ],
+          "required_tempers": []
+        },
+        "amulet": {
+          "slot": "amulet",
+          "priority_uniques": [],
+          "priority_aspects": [],
+          "priority_affixes": [
+            {
+              "name": "the_nimble",
+              "weight": 10
+            },
+            {
+              "name": "sparking",
+              "weight": 8
+            },
+            {
+              "name": "elevation",
+              "weight": 6
+            }
+          ],
+          "required_tempers": []
+        }
+      }
+    }
+  }
+}
