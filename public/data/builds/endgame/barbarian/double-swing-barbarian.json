@@ -6,7 +6,7 @@
   "source_url": "https://maxroll.gg/d4/build-guides/double-swing-barbarian-guide",
   "tier": "Z",
   "tags": [],
-  "last_updated": "2026-10-28",
+  "last_updated": "2026-10-29",
   "profile_order": [
     "starter",
     "ancestral",
@@ -22,19 +22,19 @@
           "priority_aspects": [],
           "priority_affixes": [
             {
-              "name": "corestat_strength",
+              "name": "the_powerful",
               "weight": 10
             },
             {
-              "name": "life",
+              "name": "vigor",
               "weight": 8
             },
             {
-              "name": "resistance_single_lightning",
+              "name": "grounding",
               "weight": 6
             },
             {
-              "name": "resource_per_second_fury",
+              "name": "infusing",
               "weight": 4
             }
           ],
@@ -46,19 +46,19 @@
           "priority_aspects": [],
           "priority_affixes": [
             {
-              "name": "corestat_strength",
+              "name": "the_powerful",
               "weight": 10
             },
             {
-              "name": "life",
+              "name": "vigor",
               "weight": 8
             },
             {
-              "name": "resource_per_second_fury",
+              "name": "infusing",
               "weight": 6
             },
             {
-              "name": "resistance_single_physical",
+              "name": "steel",
               "weight": 4
             }
           ],
@@ -70,23 +70,23 @@
           "priority_aspects": [],
           "priority_affixes": [
             {
-              "name": "corestat_strength",
+              "name": "the_powerful",
               "weight": 10
             },
             {
-              "name": "life",
+              "name": "vigor",
               "weight": 8
             },
             {
-              "name": "damage_to_vulnerable",
+              "name": "cruelty",
               "weight": 6
             },
             {
-              "name": "resource_cost_reduction_allclasses",
+              "name": "efficiency",
               "weight": 4
             },
             {
-              "name": "lifeperhit",
+              "name": "carnage",
               "weight": 4
             }
           ],
@@ -98,19 +98,19 @@
           "priority_aspects": [],
           "priority_affixes": [
             {
-              "name": "corestat_strength",
+              "name": "the_powerful",
               "weight": 10
             },
             {
-              "name": "life",
+              "name": "vigor",
               "weight": 8
             },
             {
-              "name": "damage_to_vulnerable",
+              "name": "cruelty",
               "weight": 6
             },
             {
-              "name": "lifeperhit",
+              "name": "carnage",
               "weight": 4
             }
           ],
@@ -122,19 +122,19 @@
           "priority_aspects": [],
           "priority_affixes": [
             {
-              "name": "corestat_strength",
+              "name": "the_powerful",
               "weight": 10
             },
             {
-              "name": "critchance",
+              "name": "the_adept",
               "weight": 8
             },
             {
-              "name": "attackspeed",
+              "name": "keenness",
               "weight": 6
             },
             {
-              "name": "skillrankbonus_barb_core_doubleswing",
+              "name": "eviscerating",
               "weight": 4
             }
           ],
@@ -146,19 +146,19 @@
           "priority_aspects": [],
           "priority_affixes": [
             {
-              "name": "corestat_strength",
+              "name": "the_powerful",
               "weight": 10
             },
             {
-              "name": "life",
+              "name": "vigor",
               "weight": 8
             },
             {
-              "name": "resistance_single_fire",
+              "name": "dampening",
               "weight": 6
             },
             {
-              "name": "armor",
+              "name": "toughened",
               "weight": 4
             }
           ],
@@ -170,19 +170,19 @@
           "priority_aspects": [],
           "priority_affixes": [
             {
-              "name": "movement_speed",
+              "name": "speed",
               "weight": 10
             },
             {
-              "name": "corestat_strength",
+              "name": "the_powerful",
               "weight": 8
             },
             {
-              "name": "life",
+              "name": "vigor",
               "weight": 6
             },
             {
-              "name": "resource_per_second_fury",
+              "name": "infusing",
               "weight": 4
             }
           ],
@@ -194,19 +194,19 @@
           "priority_aspects": [],
           "priority_affixes": [
             {
-              "name": "corestat_strength",
+              "name": "the_powerful",
               "weight": 10
             },
             {
-              "name": "critchancejewelry",
+              "name": "the_adept",
               "weight": 8
             },
             {
-              "name": "cooldownreductioncdr",
+              "name": "swiftness",
               "weight": 6
             },
             {
-              "name": "attackspeed",
+              "name": "keenness",
               "weight": 4
             }
           ],
@@ -218,19 +218,19 @@
           "priority_aspects": [],
           "priority_affixes": [
             {
-              "name": "passiverankbonus_barb_03_counteroffensive",
+              "name": "countering",
               "weight": 10
             },
             {
-              "name": "passiverankbonus_barb_warlord_t4_n1_pitfighter",
+              "name": "the_pit_fighter",
               "weight": 8
             },
             {
-              "name": "critchance",
+              "name": "the_adept",
               "weight": 6
             },
             {
-              "name": "movement_speed",
+              "name": "speed",
               "weight": 4
             }
           ],
@@ -244,7 +244,7 @@
         "helm": {
           "slot": "helm",
           "priority_uniques": [
-            "Helm_Unique_Barb_100"
+            "Tuskhelm of Joritz the Mighty"
           ],
           "priority_aspects": [],
           "priority_affixes": [
@@ -261,7 +261,7 @@
               "weight": 4
             },
             {
-              "name": "life",
+              "name": "vigor",
               "weight": 3
             }
           ],
@@ -273,19 +273,19 @@
           "priority_aspects": [],
           "priority_affixes": [
             {
-              "name": "corestat_strength",
+              "name": "the_powerful",
               "weight": 10
             },
             {
-              "name": "life",
+              "name": "vigor",
               "weight": 8
             },
             {
-              "name": "resource_max_allclasses",
+              "name": "resources",
               "weight": 6
             },
             {
-              "name": "resource_per_second_fury",
+              "name": "infusing",
               "weight": 4
             }
           ],
@@ -294,32 +294,32 @@
         "weapon": {
           "slot": "weapon",
           "priority_uniques": [
-            "1HSword_Unique_Barb_101"
+            "Ramaladni's Magnum Opus"
           ],
           "priority_aspects": [],
           "priority_affixes": [
             {
-              "name": "corestat_strength",
+              "name": "the_powerful",
               "weight": 10
             },
             {
-              "name": "life",
+              "name": "vigor",
               "weight": 8
             },
             {
-              "name": "resource_cost_reduction_allclasses",
+              "name": "efficiency",
               "weight": 6
             },
             {
-              "name": "lifeperhit",
+              "name": "carnage",
               "weight": 4
             },
             {
-              "name": "damage_to_vulnerable",
+              "name": "cruelty",
               "weight": 6
             },
             {
-              "name": "critdamage",
+              "name": "the_focused",
               "weight": 8
             },
             {
@@ -327,7 +327,7 @@
               "weight": 4
             },
             {
-              "name": "overpowerdamage",
+              "name": "demolition",
               "weight": 3
             }
           ],
@@ -336,12 +336,12 @@
         "offhand": {
           "slot": "offhand",
           "priority_uniques": [
-            "1HSword_Unique_Barb_103"
+            "Sabre of Tsasgal"
           ],
           "priority_aspects": [],
           "priority_affixes": [
             {
-              "name": "corestat_strength",
+              "name": "the_powerful",
               "weight": 8
             },
             {
@@ -362,7 +362,7 @@
         "gloves": {
           "slot": "gloves",
           "priority_uniques": [
-            "Gloves_Unique_Barb_100"
+            "Twin Strikes"
           ],
           "priority_aspects": [],
           "priority_affixes": [
@@ -375,11 +375,11 @@
               "weight": 6
             },
             {
-              "name": "corestat_strength",
+              "name": "the_powerful",
               "weight": 4
             },
             {
-              "name": "skillrankbonus_barb_core_doubleswing",
+              "name": "eviscerating",
               "weight": 3
             }
           ],
@@ -388,24 +388,24 @@
         "pants": {
           "slot": "pants",
           "priority_uniques": [
-            "Pants_Unique_Generic_102"
+            "Tibault's Will"
           ],
           "priority_aspects": [],
           "priority_affixes": [
             {
-              "name": "corestats_all",
+              "name": "harmony",
               "weight": 8
             },
             {
-              "name": "critchance",
+              "name": "the_adept",
               "weight": 6
             },
             {
-              "name": "resource_max_allclasses",
+              "name": "resources",
               "weight": 4
             },
             {
-              "name": "attackspeed",
+              "name": "keenness",
               "weight": 3
             }
           ],
@@ -417,19 +417,19 @@
           "priority_aspects": [],
           "priority_affixes": [
             {
-              "name": "movement_speed",
+              "name": "speed",
               "weight": 10
             },
             {
-              "name": "corestat_strength",
+              "name": "the_powerful",
               "weight": 8
             },
             {
-              "name": "resource_per_second_fury",
+              "name": "infusing",
               "weight": 6
             },
             {
-              "name": "skillrankbonus_barb_special_warcry",
+              "name": "roaring",
               "weight": 4
             }
           ],
@@ -441,19 +441,19 @@
           "priority_aspects": [],
           "priority_affixes": [
             {
-              "name": "corestat_strength",
+              "name": "the_powerful",
               "weight": 10
             },
             {
-              "name": "critchancejewelry",
+              "name": "the_adept",
               "weight": 8
             },
             {
-              "name": "cooldownreductioncdr",
+              "name": "swiftness",
               "weight": 6
             },
             {
-              "name": "attackspeed",
+              "name": "keenness",
               "weight": 4
             }
           ],
@@ -462,16 +462,16 @@
         "amulet": {
           "slot": "amulet",
           "priority_uniques": [
-            "Amulet_Unique_Barb_100"
+            "Battle Trance"
           ],
           "priority_aspects": [],
           "priority_affixes": [
             {
-              "name": "critchance",
+              "name": "the_adept",
               "weight": 8
             },
             {
-              "name": "corestat_strengthpercent",
+              "name": "the_sturdy",
               "weight": 6
             },
             {
@@ -493,7 +493,7 @@
         "helm": {
           "slot": "helm",
           "priority_uniques": [
-            "S05_BSK_Helm_Unique_Generic_001"
+            "Crown of Lucion"
           ],
           "priority_aspects": [],
           "priority_affixes": [
@@ -502,11 +502,11 @@
               "weight": 10
             },
             {
-              "name": "life",
+              "name": "vigor",
               "weight": 8
             },
             {
-              "name": "cooldownreductioncdr",
+              "name": "swiftness",
               "weight": 6
             },
             {
@@ -514,11 +514,11 @@
               "weight": 4
             },
             {
-              "name": "resistance_single_shadow",
+              "name": "sanctity",
               "weight": 3
             },
             {
-              "name": "killstreak_massacre_strengthpercent",
+              "name": "gluttony",
               "weight": 3
             }
           ],
@@ -530,23 +530,23 @@
           "priority_aspects": [],
           "priority_affixes": [
             {
-              "name": "corestat_strength",
+              "name": "the_powerful",
               "weight": 10
             },
             {
-              "name": "resource_max_allclasses",
+              "name": "resources",
               "weight": 8
             },
             {
-              "name": "resource_per_second_fury",
+              "name": "infusing",
               "weight": 6
             },
             {
-              "name": "skillrankbonus_barb_special_groundstomp",
+              "name": "quaking",
               "weight": 4
             },
             {
-              "name": "killstreak_massacre_strengthpercent",
+              "name": "gluttony",
               "weight": 3
             }
           ],
@@ -555,32 +555,28 @@
         "weapon": {
           "slot": "weapon",
           "priority_uniques": [
-            "1HSword_Unique_Barb_101"
+            "Ramaladni's Magnum Opus"
           ],
           "priority_aspects": [],
           "priority_affixes": [
             {
-              "name": "corestat_strength",
+              "name": "the_powerful",
               "weight": 10
             },
             {
-              "name": "critdamage",
+              "name": "the_focused",
               "weight": 8
             },
             {
-              "name": "damage_all",
+              "name": "ferocity",
               "weight": 6
             },
             {
-              "name": "lucky_hit_resource_flat",
+              "name": "perpetuity",
               "weight": 4
             },
             {
-              "name": "killstreak_feast_cooldownreset",
-              "weight": 3
-            },
-            {
-              "name": "killstreak_feast_restoreresource",
+              "name": "tenderize",
               "weight": 3
             },
             {
@@ -588,11 +584,7 @@
               "weight": 4
             },
             {
-              "name": "overpowerdamage",
-              "weight": 3
-            },
-            {
-              "name": "killstreak_feast_chains",
+              "name": "demolition",
               "weight": 3
             }
           ],
@@ -601,12 +593,12 @@
         "offhand": {
           "slot": "offhand",
           "priority_uniques": [
-            "1HSword_Unique_Barb_103"
+            "Sabre of Tsasgal"
           ],
           "priority_aspects": [],
           "priority_affixes": [
             {
-              "name": "corestat_strength",
+              "name": "the_powerful",
               "weight": 8
             },
             {
@@ -622,7 +614,7 @@
               "weight": 3
             },
             {
-              "name": "killstreak_feast_chains",
+              "name": "tenderize",
               "weight": 3
             }
           ],
@@ -631,7 +623,7 @@
         "gloves": {
           "slot": "gloves",
           "priority_uniques": [
-            "Gloves_Unique_Barb_100"
+            "Twin Strikes"
           ],
           "priority_aspects": [],
           "priority_affixes": [
@@ -644,15 +636,15 @@
               "weight": 6
             },
             {
-              "name": "corestat_strength",
+              "name": "the_powerful",
               "weight": 4
             },
             {
-              "name": "skillrankbonus_barb_core_doubleswing",
+              "name": "eviscerating",
               "weight": 3
             },
             {
-              "name": "killstreak_massacre_strengthpercent",
+              "name": "gluttony",
               "weight": 3
             }
           ],
@@ -661,28 +653,28 @@
         "pants": {
           "slot": "pants",
           "priority_uniques": [
-            "Pants_Unique_Generic_102"
+            "Tibault's Will"
           ],
           "priority_aspects": [],
           "priority_affixes": [
             {
-              "name": "corestats_all",
+              "name": "harmony",
               "weight": 8
             },
             {
-              "name": "critchance",
+              "name": "the_adept",
               "weight": 6
             },
             {
-              "name": "resource_max_allclasses",
+              "name": "resources",
               "weight": 4
             },
             {
-              "name": "attackspeed",
+              "name": "keenness",
               "weight": 3
             },
             {
-              "name": "killstreak_massacre_strengthpercent",
+              "name": "gluttony",
               "weight": 3
             }
           ],
@@ -694,23 +686,23 @@
           "priority_aspects": [],
           "priority_affixes": [
             {
-              "name": "corestat_strength",
+              "name": "the_powerful",
               "weight": 10
             },
             {
-              "name": "movement_speed",
+              "name": "speed",
               "weight": 8
             },
             {
-              "name": "resource_per_second_fury",
+              "name": "infusing",
               "weight": 6
             },
             {
-              "name": "skillrankbonus_barb_special_warcry",
+              "name": "roaring",
               "weight": 4
             },
             {
-              "name": "killstreak_massacre_strengthpercent",
+              "name": "gluttony",
               "weight": 3
             }
           ],
@@ -719,28 +711,28 @@
         "ring": {
           "slot": "ring",
           "priority_uniques": [
-            "Ring_Unique_Generic_101"
+            "Ring of Starless Skies"
           ],
           "priority_aspects": [],
           "priority_affixes": [
             {
-              "name": "corestat_strength",
+              "name": "the_powerful",
               "weight": 10
             },
             {
-              "name": "critchancejewelry",
+              "name": "the_adept",
               "weight": 8
             },
             {
-              "name": "cooldownreductioncdr",
+              "name": "swiftness",
               "weight": 6
             },
             {
-              "name": "attackspeed",
+              "name": "keenness",
               "weight": 4
             },
             {
-              "name": "killstreak_hunger_runes",
+              "name": "tenderize",
               "weight": 3
             }
           ],
@@ -749,12 +741,12 @@
         "amulet": {
           "slot": "amulet",
           "priority_uniques": [
-            "Amulet_Unique_Generic_100"
+            "Melted Heart of Selig"
           ],
           "priority_aspects": [],
           "priority_affixes": [
             {
-              "name": "killstreak_hunger_runes",
+              "name": "tenderize",
               "weight": 3
             }
           ],

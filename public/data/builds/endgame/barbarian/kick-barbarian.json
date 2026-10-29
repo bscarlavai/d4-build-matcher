@@ -6,7 +6,7 @@
   "source_url": "https://maxroll.gg/d4/build-guides/kick-barbarian-guide",
   "tier": "Z",
   "tags": [],
-  "last_updated": "2026-10-28",
+  "last_updated": "2026-10-29",
   "profile_order": [
     "mythic",
     "m-base"
@@ -18,16 +18,16 @@
         "helm": {
           "slot": "helm",
           "priority_uniques": [
-            "S05_BSK_Helm_Unique_Generic_001"
+            "Crown of Lucion"
           ],
           "priority_aspects": [],
           "priority_affixes": [
             {
-              "name": "cooldownreductioncdr",
+              "name": "swiftness",
               "weight": 10
             },
             {
-              "name": "resistance_single_shadow",
+              "name": "sanctity",
               "weight": 8
             },
             {
@@ -35,7 +35,7 @@
               "weight": 6
             },
             {
-              "name": "life",
+              "name": "vigor",
               "weight": 4
             },
             {
@@ -48,7 +48,7 @@
         "chest": {
           "slot": "chest",
           "priority_uniques": [
-            "Chest_Unique_Generic_103"
+            "Shroud of False Death"
           ],
           "priority_aspects": [],
           "priority_affixes": [],
@@ -57,24 +57,24 @@
         "weapon": {
           "slot": "weapon",
           "priority_uniques": [
-            "1HSword_Unique_Barb_103"
+            "Sabre of Tsasgal"
           ],
           "priority_aspects": [],
           "priority_affixes": [
             {
-              "name": "lifeperhit",
+              "name": "carnage",
               "weight": 10
             },
             {
-              "name": "corestat_strength",
+              "name": "the_powerful",
               "weight": 8
             },
             {
-              "name": "critdamage",
+              "name": "the_focused",
               "weight": 6
             },
             {
-              "name": "damage_all",
+              "name": "ferocity",
               "weight": 4
             },
             {
@@ -95,16 +95,16 @@
         "offhand": {
           "slot": "offhand",
           "priority_uniques": [
-            "1HSword_Unique_Barb_101"
+            "Ramaladni's Magnum Opus"
           ],
           "priority_aspects": [],
           "priority_affixes": [
             {
-              "name": "critdamage",
+              "name": "the_focused",
               "weight": 8
             },
             {
-              "name": "corestat_strength",
+              "name": "the_powerful",
               "weight": 6
             },
             {
@@ -112,7 +112,7 @@
               "weight": 4
             },
             {
-              "name": "overpowerdamage",
+              "name": "demolition",
               "weight": 3
             }
           ],
@@ -124,19 +124,19 @@
           "priority_aspects": [],
           "priority_affixes": [
             {
-              "name": "skillrankbonus_generic_category_core",
+              "name": "principals",
               "weight": 10
             },
             {
-              "name": "cooldownreductioncdr",
+              "name": "swiftness",
               "weight": 8
             },
             {
-              "name": "corestat_strength",
+              "name": "the_powerful",
               "weight": 6
             },
             {
-              "name": "attackspeed",
+              "name": "keenness",
               "weight": 4
             }
           ],
@@ -145,20 +145,20 @@
         "pants": {
           "slot": "pants",
           "priority_uniques": [
-            "Pants_Unique_Barb_101"
+            "Chainscourged Mail"
           ],
           "priority_aspects": [],
           "priority_affixes": [
             {
-              "name": "cooldownreductioncdr",
+              "name": "swiftness",
               "weight": 8
             },
             {
-              "name": "life",
+              "name": "vigor",
               "weight": 6
             },
             {
-              "name": "corestats_all",
+              "name": "harmony",
               "weight": 4
             },
             {
@@ -174,19 +174,19 @@
           "priority_aspects": [],
           "priority_affixes": [
             {
-              "name": "skillrankbonus_barb_category_brawling",
+              "name": "brawling",
               "weight": 10
             },
             {
-              "name": "corestat_strength",
+              "name": "the_powerful",
               "weight": 8
             },
             {
-              "name": "liferegen_lesser",
+              "name": "regeneration",
               "weight": 6
             },
             {
-              "name": "movement_speed",
+              "name": "speed",
               "weight": 4
             }
           ],
@@ -195,24 +195,24 @@
         "ring": {
           "slot": "ring",
           "priority_uniques": [
-            "Ring_Unique_Barb_100"
+            "Ring of Red Furor"
           ],
           "priority_aspects": [],
           "priority_affixes": [
             {
-              "name": "cooldownreductioncdr",
+              "name": "swiftness",
               "weight": 10
             },
             {
-              "name": "corestat_strength",
+              "name": "the_powerful",
               "weight": 8
             },
             {
-              "name": "attackspeed",
+              "name": "keenness",
               "weight": 6
             },
             {
-              "name": "liferegen",
+              "name": "regrowth",
               "weight": 4
             },
             {
@@ -224,7 +224,7 @@
               "weight": 4
             },
             {
-              "name": "resistance_single_fire",
+              "name": "dampening",
               "weight": 3
             }
           ],
@@ -233,7 +233,7 @@
         "amulet": {
           "slot": "amulet",
           "priority_uniques": [
-            "Amulet_Unique_Generic_100"
+            "Melted Heart of Selig"
           ],
           "priority_aspects": [],
           "priority_affixes": [],
@@ -247,7 +247,7 @@
         "helm": {
           "slot": "helm",
           "priority_uniques": [
-            "S05_BSK_Helm_Unique_Generic_001"
+            "Crown of Lucion"
           ],
           "priority_aspects": [],
           "priority_affixes": [
@@ -256,11 +256,11 @@
               "weight": 10
             },
             {
-              "name": "cooldownreductioncdr",
+              "name": "swiftness",
               "weight": 8
             },
             {
-              "name": "resistance_single_shadow",
+              "name": "sanctity",
               "weight": 6
             },
             {
@@ -268,11 +268,11 @@
               "weight": 4
             },
             {
-              "name": "life",
+              "name": "vigor",
               "weight": 3
             },
             {
-              "name": "killstreak_massacre_cooldownreduction",
+              "name": "seethe",
               "weight": 3
             }
           ],
@@ -281,12 +281,12 @@
         "chest": {
           "slot": "chest",
           "priority_uniques": [
-            "Chest_Unique_Generic_103"
+            "Shroud of False Death"
           ],
           "priority_aspects": [],
           "priority_affixes": [
             {
-              "name": "killstreak_massacre_strengthpercent",
+              "name": "gluttony",
               "weight": 3
             }
           ],
@@ -295,37 +295,33 @@
         "weapon": {
           "slot": "weapon",
           "priority_uniques": [
-            "1HSword_Unique_Barb_103"
+            "Sabre of Tsasgal"
           ],
           "priority_aspects": [],
           "priority_affixes": [
             {
-              "name": "resource_cost_reduction_allclasses",
+              "name": "efficiency",
               "weight": 10
             },
             {
-              "name": "corestat_strength",
+              "name": "the_powerful",
               "weight": 8
             },
             {
-              "name": "critdamage",
+              "name": "the_focused",
               "weight": 6
             },
             {
-              "name": "damage_all",
+              "name": "ferocity",
               "weight": 4
             },
             {
-              "name": "killstreak_feast_bite",
+              "name": "tenderize",
               "weight": 3
             },
             {
-              "name": "lifeperhit",
+              "name": "carnage",
               "weight": 10
-            },
-            {
-              "name": "killstreak_feast_bloodsplosion",
-              "weight": 3
             },
             {
               "name": "unique_passiverankbonus_barb_talent_13_warpath",
@@ -338,10 +334,6 @@
             {
               "name": "unique_damage_generic_type_physical",
               "weight": 3
-            },
-            {
-              "name": "killstreak_feast_chains",
-              "weight": 3
             }
           ],
           "required_tempers": []
@@ -349,7 +341,7 @@
         "offhand": {
           "slot": "offhand",
           "priority_uniques": [
-            "1HSword_Unique_Barb_101"
+            "Ramaladni's Magnum Opus"
           ],
           "priority_aspects": [],
           "priority_affixes": [
@@ -358,19 +350,19 @@
               "weight": 8
             },
             {
-              "name": "corestat_strength",
+              "name": "the_powerful",
               "weight": 6
             },
             {
-              "name": "critdamage",
+              "name": "the_focused",
               "weight": 4
             },
             {
-              "name": "overpowerdamage",
+              "name": "demolition",
               "weight": 3
             },
             {
-              "name": "killstreak_feast_restoreresource",
+              "name": "tenderize",
               "weight": 3
             }
           ],
@@ -382,23 +374,23 @@
           "priority_aspects": [],
           "priority_affixes": [
             {
-              "name": "skillrankbonus_generic_category_core",
+              "name": "principals",
               "weight": 10
             },
             {
-              "name": "cooldownreductioncdr",
+              "name": "swiftness",
               "weight": 8
             },
             {
-              "name": "corestat_strength",
+              "name": "the_powerful",
               "weight": 6
             },
             {
-              "name": "attackspeed",
+              "name": "keenness",
               "weight": 4
             },
             {
-              "name": "killstreak_massacre_strengthpercent",
+              "name": "gluttony",
               "weight": 3
             }
           ],
@@ -407,7 +399,7 @@
         "pants": {
           "slot": "pants",
           "priority_uniques": [
-            "Pants_Unique_Barb_101"
+            "Chainscourged Mail"
           ],
           "priority_aspects": [],
           "priority_affixes": [
@@ -416,19 +408,19 @@
               "weight": 8
             },
             {
-              "name": "cooldownreductioncdr",
+              "name": "swiftness",
               "weight": 6
             },
             {
-              "name": "corestats_all",
+              "name": "harmony",
               "weight": 4
             },
             {
-              "name": "life",
+              "name": "vigor",
               "weight": 3
             },
             {
-              "name": "killstreak_massacre_strengthpercent",
+              "name": "gluttony",
               "weight": 3
             }
           ],
@@ -440,23 +432,23 @@
           "priority_aspects": [],
           "priority_affixes": [
             {
-              "name": "skillrankbonus_barb_category_brawling",
+              "name": "brawling",
               "weight": 10
             },
             {
-              "name": "corestat_strength",
+              "name": "the_powerful",
               "weight": 8
             },
             {
-              "name": "liferegen_lesser",
+              "name": "regeneration",
               "weight": 6
             },
             {
-              "name": "movement_speed",
+              "name": "speed",
               "weight": 4
             },
             {
-              "name": "killstreak_massacre_strengthpercent",
+              "name": "gluttony",
               "weight": 3
             }
           ],
@@ -465,24 +457,24 @@
         "ring": {
           "slot": "ring",
           "priority_uniques": [
-            "Ring_Unique_Barb_100"
+            "Ring of Red Furor"
           ],
           "priority_aspects": [],
           "priority_affixes": [
             {
-              "name": "cooldownreductioncdr",
+              "name": "swiftness",
               "weight": 10
             },
             {
-              "name": "corestat_strength",
+              "name": "the_powerful",
               "weight": 8
             },
             {
-              "name": "attackspeed",
+              "name": "keenness",
               "weight": 6
             },
             {
-              "name": "liferegen",
+              "name": "regrowth",
               "weight": 4
             },
             {
@@ -494,7 +486,7 @@
               "weight": 4
             },
             {
-              "name": "resistance_single_fire",
+              "name": "dampening",
               "weight": 3
             }
           ],
@@ -503,7 +495,7 @@
         "amulet": {
           "slot": "amulet",
           "priority_uniques": [
-            "Amulet_Unique_Generic_100"
+            "Melted Heart of Selig"
           ],
           "priority_aspects": [],
           "priority_affixes": [],

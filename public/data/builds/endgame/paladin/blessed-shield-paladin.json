@@ -6,7 +6,7 @@
   "source_url": "https://maxroll.gg/d4/build-guides/blessed-shield-paladin-guide",
   "tier": "Z",
   "tags": [],
-  "last_updated": "2026-10-28",
+  "last_updated": "2026-10-29",
   "profile_order": [
     "starter",
     "ancestral",
@@ -22,19 +22,19 @@
           "priority_aspects": [],
           "priority_affixes": [
             {
-              "name": "armor",
+              "name": "toughened",
               "weight": 10
             },
             {
-              "name": "cooldownreductioncdr",
+              "name": "swiftness",
               "weight": 8
             },
             {
-              "name": "corestat_strength",
+              "name": "the_powerful",
               "weight": 6
             },
             {
-              "name": "life",
+              "name": "vigor",
               "weight": 4
             },
             {
@@ -50,15 +50,15 @@
           "priority_aspects": [],
           "priority_affixes": [
             {
-              "name": "corestat_strength",
+              "name": "the_powerful",
               "weight": 10
             },
             {
-              "name": "life",
+              "name": "vigor",
               "weight": 8
             },
             {
-              "name": "armor",
+              "name": "toughened",
               "weight": 6
             },
             {
@@ -66,19 +66,19 @@
               "weight": 4
             },
             {
-              "name": "cooldownreductioncdr",
+              "name": "swiftness",
               "weight": 10
             },
             {
-              "name": "critchance",
+              "name": "the_adept",
               "weight": 8
             },
             {
-              "name": "damagereduction",
+              "name": "sturdiness",
               "weight": 3
             },
             {
-              "name": "lucky_hit_vulnerable",
+              "name": "riving",
               "weight": 3
             }
           ],
@@ -90,39 +90,39 @@
           "priority_aspects": [],
           "priority_affixes": [
             {
-              "name": "x2_skillrankbonus_paladin_core_blessedshield",
+              "name": "shieldthrowing",
               "weight": 10
             },
             {
-              "name": "corestat_strength",
+              "name": "the_powerful",
               "weight": 8
             },
             {
-              "name": "cooldownreductioncdr",
+              "name": "swiftness",
               "weight": 6
             },
             {
-              "name": "critchance",
+              "name": "the_adept",
               "weight": 4
             },
             {
-              "name": "life",
+              "name": "vigor",
               "weight": 3
             },
             {
-              "name": "lucky_hit_vulnerable",
+              "name": "riving",
               "weight": 3
             },
             {
-              "name": "armor",
+              "name": "toughened",
               "weight": 3
             },
             {
-              "name": "attackspeed",
+              "name": "keenness",
               "weight": 3
             },
             {
-              "name": "damage_to_vulnerable",
+              "name": "cruelty",
               "weight": 3
             },
             {
@@ -138,15 +138,15 @@
           "priority_aspects": [],
           "priority_affixes": [
             {
-              "name": "corestat_strength",
+              "name": "the_powerful",
               "weight": 10
             },
             {
-              "name": "life",
+              "name": "vigor",
               "weight": 8
             },
             {
-              "name": "armor",
+              "name": "toughened",
               "weight": 6
             },
             {
@@ -162,19 +162,19 @@
           "priority_aspects": [],
           "priority_affixes": [
             {
-              "name": "movement_speed",
+              "name": "speed",
               "weight": 10
             },
             {
-              "name": "corestat_strength",
+              "name": "the_powerful",
               "weight": 8
             },
             {
-              "name": "life",
+              "name": "vigor",
               "weight": 6
             },
             {
-              "name": "armor",
+              "name": "toughened",
               "weight": 4
             },
             {
@@ -190,31 +190,31 @@
           "priority_aspects": [],
           "priority_affixes": [
             {
-              "name": "critchancejewelry",
+              "name": "the_adept",
               "weight": 10
             },
             {
-              "name": "corestat_strength",
+              "name": "the_powerful",
               "weight": 8
             },
             {
-              "name": "attackspeed",
+              "name": "keenness",
               "weight": 6
             },
             {
-              "name": "cooldownreductioncdr",
+              "name": "swiftness",
               "weight": 4
             },
             {
-              "name": "lucky_hit_vulnerable",
+              "name": "riving",
               "weight": 3
             },
             {
-              "name": "life",
+              "name": "vigor",
               "weight": 3
             },
             {
-              "name": "critdamage",
+              "name": "the_focused",
               "weight": 3
             },
             {
@@ -230,39 +230,39 @@
           "priority_aspects": [],
           "priority_affixes": [
             {
-              "name": "passiverankbonus_paladin_talent_valor_06",
+              "name": "offense",
               "weight": 10
             },
             {
-              "name": "passiverankbonus_paladin_talent_justice_13",
+              "name": "heartiness",
               "weight": 8
             },
             {
-              "name": "passiverankbonus_paladin_talent_core_2",
+              "name": "discipline",
               "weight": 6
             },
             {
-              "name": "cooldownreductioncdr",
+              "name": "swiftness",
               "weight": 4
             },
             {
-              "name": "passiverankbonus_paladin_talent_justice_05",
+              "name": "righteousness",
               "weight": 3
             },
             {
-              "name": "passiverankbonus_paladin_talent_justice_01",
+              "name": "cracking",
               "weight": 3
             },
             {
-              "name": "passiverankbonus_paladin_talent_justice_09",
+              "name": "dizziness",
               "weight": 3
             },
             {
-              "name": "corestat_strength_greater",
+              "name": "the_powerful",
               "weight": 3
             },
             {
-              "name": "life",
+              "name": "vigor",
               "weight": 3
             }
           ],
@@ -276,16 +276,16 @@
         "helm": {
           "slot": "helm",
           "priority_uniques": [
-            "S05_BSK_Helm_Unique_Generic_001"
+            "Crown of Lucion"
           ],
           "priority_aspects": [],
           "priority_affixes": [
             {
-              "name": "cooldownreductioncdr",
+              "name": "swiftness",
               "weight": 10
             },
             {
-              "name": "life",
+              "name": "vigor",
               "weight": 8
             },
             {
@@ -293,7 +293,7 @@
               "weight": 6
             },
             {
-              "name": "resistance_single_shadow",
+              "name": "sanctity",
               "weight": 4
             },
             {
@@ -301,7 +301,7 @@
               "weight": 3
             },
             {
-              "name": "killstreak_massacre_strengthpercent",
+              "name": "gluttony",
               "weight": 3
             }
           ],
@@ -310,20 +310,20 @@
         "chest": {
           "slot": "chest",
           "priority_uniques": [
-            "1HShield_Unique_Paladin_003"
+            "Ward of the White Dove"
           ],
           "priority_aspects": [],
           "priority_affixes": [
             {
-              "name": "corestat_strength",
+              "name": "the_powerful",
               "weight": 10
             },
             {
-              "name": "life",
+              "name": "vigor",
               "weight": 8
             },
             {
-              "name": "armor",
+              "name": "toughened",
               "weight": 6
             },
             {
@@ -331,7 +331,7 @@
               "weight": 4
             },
             {
-              "name": "killstreak_massacre_strengthpercent",
+              "name": "gluttony",
               "weight": 3
             },
             {
@@ -339,12 +339,8 @@
               "weight": 8
             },
             {
-              "name": "x2_skillrankbonus_paladin_core_blessedshield",
+              "name": "shieldthrowing",
               "weight": 6
-            },
-            {
-              "name": "killstreak_massacre_maxlife",
-              "weight": 3
             }
           ],
           "required_tempers": []
@@ -352,7 +348,7 @@
         "weapon": {
           "slot": "weapon",
           "priority_uniques": [
-            "1HSword_Unique_Paladin_002"
+            "Griswold's Opus"
           ],
           "priority_aspects": [],
           "priority_affixes": [
@@ -365,15 +361,15 @@
               "weight": 8
             },
             {
-              "name": "corestat_strength",
+              "name": "the_powerful",
               "weight": 6
             },
             {
-              "name": "life",
+              "name": "vigor",
               "weight": 4
             },
             {
-              "name": "killstreak_feast_rampage",
+              "name": "tenderize",
               "weight": 3
             }
           ],
@@ -385,39 +381,39 @@
           "priority_aspects": [],
           "priority_affixes": [
             {
-              "name": "lucky_hit_vulnerable",
+              "name": "riving",
               "weight": 10
             },
             {
-              "name": "x2_skillrankbonus_paladin_core_blessedshield",
+              "name": "shieldthrowing",
               "weight": 8
             },
             {
-              "name": "corestat_strength",
+              "name": "the_powerful",
               "weight": 6
             },
             {
-              "name": "cooldownreductioncdr",
+              "name": "swiftness",
               "weight": 4
             },
             {
-              "name": "critchance",
+              "name": "the_adept",
               "weight": 3
             },
             {
-              "name": "life",
+              "name": "vigor",
               "weight": 3
             },
             {
-              "name": "armor",
+              "name": "toughened",
               "weight": 3
             },
             {
-              "name": "attackspeed",
+              "name": "keenness",
               "weight": 3
             },
             {
-              "name": "damage_to_vulnerable",
+              "name": "cruelty",
               "weight": 3
             },
             {
@@ -425,7 +421,7 @@
               "weight": 3
             },
             {
-              "name": "killstreak_massacre_strengthpercent",
+              "name": "gluttony",
               "weight": 3
             }
           ],
@@ -437,15 +433,15 @@
           "priority_aspects": [],
           "priority_affixes": [
             {
-              "name": "corestat_strength",
+              "name": "the_powerful",
               "weight": 10
             },
             {
-              "name": "life",
+              "name": "vigor",
               "weight": 8
             },
             {
-              "name": "armor",
+              "name": "toughened",
               "weight": 6
             },
             {
@@ -453,7 +449,7 @@
               "weight": 4
             },
             {
-              "name": "killstreak_massacre_strengthpercent",
+              "name": "gluttony",
               "weight": 3
             }
           ],
@@ -465,19 +461,19 @@
           "priority_aspects": [],
           "priority_affixes": [
             {
-              "name": "movement_speed",
+              "name": "speed",
               "weight": 10
             },
             {
-              "name": "corestat_strength",
+              "name": "the_powerful",
               "weight": 8
             },
             {
-              "name": "life",
+              "name": "vigor",
               "weight": 6
             },
             {
-              "name": "armor",
+              "name": "toughened",
               "weight": 4
             },
             {
@@ -485,7 +481,7 @@
               "weight": 3
             },
             {
-              "name": "killstreak_massacre_strengthpercent",
+              "name": "gluttony",
               "weight": 3
             }
           ],
@@ -494,48 +490,48 @@
         "ring": {
           "slot": "ring",
           "priority_uniques": [
-            "Ring_Unique_Paladin_001"
+            "Argent Veil"
           ],
           "priority_aspects": [],
           "priority_affixes": [
             {
-              "name": "skillrankbonus_generic_category_core",
+              "name": "principals",
               "weight": 10
             },
             {
-              "name": "corestat_strength",
+              "name": "the_powerful",
               "weight": 8
             },
             {
-              "name": "life",
+              "name": "vigor",
               "weight": 6
             },
             {
-              "name": "damage_to_vulnerable",
+              "name": "cruelty",
               "weight": 4
             },
             {
-              "name": "killstreak_hunger_hungeritems",
+              "name": "tenderize",
               "weight": 3
             },
             {
-              "name": "critchancejewelry",
+              "name": "the_adept",
               "weight": 10
             },
             {
-              "name": "attackspeed",
+              "name": "keenness",
               "weight": 6
             },
             {
-              "name": "cooldownreductioncdr",
+              "name": "swiftness",
               "weight": 4
             },
             {
-              "name": "lucky_hit_vulnerable",
+              "name": "riving",
               "weight": 3
             },
             {
-              "name": "critdamage",
+              "name": "the_focused",
               "weight": 3
             },
             {
@@ -551,43 +547,43 @@
           "priority_aspects": [],
           "priority_affixes": [
             {
-              "name": "passiverankbonus_paladin_talent_valor_06",
+              "name": "offense",
               "weight": 10
             },
             {
-              "name": "passiverankbonus_paladin_talent_justice_13",
+              "name": "heartiness",
               "weight": 8
             },
             {
-              "name": "passiverankbonus_paladin_talent_core_2",
+              "name": "discipline",
               "weight": 6
             },
             {
-              "name": "cooldownreductioncdr",
+              "name": "swiftness",
               "weight": 4
             },
             {
-              "name": "passiverankbonus_paladin_talent_justice_05",
+              "name": "righteousness",
               "weight": 3
             },
             {
-              "name": "passiverankbonus_paladin_talent_justice_01",
+              "name": "cracking",
               "weight": 3
             },
             {
-              "name": "passiverankbonus_paladin_talent_justice_09",
+              "name": "dizziness",
               "weight": 3
             },
             {
-              "name": "corestat_strength_greater",
+              "name": "the_powerful",
               "weight": 3
             },
             {
-              "name": "life",
+              "name": "vigor",
               "weight": 3
             },
             {
-              "name": "killstreak_hunger_hungeritems",
+              "name": "tenderize",
               "weight": 3
             }
           ],
@@ -601,12 +597,12 @@
         "helm": {
           "slot": "helm",
           "priority_uniques": [
-            "Helm_Unique_Generic_004"
+            "Heir of Perdition"
           ],
           "priority_aspects": [],
           "priority_affixes": [
             {
-              "name": "killstreak_massacre_strengthpercent",
+              "name": "gluttony",
               "weight": 3
             }
           ],
@@ -615,13 +611,13 @@
         "chest": {
           "slot": "chest",
           "priority_uniques": [
-            "Chest_Unique_Generic_103",
-            "1HShield_Unique_Paladin_003"
+            "Shroud of False Death",
+            "Ward of the White Dove"
           ],
           "priority_aspects": [],
           "priority_affixes": [
             {
-              "name": "killstreak_massacre_strengthpercent",
+              "name": "gluttony",
               "weight": 3
             },
             {
@@ -629,19 +625,15 @@
               "weight": 8
             },
             {
-              "name": "x2_skillrankbonus_paladin_core_blessedshield",
+              "name": "shieldthrowing",
               "weight": 6
             },
             {
-              "name": "life",
+              "name": "vigor",
               "weight": 4
             },
             {
-              "name": "armor",
-              "weight": 3
-            },
-            {
-              "name": "killstreak_massacre_maxlife",
+              "name": "toughened",
               "weight": 3
             }
           ],
@@ -650,7 +642,7 @@
         "weapon": {
           "slot": "weapon",
           "priority_uniques": [
-            "1HSword_Unique_Paladin_002"
+            "Griswold's Opus"
           ],
           "priority_aspects": [],
           "priority_affixes": [
@@ -663,15 +655,15 @@
               "weight": 8
             },
             {
-              "name": "corestat_strength",
+              "name": "the_powerful",
               "weight": 6
             },
             {
-              "name": "life",
+              "name": "vigor",
               "weight": 4
             },
             {
-              "name": "killstreak_feast_rampage",
+              "name": "tenderize",
               "weight": 3
             }
           ],
@@ -683,39 +675,39 @@
           "priority_aspects": [],
           "priority_affixes": [
             {
-              "name": "lucky_hit_vulnerable",
+              "name": "riving",
               "weight": 10
             },
             {
-              "name": "x2_skillrankbonus_paladin_core_blessedshield",
+              "name": "shieldthrowing",
               "weight": 8
             },
             {
-              "name": "corestat_strength",
+              "name": "the_powerful",
               "weight": 6
             },
             {
-              "name": "cooldownreductioncdr",
+              "name": "swiftness",
               "weight": 4
             },
             {
-              "name": "critchance",
+              "name": "the_adept",
               "weight": 3
             },
             {
-              "name": "life",
+              "name": "vigor",
               "weight": 3
             },
             {
-              "name": "armor",
+              "name": "toughened",
               "weight": 3
             },
             {
-              "name": "attackspeed",
+              "name": "keenness",
               "weight": 3
             },
             {
-              "name": "damage_to_vulnerable",
+              "name": "cruelty",
               "weight": 3
             },
             {
@@ -723,7 +715,7 @@
               "weight": 3
             },
             {
-              "name": "killstreak_massacre_strengthpercent",
+              "name": "gluttony",
               "weight": 3
             }
           ],
@@ -735,15 +727,15 @@
           "priority_aspects": [],
           "priority_affixes": [
             {
-              "name": "corestat_strength",
+              "name": "the_powerful",
               "weight": 10
             },
             {
-              "name": "life",
+              "name": "vigor",
               "weight": 8
             },
             {
-              "name": "armor",
+              "name": "toughened",
               "weight": 6
             },
             {
@@ -751,7 +743,7 @@
               "weight": 4
             },
             {
-              "name": "killstreak_massacre_strengthpercent",
+              "name": "gluttony",
               "weight": 3
             }
           ],
@@ -763,19 +755,19 @@
           "priority_aspects": [],
           "priority_affixes": [
             {
-              "name": "movement_speed",
+              "name": "speed",
               "weight": 10
             },
             {
-              "name": "corestat_strength",
+              "name": "the_powerful",
               "weight": 8
             },
             {
-              "name": "life",
+              "name": "vigor",
               "weight": 6
             },
             {
-              "name": "armor",
+              "name": "toughened",
               "weight": 4
             },
             {
@@ -783,7 +775,7 @@
               "weight": 3
             },
             {
-              "name": "killstreak_massacre_strengthpercent",
+              "name": "gluttony",
               "weight": 3
             }
           ],
@@ -792,29 +784,29 @@
         "ring": {
           "slot": "ring",
           "priority_uniques": [
-            "Ring_Unique_Paladin_001",
-            "Ring_Unique_Generic_101"
+            "Argent Veil",
+            "Ring of Starless Skies"
           ],
           "priority_aspects": [],
           "priority_affixes": [
             {
-              "name": "skillrankbonus_generic_category_core",
+              "name": "principals",
               "weight": 10
             },
             {
-              "name": "corestat_strength",
+              "name": "the_powerful",
               "weight": 8
             },
             {
-              "name": "life",
+              "name": "vigor",
               "weight": 6
             },
             {
-              "name": "damage_to_vulnerable",
+              "name": "cruelty",
               "weight": 4
             },
             {
-              "name": "killstreak_hunger_hungeritems",
+              "name": "tenderize",
               "weight": 3
             }
           ],
@@ -826,43 +818,43 @@
           "priority_aspects": [],
           "priority_affixes": [
             {
-              "name": "passiverankbonus_paladin_talent_valor_06",
+              "name": "offense",
               "weight": 10
             },
             {
-              "name": "passiverankbonus_paladin_talent_justice_13",
+              "name": "heartiness",
               "weight": 8
             },
             {
-              "name": "passiverankbonus_paladin_talent_core_2",
+              "name": "discipline",
               "weight": 6
             },
             {
-              "name": "cooldownreductioncdr",
+              "name": "swiftness",
               "weight": 4
             },
             {
-              "name": "passiverankbonus_paladin_talent_justice_05",
+              "name": "righteousness",
               "weight": 3
             },
             {
-              "name": "passiverankbonus_paladin_talent_justice_01",
+              "name": "cracking",
               "weight": 3
             },
             {
-              "name": "passiverankbonus_paladin_talent_justice_09",
+              "name": "dizziness",
               "weight": 3
             },
             {
-              "name": "corestat_strength_greater",
+              "name": "the_powerful",
               "weight": 3
             },
             {
-              "name": "life",
+              "name": "vigor",
               "weight": 3
             },
             {
-              "name": "killstreak_hunger_hungeritems",
+              "name": "tenderize",
               "weight": 3
             }
           ],

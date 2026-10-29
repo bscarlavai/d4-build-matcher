@@ -6,7 +6,7 @@
   "source_url": "https://maxroll.gg/d4/build-guides/divine-javelin-paladin-guide",
   "tier": "Z",
   "tags": [],
-  "last_updated": "2026-10-28",
+  "last_updated": "2026-10-29",
   "profile_order": [
     "starter",
     "ancestral",
@@ -24,23 +24,23 @@
           "priority_aspects": [],
           "priority_affixes": [
             {
-              "name": "cooldownreductioncdr",
+              "name": "swiftness",
               "weight": 10
             },
             {
-              "name": "resource_per_second_faith",
+              "name": "infusing",
               "weight": 8
             },
             {
-              "name": "corestat_strength",
+              "name": "the_powerful",
               "weight": 6
             },
             {
-              "name": "life",
+              "name": "vigor",
               "weight": 4
             },
             {
-              "name": "killstreak_massacre_cooldownreduction",
+              "name": "seethe",
               "weight": 3
             }
           ],
@@ -52,35 +52,35 @@
           "priority_aspects": [],
           "priority_affixes": [
             {
-              "name": "healingpercent",
+              "name": "remedies",
               "weight": 10
             },
             {
-              "name": "resource_per_second_faith",
+              "name": "infusing",
               "weight": 8
             },
             {
-              "name": "corestat_strength",
+              "name": "the_powerful",
               "weight": 6
             },
             {
-              "name": "life",
+              "name": "vigor",
               "weight": 4
             },
             {
-              "name": "killstreak_massacre_resourcecostreduction",
+              "name": "revel",
               "weight": 3
             },
             {
-              "name": "damagereduction",
+              "name": "sturdiness",
               "weight": 10
             },
             {
-              "name": "critchance",
+              "name": "the_adept",
               "weight": 8
             },
             {
-              "name": "killstreak_massacre_strengthpercent",
+              "name": "gluttony",
               "weight": 3
             }
           ],
@@ -92,23 +92,23 @@
           "priority_aspects": [],
           "priority_affixes": [
             {
-              "name": "corestat_strength",
+              "name": "the_powerful",
               "weight": 10
             },
             {
-              "name": "life",
+              "name": "vigor",
               "weight": 8
             },
             {
-              "name": "lucky_hit_vulnerable",
+              "name": "riving",
               "weight": 6
             },
             {
-              "name": "lifeperhit",
+              "name": "carnage",
               "weight": 4
             },
             {
-              "name": "killstreak_feast_rampage",
+              "name": "tenderize",
               "weight": 3
             }
           ],
@@ -120,23 +120,23 @@
           "priority_aspects": [],
           "priority_affixes": [
             {
-              "name": "x2_skillrankbonus_paladin_core_divinelance",
+              "name": "the_divine_lance",
               "weight": 10
             },
             {
-              "name": "cooldownreductioncdr",
+              "name": "swiftness",
               "weight": 8
             },
             {
-              "name": "attackspeed",
+              "name": "keenness",
               "weight": 6
             },
             {
-              "name": "critchance",
+              "name": "the_adept",
               "weight": 4
             },
             {
-              "name": "killstreak_massacre_criticalstrikechance",
+              "name": "anatomy",
               "weight": 3
             }
           ],
@@ -148,23 +148,23 @@
           "priority_aspects": [],
           "priority_affixes": [
             {
-              "name": "resource_per_second_faith",
+              "name": "infusing",
               "weight": 10
             },
             {
-              "name": "corestat_strength",
+              "name": "the_powerful",
               "weight": 8
             },
             {
-              "name": "life",
+              "name": "vigor",
               "weight": 6
             },
             {
-              "name": "liferegen_lesser",
+              "name": "regeneration",
               "weight": 4
             },
             {
-              "name": "killstreak_massacre_criticalstrikechance",
+              "name": "anatomy",
               "weight": 3
             }
           ],
@@ -176,19 +176,19 @@
           "priority_aspects": [],
           "priority_affixes": [
             {
-              "name": "resource_per_second_faith",
+              "name": "infusing",
               "weight": 10
             },
             {
-              "name": "corestat_strength",
+              "name": "the_powerful",
               "weight": 8
             },
             {
-              "name": "life",
+              "name": "vigor",
               "weight": 6
             },
             {
-              "name": "armor",
+              "name": "toughened",
               "weight": 4
             }
           ],
@@ -200,27 +200,27 @@
           "priority_aspects": [],
           "priority_affixes": [
             {
-              "name": "attackspeed",
+              "name": "keenness",
               "weight": 10
             },
             {
-              "name": "cooldownreductioncdr",
+              "name": "swiftness",
               "weight": 8
             },
             {
-              "name": "critchancejewelry",
+              "name": "the_adept",
               "weight": 6
             },
             {
-              "name": "life",
+              "name": "vigor",
               "weight": 4
             },
             {
-              "name": "killstreak_hunger_hungeritems",
+              "name": "tenderize",
               "weight": 3
             },
             {
-              "name": "lifeperhit",
+              "name": "carnage",
               "weight": 8
             }
           ],
@@ -232,51 +232,51 @@
           "priority_aspects": [],
           "priority_affixes": [
             {
-              "name": "attackspeed",
+              "name": "keenness",
               "weight": 10
             },
             {
-              "name": "critchance",
+              "name": "the_adept",
               "weight": 8
             },
             {
-              "name": "passiverankbonus_paladin_talent_core_2",
+              "name": "discipline",
               "weight": 6
             },
             {
-              "name": "passiverankbonus_paladin_talent_justice_05",
+              "name": "righteousness",
               "weight": 4
             },
             {
-              "name": "passiverankbonus_paladin_talent_justice_10",
+              "name": "iron",
               "weight": 3
             },
             {
-              "name": "passiverankbonus_paladin_talent_justice_13",
+              "name": "heartiness",
               "weight": 3
             },
             {
-              "name": "passiverankbonus_paladin_talent_valor_06",
+              "name": "offense",
               "weight": 3
             },
             {
-              "name": "passiverankbonus_paladin_talent_justice_01",
+              "name": "cracking",
               "weight": 3
             },
             {
-              "name": "passiverankbonus_paladin_talent_valor_11",
+              "name": "fortitude",
               "weight": 3
             },
             {
-              "name": "passiverankbonus_paladin_talent_defense_2",
+              "name": "riposting",
               "weight": 3
             },
             {
-              "name": "cooldownreductioncdr",
+              "name": "swiftness",
               "weight": 3
             },
             {
-              "name": "killstreak_hunger_hungeritems",
+              "name": "tenderize",
               "weight": 3
             }
           ],
@@ -290,20 +290,20 @@
         "helm": {
           "slot": "helm",
           "priority_uniques": [
-            "Helm_Unique_Generic_003"
+            "Godslayer Crown"
           ],
           "priority_aspects": [],
           "priority_affixes": [
             {
-              "name": "cooldownreductioncdr",
+              "name": "swiftness",
               "weight": 8
             },
             {
-              "name": "life",
+              "name": "vigor",
               "weight": 6
             },
             {
-              "name": "corestats_all",
+              "name": "harmony",
               "weight": 4
             },
             {
@@ -311,7 +311,7 @@
               "weight": 3
             },
             {
-              "name": "killstreak_massacre_strengthpercent",
+              "name": "gluttony",
               "weight": 3
             }
           ],
@@ -323,31 +323,31 @@
           "priority_aspects": [],
           "priority_affixes": [
             {
-              "name": "healingpercent",
+              "name": "remedies",
               "weight": 10
             },
             {
-              "name": "resource_per_second_faith",
+              "name": "infusing",
               "weight": 8
             },
             {
-              "name": "corestat_strength",
+              "name": "the_powerful",
               "weight": 6
             },
             {
-              "name": "life",
+              "name": "vigor",
               "weight": 4
             },
             {
-              "name": "killstreak_massacre_strengthpercent",
+              "name": "gluttony",
               "weight": 3
             },
             {
-              "name": "damagereduction",
+              "name": "sturdiness",
               "weight": 10
             },
             {
-              "name": "critchance",
+              "name": "the_adept",
               "weight": 8
             }
           ],
@@ -356,7 +356,7 @@
         "weapon": {
           "slot": "weapon",
           "priority_uniques": [
-            "1HSword_Unique_Paladin_002"
+            "Griswold's Opus"
           ],
           "priority_aspects": [],
           "priority_affixes": [
@@ -369,15 +369,15 @@
               "weight": 6
             },
             {
-              "name": "life",
+              "name": "vigor",
               "weight": 4
             },
             {
-              "name": "corestat_strength",
+              "name": "the_powerful",
               "weight": 3
             },
             {
-              "name": "killstreak_feast_rampage",
+              "name": "tenderize",
               "weight": 3
             }
           ],
@@ -389,23 +389,23 @@
           "priority_aspects": [],
           "priority_affixes": [
             {
-              "name": "x2_skillrankbonus_paladin_core_divinelance",
+              "name": "the_divine_lance",
               "weight": 10
             },
             {
-              "name": "cooldownreductioncdr",
+              "name": "swiftness",
               "weight": 8
             },
             {
-              "name": "critchance",
+              "name": "the_adept",
               "weight": 6
             },
             {
-              "name": "attackspeed",
+              "name": "keenness",
               "weight": 4
             },
             {
-              "name": "killstreak_massacre_strengthpercent",
+              "name": "gluttony",
               "weight": 3
             }
           ],
@@ -417,23 +417,23 @@
           "priority_aspects": [],
           "priority_affixes": [
             {
-              "name": "resource_per_second_faith",
+              "name": "infusing",
               "weight": 10
             },
             {
-              "name": "corestat_strength",
+              "name": "the_powerful",
               "weight": 8
             },
             {
-              "name": "life",
+              "name": "vigor",
               "weight": 6
             },
             {
-              "name": "liferegen_lesser",
+              "name": "regeneration",
               "weight": 4
             },
             {
-              "name": "killstreak_massacre_strengthpercent",
+              "name": "gluttony",
               "weight": 3
             }
           ],
@@ -445,23 +445,23 @@
           "priority_aspects": [],
           "priority_affixes": [
             {
-              "name": "resource_per_second_faith",
+              "name": "infusing",
               "weight": 10
             },
             {
-              "name": "corestat_strength",
+              "name": "the_powerful",
               "weight": 8
             },
             {
-              "name": "life",
+              "name": "vigor",
               "weight": 6
             },
             {
-              "name": "liferegen_lesser",
+              "name": "regeneration",
               "weight": 4
             },
             {
-              "name": "killstreak_massacre_strengthpercent",
+              "name": "gluttony",
               "weight": 3
             }
           ],
@@ -473,31 +473,31 @@
           "priority_aspects": [],
           "priority_affixes": [
             {
-              "name": "attackspeed",
+              "name": "keenness",
               "weight": 10
             },
             {
-              "name": "corestat_strength",
+              "name": "the_powerful",
               "weight": 8
             },
             {
-              "name": "cooldownreductioncdr",
+              "name": "swiftness",
               "weight": 6
             },
             {
-              "name": "life",
+              "name": "vigor",
               "weight": 4
             },
             {
-              "name": "killstreak_hunger_hungeritems",
+              "name": "tenderize",
               "weight": 3
             },
             {
-              "name": "lifeperhit",
+              "name": "carnage",
               "weight": 8
             },
             {
-              "name": "critchancejewelry",
+              "name": "the_adept",
               "weight": 6
             }
           ],
@@ -509,51 +509,51 @@
           "priority_aspects": [],
           "priority_affixes": [
             {
-              "name": "attackspeed",
+              "name": "keenness",
               "weight": 10
             },
             {
-              "name": "critchance",
+              "name": "the_adept",
               "weight": 8
             },
             {
-              "name": "passiverankbonus_paladin_talent_core_2",
+              "name": "discipline",
               "weight": 6
             },
             {
-              "name": "passiverankbonus_paladin_talent_justice_05",
+              "name": "righteousness",
               "weight": 4
             },
             {
-              "name": "passiverankbonus_paladin_talent_justice_10",
+              "name": "iron",
               "weight": 3
             },
             {
-              "name": "passiverankbonus_paladin_talent_justice_13",
+              "name": "heartiness",
               "weight": 3
             },
             {
-              "name": "passiverankbonus_paladin_talent_valor_06",
+              "name": "offense",
               "weight": 3
             },
             {
-              "name": "passiverankbonus_paladin_talent_justice_01",
+              "name": "cracking",
               "weight": 3
             },
             {
-              "name": "passiverankbonus_paladin_talent_valor_11",
+              "name": "fortitude",
               "weight": 3
             },
             {
-              "name": "passiverankbonus_paladin_talent_defense_2",
+              "name": "riposting",
               "weight": 3
             },
             {
-              "name": "cooldownreductioncdr",
+              "name": "swiftness",
               "weight": 3
             },
             {
-              "name": "killstreak_hunger_hungeritems",
+              "name": "tenderize",
               "weight": 3
             }
           ],
@@ -567,12 +567,12 @@
         "helm": {
           "slot": "helm",
           "priority_uniques": [
-            "Helm_Unique_Generic_004"
+            "Heir of Perdition"
           ],
           "priority_aspects": [],
           "priority_affixes": [
             {
-              "name": "killstreak_massacre_strengthpercent",
+              "name": "gluttony",
               "weight": 3
             }
           ],
@@ -581,28 +581,28 @@
         "chest": {
           "slot": "chest",
           "priority_uniques": [
-            "Chest_Unique_Generic_103"
+            "Shroud of False Death"
           ],
           "priority_aspects": [],
           "priority_affixes": [
             {
-              "name": "killstreak_massacre_strengthpercent",
+              "name": "gluttony",
               "weight": 3
             },
             {
-              "name": "damagereduction",
+              "name": "sturdiness",
               "weight": 10
             },
             {
-              "name": "critchance",
+              "name": "the_adept",
               "weight": 8
             },
             {
-              "name": "corestat_strength",
+              "name": "the_powerful",
               "weight": 6
             },
             {
-              "name": "life",
+              "name": "vigor",
               "weight": 4
             }
           ],
@@ -611,7 +611,7 @@
         "weapon": {
           "slot": "weapon",
           "priority_uniques": [
-            "1HSword_Unique_Paladin_002"
+            "Griswold's Opus"
           ],
           "priority_aspects": [],
           "priority_affixes": [
@@ -624,15 +624,15 @@
               "weight": 6
             },
             {
-              "name": "life",
+              "name": "vigor",
               "weight": 4
             },
             {
-              "name": "corestat_strength",
+              "name": "the_powerful",
               "weight": 3
             },
             {
-              "name": "killstreak_feast_rampage",
+              "name": "tenderize",
               "weight": 3
             }
           ],
@@ -644,23 +644,23 @@
           "priority_aspects": [],
           "priority_affixes": [
             {
-              "name": "x2_skillrankbonus_paladin_core_divinelance",
+              "name": "the_divine_lance",
               "weight": 10
             },
             {
-              "name": "cooldownreductioncdr",
+              "name": "swiftness",
               "weight": 8
             },
             {
-              "name": "corestat_strength",
+              "name": "the_powerful",
               "weight": 6
             },
             {
-              "name": "attackspeed",
+              "name": "keenness",
               "weight": 4
             },
             {
-              "name": "killstreak_massacre_strengthpercent",
+              "name": "gluttony",
               "weight": 3
             }
           ],
@@ -672,23 +672,23 @@
           "priority_aspects": [],
           "priority_affixes": [
             {
-              "name": "resource_per_second_faith",
+              "name": "infusing",
               "weight": 10
             },
             {
-              "name": "corestat_strength",
+              "name": "the_powerful",
               "weight": 8
             },
             {
-              "name": "life",
+              "name": "vigor",
               "weight": 6
             },
             {
-              "name": "liferegen_lesser",
+              "name": "regeneration",
               "weight": 4
             },
             {
-              "name": "killstreak_massacre_strengthpercent",
+              "name": "gluttony",
               "weight": 3
             }
           ],
@@ -700,23 +700,23 @@
           "priority_aspects": [],
           "priority_affixes": [
             {
-              "name": "resource_per_second_faith",
+              "name": "infusing",
               "weight": 10
             },
             {
-              "name": "corestat_strength",
+              "name": "the_powerful",
               "weight": 8
             },
             {
-              "name": "life",
+              "name": "vigor",
               "weight": 6
             },
             {
-              "name": "liferegen_lesser",
+              "name": "regeneration",
               "weight": 4
             },
             {
-              "name": "killstreak_massacre_strengthpercent",
+              "name": "gluttony",
               "weight": 3
             }
           ],
@@ -725,28 +725,28 @@
         "ring": {
           "slot": "ring",
           "priority_uniques": [
-            "Ring_Unique_Generic_101"
+            "Ring of Starless Skies"
           ],
           "priority_aspects": [],
           "priority_affixes": [
             {
-              "name": "killstreak_hunger_hungeritems",
+              "name": "tenderize",
               "weight": 3
             },
             {
-              "name": "cooldownreductioncdr",
+              "name": "swiftness",
               "weight": 10
             },
             {
-              "name": "lifeperhit",
+              "name": "carnage",
               "weight": 8
             },
             {
-              "name": "corestat_strength",
+              "name": "the_powerful",
               "weight": 6
             },
             {
-              "name": "attackspeed",
+              "name": "keenness",
               "weight": 4
             }
           ],
@@ -758,51 +758,51 @@
           "priority_aspects": [],
           "priority_affixes": [
             {
-              "name": "passiverankbonus_paladin_talent_core_2",
+              "name": "discipline",
               "weight": 10
             },
             {
-              "name": "passiverankbonus_paladin_talent_justice_05",
+              "name": "righteousness",
               "weight": 8
             },
             {
-              "name": "passiverankbonus_paladin_talent_justice_10",
+              "name": "iron",
               "weight": 6
             },
             {
-              "name": "attackspeed",
+              "name": "keenness",
               "weight": 4
             },
             {
-              "name": "passiverankbonus_paladin_talent_justice_13",
+              "name": "heartiness",
               "weight": 3
             },
             {
-              "name": "passiverankbonus_paladin_talent_valor_06",
+              "name": "offense",
               "weight": 3
             },
             {
-              "name": "passiverankbonus_paladin_talent_justice_01",
+              "name": "cracking",
               "weight": 3
             },
             {
-              "name": "passiverankbonus_paladin_talent_valor_11",
+              "name": "fortitude",
               "weight": 3
             },
             {
-              "name": "passiverankbonus_paladin_talent_defense_2",
+              "name": "riposting",
               "weight": 3
             },
             {
-              "name": "cooldownreductioncdr",
+              "name": "swiftness",
               "weight": 3
             },
             {
-              "name": "critchance",
+              "name": "the_adept",
               "weight": 3
             },
             {
-              "name": "killstreak_hunger_hungeritems",
+              "name": "tenderize",
               "weight": 3
             }
           ],
@@ -816,12 +816,12 @@
         "helm": {
           "slot": "helm",
           "priority_uniques": [
-            "Helm_Unique_Generic_004"
+            "Heir of Perdition"
           ],
           "priority_aspects": [],
           "priority_affixes": [
             {
-              "name": "killstreak_massacre_strengthpercent",
+              "name": "gluttony",
               "weight": 3
             }
           ],
@@ -830,28 +830,28 @@
         "chest": {
           "slot": "chest",
           "priority_uniques": [
-            "Chest_Unique_Generic_103"
+            "Shroud of False Death"
           ],
           "priority_aspects": [],
           "priority_affixes": [
             {
-              "name": "killstreak_massacre_strengthpercent",
+              "name": "gluttony",
               "weight": 3
             },
             {
-              "name": "damagereduction",
+              "name": "sturdiness",
               "weight": 10
             },
             {
-              "name": "critchance",
+              "name": "the_adept",
               "weight": 8
             },
             {
-              "name": "corestat_strength",
+              "name": "the_powerful",
               "weight": 6
             },
             {
-              "name": "life",
+              "name": "vigor",
               "weight": 4
             }
           ],
@@ -860,7 +860,7 @@
         "weapon": {
           "slot": "weapon",
           "priority_uniques": [
-            "1HSword_Unique_Paladin_002"
+            "Griswold's Opus"
           ],
           "priority_aspects": [],
           "priority_affixes": [
@@ -873,15 +873,15 @@
               "weight": 6
             },
             {
-              "name": "life",
+              "name": "vigor",
               "weight": 4
             },
             {
-              "name": "corestat_strength",
+              "name": "the_powerful",
               "weight": 3
             },
             {
-              "name": "killstreak_feast_rampage",
+              "name": "tenderize",
               "weight": 3
             }
           ],
@@ -893,23 +893,23 @@
           "priority_aspects": [],
           "priority_affixes": [
             {
-              "name": "x2_skillrankbonus_paladin_core_divinelance",
+              "name": "the_divine_lance",
               "weight": 10
             },
             {
-              "name": "cooldownreductioncdr",
+              "name": "swiftness",
               "weight": 8
             },
             {
-              "name": "corestat_strength",
+              "name": "the_powerful",
               "weight": 6
             },
             {
-              "name": "attackspeed",
+              "name": "keenness",
               "weight": 4
             },
             {
-              "name": "killstreak_massacre_strengthpercent",
+              "name": "gluttony",
               "weight": 3
             }
           ],
@@ -921,23 +921,23 @@
           "priority_aspects": [],
           "priority_affixes": [
             {
-              "name": "potioncharges",
+              "name": "carrying",
               "weight": 10
             },
             {
-              "name": "resource_per_second_faith",
+              "name": "infusing",
               "weight": 8
             },
             {
-              "name": "corestat_strength",
+              "name": "the_powerful",
               "weight": 6
             },
             {
-              "name": "life",
+              "name": "vigor",
               "weight": 4
             },
             {
-              "name": "killstreak_massacre_strengthpercent",
+              "name": "gluttony",
               "weight": 3
             }
           ],
@@ -949,23 +949,23 @@
           "priority_aspects": [],
           "priority_affixes": [
             {
-              "name": "resource_per_second_faith",
+              "name": "infusing",
               "weight": 10
             },
             {
-              "name": "corestat_strength",
+              "name": "the_powerful",
               "weight": 8
             },
             {
-              "name": "life",
+              "name": "vigor",
               "weight": 6
             },
             {
-              "name": "liferegen_lesser",
+              "name": "regeneration",
               "weight": 4
             },
             {
-              "name": "killstreak_massacre_strengthpercent",
+              "name": "gluttony",
               "weight": 3
             }
           ],
@@ -974,28 +974,28 @@
         "ring": {
           "slot": "ring",
           "priority_uniques": [
-            "Ring_Unique_Generic_101"
+            "Ring of Starless Skies"
           ],
           "priority_aspects": [],
           "priority_affixes": [
             {
-              "name": "killstreak_hunger_hungeritems",
+              "name": "tenderize",
               "weight": 3
             },
             {
-              "name": "cooldownreductioncdr",
+              "name": "swiftness",
               "weight": 10
             },
             {
-              "name": "lifeperhit",
+              "name": "carnage",
               "weight": 8
             },
             {
-              "name": "corestat_strength",
+              "name": "the_powerful",
               "weight": 6
             },
             {
-              "name": "attackspeed",
+              "name": "keenness",
               "weight": 4
             }
           ],
@@ -1007,51 +1007,51 @@
           "priority_aspects": [],
           "priority_affixes": [
             {
-              "name": "passiverankbonus_paladin_talent_core_2",
+              "name": "discipline",
               "weight": 10
             },
             {
-              "name": "passiverankbonus_paladin_talent_justice_05",
+              "name": "righteousness",
               "weight": 8
             },
             {
-              "name": "passiverankbonus_paladin_talent_justice_10",
+              "name": "iron",
               "weight": 6
             },
             {
-              "name": "attackspeed",
+              "name": "keenness",
               "weight": 4
             },
             {
-              "name": "passiverankbonus_paladin_talent_justice_13",
+              "name": "heartiness",
               "weight": 3
             },
             {
-              "name": "passiverankbonus_paladin_talent_valor_06",
+              "name": "offense",
               "weight": 3
             },
             {
-              "name": "passiverankbonus_paladin_talent_justice_01",
+              "name": "cracking",
               "weight": 3
             },
             {
-              "name": "passiverankbonus_paladin_talent_valor_11",
+              "name": "fortitude",
               "weight": 3
             },
             {
-              "name": "passiverankbonus_paladin_talent_defense_2",
+              "name": "riposting",
               "weight": 3
             },
             {
-              "name": "cooldownreductioncdr",
+              "name": "swiftness",
               "weight": 3
             },
             {
-              "name": "critchance",
+              "name": "the_adept",
               "weight": 3
             },
             {
-              "name": "killstreak_hunger_hungeritems",
+              "name": "tenderize",
               "weight": 3
             }
           ],
@@ -1065,20 +1065,20 @@
         "helm": {
           "slot": "helm",
           "priority_uniques": [
-            "Helm_Unique_Generic_003"
+            "Godslayer Crown"
           ],
           "priority_aspects": [],
           "priority_affixes": [
             {
-              "name": "cooldownreductioncdr",
+              "name": "swiftness",
               "weight": 8
             },
             {
-              "name": "life",
+              "name": "vigor",
               "weight": 6
             },
             {
-              "name": "corestats_all",
+              "name": "harmony",
               "weight": 4
             },
             {
@@ -1086,7 +1086,7 @@
               "weight": 3
             },
             {
-              "name": "killstreak_massacre_strengthpercent",
+              "name": "gluttony",
               "weight": 3
             }
           ],
@@ -1095,28 +1095,28 @@
         "chest": {
           "slot": "chest",
           "priority_uniques": [
-            "Chest_Unique_Generic_103"
+            "Shroud of False Death"
           ],
           "priority_aspects": [],
           "priority_affixes": [
             {
-              "name": "killstreak_massacre_strengthpercent",
+              "name": "gluttony",
               "weight": 3
             },
             {
-              "name": "damagereduction",
+              "name": "sturdiness",
               "weight": 10
             },
             {
-              "name": "critchance",
+              "name": "the_adept",
               "weight": 8
             },
             {
-              "name": "corestat_strength",
+              "name": "the_powerful",
               "weight": 6
             },
             {
-              "name": "life",
+              "name": "vigor",
               "weight": 4
             }
           ],
@@ -1125,7 +1125,7 @@
         "weapon": {
           "slot": "weapon",
           "priority_uniques": [
-            "1HSword_Unique_Paladin_002"
+            "Griswold's Opus"
           ],
           "priority_aspects": [],
           "priority_affixes": [
@@ -1138,15 +1138,15 @@
               "weight": 6
             },
             {
-              "name": "life",
+              "name": "vigor",
               "weight": 4
             },
             {
-              "name": "corestat_strength",
+              "name": "the_powerful",
               "weight": 3
             },
             {
-              "name": "killstreak_feast_rampage",
+              "name": "tenderize",
               "weight": 3
             }
           ],
@@ -1158,23 +1158,23 @@
           "priority_aspects": [],
           "priority_affixes": [
             {
-              "name": "x2_skillrankbonus_paladin_core_divinelance",
+              "name": "the_divine_lance",
               "weight": 10
             },
             {
-              "name": "cooldownreductioncdr",
+              "name": "swiftness",
               "weight": 8
             },
             {
-              "name": "critchance",
+              "name": "the_adept",
               "weight": 6
             },
             {
-              "name": "attackspeed",
+              "name": "keenness",
               "weight": 4
             },
             {
-              "name": "killstreak_massacre_strengthpercent",
+              "name": "gluttony",
               "weight": 3
             }
           ],
@@ -1186,23 +1186,23 @@
           "priority_aspects": [],
           "priority_affixes": [
             {
-              "name": "resource_per_second_faith",
+              "name": "infusing",
               "weight": 10
             },
             {
-              "name": "corestat_strength",
+              "name": "the_powerful",
               "weight": 8
             },
             {
-              "name": "life",
+              "name": "vigor",
               "weight": 6
             },
             {
-              "name": "liferegen_lesser",
+              "name": "regeneration",
               "weight": 4
             },
             {
-              "name": "killstreak_massacre_strengthpercent",
+              "name": "gluttony",
               "weight": 3
             }
           ],
@@ -1214,23 +1214,23 @@
           "priority_aspects": [],
           "priority_affixes": [
             {
-              "name": "resource_per_second_faith",
+              "name": "infusing",
               "weight": 10
             },
             {
-              "name": "corestat_strength",
+              "name": "the_powerful",
               "weight": 8
             },
             {
-              "name": "life",
+              "name": "vigor",
               "weight": 6
             },
             {
-              "name": "liferegen_lesser",
+              "name": "regeneration",
               "weight": 4
             },
             {
-              "name": "killstreak_massacre_strengthpercent",
+              "name": "gluttony",
               "weight": 3
             }
           ],
@@ -1239,28 +1239,28 @@
         "ring": {
           "slot": "ring",
           "priority_uniques": [
-            "Ring_Unique_Generic_101"
+            "Ring of Starless Skies"
           ],
           "priority_aspects": [],
           "priority_affixes": [
             {
-              "name": "killstreak_hunger_hungeritems",
+              "name": "tenderize",
               "weight": 3
             },
             {
-              "name": "cooldownreductioncdr",
+              "name": "swiftness",
               "weight": 10
             },
             {
-              "name": "lifeperhit",
+              "name": "carnage",
               "weight": 8
             },
             {
-              "name": "critchancejewelry",
+              "name": "the_adept",
               "weight": 6
             },
             {
-              "name": "attackspeed",
+              "name": "keenness",
               "weight": 4
             }
           ],
@@ -1272,51 +1272,51 @@
           "priority_aspects": [],
           "priority_affixes": [
             {
-              "name": "critchance",
+              "name": "the_adept",
               "weight": 10
             },
             {
-              "name": "passiverankbonus_paladin_talent_core_2",
+              "name": "discipline",
               "weight": 8
             },
             {
-              "name": "passiverankbonus_paladin_talent_justice_05",
+              "name": "righteousness",
               "weight": 6
             },
             {
-              "name": "passiverankbonus_paladin_talent_justice_10",
+              "name": "iron",
               "weight": 4
             },
             {
-              "name": "attackspeed",
+              "name": "keenness",
               "weight": 3
             },
             {
-              "name": "passiverankbonus_paladin_talent_justice_13",
+              "name": "heartiness",
               "weight": 3
             },
             {
-              "name": "passiverankbonus_paladin_talent_valor_06",
+              "name": "offense",
               "weight": 3
             },
             {
-              "name": "passiverankbonus_paladin_talent_justice_01",
+              "name": "cracking",
               "weight": 3
             },
             {
-              "name": "passiverankbonus_paladin_talent_valor_11",
+              "name": "fortitude",
               "weight": 3
             },
             {
-              "name": "passiverankbonus_paladin_talent_defense_2",
+              "name": "riposting",
               "weight": 3
             },
             {
-              "name": "cooldownreductioncdr",
+              "name": "swiftness",
               "weight": 3
             },
             {
-              "name": "killstreak_hunger_hungeritems",
+              "name": "tenderize",
               "weight": 3
             }
           ],
